@@ -1,0 +1,368 @@
+{
+  "items": [
+    {
+      "id": "mX_q01",
+      "question_text": "¿Cuál es la función estratégica principal que cumple la hipótesis en el núcleo de una investigación científica rigurosa?",
+      "options": [
+        "Establecer juicios de valor sobre el problema a investigar.",
+        "Recopilar datos de manera aleatoria para su posterior análisis.",
+        "Actuar como la brújula que guía todo el proceso de investigación, transformando una pregunta abstracta en una declaración concreta y comprobable."
+      ],
+      "correct_option_index": 2,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Exacto! 🧭 La hipótesis es nuestra brújula científica. Sin ella, estaríamos perdidos en un mar de datos sin rumbo. ¡Buen trabajo identificando al GPS de la investigación!",
+        "incorrect": "Ups, no era esa. 😅 La hipótesis no juzga ni recolecta datos al azar, sino que CONDUCE la investigación. Es como el mapa del tesoro que nos dice dónde excavar. ¡Sigue buscando!"
+      }
+    },
+    {
+      "id": "mX_q02",
+      "question_text": "Una hipótesis se define como una afirmación conjetural sobre la relación entre dos o más variables.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Correcto! 🔮 'Conjetural' es la palabra clave. Una hipótesis es nuestra 'sospecha educada' que luego sometemos a interrogatorio científico. ¡Adivinaste la definición!",
+        "incorrect": "Esta era verdadera. 🤔 Una hipótesis sí es una afirmación conjetural (una suposición fundamentada) sobre relaciones entre variables. ¡Sin conjetura, no hay hipótesis!"
+      }
+    },
+    {
+      "id": "mX_q03",
+      "question_text": "¿Cuál de las siguientes es una función clave de la hipótesis según las fuentes, una vez que cuenta con evidencia empírica?",
+      "options": [
+        "Eliminar completamente los sesgos personales del investigador.",
+        "Adquirir un valor descriptivo y predictivo sobre el comportamiento de las variables.",
+        "Determinar de forma exclusiva el tamaño de la muestra poblacional."
+      ],
+      "correct_option_index": 1,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Bravo! 📊 Cuando una hipótesis se respalda con datos, se convierte en una super-herramienta: describe lo que pasa y predice lo que podría pasar. ¡De conjetura a poder predictivo!",
+        "incorrect": "Casi, pero no exactamente. 💡 Las hipótesis no eliminan sesgos mágicamente ni determinan muestras solas. Su poder está en describir y predecir una vez que tienen evidencia. ¡Sigue intentando!"
+      }
+    },
+    {
+      "id": "mX_q04",
+      "question_text": "Las hipótesis que postulan que una variable independiente provoca un cambio en la variable dependiente se clasifican como:",
+      "options": [
+        "Descriptivas",
+        "Correlacionales",
+        "Causales",
+        "Nulas"
+      ],
+      "correct_option_index": 2,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Directo al clavo! 🎯 CAUSALES - las que nos permiten decir 'A hace que B cambie'. Son las divas de la explicación científica. ¡Identificaste a la que establece causa-efecto!",
+        "incorrect": "Uy, confundiste los tipos. 😅 Cuando decimos que una variable PROVOCA un cambio en otra, estamos en terreno causal. Las otras solo describen o correlacionan. ¡Causal es la reina!"
+      }
+    },
+    {
+      "id": "mX_q05",
+      "question_text": "La hipótesis nula (Ho) es una proposición que niega o refuta la relación entre las variables que la hipótesis de investigación afirma.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Exacto! 🚫 Ho es la 'abogada del diablo' científica. Su trabajo es decir 'nada pasa aquí, es pura coincidencia'. ¡Sin ella, no hay contraste científico serio!",
+        "incorrect": "Esta era verdadera. ⚖️ La hipótesis nula SÍ niega lo que la hipótesis de investigación afirma. Es el 'rival' que tenemos que vencer con datos. ¡Es el ying del yang científico!"
+      }
+    },
+    {
+      "id": "mX_q06",
+      "question_text": "El origen de las hipótesis bien formuladas es el resultado directo de un proceso de investigación profundo y sistemático, fundamentado en una revisión exhaustiva de la literatura.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Así es! 📚 Las buenas hipótesis no nacen por generación espontánea. Son el fruto de leer, analizar y entender lo que otros han investigado antes. ¡Confirmaste que la ciencia se construye sobre hombros de gigantes!",
+        "incorrect": "Esta era verdadera. 🔍 Las hipótesis sólidas SÍ emergen de una revisión sistemática de literatura. No son ocurrencias al azar, sino conjeturas informadas. ¡La ciencia es team work histórico!"
+      }
+    },
+    {
+      "id": "mX_q07",
+      "question_text": "Los estudios de alcance explicativo siempre se basan en la comprobación de hipótesis. ¿Qué tipo de hipótesis utilizan principalmente?",
+      "options": [
+        "Descriptivas",
+        "De diferencia de grupos",
+        "Causales"
+      ],
+      "correct_option_index": 2,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Perfecto! 🔍 Los estudios explicativos buscan el 'por qué', y para eso necesitan hipótesis CAUSALES. No solo quieren describir, quieren explicar mecanismos. ¡Atrapaste la esencia explicativa!",
+        "incorrect": "Casi, pero piensa en el objetivo. 🎯 Los estudios explicativos buscan CAUSAS, no solo describir o comparar grupos. Necesitan hipótesis que digan 'X causa Y'. ¡Esa es la clave!"
+      }
+    },
+    {
+      "id": "mX_q08",
+      "question_text": "¿Cuál de los siguientes tipos de proposiciones *no* es comprobable desde el punto de vista científico?",
+      "options": [
+        "Una relación tentativa entre dos variables observables.",
+        "Una proposición de ingeniería o de valor.",
+        "Una generalización empírica observada en estudios previos."
+      ],
+      "correct_option_index": 1,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Exacto! 🚫 Las proposiciones de valor ('esto es bueno/malo') no son comprobables científicamente. La ciencia estudia lo que ES, no lo que DEBERÍA SER. ¡Separaste ética de ciencia!",
+        "incorrect": "Ups, te equivocaste aquí. 💭 Las proposiciones de valor (lo que 'debería ser') no son comprobables empíricamente. La ciencia se ocupa de lo comprobable, no de juicios morales. ¡Importante distinción!"
+      }
+    },
+    {
+      "id": "mX_q09",
+      "question_text": "Una hipótesis que anticipa el valor o la característica de una sola variable en un contexto específico, sin establecer relaciones, se denomina:",
+      "options": [
+        "Hipótesis Correlacional",
+        "Hipótesis Descriptiva",
+        "Hipótesis de Diferencia de Grupos"
+      ],
+      "correct_option_index": 1,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Correcto! 📝 Hipótesis descriptiva - la que se conforma con decir 'en este lugar, la variable X tendrá este valor'. Sin drama, sin relaciones, solo datos. ¡Identificaste a la hipótesis tranquila!",
+        "incorrect": "No exactamente. 🧐 Cuando una hipótesis solo describe una variable (sin relacionarla con otra), es DESCRIPTIVA. Las otras siempre involucran al menos dos variables. ¡Esta es la más simple!"
+      }
+    },
+    {
+      "id": "mX_q10",
+      "question_text": "Las hipótesis actúan como un puente vital que conecta el mundo abstracto de la teoría con el mundo concreto de la investigación empírica.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Exactamente! 🌉 Las hipótesis son el puente entre la teoría (las ideas) y los datos (la realidad). Sin ellas, las teorías serían castillos en el aire. ¡Confirmaste el rol conectivo!",
+        "incorrect": "Esta era verdadera. 🔗 Las hipótesis SÍ son el puente crucial entre teoría y empiria. Sin este puente, la ciencia sería o muy abstracta o muy superficial. ¡Es la conexión esencial!"
+      }
+    },
+    {
+      "id": "mX_q11",
+      "question_text": "El principio fundamental de la prueba de hipótesis es que la ciencia avanza probando la verdad absoluta de una idea.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 1,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Bravo! 🎯 La ciencia no prueba 'verdades absolutas', sino que acumula evidencia para RECHAZAR hipótesis nulas. Avanzamos por descarte, no por confirmación absoluta. ¡Captaste la esencia popperiana!",
+        "incorrect": "Uy, esta era falsa. 🤓 En ciencia nunca probamos 'verdades absolutas'. Solo reunimos evidencia para rechazar hipótesis nulas. ¡Es más humilde pero más robusto!"
+      }
+    },
+    {
+      "id": "mX_q12",
+      "question_text": "Si un estudio busca medir y describir variables de forma independiente, ¿es necesaria la formulación de hipótesis?",
+      "options": [
+        "Sí, porque toda investigación científica requiere hipótesis.",
+        "No, la formulación es opcional a menos que se busque pronosticar un dato específico.",
+        "Solo si el estudio es de alcance explicativo."
+      ],
+      "correct_option_index": 1,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Exacto! 📊 En estudios puramente descriptivos, las hipótesis son opcionales. Solo son obligatorias cuando queremos predecir o explicar. ¡Distinguiste cuándo son necesarias y cuándo no!",
+        "incorrect": "Casi, pero no siempre. 💡 En investigación descriptiva pura, las hipótesis son OPCIONALES. Solo se necesitan si hacemos pronósticos específicos. ¡No todas las investigaciones las requieren!"
+      }
+    },
+    {
+      "id": "mX_q13",
+      "question_text": "En el proceso científico-estadístico, ¿cuál es el objetivo principal de la prueba de hipótesis?",
+      "options": [
+        "Probar directamente la Hipótesis de Investigación (Hi).",
+        "Reunir evidencia estadística suficiente para rechazar la Hipótesis Nula (Ho).",
+        "Determinar si el estudio es exploratorio o descriptivo."
+      ],
+      "correct_option_index": 1,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Impresionante! 🎯 En estadística, jugamos al 'abogado del diablo': intentamos rechazar Ho. Si lo logramos, indirectamente apoyamos Hi. ¡Es una estrategia indirecta pero poderosa!",
+        "incorrect": "No exactamente. 🧐 En estadística, NUNCA probamos directamente Hi. Intentamos rechazar Ho con evidencia. Si Ho cae, Hi gana por default. ¡Es un juego de negación!"
+      }
+    },
+    {
+      "id": "mX_q14",
+      "question_text": "Las hipótesis correlacionales especifican una relación entre variables, indicando que cuando una varía, la otra también lo hace, lo cual *siempre* implica causalidad.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 1,
+      "difficulty": "dificil",
+      "feedback": {
+        "correct": "¡Excelente! 🚫 Correlación NO implica causalidad. Es el mantra que todo investigador repite como un hechizo protector contra conclusiones apresuradas. ¡No caíste en la trampa clásica!",
+        "incorrect": "¡Uy, esta era la trampa clásica! 😅 CORRELACIÓN NO IMPLICA CAUSALIDAD. Dos variables pueden bailar juntas sin que una lleve a la otra. ¡Es la lección más importante de estadística!"
+      }
+    },
+    {
+      "id": "mX_q15",
+      "question_text": "Una de las fuentes de las que emanan las hipótesis es el análisis detallado de una teoría existente.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Correcto! 📚 Las teorías existentes son como minas de oro para hipótesis. De ellas extraemos predicciones comprobables. ¡Confirmaste que la ciencia se construye sobre conocimientos previos!",
+        "incorrect": "Esta era verdadera. 💎 Las teorías SÍ son fuentes fundamentales de hipótesis. De las grandes teorías emergen pequeñas predicciones comprobables. ¡La ciencia es acumulativa!"
+      }
+    },
+    {
+      "id": "mX_q16",
+      "question_text": "Un problema que establece un juicio moral, como: 'Es malo discriminar minorías', no puede someterse a prueba empírica.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Exacto! ⚖️ Los juicios morales ('debería ser') no son comprobables científicamente. La ciencia estudia lo que ES, no lo que DEBERÍA SER. ¡Separaste ética de empiria!",
+        "incorrect": "Esta era verdadera. 🚫 La ciencia no puede probar juicios de valor. Puede estudiar CONSECUENCIAS de la discriminación, pero no puede decir si es 'mala' objetivamente. ¡Límites importantes!"
+      }
+    },
+    {
+      "id": "mX_q17",
+      "question_text": "La regla de decisión en la prueba de hipótesis es: si el valor p es menor que el nivel de significancia (p < $\\alpha$), se toma la decisión de rechazar la hipótesis nula.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "dificil",
+      "feedback": {
+        "correct": "¡STAT-TASTIC! 📈 p < α → rechazamos Ho. Es la regla de oro de la inferencia estadística. ¡Dominas el momento crucial de la toma de decisiones científicas!",
+        "incorrect": "Uy, esta era verdadera. 🧮 La regla SÍ es: si p es menor que alpha, rechazamos la hipótesis nula. Es la fórmula mágica que convierte datos en decisiones. ¡Memorízala!"
+      }
+    },
+    {
+      "id": "mX_q18",
+      "question_text": "Si no se encontró evidencia estadística suficiente para rechazar la Hipótesis Nula (Ho), la interpretación correcta es que:",
+      "options": [
+        "La hipótesis nula es verdadera y ha sido probada.",
+        "Simplemente no se encontró evidencia estadística suficiente para poder rechazarla en esa muestra particular.",
+        "La hipótesis de investigación (Hi) es necesariamente falsa."
+      ],
+      "correct_option_index": 1,
+      "difficulty": "dificil",
+      "feedback": {
+        "correct": "¡Impresionante! 🤔 'No rechazar' NO es lo mismo que 'aceptar'. Solo significa que en ESTE estudio con ESTA muestra, no hubo poder suficiente. ¡Captaste el matiz más subtle de las pruebas de hipótesis!",
+        "incorrect": "Esta era tricky. 🎭 Cuando no rechazamos Ho, NUNCA decimos que es 'verdadera'. Solo que no encontramos evidencia suficiente para rechazarla en este estudio. ¡La ciencia es humilde!"
+      }
+    },
+    {
+      "id": "mX_q19",
+      "question_text": "Las Hipótesis Alternativas (Ha) son posibilidades diferentes a las planteadas por la Hi y la Ho, y siempre deben formularse en cualquier estudio.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 1,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Correcto! 🎯 Las hipótesis alternativas son OPCIONALES. Solo se necesitan cuando hay explicaciones alternativas plausibles que queremos contrastar. ¡No siempre hay 'tercera en discordia'!",
+        "incorrect": "Esta era falsa. 💡 Las hipótesis alternativas NO son siempre necesarias. Solo se formulan cuando existen explicaciones alternativas específicas que queremos probar. ¡No es obligatoria!"
+      }
+    },
+    {
+      "id": "mX_q20",
+      "question_text": "Para que una hipótesis sea comprobable desde el punto de vista científico, ¿cuál es el criterio fundamental que debe expresar?",
+      "options": [
+        "Debe expresar una relación entre dos o más variables.",
+        "Debe estar escrita en formato de oración interrogativa.",
+        "Debe incluir una afirmación de valor moral o ético."
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Exacto! 🔗 Una hipótesis comprobable SIEMPRE relaciona variables. Sin variables relacionándose, no hay nada que poner a prueba. ¡Identificaste el ingrediente esencial!",
+        "incorrect": "Ups, no era ese el criterio. 🎯 Para ser comprobable, una hipótesis debe relacionar VARIABLES. Sin variables medibles u observables, es pura filosofía. ¡La relación es clave!"
+      }
+    },
+    {
+      "id": "mX_q21",
+      "question_text": "Las hipótesis estadísticas transforman las afirmaciones conceptuales de Hi, Ho y Ha en un formato:",
+      "options": [
+        "Poético",
+        "Analizable mediante procedimientos estadísticos.",
+        "Exclusivamente cualitativo."
+      ],
+      "correct_option_index": 1,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Bravo! 📊 Las hipótesis estadísticas son el 'traductor' que convierte ideas conceptuales en lenguaje matemático. Sin ellas, las computadoras no entenderían nuestras preguntas. ¡Dominas la traducción ciencia-datos!",
+        "incorrect": "No exactamente. 🔢 Las hipótesis estadísticas transforman conceptos en formato ANALIZABLE estadísticamente. Son el puente entre ideas y números. ¡Sin estadísticas, no hay prueba formal!"
+      }
+    },
+    {
+      "id": "mX_q22",
+      "question_text": "En la investigación que busca evaluar el grado de relación entre dos o más variables (alcance correlacional), ¿se requieren hipótesis?",
+      "options": [
+        "No, solo si el estudio es explicativo.",
+        "Sí, estos estudios siempre formulan hipótesis.",
+        "Opcionalmente, solo si la población es muy grande."
+      ],
+      "correct_option_index": 1,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Exacto! 📈 En estudios correlacionales SÍ necesitamos hipótesis. Queremos predecir cómo se relacionan las variables, no solo describirlas. ¡Confirmaste que la correlación exige predicción!",
+        "incorrect": "Esta era 'Sí'. 🎯 Los estudios correlacionales SÍ requieren hipótesis porque están probando relaciones específicas entre variables. ¡No es exploración ciega!"
+      }
+    },
+    {
+      "id": "mX_q23",
+      "question_text": "La frustración produce agresión, es un ejemplo de proposición comprobable porque contiene variables que pueden ser medidas o manipuladas.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Perfecto! 😠→💥 'Frustración' y 'agresión' son variables medibles/operacionalizables. Podemos diseñar experimentos para probar esta relación. ¡Identificaste una hipótesis científica legítima!",
+        "incorrect": "Esta era verdadera. 🔍 'Frustración' y 'agresión' SÍ son variables que podemos medir (ej: tiempo de espera, intensidad de respuestas). Por tanto, la proposición ES comprobable. ¡Todo es medible!"
+      }
+    },
+    {
+      "id": "mX_q24",
+      "question_text": "Si la Hipótesis de Investigación (Hi) es: 'Los jóvenes le atribuyen más importancia al atractivo físico...', ¿cómo se formularía la Hipótesis Nula (Ho) correspondiente?",
+      "options": [
+        "El candidato obtendrá más del 60% de la votación.",
+        "Los jóvenes no le atribuyen más importancia al atractivo físico en sus relaciones heterosexuales que las jóvenes.",
+        "El atractivo físico no tiene relación con las preferencias de citas."
+      ],
+      "correct_option_index": 1,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Excelente! 🚫 Ho debe ser la NEGACIÓN directa de Hi. No una negación genérica, sino la negación específica de lo que Hi afirma. ¡Eres un maestro del contraste hipotético!",
+        "incorrect": "Casi, pero Ho debe negar EXACTAMENTE lo que Hi afirma. 🎯 No una negación general, sino la negación específica de la comparación que Hi plantea. ¡La negación debe ser espejo!"
+      }
+    },
+    {
+      "id": "mX_q25",
+      "question_text": "El formato 'Si p, entonces q' es una manera útil de plantear las hipótesis, donde p y q son construcciones hipotéticas o variables.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "dificil",
+      "feedback": {
+        "correct": "¡Impecable! 🎯 El formato 'Si p, entonces q' es la estructura lógica perfecta para hipótesis. Explicita la relación causal o predictiva de manera cristalina. ¡Dominas la sintaxis de la ciencia!",
+        "incorrect": "Esta era verdadera. 📝 El formato 'Si p, entonces q' SÍ es muy útil porque explicita la relación predictiva entre variables. Es la forma lógica más clara para plantear hipótesis. ¡Estructura poderosa!"
+      }
+    }
+  ]
+}

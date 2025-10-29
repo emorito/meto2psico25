@@ -1,0 +1,365 @@
+{
+  "items": [
+    {
+      "id": "mX_q01",
+      "question_text": "¿Cuál es la lista, mapa o base de datos de la cual se extrae la muestra, y cuya calidad es crucial para evitar problemas de investigación?",
+      "options": [
+        "La Población (o Universo)",
+        "La Muestra",
+        "El Marco Muestral"
+      ],
+      "correct_option_index": 2,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Exacto! 🎯 El Marco Muestral es como la 'guía telefónica' de tu población. Si tu guía está incompleta o desactualizada, vas a terminar llamando a gente que no es. ¡Clave!",
+        "incorrect": "Casi, pero no. La población es *todo* el universo (¡gigante!), y la muestra es *quiénes* elegiste. El marco es la *lista* de la que eliges. Es el mapa del tesoro, ¡necesitas que sea preciso! 🧐"
+      }
+    },
+    {
+      "id": "mX_q02",
+      "question_text": "La realización de censos para conocer las características de una población resulta siempre menos costosa y exige menos recursos humanos y tiempo que el uso de muestras en la investigación científica.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 1,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Correcto! Es falso. Imagina preguntar a CADA habitante de un país. 😱 Los censos son carísimos, lentos y requieren un ejército de gente. ¡Por eso amamos las muestras bien hechas! Ahorran tiempo y dinero.",
+        "incorrect": "Ojalá fuera verdadero, ¡pero no! 😅 Es justo al revés. Los censos son titánicos en costo y esfuerzo. La muestra es la versión eficiente (y científica) de 'preguntar a algunos para entender al todo'."
+      }
+    },
+    {
+      "id": "mX_q03",
+      "question_text": "La diferencia clave entre el muestreo probabilístico y el muestreo no probabilístico reside en:",
+      "options": [
+        "La facilidad de acceso a los participantes",
+        "La aleatoriedad. Cada miembro de la población debe tener una probabilidad conocida de ser seleccionado",
+        "La capacidad de usar muestreo por cuotas"
+      ],
+      "correct_option_index": 1,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡En el clavo! 🎲 La aleatoriedad es la estrella aquí. En el probabilístico, todos tienen un 'ticket' para la lotería de ser elegidos. En el no probabilístico, la selección es... bueno, 'a dedo'.",
+        "incorrect": "Mmm, esas otras son consecuencias, pero no la *diferencia clave*. La verdadera magia (y validez estadística) del probabilístico viene de la aleatoriedad. Es lo que nos deja inferir resultados. 🧐"
+      }
+    },
+    {
+      "id": "mX_q04",
+      "question_text": "El muestreo probabilístico es considerado el 'estándar de oro' porque permite inferir los resultados a toda la población con un margen de error calculable.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Totalmente verdadero! 🥇 Es el 'estándar de oro' porque, gracias a la aleatoriedad, podemos calcular el margen de error. Es como decir: 'Estoy 95% seguro de que el resultado real está aquí'. ¡Pura ciencia!",
+        "incorrect": "¡Ah! Pues es verdadero. Es el único método que nos da el superpoder de la **inferencia estadística**. Con los no probabilísticos, solo podemos *describir* a la muestra, no generalizar a la población con confianza."
+      }
+    },
+    {
+      "id": "mX_q05",
+      "question_text": "El Muestreo Aleatorio Simple (MAS) se caracteriza porque la selección de los elementos de la muestra se realiza en una sola etapa, directamente y sin reemplazamiento.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Así es! Es la versión más 'pura'. Metes todos los nombres en un sombrero gigante (virtual, claro) y sacas 'n' papelitos de una sola vez. Simple y directo. ✅",
+        "incorrect": "De hecho, es verdadero. 'Simple' significa justo eso: una sola etapa de selección directa. No hay grupos, ni pasos intermedios. ¡El más básico (y elegante) de los probabilísticos!"
+      }
+    },
+    {
+      "id": "mX_q06",
+      "question_text": "El muestreo aleatorio simple (MAS) se presenta como el prototipo de muestreo y sirve de referencia para calcular el 'efecto del diseño' en otros muestreos más complejos.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Correctísimo! 🧠 El MAS es nuestra 'regla de medir'. El 'efecto del diseño' (deff) nos dice cuánto mejor (o peor) lo hizo nuestro muestreo complejo (estratificado, etc.) comparado con lo que hubiera hecho un MAS. Es el punto de referencia.",
+        "incorrect": "Pues sí, es verdadero. Piensa en el MAS como el 'auto base' sin extras. Cualquier otro diseño (con 'extras' como estratos o conglomerados) se compara contra él para ver si valió la pena la complejidad."
+      }
+    },
+    {
+      "id": "mX_q07",
+      "question_text": "El riesgo de introducir sesgos en el Muestreo Aleatorio Sistemático ocurre cuando:",
+      "options": [
+        "La fracción de muestreo supera el 5%",
+        "El universo está ordenado en función de determinados criterios que pueden inducir a que la selección periódica recaiga en elementos no representativos",
+        "El coeficiente de elevación es menor que la unidad"
+      ],
+      "correct_option_index": 1,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Exacto! ⚠️ Es el gran 'PERO' del sistemático. Si tu lista está ordenada (ej: soldado, cabo, sargento, soldado, cabo...) y tu salto 'k' coincide con ese patrón, tu muestra será un desastre (¡puros soldados!).",
+        "incorrect": "Nop. El peligro no es el tamaño, es el **orden oculto**. Si la lista tiene un ciclo y tu salto 'k' entra en ese ciclo, puedes obtener una muestra súper sesgada. ¡Siempre hay que revisar la lista primero! 🕵️"
+      }
+    },
+    {
+      "id": "mX_q08",
+      "question_text": "¿Cuál es el objetivo primordial del muestreo estratificado en términos de varianza?",
+      "options": [
+        "Asegurar la heterogeneidad dentro de cada estrato",
+        "Permitir la selección de la muestra con probabilidad proporcional al tamaño",
+        "Reunir en cada estrato a unidades homogéneas entre sí para reducir la varianza de las estimaciones"
+      ],
+      "correct_option_index": 2,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Brillante! 💡 El truco es: Hacemos los grupos (estratos) lo MÁS DIFERENTES posible entre sí, pero por DENTRO, cada grupo es súper homogéneo (ej. grupo 'hombres', grupo 'mujeres'). Así reducimos la varianza total.",
+        "incorrect": "Ah, la primera opción es lo contrario. Quieres **heterogeneidad ENTRE** estratos, pero **homogeneidad DENTRO**. Es como organizar tu ropa: pones todas las medias juntas, no las mezclas con las chaquetas."
+      }
+    },
+    {
+      "id": "mX_q09",
+      "question_text": "En el muestreo por conglomerados, las unidades muestrales son conjuntos de individuos (ej. secciones censales), no los individuos propiamente dichos.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Verdadero! Y es clave entenderlo. No eliges personas, eliges 'cajas' de personas (manzanas, escuelas, hospitales). Es súper eficiente en costos, ¡pero tiene sus trucos! 📦",
+        "incorrect": "¡Alerta! Es verdadero. Es la definición misma del muestreo por conglomerados. La unidad de selección es el grupo, no el individuo. Piensa en 'racimos' de uvas, no en uvas sueltas."
+      }
+    },
+    {
+      "id": "mX_q10",
+      "question_text": "El muestreo por conglomerados monoetápico implica entrevistar a todos y cada uno de los elementos dentro de los conglomerados seleccionados.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Correcto! 'Mono' = uno. Una etapa. Eliges los conglomerados (ej. 5 escuelas) y ¡zas! entrevistas a CADA alumno de esas 5 escuelas. Es un trabajo intenso, pero así se define.",
+        "incorrect": "De hecho, es verdadero. Si solo entrevistas a *algunos* dentro del conglomerado, ya estás en un bietápico (o polietápico). 'Monoetápico' significa que una vez elegido el grupo, vas por todos."
+      }
+    },
+    {
+      "id": "mX_q11",
+      "question_text": "El Muestreo Polietápico es una técnica en la que la selección de las unidades se realiza en varias fases sucesivas (unidades primarias, secundarias, etc.).",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Verdadero! Es como una muñeca rusa. 🪆 Primero eliges provincias, luego ciudades dentro de esas provincias, luego barrios dentro de esas ciudades... Vas bajando de nivel en etapas.",
+        "incorrect": "¡Cuidado! Es verdadero. 'Poli' = muchas. Es una selección en cascada. Es la técnica que se usa en las grandes encuestas nacionales para no tener que viajar por todo el país."
+      }
+    },
+    {
+      "id": "mX_q12",
+      "question_text": "Decir que una estimación es insesgada equivale a afirmar que:",
+      "options": [
+        "La varianza del estimador es cero",
+        "La media en el muestreo coincide con el valor que se trata de estimar",
+        "Se ha aplicado un coeficiente de variación bajo"
+      ],
+      "correct_option_index": 1,
+      "difficulty": "dificil",
+      "feedback": {
+        "correct": "¡BOOM! 🎯 Diste en el blanco de un concepto difícil. 'Insesgado' no significa que *tu* muestra dé el valor exacto. Significa que si repitieras el muestreo infinitas veces, el *promedio* de todas tus estimaciones sería el valor real.",
+        "incorrect": "Uff, concepto denso. 'Insesgado' (unbiased) significa que tu 'mira' está bien calibrada. Aunque tus tiros (muestras) varíen, en promedio, apuntan al centro (valor real). No tiene que ver con varianza cero."
+      }
+    },
+    {
+      "id": "mX_q13",
+      "question_text": "La precisión de una estimación se define como la concentración de valores en el muestreo, o la poca variabilidad, y se mide por el error de muestreo (desviación típica del estimador).",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Verdadero! Precisión = consistencia. 🎯 Si repites el muestreo, tus resultados caen muy cerca unos de otros. Poca dispersión. El error de muestreo (desviación típica) es la medida de esa 'imprecisión'.",
+        "incorrect": "¡Ojo! Es verdadero. Piensa en un arquero: **Precisión** es que todas sus flechas caigan juntas (poca variabilidad). **Insesgado** (la Q anterior) es que ese grupo de flechas esté en el centro."
+      }
+    },
+    {
+      "id": "mX_q14",
+      "question_text": "Para un error de muestreo dado, si la población es muy heterogénea, la muestra tiene que ser mayor que en universos más homogéneos.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Verdadero y pura lógica! Si la población es un 'caos' de opiniones diferentes (heterogénea), necesitas una muestra más grande para capturar toda esa diversidad. Si todos piensan igual (homogénea), con pocos te basta. 🌍",
+        "incorrect": "Piénsalo de nuevo: es verdadero. Es como hacer una sopa. Si la sopa es homogénea (crema), con una cucharada sabes el sabor. Si es un guiso (heterogéneo), necesitas un cucharón más grande para probar todos los ingredientes."
+      }
+    },
+    {
+      "id": "mX_q15",
+      "question_text": "Según el análisis de la varianza, ¿cuál es la relación de proporciones (P y 1-P) que exige un mayor tamaño de la muestra, manteniendo el mismo error muestral?",
+      "options": [
+        "P=0.10 y 1-P=0.90",
+        "P=0.70 y 1-P=0.30",
+        "P=0.50 y 1-P=0.50"
+      ],
+      "correct_option_index": 2,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Exacto! P=0.50 (o 50/50) es el 'peor escenario' para un investigador. Es la máxima incertidumbre (como lanzar una moneda). Al haber máxima variabilidad, necesitas el mayor tamaño de muestra. 💡",
+        "incorrect": "Nop. Intuitivamente podrías pensar que 90/10 es más 'difícil', pero estadísticamente, la máxima varianza (el punto más 'inseguro') es el 50/50. Por eso, si no sabes la proporción, usas P=0.5 para ir a lo seguro."
+      }
+    },
+    {
+      "id": "mX_q16",
+      "question_text": "Si se desea reducir el error de muestreo a la mitad (doble precisión), es necesario cuadruplicar el tamaño de la muestra, *caeteris paribus*.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "dificil",
+      "feedback": {
+        "correct": "¡Verdadero! Esta es una regla de oro (y un dolor de cabeza) del muestreo. 🧠 Como el tamaño de la muestra ($n$) está en el denominador *dentro* de una raíz cuadrada en la fórmula del error... para reducir el error a la mitad, ¡tienes que multiplicar $n$ por cuatro! ($2^2$).",
+        "incorrect": "Aunque suene exagerado, es verdadero. La relación no es lineal. La precisión cuesta cara. Querer el doble de precisión (mitad de error) exige cuadruplicar el esfuerzo (la muestra). ¡La estadística no regala nada! 😅"
+      }
+    },
+    {
+      "id": "mX_q17",
+      "question_text": "En el cálculo del tamaño de la muestra, el nivel de confianza del 0.9544 (o 95.44%) es el que corresponde a:",
+      "options": [
+        "± 1 desviación estándar (K=1)",
+        "± 2 desviaciones estándar (K=2)",
+        "± 3 desviaciones estándar (K=3)"
+      ],
+      "correct_option_index": 1,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Correcto! Es un clásico de la estadística. 📊 Un 95% 'redondo' es $K=1.96$. Pero si usas exactamente 2 desviaciones estándar (K=2), el área bajo la curva normal es 95.44%. ¡Bien visto!",
+        "incorrect": "Cerca, pero no. El 95% exacto (el más famoso) es $K=1.96$. El K=1 solo te da un 68% de confianza (¡muy bajo!). El $K=2$ te da este 95.44%. Son los números mágicos de la curva normal."
+      }
+    },
+    {
+      "id": "mX_q18",
+      "question_text": "El Error Muestral es un error sistemático que 'tuercen' los resultados en una dirección particular y que solo se corrige aumentando la muestra.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 1,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Exacto, es FALSO! 🛑 Es la trampa clásica. El error MUESTRAL es aleatorio, es el 'precio' que pagamos por no entrevistar a todos. El error SISTEMÁTICO (sesgo) es el que 'tuerce' los datos (ej. marco muestral malo).",
+        "incorrect": "¡Alerta de trampa! 🚨 La definición que se da (sistemático, 'tuerce' datos) es la de un **SESGO**, no la del error muestral. El error muestral es producto del AZAR, y sí se reduce aumentando la muestra. ¡Pero el sesgo no!"
+      }
+    },
+    {
+      "id": "mX_q19",
+      "question_text": "El sesgo de cobertura se produce cuando:",
+      "options": [
+        "Los entrevistados no responden a la encuesta",
+        "El investigador utiliza una muestra de conveniencia",
+        "El marco muestral no incluye a todos los miembros de la población objetivo"
+      ],
+      "correct_option_index": 2,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Perfecto! 'Cobertura' viene de 'cubrir'. Si tu marco muestral (tu lista) no 'cubre' a toda la población (ej. dejas fuera a los que solo tienen celular), tienes un sesgo de cobertura. 🕵️",
+        "incorrect": "Nop. El 'no responden' es sesgo de 'no respuesta'. El de conveniencia es de 'selección'. El de 'cobertura' es un problema de origen: tu 'mapa' (el marco muestral) está mal, le faltan territorios."
+      }
+    },
+    {
+      "id": "mX_q20",
+      "question_text": "Aplicar fórmulas probabilísticas para calcular un margen de error a una muestra de conveniencia constituye un Sesgo de Selección.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Verdadero! Y es un pecado capital en investigación. 😱 Es como ponerle llantas de Fórmula 1 a un auto de juguete y decir que corre a 300 km/h. Esas fórmulas (margen de error, confianza) SOLO valen si la selección fue aleatoria.",
+        "incorrect": "Oh, es muy verdadero. Es un error gravísimo. Estás usando una herramienta de precisión (fórmulas probabilísticas) en un material que no lo permite (muestra a dedo). El resultado es un engaño estadístico."
+      }
+    },
+    {
+      "id": "mX_q21",
+      "question_text": "La Ponderación es un ajuste estadístico utilizado para devolver a los datos obtenidos la estructura real del universo y corregir desbalances en la muestra final.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Verdadero! ⚖️ La ponderación es el 'Photoshop' ético de la estadística. Si te salieron 70% hombres en la muestra, pero sabes que en la población son 50%, 'ponderas' (les das menos 'peso') para que la foto final refleje la realidad.",
+        "incorrect": "De hecho, es verdadero. Es una técnica de ajuste súper importante. Si tu muestra, por azar, quedó 'desbalanceada' (ej. pocos jóvenes), la ponderación 'nivela la cancha' estadísticamente."
+      }
+    },
+    {
+      "id": "mX_q22",
+      "question_text": "El muestreo por cuotas se caracteriza por sustituir la selección aleatoria de las unidades últimas de muestreo por una selección dejada, en parte, al criterio del entrevistador.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Verdadero! Es el primo 'no probabilístico' del estratificado. Le dices al entrevistador: 'Encuéntrame 5 mujeres de 20-30 años'. Cómo las encuentra (en la calle, en un café) es su criterio. Por eso no es aleatorio. 🚶‍♂️",
+        "incorrect": "Pues sí, es verdadero. Esa es la diferencia clave con el estratificado. En el estratificado, la selección final es aleatoria (ej. por sorteo). En el de cuotas, la selección final es por conveniencia del entrevistador."
+      }
+    },
+    {
+      "id": "mX_q23",
+      "question_text": "A partir de un muestreo por conglomerados, la varianza de la estimación suele ser:",
+      "options": [
+        "Menor que en el muestreo aleatorio simple (MAS)",
+        "Igual que en el muestreo aleatorio simple (MAS)",
+        "Mayor que en el muestreo aleatorio simple (MAS)"
+      ],
+      "correct_option_index": 2,
+      "difficulty": "dificil",
+      "feedback": {
+        "correct": "¡Correcto! Es la gran desventaja. Como la gente dentro de un conglomerado (ej. un barrio) tiende a parecerse entre sí, obtienes menos 'información' que si eligieras personas al azar por toda la ciudad. Esta 'ineficiencia' aumenta la varianza. 📈",
+        "incorrect": "Al revés. Suele ser **mayor**. Piensa que si eliges 3 barrios, y esos 3 son 'ricos', te perdiste toda la info de los barrios 'pobres'. El MAS, al estar más disperso, captura mejor la variabilidad. El conglomerado es más barato, pero menos preciso."
+      }
+    },
+    {
+      "id": "mX_q24",
+      "question_text": "¿Cuál es la técnica de muestreo no probabilístico fundamental para estudiar poblaciones 'ocultas' o de difícil localización, donde se pide a los participantes que recomienden a otros contactos?",
+      "options": [
+        "Muestreo por Conveniencia",
+        "Muestreo Intencional",
+        "Muestreo de Bola de Nieve"
+      ],
+      "correct_option_index": 2,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Exacto! 🌨️ El 'Bola de Nieve' (Snowball sampling) es la técnica de 'un amigo trae a otro amigo'. Es perfecta para poblaciones a las que no llegarías con una lista, como coleccionistas de algo muy raro o grupos marginales.",
+        "incorrect": "Nop. El de conveniencia es solo 'agarrar lo que tengas cerca'. El intencional es 'elegir expertos'. Pero para redes ocultas, necesitas que la propia red se vaya 'revelando' sola. Eso es Bola de Nieve."
+      }
+    },
+    {
+      "id": "mX_q25",
+      "question_text": "Si se ignora la 'corrección por poblaciones finitas' (CPF), la fórmula para el cálculo del tamaño de la muestra se simplifica considerablemente. ¿En qué caso se puede ignorar la CPF sin que altere significativamente los cálculos?",
+      "options": [
+        "Cuando el error de muestreo es alto",
+        "Cuando la fracción de muestreo es pequeña, generalmente sin exceder un 5%",
+        "Cuando la varianza es máxima (P=0.5)"
+      ],
+      "correct_option_index": 1,
+      "difficulty": "dificil",
+      "feedback": {
+        "correct": "¡Excelente! 🧠 Esta es una regla práctica. Si tu muestra es menos del 5% del total de la población (fracción de muestreo baja), el efecto de 'corregir' la fórmula es tan pequeño que no vale la pena. ¡Se ignora y listo!",
+        "incorrect": "Mmm, no. La clave es la **fracción de muestreo (n/N)**. Si vas a sacar 100 personas de un millón (n/N = 0.01%), da igual si la población es 'finita'. Pero si vas a sacar 100 de 200 (n/N = 50%), ¡ahí sí tienes que aplicar la corrección!"
+      }
+    }
+  ]
+}

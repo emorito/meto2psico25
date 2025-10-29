@@ -1,0 +1,371 @@
+{
+  "items": [
+    {
+      "id": "mX_q01",
+      "question_text": "¿Cuál es uno de los dos propósitos básicos del diseño de investigación, además de controlar la varianza?",
+      "options": [
+        "Proporcionar respuestas a preguntas de investigación.",
+        "Garantizar el 100% de validez externa.",
+        "Establecer una teoría final o ley universal."
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Elemental, mi querido Watson! 🕵️‍♂️ Un diseño es el mapa para encontrar la respuesta. Sin un buen mapa... bueno, estás perdido en el bosque de los datos.",
+        "incorrect": "Nop. El 100% de validez es una utopía 😅, y una 'ley universal' es algo MUY grande. El diseño es el plan práctico para responder *tu* pregunta."
+      }
+    },
+    {
+      "id": "mX_q02",
+      "question_text": "El diseño de investigación se refiere a la estructura general que guía la recopilación y el análisis de datos para abordar un problema de investigación.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Verdadero! ✅ Es el 'plano' de tu investigación. Te dice dónde poner los cimientos (datos) y cómo construir las paredes (análisis) para que la casa no se caiga.",
+        "incorrect": "De hecho, es verdadero. Piensa en el diseño como el plan del arquitecto antes de poner un solo ladrillo. Es la estructura que lo sostiene todo. 🏠"
+      }
+    },
+    {
+      "id": "mX_q03",
+      "question_text": "¿Cómo se denomina una característica, experiencia o comportamiento de interés que tiene dos o más valores distintos en un proyecto de investigación?",
+      "options": [
+        "Delimitación.",
+        "Hipótesis a priori.",
+        "Variable.",
+        "Constructo teórico."
+      ],
+      "correct_option_index": 2,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Correcto! Es una **Variable**. ¿Por qué? Porque 'varía'. 😉 Edad, género, puntuación de ansiedad... si puede cambiar o tomar diferentes valores, es una variable.",
+        "incorrect": "Mmm, no. Un constructo es la idea teórica (ej. 'inteligencia'), pero la 'variable' es cómo la mides y qué valores toma (ej. 'CI de 80 a 120')."
+      }
+    },
+    {
+      "id": "mX_q04",
+      "question_text": "Las tres categorías principales de estudios que se utilizan activamente en la investigación en psicología incluyen los experimentos verdaderos, los cuasiexperimentos y los:",
+      "options": [
+        "Diseños observacionales.",
+        "Diseños pre-experimentales.",
+        "Estudios instrumentales."
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Bingo! 🎯 Tienes los 'verdaderos' (control total), los 'cuasi' (control a medias) y los 'observacionales' (o correlacionales: sin control, solo miras). Esos son los tres grandes.",
+        "incorrect": "Casi. Los 'pre-experimentales' son como los 'borradores' de los experimentos, pero los 'observacionales' (o correlacionales) son la tercera gran familia."
+      }
+    },
+    {
+      "id": "mX_q05",
+      "question_text": "La validez interna de un estudio es la medida en que su diseño permite al investigador sacar conclusiones defendibles sobre las relaciones de causa y efecto dentro de los datos.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Verdadero! 💡 La validez interna es tu 'escudo anti-excusas'. Responde a: '¿Estás SEGURO de que A causó B, y no fue otra cosa?'",
+        "incorrect": "Ojo, es verdadero. Validez **Interna** = ¿El experimento está bien *dentro*? ¿La causa-efecto es real? (Validez Externa = ¿Funciona *fuera*, en el mundo real?)"
+      }
+    },
+    {
+      "id": "mX_q06",
+      "question_text": "¿Cuál es una característica definitoria de los experimentos verdaderos (*true experiments*)?",
+      "options": [
+        "La manipulación de variables de atributo.",
+        "La asignación aleatoria de participantes a grupos.",
+        "La selección de grupos preexistentes (intactos)."
+      ],
+      "correct_option_index": 1,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Esa es! 🎲 La asignación aleatoria (meter a la gente en grupos al azar) es la 'salsa secreta'. Es lo que hace a un experimento 'verdadero' y nos da el poder de hablar de causa-efecto.",
+        "incorrect": "Nop. Usar grupos preexistentes es justo lo que hacen los *cuasi*experimentos. La magia del 'verdadero' es el control total, y eso empieza con la aleatorización. ¡Randomización FTW!"
+      }
+    },
+    {
+      "id": "mX_q07",
+      "question_text": "En los diseños *Ex Post Facto*, el investigador manipula la variable independiente para examinar su efecto en la variable dependiente.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 1,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Totalmente falso! 'Ex Post Facto' significa 'después del hecho'. El 'hecho' (la causa) YA pasó (ej. fumar). El investigador no manipula nada, solo mira las consecuencias.",
+        "incorrect": "¡Alerta de trampa! 🚨 'Ex Post Facto' es lo opuesto a manipular. El investigador llega *después* de que la variable independiente (ej. un terremoto) ocurriera. Solo puede observar."
+      }
+    },
+    {
+      "id": "mX_q08",
+      "question_text": "Un diseño cuasiexperimental es aquel en el que las condiciones de un experimento verdadero solo se aproximan debido a restricciones en aspectos como:",
+      "options": [
+        "La asignación aleatoria de casos a condiciones.",
+        "La definición del constructo de interés.",
+        "La interpretación de los resultados."
+      ],
+      "correct_option_index": 0,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Exacto! El 'cuasi' es el 'casi' experimento. Es lo que haces cuando *quieres* hacer un experimento verdadero, pero no puedes asignar la gente al azar (ej. usas dos aulas ya formadas). 🧑‍🏫",
+        "incorrect": "Nop. El 'cuasi' se llama así porque le falta el ingrediente estrella: la **asignación aleatoria**. Intenta compensarlo, pero no es lo mismo."
+      }
+    },
+    {
+      "id": "mX_q09",
+      "question_text": "Según el principio de control de la varianza (maxmincon), una de las tareas principales del investigador es minimizar la varianza del error o aleatoria.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Verdadero! 'Max-Min-Con' es el mantra del investigador: MAXimiza la varianza 'buena' (la del efecto), MINimiza la del 'error' (ruido aleatorio) y CONtrola la 'mala' (variables extrañas).",
+        "incorrect": "De hecho, es verdadero. Es uno de los 3 pilares del principio MAXMINCON. Quieres que el 'ruido' (varianza de error) sea lo más bajo posible para poder 'escuchar' el efecto real."
+      }
+    },
+    {
+      "id": "mX_q10",
+      "question_text": "Para que los hallazgos de un estudio cuantitativo tengan credibilidad, las estrategias de evaluación utilizadas deben tener:",
+      "options": [
+        "Validez y fiabilidad.",
+        "Consistencia interna alta y muestreo probabilístico.",
+        "Saturación teórica y transferibilidad."
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Correctísimo! ✅ Validez (¿mides lo que dices que mides?) y Fiabilidad (¿lo mides bien y consistentemente?). Son el dúo dinámico de una buena medición.",
+        "incorrect": "Esas otras son importantes, pero la 'credibilidad' de una *evaluación* (un test, una medida) se sostiene sobre estos dos pilares: Validez y Fiabilidad. 🏛️"
+      }
+    },
+    {
+      "id": "mX_q11",
+      "question_text": "El diseño de línea base múltiple (*Multiple-Baseline Design*) se clasifica como uno de los diseños que se utilizan en la investigación de intervención de caso único.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Verdadero! 📈 Es un diseño súper potente para N=1. Mides la línea base, aplicas la intervención a una conducta (o persona, o contexto), y ves si cambia... mientras las otras líneas base siguen estables. ¡Pura elegancia!",
+        "incorrect": "Pues sí, es verdadero. Es uno de los diseños estrella de la investigación de 'caso único' (single-case). Permite ver causa-efecto sin necesidad de un grupo de control."
+      }
+    },
+    {
+      "id": "mX_q12",
+      "question_text": "La investigación correlacional indaga en las relaciones superficiales entre variables, pero no necesariamente busca las razones causales subyacentes.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Verdadero! Y es el mantra que te tatuarás: 'Correlación no implica causalidad'. ⚠️ Solo te dice 'estas dos cosas se mueven juntas', pero no te dice *por qué* ni *quién* causa a *quién*.",
+        "incorrect": "Ojo, es verdadero. La investigación correlacional es 'chismosa': te dice quién se junta con quién, pero no quién empezó la relación (causa). Para eso, necesitas un experimento."
+      }
+    },
+    {
+      "id": "mX_q13",
+      "question_text": "Según la clasificación de propósitos de investigación, el objetivo de **probar teorías** (Theory testing) corresponde principalmente a estrategias:",
+      "options": [
+        "Orientadas a variables (*Variable-Centred*).",
+        "Orientadas a casos (*Case-Oriented*).",
+        "Puramente descriptivas.",
+        "De diseño de la experiencia."
+      ],
+      "correct_option_index": 0,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Eso es! 🧠 Para probar una teoría (ej. 'la ansiedad reduce la memoria'), te centras en las *variables* ('nivel de ansiedad', 'puntuación en memoria') y cómo se relacionan en un grupo grande.",
+        "incorrect": "Nop. 'Orientado a casos' es más para *entender* un fenómeno complejo en profundidad (ej. un estudio de caso). Para *probar* teorías generales, nos centramos en las variables."
+      }
+    },
+    {
+      "id": "mX_q14",
+      "question_text": "La técnica de **mantener constante una variable independiente potencial** (como la inteligencia) se utiliza para:",
+      "options": [
+        "Maximizar la varianza sistemática.",
+        "Eliminar el efecto de la variable extraña sobre la variable dependiente.",
+        "Reducir la confiabilidad de la medición."
+      ],
+      "correct_option_index": 1,
+      "difficulty": "dificil",
+      "feedback": {
+        "correct": "¡Movimiento maestro! ♟️ Si crees que la 'inteligencia' puede arruinar tu experimento (es una variable extraña), una forma de controlarla es... ¡eliminándola! Si todos tienen el mismo CI, la inteligencia *ya no es una variable*.",
+        "incorrect": "Al contrario. Es una técnica de **control**. Al hacer que algo sea 'constante', deja de ser una 'variable extraña' que pueda molestar. Es como ponerle 'mute' a esa variable. 🤫"
+      }
+    },
+    {
+      "id": "mX_q15",
+      "question_text": "La existencia de diferentes denominaciones (confusión terminológica) genera confusión tanto para los estudiantes como para los investigadores en el campo de la metodología de la investigación.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Verdadero! 😅 Y bienvenido al club. ¿Es 'cuantitativo' o 'variable-centrado'? ¿'Ex Post Facto' o 'Correlacional'? La metodología a veces parece una torre de Babel. ¡Pero para eso estamos aquí!",
+        "incorrect": "¡Ojalá fuera falso! Pero es dolorosamente verdadero. Diferentes autores usan diferentes nombres para la misma cosa. Es una de las primeras barreras al aprender metodología. 🙄"
+      }
+    },
+    {
+      "id": "mX_q16",
+      "question_text": "¿Qué diseño de métodos mixtos comienza con una fase cuantitativa, seguida de una fase cualitativa para ayudar a explicar los resultados iniciales?",
+      "options": [
+        "Diseño Secuencial Explicatorio (*Explanatory Sequential*).",
+        "Diseño Convergente (*Convergent*).",
+        "Diseño Secuencial Exploratorio (*Exploratory Sequential*)."
+      ],
+      "correct_option_index": 0,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Perfecto! ➡️ Lo dice el nombre: Primero haces lo CUAN (la secuencia) y luego usas lo CUAL para **Explicar** (Explicatorio) esos números. Ej: 'Salió que el 70% está insatisfecho... ahora hagamos entrevistas para saber *por qué*'.",
+        "incorrect": "Nop. 'Exploratorio' es al revés (cual -> CUAN). 'Convergente' es los dos a la vez. Este es **Explicatorio**: los números (CUAN) vienen primero, la explicación (cual) después."
+      }
+    },
+    {
+      "id": "mX_q17",
+      "question_text": "En la investigación cuantitativa, ¿qué tipo de variable es manipulada por el investigador y examina sus efectos en otra variable?",
+      "options": [
+        "Variable de control.",
+        "Variable dependiente.",
+        "Variable independiente.",
+        "Variable mediadora."
+      ],
+      "correct_option_index": 2,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡La estrella del show! 🌟 La **Independiente** (VI) es la que tú, como investigador, 'manipulas', 'mueves', 'cambias' (ej. 'tipo de terapia') para ver qué le pasa a la otra.",
+        "incorrect": "¡Justo la otra! La **Dependiente** (VD) es la que 'depende' de la otra; es el *resultado* que mides (ej. 'nivel de depresión'). La que manipulas es la **Independiente**."
+      }
+    },
+    {
+      "id": "mX_q18",
+      "question_text": "Una hipótesis es una predicción o explicación propuesta para un fenómeno bajo investigación, que se puede plantear antes de que comience la recopilación de datos (hipótesis a priori) o después.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Verdadero! Es tu 'predicción informada'. 🧐 Tu 'apuesta' sobre lo que crees que va a pasar, basada en la teoría. Y sí, puede ser 'a priori' (antes) o 'post hoc' (después, aunque con menos peso).",
+        "incorrect": "De hecho, es verdadero. Es la definición de libro de texto. Una hipótesis es esa conjetura educada que guía tu investigación. 🔭"
+      }
+    },
+    {
+      "id": "mX_q19",
+      "question_text": "¿Qué tipo de investigación descriptiva es particularmente apropiada para analizar tendencias de desarrollo al seguir a un grupo particular durante un largo período de tiempo?",
+      "options": [
+        "Estudio Transversal (*Cross-sectional study*).",
+        "Estudio Longitudinal (*Longitudinal study*).",
+        "Investigación Etnográfica.",
+        "Diseño de Grupo Estático."
+      ],
+      "correct_option_index": 1,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Correcto! ⏳ 'Longitudinal' = a lo largo del tiempo. Sigues al mismo grupo de gente (una cohorte) durante años para ver cómo cambian. Es como ver una serie entera, no solo una foto.",
+        "incorrect": "'Transversal' (Cross-sectional) es lo opuesto: es una 'foto' en un momento dado de diferentes grupos de edad. Para ver *tendencias de desarrollo* en el *mismo* grupo, necesitas el longitudinal. 🎬"
+      }
+    },
+    {
+      "id": "mX_q20",
+      "question_text": "La investigación cualitativa, al estudiar intensivamente un número reducido de sujetos, se distingue de la investigación cuantitativa por no ser considerada un enfoque científicamente riguroso.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 1,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Falsísimo! 🛑 Ese es un mito terrible. La investigación cualitativa tiene su *propio* tipo de rigor (credibilidad, transferibilidad, etc.). Es diferente, no peor. Es como decir que un microscopio es 'menos científico' que un telescopio.",
+        "incorrect": "¡Error! Es falso. El rigor cualitativo es súper estricto, solo que usa otras métricas. No busca 'generalizar' (cuanti), sino 'comprender en profundidad' (cuali). Ambas son científicas. 💪"
+      }
+    },
+    {
+      "id": "mX_q21",
+      "question_text": "En la concepción de un diseño de investigación, la 'estructura' puede definirse como:",
+      "options": [
+        "El análisis final de los datos recopilados.",
+        "Un paradigma o modelo de las relaciones entre las variables de un estudio.",
+        "La formulación de hipótesis operacionales sin ambigüedades."
+      ],
+      "correct_option_index": 1,
+      "difficulty": "dificil",
+      "feedback": {
+        "correct": "¡Exacto! 🧠 Es un concepto denso. La 'estructura' del diseño es el 'diagrama' lógico que conecta tus variables. Es el 'cómo' crees que A afecta a B, mientras controlas C.",
+        "incorrect": "Nop. El análisis es el final. La estructura es el *principio*, es el 'modelo' o 'paradigma' conceptual. Es el esqueleto lógico de tu estudio."
+      }
+    },
+    {
+      "id": "mX_q22",
+      "question_text": "La validez (*Validity*) se refiere a la calidad de los datos, mientras que la fiabilidad (*Reliability*) se refiere a la calidad de la inferencia extraída de las puntuaciones de la prueba.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 1,
+      "difficulty": "dificil",
+      "feedback": {
+        "correct": "¡Falso! Están al revés. **Fiabilidad** = calidad de los *datos* (consistencia, precisión). **Validez** = calidad de la *inferencia* (¿estás midiendo lo que crees?). ¡No lo olvides! 🔄",
+        "incorrect": "¡Trampa, están intercambiados! 🔄 **Fiabilidad** es consistencia (el dato es estable). **Validez** es si esa inferencia es correcta (el dato significa lo que crees que significa). Un clásico."
+      }
+    },
+    {
+      "id": "mX_q23",
+      "question_text": "La maximización de la varianza experimental requiere que la variable independiente tenga niveles muy distintos entre sí, para así separar los tratamientos lo más posible.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Verdadero! Es parte del 'MAX' en Maxmincon. Si quieres ver si un tratamiento funciona, no comparas 'dosis alta' con 'dosis casi alta'. Comparas 'dosis alta' con 'placebo'. ¡Separa los grupos lo más posible! 💥",
+        "incorrect": "Piénsalo: es verdadero. Si quieres 'maximizar' el efecto de tu variable independiente, tienes que hacer que sus niveles sean súper diferentes. (Ej. 'terapia intensiva' vs 'nada de terapia')."
+      }
+    },
+    {
+      "id": "mX_q24",
+      "question_text": "¿Cuál de las siguientes es una estrategia de indagación cualitativa reconocida en el diseño de investigación?",
+      "options": [
+        "Diseños Factoriales.",
+        "Investigación Narrativa (*Narrative research*).",
+        "Diseños de Regresión Discontinua."
+      ],
+      "correct_option_index": 1,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Correcto! 📖 La Investigación Narrativa es 100% cualitativa. Se centra en las historias de vida, en cómo las personas cuentan sus experiencias. Es fascinante.",
+        "incorrect": "'Factorial' y 'Regresión Discontinua' son diseños súper CUANTITATIVOS. La 'Narrativa' es cualitativa pura, se basa en historias, no en números. 🗣️"
+      }
+    },
+    {
+      "id": "mX_q25",
+      "question_text": "El propósito principal de la asignación aleatoria de participantes en estudios experimentales es producir dos o más grupos que sean equivalentes al comienzo del experimento.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Verdadero! ⚖️ Es la razón de ser de la aleatorización. No *garantiza* que sean idénticos, pero es la mejor herramienta que tenemos para que, *en promedio*, los grupos sean equivalentes antes de que empiece la magia (la intervención).",
+        "incorrect": "¡Cuidado! Es verdadero. Ese es su propósito principal. Al repartir al azar, las 'variables extrañas' (inteligencia, motivación, etc.) deberían repartirse por igual entre los grupos, 'anulándose' mutuamente."
+      }
+    }
+  ]
+}

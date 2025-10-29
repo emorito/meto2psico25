@@ -1,0 +1,374 @@
+{
+  "items": [
+    {
+      "id": "mX_q01",
+      "question_text": "¿Qué cualidad de un objetivo, según la guía para definirlos, se relaciona con el requisito de ser un reto, pero que sea posible de lograr?",
+      "options": [
+        "Measurable (Medible)",
+        "Relevant (Relevante)",
+        "Attainable (Alcanzable)",
+        "Specific (Específico)"
+      ],
+      "correct_option_index": 2,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Exacto! 🎯 Alcanzable es ese punto dulce: ni tan fácil que sea aburrido, ni tan difícil que sea frustrante. ¡El justo medio entre el sueño y la realidad!",
+        "incorrect": "Ups, casi pero no. 💭 'Alcanzable' es ese equilibrio perfecto: un reto que te motiva pero que no te hace querer tirar la toalla. ¡Ni muy muy, ni tan tan!"
+      }
+    },
+    {
+      "id": "mX_q02",
+      "question_text": "Los objetivos de investigación deben surgir a partir de lo que se busca con un proyecto o del problema de la investigación.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Así es! 🎯 Los objetivos son los 'hijos' del problema de investigación. Si el problema es la pregunta, los objetivos son las respuestas que buscas. ¡Confirmaste la relación familiar!",
+        "incorrect": "Esta era verdadera. 🔍 Los objetivos SÍ nacen directamente del problema. Sin problema no hay objetivos, y sin objetivos... bueno, mejor no pensemos en ese caos."
+      }
+    },
+    {
+      "id": "mX_q03",
+      "question_text": "Para que un objetivo cumpla la característica de 'Medible' (M), es necesario definir claramente el método o sistema de medición y establecer los indicadores a emplear.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Exactamente! 📊 'Medible' significa que podemos ponerle números, fechas o criterios claros. Si no puedes medirlo, ¿cómo sabrás si lo lograste? ¡Ciencia, no adivinación!",
+        "incorrect": "Esta era verdadera. 🎯 Para ser medible, un objetivo necesita indicadores concretos. Sin ellos, es como intentar medir el amor con una regla... ¡imposible!"
+      }
+    },
+    {
+      "id": "mX_q04",
+      "question_text": "¿Cuál de los siguientes verbos es más adecuado para un objetivo en una investigación con alcance EXPLICATIVO, cuyo propósito es determinar las causas de un fenómeno?",
+      "options": [
+        "Describir",
+        "Identificar",
+        "Comprobar",
+        "Relacionar"
+      ],
+      "correct_option_index": 2,
+      "difficulty": "dificil",
+      "feedback": {
+        "correct": "¡Impresionante! 🔍 'Comprobar' es el verbo rey de lo explicativo. No solo queremos describir o identificar, queremos DEMOSTRAR relaciones causales. ¡Llegaste al nivel científico avanzado!",
+        "incorrect": "Uy, esta era tricky. 🧐 En investigación explicativa buscamos CAUSAS, no solo descripciones. 'Comprobar' es el verbo que mejor captura esa esencia de demostración causal. ¡Casi casi!"
+      }
+    },
+    {
+      "id": "mX_q05",
+      "question_text": "La meta es el resultado general a largo plazo, mientras que el objetivo es una acción medible a corto o mediano plazo.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Exacto! 🗓️ La meta es el 'qué quiero lograr' (el sueño), el objetivo es el 'cómo lo voy a lograr' (el plan). ¡Uno vuela, el otro camina!",
+        "incorrect": "Esta era verdadera. 🌟 Meta = visión general a largo plazo. Objetivo = pasos concretos y medibles. ¡Sin objetivos, las metas son solo wishful thinking!"
+      }
+    },
+    {
+      "id": "mX_q06",
+      "question_text": "¿Cuál de los siguientes elementos corresponde a una actividad inherente al proceso investigativo y, por lo tanto, no debe ser redactado como un objetivo de investigación?",
+      "options": [
+        "Analizar los datos para hacer el reporte de investigación.",
+        "Determinar la relación entre las variables.",
+        "Evaluar la eficacia de una intervención educativa.",
+        "Identificar los factores de riesgo."
+      ],
+      "correct_option_index": 0,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Bravo! 🚫 Atrapaste la trampa: 'analizar datos' es una ACTIVIDAD metodológica, no un objetivo. Los objetivos son el QUÉ, no el CÓMO. ¡Separaste el grano de la paja!",
+        "incorrect": "Ups, te comiste el anzuelo. 🎣 'Analizar datos' es parte del proceso, no un objetivo en sí mismo. Los objetivos responden al QUÉ de la investigación, no al CÓMO metodológico."
+      }
+    },
+    {
+      "id": "mX_q07",
+      "question_text": "La estructura de un objetivo general se resume como: Infinitivo + Variables o evento + Población + Contexto + Tiempo.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Exactamente! 📝 Es la fórmula mágica: Verbo + Qué + Quiénes + Dónde + Cuándo. Con estos ingredientes, tu objetivo tendrá superpoderes. ¡Dominas la receta secreta!",
+        "incorrect": "Esta era verdadera. 🧩 Es la estructura clásica que hace que un objetivo sea completo y claro. Sin alguno de estos elementos, queda cojo. ¡Memoriza esta fórmula!"
+      }
+    },
+    {
+      "id": "mX_q08",
+      "question_text": "El objetivo general es aquel que resume la meta final a la que apunta la investigación, se centra en el propósito global y orienta todo el proyecto.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Correcto! 🎯 El objetivo general es el 'norte' de tu investigación. Sin él, estarías como barco sin timón. ¡Identificaste al capitán del barco científico!",
+        "incorrect": "Esta era verdadera. 🧭 El objetivo general SÍ es esa brújula que guía toda la investigación. Los específicos son los pasos, el general es el destino."
+      }
+    },
+    {
+      "id": "mX_q09",
+      "question_text": "Según el método SMART, la S (Specific) implica que el objetivo debe ser lo más concreto posible, de modo que cualquiera que lo lea sepa exactamente qué se pretende hacer.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Exacto! 🎯 Específico significa 'sin lugar a dudas'. Si tu abuela puede entender exactamente qué vas a investigar, entonces es específico. ¡Claridad ante todo!",
+        "incorrect": "Esta era verdadera. 🔍 La S de SMART sí exige especificidad total. Nada de 'algo sobre tal cosa'. ¡Queremos precisión quirúrgica!"
+      }
+    },
+    {
+      "id": "mX_q10",
+      "question_text": "¿Cuál es un error común que ocurre cuando se redacta un objetivo de investigación con la intención de 'contribuir a la reducción del bajo peso al nacer'?",
+      "options": [
+        "Confundir un objetivo con una actividad metodológica.",
+        "Confundir un objetivo con un propósito o intención de largo alcance.",
+        "Confundir un objetivo con una variable de estudio.",
+        "Incluir un verbo en pasado simple."
+      ],
+      "correct_option_index": 1,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Excelente! 🚫 'Contribuir a' es una ASPIRACIÓN, no un objetivo. Los objetivos son acciones concretas, no buenas intenciones. ¡Separaste el sueño de la acción!",
+        "incorrect": "Casi, pero no. 💭 El error está en confundir un objetivo con una buena intención. 'Contribuir a' es vago e inmedible. ¡Los objetivos quieren acción, no wishful thinking!"
+      }
+    },
+    {
+      "id": "mX_q11",
+      "question_text": "Los objetivos específicos deben ser una simple enunciación de la metodología o de las fases metodológicas que se ejecutarán.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 1,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Bravo! 🎯 Los objetivos específicos NO son la metodología. Son los RESULTADOS concretos que esperas lograr. ¡Separaste el 'qué' del 'cómo'!",
+        "incorrect": "Esta era falsa. 🚫 Los objetivos específicos no son listas de actividades metodológicas. Son logros concretos que contribuyen al objetivo general. ¡No confundas el menú con la comida!"
+      }
+    },
+    {
+      "id": "mX_q12",
+      "question_text": "¿Qué característica de los objetivos requiere que se considere el tipo o extensión del contenido y los puntos débiles del investigador para determinar su factibilidad?",
+      "options": [
+        "Específico (S)",
+        "Medible (M)",
+        "Realista/Alcanzable (R/A)",
+        "Basado en el tiempo (T)"
+      ],
+      "correct_option_index": 2,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Exacto! 🤔 Realista/Alcanzable significa conocerse a uno mismo y ser honesto: ¿tengo los recursos, el tiempo, las habilidades? ¡Auto-conocimiento científico!",
+        "incorrect": "No era esa. 💡 La característica que considera tus limitaciones y recursos es REALISTA/ALCANZABLE. No sirve de nada un objetivo brillante si es imposible de lograr."
+      }
+    },
+    {
+      "id": "mX_q13",
+      "question_text": "Los objetivos específicos deben seguir una secuencia de lo más sencillo a lo más complejo para facilitar el cumplimiento del objetivo general.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Así es! 🎯 Primero lo primero: de lo simple a lo complejo, como subir una escalera peldaño por peldaño. ¡Confirmaste que la ciencia también tiene sentido común!",
+        "incorrect": "Esta era verdadera. 📈 Los objetivos específicos SÍ deben ir de lo más fácil a lo más difícil. Es sentido común: ¿construyes el techo antes de los cimientos?"
+      }
+    },
+    {
+      "id": "mX_q14",
+      "question_text": "Si el objetivo general es 'Describir los hábitos de consumo de noticias digitales...', un objetivo específico incorrecto sería 'Explicar el impacto de las fake news...' debido a:",
+      "options": [
+        "Que 'Explicar' es un verbo conceptual.",
+        "Que incluye más de una variable.",
+        "Que el objetivo específico es de mayor nivel de complejidad que el general.",
+        "Que carece de población y contexto."
+      ],
+      "correct_option_index": 2,
+      "difficulty": "dificil",
+      "feedback": {
+        "correct": "¡Impresionante! 🚫 Atrapaste el error sutil: un específico NO puede ser más complejo que el general. 'Explicar' es más profundo que 'Describir'. ¡Jerarquía de objetivos respetada!",
+        "incorrect": "Uy, esta era tricky. 🎭 El error está en la JERARQUÍA: un objetivo específico no puede ser más complejo que el general. Sería como decir que el ayudante sabe más que el jefe."
+      }
+    },
+    {
+      "id": "mX_q15",
+      "question_text": "Los objetivos son decisivos en un estudio investigativo porque, en primer lugar, sirven de orientación para empezar la revisión bibliográfica.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Exactamente! 📚 Sin objetivos claros, la revisión bibliográfica sería como buscar una aguja en un pajar. ¡Los objetivos te dicen QUÉ buscar!",
+        "incorrect": "Esta era verdadera. 🔍 Los objetivos SÍ orientan la revisión bibliográfica. Sin ellos, leerías todo y no sabrías qué es relevante. ¡Enfoque ante todo!"
+      }
+    },
+    {
+      "id": "mX_q16",
+      "question_text": "¿Qué elementos son obligatorios que incorpore un objetivo de investigación en su redacción, además del verbo en infinitivo?",
+      "options": [
+        "Variables de estudio, población, contexto y temporalidad.",
+        "Hipótesis nula y alternativa.",
+        "El diseño de muestreo y las técnicas de análisis.",
+        "Los juicios de valor del investigador."
+      ],
+      "correct_option_index": 0,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Perfecto! 🎯 Variables + Población + Contexto + Tiempo = Objetivo completo. Sin alguno de estos, tu objetivo queda cojo. ¡Dominas la fórmula del éxito!",
+        "incorrect": "No exactamente. 🧩 Los elementos esenciales son: QUÉ (variables), QUIÉNES (población), DÓNDE (contexto) y CUÁNDO (tiempo). Sin ellos, es un objetivo incompleto."
+      }
+    },
+    {
+      "id": "mX_q17",
+      "question_text": "Se recomienda incluir varios verbos en un solo objetivo para asegurar que se abarque el problema de manera integral.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 1,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Bravo! 🚫 Un objetivo = un verbo. Si usas varios, probablemente estés mezclando objetivos. ¡Cada objetivo debe tener su propio verbo de acción!",
+        "incorrect": "Esta era falsa. 💡 Múltiples verbos en un solo objetivo = CONFUSIÓN. Es mejor varios objetivos específicos que uno solo sobrecargado. ¡Divide y vencerás!"
+      }
+    },
+    {
+      "id": "mX_q18",
+      "question_text": "¿Cuál es un verbo que alude a capacidades procedimentales (acciones concretas y observables) al definir objetivos?",
+      "options": [
+        "Definir",
+        "Planear",
+        "Distinguir",
+        "Analizar"
+      ],
+      "correct_option_index": 1,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Exacto! 📋 'Planear' es un verbo procedimental: implica una acción concreta y observable. ¡Los verbos procedimentales son los que nos muestran el camino!",
+        "incorrect": "Casi, pero piensa en acciones concretas. 🎯 'Planear' es más procedimental porque implica una secuencia de acciones observables. Los otros son más conceptuales."
+      }
+    },
+    {
+      "id": "mX_q19",
+      "question_text": "Los objetivos deben estar en correspondencia con la pregunta de investigación y ser coherentes con el planteamiento del problema.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Exactamente! 🔗 Los objetivos, las preguntas y el problema deben ser como tres amigos que siempre se llevan bien. Si no, tu investigación tendrá personalidad múltiple.",
+        "incorrect": "Esta era verdadera. 🧩 Todo en investigación debe estar conectado: problema → preguntas → objetivos. Si no, es como tener piezas de distintos rompecabezas."
+      }
+    },
+    {
+      "id": "mX_q20",
+      "question_text": "¿Qué nivel de alcance o profundidad de investigación cuantitativa requiere contar con una buena base de conocimiento previo y busca describir cómo es un fenómeno sin profundizar en la relación causa-efecto?",
+      "options": [
+        "Exploratorio",
+        "Descriptivo",
+        "Correlacional",
+        "Explicativo"
+      ],
+      "correct_option_index": 1,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Perfecto! 📊 Descriptivo es ese nivel 'fotografía': nos dice CÓMO ES algo, sin meterse en el POR QUÉ. ¡Identificaste al observador neutral!",
+        "incorrect": "No exactamente. 🎯 El alcance que solo describe (sin explicar causas) es DESCRIPTIVO. Es como tomar una foto: capturas la realidad sin analizar por qué es así."
+      }
+    },
+    {
+      "id": "mX_q21",
+      "question_text": "Si un investigador formula el objetivo como 'Incrementar el conocimiento sobre el asma bronquial en adolescentes', está cometiendo el error de enunciar como objetivo un logro o finalidad de la investigación.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "dificil",
+      "feedback": {
+        "correct": "¡Excelente! 🚫 'Incrementar el conocimiento' es una FINALIDAD, no un objetivo. Los objetivos son acciones específicas, no aspiraciones vagas. ¡Separaste la meta del camino!",
+        "incorrect": "Esta era verdadera. 💭 'Incrementar conocimiento' es muy vago. ¿Cómo? ¿Qué conocimiento específicamente? Los objetivos deben ser acciones concretas, no buenas intenciones."
+      }
+    },
+    {
+      "id": "mX_q22",
+      "question_text": "Los objetivos específicos representan las acciones que se han de realizar para alcanzar el objetivo general y facilitan su cumplimiento al indicar las etapas que se deben cubrir.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Exactamente! 🎯 Los específicos son los peldaños de la escalera que te llevan al general. Sin ellos, te quedarías mirando la cima sin saber cómo subir.",
+        "incorrect": "Esta era verdadera. 📈 Los objetivos específicos SÍ son los pasos concretos para alcanzar el general. Son el 'cómo' del 'qué' general."
+      }
+    },
+    {
+      "id": "mX_q23",
+      "question_text": "Al redactar los objetivos, no es necesario incluir las variables si estas ya están mencionadas en el título.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 1,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Bravo! 📝 Cada objetivo debe ser AUTOSUFICIENTE. Aunque las variables estén en el título, deben repetirse en los objetivos. ¡Nada de suponer que el lector adivina!",
+        "incorrect": "Esta era falsa. 🔍 Los objetivos deben ser claros por sí mismos, incluso si lees solo esa sección. ¡Nada de 'ya lo saben porque está en el título'!"
+      }
+    },
+    {
+      "id": "mX_q24",
+      "question_text": "En el método SMART, la T (Time-based) se refiere a que cada objetivo debe estar definido en el tiempo para ayudar a marcar las distintas etapas del proyecto.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Exacto! ⏰ Time-based significa 'con fecha de caducidad'. Sin plazos, los objetivos se vuelven eternos. ¡El tiempo pone presión sana!",
+        "incorrect": "Esta era verdadera. 🗓️ La T de SMART SÍ se refiere a temporalidad. Sin fechas, un objetivo es como un viaje sin destino: nunca sabes cuándo llegas."
+      }
+    },
+    {
+      "id": "mX_q25",
+      "question_text": "¿Cuál es la pregunta clave a la que responde principalmente un objetivo general?",
+      "options": [
+        "¿Cómo se realizarán los pasos intermedios?",
+        "¿Qué se va a hacer y para qué?",
+        "¿Qué instrumentos se van a utilizar?",
+        "¿Quién financiará el proyecto?"
+      ],
+      "correct_option_index": 1,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Impresionante! 🎯 El objetivo general responde al QUÉ y PARA QUÉ de toda la investigación. Es la esencia, el corazón del proyecto. ¡Captaste la pregunta fundamental!",
+        "incorrect": "Casi, pero piensa en lo fundamental. 💡 El objetivo general responde al QUÉ (qué vas a hacer) y PARA QUÉ (cuál es el propósito). Los 'cómos' son para los específicos y la metodología."
+      }
+    }
+  ]
+}

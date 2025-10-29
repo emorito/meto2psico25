@@ -1,0 +1,337 @@
+/*
+ * Global stylesheet for the Centro de Entrenamiento en Metodología de la
+ * Investigación. This file defines the visual identity of the site using a
+ * soothing blue/grey palette inspired by Coursera and edX branding. The
+ * typography is set to Inter, a highly legible sans‑serif font. Buttons,
+ * cards and panels feature subtle shadows and rounded corners to create a
+ * friendly, approachable interface. All components are responsive and adapt
+ * gracefully from desktop to mobile.
+ */
+
+/* Import the Inter font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* CSS variables for easy theming */
+:root {
+  --color-primary: #0056d2; /* deep Coursera blue */
+  --color-secondary: #1f9fd9; /* bright edX blue */
+  --color-accent: #b82669; /* maroon accent for highlights */
+  --color-background: #f5f7fa; /* light grey background */
+  --color-surface: #ffffff; /* card surface */
+  --color-text: #1c1c1c; /* primary text */
+  --color-muted: #6b7280; /* muted text */
+  --radius: 8px;
+  --shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: var(--color-background);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+  color: var(--color-primary);
+}
+
+/* Hero on the home page */
+/*
+ * A professional hero uses an illustrative background with a subtle overlay
+ * to maintain contrast and add depth. The generous padding and larger
+ * typography create breathing room and emphasize the page's purpose.
+ */
+header.hero {
+  position: relative;
+  color: #ffffff;
+  text-align: center;
+  padding: 6rem 1rem;
+  /* Apply a dark overlay on top of the hero illustration to ensure
+     readability. The image is stored in assets/img/hero.png. */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/hero.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header.hero h1 {
+  font-size: 2.75rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+header.hero .subtitle {
+  margin-top: 0.5rem;
+  font-size: 1.3rem;
+  color: #f1f5ff;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.4;
+}
+
+/* Call-to-action button in the hero */
+header.hero .cta-btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  background: var(--color-accent);
+  color: #ffffff;
+  padding: 0.8rem 1.5rem;
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+header.hero .cta-btn:hover {
+  background: var(--color-secondary);
+}
+
+/* Modules grid on the home page */
+.modules-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+}
+
+.module-card {
+  background: var(--color-surface);
+  border-radius: calc(var(--radius) * 1.5);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
+  padding: 2rem 1.5rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.module-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
+}
+
+.module-card.locked::after {
+  content: '🔒 Bloqueado';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.8);
+  color: var(--color-muted);
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius);
+}
+
+.module-card h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.module-card p {
+  flex-grow: 1;
+  color: var(--color-muted);
+}
+
+.module-card .start-btn {
+  background: var(--color-secondary);
+  color: #fff;
+  border: none;
+  border-radius: calc(var(--radius) * 1.5);
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.module-card .start-btn:hover {
+  background: var(--color-primary);
+}
+
+/* Layout for module pages */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: var(--color-secondary);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.section h3 {
+  margin-bottom: 0.5rem;
+  color: var(--color-primary);
+}
+
+iframe.video {
+  width: 100%;
+  height: 360px;
+  border: none;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+embed.pdf {
+  width: 100%;
+  height: 500px;
+  border: none;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+/* Flip cards */
+.flip-container {
+  perspective: 1000px;
+  margin-bottom: 1rem;
+}
+
+.flip-card {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+.flip-card.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1rem;
+}
+
+.flip-card-front {
+  background: var(--color-secondary);
+  color: #fff;
+}
+
+.flip-card-back {
+  background: var(--color-accent);
+  color: #fff;
+  transform: rotateY(180deg);
+}
+
+/* Quiz */
+.quiz-container {
+  margin-top: 1rem;
+}
+
+.quiz-question {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background: var(--color-surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.quiz-question h4 {
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+.quiz-options {
+  list-style: none;
+  padding: 0;
+}
+
+.quiz-options li {
+  margin-bottom: 0.5rem;
+}
+
+.quiz-options input[type="radio"] {
+  margin-right: 0.5rem;
+}
+
+.quiz-submit {
+  background: var(--color-primary);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.quiz-submit:hover {
+  background: var(--color-secondary);
+}
+
+.quiz-feedback {
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+/* Decision simulation */
+.decision-container {
+  background: var(--color-surface);
+  padding: 1rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.decision-step {
+  margin-bottom: 1rem;
+}
+
+.decision-options {
+  list-style: none;
+  padding: 0;
+}
+
+.decision-options li {
+  margin-bottom: 0.5rem;
+}
+
+/* Notebook section */
+.notebook-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: var(--color-secondary);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  iframe.video {
+    height: 200px;
+  }
+  embed.pdf {
+    height: 300px;
+  }
+}

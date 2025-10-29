@@ -1,0 +1,386 @@
+{
+  "items": [
+    {
+      "id": "mX_q01",
+      "question_text": "¿Qué término se define como un concepto que tiene el significado agregado de haber sido inventado o adoptado deliberadamente para un propósito científico especial?",
+      "options": [
+        "Concepto",
+        "Constructo",
+        "Variable Latente",
+        "Variable Categórica"
+      ],
+      "correct_option_index": 1,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Exacto! 🧠 Un constructo es justo eso: nuestro 'invento' científico para medir lo abstracto. Le pusimos nombre y apellido a lo intangible. ¡Ciencia en acción!",
+        "incorrect": "Ups, no era ese. 😅 Un constructo es como nuestro personaje de ficción favorito: lo creamos los científicos para darle vida a conceptos abstractos. ¡Sigue intentando!"
+      }
+    },
+    {
+      "id": "mX_q02",
+      "question_text": "Una variable es una propiedad que asume diversos valores y puede tener tan solo dos valores, siendo aún considerada una variable.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Correcto! ✅ Una variable puede ser minimalista y tener solo dos valores (como sí/no) y seguir siendo completamente variable. ¡No juzgues por la cantidad!",
+        "incorrect": "Nop, aquí te equivocaste. 💡 Una variable sí puede ser binaria y seguir contando como variable. Piensa en el género (femenino/masculino) - ¡solo dos opciones pero totalmente válida!"
+      }
+    },
+    {
+      "id": "mX_q03",
+      "question_text": "¿Qué tipo de definición asigna significado a un constructo o variable al especificar las actividades u 'operaciones' necesarias para medirlo y evaluar la medición?",
+      "options": [
+        "Definición Constitutiva",
+        "Definición Conceptual",
+        "Definición Teórica",
+        "Definición Operacional"
+      ],
+      "correct_option_index": 3,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡BOOM! 💥 Definición operacional es la respuesta. Sin ella, nuestros constructos serían como fantasmas: todos hablan de ellos pero nadie sabe cómo pesarlos o medirlos.",
+        "incorrect": "Ah, la confusión clásica. 😅 Sin definición operacional, es como tener receta sin instrucciones: sabes qué cocinar pero no cómo. ¡Esta es la que nos dice el paso a paso!"
+      }
+    },
+    {
+      "id": "mX_q04",
+      "question_text": "Según la clasificación de Kerlinger, la variable que se asume influye o es la causa supuesta (el antecedente) en una relación se denomina:",
+      "options": [
+        "Variable Dependiente",
+        "Variable Interviniente",
+        "Variable Independiente",
+        "Variable Latente"
+      ],
+      "correct_option_index": 2,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Directo al clavo! 🎯 La variable independiente es la que mueve los hilos en la investigación. Es la 'causa' que queremos probar. ¡Eres un detective de variables!",
+        "incorrect": "Ups, casi pero no. 💭 Recuerda: la independiente es la que manipulamos (la causa), la dependiente es la que cambia (el efecto). ¡Como en una relación tóxica, pero científica!"
+      }
+    },
+    {
+      "id": "mX_q05",
+      "question_text": "Convertir una variable continua (como la inteligencia) en una dicotómica o politómica es conceptualmente útil, pero para el análisis de datos se considera una práctica negativa porque:",
+      "options": [
+        "Incrementa innecesariamente la complejidad del análisis.",
+        "Descarta información.",
+        "Convierte la variable en una de razón.",
+        "Impide el uso de pruebas estandarizadas."
+      ],
+      "correct_option_index": 1,
+      "difficulty": "dificil",
+      "feedback": {
+        "correct": "¡Excelente! 🧠 Convertir continua en categórica es como pasar de HD a 8-bits: pierdes matices y información valiosa. ¡Mantengamos los datos en alta definición!",
+        "incorrect": "Casi, pero no exactamente. 🤔 Cuando categorizamos una variable continua, es como agrupar personas solo por 'altas' y 'bajas'... ¡perdemos toda la riqueza de las alturas específicas!"
+      }
+    },
+    {
+      "id": "mX_q06",
+      "question_text": "El género (femenino-masculino) es un ejemplo de variable activa, ya que es manipulada directamente por el investigador en estudios de comparación de grupos.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 1,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Correcto! ✅ El género es variable atributo, no activa. No podemos 'asignar' género aleatoriamente a las personas (¡sería poco ético y científico!).",
+        "incorrect": "¡Alto ahí! 🚫 El género es una variable atributo porque es una característica preexistente. Las variables activas las manipulamos; las atributo las observamos. ¡Importante distinción!"
+      }
+    },
+    {
+      "id": "mX_q07",
+      "question_text": "En el ejemplo 'Si A (método de enseñanza), entonces B (aprovechamiento)', ¿cuál es la variable dependiente?",
+      "options": [
+        "A (método de enseñanza)",
+        "El coeficiente de correlación",
+        "La hipótesis",
+        "B (aprovechamiento/aprendizaje)"
+      ],
+      "correct_option_index": 3,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Exactamente! 🎓 B es la dependiente - el 'efecto' que medimos. Si A es la causa, B es la consecuencia. ¡Dominas la relación causa-efecto!",
+        "incorrect": "Ups, confundiste causa con efecto. 😅 En 'Si A, entonces B', B es la variable dependiente (el resultado). ¡Es como decir 'si estudio (A), entonces apruebo (B)'!"
+      }
+    },
+    {
+      "id": "mX_q08",
+      "question_text": "Las variables categóricas, que clasifican individuos en subgrupos no superpuestos, pertenecen a una clase de medición llamada:",
+      "options": [
+        "Intervalo",
+        "Ordinal",
+        "Razón",
+        "Nominal"
+      ],
+      "correct_option_index": 3,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Lo tienes! ✅ Nominal es la escala que solo clasifica sin orden. Como los colores: azul, rojo, verde... todos iguales en jerarquía.",
+        "incorrect": "Casi, pero no. 🧐 Las variables que solo clasifican sin orden son nominales. Si tuvieran orden serían ordinales. ¡Esta distinción es clave para no mezclar peras con manzanas!"
+      }
+    },
+    {
+      "id": "mX_q09",
+      "question_text": "Una variable continua es capaz de asumir un conjunto ordenado de valores dentro de cierto rango y refleja, al menos, un orden categórico.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Así es! 📊 Las variables continuas pueden tomar cualquier valor en un rango (como la estatura: 1.70, 1.71, 1.715...). ¡Son las divas de la precisión!",
+        "incorrect": "Nop, esta vez no. 💡 Las variables continuas SÍ pueden tomar infinitos valores dentro de un rango. Piensa en termómetros digitales vs. los antiguos de mercurio - ¡los digitales son mucho más continuos!"
+      }
+    },
+    {
+      "id": "mX_q10",
+      "question_text": "¿Cuál de los siguientes es un ejemplo de una variable atributo?",
+      "options": [
+        "Exposición a un video (Sí/No)",
+        "Reforzamiento positivo",
+        "La clase social del sujeto",
+        "Un tipo de instrucción experimental"
+      ],
+      "correct_option_index": 2,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Perfecto! 🎯 La clase social es el ejemplo clásico de variable atributo: una característica que ya tiene el sujeto y no manipulamos. ¡Identificaste la que no podemos cambiar!",
+        "incorrect": "Uy, esta era tramposa. 😅 Las variables atributo son características preexistentes (como clase social, género, edad). Las otras opciones son variables que SÍ podemos manipular."
+      }
+    },
+    {
+      "id": "mX_q11",
+      "question_text": "En el proceso de operacionalización para una variable compleja, la descomposición de lo general a lo específico sigue la secuencia:",
+      "options": [
+        "Variable → Indicadores → Dimensiones",
+        "Variable → Definición Conceptual → Indicadores",
+        "Variable → Dimensiones → Indicadores",
+        "Variable → Definición Operacional → Dimensiones"
+      ],
+      "correct_option_index": 2,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Bravo! 🧩 Variable → Dimensiones → Indicadores es el camino correcto. Primero desglosamos en partes grandes (dimensiones) y luego en lo medible (indicadores). ¡Dominas el arte de descomponer!",
+        "incorrect": "Casi, pero el orden importa. 🤓 Primero identificamos las dimensiones (las partes grandes) y luego los indicadores específicos (lo medible). ¡Es como pelar una cebolla: capa por capa!"
+      }
+    },
+    {
+      "id": "mX_q12",
+      "question_text": "Una variable latente es una 'entidad' no observada que se presume subyace a las variables observadas o manifiestas.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Exacto! 👻 Las variables latentes son como fantasmas científicos: no las vemos directamente, pero sabemos que están ahí por sus 'manifestaciones' (indicadores).",
+        "incorrect": "Ups, esta era verdadera. 😅 Las variables latentes sí existen pero no las observamos directamente (como la inteligencia o la ansiedad). Las inferimos a través de lo que SÍ podemos medir."
+      }
+    },
+    {
+      "id": "mX_q13",
+      "question_text": "Si se define operacionalmente la inteligencia como 'la puntuación obtenida en una prueba X de inteligencia', ¿a qué tipo de definición operacional pertenece?",
+      "options": [
+        "Experimental",
+        "Constitutiva",
+        "Conceptual",
+        "Medida"
+      ],
+      "correct_option_index": 3,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Correcto! 📝 Es una definición operacional de medida. Cuando usamos un test o instrumento para medir, estamos en el terreno de la medición pura y dura.",
+        "incorrect": "No exactamente. 🧐 Cuando definimos una variable por el instrumento que usamos para medirla (como un test), es definición operacional de MEDIDA. ¡Es la más común en psicología!"
+      }
+    },
+    {
+      "id": "mX_q14",
+      "question_text": "Una definición operacional experimental describe los detalles de cómo se medirá una variable.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 1,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Justo! ✅ La definición operacional experimental describe cómo se MANIPULA la variable, no cómo se mide. ¡Atrapaste el matiz importante!",
+        "incorrect": "Cuidado con la confusión. 🔍 La definición operacional experimental describe cómo manipulamos la variable independiente. La de MEDIDA es la que describe cómo la... bueno, adivinaste: medimos."
+      }
+    },
+    {
+      "id": "mX_q15",
+      "question_text": "Si la variable 'Número de hijos' se mide utilizando una escala donde el cero (0) implica la ausencia de la categoría (ej. 0 hijos), ¿qué tipo de escala es?",
+      "options": [
+        "Nominal",
+        "Ordinal",
+        "Intervalo",
+        "Razón"
+      ],
+      "correct_option_index": 3,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Excelente! 📈 Escala de razón, porque tiene un cero absoluto y significativo (0 hijos = ausencia de hijos). ¡Y podemos decir que 4 hijos son el doble que 2!",
+        "incorrect": "Uy, casi. 🤔 Piensa: si el cero es real (ausencia de la característica) y podemos hacer proporciones (el doble, triple), es escala de razón. ¡El número de hijos es el ejemplo de libro de texto!"
+      }
+    },
+    {
+      "id": "mX_q16",
+      "question_text": "Los elementos concretos de las dimensiones que expresan la realidad medible de la variable y son unidades de medida se denominan:",
+      "options": [
+        "Constructos",
+        "Variables Compuestas",
+        "Indicadores",
+        "Atributos"
+      ],
+      "correct_option_index": 2,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Directo al grano! 🎯 Los indicadores son lo que realmente medimos. Sin ellos, nuestros constructos serían como coches sin ruedas: bonitos pero no funcionan.",
+        "incorrect": "No exactamente. 💡 Los indicadores son las partes medibles específicas. Son como los síntomas que nos indican una enfermedad (constructo) - no vemos la enfermedad, pero sí sus manifestaciones."
+      }
+    },
+    {
+      "id": "mX_q17",
+      "question_text": "En una variable categórica de medición nominal, no existe un orden en cuanto a rango entre las categorías.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Exacto! 🚦 En nominal, todas las categorías son iguales en jerarquía. Como los colores: ¿el rojo es 'mejor' que el azul? ¡No, solo diferentes!",
+        "incorrect": "Ups, esta era verdadera. 😅 En escala nominal no hay orden (ej: estados civiles: soltero, casado, divorciado). Si hubiera orden, sería ordinal. ¡Esta distinción es fundamental!"
+      }
+    },
+    {
+      "id": "mX_q18",
+      "question_text": "La variable latente 'Inteligencia' se infiere a partir de la relación positiva y sustancial de qué tipo de variables, según el ejemplo dado en la fuente:",
+      "options": [
+        "Edad, Sexo y Nivel socioeconómico",
+        "Pruebas de habilidad verbal, numérica y espacial",
+        "Aprovechamiento, Motivación y Ansiedad",
+        "Horas de estudio, Nivel de ansiedad y Frecuencia cardíaca"
+      ],
+      "correct_option_index": 1,
+      "difficulty": "dificil",
+      "feedback": {
+        "correct": "¡Impresionante! 🧠 Atrapaste la esencia: la inteligencia se infiere de cómo se relacionan distintas habilidades cognitivas. ¡Varias piezas apuntando al mismo constructo oculto!",
+        "incorrect": "Complicada, lo sé. 🤯 La inteligencia es latente, así que la inferimos de cómo se correlacionan distintas pruebas de habilidad. Si todas suben y bajan juntas, es que miden algo en común: ¡la inteligencia!"
+      }
+    },
+    {
+      "id": "mX_q19",
+      "question_text": "Los científicos operan en dos niveles principales: teoría-hipótesis-constructo y observación, oscilando continuamente entre ellos.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Exactamente! 🔁 Los científicos somos como hamsters en una rueda: teoría → observación → teoría. ¡Pero una rueda que avanza la ciencia!",
+        "incorrect": "Esta era verdadera. 💫 La ciencia es ese baile constante entre lo abstracto (teorías) y lo concreto (observaciones). Sin este vaivén, no hay avance científico."
+      }
+    },
+    {
+      "id": "mX_q20",
+      "question_text": "En el contexto de un estudio, las condiciones que se mantienen iguales o constantes en todas las muestras o grupos se denominan:",
+      "options": [
+        "Variables Intervinientes",
+        "Variables Activas",
+        "Variables Control",
+        "Variables Dependientes"
+      ],
+      "correct_option_index": 2,
+      "difficulty": "facil",
+      "feedback": {
+        "correct": "¡Perfecto! 🎮 Variables control - las que mantenemos constantes para asegurar que cualquier cambio se deba solo a nuestra variable independiente. ¡El grupo de control de las variables!",
+        "incorrect": "Casi, pero no. 🎯 Las variables que mantenemos constantes son las de control. Sin ellas, no sabríamos si los cambios se deben a nuestra variable o a otra cosa. ¡Control es la palabra clave!"
+      }
+    },
+    {
+      "id": "mX_q21",
+      "question_text": "¿Qué tipo de variable es aquella que se interpone entre la variable independiente y la dependiente y debe ser controlada en un diseño experimental puro para asegurar que el efecto se deba solo a la variable independiente?",
+      "options": [
+        "Variable Categórica",
+        "Variable Atributo",
+        "Variable Interviniente",
+        "Variable Latente"
+      ],
+      "correct_option_index": 2,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Bravo! 🕵️‍♀️ Variable interviniente - la 'tercera en discordia' que puede arruinar nuestro experimento si no la controlamos. ¡La espía que altera los resultados!",
+        "incorrect": "Uy, esta era complicada. 😅 La variable interviniente es esa que se mete entre nuestra variable independiente y dependiente. Como la motivación en un estudio sobre métodos de enseñanza: ¡puede alterar los resultados si no la controlamos!"
+      }
+    },
+    {
+      "id": "mX_q22",
+      "question_text": "El proceso de operacionalización de variables es un procedimiento que solo se presenta en el enfoque cuantitativo, ya que las variables deben ser susceptibles de ser observadas y medidas.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Exacto! 📊 La operacionalización es el pan de cada día de la investigación cuantitativa. Sin ella, no podríamos medir rigurosamente. ¡Cuantitativo sin operacionalización es como café sin cafeína!",
+        "incorrect": "Esta era verdadera. 🔍 En cualitativa también se conceptualiza, pero la operacionalización formal (definir cómo medir) es característica del enfoque cuantitativo. ¡Es su superpoder!"
+      }
+    },
+    {
+      "id": "mX_q23",
+      "question_text": "Cuando el investigador asigna participantes a diferentes grupos basándose en una característica preexistente, como el género, esta variable independiente se clasifica como:",
+      "options": [
+        "Variable Activa",
+        "Variable Interviniente",
+        "Variable Atributo",
+        "Variable Continua"
+      ],
+      "correct_option_index": 2,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Correcto! 🏷️ Variable atributo - cuando usamos características que ya tienen las personas (género, edad, etc.). No las manipulamos, las seleccionamos. ¡Identificaste la que viene de fábrica!",
+        "incorrect": "Casi, pero no. 💭 Cuando asignamos grupos por características preexistentes (como género), es variable atributo. Las activas son las que SÍ manipulamos experimentalmente."
+      }
+    },
+    {
+      "id": "mX_q24",
+      "question_text": "Según la guía para la operacionalización de variables, la definición conceptual de una variable debe:",
+      "options": [
+        "Utilizar solo la definición de diccionario sin contexto.",
+        "Redactarse incluyendo conectores (ej. 'El rendimiento académico').",
+        "Incluir explícitamente el atributo 'tipo', 'nivel' o 'grado'.",
+        "Indicar términos diferentes a los del marco teórico y ser contextualizada (población y espacio)."
+      ],
+      "correct_option_index": 3,
+      "difficulty": "dificil",
+      "feedback": {
+        "correct": "¡Impresionante! 🎓 Atrapaste el detalle crucial: la definición conceptual debe contextualizarse. No es copiar-pegar del diccionario, sino adaptar al estudio específico. ¡Eso es pensar como investigador!",
+        "incorrect": "Uff, esta era difícil. 🤯 La definición conceptual debe ser contextualizada (para QUÉ estudio, QUIÉNES son los participantes). No vale con definiciones genéricas - ¡hay que hacerlas nuestras!"
+      }
+    },
+    {
+      "id": "mX_q25",
+      "question_text": "La escala de medición ordinal expresa una cualidad de forma ordenada (ej. de mayor a menor), y se utiliza frecuentemente en variables cualitativas como el control emocional o el rendimiento académico.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option_index": 0,
+      "difficulty": "intermedio",
+      "feedback": {
+        "correct": "¡Exacto! 📊 Ordinal significa ORDEN (bajo, medio, alto). Podemos decir qué es más o menos, pero no cuánto más. ¡Como los puestos en una carrera: primero, segundo, tercero!",
+        "incorrect": "Esta era verdadera. 🎯 La escala ordinal sí tiene orden (más/menos, mejor/peor) pero sin distancias definidas. ¡Es la reina de las encuestas con 'de acuerdo', 'neutral', 'en desacuerdo'!"
+      }
+    }
+  ]
+}
