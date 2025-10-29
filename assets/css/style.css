@@ -1,11 +1,9 @@
 /*
- * Global stylesheet for the Centro de Entrenamiento en Metodología de la
- * Investigación. This file defines the visual identity of the site using a
- * soothing blue/grey palette inspired by Coursera and edX branding. The
- * typography is set to Inter, a highly legible sans‑serif font. Buttons,
- * cards and panels feature subtle shadows and rounded corners to create a
- * friendly, approachable interface. All components are responsive and adapt
- * gracefully from desktop to mobile.
+ * Modified stylesheet for the Centro de Entrenamiento en Metodología de la
+ * Investigación. This version preserves the original layout and structure
+ * but updates the colour palette to incorporate warm terracotta and
+ * earthy olive tones inspired by the Psicometría II aesthetic. The aim
+ * is to modernise the visual identity without affecting functionality.
  */
 
 /* Import the Inter font from Google Fonts */
@@ -13,13 +11,43 @@
 
 /* CSS variables for easy theming */
 :root {
-  --color-primary: #0056d2; /* deep Coursera blue */
-  --color-secondary: #1f9fd9; /* bright edX blue */
-  --color-accent: #b82669; /* maroon accent for highlights */
-  --color-background: #f5f7fa; /* light grey background */
-  --color-surface: #ffffff; /* card surface */
-  --color-text: #1c1c1c; /* primary text */
-  --color-muted: #6b7280; /* muted text */
+  /*
+   * A terracotta tone reminiscent of clay tiles serves as the primary brand
+   * colour. Hex code taken from a Figma palette and supported by design
+   * guidance on warm, earthy palettes【348824523378234†L184-L247】.  
+   */
+  --color-primary: #E35336;
+  /*
+   * Muted olive green provides a complementary secondary colour. This
+   * natural hue is often paired with terracotta to create a harmonious
+   * and grounded feel【642317295477549†L185-L299】.
+   */
+  --color-secondary: #636B2F;
+  /*
+   * Accent colour draws from the same earthy spectrum, blending terracotta
+   * with a hint of burnt orange for buttons and highlights. Adjust this
+   * value if a softer or more vibrant accent is desired.
+   */
+  --color-accent: #C0672A;
+  /*
+   * Light, warm background akin to off‑white with a hint of beige. This
+   * change avoids the stark contrast of pure white and ties the palette
+   * together without overpowering the content.
+   */
+  --color-background: #F8F4F0;
+  /* Card surfaces remain white for readability and to maintain clear
+   * separation between interactive panels.
+   */
+  --color-surface: #FFFFFF;
+  /* Darker neutral text colour for improved contrast against the new
+   * background. A near‑black tone ensures legibility while avoiding
+   * harshness.
+   */
+  --color-text: #2C2C2C;
+  /* Muted text uses a mid‑tone grey with a subtle greenish undertone
+   * to complement the olive secondary colour.
+   */
+  --color-muted: #70735C;
   --radius: 8px;
   --shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
@@ -44,18 +72,19 @@ h1, h2, h3 {
 
 /* Hero on the home page */
 /*
- * A professional hero uses an illustrative background with a subtle overlay
- * to maintain contrast and add depth. The generous padding and larger
- * typography create breathing room and emphasize the page's purpose.
+ * The hero retains its illustrative background but now uses a warm
+ * terracotta‑to‑olive gradient overlay. This subtle update evokes the
+ * immersive style of Psicometría II while keeping text readable.
  */
 header.hero {
   position: relative;
   color: #ffffff;
   text-align: center;
   padding: 6rem 1rem;
-  /* Apply a dark overlay on top of the hero illustration to ensure
-     readability. The image is stored in assets/img/hero.png. */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/hero.png');
+  /* Apply a terracotta/olive gradient overlay atop the hero illustration.
+     Increase the opacity slightly to ensure sufficient contrast on light
+     sections of the image. */
+  background-image: linear-gradient(rgba(227, 83, 54, 0.6), rgba(99, 107, 47, 0.6)), url('../img/hero.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -70,14 +99,14 @@ header.hero h1 {
 header.hero .subtitle {
   margin-top: 0.5rem;
   font-size: 1.3rem;
-  color: #f1f5ff;
+  color: #fdf7f5;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
   line-height: 1.4;
 }
 
-/* Call-to-action button in the hero */
+/* Call‑to‑action button in the hero */
 header.hero .cta-btn {
   display: inline-block;
   margin-top: 1.5rem;
