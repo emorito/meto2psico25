@@ -1,0 +1,221 @@
+/* MEJORAS COMPLETAS - Estilos Adicionales */
+
+/* === ICONOS DE UNIDADES === */
+.icono-unidad {
+  display: inline-block !important;
+  margin-right: 0.5rem !important;
+  font-size: 1.8rem !important;
+  vertical-align: middle !important;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1)) !important;
+}
+
+/* === TEXTO DESCRIPTIVO === */
+.texto-descriptivo-unidades {
+  background: rgba(227, 83, 54, 0.1) !important;
+  border: 2px solid #E35336 !important;
+  border-radius: 8px !important;
+  padding: 1rem !important;
+  margin: 1rem 0 !important;
+  font-size: 0.95rem !important;
+  line-height: 1.5 !important;
+  font-weight: 400 !important;
+  color: #2c3e50 !important;
+}
+
+.tema-oscuro .texto-descriptivo-unidades {
+  background: rgba(116, 185, 255, 0.1) !important;
+  border-color: #74b9ff !important;
+  color: #e0e0e0 !important;
+}
+
+.tema-oscuro .texto-descriptivo-unidades strong {
+  color: #74b9ff !important;
+}
+
+/* === MEJORAS CUESTIONARIO === */
+
+/* Encabezado del cuestionario con ícono */
+.icono-cuestionario {
+  display: inline-block !important;
+  margin-right: 0.5rem !important;
+  font-size: 1.3rem !important;
+  vertical-align: middle !important;
+}
+
+/* Opciones del cuestionario optimizadas */
+.quiz-options {
+  margin: 1rem 0 !important;
+}
+
+.quiz-options label {
+  margin-bottom: 0.5rem !important;
+  padding: 0.75rem 1rem !important;
+  display: block !important;
+  line-height: 1.4 !important;
+  font-size: 0.95rem !important;
+  border-radius: 6px !important;
+  transition: all 0.2s ease !important;
+  cursor: pointer !important;
+  border: 1px solid transparent !important;
+}
+
+.quiz-options label:hover {
+  background-color: rgba(227, 83, 54, 0.1) !important;
+  border-color: #E35336 !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+}
+
+/* Input radios más grandes y visibles */
+.quiz-options input[type="radio"] {
+  margin-right: 0.75rem !important;
+  transform: scale(1.2) !important;
+  accent-color: #E35336 !important;
+}
+
+/* Feedback del quiz mejorado */
+.quiz-feedback,
+#quiz-feedback {
+  margin: 1rem 0 !important;
+  padding: 1rem 1.25rem !important;
+  font-weight: 400 !important;
+  font-size: 0.9rem !important;
+  line-height: 1.5 !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+  margin-bottom: 3rem !important;
+  border-radius: 8px !important;
+  border: 2px solid transparent !important;
+  position: relative !important;
+  overflow-wrap: break-word !important;
+  word-wrap: break-word !important;
+}
+
+.quiz-feedback.success {
+  background: linear-gradient(135deg, #d4edda, #e8f5e8) !important;
+  color: #155724 !important;
+  border-color: #28a745 !important;
+}
+
+.quiz-feedback.warning {
+  background: linear-gradient(135deg, #fff3cd, #fff8e1) !important;
+  color: #856404 !important;
+  border-color: #ffc107 !important;
+}
+
+.quiz-feedback.error {
+  background: linear-gradient(135deg, #f8d7da, #fdf2f2) !important;
+  color: #721c24 !important;
+  border-color: #dc3545 !important;
+}
+
+/* Botones del cuestionario mejorados */
+.quiz-submit,
+.quiz-retry {
+  margin: 0.5rem 0.25rem !important;
+  padding: 0.6rem 1.2rem !important;
+  font-size: 0.9rem !important;
+  font-weight: 500 !important;
+  border: none !important;
+  border-radius: 6px !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+  text-transform: none !important;
+}
+
+.quiz-submit {
+  background: linear-gradient(135deg, #E35336, #c43a2a) !important;
+  color: white !important;
+}
+
+.quiz-submit:hover {
+  background: linear-gradient(135deg, #c43a2a, #a12d1f) !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
+}
+
+.quiz-retry {
+  background: linear-gradient(135deg, #6c757d, #495057) !important;
+  color: white !important;
+}
+
+.quiz-retry:hover {
+  background: linear-gradient(135deg, #495057, #343a40) !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+  .icono-unidad {
+    font-size: 1.5rem !important;
+    margin-right: 0.25rem !important;
+  }
+  
+  .texto-descriptivo-unidades {
+    padding: 0.75rem !important;
+    font-size: 0.9rem !important;
+    margin: 0.75rem 0 !important;
+  }
+  
+  .quiz-options label {
+    margin-bottom: 0.4rem !important;
+    padding: 0.6rem 0.8rem !important;
+    font-size: 0.9rem !important;
+  }
+  
+  .quiz-feedback {
+    margin: 0.75rem 0 !important;
+    padding: 0.75rem !important;
+    font-size: 0.85rem !important;
+    margin-bottom: 2rem !important;
+  }
+}
+
+/* === ANIMACIONES === */
+.quiz-options label,
+.quiz-submit,
+.quiz-retry {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* === MEJORAS ADICIONALES === */
+
+/* Contenedor del quiz más espacioso */
+.quiz-container {
+  margin: 2rem 0 !important;
+}
+
+.quiz-question {
+  margin: 1.5rem 0 !important;
+  padding: 1.5rem !important;
+  border-radius: 8px !important;
+}
+
+/* Progress bar no invasiva */
+.progress-text {
+  position: relative !important;
+  top: auto !important;
+  right: auto !important;
+  margin-top: 1rem !important;
+  text-align: center !important;
+  font-size: 0.85rem !important;
+}
+
+/* === OTROS ELEMENTOS === */
+
+/* Simulaciones de decisión más legibles */
+.decision-step {
+  margin: 1rem 0 !important;
+  padding: 1rem !important;
+  border-radius: 6px !important;
+  line-height: 1.6 !important;
+}
+
+/* Notebook más legible */
+.notebook {
+  margin: 1rem 0 !important;
+  padding: 1.25rem !important;
+  border-radius: 8px !important;
+  line-height: 1.7 !important;
+}
