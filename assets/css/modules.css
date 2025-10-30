@@ -139,17 +139,18 @@ body[data-module-slug] {
     border-radius: 8px;
     font-weight: 600;
     font-size: 1.1rem;
-    transform: rotateY(180deg);
 }
 
 .flip-card-front {
     background: linear-gradient(135deg, #636B2F, #E35336);
     color: white;
+    transform: rotateY(0deg);
 }
 
 .flip-card-back {
     background: linear-gradient(135deg, #C0672A, #636B2F);
     color: white;
+    transform: rotateY(180deg);
 }
 
 /* ========================================
