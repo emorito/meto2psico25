@@ -1,221 +1,318 @@
-/* MEJORAS COMPLETAS - Estilos Adicionales */
+/* MEJORAS COMPLETA CSS - VERSIÓN CORREGIDA
+   Contraste mejorado para flip-cards y botón NOTEBOOK LM */
 
-/* === ICONOS DE UNIDADES === */
-.icono-unidad {
-  display: inline-block !important;
-  margin-right: 0.5rem !important;
-  font-size: 1.8rem !important;
-  vertical-align: middle !important;
-  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1)) !important;
+/* === MEJORAS DE CONTRASTE EN MODO CLARO === */
+
+/* Flip-cards: garantizar texto legible en ambos modos */
+.tema-claro .flip-card {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef) !important;
+  border: 2px solid #dee2e6 !important;
+  color: #2c3e50 !important;
 }
 
-/* === TEXTO DESCRIPTIVO === */
+.tema-claro .flip-card-front,
+.tema-claro .flip-card-back {
+  color: #2c3e50 !important;
+  background: transparent !important;
+}
+
+/* Flip-cards modo oscuro: mantener estilo original */
+.tema-oscuro .flip-card {
+  background: linear-gradient(135deg, #2d2d2d, #404040) !important;
+  border-color: #404040 !important;
+  color: #e0e0e0 !important;
+}
+
+.tema-oscuro .flip-card-front,
+.tema-oscuro .flip-card-back {
+  color: #e0e0e0 !important;
+  background: transparent !important;
+}
+
+/* Botón NOTEBOOK LM: mejor contraste en modo claro */
+.tema-claro .notebook {
+  background: #f8f9fa !important;
+  border: 2px solid #dee2e6 !important;
+  color: #2c3e50 !important;
+}
+
+/* Asegurar que todos los botones tengan buen contraste */
+.tema-claro button:not(.nav-button):not(.demo-button):not(.exam-button) {
+  background: #E35336 !important;
+  color: white !important;
+  border: none !important;
+}
+
+.tema-claro button:not(.nav-button):not(.demo-button):not(.exam-button):hover {
+  background: #C44529 !important;
+}
+
+/* === MEJORAS EN CUESTIONARIOS === */
+
+/* Reducir espaciado entre opciones */
+.quiz-options li {
+  margin-bottom: 0.6rem !important;
+}
+
+.quiz-options li:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* Botones del cuestionario */
+.quiz-submit-btn {
+  margin-top: 1.5rem !important;
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Feedback del quiz: evitar superposición */
+.quiz-feedback {
+  margin-bottom: 1.5rem !important;
+  clear: both !important;
+}
+
+/* Respuestas de quiz en modo claro */
+.tema-claro .quiz-options label {
+  color: #2c3e50 !important;
+  background: #ffffff !important;
+  border: 1px solid #dee2e6 !important;
+}
+
+.tema-claro .quiz-options label:hover {
+  background: #f8f9fa !important;
+  border-color: #E35336 !important;
+}
+
+.tema-claro .quiz-question h4,
+.tema-claro .decision-step p {
+  color: #2c3e50 !important;
+}
+
+/* === ESTILOS ADICIONALES PARA MEJORAR CONTRASTE === */
+
+/* Enlaces en modo claro */
+.tema-claro a {
+  color: #E35336 !important;
+}
+
+.tema-claro a:hover {
+  color: #C44529 !important;
+  text-decoration: underline !important;
+}
+
+/* Enlaces en modo oscuro */
+.tema-oscuro a {
+  color: #3498db !important;
+}
+
+.tema-oscuro a:hover {
+  color: #2980b9 !important;
+  text-decoration: underline !important;
+}
+
+/* Formularios en modo claro */
+.tema-claro input,
+.tema-claro textarea,
+.tema-claro select {
+  background: #ffffff !important;
+  border: 2px solid #dee2e6 !important;
+  color: #2c3e50 !important;
+}
+
+.tema-claro input:focus,
+.tema-claro textarea:focus,
+.tema-claro select:focus {
+  border-color: #E35336 !important;
+  outline: none !important;
+  box-shadow: 0 0 0 3px rgba(227, 83, 54, 0.1) !important;
+}
+
+/* Formularios en modo oscuro */
+.tema-oscuro input,
+.tema-oscuro textarea,
+.tema-oscuro select {
+  background: #2c3e50 !important;
+  border: 2px solid #34495e !important;
+  color: #ecf0f1 !important;
+}
+
+.tema-oscuro input:focus,
+.tema-oscuro textarea:focus,
+.tema-oscuro select:focus {
+  border-color: #E35336 !important;
+  outline: none !important;
+  box-shadow: 0 0 0 3px rgba(227, 83, 54, 0.2) !important;
+}
+
+/* === MEJORAS EN TIPOGRAFÍA === */
+
+/* Títulos con mejor contraste */
+.tema-claro h1, 
+.tema-claro h2, 
+.tema-claro h3, 
+.tema-claro h4, 
+.tema-claro h5, 
+.tema-claro h6 {
+  color: #2c3e50 !important;
+}
+
+.tema-oscuro h1, 
+.tema-oscuro h2, 
+.tema-oscuro h3, 
+.tema-oscuro h4, 
+.tema-oscuro h5, 
+.tema-oscuro h6 {
+  color: #ecf0f1 !important;
+}
+
+/* Párrafos con mejor contraste */
+.tema-claro p {
+  color: #2c3e50 !important;
+  line-height: 1.6 !important;
+}
+
+.tema-oscuro p {
+  color: #bdc3c7 !important;
+  line-height: 1.6 !important;
+}
+
+/* === CONTENEDORES PRINCIPALES === */
+
+/* Contenedores en modo claro */
+.tema-claro .container,
+.tema-claro .section,
+.tema-claro .quiz-question,
+.tema-claro .decision-step {
+  background: #f8f9fa !important;
+  border-color: #dee2e6 !important;
+  color: #2c3e50 !important;
+}
+
+/* Contenedores en modo oscuro */
+.tema-oscuro .container,
+.tema-oscuro .section,
+.tema-oscuro .quiz-question,
+.tema-oscuro .decision-step {
+  background: #2d3748 !important;
+  border-color: #404040 !important;
+  color: #e0e0e0 !important;
+}
+
+/* === TARJETAS Y ELEMENTOS INTERACTIVOS === */
+
+/* Tarjetas generales */
+.tema-claro .card {
+  background: #ffffff !important;
+  border: 1px solid #dee2e6 !important;
+  color: #2c3e50 !important;
+}
+
+.tema-oscuro .card {
+  background: #2d3748 !important;
+  border: 1px solid #404040 !important;
+  color: #e0e0e0 !important;
+}
+
+/* Lista de elementos */
+.tema-claro ul li {
+  color: #2c3e50 !important;
+}
+
+.tema-oscuro ul li {
+  color: #bdc3c7 !important;
+}
+
+/* Elementos de lista numerada */
+.tema-claro ol li {
+  color: #2c3e50 !important;
+}
+
+.tema-oscuro ol li {
+  color: #bdc3c7 !important;
+}
+
+/* === ANIMACIONES Y TRANSICIONES === */
+
+/* Transiciones suaves para todos los elementos interactivos */
+button, 
+.flip-card, 
+.card, 
+.quiz-options label,
+a {
+  transition: all 0.3s ease !important;
+}
+
+/* Efectos hover mejorados */
+.quiz-options label:hover {
+  transform: translateX(3px) !important;
+  transition: all 0.2s ease !important;
+}
+
+.flip-card:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important;
+  transition: all 0.3s ease !important;
+}
+
+/* === RESPONSIVE MEJORADO === */
+
+/* Dispositivos móviles */
+@media (max-width: 768px) {
+  .quiz-options li {
+    margin-bottom: 0.8rem !important;
+  }
+  
+  .quiz-submit-btn {
+    margin-top: 1rem !important;
+    width: 100% !important;
+  }
+  
+  .flip-card {
+    margin-bottom: 1rem !important;
+  }
+}
+
+/* Tablets */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .quiz-options {
+    grid-template-columns: 1fr !important;
+  }
+  
+  .flip-card {
+    margin-bottom: 1.5rem !important;
+  }
+}
+
+/* === ESTADOS ESPECIALES === */
+
+/* Texto descriptivo solo para portada */
 .texto-descriptivo-unidades {
   background: rgba(227, 83, 54, 0.1) !important;
   border: 2px solid #E35336 !important;
   border-radius: 8px !important;
   padding: 1rem !important;
   margin: 1rem 0 !important;
-  font-size: 0.95rem !important;
-  line-height: 1.5 !important;
-  font-weight: 400 !important;
-  color: #2c3e50 !important;
-}
-
-.tema-oscuro .texto-descriptivo-unidades {
-  background: rgba(116, 185, 255, 0.1) !important;
-  border-color: #74b9ff !important;
-  color: #e0e0e0 !important;
-}
-
-.tema-oscuro .texto-descriptivo-unidades strong {
-  color: #74b9ff !important;
-}
-
-/* === MEJORAS CUESTIONARIO === */
-
-/* Encabezado del cuestionario con ícono */
-.icono-cuestionario {
-  display: inline-block !important;
-  margin-right: 0.5rem !important;
-  font-size: 1.3rem !important;
-  vertical-align: middle !important;
-}
-
-/* Opciones del cuestionario optimizadas */
-.quiz-options {
-  margin: 1rem 0 !important;
-}
-
-.quiz-options label {
-  margin-bottom: 0.5rem !important;
-  padding: 0.75rem 1rem !important;
-  display: block !important;
-  line-height: 1.4 !important;
-  font-size: 0.95rem !important;
-  border-radius: 6px !important;
-  transition: all 0.2s ease !important;
-  cursor: pointer !important;
-  border: 1px solid transparent !important;
-}
-
-.quiz-options label:hover {
-  background-color: rgba(227, 83, 54, 0.1) !important;
-  border-color: #E35336 !important;
-  transform: translateY(-1px) !important;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
-}
-
-/* Input radios más grandes y visibles */
-.quiz-options input[type="radio"] {
-  margin-right: 0.75rem !important;
-  transform: scale(1.2) !important;
-  accent-color: #E35336 !important;
-}
-
-/* Feedback del quiz mejorado */
-.quiz-feedback,
-#quiz-feedback {
-  margin: 1rem 0 !important;
-  padding: 1rem 1.25rem !important;
-  font-weight: 400 !important;
-  font-size: 0.9rem !important;
-  line-height: 1.5 !important;
-  max-width: 100% !important;
-  box-sizing: border-box !important;
-  margin-bottom: 3rem !important;
-  border-radius: 8px !important;
-  border: 2px solid transparent !important;
-  position: relative !important;
-  overflow-wrap: break-word !important;
-  word-wrap: break-word !important;
-}
-
-.quiz-feedback.success {
-  background: linear-gradient(135deg, #d4edda, #e8f5e8) !important;
-  color: #155724 !important;
-  border-color: #28a745 !important;
-}
-
-.quiz-feedback.warning {
-  background: linear-gradient(135deg, #fff3cd, #fff8e1) !important;
-  color: #856404 !important;
-  border-color: #ffc107 !important;
-}
-
-.quiz-feedback.error {
-  background: linear-gradient(135deg, #f8d7da, #fdf2f2) !important;
-  color: #721c24 !important;
-  border-color: #dc3545 !important;
-}
-
-/* Botones del cuestionario mejorados */
-.quiz-submit,
-.quiz-retry {
-  margin: 0.5rem 0.25rem !important;
-  padding: 0.6rem 1.2rem !important;
-  font-size: 0.9rem !important;
-  font-weight: 500 !important;
-  border: none !important;
-  border-radius: 6px !important;
-  cursor: pointer !important;
-  transition: all 0.2s ease !important;
-  text-transform: none !important;
-}
-
-.quiz-submit {
-  background: linear-gradient(135deg, #E35336, #c43a2a) !important;
-  color: white !important;
-}
-
-.quiz-submit:hover {
-  background: linear-gradient(135deg, #c43a2a, #a12d1f) !important;
-  transform: translateY(-1px) !important;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
-}
-
-.quiz-retry {
-  background: linear-gradient(135deg, #6c757d, #495057) !important;
-  color: white !important;
-}
-
-.quiz-retry:hover {
-  background: linear-gradient(135deg, #495057, #343a40) !important;
-  transform: translateY(-1px) !important;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
-}
-
-/* === RESPONSIVE === */
-@media (max-width: 768px) {
-  .icono-unidad {
-    font-size: 1.5rem !important;
-    margin-right: 0.25rem !important;
-  }
-  
-  .texto-descriptivo-unidades {
-    padding: 0.75rem !important;
-    font-size: 0.9rem !important;
-    margin: 0.75rem 0 !important;
-  }
-  
-  .quiz-options label {
-    margin-bottom: 0.4rem !important;
-    padding: 0.6rem 0.8rem !important;
-    font-size: 0.9rem !important;
-  }
-  
-  .quiz-feedback {
-    margin: 0.75rem 0 !important;
-    padding: 0.75rem !important;
-    font-size: 0.85rem !important;
-    margin-bottom: 2rem !important;
-  }
-}
-
-/* === ANIMACIONES === */
-.quiz-options label,
-.quiz-submit,
-.quiz-retry {
-  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
-}
-
-/* === MEJORAS ADICIONALES === */
-
-/* Contenedor del quiz más espacioso */
-.quiz-container {
-  margin: 2rem 0 !important;
-}
-
-.quiz-question {
-  margin: 1.5rem 0 !important;
-  padding: 1.5rem !important;
-  border-radius: 8px !important;
-}
-
-/* Progress bar no invasiva */
-.progress-text {
-  position: relative !important;
-  top: auto !important;
-  right: auto !important;
-  margin-top: 1rem !important;
   text-align: center !important;
-  font-size: 0.85rem !important;
+  font-size: 1.1em !important;
+  line-height: 1.4 !important;
+  box-shadow: 0 2px 8px rgba(227, 83, 54, 0.1) !important;
 }
 
-/* === OTROS ELEMENTOS === */
-
-/* Simulaciones de decisión más legibles */
-.decision-step {
-  margin: 1rem 0 !important;
-  padding: 1rem !important;
-  border-radius: 6px !important;
-  line-height: 1.6 !important;
+/* Estados de carga */
+.loading {
+  opacity: 0.7 !important;
+  pointer-events: none !important;
 }
 
-/* Notebook más legible */
-.notebook {
-  margin: 1rem 0 !important;
-  padding: 1.25rem !important;
-  border-radius: 8px !important;
-  line-height: 1.7 !important;
+/* Estados de error */
+.error {
+  border: 2px solid #e74c3c !important;
+  background: rgba(231, 76, 60, 0.1) !important;
+}
+
+/* Estados de éxito */
+.success {
+  border: 2px solid #27ae60 !important;
+  background: rgba(39, 174, 96, 0.1) !important;
 }
