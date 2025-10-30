@@ -1,10 +1,9 @@
-// TEMA CLARO/OSCURO - ULTRA SIMPLE - FUNCIONA SIEMPRE
+// TEMA CLARO/OSCURO - CORREGIDO - Botón con acción correcta
 (function() {
   console.log('🚀 INICIANDO TEMA...');
   
   // Crear botón inmediatamente
   const btn = document.createElement('button');
-  btn.innerHTML = '🌙 CLARO';
   btn.style.cssText = `
     position: fixed !important;
     top: 20px !important;
@@ -25,17 +24,17 @@
   
   // Cargar tema guardado
   const saved = localStorage.getItem('tema') || 'claro';
-  cambiarTema(saved);
+  aplicarTema(saved);
   
-  // Evento del botón
+  // Evento del botón - CAMBIAR TEXTO PARA MOSTRAR ACCIÓN
   btn.onclick = function() {
     const actual = document.body.dataset.tema || 'claro';
     const nuevo = actual === 'claro' ? 'oscuro' : 'claro';
-    cambiarTema(nuevo);
+    aplicarTema(nuevo);
   };
   
-  function cambiarTema(tema) {
-    console.log('🎨 CAMBIANDO A:', tema);
+  function aplicarTema(tema) {
+    console.log('🎨 APLICANDO TEMA:', tema);
     
     // Limpiar clases anteriores
     document.body.classList.remove('tema-claro', 'tema-oscuro');
@@ -45,8 +44,10 @@
     document.body.classList.add('tema-' + tema);
     localStorage.setItem('tema', tema);
     
-    // Actualizar botón
-    btn.innerHTML = tema === 'oscuro' ? '☀️ OSCURO' : '🌙 CLARO';
+    // CAMBIAR TEXTO DEL BOTÓN PARA MOSTRAR LA ACCIÓN
+    const accion = tema === 'oscuro' ? 'CAMBIAR A CLARO' : 'CAMBIAR A OSCURO';
+    const emoji = tema === 'oscuro' ? '☀️' : '🌙';
+    btn.innerHTML = `${emoji} ${accion}`;
     
     // Aplicar estilos manualmente
     if (tema === 'oscuro') {
