@@ -1,0 +1,84 @@
+/* ========================================
+   FLIP-CARDS CONSOLIDADAS - SIN CONFLICTOS
+======================================== */
+
+.flip-container {
+    perspective: 1000px;
+    margin-bottom: 1.5rem;
+}
+
+.flip-card {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s, box-shadow 0.3s ease;
+    cursor: pointer;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.flip-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    transform: none;
+}
+
+.flip-card.is-flipped {
+    transform: rotateY(180deg);
+}
+
+.flip-card.is-flipped:hover {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.flip-card-front {
+    background: linear-gradient(135deg, #636B2F, #E35336);
+    color: white;
+}
+
+.flip-card-back {
+    background: linear-gradient(135deg, #C0672A, #636B2F);
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.tema-claro .flip-card-front {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    border: 2px solid #dee2e6;
+    color: #2c3e50;
+}
+
+.tema-claro .flip-card-back {
+    background: linear-gradient(135deg, #dee2e6, #f8f9fa);
+    border: 2px solid #dee2e6;
+    color: #2c3e50;
+}
+
+.tema-oscuro .flip-card-front {
+    background: linear-gradient(135deg, #2d2d2d, #404040);
+    border: 2px solid #404040;
+    color: #e0e0e0;
+}
+
+.tema-oscuro .flip-card-back {
+    background: linear-gradient(135deg, #404040, #555555);
+    border: 2px solid #404040;
+    color: #e0e0e0;
+}
