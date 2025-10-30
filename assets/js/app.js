@@ -1,18 +1,18 @@
 /*
- * app.js
+ * modified_app.js
  *
- * Este archivo implementa la lógica de interactividad y progresión para el
- * sitio web de metodología de la investigación. Se encarga de gestionar el
- * progreso del usuario, bloquear y desbloquear módulos según el resultado
- * de los cuestionarios, cargar los bancos de ítems y renderizar los
- * cuestionarios, las actividades de tipo flip‑card y las simulaciones de
- * decisiones. El progreso se guarda en el localStorage del navegador.
+ * Esta versión de la lógica de interacción incluye mejoras solicitadas
+ * por el Prof. Morosini para la experiencia de formación en
+ * Metodología de la Investigación. Se adapta el cuestionario para
+ * seleccionar únicamente 5 ítems en cada intento, muestra la
+ * retroalimentación específica de cada pregunta al finalizar y
+ * ofrece un botón para volver a intentar el cuestionario, mezclando
+ * aleatoriamente las preguntas disponibles. Además, mantiene el
+ * comportamiento original de bloqueo/desbloqueo de módulos basado en
+ * la puntuación del usuario.
  */
 
 (() => {
-  // Configuración de los módulos en orden.  No se realiza fetch para
-  // simplificar el código; los nombres deben coincidir con los slugs y
-  // archivos existentes.
   const MODULES = [
     { slug: 'modulo1', title: 'Problema de investigación' },
     { slug: 'modulo2', title: 'Objetivos de investigación' },
@@ -22,23 +22,16 @@
     { slug: 'modulo6', title: 'Población, muestra y muestreo' }
   ];
 
-  // Plantilla de progreso inicial. Cada módulo comienza sin completar.
   const PROGRESS_TEMPLATE = MODULES.reduce((obj, mod) => {
     obj[mod.slug] = { completed: false, score: null };
     return obj;
   }, {});
 
-  /**
-   * Devuelve el objeto de progreso almacenado en localStorage o la plantilla
-   * inicial si aún no existe. Esta función siempre devuelve un objeto
-   * completamente inicializado.
-   */
   function loadProgress() {
     const data = localStorage.getItem('progreso');
     if (data) {
       try {
         const parsed = JSON.parse(data);
-        // Asegurar que todas las claves existen
         for (const mod of MODULES) {
           if (!parsed[mod.slug]) {
             parsed[mod.slug] = { completed: false, score: null };
@@ -49,22 +42,14 @@
         console.warn('No se pudo parsear el progreso, se restablece.', err);
       }
     }
-    // Si no existe o falló el parseo, se devuelve la plantilla y se guarda
     saveProgress(PROGRESS_TEMPLATE);
     return { ...PROGRESS_TEMPLATE };
   }
 
-  /**
-   * Guarda el objeto de progreso en localStorage.
-   */
   function saveProgress(prog) {
     localStorage.setItem('progreso', JSON.stringify(prog));
   }
 
-  /**
-   * Inicializa la página de inicio: muestra los módulos y bloquea los que
-   * corresponda en función del progreso.
-   */
   function initIndex() {
     const progress = loadProgress();
     const cards = document.querySelectorAll('.module-card');
@@ -72,7 +57,6 @@
       const index = parseInt(card.getAttribute('data-index'), 10);
       const slug = card.getAttribute('data-slug');
       const btn = card.querySelector('.start-btn');
-      // Por defecto el primer módulo está disponible
       let locked = false;
       if (index > 1) {
         const prevSlug = MODULES[index - 2].slug;
@@ -85,27 +69,18 @@
       } else {
         btn.disabled = false;
         btn.addEventListener('click', () => {
-          // Navegar al módulo
           window.location.href = `modules/${slug}.html`;
         });
       }
     });
   }
 
-  /**
-   * Inicializa una página de módulo. Configura las flip‑cards, el
-   * cuestionario y la simulación de decisiones.
-   * @param {string} slug Slug del módulo, por ejemplo "modulo1".
-   */
   function initModule(slug) {
     setupFlipCards();
     setupQuiz(slug);
     setupDecisionSimulation(slug);
   }
 
-  /**
-   * Añade el comportamiento de giro a todas las tarjetas de la página.
-   */
   function setupFlipCards() {
     const cards = document.querySelectorAll('.flip-card');
     cards.forEach(card => {
@@ -116,39 +91,79 @@
   }
 
   /**
-   * Carga el banco de ítems y construye el cuestionario. El usuario
-   * responde y se calcula la puntuación. Los resultados se almacenan en
-   * el progreso, desbloqueando el siguiente módulo si corresponde.
+   * Configura el cuestionario para un módulo. Selecciona 5 preguntas al azar,
+   * renderiza las opciones, calcula el puntaje, muestra retroalimentación
+   * por ítem y ofrece la posibilidad de reintentar el cuestionario con
+   * nuevas preguntas mezcladas.
    * @param {string} slug Slug del módulo actual.
    */
   function setupQuiz(slug) {
     const quizContainer = document.getElementById('quiz-container');
     const submitBtn = document.getElementById('quiz-submit');
     const feedbackEl = document.getElementById('quiz-feedback');
-    // Ruta relativa al archivo de datos (módulos están en subcarpeta modules/)
     const dataPath = `../data/items_${slug}.json`;
     fetch(dataPath)
       .then(resp => resp.json())
       .then(data => {
         const items = data.items || [];
-        // Mezclar aleatoriamente y tomar 7 preguntas (o todas si hay menos)
-        const shuffled = items.sort(() => Math.random() - 0.5).slice(0, 7);
-        renderQuizQuestions(shuffled, quizContainer);
-        submitBtn.addEventListener('click', () => {
-          const score = evaluateQuiz(shuffled);
-          const progress = loadProgress();
-          // Guardar la puntuación
-          progress[slug] = { completed: true, score: score };
-          saveProgress(progress);
-          // Mostrar mensaje
-          if (score >= 0.8) {
-            feedbackEl.textContent = `¡Excelente! Obtuviste ${(score * 100).toFixed(0)}%. Se ha desbloqueado el siguiente módulo.`;
-          } else if (score >= 0.6) {
-            feedbackEl.textContent = `¡Buen intento! Obtuviste ${(score * 100).toFixed(0)}%. Puedes avanzar, pero te recomendamos repasar el material.`;
-          } else {
-            feedbackEl.textContent = `Obtuviste ${(score * 100).toFixed(0)}%. Te sugerimos repasar la lectura y las tarjetas antes de continuar.`;
-          }
-        }, { once: true });
+        function renderAndBind() {
+          // Barajar y tomar 5 preguntas
+          const shuffled = items.slice().sort(() => Math.random() - 0.5).slice(0, 5);
+          renderQuizQuestions(shuffled, quizContainer);
+          feedbackEl.textContent = '';
+          // Quitar retroalimentaciones previas
+          const prevFeedbacks = quizContainer.querySelectorAll('.item-feedback');
+          prevFeedbacks.forEach(el => el.remove());
+          // Eliminar botón de reintento si existe
+          const prevRetake = document.getElementById('quiz-retake');
+          if (prevRetake) prevRetake.remove();
+          submitBtn.disabled = false;
+          submitBtn.onclick = function() {
+            // Prevenir múltiples envíos hasta reintento
+            submitBtn.disabled = true;
+            const score = evaluateQuiz(shuffled);
+            const progress = loadProgress();
+            progress[slug] = { completed: true, score: score };
+            saveProgress(progress);
+            // Mostrar mensaje de desempeño general
+            if (score >= 0.8) {
+              feedbackEl.textContent = `¡Excelente! Obtuviste ${(score * 100).toFixed(0)}%. Se ha desbloqueado el siguiente módulo.`;
+            } else if (score >= 0.6) {
+              feedbackEl.textContent = `¡Buen intento! Obtuviste ${(score * 100).toFixed(0)}%. Puedes avanzar, pero te recomendamos repasar el material.`;
+            } else {
+              feedbackEl.textContent = `Obtuviste ${(score * 100).toFixed(0)}%. Te sugerimos repasar la lectura y las tarjetas antes de continuar.`;
+            }
+            // Mostrar retroalimentación individual
+            showItemFeedback(shuffled, quizContainer);
+            // Agregar botón de reintento
+            showRetakeButton();
+          };
+        }
+        function showItemFeedback(items, container) {
+          const questionDivs = container.querySelectorAll('.quiz-question');
+          items.forEach((item, idx) => {
+            const qDiv = questionDivs[idx];
+            const selected = document.querySelector(`input[name="q${idx}"]:checked`);
+            const isCorrect = selected && parseInt(selected.value, 10) === item.correct_option_index;
+            if (item.feedback) {
+              const fb = document.createElement('p');
+              fb.className = 'item-feedback';
+              fb.textContent = isCorrect ? item.feedback.correct : item.feedback.incorrect;
+              qDiv.appendChild(fb);
+            }
+          });
+        }
+        function showRetakeButton() {
+          const btn = document.createElement('button');
+          btn.id = 'quiz-retake';
+          btn.className = 'quiz-retake';
+          btn.textContent = 'Volver a intentar';
+          feedbackEl.appendChild(btn);
+          btn.addEventListener('click', () => {
+            renderAndBind();
+          });
+        }
+        renderAndBind();
       })
       .catch(err => {
         console.error('Error al cargar el banco de ítems:', err);
@@ -157,11 +172,6 @@
       });
   }
 
-  /**
-   * Renderiza las preguntas del cuestionario en el contenedor.
-   * @param {Array} items Lista de preguntas.
-   * @param {HTMLElement} container Contenedor donde se insertan las preguntas.
-   */
   function renderQuizQuestions(items, container) {
     container.innerHTML = '';
     items.forEach((item, idx) => {
@@ -189,10 +199,6 @@
     });
   }
 
-  /**
-   * Evalúa las respuestas del usuario y devuelve el puntaje en la escala 0‑1.
-   * @param {Array} items Lista de preguntas con índices de opción correcta.
-   */
   function evaluateQuiz(items) {
     let correct = 0;
     items.forEach((item, idx) => {
@@ -204,12 +210,6 @@
     return items.length > 0 ? correct / items.length : 0;
   }
 
-  /**
-   * Configura la simulación de decisiones para un módulo. Cada módulo tiene un
-   * pequeño árbol de decisiones codificado en el objeto `SIMULATIONS`. El
-   * usuario avanza a través de las preguntas y recibe un mensaje final.
-   * @param {string} slug Slug del módulo.
-   */
   function setupDecisionSimulation(slug) {
     const container = document.getElementById('decision-container');
     const sim = SIMULATIONS[slug];
@@ -237,7 +237,6 @@
           if (opt.next in sim.steps) {
             renderStep(opt.next);
           } else {
-            // Final result
             container.innerHTML = `<p>${sim.results[opt.next]}</p>`;
           }
         });
@@ -250,11 +249,6 @@
     renderStep(currentStep);
   }
 
-  // Definición de simulaciones por módulo. Cada simulación incluye un
-  // identificador de paso inicial, un objeto `steps` con preguntas y
-  // opciones que apuntan a más pasos o a resultados, y un objeto
-  // `results` con mensajes de salida. Esto permite crear rutas tipo
-  // "elige tu propio camino".
   const SIMULATIONS = {
     modulo1: {
       start: 's1',
@@ -325,7 +319,7 @@
       results: {
         success: '¡Perfecto! Una hipótesis direccional te permite predecir un sentido claro.',
         fail1: 'Una opinión no es hipótesis. ¡Necesitas variables medibles!',
-        fail2: 'Si no planteas relación, ¡no hay nada que comprobar!' 
+        fail2: 'Si no planteas relación, ¡no hay nada que comprobar!'
       }
     },
     modulo4: {
@@ -397,12 +391,11 @@
       results: {
         success: '¡Acierto! Un buen muestreo es la base de inferencias fiables.',
         fail1: 'Eso se llama muestreo por “colegas”, no es recomendable.',
-        fail2: 'Por más café que bebas, el tamaño de la muestra no cambiará. ☕' 
+        fail2: 'Por más café que bebas, el tamaño de la muestra no cambiará. ☕'
       }
     }
   };
 
-  // Poner en marcha el script cuando el DOM esté listo
   document.addEventListener('DOMContentLoaded', () => {
     const slug = document.body.getAttribute('data-module-slug');
     if (slug) {
