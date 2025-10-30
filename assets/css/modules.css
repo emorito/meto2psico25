@@ -97,7 +97,7 @@ body[data-module-slug] {
 }
 
 /* ========================================
-   TARJETAS DE REPASO (FLIP CARDS)
+   TARJETAS DE REPASO (FLIP CARDS) - VERSIÓN CORREGIDA
 ======================================== */
 
 .flip-container {
@@ -110,18 +110,25 @@ body[data-module-slug] {
     height: 200px;
     position: relative;
     transform-style: preserve-3d;
-    transition: transform 0.6s;
+    transition: transform 0.6s, box-shadow 0.3s ease;
     cursor: pointer;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* CORRECCIÓN CRÍTICA: Eliminar transform en hover que rompe el efecto 3D */
 .flip-card:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    /* NO usar transform aquí - eso rompe la rotación 3D */
 }
 
 .flip-card.is-flipped {
+    transform: rotateY(180deg);
+}
+
+/* CORRECCIÓN: Mantener la rotación incluso en hover cuando está girada */
+.flip-card.is-flipped:hover {
     transform: rotateY(180deg);
 }
 
