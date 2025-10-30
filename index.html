@@ -6,49 +6,66 @@
   <title>Centro de Entrenamiento – Metodología de la Investigación</title>
   <!-- Link to the updated stylesheet -->
   <link rel="stylesheet" href="assets/css/style.css">
-  <!-- Import Rubik font family to ensure proper loading across browsers -->
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <!-- Import Montserrat font family from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- Include Font Awesome for module icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
   <header class="hero">
-    <h1>Centro de Entrenamiento en Metodología de la Investigación</h1>
+    <h1 class="hero-title">
+      <span class="line1">Centro de Entrenamiento en</span>
+      <span class="line2">METODOLOGÍA DE LA INVESTIGACIÓN</span>
+    </h1>
     <!-- The secondary tagline is kept in the hero for context -->
     <p class="subtitle">Desarrolla habilidades de investigación con claridad, rigor y un toque de humor.</p>
     <a href="#modulos" class="cta-btn">Explorar módulos</a>
   </header>
+  <!-- Introductory section explaining the course dynamic -->
+  <section class="intro-section">
+    <p>
+      Aquí encontrarás un taller progresivo para que aprendas a tu ritmo: al completar cada unidad, se desbloqueará la siguiente. Contarás con videos, ejercicios prácticos y simulaciones; al finalizar cada tema podrás responder un cuestionario que se renueva en cada intento. No te preocupes, puedes volver a repasar cuando quieras: tu progreso se guarda automáticamente y cada nueva evaluación te ofrecerá retos diferentes para que sigas mejorando.
+    </p>
+  </section>
   <main>
     <section id="modulos" class="modules-grid">
       <!-- Module cards. The data-index attribute corresponds to the module order (1‑6) -->
-      <div class="module-card" data-index="1" data-slug="modulo1">
-        <h2>1. Problema de investigación</h2>
-        <p>Descubre cómo plantear la pregunta que moverá tu estudio.</p>
-        <button class="start-btn">¡Comenzar!</button>
-      </div>
-      <div class="module-card" data-index="2" data-slug="modulo2">
-        <h2>2. Objetivos de investigación</h2>
-        <p>Define metas claras y alcanzables para tu proyecto.</p>
-        <button class="start-btn">¡Comenzar!</button>
-      </div>
-      <div class="module-card" data-index="3" data-slug="modulo3">
-        <h2>3. Hipótesis de investigación</h2>
-        <p>Aprende a formular predicciones comprobables.</p>
-        <button class="start-btn">¡Comenzar!</button>
-      </div>
-      <div class="module-card" data-index="4" data-slug="modulo4">
-        <h2>4. Constructos y variables</h2>
-        <p>Delimita tus conceptos y mide lo que realmente importa.</p>
-        <button class="start-btn">¡Comenzar!</button>
-      </div>
-      <div class="module-card" data-index="5" data-slug="modulo5">
-        <h2>5. Diseño de investigación</h2>
-        <p>Elige el plan adecuado para responder tus preguntas.</p>
-        <button class="start-btn">¡Comenzar!</button>
-      </div>
-      <div class="module-card" data-index="6" data-slug="modulo6">
-        <h2>6. Población, muestra y muestreo</h2>
-        <p>Aprende a seleccionar participantes de manera rigurosa.</p>
-        <button class="start-btn">¡Comenzar!</button>
-      </div>
+       <div class="module-card" data-index="1" data-slug="modulo1">
+         <i class="fa-solid fa-question-circle module-icon"></i>
+         <h2>Problema de investigación</h2>
+         <p>Descubre cómo plantear la pregunta que moverá tu estudio.</p>
+         <button class="start-btn">¡Comenzar!</button>
+       </div>
+       <div class="module-card" data-index="2" data-slug="modulo2">
+         <i class="fa-solid fa-bullseye module-icon"></i>
+         <h2>Objetivos de investigación</h2>
+         <p>Define metas claras y alcanzables para tu proyecto.</p>
+         <button class="start-btn">¡Comenzar!</button>
+       </div>
+       <div class="module-card" data-index="3" data-slug="modulo3">
+         <i class="fa-solid fa-lightbulb module-icon"></i>
+         <h2>Hipótesis de investigación</h2>
+         <p>Aprende a formular predicciones comprobables.</p>
+         <button class="start-btn">¡Comenzar!</button>
+       </div>
+       <div class="module-card" data-index="4" data-slug="modulo4">
+         <i class="fa-solid fa-layer-group module-icon"></i>
+         <h2>Constructos y variables</h2>
+         <p>Delimita tus conceptos y mide lo que realmente importa.</p>
+         <button class="start-btn">¡Comenzar!</button>
+       </div>
+       <div class="module-card" data-index="5" data-slug="modulo5">
+         <i class="fa-solid fa-diagram-project module-icon"></i>
+         <h2>Diseño de investigación</h2>
+         <p>Elige el plan adecuado para responder tus preguntas.</p>
+         <button class="start-btn">¡Comenzar!</button>
+       </div>
+       <div class="module-card" data-index="6" data-slug="modulo6">
+         <i class="fa-solid fa-users module-icon"></i>
+         <h2>Población, muestra y muestreo</h2>
+         <p>Aprende a seleccionar participantes de manera rigurosa.</p>
+         <button class="start-btn">¡Comenzar!</button>
+       </div>
     </section>
   </main>
   <!-- Footer moved here to highlight authorship and AI involvement -->
