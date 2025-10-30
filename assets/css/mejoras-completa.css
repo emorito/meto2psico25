@@ -1,9 +1,12 @@
-/* MEJORAS COMPLETA CSS - VERSIÓN CORREGIDA
-   Contraste mejorado para flip-cards y botón NOTEBOOK LM */
+/* MEJORAS COMPLETA CSS - VERSION ARREGLADA
+   Esta versión corrige el comportamiento de las tarjetas giratorias (flip‑cards)
+   y mejora el contraste de colores en el modo oscuro y claro. Se basa en la
+   hoja de estilos original `mejoras-completa.css`, eliminando la propiedad
+   `transform` en el estado hover de las flip‑cards para evitar interferir
+   con la rotación 3D y ajustando las reglas de tema para conservar la
+   legibilidad.  */
 
-/* === MEJORAS DE CONTRASTE EN MODO CLARO === */
-
-/* Flip-cards: garantizar texto legible en ambos modos */
+/* --- Mejora de contraste para flip‑cards en modo claro --- */
 .tema-claro .flip-card {
   background: linear-gradient(135deg, #f8f9fa, #e9ecef) !important;
   border: 2px solid #dee2e6 !important;
@@ -16,7 +19,7 @@
   background: transparent !important;
 }
 
-/* Flip-cards modo oscuro: mantener estilo original */
+/* --- Mejora de contraste para flip‑cards en modo oscuro --- */
 .tema-oscuro .flip-card {
   background: linear-gradient(135deg, #2d2d2d, #404040) !important;
   border-color: #404040 !important;
@@ -29,14 +32,28 @@
   background: transparent !important;
 }
 
-/* Botón NOTEBOOK LM: mejor contraste en modo claro */
-.tema-claro .notebook {
-  background: #f8f9fa !important;
-  border: 2px solid #dee2e6 !important;
-  color: #2c3e50 !important;
+/* --- Eliminar el desplazamiento vertical en hover de flip‑cards --- */
+/* Antes se utilizaba `transform: translateY(-2px)` en el estado :hover de
+   .flip-card, lo que colisionaba con la rotación 3D aplicada cuando se
+   añadía la clase `is-flipped`. Al eliminar esa transformación, se
+   preserva la rotación correcta y el usuario sigue obteniendo un efecto
+   visual mediante la sombra aumentada. */
+.flip-card:hover {
+  /* No tocar la rotación actual (rotateY) aplicada por .is-flipped */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important;
+  transition: all 0.3s ease !important;
 }
 
-/* Asegurar que todos los botones tengan buen contraste */
+/* --- Reducir espaciado entre opciones en cuestionario --- */
+.quiz-options li {
+  margin-bottom: 0.6rem !important;
+}
+
+.quiz-options li:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* --- Ajustes de color para botones en modo claro --- */
 .tema-claro button:not(.nav-button):not(.demo-button):not(.exam-button) {
   background: #E35336 !important;
   color: white !important;
@@ -47,71 +64,16 @@
   background: #C44529 !important;
 }
 
-/* === MEJORAS EN CUESTIONARIOS === */
-
-/* Reducir espaciado entre opciones */
-.quiz-options li {
-  margin-bottom: 0.6rem !important;
-}
-
-.quiz-options li:last-child {
-  margin-bottom: 0 !important;
-}
-
-/* Botones del cuestionario */
-.quiz-submit-btn {
-  margin-top: 1.5rem !important;
-  display: block !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
-/* Feedback del quiz: evitar superposición */
-.quiz-feedback {
-  margin-bottom: 1.5rem !important;
-  clear: both !important;
-}
-
-/* Respuestas de quiz en modo claro */
-.tema-claro .quiz-options label {
-  color: #2c3e50 !important;
-  background: #ffffff !important;
-  border: 1px solid #dee2e6 !important;
-}
-
-.tema-claro .quiz-options label:hover {
-  background: #f8f9fa !important;
-  border-color: #E35336 !important;
-}
-
-.tema-claro .quiz-question h4,
-.tema-claro .decision-step p {
-  color: #2c3e50 !important;
-}
-
-/* === ESTILOS ADICIONALES PARA MEJORAR CONTRASTE === */
-
-/* Enlaces en modo claro */
+/* --- Ajustes de color para enlaces --- */
 .tema-claro a {
   color: #E35336 !important;
 }
 
-.tema-claro a:hover {
-  color: #C44529 !important;
-  text-decoration: underline !important;
-}
-
-/* Enlaces en modo oscuro */
 .tema-oscuro a {
-  color: #3498db !important;
+  color: #74b9ff !important;
 }
 
-.tema-oscuro a:hover {
-  color: #2980b9 !important;
-  text-decoration: underline !important;
-}
-
-/* Formularios en modo claro */
+/* --- Formularios y campos de entrada --- */
 .tema-claro input,
 .tema-claro textarea,
 .tema-claro select {
@@ -120,15 +82,6 @@
   color: #2c3e50 !important;
 }
 
-.tema-claro input:focus,
-.tema-claro textarea:focus,
-.tema-claro select:focus {
-  border-color: #E35336 !important;
-  outline: none !important;
-  box-shadow: 0 0 0 3px rgba(227, 83, 54, 0.1) !important;
-}
-
-/* Formularios en modo oscuro */
 .tema-oscuro input,
 .tema-oscuro textarea,
 .tema-oscuro select {
@@ -137,182 +90,11 @@
   color: #ecf0f1 !important;
 }
 
-.tema-oscuro input:focus,
-.tema-oscuro textarea:focus,
-.tema-oscuro select:focus {
-  border-color: #E35336 !important;
-  outline: none !important;
-  box-shadow: 0 0 0 3px rgba(227, 83, 54, 0.2) !important;
-}
-
-/* === MEJORAS EN TIPOGRAFÍA === */
-
-/* Títulos con mejor contraste */
-.tema-claro h1, 
-.tema-claro h2, 
-.tema-claro h3, 
-.tema-claro h4, 
-.tema-claro h5, 
-.tema-claro h6 {
-  color: #2c3e50 !important;
-}
-
-.tema-oscuro h1, 
-.tema-oscuro h2, 
-.tema-oscuro h3, 
-.tema-oscuro h4, 
-.tema-oscuro h5, 
-.tema-oscuro h6 {
-  color: #ecf0f1 !important;
-}
-
-/* Párrafos con mejor contraste */
-.tema-claro p {
-  color: #2c3e50 !important;
-  line-height: 1.6 !important;
-}
-
-.tema-oscuro p {
-  color: #bdc3c7 !important;
-  line-height: 1.6 !important;
-}
-
-/* === CONTENEDORES PRINCIPALES === */
-
-/* Contenedores en modo claro */
-.tema-claro .container,
-.tema-claro .section,
-.tema-claro .quiz-question,
-.tema-claro .decision-step {
-  background: #f8f9fa !important;
-  border-color: #dee2e6 !important;
-  color: #2c3e50 !important;
-}
-
-/* Contenedores en modo oscuro */
-.tema-oscuro .container,
-.tema-oscuro .section,
-.tema-oscuro .quiz-question,
-.tema-oscuro .decision-step {
-  background: #2d3748 !important;
-  border-color: #404040 !important;
-  color: #e0e0e0 !important;
-}
-
-/* === TARJETAS Y ELEMENTOS INTERACTIVOS === */
-
-/* Tarjetas generales */
-.tema-claro .card {
-  background: #ffffff !important;
-  border: 1px solid #dee2e6 !important;
-  color: #2c3e50 !important;
-}
-
-.tema-oscuro .card {
-  background: #2d3748 !important;
-  border: 1px solid #404040 !important;
-  color: #e0e0e0 !important;
-}
-
-/* Lista de elementos */
-.tema-claro ul li {
-  color: #2c3e50 !important;
-}
-
-.tema-oscuro ul li {
-  color: #bdc3c7 !important;
-}
-
-/* Elementos de lista numerada */
-.tema-claro ol li {
-  color: #2c3e50 !important;
-}
-
-.tema-oscuro ol li {
-  color: #bdc3c7 !important;
-}
-
-/* === ANIMACIONES Y TRANSICIONES === */
-
-/* Transiciones suaves para todos los elementos interactivos */
-button, 
-.flip-card, 
-.card, 
+/* --- General: transiciones suaves --- */
+button,
+.flip-card,
+.card,
 .quiz-options label,
 a {
   transition: all 0.3s ease !important;
-}
-
-/* Efectos hover mejorados */
-.quiz-options label:hover {
-  transform: translateX(3px) !important;
-  transition: all 0.2s ease !important;
-}
-
-.flip-card:hover {
-  transform: translateY(-2px) !important;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important;
-  transition: all 0.3s ease !important;
-}
-
-/* === RESPONSIVE MEJORADO === */
-
-/* Dispositivos móviles */
-@media (max-width: 768px) {
-  .quiz-options li {
-    margin-bottom: 0.8rem !important;
-  }
-  
-  .quiz-submit-btn {
-    margin-top: 1rem !important;
-    width: 100% !important;
-  }
-  
-  .flip-card {
-    margin-bottom: 1rem !important;
-  }
-}
-
-/* Tablets */
-@media (max-width: 1024px) and (min-width: 769px) {
-  .quiz-options {
-    grid-template-columns: 1fr !important;
-  }
-  
-  .flip-card {
-    margin-bottom: 1.5rem !important;
-  }
-}
-
-/* === ESTADOS ESPECIALES === */
-
-/* Texto descriptivo solo para portada */
-.texto-descriptivo-unidades {
-  background: rgba(227, 83, 54, 0.1) !important;
-  border: 2px solid #E35336 !important;
-  border-radius: 8px !important;
-  padding: 1rem !important;
-  margin: 1rem 0 !important;
-  text-align: center !important;
-  font-size: 1.1em !important;
-  line-height: 1.4 !important;
-  box-shadow: 0 2px 8px rgba(227, 83, 54, 0.1) !important;
-}
-
-/* Estados de carga */
-.loading {
-  opacity: 0.7 !important;
-  pointer-events: none !important;
-}
-
-/* Estados de error */
-.error {
-  border: 2px solid #e74c3c !important;
-  background: rgba(231, 76, 60, 0.1) !important;
-}
-
-/* Estados de éxito */
-.success {
-  border: 2px solid #27ae60 !important;
-  background: rgba(39, 174, 96, 0.1) !important;
 }
