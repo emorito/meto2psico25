@@ -1,6 +1,6 @@
-// MEJORAS COMPLETA - VERSIÓN CORREGIDA - Iconos, Texto Solo Portada, Flip-Cards y Contraste
+// MEJORAS COMPLETA - SIN CONFLICTOS CON FLIP-CARDS
 (function() {
-  console.log('🎯 INICIANDO MEJORAS COMPLETAS CORREGIDAS...');
+  console.log('🎯 INICIANDO MEJORAS COMPLETAS SIN CONFLICTOS...');
   
   // Lista de íconos para cada módulo
   const ICONOS_UNIDADES = {
@@ -14,7 +14,7 @@
   
   // Aplicar mejoras cuando el DOM esté listo
   document.addEventListener('DOMContentLoaded', function() {
-    console.log('📋 DOM LISTO - APLICANDO MEJORAS CORREGIDAS');
+    console.log('📋 DOM LISTO - APLICANDO MEJORAS SIN CONFLICTOS');
     
     // 1. Agregar íconos a títulos de unidades (solo en módulos específicos)
     agregarIconosUnidades();
@@ -22,16 +22,16 @@
     // 2. Agregar texto descriptivo SOLO en portada principal (verificar si estamos en home)
     agregarTextoDescriptivoSoloPortada();
     
-    // 3. Corregir flip-cards para mostrar respuestas correctamente
-    corregirFlipCards();
+    // ❌ ELIMINADA LA FUNCIÓN PROBLEMÁTICA: corregirFlipCards()
+    // Las flip-cards ya funcionan correctamente con app.js
     
-    // 4. Mejorar contraste en modo claro
+    // 3. Mejorar contraste en modo claro (sin tocar flip-cards)
     mejorarContrasteModoClaro();
     
-    // 5. Mejorar cuestionarios
+    // 4. Mejorar cuestionarios
     mejorarCuestionarios();
     
-    console.log('✅ TODAS LAS MEJORAS CORREGIDAS APLICADAS');
+    console.log('✅ TODAS LAS MEJORAS APLICADAS SIN CONFLICTOS');
   });
   
   // 1. FUNCIÓN: Agregar íconos a títulos de unidades (solo módulos específicos)
@@ -113,77 +113,12 @@
     }
   }
   
-  // 3. FUNCIÓN: Corregir flip-cards para mostrar respuestas en lugar de preguntas invertidas
-  function corregirFlipCards() {
-    const flipCards = document.querySelectorAll('.flip-card');
-    
-    flipCards.forEach(card => {
-      const cardInner = card.querySelector('.flip-card-inner');
-      const cardFront = card.querySelector('.flip-card-front');
-      const cardBack = card.querySelector('.flip-card-back');
-      
-      if (cardInner && cardFront && cardBack) {
-        // Verificar que la parte trasera contiene la respuesta
-        const backContent = cardBack.textContent.trim();
-        const frontContent = cardFront.textContent.trim();
-        
-        console.log(`🔄 Revisando flip-card: Front="${frontContent.substring(0, 50)}..." Back="${backContent.substring(0, 50)}...`);
-        
-        // Si el contenido trasero parece una pregunta (interrogación o longitud similar al frente)
-        // intercamibiar el contenido
-        if ((backContent.includes('?') || backContent.length === frontContent.length) && 
-            !backContent.includes('.') && !backContent.includes(':')) {
-          
-          const tempFront = cardFront.innerHTML;
-          cardFront.innerHTML = cardBack.innerHTML;
-          cardBack.innerHTML = tempFront;
-          
-          console.log(`✅ Contenido intercambiado en flip-card`);
-        }
-      }
-      
-      // Mejorar evento de clic
-      card.addEventListener('click', function() {
-        console.log('🎴 Flip-card clickeada, girando...');
-        cardInner.style.transform = cardInner.style.transform === 'rotateY(180deg)' ? 'rotateY(0deg)' : 'rotateY(180deg)';
-      });
-    });
-    
-    console.log(`✅ ${flipCards.length} flip-cards corregidas`);
-  }
-  
-  // 4. FUNCIÓN: Mejorar contraste en modo claro para flip-cards y notebook
+  // 3. FUNCIÓN: Mejorar contraste en modo claro (SIN TOCAR FLIP-CARDS)
   function mejorarContrasteModoClaro() {
     const style = document.createElement('style');
     style.id = 'contraste-mejorado';
     style.textContent = `
       /* === MEJORAS DE CONTRASTE EN MODO CLARO === */
-      
-      /* Flip-cards: garantizar texto legible en ambos modos */
-      .tema-claro .flip-card {
-        background: linear-gradient(135deg, #f8f9fa, #e9ecef) !important;
-        border: 2px solid #dee2e6 !important;
-        color: #2c3e50 !important;
-      }
-      
-      .tema-claro .flip-card-front,
-      .tema-claro .flip-card-back {
-        color: #2c3e50 !important;
-        background: transparent !important;
-      }
-      
-      /* Flip-cards modo oscuro: mantener estilo original */
-      .tema-oscuro .flip-card {
-        background: linear-gradient(135deg, #2d2d2d, #404040) !important;
-        border-color: #404040 !important;
-        color: #e0e0e0 !important;
-      }
-      
-      .tema-oscuro .flip-card-front,
-      .tema-oscuro .flip-card-back {
-        color: #e0e0e0 !important;
-        background: transparent !important;
-      }
       
       /* Botón NOTEBOOK LM: mejor contraste en modo claro */
       .tema-claro .notebook {
@@ -202,13 +137,15 @@
       .tema-claro button:not(.nav-button):not(.demo-button):hover {
         background: #C44529 !important;
       }
+      
+      /* Solo mejorar contraste general, NO FLIP-CARDS (ya funcionan bien) */
     `;
     
     document.head.appendChild(style);
-    console.log('✅ Estilos de contraste mejorado agregados');
+    console.log('✅ Estilos de contraste mejorado agregados (sin flip-cards)');
   }
   
-  // 5. FUNCIÓN: Mejorar cuestionarios (espaciado y posición)
+  // 4. FUNCIÓN: Mejorar cuestionarios (espaciado y posición)
   function mejorarCuestionarios() {
     const style = document.createElement('style');
     style.id = 'cuestionarios-mejorados';
