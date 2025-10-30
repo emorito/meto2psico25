@@ -149,6 +149,7 @@ body[data-module-slug] {
 .flip-card-back {
     background: linear-gradient(135deg, #C0672A, #636B2F);
     color: white;
+    transform: rotateY(180deg);
 }
 
 /* ========================================
