@@ -6,14 +6,14 @@
  * is to modernise the visual identity without affecting functionality.
  */
 
-/* Import fonts from Google Fonts */
-/*
- * Rubik provides a geometric sans‑serif style with slightly rounded
- * corners and generous weight options. Its letterforms offer a
- * contemporary, professional feel that remains readable at various
- * sizes. Inter is included as a fallback.
+/* Import fonts from Google Fonts
+ *
+ * Montserrat is a versatile sans‑serif family with both light and bold
+ * weights. It lends un cuerpo “gordito” cuando se utilizan los pesos
+ * más altos y mantiene una excelente legibilidad en tamaños grandes o
+ * pequeños. Inter se mantiene como fuente de respaldo.
  */
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700;900&family=Inter:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&family=Inter:wght@400;600;700&display=swap');
 
 /* CSS variables for easy theming */
 :root {
@@ -70,7 +70,8 @@
 
 body {
   margin: 0;
-  font-family: 'Rubik', sans-serif;
+  /* Aplica Montserrat como fuente base para todo el sitio. */
+  font-family: 'Montserrat', sans-serif;
   background: var(--color-background);
   color: var(--color-text);
   line-height: 1.6;
@@ -116,12 +117,35 @@ header.hero::after {
 }
 
 header.hero h1 {
-  font-size: 2.75rem;
+  /* The hero title now contains two separate lines styled via child
+     spans. This rule remains for backward compatibility but no longer
+     sets weight or size directly. */
+  font-size: inherit;
+  margin-bottom: 0;
+  font-weight: inherit;
+  color: inherit;
+}
+
+/* Two‑line hero title styling */
+header.hero .hero-title {
   margin-bottom: 0.5rem;
-  /* Use the heaviest weight available in Rubik for a bold effect */
-  font-weight: 900;
-  /* Ensure the title stands out on the dark hero background */
+}
+header.hero .hero-title .line1 {
+  display: block;
+  /* Lighter weight for the introductory line */
+  font-weight: 300;
+  font-size: 1.6rem;
+  color: #f5f5f5;
+  letter-spacing: 0.5px;
+}
+header.hero .hero-title .line2 {
+  display: block;
+  /* Heavier weight and uppercase for emphasis */
+  font-weight: 800;
+  font-size: 2.4rem;
   color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 header.hero .subtitle {
@@ -195,6 +219,55 @@ header.hero .cta-btn:hover {
 .module-card h2 {
   margin-bottom: 0.5rem;
   font-size: 1.2rem;
+}
+
+/* Style for icons placed above module titles */
+.module-card .module-icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+/* Assign different colours to icons based on module index */
+.module-card[data-index="1"] .module-icon { color: var(--color-primary); }
+.module-card[data-index="2"] .module-icon { color: var(--color-secondary); }
+.module-card[data-index="3"] .module-icon { color: var(--color-accent); }
+.module-card[data-index="4"] .module-icon { color: var(--color-secondary); }
+.module-card[data-index="5"] .module-icon { color: var(--color-primary); }
+.module-card[data-index="6"] .module-icon { color: var(--color-accent); }
+
+/* Introductory section beneath the hero */
+.intro-section {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: var(--color-surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  color: var(--color-text);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Feedback for individual quiz items */
+.quiz-question .item-feedback {
+  margin-top: 0.5rem;
+  font-style: italic;
+  color: var(--color-secondary);
+}
+
+/* Retake button styling */
+.quiz-retake {
+  margin-top: 1rem;
+  background: var(--color-secondary);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.quiz-retake:hover {
+  background: var(--color-primary);
 }
 
 .module-card p {
