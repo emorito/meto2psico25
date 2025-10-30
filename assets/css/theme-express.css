@@ -1,31 +1,167 @@
-/* TEMA CLARO/OSCURO - ULTRA SIMPLE - 15 MINUTOS */
+/* TEMA CLARO/OSCURO - CORREGIDO - Tipografías Legibles */
+
+/* Estados base del tema */
 body.tema-oscuro {
   background: #1a1a1a !important;
   color: #e0e0e0 !important;
 }
+
 body.tema-claro {
   background: #ffffff !important;
   color: #2c3e50 !important;
 }
+
+/* === CONTENEDORES CON TEMA === */
 .tema-oscuro .container,
 .tema-oscuro .section,
 .tema-oscuro .quiz-question,
-.tema-oscuro .decision-step {
+.tema-oscuro .decision-step,
+.tema-oscuro .notebook,
+.tema-oscuro .flip-card {
   background: #2d2d2d !important;
   border-color: #404040 !important;
+  color: #e0e0e0 !important;
 }
+
 .tema-claro .container,
 .tema-claro .section,
 .tema-claro .quiz-question,
-.tema-claro .decision-step {
+.tema-claro .decision-step,
+.tema-claro .notebook,
+.tema-claro .flip-card {
   background: #f8f9fa !important;
   border-color: #dee2e6 !important;
+  color: #2c3e50 !important;
 }
+
+/* === TÍTULOS CON TEMA === */
+.tema-oscuro h1, 
 .tema-oscuro h2, 
-.tema-oscuro h3 {
+.tema-oscuro h3, 
+.tema-oscuro h4, 
+.tema-oscuro h5, 
+.tema-oscuro h6 {
   color: #e0e0e0 !important;
 }
+
+.tema-claro h1, 
 .tema-claro h2, 
-.tema-claro h3 {
+.tema-claro h3, 
+.tema-claro h4, 
+.tema-claro h5, 
+.tema-claro h6 {
   color: #2c3e50 !important;
+}
+
+/* === ELEMENTOS DE FORMULARIO === */
+.tema-claro .quiz-options label {
+  color: #2c3e50 !important;
+  background: rgba(227, 83, 54, 0.05) !important;
+}
+
+.tema-claro .quiz-options label:hover {
+  background: rgba(227, 83, 54, 0.1) !important;
+}
+
+.tema-claro .quiz-options input[type="radio"] {
+  accent-color: #E35336 !important;
+}
+
+/* === PARRAFOS Y TEXTO === */
+.tema-claro p,
+.tema-claro li,
+.tema-claro span,
+.tema-claro div {
+  color: #2c3e50 !important;
+}
+
+.tema-oscuro p,
+.tema-oscuro li,
+.tema-oscuro span,
+.tema-oscuro div {
+  color: #e0e0e0 !important;
+}
+
+/* === ENLACES === */
+.tema-claro a {
+  color: #E35336 !important;
+}
+
+.tema-oscuro a {
+  color: #74b9ff !important;
+}
+
+/* === ELEMENTOS ESPECÍFICOS DEL QUIZ === */
+.tema-claro .quiz-question h4 {
+  color: #2c3e50 !important;
+}
+
+.tema-claro .decision-step p {
+  color: #2c3e50 !important;
+}
+
+.tema-claro .decision-step strong {
+  color: #E35336 !important;
+}
+
+/* === FEEDBACK DEL QUIZ === */
+.tema-claro .quiz-feedback {
+  background: #fff3cd !important;
+  color: #856404 !important;
+  border-color: #ffeaa7 !important;
+}
+
+.tema-claro .quiz-feedback.success {
+  background: #d4edda !important;
+  color: #155724 !important;
+  border-color: #c3e6cb !important;
+}
+
+.tema-claro .quiz-feedback.error {
+  background: #f8d7da !important;
+  color: #721c24 !important;
+  border-color: #f5c6cb !important;
+}
+
+/* === NAVEGACIÓN === */
+.tema-claro .back-link {
+  color: #E35336 !important;
+}
+
+.tema-claro .back-link:hover {
+  color: #c43a2a !important;
+}
+
+/* === VIDEOS E IFRAMES === */
+.tema-claro .video {
+  border: 2px solid #dee2e6 !important;
+}
+
+.tema-claro .pdf {
+  border: 2px solid #dee2e6 !important;
+}
+
+/* === BOTONES === */
+.tema-claro .quiz-submit,
+.tema-claro .quiz-retry,
+.tema-claro button {
+  background: #E35336 !important;
+  color: white !important;
+  border: none !important;
+}
+
+.tema-claro .quiz-submit:hover,
+.tema-claro .quiz-retry:hover,
+.tema-claro button:hover {
+  background: #c43a2a !important;
+}
+
+/* === SCROLLBARS === */
+.tema-claro ::-webkit-scrollbar {
+  background: #f1f1f1 !important;
+}
+
+.tema-claro ::-webkit-scrollbar-thumb {
+  background: #E35336 !important;
+  border-radius: 4px !important;
 }
