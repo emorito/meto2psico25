@@ -116,7 +116,7 @@ a {
 }
 
 /* Asegurar que si la tarjeta está girada, se mantenga la rotación al pasar el ratón */
-.flip-card.is-flipped:hover {
+.flip-card.is-flipped:hover .flip-card-inner {
   transform: rotateY(180deg) !important;
 }
 
