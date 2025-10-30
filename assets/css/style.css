@@ -6,8 +6,14 @@
  * is to modernise the visual identity without affecting functionality.
  */
 
-/* Import the Inter font from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+/* Import fonts from Google Fonts */
+/*
+ * Rubik provides a geometric sans‑serif style with slightly rounded
+ * corners and generous weight options. Its letterforms offer a
+ * contemporary, professional feel that remains readable at various
+ * sizes. Inter is included as a fallback.
+ */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700;900&family=Inter:wght@400;600;700&display=swap');
 
 /* CSS variables for easy theming */
 :root {
@@ -48,8 +54,13 @@
    * to complement the olive secondary colour.
    */
   --color-muted: #70735C;
-  --radius: 8px;
-  --shadow: 0 2px 4px rgba(0,0,0,0.1);
+  /* Increase the default corner radius for cards, buttons and panels to
+   * achieve a softer, more refined appearance reminiscent of the designs
+   * in Psicometría II. */
+  --radius: 12px;
+  /* Adjust the default shadow to be slightly larger and softer for
+   * increased depth without harshness. */
+  --shadow: 0 4px 8px rgba(0,0,0,0.08);
 }
 
 /* Reset some default styles */
@@ -59,7 +70,7 @@
 
 body {
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Rubik', sans-serif;
   background: var(--color-background);
   color: var(--color-text);
   line-height: 1.6;
@@ -81,19 +92,36 @@ header.hero {
   color: #ffffff;
   text-align: center;
   padding: 6rem 1rem;
-  /* Apply a terracotta/olive gradient overlay atop the hero illustration.
-     Increase the opacity slightly to ensure sufficient contrast on light
-     sections of the image. */
-  background-image: linear-gradient(rgba(227, 83, 54, 0.6), rgba(99, 107, 47, 0.6)), url('../img/hero.png');
+  /* Apply a darkened green gradient overlay atop the hero illustration. The
+     colours chosen (deep forest greens) produce a more sophisticated
+     ambiance, while preserving subtle detail from the underlying image.
+     This replaces the previous terracotta/olive overlay. */
+  background-image: linear-gradient(rgba(34, 46, 34, 0.8), rgba(20, 30, 20, 0.8)), url('../img/hero.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  /* Add a decorative green bar at the bottom of the hero using a
+     pseudo‑element. See the ::after rule below. */
+}
+
+/* Decorative bar under the hero header */
+header.hero::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 6px;
+  background: var(--color-secondary);
 }
 
 header.hero h1 {
   font-size: 2.75rem;
   margin-bottom: 0.5rem;
-  font-weight: 700;
+  /* Use the heaviest weight available in Rubik for a bold effect */
+  font-weight: 900;
+  /* Ensure the title stands out on the dark hero background */
+  color: #ffffff;
 }
 
 header.hero .subtitle {
@@ -363,4 +391,21 @@ embed.pdf {
   embed.pdf {
     height: 300px;
   }
+}
+
+/* Footer styling */
+.site-footer {
+  margin-top: 3rem;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--color-muted);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  background: var(--color-background);
+}
+
+.site-footer a {
+  color: var(--color-secondary);
+  text-decoration: none;
+  font-weight: 600;
 }
