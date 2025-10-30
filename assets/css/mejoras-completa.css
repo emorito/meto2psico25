@@ -98,3 +98,42 @@ button,
 a {
   transition: all 0.3s ease !important;
 }
+
+/* MEJORAS COMPLETA CSS - VERSION ARREGLADA v2
+   Correcciones adicionales para las flip‑cards y mejora del contraste en
+   el modo oscuro para los elementos seleccionados del cuestionario.
+   Incluye todas las reglas de `fixed_mejoras-completa.css` y añade
+   comportamientos específicos para hover y selección en modo oscuro. */
+
+/* Importar las reglas base de la versión arreglada anterior */
+@import url('fixed_mejoras-completa.css');
+
+/* --- Control de transformaciones de las flip‑cards en hover --- */
+/* Evitar que el estado :hover sobrescriba la rotación 3D de .is-flipped */
+.flip-card:hover {
+  transform: none !important; /* no aplicar desplazamientos verticales */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Asegurar que si la tarjeta está girada, se mantenga la rotación al pasar el ratón */
+.flip-card.is-flipped:hover {
+  transform: rotateY(180deg) !important;
+}
+
+/* --- Mejorar el contraste de las opciones del cuestionario en modo oscuro --- */
+.tema-oscuro .quiz-options label {
+  background: #2d2d2d !important;
+  border: 1px solid #404040 !important;
+  color: #e0e0e0 !important;
+}
+
+.tema-oscuro .quiz-options label:hover {
+  background: #333333 !important;
+  border-color: #E35336 !important;
+}
+
+/* Estilo de los radios en modo oscuro para que el círculo seleccionado sea visible */
+.tema-oscuro .quiz-options input[type="radio"] {
+  accent-color: #E35336 !important;
+}
+
