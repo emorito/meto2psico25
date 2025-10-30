@@ -102,27 +102,43 @@ body[data-module-slug] {
 
 .flip-container {
     perspective: 1000px;
+    -webkit-perspective: 1000px;
     margin-bottom: 1.5rem;
 }
+
 
 .flip-card {
     width: 100%;
     height: 200px;
     position: relative;
-    transform-style: preserve-3d;
-    transition: transform 0.6s;
     cursor: pointer;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    transition: transform 0.6s ease;
+    transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    will-change: transform;
 }
 
 .flip-card:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
 
-.flip-card.is-flipped {
+.flip-card.is-flipped .flip-card-inner {
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
 }
 
 .flip-card-front,
@@ -131,6 +147,7 @@ body[data-module-slug] {
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -139,17 +156,133 @@ body[data-module-slug] {
     border-radius: 8px;
     font-weight: 600;
     font-size: 1.1rem;
-    transform: rotateY(180deg);
 }
 
 .flip-card-front {
     background: linear-gradient(135deg, #636B2F, #E35336);
     color: white;
+    transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
 }
 
 .flip-card-back {
     background: linear-gradient(135deg, #C0672A, #636B2F);
     color: white;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
+
+/* ========================================
+   NAVEGACIÓN ENTRE MÓDULOS
+======================================== */
+
+.module-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2.5rem;
+}
+
+.nav-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 999px;
+    border: none;
+    padding: 0.85rem 1.6rem;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.3s ease;
+    text-decoration: none;
+    background: linear-gradient(135deg, #636B2F, #E35336);
+    color: #fff;
+    box-shadow: 0 6px 18px rgba(99, 107, 47, 0.2);
+    text-align: center;
+}
+
+.nav-button:hover,
+.nav-button:focus-visible {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 22px rgba(99, 107, 47, 0.25);
+}
+
+.nav-button:focus-visible {
+    outline: 3px solid rgba(227, 83, 54, 0.35);
+    outline-offset: 2px;
+}
+
+.module-nav-prev {
+    background: white;
+    color: #2c3e50;
+    border: 1px solid #dfe4d9;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.module-nav-prev:hover,
+.module-nav-prev:focus-visible {
+    background: #f8f9fa;
+    color: #2c3e50;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.12);
+}
+
+button.nav-button {
+    background: linear-gradient(135deg, #E35336, #C44529);
+}
+
+button.nav-button.is-ready {
+    background: linear-gradient(135deg, #2b9348, #55a630);
+    box-shadow: 0 10px 22px rgba(43, 147, 72, 0.35);
+}
+
+button.nav-button.is-bypassed {
+    background: linear-gradient(135deg, #f08a4b, #e76f51);
+    box-shadow: 0 10px 20px rgba(231, 111, 81, 0.35);
+}
+
+button.nav-button.is-finished {
+    background: linear-gradient(135deg, #31587a, #1d3557);
+    box-shadow: 0 10px 22px rgba(29, 53, 87, 0.35);
+}
+
+button.nav-button[disabled] {
+    cursor: not-allowed;
+    opacity: 0.65;
+    box-shadow: none;
+    transform: none;
+    background: linear-gradient(135deg, #b0b7a6, #c8cfc0);
+    color: #555;
+}
+
+button.nav-button.module-nav-bypass {
+    background: rgba(227, 83, 54, 0.08);
+    color: #c44529;
+    border: 1px dashed rgba(196, 69, 41, 0.6);
+    box-shadow: none;
+}
+
+button.nav-button.module-nav-bypass:hover,
+button.nav-button.module-nav-bypass:focus-visible {
+    background: rgba(227, 83, 54, 0.16);
+    color: #9b3520;
+}
+
+.module-nav-bypass[hidden] {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .module-navigation {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .nav-button {
+        width: 100%;
+    }
 }
 
 /* ========================================
