@@ -38,18 +38,11 @@
    añadía la clase `is-flipped`. Al eliminar esa transformación, se
    preserva la rotación correcta y el usuario sigue obteniendo un efecto
    visual mediante la sombra aumentada. */
-
-/* --- ARCHIVO DE MEJORAS CORREGIDO --- */
-/* Solo controla sombras, NO transformaciones */
-
 .flip-card:hover {
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15) !important;
+  /* No tocar la rotación actual (rotateY) aplicada por .is-flipped */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important;
+  transition: all 0.3s ease !important;
 }
-
-.flip-card.is-flipped:hover {
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15) !important;
-}
-
 
 /* --- Reducir espaciado entre opciones en cuestionario --- */
 .quiz-options li {
@@ -143,4 +136,3 @@ a {
 .tema-oscuro .quiz-options input[type="radio"] {
   accent-color: #E35336 !important;
 }
-
