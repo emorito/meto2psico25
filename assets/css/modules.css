@@ -139,6 +139,7 @@ body[data-module-slug] {
     border-radius: 8px;
     font-weight: 600;
     font-size: 1.1rem;
+    transform: rotateY(180deg);
 }
 
 .flip-card-front {
