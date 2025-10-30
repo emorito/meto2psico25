@@ -1,5 +1,7 @@
 /* ========================================
    FLIP-CARDS CONSOLIDADAS - SIN CONFLICTOS
+   Este archivo contiene todas las reglas de flip-cards limpias
+   y sin conflictos de múltiples archivos CSS
 ======================================== */
 
 .flip-container {
@@ -21,7 +23,7 @@
 
 .flip-card:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-    transform: none;
+    transform: none; /* CRÍTICO: Sin transform en hover para no interferir */
 }
 
 .flip-card.is-flipped {
@@ -29,7 +31,7 @@
 }
 
 .flip-card.is-flipped:hover {
-    transform: rotateY(180deg);
+    transform: rotateY(180deg); /* Mantener rotación al hacer hover */
 }
 
 .flip-card-front,
@@ -59,6 +61,11 @@
     transform: rotateY(180deg);
 }
 
+/* ========================================
+   REGLAS DE CONTRASTE Y TEMA
+======================================== */
+
+/* Tema claro */
 .tema-claro .flip-card-front {
     background: linear-gradient(135deg, #f8f9fa, #e9ecef);
     border: 2px solid #dee2e6;
@@ -71,6 +78,7 @@
     color: #2c3e50;
 }
 
+/* Tema oscuro */
 .tema-oscuro .flip-card-front {
     background: linear-gradient(135deg, #2d2d2d, #404040);
     border: 2px solid #404040;
@@ -81,4 +89,89 @@
     background: linear-gradient(135deg, #404040, #555555);
     border: 2px solid #404040;
     color: #e0e0e0;
+}
+
+/* ========================================
+   REGLAS ADICIONALES DE TEMA
+======================================== */
+
+/* Ajustes generales para temas */
+.tema-claro button:not(.nav-button):not(.demo-button):not(.exam-button) {
+  background: #E35336;
+  color: white;
+  border: none;
+}
+
+.tema-claro button:not(.nav-button):not(.demo-button):not(.exam-button):hover {
+  background: #C44529;
+}
+
+.tema-claro a {
+  color: #E35336;
+}
+
+.tema-oscuro a {
+  color: #74b9ff;
+}
+
+/* Formularios y campos de entrada */
+.tema-claro input,
+.tema-claro textarea,
+.tema-claro select {
+  background: #ffffff;
+  border: 2px solid #dee2e6;
+  color: #2c3e50;
+}
+
+.tema-oscuro input,
+.tema-oscuro textarea,
+.tema-oscuro select {
+  background: #2d2d2d;
+  border: 2px solid #404040;
+  color: #e0e0e0;
+}
+
+/* Opciones de cuestionario en modo oscuro */
+.tema-oscuro .quiz-options label {
+  background: #2d2d2d;
+  border: 1px solid #404040;
+  color: #e0e0e0;
+}
+
+.tema-oscuro .quiz-options label:hover {
+  background: #333333;
+  border-color: #E35336;
+}
+
+/* Estilo de los radios en modo oscuro */
+.tema-oscuro .quiz-options input[type="radio"] {
+  accent-color: #E35336;
+}
+
+/* ========================================
+   RESPONSIVE DESIGN PARA FLIP-CARDS
+======================================== */
+
+@media (max-width: 768px) {
+    .flip-card {
+        height: 150px;
+    }
+    
+    .flip-card-front,
+    .flip-card-back {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .flip-card {
+        height: 120px;
+    }
+    
+    .flip-card-front,
+    .flip-card-back {
+        font-size: 0.9rem;
+        padding: 0.8rem;
+    }
 }
