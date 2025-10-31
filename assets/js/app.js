@@ -355,6 +355,7 @@
         function renderAndBind() {
           const shuffled = items.slice().sort(() => Math.random() - 0.5).slice(0, 5);
           renderQuizQuestions(shuffled, quizContainer);
+          enhanceQuizOptionSelection(quizContainer);
           feedbackEl.textContent = '';
           const prevFeedbacks = quizContainer.querySelectorAll('.item-feedback');
           prevFeedbacks.forEach(el => el.remove());
@@ -428,17 +429,39 @@
       item.options.forEach((opt, optIdx) => {
         const li = document.createElement('li');
         const label = document.createElement('label');
+        label.className = 'quiz-option-label';
         const radio = document.createElement('input');
         radio.type = 'radio';
         radio.name = `q${idx}`;
         radio.value = optIdx;
+        const text = document.createElement('span');
+        text.className = 'quiz-option-text';
+        text.textContent = opt;
         label.appendChild(radio);
-        label.appendChild(document.createTextNode(opt));
+        label.appendChild(text);
         li.appendChild(label);
         ul.appendChild(li);
       });
       qDiv.appendChild(ul);
       container.appendChild(qDiv);
+    });
+  }
+
+  function enhanceQuizOptionSelection(container) {
+    const groups = container.querySelectorAll('.quiz-options');
+    groups.forEach(group => {
+      const labels = Array.from(group.querySelectorAll('.quiz-option-label'));
+      labels.forEach(label => {
+        const input = label.querySelector('input[type="radio"]');
+        if (!input) return;
+        if (input.checked) {
+          label.classList.add('is-selected');
+        }
+        input.addEventListener('change', () => {
+          labels.forEach(l => l.classList.remove('is-selected'));
+          label.classList.add('is-selected');
+        });
+      });
     });
   }
 
