@@ -40,8 +40,8 @@
    visual mediante la sombra aumentada. */
 .flip-card:hover {
   /* No tocar la rotación actual (rotateY) aplicada por .is-flipped */
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important;
-  transition: all 0.3s ease !important;
+  box-shadow: 0 16px 28px rgba(15, 23, 42, 0.18) !important;
+  transition: box-shadow 0.3s ease !important;
 }
 
 /* --- Reducir espaciado entre opciones en cuestionario --- */
@@ -112,11 +112,11 @@ a {
 /* Evitar que el estado :hover sobrescriba la rotación 3D de .is-flipped */
 .flip-card:hover {
   transform: none !important; /* no aplicar desplazamientos verticales */
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 16px 28px rgba(15, 23, 42, 0.18) !important;
 }
 
 /* Asegurar que si la tarjeta está girada, se mantenga la rotación al pasar el ratón */
-.flip-card.is-flipped:hover {
+.flip-card.is-flipped:hover .flip-card-inner {
   transform: rotateY(180deg) !important;
 }
 

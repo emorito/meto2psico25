@@ -21,7 +21,7 @@
   ];
 
   const PROGRESS_TEMPLATE = MODULES.reduce((obj, mod) => {
-    obj[mod.slug] = { completed: false, score: null };
+    obj[mod.slug] = { completed: false, score: null, bypassed: false };
     return obj;
   }, {});
 
@@ -42,7 +42,20 @@
         const parsed = JSON.parse(data);
         for (const mod of MODULES) {
           if (!parsed[mod.slug]) {
-            parsed[mod.slug] = { completed: false, score: null };
+            parsed[mod.slug] = { completed: false, score: null, bypassed: false };
+          } else {
+            const record = parsed[mod.slug];
+            if (typeof record.completed !== 'boolean') {
+              record.completed = Boolean(record.completed);
+            }
+            if (!('score' in record)) {
+              record.score = null;
+            }
+            if (!('bypassed' in record)) {
+              record.bypassed = false;
+            } else {
+              record.bypassed = Boolean(record.bypassed);
+            }
           }
         }
         return parsed;
@@ -60,33 +73,121 @@
     updateProgressBar();
   }
 
+  function ensureProgressRecord(progress, slug) {
+    if (!progress[slug]) {
+      progress[slug] = { completed: false, score: null, bypassed: false };
+    } else {
+      const record = progress[slug];
+      if (typeof record.completed !== 'boolean') {
+        record.completed = Boolean(record.completed);
+      }
+      if (!('score' in record)) {
+        record.score = null;
+      }
+      if (!('bypassed' in record)) {
+        record.bypassed = false;
+      } else {
+        record.bypassed = Boolean(record.bypassed);
+      }
+    }
+    return progress[slug];
+  }
+
   // ========================================
   // FUNCIONALIDAD ORIGINAL - MANTENER INTACTA
   // ========================================
 
   function initIndex() {
-    const progress = loadProgress();
     const cards = document.querySelectorAll('.module-card');
+
+    function attachStartHandler(btn, slug) {
+      if (!btn || btn.dataset.bound === 'true') return;
+      btn.dataset.bound = 'true';
+      btn.addEventListener('click', () => {
+        window.location.href = `modules/${slug}.html`;
+      });
+    }
+
+    function unlockCard(card, btn, slug) {
+      if (!card || !btn) return;
+      card.classList.remove('locked');
+      btn.disabled = false;
+      attachStartHandler(btn, slug);
+    }
+
+    function lockCard(card, btn) {
+      if (!card || !btn) return;
+      card.classList.add('locked');
+      btn.disabled = true;
+    }
+
+    function refreshLocks() {
+      const currentProgress = loadProgress();
+      cards.forEach(card => {
+        const index = parseInt(card.getAttribute('data-index'), 10);
+        const slug = card.getAttribute('data-slug');
+        const btn = card.querySelector('.start-btn');
+        const manualBtn = card.querySelector('.manual-unlock');
+        const needsPrev = index > 1;
+        let locked = false;
+        if (needsPrev) {
+          const prevSlug = MODULES[index - 2].slug;
+          const prevResult = currentProgress[prevSlug];
+          const prevUnlocked = !!(prevResult && (prevResult.bypassed || (prevResult.score !== null && prevResult.score >= 0.8)));
+          locked = !prevUnlocked;
+        }
+
+        if (locked) {
+          lockCard(card, btn);
+          if (manualBtn) manualBtn.hidden = false;
+        } else {
+          unlockCard(card, btn, slug);
+          if (manualBtn) manualBtn.hidden = true;
+        }
+      });
+    }
+
     cards.forEach(card => {
-      const index = parseInt(card.getAttribute('data-index'), 10);
       const slug = card.getAttribute('data-slug');
       const btn = card.querySelector('.start-btn');
-      let locked = false;
-      if (index > 1) {
-        const prevSlug = MODULES[index - 2].slug;
-        const prevResult = progress[prevSlug];
-        locked = !(prevResult && prevResult.score !== null && prevResult.score >= 0.8);
+      attachStartHandler(btn, slug);
+
+      let manualBtn = card.querySelector('.manual-unlock');
+      if (!manualBtn) {
+        manualBtn = document.createElement('button');
+        manualBtn.type = 'button';
+        manualBtn.className = 'manual-unlock';
+        manualBtn.textContent = 'Desbloquear manualmente';
+        card.appendChild(manualBtn);
       }
-      if (locked) {
-        card.classList.add('locked');
-        btn.disabled = true;
-      } else {
-        btn.disabled = false;
-        btn.addEventListener('click', () => {
-          window.location.href = `modules/${slug}.html`;
+
+      if (manualBtn.dataset.bound !== 'true') {
+        manualBtn.dataset.bound = 'true';
+        manualBtn.addEventListener('click', () => {
+          const index = parseInt(card.getAttribute('data-index'), 10);
+          const title = (card.querySelector('h2')?.textContent || 'este módulo').trim();
+          const confirmMessage = `¿Deseas desbloquear "${title}" aun si no has completado los módulos previos? Se marcarán como aprobados para permitir el acceso.`;
+          if (!window.confirm(confirmMessage)) return;
+          const updatedProgress = loadProgress();
+          for (let i = 0; i < index - 1; i++) {
+            const prevModuleSlug = MODULES[i].slug;
+            const record = ensureProgressRecord(updatedProgress, prevModuleSlug);
+            record.completed = true;
+            record.bypassed = true;
+            if (record.score === null || record.score < 0.8) {
+              record.score = 0.8;
+            }
+          }
+          saveProgress(updatedProgress);
+          refreshLocks();
+          if (btn && !btn.disabled) {
+            btn.focus();
+          }
         });
       }
     });
+
+    refreshLocks();
 
     // Inicializar mejoras adicionales
     initPDFDownload();
@@ -96,12 +197,141 @@
 
   function initModule(slug) {
     setupFlipCards();
+    initModuleNavigation(slug);
     setupQuiz(slug);
     setupDecisionSimulation(slug);
 
     // Inicializar mejoras adicionales
     initProgressBar();
     initAnimations();
+  }
+
+  let moduleNavState = null;
+
+  function initModuleNavigation(slug) {
+    const nav = document.querySelector('.module-navigation');
+    if (!nav) return;
+
+    const prevLink = nav.querySelector('.module-nav-prev');
+    const nextButton = nav.querySelector('.module-nav-next');
+    const bypassButton = nav.querySelector('.module-nav-bypass');
+    const currentIndex = MODULES.findIndex(m => m.slug === slug);
+    const prevModule = currentIndex > 0 ? MODULES[currentIndex - 1] : null;
+    const nextModule = currentIndex < MODULES.length - 1 ? MODULES[currentIndex + 1] : null;
+
+    if (prevLink) {
+      if (prevModule) {
+        prevLink.href = `${prevModule.slug}.html`;
+        prevLink.textContent = `← ${prevModule.title}`;
+      } else {
+        prevLink.href = '../index.html';
+        prevLink.textContent = '← Volver al inicio';
+      }
+    }
+
+    if (!nextButton) return;
+
+    if (nextModule) {
+      nextButton.dataset.targetSlug = nextModule.slug;
+      nextButton.dataset.targetHref = `${nextModule.slug}.html`;
+      nextButton.disabled = true;
+      nextButton.textContent = 'Completa el cuestionario para avanzar';
+    } else {
+      nextButton.dataset.targetSlug = '';
+      nextButton.dataset.targetHref = '../index.html';
+      nextButton.disabled = false;
+      nextButton.textContent = 'Volver al inicio';
+    }
+
+    nextButton.addEventListener('click', () => {
+      if (nextButton.disabled) return;
+      const target = nextButton.dataset.targetHref;
+      if (target) {
+        window.location.href = target;
+      }
+    });
+
+    if (bypassButton) {
+      if (!nextModule) {
+        bypassButton.hidden = true;
+      } else {
+        bypassButton.hidden = false;
+        if (!bypassButton.dataset.bound) {
+          bypassButton.dataset.bound = 'true';
+          bypassButton.addEventListener('click', () => {
+            const targetTitle = nextModule ? nextModule.title : 'el siguiente paso';
+            const confirmText = `¿Quieres avanzar a "${targetTitle}" sin aprobar el cuestionario? Tu progreso se marcará como desbloqueado manualmente.`;
+            if (!window.confirm(confirmText)) return;
+            const updated = loadProgress();
+            const record = ensureProgressRecord(updated, slug);
+            record.completed = true;
+            record.bypassed = true;
+            if (record.score === null) {
+              record.score = 0;
+            }
+            saveProgress(updated);
+            updateNavigationState(slug);
+            const target = nextButton.dataset.targetHref;
+            if (target) {
+              window.location.href = target;
+            }
+          });
+        }
+      }
+    }
+
+    moduleNavState = {
+      currentSlug: slug,
+      nextModule,
+      button: nextButton,
+      bypassButton
+    };
+
+    updateNavigationState(slug);
+  }
+
+  function updateNavigationState(slug) {
+    if (!moduleNavState || moduleNavState.currentSlug !== slug) return;
+
+    const { nextModule, button, bypassButton } = moduleNavState;
+    if (!button) return;
+
+    if (!nextModule) {
+      button.disabled = false;
+      button.classList.add('is-finished');
+      button.textContent = 'Volver al inicio';
+      button.dataset.targetHref = '../index.html';
+      if (bypassButton) {
+        bypassButton.hidden = true;
+      }
+      return;
+    }
+
+    const progress = loadProgress();
+    const moduleProgress = progress[slug];
+    const hasPassed = !!moduleProgress && (moduleProgress.bypassed || (moduleProgress.score !== null && moduleProgress.score >= 0.8));
+    const wasBypassed = !!(moduleProgress && moduleProgress.bypassed);
+
+    if (bypassButton) {
+      bypassButton.hidden = hasPassed ? true : false;
+    }
+
+    if (hasPassed) {
+      button.disabled = false;
+      button.classList.add('is-ready');
+      if (wasBypassed) {
+        button.classList.add('is-bypassed');
+        button.textContent = `Avanzar (salto manual) a ${nextModule.title}`;
+      } else {
+        button.classList.remove('is-bypassed');
+        button.textContent = `Avanzar a ${nextModule.title}`;
+      }
+    } else {
+      button.disabled = true;
+      button.classList.remove('is-ready');
+      button.classList.remove('is-bypassed');
+      button.textContent = 'Completa el cuestionario para avanzar';
+    }
   }
 
   function setupFlipCards() {
@@ -136,14 +366,18 @@
             submitBtn.disabled = true;
             const score = evaluateQuiz(shuffled);
             const progress = loadProgress();
-            progress[slug] = { completed: true, score: score };
+            const record = ensureProgressRecord(progress, slug);
+            record.completed = true;
+            record.score = score;
+            record.bypassed = false;
             saveProgress(progress);
+            updateNavigationState(slug);
             if (score >= 0.8) {
               feedbackEl.textContent = `¡Excelente! Obtuviste ${(score * 100).toFixed(0)}%. Se ha desbloqueado el siguiente módulo.`;
             } else if (score >= 0.6) {
-              feedbackEl.textContent = `¡Buen intento! Obtuviste ${(score * 100).toFixed(0)}%. Puedes avanzar, pero te recomendamos repasar el material.`;
+              feedbackEl.textContent = `¡Buen intento! Obtuviste ${(score * 100).toFixed(0)}%. Te recomendamos repasar, pero puedes usar el botón "Avanzar de todos modos" si necesitas continuar.`;
             } else {
-              feedbackEl.textContent = `Obtuviste ${(score * 100).toFixed(0)}%. Te sugerimos repasar la lectura y las tarjetas antes de continuar.`;
+              feedbackEl.textContent = `Obtuviste ${(score * 100).toFixed(0)}%. Te sugerimos repasar la lectura y las tarjetas antes de continuar. Si aun así debes avanzar, utiliza la opción de desbloqueo manual.`;
             }
             showItemFeedback(shuffled, quizContainer);
             showRetakeButton();
@@ -434,19 +668,30 @@
 
   function initProgressBar() {
     // Solo crear barra de progreso si no existe
-    if (document.querySelector('.progress-container')) return;
+    if (!document.querySelector('.progress-container')) {
+      const progressContainer = document.createElement('div');
+      progressContainer.className = 'progress-container';
+      progressContainer.innerHTML = `
+          <div class="progress-bar"></div>
+          <div class="progress-text">0/6 módulos (0%)</div>
+      `;
+      document.body.appendChild(progressContainer);
 
-    const progressContainer = document.createElement('div');
-    progressContainer.className = 'progress-container';
-    progressContainer.innerHTML = `
-        <div class="progress-bar"></div>
-        <div class="progress-text">0/6 módulos (0%)</div>
-    `;
-    document.body.appendChild(progressContainer);
+      setTimeout(() => {
+        progressContainer.classList.add('visible');
+      }, 500);
+    }
 
-    setTimeout(() => {
-      progressContainer.classList.add('visible');
-    }, 500);
+    if (!document.querySelector('.progress-status')) {
+      const progressStatus = document.createElement('div');
+      progressStatus.className = 'progress-status';
+      progressStatus.textContent = '0/6 módulos completados';
+      document.body.appendChild(progressStatus);
+
+      setTimeout(() => {
+        progressStatus.classList.add('visible');
+      }, 650);
+    }
 
     updateProgressBar();
   }
@@ -459,9 +704,13 @@
 
     const progressBar = document.querySelector('.progress-bar');
     const progressText = document.querySelector('.progress-text');
+    const progressStatus = document.querySelector('.progress-status');
     if (progressBar && progressText) {
       progressBar.style.width = `${percentage}%`;
       progressText.textContent = `${completed}/${total} módulos (${percentage}%)`;
+    }
+    if (progressStatus) {
+      progressStatus.textContent = `${completed}/${total} módulos completados`;
     }
   }
 
