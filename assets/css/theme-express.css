@@ -18,9 +18,10 @@ body.tema-claro {
 .tema-oscuro .decision-step,
 .tema-oscuro .notebook,
 .tema-oscuro .flip-card {
-  background: #2d2d2d !important;
-  border-color: #404040 !important;
-  color: #e0e0e0 !important;
+  background: var(--module-section-bg, #2d2d2d) !important;
+  border-color: var(--module-section-border, #404040) !important;
+  color: var(--module-text-color, #e0e0e0) !important;
+  box-shadow: var(--module-section-shadow, 0 12px 32px rgba(0, 0, 0, 0.6)) !important;
 }
 
 .tema-claro .container,
@@ -29,9 +30,9 @@ body.tema-claro {
 .tema-claro .decision-step,
 .tema-claro .notebook,
 .tema-claro .flip-card {
-  background: #f8f9fa !important;
-  border-color: #dee2e6 !important;
-  color: #2c3e50 !important;
+  background: var(--module-section-bg, #f8f9fa) !important;
+  border-color: var(--module-section-border, #dee2e6) !important;
+  color: var(--module-text-color, #2c3e50) !important;
 }
 
 /* === TÍTULOS CON TEMA === */
@@ -72,14 +73,14 @@ body.tema-claro {
 .tema-claro li,
 .tema-claro span,
 .tema-claro div {
-  color: #2c3e50 !important;
+  color: var(--module-text-color, #2c3e50) !important;
 }
 
 .tema-oscuro p,
 .tema-oscuro li,
 .tema-oscuro span,
 .tema-oscuro div {
-  color: #e0e0e0 !important;
+  color: var(--module-text-color, #e0e0e0) !important;
 }
 
 /* === ENLACES === */

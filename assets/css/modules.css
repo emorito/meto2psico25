@@ -12,12 +12,60 @@
  */
 
 /* ========================================
+   VARIABLES DE COLOR PARA MÓDULOS
+======================================== */
+
+:root {
+    --module-body-bg: #f8f9fa;
+    --module-text-color: #343a40;
+    --module-muted-text: #6c757d;
+    --module-section-bg: #ffffff;
+    --module-section-border: #e9ecef;
+    --module-section-shadow: 0 6px 16px rgba(15, 23, 42, 0.08);
+    --module-section-hover-shadow: 0 12px 24px rgba(15, 23, 42, 0.12);
+    --module-heading-color: #495057;
+    --module-highlight-bg: #f8f9fa;
+    --module-highlight-border: rgba(227, 83, 54, 0.35);
+    --module-quiz-question-bg: #f8f9fa;
+    --module-quiz-question-border: #E35336;
+    --module-quiz-option-bg: rgba(227, 83, 54, 0.05);
+    --module-quiz-option-border: rgba(227, 83, 54, 0.25);
+    --module-quiz-option-hover-bg: rgba(227, 83, 54, 0.12);
+    --module-quiz-option-selected-bg: rgba(227, 83, 54, 0.18);
+    --module-quiz-option-selected-border: rgba(227, 83, 54, 0.6);
+    --module-notebook-bg: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    --module-notebook-border: #636B2F;
+}
+
+body.tema-oscuro {
+    --module-body-bg: #121214;
+    --module-text-color: #f1f3f5;
+    --module-muted-text: #ced4da;
+    --module-section-bg: rgba(27, 27, 29, 0.92);
+    --module-section-border: rgba(255, 255, 255, 0.07);
+    --module-section-shadow: 0 18px 36px rgba(0, 0, 0, 0.55);
+    --module-section-hover-shadow: 0 22px 44px rgba(0, 0, 0, 0.65);
+    --module-heading-color: #f8f9fa;
+    --module-highlight-bg: rgba(227, 83, 54, 0.08);
+    --module-highlight-border: rgba(227, 83, 54, 0.45);
+    --module-quiz-question-bg: rgba(255, 255, 255, 0.04);
+    --module-quiz-question-border: rgba(227, 83, 54, 0.65);
+    --module-quiz-option-bg: rgba(227, 83, 54, 0.08);
+    --module-quiz-option-border: rgba(227, 83, 54, 0.3);
+    --module-quiz-option-hover-bg: rgba(227, 83, 54, 0.16);
+    --module-quiz-option-selected-bg: rgba(227, 83, 54, 0.22);
+    --module-quiz-option-selected-border: rgba(227, 83, 54, 0.65);
+    --module-notebook-bg: linear-gradient(135deg, rgba(45, 45, 46, 0.95), rgba(58, 58, 60, 0.9));
+    --module-notebook-border: rgba(227, 83, 54, 0.55);
+}
+
+/* ========================================
    CONTAINER Y SECCIONES
 ======================================== */
 
 body[data-module-slug] {
-    background-color: #f8f9fa;
-    color: #333;
+    background-color: var(--module-body-bg);
+    color: var(--module-text-color);
     line-height: 1.6;
 }
 
@@ -25,6 +73,7 @@ body[data-module-slug] {
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem;
+    color: var(--module-text-color);
 }
 
 .back-link {
@@ -43,7 +92,7 @@ body[data-module-slug] {
 }
 
 .container h2 {
-    color: #2c3e50;
+    color: var(--module-heading-color);
     font-size: 2.5rem;
     margin-bottom: 2rem;
     text-align: center;
@@ -51,26 +100,33 @@ body[data-module-slug] {
 }
 
 .section {
-    background: white;
+    background: var(--module-section-bg);
     border-radius: 12px;
     padding: 2rem;
     margin-bottom: 2rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
-    border: 1px solid #e9ecef;
-    transition: box-shadow 0.3s ease;
+    box-shadow: var(--module-section-shadow);
+    border: 1px solid var(--module-section-border);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    color: var(--module-text-color);
 }
 
 .section:hover {
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--module-section-hover-shadow);
+    transform: translateY(-2px);
 }
 
 .section h3 {
-    color: #495057;
+    color: var(--module-heading-color);
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid #E35336;
+    border-bottom: 2px solid rgba(227, 83, 54, 0.45);
     font-weight: 600;
+}
+
+.section p,
+.section li {
+    color: var(--module-text-color);
 }
 
 /* ========================================
@@ -161,45 +217,68 @@ body[data-module-slug] {
 }
 
 .quiz-question {
-    background: #f8f9fa;
+    background: var(--module-quiz-question-bg);
     padding: 1.5rem;
-    border-radius: 8px;
+    border-radius: 12px;
     margin-bottom: 1.5rem;
-    border-left: 4px solid #E35336;
+    border: 1px solid var(--module-quiz-question-border);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
 }
 
 .quiz-question h4 {
-    color: #2c3e50;
+    color: var(--module-heading-color);
     margin-bottom: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.15rem;
 }
 
 .quiz-options {
     list-style: none;
     padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 0.75rem;
 }
 
 .quiz-options li {
-    margin-bottom: 0.8rem;
+    margin: 0;
 }
 
-.quiz-options label {
-    display: flex;
+.quiz-option-label {
+    display: grid;
+    grid-template-columns: auto 1fr;
     align-items: center;
+    gap: 0.75rem;
     cursor: pointer;
-    padding: 0.8rem;
-    border-radius: 6px;
-    transition: background-color 0.3s ease;
-    font-size: 1rem;
+    padding: 0.85rem 1rem;
+    border-radius: 10px;
+    border: 1px solid var(--module-quiz-option-border);
+    background: var(--module-quiz-option-bg);
+    transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+    color: var(--module-text-color);
 }
 
-.quiz-options label:hover {
-    background-color: #e9ecef;
+.quiz-option-label:hover,
+.quiz-option-label:focus-within {
+    background: var(--module-quiz-option-hover-bg);
+    border-color: var(--module-quiz-option-border);
+    transform: translateY(-1px);
+}
+
+.quiz-option-label.is-selected {
+    background: var(--module-quiz-option-selected-bg);
+    border-color: var(--module-quiz-option-selected-border);
+    box-shadow: 0 10px 18px rgba(227, 83, 54, 0.12);
+}
+
+.quiz-option-text {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: inherit;
 }
 
 .quiz-options input[type="radio"] {
-    margin-right: 1rem;
-    transform: scale(1.2);
+    margin: 0;
+    transform: scale(1.15);
     accent-color: #E35336;
 }
 
@@ -274,6 +353,43 @@ body[data-module-slug] {
     border-left: 4px solid #dc3545;
 }
 
+body.tema-oscuro .quiz-feedback {
+    background-color: rgba(227, 83, 54, 0.15);
+    color: var(--module-muted-text);
+    border: 1px solid rgba(227, 83, 54, 0.35);
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.35);
+}
+
+body.tema-oscuro .quiz-feedback.success {
+    background-color: rgba(46, 160, 67, 0.22);
+    color: #d2f5d8;
+    border-color: rgba(110, 214, 130, 0.45);
+}
+
+body.tema-oscuro .quiz-feedback.warning {
+    background-color: rgba(255, 200, 87, 0.22);
+    color: #ffecc2;
+    border-color: rgba(255, 200, 87, 0.45);
+}
+
+body.tema-oscuro .quiz-feedback.error {
+    background-color: rgba(220, 76, 100, 0.22);
+    color: #ffc9d6;
+    border-color: rgba(255, 140, 160, 0.45);
+}
+
+body.tema-oscuro .item-feedback.correct {
+    background-color: rgba(46, 160, 67, 0.18);
+    color: #d2f5d8;
+    border-left-color: rgba(110, 214, 130, 0.7);
+}
+
+body.tema-oscuro .item-feedback.incorrect {
+    background-color: rgba(220, 76, 100, 0.18);
+    color: #ffc9d6;
+    border-left-color: rgba(255, 140, 160, 0.7);
+}
+
 .quiz-retake {
     background: #6c757d;
     color: white;
@@ -300,17 +416,18 @@ body[data-module-slug] {
 }
 
 .decision-step {
-    background: #f8f9fa;
+    background: var(--module-highlight-bg);
     padding: 2rem;
-    border-radius: 12px;
-    border: 2px solid #E35336;
+    border-radius: 16px;
+    border: 1px solid var(--module-highlight-border);
     margin-bottom: 2rem;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.08);
 }
 
 .decision-step p {
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
-    color: #2c3e50;
+    color: var(--module-heading-color);
     font-weight: 600;
 }
 
@@ -349,9 +466,10 @@ body[data-module-slug] {
 ======================================== */
 
 .notebook {
-    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
-    border: 2px solid #636B2F;
+    background: var(--module-notebook-bg);
+    border: 2px solid var(--module-notebook-border);
     position: relative;
+    box-shadow: 0 18px 32px rgba(0, 0, 0, 0.12);
 }
 
 .notebook-icon {
@@ -362,7 +480,7 @@ body[data-module-slug] {
 
 .notebook p {
     margin-bottom: 1.5rem;
-    color: #495057;
+    color: var(--module-text-color);
     line-height: 1.7;
     font-size: 1rem;
 }
