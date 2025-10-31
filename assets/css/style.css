@@ -15,6 +15,9 @@
 --color-surface: #FFFFFF;
 --color-text: #2C2C2C;
 --color-muted: #70735C;
+--progress-surface: rgba(255, 255, 255, 0.92);
+--progress-border: rgba(227, 83, 54, 0.25);
+--progress-text: #2C2C2C;
 /* Nuevas variables para mejoras */
 --radius: 12px;
 --shadow: 0 4px 8px rgba(0,0,0,0.08);
@@ -22,8 +25,28 @@
 --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 /* Variables para header video */
 --hero-height: 70vh;
---video-opacity: 0.7;
---overlay-opacity: 0.85;
+--video-opacity: 0.85;
+--overlay-opacity: 0.65;
+}
+
+body.tema-claro {
+--color-background: #F8F4F0;
+--color-surface: #FFFFFF;
+--color-text: #2C2C2C;
+--color-muted: #70735C;
+--progress-surface: rgba(255, 255, 255, 0.92);
+--progress-border: rgba(227, 83, 54, 0.25);
+--progress-text: #2C2C2C;
+}
+
+body.tema-oscuro {
+--color-background: #0f1115;
+--color-surface: rgba(24, 24, 27, 0.88);
+--color-text: #f8fafc;
+--color-muted: #94a3b8;
+--progress-surface: rgba(17, 24, 39, 0.8);
+--progress-border: rgba(148, 163, 184, 0.28);
+--progress-text: #e2e8f0;
 }
 /* Reset básico */
 * {
@@ -71,7 +94,7 @@ transform: translate(-50%, -50%);
 object-fit: cover;
 z-index: 1;
 opacity: var(--video-opacity);
-filter: brightness(0.7) contrast(1.1) saturate(1.2);
+filter: brightness(0.85) contrast(1.05) saturate(1.15);
 transition: var(--transition-smooth);
 }
 /* Overlay gradiente para legibilidad */
@@ -83,9 +106,9 @@ right: 0;
 bottom: 0;
 background: linear-gradient(
 45deg,
-rgba(10, 15, 15, var(--overlay-opacity)) 0%,
-rgba(5, 10, 10, 0.92) 50%,
-rgba(0, 0, 0, 0.95) 100%
+rgba(18, 24, 26, var(--overlay-opacity)) 0%,
+rgba(8, 16, 18, 0.73) 50%,
+rgba(0, 0, 0, 0.75) 100%
 );
 z-index: 2;
 }
@@ -158,9 +181,22 @@ box-shadow: 0 0 10px rgba(227, 83, 54, 0.3);
 position: absolute;
 right: 1rem;
 top: 0.5rem;
-font-size: 0.75rem;
-color: var(--color-muted);
+font-size: 0.8rem;
 font-weight: 600;
+color: var(--progress-text);
+padding: 0.35rem 0.75rem;
+border-radius: 999px;
+background: var(--progress-surface);
+border: 1px solid var(--progress-border);
+box-shadow: 0 8px 20px rgba(15, 23, 42, 0.12);
+backdrop-filter: blur(6px);
+transition: color 0.3s ease, background 0.3s ease, border-color 0.3s ease;
+}
+body.tema-oscuro .progress-container {
+background: rgba(255, 255, 255, 0.08);
+}
+body.tema-oscuro .progress-text {
+box-shadow: 0 10px 28px rgba(15, 23, 42, 0.45);
 }
 /* ========================================
 BOTONES DE DESCARGA PDF
@@ -298,35 +334,21 @@ margin-bottom: 1.5rem;
 font-size: 0.95rem;
 }
 .start-btn {
-background: var(--color-secondary);
+background: linear-gradient(135deg, var(--color-secondary), var(--color-primary));
 color: #fff;
-border: none;
-border-radius: calc(var(--radius) * 1.5);
-padding: 0.75rem 1.5rem;
+border: 1px solid rgba(227, 83, 54, 0.35);
+border-radius: 999px;
+padding: 0.75rem 1.65rem;
 font-size: 1rem;
 font-weight: 600;
 cursor: pointer;
-transition: var(--transition-smooth);
-position: relative;
-overflow: hidden;
-}
-.start-btn::before {
-content: '';
-position: absolute;
-top: 0;
-left: -100%;
-width: 100%;
-height: 100%;
-background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
-transition: left 0.5s;
-}
-.start-btn:hover::before {
-left: 100%;
+transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+box-shadow: 0 8px 18px rgba(227, 83, 54, 0.18);
 }
 .start-btn:hover {
-background: var(--color-primary);
+background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
 transform: translateY(-2px);
-box-shadow: 0 4px 15px rgba(227, 83, 54, 0.3);
+box-shadow: 0 12px 22px rgba(227, 83, 54, 0.24);
 }
 /* ========================================
 SECCIÓN INTRODUCTORIA
