@@ -122,27 +122,6 @@ body[data-module-slug] {
     -webkit-perspective: 1100px;
     isolation: isolate;
     background: transparent;
-    --flip-card-shell-front: linear-gradient(135deg, rgba(227, 83, 54, 0.85), rgba(99, 107, 47, 0.85));
-    --flip-card-shell-back: linear-gradient(135deg, rgba(99, 107, 47, 0.85), rgba(192, 103, 42, 0.9));
-}
-
-.flip-card::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: inherit;
-    background: var(--flip-card-shell-front);
-    transform: rotateY(0deg) translateZ(-1px);
-    -webkit-transform: rotateY(0deg) translateZ(-1px);
-    transform-origin: center;
-    transform-style: preserve-3d;
-    -webkit-transform-style: preserve-3d;
-    transition: transform 0.75s cubic-bezier(0.22, 0.61, 0.36, 1),
-                -webkit-transform 0.75s cubic-bezier(0.22, 0.61, 0.36, 1),
-                background 0.75s ease;
-    will-change: transform, background;
-    z-index: 0;
-    pointer-events: none;
 }
 
 .flip-card-inner {
@@ -156,7 +135,6 @@ body[data-module-slug] {
     -webkit-transform: rotateY(0deg);
     will-change: transform;
     transform-origin: center;
-    z-index: 1;
 }
 
 .flip-card:hover {
@@ -166,12 +144,6 @@ body[data-module-slug] {
 .flip-card.is-flipped .flip-card-inner {
     transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
-}
-
-.flip-card.is-flipped::before {
-    transform: rotateY(180deg) translateZ(-1px);
-    -webkit-transform: rotateY(180deg) translateZ(-1px);
-    background: var(--flip-card-shell-back);
 }
 
 .flip-card-front,
@@ -207,19 +179,6 @@ body[data-module-slug] {
     -webkit-transform: rotateY(180deg) translateZ(1px);
 }
 
-:root[data-theme="light"] .flip-card {
-    --flip-card-shell-front: linear-gradient(135deg, rgba(248, 249, 250, 0.85), rgba(233, 236, 239, 0.9));
-    --flip-card-shell-back: linear-gradient(135deg, rgba(233, 236, 239, 0.9), rgba(248, 249, 250, 0.95));
-}
-
-:root[data-theme="dark"] .flip-card {
-    --flip-card-shell-front: linear-gradient(135deg, rgba(45, 45, 45, 0.85), rgba(64, 64, 64, 0.88));
-    --flip-card-shell-back: linear-gradient(135deg, rgba(64, 64, 64, 0.9), rgba(85, 85, 85, 0.92));
-}
-
-/* ========================================
-   NAVEGACIÓN ENTRE MÓDULOS
-======================================== */
 
 .module-navigation {
     display: flex;
@@ -387,6 +346,8 @@ button.nav-button.module-nav-bypass:focus-visible {
     .nav-button {
         width: 100%;
     }
+/* ========================================
+   NAVEGACIÓN ENTRE MÓDULOS
 }
 
 /* ========================================

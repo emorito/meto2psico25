@@ -26,28 +26,6 @@
     -webkit-perspective: 1100px;
     isolation: isolate;
     background: transparent;
-    --flip-card-shell-front: linear-gradient(135deg, rgba(227, 83, 54, 0.85), rgba(99, 107, 47, 0.85));
-    --flip-card-shell-back: linear-gradient(135deg, rgba(99, 107, 47, 0.85), rgba(192, 103, 42, 0.9));
-}
-
-.flip-card::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: inherit;
-    background: var(--flip-card-shell-front);
-    transform: rotateY(0deg) translateZ(-1px);
-    -webkit-transform: rotateY(0deg) translateZ(-1px);
-    transform-origin: center;
-    transform-style: preserve-3d;
-    -webkit-transform-style: preserve-3d;
-    transition: transform 0.75s cubic-bezier(0.22, 0.61, 0.36, 1),
-                -webkit-transform 0.75s cubic-bezier(0.22, 0.61, 0.36, 1),
-                background 0.75s ease;
-    will-change: transform, background;
-    z-index: 0;
-    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0);
-    pointer-events: none;
 }
 
 .flip-card-inner {
@@ -61,7 +39,6 @@
     -webkit-transform: rotateY(0deg);
     will-change: transform;
     transform-origin: center;
-    z-index: 1;
 }
 
 .flip-card:hover {
@@ -72,13 +49,6 @@
 .flip-card.is-flipped .flip-card-inner {
     transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
-}
-
-.flip-card.is-flipped::before {
-    transform: rotateY(180deg) translateZ(-1px);
-    -webkit-transform: rotateY(180deg) translateZ(-1px);
-    background: var(--flip-card-shell-back);
-    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0);
 }
 
 .flip-card.is-flipped:hover .flip-card-inner {
