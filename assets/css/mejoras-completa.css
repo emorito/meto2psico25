@@ -41,7 +41,7 @@
 .flip-card:hover {
   /* No tocar la rotación actual (rotateY) aplicada por .is-flipped */
   box-shadow: 0 16px 28px rgba(15, 23, 42, 0.18) !important;
-  transition: all 0.3s ease !important;
+  transition: box-shadow 0.3s ease !important;
 }
 
 /* --- Reducir espaciado entre opciones en cuestionario --- */
