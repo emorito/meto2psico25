@@ -16,7 +16,7 @@
     height: 200px;
     position: relative;
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(15, 23, 42, 0.14);
     transition: box-shadow 0.3s ease;
@@ -68,7 +68,7 @@
     justify-content: center;
     text-align: center;
     padding: 1.5rem;
-    border-radius: 8px;
+    border-radius: 10px;
     font-weight: 600;
     font-size: 1.1rem;
     transform-style: preserve-3d;
@@ -107,6 +107,11 @@
     color: #2c3e50;
 }
 
+.tema-claro .flip-card {
+    --flip-card-shell-front: linear-gradient(135deg, rgba(255, 255, 255, 0.8), rgba(222, 226, 230, 0.85));
+    --flip-card-shell-back: linear-gradient(135deg, rgba(222, 226, 230, 0.85), rgba(255, 255, 255, 0.9));
+}
+
 /* Tema oscuro */
 .tema-oscuro .flip-card-front {
     background: linear-gradient(135deg, #2d2d2d, #404040);
@@ -118,6 +123,11 @@
     background: linear-gradient(135deg, #404040, #555555);
     border: 2px solid #404040;
     color: #e0e0e0;
+}
+
+.tema-oscuro .flip-card {
+    --flip-card-shell-front: linear-gradient(135deg, rgba(45, 45, 45, 0.85), rgba(64, 64, 64, 0.85));
+    --flip-card-shell-back: linear-gradient(135deg, rgba(64, 64, 64, 0.9), rgba(85, 85, 85, 0.9));
 }
 
 /* ========================================
