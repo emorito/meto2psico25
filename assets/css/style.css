@@ -15,6 +15,9 @@
 --color-surface: #FFFFFF;
 --color-text: #2C2C2C;
 --color-muted: #70735C;
+--progress-surface: rgba(255, 255, 255, 0.92);
+--progress-border: rgba(227, 83, 54, 0.25);
+--progress-text: #2C2C2C;
 /* Nuevas variables para mejoras */
 --radius: 12px;
 --shadow: 0 4px 8px rgba(0,0,0,0.08);

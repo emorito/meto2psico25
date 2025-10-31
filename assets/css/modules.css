@@ -414,6 +414,14 @@ button.nav-button.module-nav-bypass:focus-visible {
     margin-bottom: 2rem;
 }
 
+.section .quiz-container {
+    background: transparent;
+    padding: 0;
+    margin: 0 0 2rem;
+    box-shadow: none;
+    border-radius: 0;
+}
+
 .quiz-question {
     background: var(--module-quiz-question-bg);
     padding: 1.5rem;
