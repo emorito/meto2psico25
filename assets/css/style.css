@@ -385,35 +385,21 @@ margin-bottom: 1.5rem;
 font-size: 0.95rem;
 }
 .start-btn {
-background: var(--color-secondary);
+background: linear-gradient(135deg, var(--color-secondary), var(--color-primary));
 color: #fff;
-border: none;
-border-radius: calc(var(--radius) * 1.5);
-padding: 0.75rem 1.5rem;
+border: 1px solid rgba(227, 83, 54, 0.35);
+border-radius: 999px;
+padding: 0.75rem 1.65rem;
 font-size: 1rem;
 font-weight: 600;
 cursor: pointer;
-transition: var(--transition-smooth);
-position: relative;
-overflow: hidden;
-}
-.start-btn::before {
-content: '';
-position: absolute;
-top: 0;
-left: -100%;
-width: 100%;
-height: 100%;
-background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
-transition: left 0.5s;
-}
-.start-btn:hover::before {
-left: 100%;
+transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+box-shadow: 0 8px 18px rgba(227, 83, 54, 0.18);
 }
 .start-btn:hover {
-background: var(--color-primary);
+background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
 transform: translateY(-2px);
-box-shadow: 0 4px 15px rgba(227, 83, 54, 0.3);
+box-shadow: 0 12px 22px rgba(227, 83, 54, 0.24);
 }
 /* ========================================
 SECCIÓN INTRODUCTORIA
