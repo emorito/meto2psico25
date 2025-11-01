@@ -41,6 +41,14 @@
   margin-bottom: 0 !important;
 }
 
+/* --- Quitar recuadro del contenedor general del quiz --- */
+.section > .quiz-container {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+}
+
 /* --- Ajustes de color para botones en modo claro --- */
 .tema-claro button:not(.nav-button):not(.demo-button):not(.exam-button) {
   background: #E35336 !important;
