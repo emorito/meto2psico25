@@ -1,4 +1,4 @@
-# Centro de Entrenamiento en Metodología de la Investigación
+# Centro de Aprendizaje en Metodología de la Investigación
 
 Este repositorio contiene el código y los recursos para un sitio web educativo
 de seis unidades sobre metodología de la investigación, diseñado para ser
