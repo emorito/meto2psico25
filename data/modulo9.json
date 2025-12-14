@@ -1,0 +1,192 @@
+{
+  "title": "Informe académico y Estilo APA",
+  "videoId": "nNMM6g2KtZw",
+  "notebookUrl": "https://notebooklm.google.com/notebook/a175e386-f6e7-4f21-befd-56d63cd78964",
+  "readingFile": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf",
+
+  "flipCards": [
+    {
+      "front": "¿Qué es un informe académico?",
+      "back": "Es un documento escrito que comunica de manera sistemática, clara y fundamentada los resultados de una investigación."
+    },
+    {
+      "front": "Finalidad del informe académico",
+      "back": "Comunicar procesos, resultados e interpretaciones siguiendo normas científicas."
+    },
+    {
+      "front": "Estructura básica de un informe académico",
+      "back": "Introducción, método, resultados y discusión, con referencias."
+    },
+    {
+      "front": "Función del estilo APA",
+      "back": "Estandarizar la presentación, citación y referencias en trabajos académicos."
+    },
+    {
+      "front": "Cita en el texto",
+      "back": "Referencia breve a la fuente utilizada dentro del cuerpo del texto."
+    },
+    {
+      "front": "Referencia bibliográfica",
+      "back": "Descripción completa de la fuente citada, ubicada al final del trabajo."
+    },
+    {
+      "front": "Diferencia entre citar y referenciar",
+      "back": "Citar es mencionar la fuente en el texto; referenciar es describirla completamente."
+    },
+    {
+      "front": "Plagio académico",
+      "back": "Uso de ideas o textos ajenos sin el reconocimiento adecuado de la fuente."
+    },
+    {
+      "front": "Importancia de las normas APA",
+      "back": "Garantizan claridad, ética académica y trazabilidad de las fuentes."
+    },
+    {
+      "front": "Error frecuente en trabajos académicos",
+      "back": "Citar incorrectamente o no incluir referencias completas."
+    }
+  ],
+
+  "quiz": [
+    {
+      "question": "¿Cuál es la finalidad principal de un informe académico?",
+      "options": [
+        "Opinar sobre un tema",
+        "Comunicar resultados de investigación de forma sistemática",
+        "Resumir textos",
+        "Presentar datos sin análisis"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Correcto. El informe comunica procesos y resultados científicos.",
+        "incorrect": "Revisá la función comunicativa del informe académico."
+      }
+    },
+    {
+      "question": "El estilo APA se utiliza principalmente para:",
+      "options": [
+        "Redactar hipótesis",
+        "Estandarizar citaciones y referencias",
+        "Diseñar instrumentos",
+        "Analizar datos"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Exacto. APA regula la forma de citar y referenciar.",
+        "incorrect": "Pensá en el rol normativo del estilo APA."
+      }
+    },
+    {
+      "question": "¿Cuál es la diferencia entre cita y referencia?",
+      "options": [
+        "No existe diferencia",
+        "La cita va al final y la referencia en el texto",
+        "La cita va en el texto y la referencia al final",
+        "La referencia reemplaza la cita"
+      ],
+      "correctIndex": 2,
+      "feedback": {
+        "correct": "Correcto. La cita aparece en el texto y la referencia al final.",
+        "incorrect": "Revisá la función de cada elemento."
+      }
+    },
+    {
+      "question": "El plagio académico ocurre cuando:",
+      "options": [
+        "Se citan muchas fuentes",
+        "No se reconoce adecuadamente la autoría",
+        "Se utiliza el estilo APA",
+        "Se redacta un informe largo"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Exacto. El plagio implica falta de reconocimiento de fuentes.",
+        "incorrect": "Pensá en la dimensión ética del trabajo académico."
+      }
+    },
+    {
+      "question": "Una referencia bibliográfica debe:",
+      "options": [
+        "Ser breve y general",
+        "Permitir identificar y localizar la fuente",
+        "Reemplazar la cita",
+        "Aparecer solo si el texto es largo"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Correcto. La referencia permite rastrear la fuente.",
+        "incorrect": "Revisá la función de la referencia."
+      }
+    },
+    {
+      "question": "¿Cuál es un error frecuente en trabajos académicos?",
+      "options": [
+        "Usar citas",
+        "Incluir referencias",
+        "Citar incorrectamente las fuentes",
+        "Redactar con claridad"
+      ],
+      "correctIndex": 2,
+      "feedback": {
+        "correct": "Exacto. Las citas incorrectas afectan la integridad académica.",
+        "incorrect": "Pensá en errores habituales de presentación."
+      }
+    },
+    {
+      "question": "El informe académico debe caracterizarse por:",
+      "options": [
+        "Lenguaje informal",
+        "Opiniones personales",
+        "Claridad y coherencia",
+        "Ausencia de estructura"
+      ],
+      "correctIndex": 2,
+      "feedback": {
+        "correct": "Muy bien. La claridad y coherencia son esenciales.",
+        "incorrect": "Revisá las características del lenguaje académico."
+      }
+    },
+    {
+      "question": "¿Por qué es importante seguir normas APA?",
+      "options": [
+        "Porque lo exige el docente",
+        "Porque mejora la estética del trabajo",
+        "Porque garantiza ética y estandarización",
+        "Porque reduce el contenido"
+      ],
+      "correctIndex": 2,
+      "feedback": {
+        "correct": "Correcto. APA asegura ética y estandarización académica.",
+        "incorrect": "Pensá en la función ética y comunicativa de las normas."
+      }
+    },
+    {
+      "question": "Las referencias deben incluir:",
+      "options": [
+        "Solo el nombre del autor",
+        "Información completa de la fuente",
+        "Únicamente el año",
+        "Solo el título"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Exacto. Las referencias deben ser completas.",
+        "incorrect": "Revisá los elementos básicos de una referencia."
+      }
+    },
+    {
+      "question": "Desde el enfoque académico, escribir un informe implica:",
+      "options": [
+        "Transcribir resultados",
+        "Comunicar científicamente el proceso y los hallazgos",
+        "Repetir citas",
+        "Cumplir un requisito formal"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Muy bien. El informe es un acto de comunicación científica.",
+        "incorrect": "Pensá en el sentido académico del informe."
+      }
+    }
+  ]
+}

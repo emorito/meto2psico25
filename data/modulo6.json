@@ -1,0 +1,192 @@
+{
+  "title": "Población, muestra y muestreo",
+  "videoId": "nqxiDZG6gLo",
+  "notebookUrl": "https://notebooklm.google.com/notebook/f411e077-7c81-4ed6-bcc0-a47c672b4ce0",
+  "readingFile": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+
+  "flipCards": [
+    {
+      "front": "¿Qué es la población en investigación?",
+      "back": "Es el conjunto total de elementos o unidades de análisis que cumplen con criterios definidos para un estudio."
+    },
+    {
+      "front": "¿Qué es una muestra?",
+      "back": "Es un subconjunto de la población seleccionado para realizar la investigación."
+    },
+    {
+      "front": "Relación entre población y muestra",
+      "back": "La muestra debe representar adecuadamente a la población de la cual se extrae."
+    },
+    {
+      "front": "¿Qué es el muestreo?",
+      "back": "Es el procedimiento mediante el cual se seleccionan las unidades de análisis de la población."
+    },
+    {
+      "front": "Muestreo probabilístico",
+      "back": "Todos los elementos de la población tienen una probabilidad conocida y distinta de cero de ser seleccionados."
+    },
+    {
+      "front": "Muestreo no probabilístico",
+      "back": "La selección de unidades no se basa en probabilidades conocidas."
+    },
+    {
+      "front": "Ventaja del muestreo probabilístico",
+      "back": "Permite realizar inferencias más sólidas sobre la población."
+    },
+    {
+      "front": "Limitación del muestreo no probabilístico",
+      "back": "Reduce la posibilidad de generalizar los resultados."
+    },
+    {
+      "front": "Error muestral",
+      "back": "Es la diferencia entre las características de la muestra y las de la población."
+    },
+    {
+      "front": "Error frecuente en muestreo",
+      "back": "Confundir tamaño de muestra con representatividad."
+    }
+  ],
+
+  "quiz": [
+    {
+      "question": "¿Qué se entiende por población en una investigación?",
+      "options": [
+        "El grupo que participa efectivamente en el estudio",
+        "El conjunto total de unidades que cumplen criterios definidos",
+        "El número de sujetos encuestados",
+        "Los resultados obtenidos"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Correcto. La población es el conjunto total definido por el investigador.",
+        "incorrect": "Revisá la definición de población."
+      }
+    },
+    {
+      "question": "La muestra se define como:",
+      "options": [
+        "El total de la población",
+        "Un subconjunto de la población",
+        "Un grupo elegido al azar sin criterios",
+        "El resultado del análisis"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Exacto. La muestra es parte de la población.",
+        "incorrect": "Pensá en la relación jerárquica población–muestra."
+      }
+    },
+    {
+      "question": "¿Cuál es el objetivo principal del muestreo?",
+      "options": [
+        "Reducir costos",
+        "Seleccionar unidades representativas de la población",
+        "Eliminar el error",
+        "Aumentar el tamaño del estudio"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Correcto. El muestreo busca representatividad.",
+        "incorrect": "Pensá en la función metodológica del muestreo."
+      }
+    },
+    {
+      "question": "Una característica del muestreo probabilístico es:",
+      "options": [
+        "La selección subjetiva",
+        "La probabilidad conocida de selección",
+        "La imposibilidad de inferencia",
+        "La ausencia de criterios"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Exacto. Cada unidad tiene probabilidad conocida.",
+        "incorrect": "Revisá la definición de muestreo probabilístico."
+      }
+    },
+    {
+      "question": "El muestreo no probabilístico se caracteriza por:",
+      "options": [
+        "Permitir generalización sólida",
+        "Basarse en probabilidades conocidas",
+        "No permitir inferencias estadísticas fuertes",
+        "Eliminar el sesgo"
+      ],
+      "correctIndex": 2,
+      "feedback": {
+        "correct": "Correcto. Limita la inferencia estadística.",
+        "incorrect": "Pensá en las consecuencias del tipo de muestreo."
+      }
+    },
+    {
+      "question": "¿Qué significa representatividad?",
+      "options": [
+        "Que la muestra sea grande",
+        "Que la muestra refleje las características de la población",
+        "Que todos participen",
+        "Que no exista error"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Muy bien. Representatividad no depende solo del tamaño.",
+        "incorrect": "Revisá el concepto de representatividad."
+      }
+    },
+    {
+      "question": "Un error frecuente en muestreo es:",
+      "options": [
+        "Definir criterios de inclusión",
+        "Confundir tamaño de muestra con representatividad",
+        "Seleccionar al azar",
+        "Diferenciar población y muestra"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Exacto. Una muestra grande no garantiza representatividad.",
+        "incorrect": "Pensá en errores conceptuales comunes."
+      }
+    },
+    {
+      "question": "El error muestral se refiere a:",
+      "options": [
+        "Errores del investigador",
+        "Diferencias entre muestra y población",
+        "Errores de medición",
+        "Errores de análisis"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Correcto. Es inherente al proceso de muestreo.",
+        "incorrect": "Revisá la definición de error muestral."
+      }
+    },
+    {
+      "question": "¿Cuándo es más apropiado un muestreo probabilístico?",
+      "options": [
+        "Cuando se busca generalizar resultados",
+        "Cuando el acceso es limitado",
+        "Cuando no importa la inferencia",
+        "Cuando se trabaja cualitativamente"
+      ],
+      "correctIndex": 0,
+      "feedback": {
+        "correct": "Muy bien. El muestreo probabilístico favorece la generalización.",
+        "incorrect": "Pensá en la finalidad del estudio."
+      }
+    },
+    {
+      "question": "Desde el enfoque metodológico, la muestra debe definirse:",
+      "options": [
+        "Después del análisis",
+        "Antes de la recolección de datos",
+        "Al final del informe",
+        "Sin criterios explícitos"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Correcto. La muestra se define en la fase de diseño.",
+        "incorrect": "Revisá la secuencia del proceso de investigación."
+      }
+    }
+  ]
+}

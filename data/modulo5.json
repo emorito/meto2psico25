@@ -1,0 +1,192 @@
+{
+  "title": "Diseño de investigación",
+  "videoId": "6n_R9khWQOA",
+  "notebookUrl": "https://notebooklm.google.com/notebook/1f31401f-24a5-46cf-a2de-04fedb61becf",
+  "readingFile": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+
+  "flipCards": [
+    {
+      "front": "¿Qué es el diseño de investigación?",
+      "back": "Es el plan lógico y estructurado que orienta cómo se llevará a cabo una investigación para responder al problema planteado."
+    },
+    {
+      "front": "Función del diseño de investigación",
+      "back": "Asegurar coherencia entre problema, objetivos, hipótesis, variables, procedimientos y análisis."
+    },
+    {
+      "front": "Diseño y método",
+      "back": "El diseño no es una técnica específica, sino la estructura general que integra métodos y procedimientos."
+    },
+    {
+      "front": "Diseños experimentales",
+      "back": "Buscan establecer relaciones causales mediante el control y la manipulación de variables."
+    },
+    {
+      "front": "Diseños no experimentales",
+      "back": "Describen o analizan fenómenos sin manipular deliberadamente las variables."
+    },
+    {
+      "front": "Diseños transversales",
+      "back": "Recogen datos en un único momento temporal."
+    },
+    {
+      "front": "Diseños longitudinales",
+      "back": "Recogen datos en dos o más momentos del tiempo."
+    },
+    {
+      "front": "Diseño y validez",
+      "back": "Un diseño adecuado fortalece la validez interna y externa del estudio."
+    },
+    {
+      "front": "Error frecuente sobre el diseño",
+      "back": "Confundir el diseño de investigación con técnicas de recolección de datos."
+    },
+    {
+      "front": "Relación entre diseño y análisis",
+      "back": "El diseño condiciona el tipo de análisis de datos que puede realizarse."
+    }
+  ],
+
+  "quiz": [
+    {
+      "question": "¿Cuál es la función principal del diseño de investigación?",
+      "options": [
+        "Seleccionar la muestra",
+        "Organizar lógicamente el proceso de investigación",
+        "Reemplazar el marco teórico",
+        "Definir los resultados"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Correcto. El diseño estructura y organiza todo el proceso de investigación.",
+        "incorrect": "Revisá el rol integrador del diseño."
+      }
+    },
+    {
+      "question": "El diseño de investigación se caracteriza por:",
+      "options": [
+        "Ser una técnica específica",
+        "Ser un plan lógico y estructurado",
+        "Ser un instrumento de medición",
+        "Ser un análisis estadístico"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Exacto. El diseño es un plan general, no una técnica aislada.",
+        "incorrect": "Pensá en el nivel de abstracción del diseño."
+      }
+    },
+    {
+      "question": "¿Cuál es la diferencia central entre diseños experimentales y no experimentales?",
+      "options": [
+        "El tamaño de la muestra",
+        "La manipulación de variables",
+        "El tipo de análisis",
+        "El uso de teoría"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Correcto. La manipulación de variables distingue a los diseños experimentales.",
+        "incorrect": "Revisá el criterio de control y manipulación."
+      }
+    },
+    {
+      "question": "Un diseño transversal se caracteriza por:",
+      "options": [
+        "Recoger datos en varios momentos",
+        "Manipular variables",
+        "Recoger datos en un único momento",
+        "Evaluar causalidad directa"
+      ],
+      "correctIndex": 2,
+      "feedback": {
+        "correct": "Exacto. El diseño transversal recoge datos en un solo momento.",
+        "incorrect": "Pensá en la dimensión temporal."
+      }
+    },
+    {
+      "question": "Los diseños longitudinales permiten principalmente:",
+      "options": [
+        "Reducir costos",
+        "Observar cambios a lo largo del tiempo",
+        "Evitar hipótesis",
+        "Eliminar variables extrañas"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Muy bien. Permiten analizar cambios temporales.",
+        "incorrect": "Revisá el propósito del diseño longitudinal."
+      }
+    },
+    {
+      "question": "¿Por qué el diseño influye en la validez del estudio?",
+      "options": [
+        "Porque determina el tamaño de la muestra",
+        "Porque organiza el control de variables y procedimientos",
+        "Porque reemplaza el análisis",
+        "Porque define los resultados"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Correcto. El diseño afecta directamente la validez.",
+        "incorrect": "Pensá en la relación entre control y validez."
+      }
+    },
+    {
+      "question": "Un error frecuente respecto al diseño de investigación es:",
+      "options": [
+        "Relacionarlo con el problema",
+        "Confundirlo con técnicas de recolección",
+        "Derivarlo de los objetivos",
+        "Vincularlo a las hipótesis"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Exacto. El diseño no es una técnica aislada.",
+        "incorrect": "Revisá qué nivel ocupa el diseño."
+      }
+    },
+    {
+      "question": "El diseño de investigación debe definirse:",
+      "options": [
+        "Después del análisis de datos",
+        "Antes de la recolección de datos",
+        "Al final del informe",
+        "Luego de los resultados"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Correcto. El diseño se define antes de recolectar datos.",
+        "incorrect": "Pensá en la secuencia lógica del proceso."
+      }
+    },
+    {
+      "question": "¿Qué relación existe entre diseño y análisis de datos?",
+      "options": [
+        "No existe relación",
+        "El análisis determina el diseño",
+        "El diseño condiciona el análisis posible",
+        "El análisis reemplaza al diseño"
+      ],
+      "correctIndex": 2,
+      "feedback": {
+        "correct": "Muy bien. El diseño limita y orienta el análisis.",
+        "incorrect": "Revisá la direccionalidad de la relación."
+      }
+    },
+    {
+      "question": "Desde el enfoque metodológico, un buen diseño debe ser:",
+      "options": [
+        "Complejo",
+        "Flexible y coherente",
+        "Rígido",
+        "Independiente del problema"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Correcto. El diseño debe ser coherente y adaptable al problema.",
+        "incorrect": "Pensá en la función práctica del diseño."
+      }
+    }
+  ]
+}

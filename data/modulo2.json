@@ -1,0 +1,192 @@
+{
+  "title": "Teoría y revisión de la literatura",
+  "videoId": "EJ8aQ9q97vE",
+  "notebookUrl": "https://notebooklm.google.com/notebook/b63860c5-713f-46dc-8f1c-1f958c345763",
+  "readingFile": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+
+  "flipCards": [
+    {
+      "front": "¿Qué se entiende por teoría científica?",
+      "back": "Una teoría es un sistema organizado de conceptos y proposiciones que explica y predice fenómenos."
+    },
+    {
+      "front": "Función principal de la teoría en investigación",
+      "back": "Orientar la formulación del problema, las hipótesis, las variables y la interpretación de los resultados."
+    },
+    {
+      "front": "Teoría y observación",
+      "back": "La observación no es neutral: siempre está guiada por supuestos teóricos."
+    },
+    {
+      "front": "¿Qué es la revisión de la literatura?",
+      "back": "Es un proceso sistemático de búsqueda, análisis y síntesis de investigaciones previas relevantes."
+    },
+    {
+      "front": "Objetivo de la revisión de la literatura",
+      "back": "Identificar el estado del conocimiento, vacíos teóricos y antecedentes del problema."
+    },
+    {
+      "front": "Error frecuente en la revisión de literatura",
+      "back": "Limitarse a resumir textos sin analizarlos críticamente."
+    },
+    {
+      "front": "Relación entre teoría y problema de investigación",
+      "back": "La teoría proporciona el marco conceptual desde el cual se formula el problema."
+    },
+    {
+      "front": "Marco teórico",
+      "back": "Es la articulación de teorías, conceptos y antecedentes que sustentan una investigación."
+    },
+    {
+      "front": "Revisión narrativa vs. revisión sistemática",
+      "back": "La revisión narrativa es descriptiva; la sistemática sigue criterios explícitos y controlados."
+    },
+    {
+      "front": "¿Por qué la teoría no es decorativa?",
+      "back": "Porque cumple una función explicativa y orientadora, no meramente formal."
+    }
+  ],
+
+  "quiz": [
+    {
+      "question": "¿Cuál es la función central de la teoría en una investigación?",
+      "options": [
+        "Decorar el marco teórico",
+        "Orientar el planteamiento y la interpretación del estudio",
+        "Reemplazar los datos empíricos",
+        "Servir solo como antecedente histórico"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Correcto. La teoría guía todo el proceso de investigación.",
+        "incorrect": "Revisá el rol activo de la teoría según Kerlinger."
+      }
+    },
+    {
+      "question": "La revisión de la literatura permite principalmente:",
+      "options": [
+        "Confirmar opiniones personales",
+        "Identificar el estado actual del conocimiento",
+        "Evitar formular hipótesis",
+        "Reemplazar el trabajo empírico"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Exacto. La revisión muestra qué se sabe y qué falta investigar.",
+        "incorrect": "Pensá en la función diagnóstica de la revisión."
+      }
+    },
+    {
+      "question": "¿Por qué se afirma que la observación está guiada por la teoría?",
+      "options": [
+        "Porque la teoría limita la investigación",
+        "Porque no existe observación neutral",
+        "Porque la teoría reemplaza los datos",
+        "Porque toda teoría es verdadera"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Muy bien. La teoría orienta qué y cómo se observa.",
+        "incorrect": "Revisá la relación entre teoría y observación."
+      }
+    },
+    {
+      "question": "Un error frecuente en la revisión de literatura es:",
+      "options": [
+        "Analizar críticamente los estudios",
+        "Comparar resultados",
+        "Resumir textos sin análisis",
+        "Identificar vacíos teóricos"
+      ],
+      "correctIndex": 2,
+      "feedback": {
+        "correct": "Correcto. La revisión no debe ser solo descriptiva.",
+        "incorrect": "Pensá en qué NO aporta al conocimiento."
+      }
+    },
+    {
+      "question": "El marco teórico cumple la función de:",
+      "options": [
+        "Presentar resultados",
+        "Justificar metodológicamente la muestra",
+        "Sustentar conceptualmente la investigación",
+        "Reemplazar el análisis de datos"
+      ],
+      "correctIndex": 2,
+      "feedback": {
+        "correct": "Exacto. El marco teórico sostiene conceptualmente el estudio.",
+        "incorrect": "Ubicá el marco teórico dentro de la estructura del trabajo."
+      }
+    },
+    {
+      "question": "¿Cuál es la relación correcta entre teoría y problema de investigación?",
+      "options": [
+        "El problema se formula al margen de la teoría",
+        "La teoría surge después del análisis",
+        "La teoría orienta la formulación del problema",
+        "No existe relación directa"
+      ],
+      "correctIndex": 2,
+      "feedback": {
+        "correct": "Correcto. La teoría da sentido al problema planteado.",
+        "incorrect": "Revisá la secuencia lógica del proceso."
+      }
+    },
+    {
+      "question": "Una buena revisión de literatura debe ser:",
+      "options": [
+        "Exhaustiva y acrítica",
+        "Selectiva y analítica",
+        "Breve y superficial",
+        "Basada solo en libros"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Muy bien. La clave es la selección y el análisis crítico.",
+        "incorrect": "Pensá en la calidad, no en la cantidad."
+      }
+    },
+    {
+      "question": "Desde el enfoque científico, la teoría sirve para:",
+      "options": [
+        "Explicar y predecir fenómenos",
+        "Confirmar prejuicios",
+        "Evitar el trabajo empírico",
+        "Sustituir la metodología"
+      ],
+      "correctIndex": 0,
+      "feedback": {
+        "correct": "Correcto. La teoría tiene función explicativa y predictiva.",
+        "incorrect": "Revisá la definición de teoría científica."
+      }
+    },
+    {
+      "question": "¿Qué diferencia a una revisión sistemática de una narrativa?",
+      "options": [
+        "La cantidad de textos",
+        "El uso de criterios explícitos",
+        "La extensión del marco teórico",
+        "El tipo de disciplina"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Exacto. La revisión sistemática sigue criterios claros y controlados.",
+        "incorrect": "Pensá en el nivel de control metodológico."
+      }
+    },
+    {
+      "question": "La teoría en investigación científica es:",
+      "options": [
+        "Opcional",
+        "Decorativa",
+        "Estructurante",
+        "Irrelevante para el análisis"
+      ],
+      "correctIndex": 2,
+      "feedback": {
+        "correct": "Muy bien. La teoría estructura todo el estudio.",
+        "incorrect": "Revisá el carácter central de la teoría."
+      }
+    }
+  ]
+}
