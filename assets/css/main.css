@@ -169,11 +169,16 @@ header.hero {
 /* ========================================
    MODULES GRID
    ======================================== */
+/* ========================================
+   MODULES GRID
+   ======================================== */
 .modules-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     padding: 2rem 0;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .module-card {
@@ -185,6 +190,7 @@ header.hero {
     display: flex;
     flex-direction: column;
     position: relative;
+    height: 100%;
 }
 
 .module-card:hover {
@@ -214,121 +220,46 @@ header.hero {
 }
 
 /* ========================================
-   UI ELEMENTS (Buttons, Progress)
+   FOOTER
    ======================================== */
-.start-btn {
-    background: linear-gradient(135deg, var(--color-secondary), var(--color-primary));
-    color: #fff;
-    border: none;
-    border-radius: 999px;
-    padding: 0.8rem 1.6rem;
-    font-weight: 600;
-    cursor: pointer;
-    margin-top: auto;
-    transition: var(--transition-smooth);
-}
-
-.start-btn:hover:not(:disabled) {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(227, 83, 54, 0.3);
-}
-
-.start-btn:disabled {
-    background: #ccc;
-    cursor: not-allowed;
-}
-
-.manual-unlock {
-    background: transparent;
-    border: 1px dashed var(--color-primary);
-    color: var(--color-primary);
-    font-size: 0.8rem;
-    margin-top: 1rem;
-    padding: 0.4rem 1rem;
-    border-radius: 999px;
-    cursor: pointer;
-}
-
-/* Progress Bar */
-.progress-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 4px;
-    background: rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-}
-
-.progress-bar {
-    height: 100%;
-    background: var(--color-primary);
-    width: 0%;
-    transition: width 0.5s ease;
+.site-footer {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: var(--color-surface);
+    border-top: 1px solid var(--color-border);
+    margin-top: 4rem;
 }
 
 /* ========================================
-   INTERACTIVE MODULE ELEMENTS
+   FLIP CARDS (Fixed 3D Logic)
    ======================================== */
-/* Video Wrapper */
-.video-wrapper {
-    position: relative;
-    padding-bottom: 56.25%;
-    /* 16:9 */
-    height: 0;
-    border-radius: var(--radius);
-    overflow: hidden;
-    background: #000;
-    margin-bottom: 1.5rem;
-}
-
-.video-wrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-/* Notebook LM */
-.notebook-section {
-    background: linear-gradient(135deg, rgba(227, 83, 54, 0.05), rgba(99, 107, 47, 0.05));
-    border: 1px solid rgba(99, 107, 47, 0.2);
-}
-
-.notebook-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    background: #2c3e50;
-    color: #fff;
-    padding: 0.8rem 1.5rem;
-    border-radius: 999px;
-    font-weight: 600;
-}
-
-.notebook-link:hover {
-    background: #34495e;
-    transform: translateY(-2px);
-    color: #fff;
-}
-
-/* Flip Cards */
-.flip-container {
-    perspective: 1000px;
-    margin-bottom: 1.5rem;
+.flip-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
 }
 
 .flip-card {
+    background-color: transparent;
     width: 100%;
-    height: 220px;
-    position: relative;
-    transform-style: preserve-3d;
-    transition: transform 0.6s;
+    height: 250px;
+    perspective: 1000px;
     cursor: pointer;
 }
 
-.flip-card.is-flipped {
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    box-shadow: var(--shadow);
+    border-radius: var(--radius);
+}
+
+.flip-card.is-flipped .flip-card-inner {
     transform: rotateY(180deg);
 }
 
@@ -337,28 +268,27 @@ header.hero {
     position: absolute;
     width: 100%;
     height: 100%;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    border-radius: var(--radius);
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
-    text-align: center;
-    font-weight: 600;
-    font-size: 1.1rem;
-    box-shadow: var(--shadow);
+    padding: 1.5rem;
+    border-radius: var(--radius);
+    flex-direction: column;
 }
 
 .flip-card-front {
     background: linear-gradient(135deg, var(--color-secondary), var(--color-primary));
-    color: #fff;
+    color: white;
 }
 
 .flip-card-back {
-    background: #fff;
+    background-color: var(--color-surface);
     color: var(--color-text);
     transform: rotateY(180deg);
     border: 2px solid var(--color-secondary);
+    font-weight: 500;
 }
 
 body.tema-oscuro .flip-card-back {
@@ -410,12 +340,20 @@ body.tema-oscuro .flip-card-back {
 /* ========================================
    RESPONSIVE
    ======================================== */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     header.hero {
         height: 50vh;
     }
 
     .modules-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        /* Allow reflow on tablet */
+    }
+}
+
+@media (max-width: 600px) {
+    .modules-grid {
         grid-template-columns: 1fr;
+        /* Stack on mobile */
     }
 }

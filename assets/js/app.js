@@ -135,6 +135,18 @@ const APP = (() => {
     }
   }
 
+  // --- Core Functions ---
+
+  function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  }
+
+  // ... (initIndex and initModuleView remain unchanged) ...
+
   function renderModuleContent(data, slug) {
     // 1. Header
     const titleEl = document.querySelector('#module-title');
@@ -149,41 +161,33 @@ const APP = (() => {
                 </div>`;
     }
 
-    // 3. Notebook & Readings
+    // 3. Notebook & Readings (Kept generic logic)
     const notebookSection = document.querySelector('.notebook-section');
     if (notebookSection) {
       let readingHtml = '';
-
-      // Remove existing placeholder if present
       const placeholder = document.getElementById('notebook-dynamic-link');
       if (placeholder) placeholder.remove();
 
-      // Notebook
       if (data.notebookUrl) {
         readingHtml += `
-                <a href="${data.notebookUrl}" target="_blank" class="notebook-link">
-                    <i class="fa-solid fa-robot"></i> Notebook LM
-                </a>`;
+            <a href="${data.notebookUrl}" target="_blank" class="notebook-link">
+                <i class="fa-solid fa-robot"></i> Notebook LM
+            </a>`;
       }
-
-      // PDF Reading
       if (data.readingFile) {
         readingHtml += `
-                <a href="../${data.readingFile}" target="_blank" class="notebook-link download-btn">
-                    <i class="fa-solid fa-file-pdf"></i> Descargar Lectura
-                </a>`;
+            <a href="../${data.readingFile}" target="_blank" class="notebook-link download-btn">
+                <i class="fa-solid fa-file-pdf"></i> Descargar Lectura
+            </a>`;
       }
-
-      // Web Reading
       if (data.webReadingUrl) {
         readingHtml += `
-                <a href="${data.webReadingUrl}" target="_blank" class="notebook-link">
-                    <i class="fa-solid fa-globe"></i> Lectura Online
-                </a>`;
+            <a href="${data.webReadingUrl}" target="_blank" class="notebook-link">
+                <i class="fa-solid fa-globe"></i> Lectura Online
+            </a>`;
       }
 
       if (readingHtml) {
-        // Check if container exists
         let container = notebookSection.querySelector('.links-container');
         if (!container) {
           container = document.createElement('div');
@@ -198,31 +202,45 @@ const APP = (() => {
       }
     }
 
-    // 4. Flip Cards
+    // 4. Flip Cards (RANDOM 5)
     if (data.flipCards && UI.flipContainer) {
-      UI.flipContainer.innerHTML = data.flipCards.map(card => `
+      // Apply Grid Layout Class to Container
+      UI.flipContainer.className = 'flip-grid';
+
+      const randomCards = shuffleArray([...data.flipCards]).slice(0, 5);
+
+      UI.flipContainer.innerHTML = randomCards.map(card => `
                 <div class="flip-card" onclick="this.classList.toggle('is-flipped')">
                     <div class="flip-card-inner">
-                        <div class="flip-card-front">${card.front}</div>
-                        <div class="flip-card-back">${card.back}</div>
+                        <div class="flip-card-front">
+                            <i class="fa-solid fa-circle-question" style="font-size: 2rem; margin-bottom: 1rem; opacity: 0.8;"></i>
+                            <p>${card.front}</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>${card.back}</p>
+                        </div>
                     </div>
                 </div>
             `).join('');
     }
 
-    // 5. Quiz
+    // 5. Quiz (RANDOM 5)
     if (data.quiz && UI.quizContainer) {
-      renderQuiz(data.quiz, slug);
+      const randomQuiz = shuffleArray([...data.quiz]).slice(0, 5);
+      renderQuiz(randomQuiz, slug);
     }
 
     // 6. Navigation
     renderNav(slug);
   }
+  // 6. Navigation
+  renderNav(slug);
+}
 
   function renderQuiz(questions, slug) {
-    let html = '';
-    questions.forEach((q, idx) => {
-      html += `
+  let html = '';
+  questions.forEach((q, idx) => {
+    html += `
                 <div class="quiz-question" data-idx="${idx}">
                     <h4>${idx + 1}. ${q.question}</h4>
                     <div class="quiz-options">
@@ -236,111 +254,111 @@ const APP = (() => {
                     <div class="feedback"></div>
                 </div>
             `;
-    });
+  });
 
-    html += `<button class="start-btn" onclick="APP.submitQuiz('${slug}')">Evaluar Respuestas</button>`;
-    UI.quizContainer.innerHTML = html;
+  html += `<button class="start-btn" onclick="APP.submitQuiz('${slug}')">Evaluar Respuestas</button>`;
+  UI.quizContainer.innerHTML = html;
 
-    // Save correct answers for validation
-    UI.quizContainer.dataset.answers = JSON.stringify(questions.map(q => q.correctIndex));
-    // Save feedback
-    UI.quizContainer.dataset.feedbacks = JSON.stringify(questions.map(q => q.feedback));
-  }
+  // Save correct answers for validation
+  UI.quizContainer.dataset.answers = JSON.stringify(questions.map(q => q.correctIndex));
+  // Save feedback
+  UI.quizContainer.dataset.feedbacks = JSON.stringify(questions.map(q => q.feedback));
+}
 
-  function renderNav(currentSlug) {
-    const idx = CONFIG.modules.findIndex(m => m.slug === currentSlug);
-    const nextModule = CONFIG.modules[idx + 1];
+function renderNav(currentSlug) {
+  const idx = CONFIG.modules.findIndex(m => m.slug === currentSlug);
+  const nextModule = CONFIG.modules[idx + 1];
 
-    const navContainer = document.querySelector('.module-navigation');
-    if (!navContainer) return;
+  const navContainer = document.querySelector('.module-navigation');
+  if (!navContainer) return;
 
-    let html = `<a href="../index.html" class="nav-button module-nav-prev">← Inicio</a>`;
+  let html = `<a href="../index.html" class="nav-button module-nav-prev">← Inicio</a>`;
 
-    if (nextModule) {
-      const isUnlocked = state.progress[currentSlug]?.completed;
-      html += `
+  if (nextModule) {
+    const isUnlocked = state.progress[currentSlug]?.completed;
+    html += `
                 <button class="nav-button module-nav-next" 
                     ${isUnlocked ? '' : 'disabled'}
                     onclick="window.location.href='view.html?m=${nextModule.slug}'">
                     ${isUnlocked ? 'Siguiente Módulo →' : 'Completa el Quiz para avanzar'}
                 </button>
             `;
+  } else {
+    html += `<div class="finished-message">¡Has completado todo el curso! 🎓</div>`;
+  }
+  navContainer.innerHTML = html;
+}
+
+function renderModulePlaceholder(slug) {
+  const titleEl = document.querySelector('#module-title');
+  const mod = CONFIG.modules.find(m => m.slug === slug);
+  if (titleEl) titleEl.textContent = mod ? mod.title : 'Módulo Desconocido';
+  if (UI.flipContainer) UI.flipContainer.innerHTML = '<p class="text-center text-muted">Contenido pendiente de carga...</p>';
+}
+
+// --- Public Methods (exposed as APP.method) ---
+
+function selectOption(label) {
+  const parent = label.closest('.quiz-options');
+  parent.querySelectorAll('.quiz-option').forEach(l => l.classList.remove('selected'));
+  label.classList.add('selected');
+  label.querySelector('input').checked = true;
+}
+
+function submitQuiz(slug) {
+  const correctAnswers = JSON.parse(UI.quizContainer.dataset.answers);
+  const feedbacks = JSON.parse(UI.quizContainer.dataset.feedbacks);
+  let score = 0;
+
+  correctAnswers.forEach((ans, idx) => {
+    const selected = document.querySelector(`input[name="q${idx}"]:checked`);
+    const qDiv = document.querySelector(`.quiz-question[data-idx="${idx}"]`);
+    const fbDiv = qDiv.querySelector('.feedback');
+
+    qDiv.classList.remove('correct', 'incorrect');
+
+    if (selected && parseInt(selected.value) === ans) {
+      score++;
+      qDiv.classList.add('correct');
+      fbDiv.innerHTML = `<div class="item-feedback correct">✅ ${feedbacks[idx].correct}</div>`;
     } else {
-      html += `<div class="finished-message">¡Has completado todo el curso! 🎓</div>`;
-    }
-    navContainer.innerHTML = html;
-  }
-
-  function renderModulePlaceholder(slug) {
-    const titleEl = document.querySelector('#module-title');
-    const mod = CONFIG.modules.find(m => m.slug === slug);
-    if (titleEl) titleEl.textContent = mod ? mod.title : 'Módulo Desconocido';
-    if (UI.flipContainer) UI.flipContainer.innerHTML = '<p class="text-center text-muted">Contenido pendiente de carga...</p>';
-  }
-
-  // --- Public Methods (exposed as APP.method) ---
-
-  function selectOption(label) {
-    const parent = label.closest('.quiz-options');
-    parent.querySelectorAll('.quiz-option').forEach(l => l.classList.remove('selected'));
-    label.classList.add('selected');
-    label.querySelector('input').checked = true;
-  }
-
-  function submitQuiz(slug) {
-    const correctAnswers = JSON.parse(UI.quizContainer.dataset.answers);
-    const feedbacks = JSON.parse(UI.quizContainer.dataset.feedbacks);
-    let score = 0;
-
-    correctAnswers.forEach((ans, idx) => {
-      const selected = document.querySelector(`input[name="q${idx}"]:checked`);
-      const qDiv = document.querySelector(`.quiz-question[data-idx="${idx}"]`);
-      const fbDiv = qDiv.querySelector('.feedback');
-
-      qDiv.classList.remove('correct', 'incorrect');
-
-      if (selected && parseInt(selected.value) === ans) {
-        score++;
-        qDiv.classList.add('correct');
-        fbDiv.innerHTML = `<div class="item-feedback correct">✅ ${feedbacks[idx].correct}</div>`;
-      } else {
-        qDiv.classList.add('incorrect');
-        fbDiv.innerHTML = `<div class="item-feedback incorrect">❌ ${feedbacks[idx].incorrect}</div>`;
-      }
-    });
-
-    const finalScore = score / correctAnswers.length;
-
-    if (finalScore >= 0.6) {
-      markModuleComplete(slug, finalScore);
-      alert(`¡Aprobaste con ${(finalScore * 100).toFixed(0)}%!`);
-      renderNav(slug);
-      window.button_next = document.querySelector('.module-nav-next');
-      if (window.button_next) window.button_next.focus();
-    } else {
-      alert('Intenta de nuevo para avanzar.');
-    }
-  }
-
-  function updateGlobalUI() {
-    const completed = Object.values(state.progress).filter(p => p.completed).length;
-    const total = CONFIG.modules.length;
-    const pct = (completed / total) * 100;
-    if (UI.progressBar) UI.progressBar.style.width = `${pct}%`;
-  }
-
-  // Init
-  document.addEventListener('DOMContentLoaded', () => {
-    if (document.querySelector('.modules-grid')) {
-      initIndex();
-    } else if (document.body.hasAttribute('data-module')) {
-      initModuleView();
+      qDiv.classList.add('incorrect');
+      fbDiv.innerHTML = `<div class="item-feedback incorrect">❌ ${feedbacks[idx].incorrect}</div>`;
     }
   });
 
-  return {
-    selectOption,
-    submitQuiz,
-    unlockManually
-  };
-})();
+  const finalScore = score / correctAnswers.length;
+
+  if (finalScore >= 0.6) {
+    markModuleComplete(slug, finalScore);
+    alert(`¡Aprobaste con ${(finalScore * 100).toFixed(0)}%!`);
+    renderNav(slug);
+    window.button_next = document.querySelector('.module-nav-next');
+    if (window.button_next) window.button_next.focus();
+  } else {
+    alert('Intenta de nuevo para avanzar.');
+  }
+}
+
+function updateGlobalUI() {
+  const completed = Object.values(state.progress).filter(p => p.completed).length;
+  const total = CONFIG.modules.length;
+  const pct = (completed / total) * 100;
+  if (UI.progressBar) UI.progressBar.style.width = `${pct}%`;
+}
+
+// Init
+document.addEventListener('DOMContentLoaded', () => {
+  if (document.querySelector('.modules-grid')) {
+    initIndex();
+  } else if (document.body.hasAttribute('data-module')) {
+    initModuleView();
+  }
+});
+
+return {
+  selectOption,
+  submitQuiz,
+  unlockManually
+};
+}) ();
