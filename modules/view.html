@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo - Metodología</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+</head>
+
+<body data-module="dynamic"> <!-- Trigger initModuleView -->
+
+    <div class="progress-container">
+        <div class="progress-bar"></div>
+    </div>
+
+    <div class="container">
+        <!-- Navigation Header -->
+        <a href="../index.html" class="back-link">← Volver al Temario</a>
+
+        <!-- Module Title -->
+        <h2 id="module-title">Cargando...</h2>
+
+        <!-- Video Section -->
+        <section class="section" id="video-dynamic-container">
+            <!-- Video injected here -->
+        </section>
+
+        <!-- Dynamic Content: Notebook / Reading -->
+        <section class="section notebook-section">
+            <h3><i class="fa-solid fa-book"></i> Material de Estudio</h3>
+            <p>Accede al material complementario y asistentes de IA para este módulo.</p>
+            <a id="notebook-dynamic-link" href="#" target="_blank" class="notebook-link" hidden>
+                <i class="fa-solid fa-robot"></i> Abrir Notebook LM
+            </a>
+            <!-- We can add PDF download button here dynamically too if needed from JSON -->
+        </section>
+
+        <!-- Activities: Flip Cards -->
+        <section class="section">
+            <h3><i class="fa-solid fa-layer-group"></i> Conceptos Clave</h3>
+            <div id="flips-dynamic-container" class="flip-container">
+                <!-- Cards injected here -->
+            </div>
+        </section>
+
+        <!-- Evaluation: Quiz -->
+        <section class="section">
+            <h3><i class="fa-solid fa-clipboard-check"></i> Evaluación</h3>
+            <div id="quiz-dynamic-container" class="quiz-container">
+                <!-- Quiz injected here -->
+            </div>
+        </section>
+
+        <!-- Navigation Footer -->
+        <div class="module-navigation">
+            <!-- Buttons injected here -->
+        </div>
+    </div>
+
+    <script src="../assets/js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,190 @@
+{
+  "title": "El método científico",
+  "videoId": "l9fdq7LPccE",
+  "notebookUrl": "https://notebooklm.google.com/notebook/12f614b2-45f2-464b-9db1-92822bf468fb",
+  "readingFile": "assets/reading/1. Ciencia y el enfoque científico - Kerlinger y Lee.pdf",
+  "flipCards": [
+    {
+      "front": "¿Qué se entiende por ciencia?",
+      "back": "La ciencia es una forma sistemática de producir conocimiento mediante procedimientos controlados, públicos y fundamentados racionalmente."
+    },
+    {
+      "front": "¿Qué es el método científico?",
+      "back": "Es un conjunto organizado de procedimientos lógicos y empíricos orientados a la producción de conocimiento válido y controlable."
+    },
+    {
+      "front": "Ciencia y sentido común",
+      "back": "El sentido común se basa en creencias no sistemáticas; la ciencia se apoya en procedimientos explícitos, controlados y verificables."
+    },
+    {
+      "front": "Conocimiento científico",
+      "back": "Es un conocimiento provisional, sistemático, crítico y susceptible de revisión."
+    },
+    {
+      "front": "Rol de la teoría en la ciencia",
+      "back": "La teoría orienta la observación, la formulación de problemas y la interpretación de los resultados."
+    },
+    {
+      "front": "¿Por qué el conocimiento científico es provisional?",
+      "back": "Porque está abierto a revisión a la luz de nueva evidencia o mejores explicaciones."
+    },
+    {
+      "front": "Objetividad científica",
+      "back": "No implica ausencia de valores, sino control sistemático de sesgos mediante procedimientos metodológicos."
+    },
+    {
+      "front": "Investigación científica",
+      "back": "Es un proceso planificado y riguroso orientado a responder preguntas mediante el uso del método científico."
+    },
+    {
+      "front": "Método científico y disciplina",
+      "back": "El método científico es común a las ciencias, pero se adapta a las características de cada disciplina."
+    },
+    {
+      "front": "Error común sobre el método científico",
+      "back": "Creer que es una secuencia rígida e inmutable de pasos, cuando en realidad es un proceso flexible y lógico."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "¿Cuál es una característica central del conocimiento científico?",
+      "options": [
+        "Es definitivo e incuestionable",
+        "Es provisional y revisable",
+        "Depende del sentido común",
+        "No requiere fundamentación teórica"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Correcto. El conocimiento científico es siempre provisional y abierto a revisión.",
+        "incorrect": "Revisá las características del conocimiento científico según Kerlinger."
+      }
+    },
+    {
+      "question": "¿Qué distingue principalmente a la ciencia del sentido común?",
+      "options": [
+        "El uso exclusivo de estadísticas",
+        "La sistematicidad y el control metodológico",
+        "La intuición del investigador",
+        "La ausencia de teoría"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Exacto. La ciencia se distingue por su método y control sistemático.",
+        "incorrect": "Pensá en cómo se produce el conocimiento en ciencia."
+      }
+    },
+    {
+      "question": "El método científico puede definirse como:",
+      "options": [
+        "Una serie rígida de pasos obligatorios",
+        "Un conjunto lógico y flexible de procedimientos",
+        "Una técnica exclusiva de laboratorio",
+        "Un recurso exclusivo de las ciencias naturales"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Muy bien. El método científico no es rígido, sino lógico y adaptable.",
+        "incorrect": "Revisá la idea de flexibilidad del método científico."
+      }
+    },
+    {
+      "question": "¿Qué función cumple la teoría en la investigación científica?",
+      "options": [
+        "Reemplazar la observación",
+        "Guiar la formulación de problemas e hipótesis",
+        "Eliminar la necesidad de datos",
+        "Servir solo como marco histórico"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Correcto. La teoría orienta todo el proceso de investigación.",
+        "incorrect": "Pensá en la relación entre teoría y observación."
+      }
+    },
+    {
+      "question": "La objetividad científica se refiere principalmente a:",
+      "options": [
+        "La neutralidad absoluta del investigador",
+        "El control de sesgos mediante métodos explícitos",
+        "La eliminación de valores personales",
+        "La ausencia de interpretación"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Exacto. La objetividad se construye mediante controles metodológicos.",
+        "incorrect": "La objetividad no implica ausencia total de valores."
+      }
+    },
+    {
+      "question": "¿Por qué el conocimiento científico es público?",
+      "options": [
+        "Porque pertenece al Estado",
+        "Porque puede ser comunicado y evaluado por otros",
+        "Porque no tiene autores",
+        "Porque es de acceso gratuito"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Correcto. El conocimiento científico debe ser comunicable y evaluable.",
+        "incorrect": "Pensá en el carácter social de la ciencia."
+      }
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones es correcta?",
+      "options": [
+        "La ciencia produce verdades absolutas",
+        "La ciencia elimina la incertidumbre",
+        "La ciencia acepta la revisión crítica",
+        "La ciencia se basa únicamente en la observación"
+      ],
+      "correctIndex": 2,
+      "feedback": {
+        "correct": "Así es. La revisión crítica es central en la ciencia.",
+        "incorrect": "Revisá el carácter crítico del conocimiento científico."
+      }
+    },
+    {
+      "question": "Investigar científicamente implica:",
+      "options": [
+        "Confirmar creencias previas",
+        "Aplicar procedimientos sistemáticos para responder preguntas",
+        "Repetir estudios sin cuestionarlos",
+        "Evitar la teoría"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Correcto. La investigación busca responder preguntas de forma sistemática.",
+        "incorrect": "Pensá en el propósito central de la investigación."
+      }
+    },
+    {
+      "question": "¿Cuál es un error frecuente sobre la ciencia?",
+      "options": [
+        "Reconocer su carácter provisional",
+        "Considerarla una actividad crítica",
+        "Creer que sigue pasos rígidos e invariables",
+        "Aceptar la revisión de resultados"
+      ],
+      "correctIndex": 2,
+      "feedback": {
+        "correct": "Exacto. El método científico no es una receta fija.",
+        "incorrect": "Revisá la idea de flexibilidad metodológica."
+      }
+    },
+    {
+      "question": "Desde el enfoque científico, conocer implica:",
+      "options": [
+        "Opinar con fundamento personal",
+        "Describir fenómenos sin teoría",
+        "Explicar fenómenos mediante métodos controlados",
+        "Aceptar afirmaciones por autoridad"
+      ],
+      "correctIndex": 2,
+      "feedback": {
+        "correct": "Muy bien. Conocer científicamente implica explicar con métodos controlados.",
+        "incorrect": "Pensá en la relación entre explicación y método."
+      }
+    }
+  ]
+}

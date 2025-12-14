@@ -1,127 +1,82 @@
-<!DOCTYPE html>
-<html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Centro de Entrenamiento – Metodología de la Investigación</title>
-<!-- Precarga del video para mejor rendimiento -->
-<link rel="preload" as="video" href="assets/img/cerebro_efficient.mp4" type="video/mp4">
-<!-- Fonts optimizadas -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-<!-- Meta tags para SEO y performance -->
-<meta name="description" content="Centro de Entrenamiento en Metodología de la Investigación - Desarrolla habilidades de investigación con claridad, rigor y un toque de humor">
-<meta name="theme-color" content="#E35336">
-<meta name="author" content="MiniMax Agent">
-<!-- Performance hints -->
-<link rel="dns-prefetch" href="//fonts.googleapis.com">
-<link rel="dns-prefetch" href="//fonts.gstatic.com">
-<!-- CSS completo optimizado -->
-<link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro de Entrenamiento – Metodología de la Investigación</title>
+    <!-- Precarga del video para mejor rendimiento -->
+    <link rel="preload" as="video" href="assets/img/cerebro_efficient.mp4" type="video/mp4">
+    <!-- Fonts optimizadas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&family=Inter:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Meta tags para SEO y performance -->
+    <meta name="description" content="Centro de Entrenamiento en Metodología de la Investigación">
+    <meta name="theme-color" content="#E35336">
+    <!-- CSS Unificado -->
+    <link rel="stylesheet" href="assets/css/main.css">
 </head>
+
 <body>
-<!-- Header con video optimizado y overlay -->
-<header class="hero">
-<!-- Video background ultra-optimizado -->
-<video class="hero-video" 
-autoplay 
-muted 
-loop 
-playsinline
-preload="metadata">
-<source src="assets/img/cerebro_efficient.mp4" type="video/mp4">
-<!-- Fallback para navegadores que no soportan video -->
-<div style="background: linear-gradient(rgba(34, 46, 34, 0.8), rgba(20, 30, 20, 0.8)), url('assets/img/hero.png'); background-size: cover; background-position: center; width: 100%; height: 100%; position: absolute; top: 0; left: 0;"></div>
-</video>
-<!-- Overlay gradiente para legibilidad del texto -->
-<div class="hero-overlay"></div>
-<!-- Contenido principal del hero -->
-<div class="hero-content">
-<h1 class="hero-title">
-<span class="line1">Centro de Entrenamiento</span>
-<span class="line2">Metodología de la Investigación</span>
-</h1>
-<p class="hero-subtitle">
-Desarrolla habilidades de investigación con claridad, rigor y un toque de humor.
-Explorar módulos que se desbloquean progresivamente.
-</p>
-</div>
-<!-- Partículas neuronales sutiles -->
-<div class="floating-particles"></div>
-</header>
-<!-- Contenido principal -->
-<main>
-<!-- Sección introductoria -->
-<section class="intro-section">
-<p>
-Aquí encontrarás un taller progresivo para que aprendas a tu ritmo: al completar cada unidad, 
-se desbloqueará la siguiente. Contarás con videos, ejercicios prácticos y simulaciones; 
-al finalizar cada tema podrás responder un cuestionario que se renueva en cada intento. 
-No te preocupes, puedes volver a repasar cuando quieras: tu progreso se guarda automáticamente 
-y cada nueva evaluación te ofrecerá retos diferentes para que sigas mejorando.
-</p>
-</section>
-<!-- Grid de módulos -->
-<section class="modules-grid">
-<!-- Módulo 1 -->
-<div class="module-card" data-index="1" data-slug="modulo1">
-<div class="module-icon">🎯</div>
-<h2>Problema de investigación</h2>
-<p>Descubre cómo plantear la pregunta que moverá tu estudio.</p>
-<button class="start-btn">Comenzar</button>
-</div>
-<!-- Módulo 2 -->
-<div class="module-card locked" data-index="2" data-slug="modulo2">
-<div class="module-icon">🎪</div>
-<h2>Objetivos de investigación</h2>
-<p>Define metas claras y alcanzables para tu proyecto.</p>
-<button class="start-btn" disabled>Comenzar</button>
-</div>
-<!-- Módulo 3 -->
-<div class="module-card locked" data-index="3" data-slug="modulo3">
-<div class="module-icon">💡</div>
-<h2>Hipótesis de investigación</h2>
-<p>Aprende a formular predicciones comprobables.</p>
-<button class="start-btn" disabled>Comenzar</button>
-</div>
-<!-- Módulo 4 -->
-<div class="module-card locked" data-index="4" data-slug="modulo4">
-<div class="module-icon">🔬</div>
-<h2>Constructos y variables</h2>
-<p>Delimita tus conceptos y mide lo que realmente importa.</p>
-<button class="start-btn" disabled>Comenzar</button>
-</div>
-<!-- Módulo 5 -->
-<div class="module-card locked" data-index="5" data-slug="modulo5">
-<div class="module-icon">📋</div>
-<h2>Diseño de investigación</h2>
-<p>Elige el plan adecuado para responder tus preguntas.</p>
-<button class="start-btn" disabled>Comenzar</button>
-</div>
-<!-- Módulo 6 -->
-<div class="module-card locked" data-index="6" data-slug="modulo6">
-<div class="module-icon">👥</div>
-<h2>Población, muestra y muestreo</h2>
-<p>Aprende a seleccionar participantes de manera rigurosa.</p>
-<button class="start-btn" disabled>Comenzar</button>
-</div>
-</section>
-</main>
-<!-- Footer profesional -->
-<footer class="site-footer">
-<p>
-    Centro de Entrenamiento en Metodología de la Investigación &copy; 2025 |
-    Estructura inicial desarrollada por <strong>ChatGPT modo agente</strong>
-    </p>
-    Mejoras y optimizaciones implementadas con 💜 por <a href="https://minimax.chat" target="_blank" rel="noopener"><strong>MiniMax Agent</strong></a>
-</p>
-  
-<p style="margin-top: 0.5rem; font-size: 0.85rem; opacity: 0.8;">
-Plataforma educativa optimizada para el aprendizaje interactivo
-</p>
-</footer>
-<!-- Script optimizado - SOLO uno -->
-<script src="assets/js/app.js"></script>
+    <!-- Header con video optimizado y overlay -->
+    <header class="hero">
+        <!-- Video background ultra-optimizado -->
+        <video class="hero-video" autoplay muted loop playsinline preload="metadata">
+            <source src="assets/img/cerebro_efficient.mp4" type="video/mp4">
+            <!-- Fallback para navegadores que no soportan video -->
+            <div
+                style="background: linear-gradient(rgba(34, 46, 34, 0.8), rgba(20, 30, 20, 0.8)), url('assets/img/hero.png'); background-size: cover; background-position: center; width: 100%; height: 100%; position: absolute; top: 0; left: 0;">
+            </div>
+        </video>
+        <!-- Overlay gradiente para legibilidad del texto -->
+        <div class="hero-overlay"></div>
+        <!-- Contenido principal del hero -->
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="line1">Centro de Entrenamiento</span>
+                <span class="line2">Metodología de la Investigación</span>
+            </h1>
+            <p class="hero-subtitle">
+                Desarrolla habilidades de investigación con claridad, rigor y un toque de humor.
+                Explorar módulos que se desbloquean progresivamente.
+            </p>
+        </div>
+        <!-- Partículas neuronales sutiles -->
+        <div class="floating-particles"></div>
+    </header>
+    <!-- Contenido principal -->
+    <main>
+        <!-- Sección introductoria -->
+        <section class="intro-section">
+            <p>
+                Aquí encontrarás un taller progresivo para que aprendas a tu ritmo: al completar cada unidad,
+                se desbloqueará la siguiente. Contarás con videos, ejercicios prácticos y simulaciones;
+                al finalizar cada tema podrás responder un cuestionario que se renueva en cada intento.
+                No te preocupes, puedes volver a repasar cuando quieras: tu progreso se guarda automáticamente
+                y cada nueva evaluación te ofrecerá retos diferentes para que sigas mejorando.
+            </p>
+        </section>
+        <!-- Grid de módulos -->
+        <section class="modules-grid">
+            <!-- Grid Generated by app.js -->
+        </section>
+    </main>
+    <!-- Footer profesional -->
+    <footer class="site-footer">
+        <p>
+            Centro de Entrenamiento en Metodología de la Investigación &copy; 2025 |
+            Estructura inicial desarrollada por <strong>ChatGPT modo agente</strong>
+        </p>
+        Mejoras y optimizaciones implementadas con 💜 por <a href="https://minimax.chat" target="_blank"
+            rel="noopener"><strong>MiniMax Agent</strong></a>
+        </p>
+
+        <p style="margin-top: 0.5rem; font-size: 0.85rem; opacity: 0.8;">
+            Plataforma educativa optimizada para el aprendizaje interactivo
+        </p>
+    </footer>
+    <!-- Script optimizado - SOLO uno -->
+    <script src="assets/js/app.js"></script>
 </body>
+
 </html>
