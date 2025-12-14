@@ -3,6 +3,7 @@
   "videoId": "l9fdq7LPccE",
   "notebookUrl": "https://notebooklm.google.com/notebook/12f614b2-45f2-464b-9db1-92822bf468fb",
   "readingFile": "assets/reading/1. Ciencia y el enfoque científico - Kerlinger y Lee.pdf",
+
   "flipCards": [
     {
       "front": "¿Qué se entiende por ciencia?",
@@ -45,6 +46,7 @@
       "back": "Creer que es una secuencia rígida e inmutable de pasos, cuando en realidad es un proceso flexible y lógico."
     }
   ],
+
   "quiz": [
     {
       "question": "¿Cuál es una característica central del conocimiento científico?",

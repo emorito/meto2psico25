@@ -1,0 +1,192 @@
+{
+  "title": "Desarrollo de instrumentos",
+  "videoId": "r1jWY-XG4_I",
+  "notebookUrl": "https://notebooklm.google.com/notebook/b1f3de4f-282f-4ad9-bf64-71b70ef49488",
+  "readingFile": "assets/reading/7. Diez pasos para la construcción de un test.pdf",
+
+  "flipCards": [
+    {
+      "front": "¿Qué es un instrumento de medición?",
+      "back": "Es un conjunto estructurado de ítems o procedimientos diseñado para medir variables previamente definidas."
+    },
+    {
+      "front": "Relación entre variables e instrumentos",
+      "back": "Los instrumentos se construyen a partir de variables y sus indicadores, no al revés."
+    },
+    {
+      "front": "Primer paso en la construcción de un instrumento",
+      "back": "Definir claramente el constructo y las variables a medir."
+    },
+    {
+      "front": "Importancia de la operacionalización",
+      "back": "Permite traducir conceptos abstractos en indicadores observables y medibles."
+    },
+    {
+      "front": "¿Qué es un ítem?",
+      "back": "Es una unidad básica de medición que representa un indicador de una variable."
+    },
+    {
+      "front": "Criterio de claridad en los ítems",
+      "back": "Los ítems deben ser comprensibles, precisos y adecuados al nivel del respondiente."
+    },
+    {
+      "front": "Error frecuente en la construcción de ítems",
+      "back": "Redactar ítems ambiguos, dobles o con juicios implícitos."
+    },
+    {
+      "front": "Función del pilotaje",
+      "back": "Detectar problemas de comprensión, redacción y funcionamiento del instrumento."
+    },
+    {
+      "front": "Relación entre instrumento y análisis de datos",
+      "back": "La calidad del instrumento condiciona la calidad de los datos y del análisis."
+    },
+    {
+      "front": "Construcción de instrumentos y validez",
+      "back": "Un instrumento mal construido compromete la validez de los resultados."
+    }
+  ],
+
+  "quiz": [
+    {
+      "question": "¿Qué es un instrumento de medición en investigación?",
+      "options": [
+        "Un análisis estadístico",
+        "Un conjunto de ítems diseñados para medir variables",
+        "Un marco teórico",
+        "Una hipótesis"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Correcto. El instrumento materializa la medición de las variables.",
+        "incorrect": "Revisá la función del instrumento en el proceso de investigación."
+      }
+    },
+    {
+      "question": "¿Cuál es el primer paso lógico para construir un instrumento?",
+      "options": [
+        "Redactar ítems",
+        "Aplicar el instrumento",
+        "Definir constructos y variables",
+        "Analizar datos"
+      ],
+      "correctIndex": 2,
+      "feedback": {
+        "correct": "Exacto. Sin variables claras no puede construirse un instrumento.",
+        "incorrect": "Pensá en qué precede a la redacción de ítems."
+      }
+    },
+    {
+      "question": "Los instrumentos deben construirse a partir de:",
+      "options": [
+        "Los objetivos",
+        "Las variables operacionalizadas",
+        "El análisis estadístico",
+        "La muestra"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Correcto. Las variables guían la construcción del instrumento.",
+        "incorrect": "Revisá la secuencia correcta del proceso."
+      }
+    },
+    {
+      "question": "¿Qué es un ítem?",
+      "options": [
+        "Un instrumento completo",
+        "Una unidad básica de medición",
+        "Un objetivo específico",
+        "Un análisis de resultados"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Muy bien. El ítem representa un indicador.",
+        "incorrect": "Pensá en la estructura interna del instrumento."
+      }
+    },
+    {
+      "question": "¿Cuál es un criterio fundamental de un buen ítem?",
+      "options": [
+        "Que sea complejo",
+        "Que sea ambiguo",
+        "Que sea claro y comprensible",
+        "Que incluya dos ideas"
+      ],
+      "correctIndex": 2,
+      "feedback": {
+        "correct": "Exacto. La claridad es central en la redacción de ítems.",
+        "incorrect": "Revisá los criterios de redacción de ítems."
+      }
+    },
+    {
+      "question": "Un error frecuente en la construcción de instrumentos es:",
+      "options": [
+        "Pilotear el instrumento",
+        "Definir indicadores",
+        "Redactar ítems ambiguos o dobles",
+        "Revisar el contenido"
+      ],
+      "correctIndex": 2,
+      "feedback": {
+        "correct": "Correcto. Los ítems ambiguos afectan la calidad de los datos.",
+        "incorrect": "Pensá en errores comunes de redacción."
+      }
+    },
+    {
+      "question": "¿Para qué sirve el pilotaje de un instrumento?",
+      "options": [
+        "Para analizar los datos finales",
+        "Para detectar problemas antes de la aplicación definitiva",
+        "Para formular hipótesis",
+        "Para seleccionar la muestra"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Muy bien. El pilotaje permite corregir errores tempranamente.",
+        "incorrect": "Revisá el propósito del pilotaje."
+      }
+    },
+    {
+      "question": "La calidad del instrumento afecta directamente a:",
+      "options": [
+        "El tamaño de la muestra",
+        "La validez de los resultados",
+        "El diseño del estudio",
+        "El marco teórico"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Exacto. Instrumentos deficientes generan resultados inválidos.",
+        "incorrect": "Pensá en la relación entre medición y resultados."
+      }
+    },
+    {
+      "question": "Construir instrumentos sin variables claras implica:",
+      "options": [
+        "Mayor precisión",
+        "Mejor análisis",
+        "Riesgo de incoherencia metodológica",
+        "Mayor validez"
+      ],
+      "correctIndex": 2,
+      "feedback": {
+        "correct": "Correcto. Sin variables claras no hay medición coherente.",
+        "incorrect": "Revisá la importancia de la operacionalización."
+      }
+    },
+    {
+      "question": "Desde el enfoque metodológico, la construcción de instrumentos pertenece a:",
+      "options": [
+        "El marco teórico",
+        "El diseño metodológico",
+        "El análisis de datos",
+        "La discusión"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Muy bien. Es parte del diseño metodológico.",
+        "incorrect": "Ubicá esta etapa dentro del proceso de investigación."
+      }
+    }
+  ]
+}

@@ -1,264 +1,266 @@
 {
-    "title": "Variables y Operacionalización",
-    "videoId": "tCGTLLMx3Pw",
-    "notebookUrl": "https://notebooklm.google.com/notebook/378f0c07-8737-46f3-9475-6972d78fadb8",
-    "readingFile": "assets/reading/4. Constructo, Variables y Definiciones - Kerlinger y Lee Cap. 3.pdf",
-    "flipCards": [
-        {
-            "front": "¿Qué es un constructo?",
-            "back": "Un constructo es una entidad conceptual, teórica y abstracta que no se observa directamente, pero que se infiere a partir de indicadores empíricos."
-        },
-        {
-            "front": "¿Qué es una variable?",
-            "back": "Una variable es una representación empírica y observable de un constructo, susceptible de adoptar distintos valores."
-        },
-        {
-            "front": "Diferencia entre constructo y variable",
-            "back": "El constructo es teórico y abstracto; la variable es empírica y medible."
-        },
-        {
-            "front": "¿Qué es una definición conceptual?",
-            "back": "Es la definición teórica de un constructo, basada en la literatura científica y en el marco teórico del estudio."
-        },
-        {
-            "front": "¿Qué es una definición operacional?",
-            "back": "Es la especificación concreta de cómo se medirá una variable, indicando procedimientos, instrumentos e indicadores."
-        },
-        {
-            "front": "¿Qué es la operacionalización?",
-            "back": "Es el proceso mediante el cual un constructo teórico se traduce en variables, dimensiones e indicadores observables."
-        },
-        {
-            "front": "¿Qué es una dimensión?",
-            "back": "Es un componente o aspecto parcial de un constructo complejo que permite descomponerlo para su medición."
-        },
-        {
-            "front": "¿Qué es un indicador?",
-            "back": "Es una manifestación empírica concreta de una dimensión, directamente observable o registrable."
-        },
-        {
-            "front": "Relación entre variables e instrumentos",
-            "back": "Los instrumentos se construyen a partir de las variables y sus indicadores; no al revés."
-        },
-        {
-            "front": "Error común en operacionalización",
-            "back": "Definir instrumentos sin haber definido claramente las variables, dimensiones e indicadores."
-        },
-        {
-            "front": "¿Por qué es clave la operacionalización?",
-            "back": "Porque garantiza coherencia entre teoría, medición, análisis de datos e interpretación de resultados."
-        }
-    ],
-    "quiz": [
-        {
-            "question": "¿Cuál es la principal diferencia entre un constructo y una variable?",
-            "options": [
-                "El constructo es observable y la variable es abstracta",
-                "El constructo es teórico y la variable es empírica",
-                "Ambos son equivalentes",
-                "La variable solo existe en estudios cualitativos"
-            ],
-            "correctIndex": 1,
-            "feedback": {
-                "correct": "Correcto. El constructo pertenece al plano teórico y la variable al plano empírico.",
-                "incorrect": "Revisá la distinción básica entre teoría y medición en Kerlinger."
-            }
-        },
-        {
-            "question": "¿Qué función cumple la definición operacional?",
-            "options": [
-                "Explicar el origen histórico del constructo",
-                "Describir cómo se medirá la variable",
-                "Justificar el marco teórico",
-                "Clasificar el tipo de investigación"
-            ],
-            "correctIndex": 1,
-            "feedback": {
-                "correct": "Exacto. La definición operacional indica cómo se mide una variable.",
-                "incorrect": "La definición operacional no es teórica, sino procedimental."
-            }
-        },
-        {
-            "question": "¿Cuál de los siguientes es un error frecuente en investigación?",
-            "options": [
-                "Definir variables antes del análisis",
-                "Construir instrumentos sin operacionalizar variables",
-                "Usar dimensiones para constructos complejos",
-                "Relacionar variables con objetivos"
-            ],
-            "correctIndex": 1,
-            "feedback": {
-                "correct": "Así es. Medir sin operacionalizar conduce a incoherencias metodológicas.",
-                "incorrect": "Pensá qué paso metodológico no puede omitirse antes de medir."
-            }
-        },
-        {
-            "question": "¿Qué relación correcta existe entre constructo, dimensión e indicador?",
-            "options": [
-                "Indicador → dimensión → constructo",
-                "Constructo → indicador → dimensión",
-                "Dimensión → constructo → indicador",
-                "Variable → constructo → indicador"
-            ],
-            "correctIndex": 0,
-            "feedback": {
-                "correct": "Correcto. El constructo se descompone en dimensiones y estas en indicadores.",
-                "incorrect": "Revisá la secuencia lógica de la operacionalización."
-            }
-        },
-        {
-            "question": "¿Por qué la operacionalización es central en el análisis de datos?",
-            "options": [
-                "Porque permite elegir el tipo de muestra",
-                "Porque determina cómo se interpretan los resultados",
-                "Porque reemplaza al marco teórico",
-                "Porque define el tipo de informe final"
-            ],
-            "correctIndex": 1,
-            "feedback": {
-                "correct": "Muy bien. Sin una buena operacionalización, los resultados carecen de sentido.",
-                "incorrect": "Pensá qué conecta la medición con la interpretación."
-            }
-        },
-        {
-            "question": "¿Cuál de estas afirmaciones es correcta?",
-            "options": [
-                "Los instrumentos determinan las variables",
-                "Las variables determinan los instrumentos",
-                "Las variables se definen después del análisis",
-                "Los indicadores son sinónimos de constructo"
-            ],
-            "correctIndex": 1,
-            "feedback": {
-                "correct": "Exacto. Primero se definen las variables, luego se construyen los instrumentos.",
-                "incorrect": "Revisá la dirección correcta del proceso metodológico."
-            }
-        },
-        {
-            "question": "Un indicador debe ser:",
-            "options": [
-                "Abstracto y teórico",
-                "Directamente observable o registrable",
-                "Equivalente a una hipótesis",
-                "Una definición conceptual"
-            ],
-            "correctIndex": 1,
-            "feedback": {
-                "correct": "Correcto. El indicador pertenece al plano empírico.",
-                "incorrect": "Recordá qué elementos pueden observarse directamente."
-            }
-        },
-        {
-            "question": "¿Qué se logra con una buena operacionalización?",
-            "options": [
-                "Reducir el tamaño de la muestra",
-                "Aumentar la coherencia metodológica del estudio",
-                "Evitar la revisión de la literatura",
-                "Eliminar la necesidad de análisis"
-            ],
-            "correctIndex": 1,
-            "feedback": {
-                "correct": "Así es. La operacionalización articula teoría, medición y análisis.",
-                "incorrect": "Pensá en la función integradora de la operacionalización."
-            }
-        },
-        {
-            "question": "¿Cuándo un constructo requiere dimensiones?",
-            "options": [
-                "Siempre",
-                "Nunca",
-                "Cuando es complejo y multidimensional",
-                "Solo en estudios cualitativos"
-            ],
-            "correctIndex": 2,
-            "feedback": {
-                "correct": "Correcto. Las dimensiones permiten descomponer constructos complejos.",
-                "incorrect": "No todos los constructos requieren el mismo nivel de desagregación."
-            }
-        },
-        {
-            "question": "¿Cuál es el riesgo de una mala definición operacional?",
-            "options": [
-                "Dificultar la redacción del informe",
-                "Obtener datos incoherentes o irrelevantes",
-                "Perder participantes",
-                "Aumentar el costo del estudio"
-            ],
-            "correctIndex": 1,
-            "feedback": {
-                "correct": "Exacto. Medir mal implica analizar e interpretar mal.",
-                "incorrect": "Pensá en la relación entre medición y calidad de los datos."
-            }
-        },
-        {
-            "question": "¿La operacionalización pertenece a qué etapa del proceso de investigación?",
-            "options": [
-                "Planteamiento del problema",
-                "Marco teórico",
-                "Diseño metodológico",
-                "Análisis de resultados"
-            ],
-            "correctIndex": 2,
-            "feedback": {
-                "correct": "Correcto. La operacionalización forma parte del diseño metodológico.",
-                "incorrect": "Ubicá la operacionalización dentro de la lógica del proceso."
-            }
-        },
-        {
-            "question": "¿Qué elemento conecta directamente variables y análisis de datos?",
-            "options": [
-                "Hipótesis",
-                "Instrumentos",
-                "Marco teórico",
-                "Objetivos"
-            ],
-            "correctIndex": 1,
-            "feedback": {
-                "correct": "Muy bien. Los instrumentos materializan las variables para el análisis.",
-                "incorrect": "Pensá qué transforma lo teórico en datos."
-            }
-        },
-        {
-            "question": "Una variable bien definida debe ser:",
-            "options": [
-                "Ambigua",
-                "Observable o medible",
-                "Puramente teórica",
-                "Independiente del objetivo"
-            ],
-            "correctIndex": 1,
-            "feedback": {
-                "correct": "Correcto. Una variable debe poder medirse empíricamente.",
-                "incorrect": "Revisá la definición básica de variable."
-            }
-        },
-        {
-            "question": "¿Cuál es la relación correcta entre objetivos y variables?",
-            "options": [
-                "Los objetivos se definen a partir de las variables",
-                "Las variables deben derivarse de los objetivos",
-                "No existe relación directa",
-                "Las variables reemplazan a los objetivos"
-            ],
-            "correctIndex": 1,
-            "feedback": {
-                "correct": "Exacto. Las variables operacionalizan lo que los objetivos plantean.",
-                "incorrect": "Pensá en la coherencia interna del estudio."
-            }
-        },
-        {
-            "question": "Desde el punto de vista metodológico, medir es:",
-            "options": [
-                "Asignar números sin criterio",
-                "Traducir conceptos en procedimientos observables",
-                "Interpretar resultados",
-                "Redactar conclusiones"
-            ],
-            "correctIndex": 1,
-            "feedback": {
-                "correct": "Correcto. Medir implica operacionalizar conceptos.",
-                "incorrect": "Revisá la definición de medición en investigación científica."
-            }
-        }
-    ]
+  "title": "Variables y Operacionalización",
+  "videoId": "tCGTLLMx3Pw",
+  "notebookUrl": "https://notebooklm.google.com/notebook/378f0c07-8737-46f3-9475-6972d78fadb8",
+  "readingFile": "assets/reading/4. Constructo, Variables y Definiciones - Kerlinger y Lee Cap. 3.pdf",
+
+  "flipCards": [
+    {
+      "front": "¿Qué es un constructo?",
+      "back": "Un constructo es una entidad conceptual, teórica y abstracta que no se observa directamente, pero que se infiere a partir de indicadores empíricos."
+    },
+    {
+      "front": "¿Qué es una variable?",
+      "back": "Una variable es una representación empírica y observable de un constructo, susceptible de adoptar distintos valores."
+    },
+    {
+      "front": "Diferencia entre constructo y variable",
+      "back": "El constructo es teórico y abstracto; la variable es empírica y medible."
+    },
+    {
+      "front": "¿Qué es una definición conceptual?",
+      "back": "Es la definición teórica de un constructo, basada en la literatura científica y en el marco teórico del estudio."
+    },
+    {
+      "front": "¿Qué es una definición operacional?",
+      "back": "Es la especificación concreta de cómo se medirá una variable, indicando procedimientos, instrumentos e indicadores."
+    },
+    {
+      "front": "¿Qué es la operacionalización?",
+      "back": "Es el proceso mediante el cual un constructo teórico se traduce en variables, dimensiones e indicadores observables."
+    },
+    {
+      "front": "¿Qué es una dimensión?",
+      "back": "Es un componente o aspecto parcial de un constructo complejo que permite descomponerlo para su medición."
+    },
+    {
+      "front": "¿Qué es un indicador?",
+      "back": "Es una manifestación empírica concreta de una dimensión, directamente observable o registrable."
+    },
+    {
+      "front": "Relación entre variables e instrumentos",
+      "back": "Los instrumentos se construyen a partir de las variables y sus indicadores; no al revés."
+    },
+    {
+      "front": "Error común en operacionalización",
+      "back": "Definir instrumentos sin haber definido claramente las variables, dimensiones e indicadores."
+    },
+    {
+      "front": "¿Por qué es clave la operacionalización?",
+      "back": "Porque garantiza coherencia entre teoría, medición, análisis de datos e interpretación de resultados."
+    }
+  ],
+
+  "quiz": [
+    {
+      "question": "¿Cuál es la principal diferencia entre un constructo y una variable?",
+      "options": [
+        "El constructo es observable y la variable es abstracta",
+        "El constructo es teórico y la variable es empírica",
+        "Ambos son equivalentes",
+        "La variable solo existe en estudios cualitativos"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Correcto. El constructo pertenece al plano teórico y la variable al plano empírico.",
+        "incorrect": "Revisá la distinción básica entre teoría y medición en Kerlinger."
+      }
+    },
+    {
+      "question": "¿Qué función cumple la definición operacional?",
+      "options": [
+        "Explicar el origen histórico del constructo",
+        "Describir cómo se medirá la variable",
+        "Justificar el marco teórico",
+        "Clasificar el tipo de investigación"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Exacto. La definición operacional indica cómo se mide una variable.",
+        "incorrect": "La definición operacional no es teórica, sino procedimental."
+      }
+    },
+    {
+      "question": "¿Cuál de los siguientes es un error frecuente en investigación?",
+      "options": [
+        "Definir variables antes del análisis",
+        "Construir instrumentos sin operacionalizar variables",
+        "Usar dimensiones para constructos complejos",
+        "Relacionar variables con objetivos"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Así es. Medir sin operacionalizar conduce a incoherencias metodológicas.",
+        "incorrect": "Pensá qué paso metodológico no puede omitirse antes de medir."
+      }
+    },
+    {
+      "question": "¿Qué relación correcta existe entre constructo, dimensión e indicador?",
+      "options": [
+        "Indicador → dimensión → constructo",
+        "Constructo → indicador → dimensión",
+        "Dimensión → constructo → indicador",
+        "Variable → constructo → indicador"
+      ],
+      "correctIndex": 0,
+      "feedback": {
+        "correct": "Correcto. El constructo se descompone en dimensiones y estas en indicadores.",
+        "incorrect": "Revisá la secuencia lógica de la operacionalización."
+      }
+    },
+    {
+      "question": "¿Por qué la operacionalización es central en el análisis de datos?",
+      "options": [
+        "Porque permite elegir el tipo de muestra",
+        "Porque determina cómo se interpretan los resultados",
+        "Porque reemplaza al marco teórico",
+        "Porque define el tipo de informe final"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Muy bien. Sin una buena operacionalización, los resultados carecen de sentido.",
+        "incorrect": "Pensá qué conecta la medición con la interpretación."
+      }
+    },
+    {
+      "question": "¿Cuál de estas afirmaciones es correcta?",
+      "options": [
+        "Los instrumentos determinan las variables",
+        "Las variables determinan los instrumentos",
+        "Las variables se definen después del análisis",
+        "Los indicadores son sinónimos de constructo"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Exacto. Primero se definen las variables, luego se construyen los instrumentos.",
+        "incorrect": "Revisá la dirección correcta del proceso metodológico."
+      }
+    },
+    {
+      "question": "Un indicador debe ser:",
+      "options": [
+        "Abstracto y teórico",
+        "Directamente observable o registrable",
+        "Equivalente a una hipótesis",
+        "Una definición conceptual"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Correcto. El indicador pertenece al plano empírico.",
+        "incorrect": "Recordá qué elementos pueden observarse directamente."
+      }
+    },
+    {
+      "question": "¿Qué se logra con una buena operacionalización?",
+      "options": [
+        "Reducir el tamaño de la muestra",
+        "Aumentar la coherencia metodológica del estudio",
+        "Evitar la revisión de la literatura",
+        "Eliminar la necesidad de análisis"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Así es. La operacionalización articula teoría, medición y análisis.",
+        "incorrect": "Pensá en la función integradora de la operacionalización."
+      }
+    },
+    {
+      "question": "¿Cuándo un constructo requiere dimensiones?",
+      "options": [
+        "Siempre",
+        "Nunca",
+        "Cuando es complejo y multidimensional",
+        "Solo en estudios cualitativos"
+      ],
+      "correctIndex": 2,
+      "feedback": {
+        "correct": "Correcto. Las dimensiones permiten descomponer constructos complejos.",
+        "incorrect": "No todos los constructos requieren el mismo nivel de desagregación."
+      }
+    },
+    {
+      "question": "¿Cuál es el riesgo de una mala definición operacional?",
+      "options": [
+        "Dificultar la redacción del informe",
+        "Obtener datos incoherentes o irrelevantes",
+        "Perder participantes",
+        "Aumentar el costo del estudio"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Exacto. Medir mal implica analizar e interpretar mal.",
+        "incorrect": "Pensá en la relación entre medición y calidad de los datos."
+      }
+    },
+    {
+      "question": "¿La operacionalización pertenece a qué etapa del proceso de investigación?",
+      "options": [
+        "Planteamiento del problema",
+        "Marco teórico",
+        "Diseño metodológico",
+        "Análisis de resultados"
+      ],
+      "correctIndex": 2,
+      "feedback": {
+        "correct": "Correcto. La operacionalización forma parte del diseño metodológico.",
+        "incorrect": "Ubicá la operacionalización dentro de la lógica del proceso."
+      }
+    },
+    {
+      "question": "¿Qué elemento conecta directamente variables y análisis de datos?",
+      "options": [
+        "Hipótesis",
+        "Instrumentos",
+        "Marco teórico",
+        "Objetivos"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Muy bien. Los instrumentos materializan las variables para el análisis.",
+        "incorrect": "Pensá qué transforma lo teórico en datos."
+      }
+    },
+    {
+      "question": "Una variable bien definida debe ser:",
+      "options": [
+        "Ambigua",
+        "Observable o medible",
+        "Puramente teórica",
+        "Independiente del objetivo"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Correcto. Una variable debe poder medirse empíricamente.",
+        "incorrect": "Revisá la definición básica de variable."
+      }
+    },
+    {
+      "question": "¿Cuál es la relación correcta entre objetivos y variables?",
+      "options": [
+        "Los objetivos se definen a partir de las variables",
+        "Las variables deben derivarse de los objetivos",
+        "No existe relación directa",
+        "Las variables reemplazan a los objetivos"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Exacto. Las variables operacionalizan lo que los objetivos plantean.",
+        "incorrect": "Pensá en la coherencia interna del estudio."
+      }
+    },
+    {
+      "question": "Desde el punto de vista metodológico, medir es:",
+      "options": [
+        "Asignar números sin criterio",
+        "Traducir conceptos en procedimientos observables",
+        "Interpretar resultados",
+        "Redactar conclusiones"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Correcto. Medir implica operacionalizar conceptos.",
+        "incorrect": "Revisá la definición de medición en investigación científica."
+      }
+    }
+  ]
 }

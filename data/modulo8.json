@@ -1,0 +1,192 @@
+{
+  "title": "Análisis de datos",
+  "videoId": "IDrnQgYgRqA",
+  "notebookUrl": "https://notebooklm.google.com/notebook/e9d0f775-f431-47f9-8c39-70f1742b9f48",
+  "webReadingUrl": "https://emorito.github.io/guianalisis/",
+
+  "flipCards": [
+    {
+      "front": "¿Qué es el análisis de datos?",
+      "back": "Es el proceso de organización, descripción e interpretación de los datos obtenidos para responder a los objetivos y contrastar hipótesis."
+    },
+    {
+      "front": "Análisis y objetivos",
+      "back": "El análisis de datos debe responder directamente a los objetivos planteados."
+    },
+    {
+      "front": "Análisis y hipótesis",
+      "back": "Las hipótesis guían qué relaciones o diferencias deben analizarse."
+    },
+    {
+      "front": "Datos cualitativos",
+      "back": "Son datos no numéricos que se analizan mediante categorización e interpretación."
+    },
+    {
+      "front": "Datos cuantitativos",
+      "back": "Son datos numéricos que permiten análisis estadísticos descriptivos e inferenciales."
+    },
+    {
+      "front": "Análisis descriptivo",
+      "back": "Resume y organiza los datos mediante medidas y representaciones."
+    },
+    {
+      "front": "Análisis inferencial",
+      "back": "Permite realizar inferencias sobre la población a partir de la muestra."
+    },
+    {
+      "front": "Relación entre variables y análisis",
+      "back": "El tipo de variables determina el tipo de análisis posible."
+    },
+    {
+      "front": "Error frecuente en análisis de datos",
+      "back": "Aplicar técnicas sin considerar objetivos, hipótesis o tipo de variables."
+    },
+    {
+      "front": "Interpretación de resultados",
+      "back": "Implica explicar el significado de los resultados en relación con el marco teórico."
+    }
+  ],
+
+  "quiz": [
+    {
+      "question": "¿Cuál es la finalidad principal del análisis de datos?",
+      "options": [
+        "Ordenar números",
+        "Responder a los objetivos de la investigación",
+        "Aplicar fórmulas estadísticas",
+        "Redactar conclusiones"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Correcto. El análisis debe responder a los objetivos planteados.",
+        "incorrect": "Pensá en el vínculo entre análisis y objetivos."
+      }
+    },
+    {
+      "question": "El análisis de datos debe definirse:",
+      "options": [
+        "Después de obtener los resultados",
+        "Antes de la recolección de datos",
+        "Al final del informe",
+        "De manera improvisada"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Exacto. El análisis se planifica antes de recolectar datos.",
+        "incorrect": "Revisá la secuencia lógica del proceso de investigación."
+      }
+    },
+    {
+      "question": "¿Qué diferencia al análisis descriptivo del inferencial?",
+      "options": [
+        "El tamaño de la muestra",
+        "El tipo de instrumento",
+        "La posibilidad de generalizar a la población",
+        "La cantidad de datos"
+      ],
+      "correctIndex": 2,
+      "feedback": {
+        "correct": "Correcto. El análisis inferencial permite generalizar.",
+        "incorrect": "Pensá en la finalidad de cada tipo de análisis."
+      }
+    },
+    {
+      "question": "Las hipótesis orientan el análisis porque:",
+      "options": [
+        "Determinan la muestra",
+        "Indican qué relaciones deben analizarse",
+        "Reemplazan los objetivos",
+        "Definen el diseño"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Muy bien. Las hipótesis guían qué se debe contrastar.",
+        "incorrect": "Revisá la función de las hipótesis en el análisis."
+      }
+    },
+    {
+      "question": "El tipo de variable influye en:",
+      "options": [
+        "La redacción del informe",
+        "El tipo de análisis posible",
+        "La formulación del problema",
+        "El marco teórico"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Exacto. Las variables condicionan el análisis.",
+        "incorrect": "Pensá en la relación entre variables y técnicas."
+      }
+    },
+    {
+      "question": "Un error frecuente en el análisis de datos es:",
+      "options": [
+        "Relacionar análisis con objetivos",
+        "Planificar el análisis previamente",
+        "Aplicar técnicas sin fundamento teórico",
+        "Interpretar los resultados"
+      ],
+      "correctIndex": 2,
+      "feedback": {
+        "correct": "Correcto. El análisis debe estar justificado conceptualmente.",
+        "incorrect": "Pensá en errores comunes de análisis."
+      }
+    },
+    {
+      "question": "La interpretación de resultados implica:",
+      "options": [
+        "Describir tablas",
+        "Aplicar fórmulas",
+        "Explicar el significado de los resultados",
+        "Seleccionar la muestra"
+      ],
+      "correctIndex": 2,
+      "feedback": {
+        "correct": "Muy bien. Interpretar es explicar, no solo describir.",
+        "incorrect": "Revisá la diferencia entre análisis e interpretación."
+      }
+    },
+    {
+      "question": "¿Cuándo el análisis permite inferir a la población?",
+      "options": [
+        "Siempre",
+        "Nunca",
+        "Cuando se utiliza muestreo probabilístico",
+        "Cuando el tamaño es grande"
+      ],
+      "correctIndex": 2,
+      "feedback": {
+        "correct": "Exacto. La inferencia depende del tipo de muestreo.",
+        "incorrect": "Pensá en la relación muestreo–inferencia."
+      }
+    },
+    {
+      "question": "Desde el enfoque metodológico, analizar datos es:",
+      "options": [
+        "Una etapa independiente",
+        "Un proceso vinculado al diseño",
+        "Un procedimiento automático",
+        "Una tarea secundaria"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Correcto. El análisis se deriva del diseño y las variables.",
+        "incorrect": "Revisá la integración del análisis en el proceso."
+      }
+    },
+    {
+      "question": "El análisis de datos debe ser coherente con:",
+      "options": [
+        "Los resultados esperados",
+        "El marco teórico, objetivos y variables",
+        "La extensión del informe",
+        "El estilo APA"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Muy bien. La coherencia metodológica es central.",
+        "incorrect": "Pensá en la articulación del proceso de investigación."
+      }
+    }
+  ]
+}

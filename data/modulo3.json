@@ -1,0 +1,169 @@
+{
+  "title": "Problema de investigación, objetivos e hipótesis",
+  "videoId": "ou1cjiMA14g",
+  "notebookUrl": "https://notebooklm.google.com/notebook/a15563d7-fbc9-40d1-bfa9-aca8ecafa6ab",
+  "readingFile": "assets/reading/3. Problemas, hipotesis y variables.pdf",
+
+  "flipCards": [
+    {
+      "front": "¿Qué es un problema de investigación?",
+      "back": "Es una pregunta formulada de manera clara y precisa que expresa una situación no resuelta y susceptible de investigación científica."
+    },
+    {
+      "front": "Características de un buen problema de investigación",
+      "back": "Debe ser claro, delimitado, relevante, viable y fundamentado teóricamente."
+    },
+    {
+      "front": "Problema científico vs. problema práctico",
+      "back": "El problema científico busca explicar fenómenos; el problema práctico busca intervenir o resolver situaciones concretas."
+    },
+    {
+      "front": "¿Qué son los objetivos de investigación?",
+      "back": "Son enunciados que indican qué se pretende lograr con el estudio."
+    },
+    {
+      "front": "Objetivo general",
+      "back": "Expresa el propósito central de la investigación de manera amplia."
+    },
+    {
+      "front": "Objetivos específicos",
+      "back": "Desglosan el objetivo general en metas concretas y operativas."
+    },
+    {
+      "front": "¿Qué es una hipótesis?",
+      "back": "Es una proposición tentativa que establece una relación entre variables y puede ser contrastada empíricamente."
+    },
+    {
+      "front": "Relación entre problema e hipótesis",
+      "back": "La hipótesis surge como una posible respuesta al problema de investigación."
+    },
+    {
+      "front": "Hipótesis y variables",
+      "back": "Las hipótesis formulan relaciones entre variables previamente definidas."
+    },
+    {
+      "front": "Error frecuente en objetivos",
+      "back": "Confundir objetivos con actividades o procedimientos."
+    },
+    {
+      "front": "Error frecuente en hipótesis",
+      "back": "Formular hipótesis vagas, no contrastables o sin variables claras."
+    }
+  ],
+
+  "quiz": [
+    {
+      "question": "¿Qué define principalmente a un problema de investigación científica?",
+      "options": [
+        "Que sea interesante para el investigador",
+        "Que sea una situación no resuelta formulada como pregunta",
+        "Que tenga una solución inmediata",
+        "Que surja de la intuición personal"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Correcto. El problema científico se formula como una pregunta investigable.",
+        "incorrect": "Revisá la definición de problema de investigación."
+      }
+    },
+    {
+      "question": "Un problema de investigación bien formulado debe ser:",
+      "options": [
+        "Amplio e indefinido",
+        "Claro y delimitado",
+        "Abstracto e impreciso",
+        "Independiente de la teoría"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Exacto. La claridad y delimitación son condiciones básicas.",
+        "incorrect": "Pensá en qué facilita el diseño metodológico."
+      }
+    },
+    {
+      "question": "¿Cuál es la función principal de los objetivos de investigación?",
+      "options": [
+        "Describir el marco teórico",
+        "Indicar lo que se pretende lograr con el estudio",
+        "Reemplazar las hipótesis",
+        "Definir el análisis estadístico"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Correcto. Los objetivos expresan el propósito del estudio.",
+        "incorrect": "Revisá la diferencia entre objetivos y otros componentes."
+      }
+    },
+    {
+      "question": "El objetivo general se caracteriza por:",
+      "options": [
+        "Ser muy detallado",
+        "Expresar el propósito central del estudio",
+        "Enumerar procedimientos",
+        "Describir resultados"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Muy bien. El objetivo general sintetiza el propósito del estudio.",
+        "incorrect": "Pensá en el nivel de abstracción del objetivo general."
+      }
+    },
+    {
+      "question": "Los objetivos específicos permiten:",
+      "options": [
+        "Reemplazar el objetivo general",
+        "Operativizar el objetivo general",
+        "Eliminar la hipótesis",
+        "Definir la muestra"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Exacto. Los objetivos específicos desglosan el objetivo general.",
+        "incorrect": "Revisá la función jerárquica de los objetivos."
+      }
+    },
+    {
+      "question": "¿Qué es una hipótesis desde el punto de vista científico?",
+      "options": [
+        "Una opinión personal",
+        "Una afirmación no verificable",
+        "Una proposición contrastable empíricamente",
+        "Un resultado del análisis"
+      ],
+      "correctIndex": 2,
+      "feedback": {
+        "correct": "Correcto. La hipótesis debe poder contrastarse con datos.",
+        "incorrect": "Pensá en el criterio de contrastabilidad."
+      }
+    },
+    {
+      "question": "La hipótesis se formula principalmente para:",
+      "options": [
+        "Confirmar teorías existentes",
+        "Responder tentativamente al problema",
+        "Sustituir los objetivos",
+        "Evitar el análisis de datos"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Muy bien. La hipótesis es una posible respuesta al problema.",
+        "incorrect": "Revisá la relación entre problema e hipótesis."
+      }
+    },
+    {
+      "question": "¿Cuál es una condición indispensable de una hipótesis científica?",
+      "options": [
+        "Que sea compleja",
+        "Que sea contrastable",
+        "Que sea definitiva",
+        "Que sea general"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Exacto. Sin contrastabilidad no hay hipótesis científica.",
+        "incorrect": "Pensá en la relación entre hipótesis y datos."
+      }
+    },
+    {
+      "question": "Un error frecuente en la formulación de objetivos es:",
+      "options
