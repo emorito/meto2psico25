@@ -107,6 +107,16 @@ header.hero {
     opacity: 0.6;
 }
 
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4));
+    z-index: 1;
+}
+
 .hero-content {
     position: relative;
     z-index: 2;
@@ -217,6 +227,11 @@ header.hero {
 .module-icon {
     font-size: 2.5rem;
     margin-bottom: 1rem;
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.module-card:hover .module-icon {
+    transform: scale(1.2) translateY(-5px);
 }
 
 /* ========================================
@@ -235,9 +250,30 @@ header.hero {
    ======================================== */
 .flip-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     margin-bottom: 2rem;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 ratio */
+    height: 0;
+    width: 100%;
+    overflow: hidden;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    margin: 2rem 0;
+    background: #000;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .flip-card {
@@ -355,5 +391,15 @@ body.tema-oscuro .flip-card-back {
     .modules-grid {
         grid-template-columns: 1fr;
         /* Stack on mobile */
+    }
+
+    .flip-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 900px) and (min-width: 601px) {
+    .flip-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 }

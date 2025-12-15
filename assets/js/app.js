@@ -7,15 +7,15 @@ const APP = (() => {
   // Configuration
   const CONFIG = {
     modules: [
-      { slug: 'modulo1', title: 'Problema de investigación' },
-      { slug: 'modulo2', title: 'Objetivos de investigación' },
-      { slug: 'modulo3', title: 'Hipótesis de investigación' },
-      { slug: 'modulo4', title: 'Constructos y variables' },
+      { slug: 'modulo1', title: 'El método científico' },
+      { slug: 'modulo2', title: 'Teoría y revisión de la literatura' },
+      { slug: 'modulo3', title: 'Problema, objetivos e hipótesis' },
+      { slug: 'modulo4', title: 'Variables y operacionalización' },
       { slug: 'modulo5', title: 'Diseño de investigación' },
       { slug: 'modulo6', title: 'Población, muestra y muestreo' },
-      { slug: 'modulo7', title: 'Validez y Confiabilidad' },
-      { slug: 'modulo8', title: 'Recolección de Datos' },
-      { slug: 'modulo9', title: 'Análisis de Datos' }
+      { slug: 'modulo7', title: 'Desarrollo de instrumentos' },
+      { slug: 'modulo8', title: 'Análisis de datos' },
+      { slug: 'modulo9', title: 'Informe académico – APA' }
     ],
     paths: {
       data: '../data/',
@@ -95,8 +95,8 @@ const APP = (() => {
   }
 
   function getIconForModule(index) {
-    const icons = ['🎯', '🎪', '💡', '🔬', '📋', '👥', '📏', '📊', '📈'];
-    return icons[index] || '📚';
+    const icons = ['🔬', '📚', '🔍', '🧩', '🧪', '👥', '🛠️', '📊', '✍️'];
+    return icons[index] || '📝';
   }
 
   function unlockManually(event, index) {
@@ -207,7 +207,7 @@ const APP = (() => {
       // Apply Grid Layout Class to Container
       UI.flipContainer.className = 'flip-grid';
 
-      const randomCards = shuffleArray([...data.flipCards]).slice(0, 5);
+      const randomCards = shuffleArray([...data.flipCards]).slice(0, 6);
 
       UI.flipContainer.innerHTML = randomCards.map(card => `
                 <div class="flip-card" onclick="this.classList.toggle('is-flipped')">
