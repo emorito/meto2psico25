@@ -139,15 +139,15 @@
     {
       "question": "La hipótesis se formula principalmente para:",
       "options": [
-        "Confirmar teorías existentes",
-        "Responder tentativamente al problema",
-        "Sustituir los objetivos",
-        "Evitar el análisis de datos"
+        "Orientar la recolección y análisis de datos como respuesta tentativa al problema",
+        "Sustituir el marco teórico",
+        "Reemplazar el objetivo general",
+        "Garantizar resultados positivos"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "feedback": {
-        "correct": "Muy bien. La hipótesis es una posible respuesta al problema.",
-        "incorrect": "Revisá la relación entre problema e hipótesis."
+        "correct": "Así es. La hipótesis guía el estudio como respuesta inicial al problema.",
+        "incorrect": "Pensá en la función orientadora de la hipótesis frente al problema."
       }
     },
     {
@@ -166,4 +166,17 @@
     },
     {
       "question": "Un error frecuente en la formulación de objetivos es:",
-      "options
+      "options": [
+        "Formularlos como preguntas",
+        "Confundir objetivos con actividades o procedimientos",
+        "Redactarlos en infinitivo y con precisión",
+        "Vincularlos con el marco teórico"
+      ],
+      "correctIndex": 1,
+      "feedback": {
+        "correct": "Correcto. Los objetivos no deben describir tareas sino resultados a lograr.",
+        "incorrect": "Revisá que los objetivos no sean listas de actividades."
+      }
+    }
+  ]
+}
