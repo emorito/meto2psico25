@@ -91,6 +91,21 @@
     if (textEl) textEl.textContent = valid === 'dark' ? 'Modo claro' : 'Modo oscuro';
   }
 
+  function initTopbarScrollBehavior() {
+    let lastScrollY = window.pageYOffset || document.documentElement.scrollTop;
+    const topbarEl = document.querySelector('.site-topbar');
+    if (!topbarEl) return;
+    window.addEventListener('scroll', function () {
+      const currentScrollY = window.pageYOffset || document.documentElement.scrollTop;
+      if (currentScrollY > 75 && currentScrollY > lastScrollY) {
+        topbarEl.classList.add('is-scrolled-down');
+      } else {
+        topbarEl.classList.remove('is-scrolled-down');
+      }
+      lastScrollY = currentScrollY <= 0 ? 0 : currentScrollY;
+    }, { passive: true });
+  }
+
   function initThemeToggle() {
     applyTheme(getActiveTheme());
     const btn = document.getElementById('theme-toggle');
@@ -100,6 +115,7 @@
         applyTheme(next);
       });
     }
+    initTopbarScrollBehavior();
   }
 
   /* ========================================================================
@@ -639,6 +655,16 @@
       });
     }
 
+    const toggleFiltersBtn = document.getElementById('toggle-filters-btn');
+    const catalogControls = document.querySelector('.catalog-controls');
+    if (toggleFiltersBtn && catalogControls) {
+      toggleFiltersBtn.addEventListener('click', function () {
+        const expanded = catalogControls.classList.toggle('is-filters-expanded');
+        toggleFiltersBtn.setAttribute('aria-expanded', String(expanded));
+        toggleFiltersBtn.textContent = expanded ? '▲ Ocultar filtros por etapa' : '🔍 Filtrar temas por etapa (11) ▾';
+      });
+    }
+
     function toggleFreeReview() {
       const curr = loadProgress();
       curr.freeReviewMode = !curr.freeReviewMode;
@@ -658,7 +684,7 @@
       resetBtn.addEventListener('click', function () {
         if (!confirmingReset) {
           confirmingReset = true;
-          resetBtn.textContent = '⚠️ ¿Confirmar reinicio total? Haz clic de nuevo';
+          resetBtn.textContent = '⚠️ ¿Confirmar reinicio total? Hacé clic de nuevo';
           resetBtn.classList.add('btn-outline');
           resetTimer = setTimeout(function () {
             confirmingReset = false;
@@ -746,6 +772,16 @@
             escapeHtml(prefix + 'M' + n + ' · ' + (item.title || item.nombre)) +
             '</option>';
         }).join('');
+
+        const selectMobileEl = document.getElementById('module-quick-select-mobile');
+        if (selectMobileEl) {
+          selectMobileEl.innerHTML = selectEl.innerHTML;
+        }
+      }
+
+      const mobileProgTxt = document.getElementById('mobile-progress-text');
+      if (mobileProgTxt) {
+        mobileProgTxt.textContent = stats.completedCount + '/' + TOTAL_MODULES + ' aprobados';
       }
 
       const statusBadge = document.getElementById('module-status-badge');
@@ -764,6 +800,16 @@
     if (selectEl) {
       selectEl.addEventListener('change', function () {
         const target = selectEl.value;
+        if (target && target !== moduleId) {
+          window.location.href = 'view.html?id=' + encodeURIComponent(target);
+        }
+      });
+    }
+
+    const selectMobileEl = document.getElementById('module-quick-select-mobile');
+    if (selectMobileEl) {
+      selectMobileEl.addEventListener('change', function () {
+        const target = selectMobileEl.value;
         if (target && target !== moduleId) {
           window.location.href = 'view.html?id=' + encodeURIComponent(target);
         }
@@ -1064,6 +1110,13 @@
         const frontText = card.front || card.question || '';
         const backText = card.back || card.answer || '';
         const tagText = card.tag || card.category || card.subtema || ('Concepto #' + (card._origIdx + 1));
+        const hintFrontText = ('ontouchstart' in window || navigator.maxTouchPoints > 0)
+          ? 'Tocá para girar'
+          : 'Hacé clic o presioná Enter para girar';
+        const hintBackText = ('ontouchstart' in window || navigator.maxTouchPoints > 0)
+          ? 'Tocá para volver'
+          : 'Clic para volver al frente';
+
         return (
           '<div class="flip-card" tabindex="0" role="button" aria-pressed="false" data-orig-idx="' + card._origIdx + '" aria-label="Tarjeta ' + (displayIdx + 1) + ': ' + escapeHtml(frontText) + '">' +
             '<div class="flip-card-inner">' +
@@ -1074,7 +1127,7 @@
                 '</div>' +
                 '<div class="flip-card-question">' + formatInlineMarkdown(frontText) + '</div>' +
                 '<div class="flip-card-hint">' +
-                  '<span>Haz clic o presiona Enter para girar</span>' +
+                  '<span>' + hintFrontText + '</span>' +
                   '<span>🔄</span>' +
                 '</div>' +
               '</div>' +
@@ -1085,7 +1138,7 @@
                 '</div>' +
                 '<div class="flip-card-answer">' + formatInlineMarkdown(backText) + '</div>' +
                 '<div class="flip-card-hint">' +
-                  '<span>Clic para volver al frente</span>' +
+                  '<span>' + hintBackText + '</span>' +
                   '<span>↩</span>' +
                 '</div>' +
               '</div>' +
@@ -1493,7 +1546,7 @@
           const fbEl = document.getElementById('feedback-q-' + qIdx);
           if (fbEl) {
             const rightExplain = q.feedback.correcta || q.feedback.correct || 'Respuesta metodológicamente fundamentada.';
-            const wrongExplain = q.feedback.incorrecta || q.feedback.incorrect || 'Revisa la distinción conceptual de este subtema.';
+            const wrongExplain = q.feedback.incorrecta || q.feedback.incorrect || 'Revisá la distinción conceptual de este subtema.';
             const correctOptionLetter = String.fromCharCode(65 + q.correctIndex);
             const correctOptionText = q.options[q.correctIndex] || '';
 
@@ -1541,7 +1594,7 @@
             '<p style="margin-top:0.4rem;">' +
               (passed
                 ? 'Has superado el umbral del 70%. Este módulo ha quedado registrado como aprobado y el siguiente módulo se encuentra desbloqueado.'
-                : 'Se requiere al menos 70% para aprobar el módulo. Revisa la retroalimentación formativa detallada en cada ítem arriba y vuelve a intentarlo.') +
+                : 'Se requiere al menos 70% para aprobar el módulo. Revisá la retroalimentación formativa detallada en cada ítem arriba y volvé a intentarlo.') +
             '</p>' +
             '<div style="margin-top:1rem; display:flex; gap:0.75rem; flex-wrap:wrap;">' +
               '<button type="button" id="banner-retry-btn" class="btn btn-outline">🔀 Intentar con nuevas preguntas</button>' +
@@ -1619,8 +1672,99 @@
             window.location.href = 'view.html?id=' + nextId;
           }
         }
+    // Navegación por pasos en móvil (evita desplazamiento de 18 pantallas)
+    const SECTION_IDS = ['sec-estudio', 'sec-capsula', 'sec-flipcards', 'sec-practica', 'sec-quiz'];
+    let currentStepIdx = 0;
+
+    function applyMobileStep(stepIdx) {
+      if (window.innerWidth > 768) {
+        document.body.classList.remove('mobile-step-active');
+        SECTION_IDS.forEach(function (id) {
+          const s = document.getElementById(id);
+          if (s) s.classList.remove('is-active-step');
+        });
+        return;
+      }
+
+      document.body.classList.add('mobile-step-active');
+      currentStepIdx = Math.max(0, Math.min(SECTION_IDS.length - 1, stepIdx));
+
+      SECTION_IDS.forEach(function (id, idx) {
+        const s = document.getElementById(id);
+        if (s) {
+          s.classList.toggle('is-active-step', idx === currentStepIdx);
+        }
+        const navLink = document.querySelector('.section-nav-link[href="#' + id + '"]');
+        if (navLink) {
+          navLink.classList.toggle('is-active', idx === currentStepIdx);
+        }
+      });
+
+      // Crear o actualizar paginador al pie de cada sección en móvil
+      SECTION_IDS.forEach(function (id, idx) {
+        const s = document.getElementById(id);
+        if (!s) return;
+        let pager = s.querySelector('.mobile-section-pager');
+        if (!pager) {
+          pager = document.createElement('div');
+          pager.className = 'mobile-section-pager';
+          s.appendChild(pager);
+        }
+        const isFirst = idx === 0;
+        const isLast = idx === SECTION_IDS.length - 1;
+
+        pager.innerHTML =
+          '<button type="button" class="btn btn-outline js-step-prev"' + (isFirst ? ' disabled style="opacity:0.4;pointer-events:none;"' : '') + '>← Anterior</button>' +
+          '<span class="mobile-step-indicator">Paso ' + (idx + 1) + ' de ' + SECTION_IDS.length + '</span>' +
+          (isLast
+            ? '<button type="button" class="btn btn-primary js-step-finish">Revisar resultados ↓</button>'
+            : '<button type="button" class="btn btn-primary js-step-next">Siguiente paso →</button>');
+
+        const prevBtn = pager.querySelector('.js-step-prev');
+        if (prevBtn && !isFirst) {
+          prevBtn.onclick = function () {
+            applyMobileStep(idx - 1);
+            const targetEl = document.getElementById(SECTION_IDS[idx - 1]);
+            if (targetEl) window.scrollTo({ top: targetEl.offsetTop - 60, behavior: 'smooth' });
+          };
+        }
+        const nextBtn = pager.querySelector('.js-step-next');
+        if (nextBtn && !isLast) {
+          nextBtn.onclick = function () {
+            applyMobileStep(idx + 1);
+            const targetEl = document.getElementById(SECTION_IDS[idx + 1]);
+            if (targetEl) window.scrollTo({ top: targetEl.offsetTop - 60, behavior: 'smooth' });
+          };
+        }
+        const finishBtn = pager.querySelector('.js-step-finish');
+        if (finishBtn) {
+          finishBtn.onclick = function () {
+            const bottomNav = document.querySelector('.module-navigation');
+            if (bottomNav) window.scrollTo({ top: bottomNav.offsetTop - 60, behavior: 'smooth' });
+          };
+        }
       });
     }
+
+    document.querySelectorAll('.section-nav-link').forEach(function (link) {
+      link.addEventListener('click', function (ev) {
+        if (window.innerWidth <= 768) {
+          ev.preventDefault();
+          const targetId = (link.getAttribute('href') || '').replace('#', '');
+          const targetIdx = SECTION_IDS.indexOf(targetId);
+          if (targetIdx !== -1) {
+            applyMobileStep(targetIdx);
+            const targetEl = document.getElementById(targetId);
+            if (targetEl) window.scrollTo({ top: targetEl.offsetTop - 60, behavior: 'smooth' });
+          }
+        }
+      });
+    });
+
+    window.addEventListener('resize', function () {
+      applyMobileStep(currentStepIdx);
+    });
+    applyMobileStep(0);
 
     updateBottomNavigation();
   }

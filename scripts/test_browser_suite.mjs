@@ -337,6 +337,48 @@ const t9 = await runPageTest({
 });
 allPassed = allPassed && t9;
 
+// 7. Modulo móvil (390px, claro y oscuro, y paso a paso)
+const t10 = await runPageTest({
+  url: `http://localhost:${PORT}/modules/view.html?id=m05`,
+  width: 390,
+  height: 844,
+  isMobile: true,
+  theme: 'light',
+  screenshotName: 'modulo05_mobile_390_light',
+  testActions: async (send) => {
+    // Probar avance al paso 2 en móvil
+    await send('Runtime.evaluate', {
+      expression: `
+        const nextBtn = document.querySelector('#sec-estudio .js-step-next');
+        if (nextBtn) nextBtn.click();
+      `
+    });
+    await new Promise(r => setTimeout(r, 400));
+  }
+});
+allPassed = allPassed && t10;
+
+const t11 = await runPageTest({
+  url: `http://localhost:${PORT}/modules/view.html?id=m05`,
+  width: 390,
+  height: 844,
+  isMobile: true,
+  theme: 'dark',
+  screenshotName: 'modulo05_mobile_390_dark'
+});
+allPassed = allPassed && t11;
+
+// 8. Modulo pantalla chica (360px)
+const t12 = await runPageTest({
+  url: `http://localhost:${PORT}/modules/view.html?id=m05`,
+  width: 360,
+  height: 780,
+  isMobile: true,
+  theme: 'light',
+  screenshotName: 'modulo05_mobile_360_light'
+});
+allPassed = allPassed && t12;
+
 // Cleanup
 chromeProc.kill();
 server.close();
