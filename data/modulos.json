@@ -32,6 +32,17 @@
       "miniCases": 3,
       "simulationSteps": 3,
       "quiz": 64
+    },
+    "fecha_clase": "2026-08-05",
+    "fecha_display": "05/08",
+    "fecha_clase_texto": "miércoles 05/08",
+    "clase_numero": 1,
+    "short_title": "Proceso científico",
+    "etapa_corta": "Fundamentos y literatura",
+    "semana_tarea": {
+      "antes": "lectura sobre el enfoque científico y mapa completo del proyecto.",
+      "despues": "verificación de dominio del módulo 1.",
+      "entrega_moodle": "cuestionario diagnóstico inicial, hasta el martes 11/08, 23:59."
     }
   },
   {
@@ -72,6 +83,17 @@
       "miniCases": 3,
       "simulationSteps": 3,
       "quiz": 35
+    },
+    "fecha_clase": "2026-08-19",
+    "fecha_display": "19/08",
+    "fecha_clase_texto": "miércoles 19/08",
+    "clase_numero": 3,
+    "short_title": "Tema y búsqueda",
+    "etapa_corta": "Fundamentos y literatura",
+    "semana_tarea": {
+      "antes": "guía de elección del tema, delimitación y ecuación booleana con IA responsable.",
+      "despues": "verificación de dominio del módulo 2.",
+      "entrega_moodle": "tema delimitado y protocolo de búsqueda inicial, hasta el martes 25/08, 23:59."
     }
   },
   {
@@ -111,6 +133,17 @@
       "miniCases": 3,
       "simulationSteps": 3,
       "quiz": 34
+    },
+    "fecha_clase": "2026-08-25",
+    "fecha_display": "25/08",
+    "fecha_clase_texto": "martes 25/08",
+    "clase_numero": 4,
+    "short_title": "Literatura y teoría",
+    "etapa_corta": "Fundamentos y literatura",
+    "semana_tarea": {
+      "antes": "guía para la revisión de literatura, marco teórico y vacíos de conocimiento.",
+      "despues": "verificación de dominio del módulo 3.",
+      "entrega_moodle": "matriz de literatura y ficha de antecedentes, hasta el martes 01/09, 23:59."
     }
   },
   {
@@ -148,6 +181,17 @@
       "miniCases": 3,
       "simulationSteps": 3,
       "quiz": 57
+    },
+    "fecha_clase": "2026-09-02",
+    "fecha_display": "02/09",
+    "fecha_clase_texto": "miércoles 02/09",
+    "clase_numero": 5,
+    "short_title": "Problema y preguntas",
+    "etapa_corta": "Planteamiento y variables",
+    "semana_tarea": {
+      "antes": "lectura sobre planteamiento del problema (Kerlinger cap. 2 y deficiencias en problemas).",
+      "despues": "verificación de dominio del módulo 4.",
+      "entrega_moodle": "planteamiento del problema y preguntas de investigación, hasta el martes 08/09, 23:59."
     }
   },
   {
@@ -185,6 +229,17 @@
       "miniCases": 3,
       "simulationSteps": 3,
       "quiz": 114
+    },
+    "fecha_clase": "2026-09-09",
+    "fecha_display": "09/09",
+    "fecha_clase_texto": "miércoles 09/09",
+    "clase_numero": 6,
+    "short_title": "Objetivos e hipótesis",
+    "etapa_corta": "Planteamiento y variables",
+    "semana_tarea": {
+      "antes": "guía de formulación de objetivos (los 3 planos) e hipótesis de investigación.",
+      "despues": "verificación de dominio del módulo 5.",
+      "entrega_moodle": "matriz de coherencia: problema, preguntas, objetivos e hipótesis, hasta el martes 15/09, 23:59."
     }
   },
   {
@@ -224,6 +279,17 @@
       "miniCases": 3,
       "simulationSteps": 3,
       "quiz": 66
+    },
+    "fecha_clase": "2026-09-16",
+    "fecha_display": "16/09",
+    "fecha_clase_texto": "miércoles 16/09",
+    "clase_numero": 7,
+    "short_title": "Variables y categorías",
+    "etapa_corta": "Planteamiento y variables",
+    "semana_tarea": {
+      "antes": "lectura sobre constructos, variables y operacionalización.",
+      "despues": "verificación de dominio del módulo 6.",
+      "entrega_moodle": "tabla de operacionalización de variables o categorías, hasta el martes 22/09, 23:59."
     }
   },
   {
@@ -261,6 +327,17 @@
       "miniCases": 3,
       "simulationSteps": 3,
       "quiz": 53
+    },
+    "fecha_clase": "2026-09-23",
+    "fecha_display": "23/09",
+    "fecha_clase_texto": "miércoles 23/09",
+    "clase_numero": 8,
+    "short_title": "Enfoque y diseño",
+    "etapa_corta": "Estrategia empírica",
+    "semana_tarea": {
+      "antes": "banco de casos sobre diseño y amenazas a la validez (criterios de Kish y notación X/O/R).",
+      "despues": "verificación de dominio del módulo 7.",
+      "entrega_moodle": "justificación del enfoque, alcance y diseño de investigación, hasta el martes 29/09, 23:59."
     }
   },
   {
@@ -300,6 +377,17 @@
       "miniCases": 3,
       "simulationSteps": 3,
       "quiz": 47
+    },
+    "fecha_clase": "2026-09-30",
+    "fecha_display": "30/09",
+    "fecha_clase_texto": "miércoles 30/09",
+    "clase_numero": 9,
+    "short_title": "Población y muestreo",
+    "etapa_corta": "Estrategia empírica",
+    "semana_tarea": {
+      "antes": "lectura sobre criterios de inclusión/exclusión, marco muestral y tipos de muestreo.",
+      "despues": "verificación de dominio del módulo 8.",
+      "entrega_moodle": "apartado de población, muestra y procedimiento de muestreo, hasta el martes 06/10, 23:59."
     }
   },
   {
@@ -339,6 +427,17 @@
       "miniCases": 3,
       "simulationSteps": 3,
       "quiz": 16
+    },
+    "fecha_clase": "2026-10-14",
+    "fecha_display": "14/10",
+    "fecha_clase_texto": "miércoles 14/10",
+    "clase_numero": 11,
+    "short_title": "Instrumentos y ética",
+    "etapa_corta": "Estrategia empírica",
+    "semana_tarea": {
+      "antes": "lectura de técnicas, instrumentos y ética, y la matriz objetivo–dato–fuente.",
+      "despues": "verificación de dominio del módulo 9.",
+      "entrega_moodle": "matriz e instrumento bosquejado, hasta el martes 20/10, 23:59."
     }
   },
   {
@@ -374,6 +473,17 @@
       "miniCases": 3,
       "simulationSteps": 3,
       "quiz": 24
+    },
+    "fecha_clase": "2026-10-21",
+    "fecha_display": "21/10",
+    "fecha_clase_texto": "miércoles 21/10",
+    "clase_numero": 12,
+    "short_title": "Análisis cuanti y cuali",
+    "etapa_corta": "Análisis y escritura",
+    "semana_tarea": {
+      "antes": "guías de plan de análisis cuantitativo y cualitativo según objetivos.",
+      "despues": "verificación de dominio del módulo 10.",
+      "entrega_moodle": "plan de procesamiento y análisis previsto de datos, hasta el martes 27/10, 23:59."
     }
   },
   {
@@ -414,6 +524,17 @@
       "miniCases": 3,
       "simulationSteps": 3,
       "quiz": 16
+    },
+    "fecha_clase": "2026-10-28",
+    "fecha_display": "28/10",
+    "fecha_clase_texto": "miércoles 28/10",
+    "clase_numero": 13,
+    "short_title": "Escritura y APA",
+    "etapa_corta": "Análisis y escritura",
+    "semana_tarea": {
+      "antes": "guía de citación APA 7.ª ed., gestor Zotero y declaración ética de IA (Protocolo VERA).",
+      "despues": "verificación de dominio del módulo 11.",
+      "entrega_moodle": "borrador completo del proyecto de investigación integrado, hasta el martes 03/11, 23:59."
     }
   }
 ]

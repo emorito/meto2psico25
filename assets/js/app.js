@@ -218,9 +218,195 @@
     let activeStage = 'all';
     let searchQuery = '';
 
+    function renderHeroRouteAndWeek(list, progress, stats) {
+      if (!Array.isArray(list) || list.length === 0) return;
+
+      // 1. Encontrar el módulo para "Continuar con el módulo N"
+      // Regla: el primer módulo abierto y no dominado; si todos están dominados, el último.
+      let currentMod = null;
+      for (let i = 0; i < list.length; i++) {
+        const m = list[i];
+        const mState = progress.modules[m.id] || {};
+        if (!mState.completed) {
+          currentMod = m;
+          break;
+        }
+      }
+      if (!currentMod) {
+        currentMod = list[list.length - 1];
+      }
+
+      const continueBtn = document.getElementById('hero-continue-btn');
+      const continueNum = document.getElementById('hero-continue-num');
+      const continueTitle = document.getElementById('hero-continue-title');
+      if (continueBtn && currentMod) {
+        continueBtn.href = 'modules/view.html?id=' + encodeURIComponent(currentMod.id);
+        if (continueNum) continueNum.textContent = String(currentMod.number || 1);
+        if (continueTitle) continueTitle.textContent = currentMod.title || '';
+      }
+
+      // 2. Repaso de hoy · N ítems (oculto si no existe repaso espaciado)
+      const reviewBtn = document.getElementById('hero-review-btn');
+      const reviewCountEl = document.getElementById('hero-review-count');
+      const dueCount = (progress.spacedReview && progress.spacedReview.dueCount) || 0;
+      if (reviewBtn) {
+        if (dueCount > 0) {
+          reviewBtn.style.display = 'inline-flex';
+          if (reviewCountEl) reviewCountEl.textContent = dueCount + ' ítems';
+        } else {
+          reviewBtn.style.display = 'none';
+        }
+      }
+
+      // 3. "Esta semana": próxima clase según fecha actual y fecha_clase en modulos.json
+      const now = new Date();
+      const y = now.getFullYear();
+      const m = String(now.getMonth() + 1).padStart(2, '0');
+      const d = String(now.getDate()).padStart(2, '0');
+      const todayStr = y + '-' + m + '-' + d;
+
+      let nextClassMod = null;
+      for (let i = 0; i < list.length; i++) {
+        const mod = list[i];
+        if (mod.fecha_clase && mod.fecha_clase >= todayStr) {
+          nextClassMod = mod;
+          break;
+        }
+      }
+
+      const weekWhen = document.getElementById('hero-week-when');
+      const weekList = document.getElementById('hero-week-list');
+
+      if (weekWhen && weekList) {
+        if (nextClassMod) {
+          const claseNum = nextClassMod.clase_numero || nextClassMod.clase_2026 || '';
+          const fechaTxt = nextClassMod.fecha_clase_texto || nextClassMod.fecha_display || '';
+          weekWhen.innerHTML = 'Clase ' + escapeHtml(String(claseNum)) + ' · <span>' + escapeHtml(fechaTxt) + '</span>';
+
+          const sem = nextClassMod.semana_tarea || {};
+          const antesTxt = sem.antes || ('lectura de preparación del módulo ' + (nextClassMod.number || '') + '.');
+          const despuesTxt = sem.despues || ('verificación de dominio del módulo ' + (nextClassMod.number || '') + '.');
+          const entregaTxt = sem.entrega_moodle || 'evidencia en Moodle según cronograma.';
+
+          weekList.innerHTML =
+            '<li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/></svg><span><b>Antes:</b> ' + escapeHtml(antesTxt) + '</span></li>' +
+            '<li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg><span><b>Después:</b> ' + escapeHtml(despuesTxt) + '</span></li>' +
+            '<li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg><span><b>Entrega en Moodle:</b> ' + escapeHtml(entregaTxt) + '</span></li>';
+        } else {
+          weekWhen.innerHTML = 'Cierre de semestre · <span>Examen Final</span>';
+          weekList.innerHTML =
+            '<li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/></svg><span><b>Antes:</b> repaso integral de los 11 módulos del proyecto.</span></li>' +
+            '<li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg><span><b>Después:</b> defensa y presentación del borrador fundamentado.</span></li>' +
+            '<li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg><span><b>Entrega en Moodle:</b> portafolio final integrado según calendario institucional.</span></li>';
+        }
+      }
+
+      // 4. "La ruta del proyecto"
+      const routeSummary = document.getElementById('route-progress-summary');
+      if (routeSummary) {
+        routeSummary.textContent = stats.completedCount + ' de ' + list.length + ' módulos dominados';
+      }
+
+      let maxCompletedIdx = -1;
+      for (let i = 0; i < list.length; i++) {
+        const mState = progress.modules[list[i].id] || {};
+        if (mState.completed) {
+          maxCompletedIdx = i;
+        }
+      }
+
+      let doneH = 0;
+      let doneV = 0;
+      if (maxCompletedIdx >= 0) {
+        if (maxCompletedIdx === list.length - 1) {
+          doneH = 91;
+          doneV = 100;
+        } else {
+          doneH = Math.round((maxCompletedIdx / (list.length - 1)) * 91 * 10) / 10;
+          doneV = Math.round(((maxCompletedIdx + 1) / list.length) * 100);
+        }
+      }
+
+      const stepsOl = document.getElementById('project-route-steps');
+      if (stepsOl) {
+        stepsOl.style.setProperty('--done', doneH + '%');
+        stepsOl.style.setProperty('--done-v', doneV + '%');
+
+        const STAGE_GROUPS = [
+          { id: 'stage-col-1', name: 'Fundamentos y literatura', mods: ['m01', 'm02', 'm03'] },
+          { id: 'stage-col-2', name: 'Planteamiento y variables', mods: ['m04', 'm05', 'm06'] },
+          { id: 'stage-col-3', name: 'Estrategia empírica', mods: ['m07', 'm08', 'm09'] },
+          { id: 'stage-col-4', name: 'Análisis y escritura', mods: ['m10', 'm11'] }
+        ];
+
+        STAGE_GROUPS.forEach(function (sg) {
+          const colEl = document.getElementById(sg.id);
+          if (!colEl) return;
+          const allDone = sg.mods.every(function (mid) {
+            return progress.modules[mid] && progress.modules[mid].completed;
+          });
+          const isCurrentStage = currentMod && sg.mods.indexOf(currentMod.id) !== -1;
+          colEl.className = 'stage' + (allDone ? ' is-done' : (isCurrentStage ? ' is-current' : ''));
+        });
+
+        const nextClassModId = nextClassMod ? nextClassMod.id : null;
+
+        let stepsHtml = '';
+        list.forEach(function (modItem, idx) {
+          if (modItem.id === 'm01') stepsHtml += '<li class="stage-inline" aria-hidden="true">Fundamentos y literatura</li>';
+          else if (modItem.id === 'm04') stepsHtml += '<li class="stage-inline" aria-hidden="true">Planteamiento y variables</li>';
+          else if (modItem.id === 'm07') stepsHtml += '<li class="stage-inline" aria-hidden="true">Estrategia empírica</li>';
+          else if (modItem.id === 'm10') stepsHtml += '<li class="stage-inline" aria-hidden="true">Análisis y escritura</li>';
+
+          const mState = progress.modules[modItem.id] || {};
+          const isDone = Boolean(mState.completed);
+          const isCurrent = !isDone && currentMod && currentMod.id === modItem.id;
+          const isNext = !isDone && !isCurrent && nextClassModId && nextClassModId === modItem.id;
+
+          let stepClass = 'step';
+          let statusText = 'Por venir';
+          if (isDone) {
+            stepClass += ' is-done';
+            statusText = 'Dominado';
+          } else if (isCurrent) {
+            stepClass += ' is-current';
+            statusText = 'En curso';
+          } else if (isNext) {
+            stepClass += ' is-next';
+            statusText = 'Próxima clase';
+          }
+
+          let dateLabel = modItem.fecha_display || '';
+          if (isCurrent) {
+            dateLabel = 'En curso';
+          } else if (isNext) {
+            dateLabel = 'Clase ' + (modItem.fecha_display || '');
+          }
+
+          const ariaCurrentAttr = isCurrent ? ' aria-current="step"' : '';
+          const modNumber = modItem.number || (idx + 1);
+          const shortTitle = modItem.short_title || modItem.title;
+
+          stepsHtml +=
+            '<li class="' + stepClass + '">' +
+              '<a href="modules/view.html?id=' + encodeURIComponent(modItem.id) + '"' + ariaCurrentAttr + '>' +
+                '<span class="dot" aria-label="Módulo ' + modNumber + ': ' + statusText + '">' + modNumber + '</span>' +
+                '<span class="meta">' +
+                  '<span class="label">' + escapeHtml(shortTitle) + '</span>' +
+                  '<span class="date">' + escapeHtml(dateLabel) + '</span>' +
+                '</span>' +
+              '</a>' +
+            '</li>';
+        });
+
+        stepsOl.innerHTML = stepsHtml;
+      }
+    }
+
     function renderDashboardAndCatalog() {
       const progress = loadProgress();
       const stats = computeCourseStats(progress);
+      renderHeroRouteAndWeek(modulosList, progress, stats);
 
       const elCompleted = document.getElementById('stat-completed');
       const elCompletedPct = document.getElementById('stat-completed-pct');

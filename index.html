@@ -18,7 +18,7 @@
   <meta name="description" content="Plataforma interactiva de aprendizaje de Metodología de la Investigación Científica II para Psicología (UNIBE, Plan 2026). 11 módulos con cápsulas, tarjetas 3D, minicasos, simulaciones y autoevaluación formativa.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body data-page="home">
@@ -48,25 +48,61 @@
     </div>
   </header>
 
-  <!-- Hero Principal con Video de Fondo -->
-  <section class="hero-banner">
-    <video class="hero-video-bg" autoplay muted loop playsinline poster="assets/images/hero.png">
-      <source src="assets/videos/cerebro_efficient.mp4" type="video/mp4">
-    </video>
-    <div class="hero-overlay" aria-hidden="true"></div>
+  <!-- Encabezado de la Portada — Metodología II B-Learning -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <p class="eyebrow">Espacio de estudio · Modalidad B-Learning</p>
+          <h1>Del tema a un proyecto de investigación coherente</h1>
+          <p class="lead">Preparate antes de cada clase, consolidá después y llegá al examen final con dominio verificado de cada eslabón del proyecto.</p>
 
-    <div class="container hero-content">
-      <span class="hero-eyebrow">Ciclo Académico 2026 · 11 Módulos Interactivos</span>
-      <h1>De la Idea de Investigación al Informe Científico en Psicología</h1>
-      <p class="hero-lead prose-measure">
-        Recorre paso a paso la arquitectura metodológica de un proyecto empírico riguroso: búsqueda estratégica, planteamiento del problema, matriz de coherencia, diseño, muestreo, ética, análisis de datos y escritura científica con normas APA 7 y uso ético de IA (Protocolo VERA).
-      </p>
-      <div class="hero-badges">
-        <span class="hero-badge-item">🎬 Videos y Guías de Estudio</span>
-        <span class="hero-badge-item">🧭 Cápsulas Metodológicas</span>
-        <span class="hero-badge-item">🃏 115 Tarjetas 3D</span>
-        <span class="hero-badge-item">🔬 33 Minicasos + 11 Simuladores</span>
-        <span class="hero-badge-item">✅ +520 Ítems con Feedback Formativo</span>
+          <div class="actions">
+            <a class="btn btn-primary" id="hero-continue-btn" href="modules/view.html?id=m01">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              <span>Continuar con el módulo <span id="hero-continue-num">1</span><small id="hero-continue-title">El proceso de investigación científica</small></span>
+            </a>
+            <a class="btn btn-ghost" id="hero-review-btn" href="#" style="display:none">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/><path d="M12 7v5l3 2"/></svg>
+              Repaso de hoy · <span class="n" id="hero-review-count">0 ítems</span>
+            </a>
+          </div>
+        </div>
+
+        <aside class="week" aria-label="Esta semana" id="hero-week-card">
+          <h3>Esta semana</h3>
+          <p class="when" id="hero-week-when">Clase 11 · <span>miércoles 14/10</span></p>
+          <ul id="hero-week-list">
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/></svg><span><b>Antes:</b> lectura de técnicas, instrumentos y ética, y la matriz objetivo–dato–fuente.</span></li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg><span><b>Después:</b> verificación de dominio del módulo 9.</span></li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg><span><b>Entrega en Moodle:</b> matriz e instrumento bosquejado, hasta el martes 20/10, 23:59.</span></li>
+          </ul>
+        </aside>
+      </div>
+
+      <div class="route-head">
+        <h2>La ruta del proyecto</h2>
+        <p id="route-progress-summary">0 de 11 módulos dominados</p>
+      </div>
+
+      <div class="route">
+        <div class="stages" aria-hidden="true">
+          <div class="stage" id="stage-col-1">Fundamentos y literatura</div>
+          <div class="stage" id="stage-col-2">Planteamiento y variables</div>
+          <div class="stage" id="stage-col-3">Estrategia empírica</div>
+          <div class="stage" id="stage-col-4">Análisis y escritura</div>
+        </div>
+
+        <ol class="steps" id="project-route-steps" style="--done:0%;--done-v:0%">
+          <!-- 11 estaciones generadas dinámicamente -->
+        </ol>
+
+        <div class="legend" aria-hidden="true">
+          <span><i class="l-done"></i>Dominado</span>
+          <span><i class="l-cur"></i>En curso</span>
+          <span><i class="l-next"></i>Próxima clase</span>
+          <span><i></i>Por venir</span>
+        </div>
       </div>
     </div>
   </section>
