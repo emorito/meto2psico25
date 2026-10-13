@@ -1872,50 +1872,6 @@
       }
     },
     {
-      "id": "m05-0087",
-      "tipo": "verdadero_falso",
-      "question": "En el método SMART, la T (Time-based) se refiere a que cada objetivo debe estar definido en el tiempo para ayudar a marcar las distintas etapas del proyecto.",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correctIndex": 0,
-      "dificultad": 1,
-      "dificultad_label": "Fácil",
-      "subtema": "objetivos",
-      "subtema_label": "Objetivos de investigación",
-      "feedback": {
-        "correcta": "¡Exacto! ⏰ Time-based significa 'con fecha de caducidad'. Sin plazos, los objetivos se vuelven eternos. ¡El tiempo pone presión sana!",
-        "incorrecta": "Esta era verdadera. 🗓️ La T de SMART SÍ se refiere a temporalidad. Sin fechas, un objetivo es como un viaje sin destino: nunca sabes cuándo llegas.",
-        "correct": "¡Exacto! ⏰ Time-based significa 'con fecha de caducidad'. Sin plazos, los objetivos se vuelven eternos. ¡El tiempo pone presión sana!",
-        "incorrect": "Esta era verdadera. 🗓️ La T de SMART SÍ se refiere a temporalidad. Sin fechas, un objetivo es como un viaje sin destino: nunca sabes cuándo llegas.",
-        "origen": "original"
-      }
-    },
-    {
-      "id": "m05-0088",
-      "tipo": "opcion_multiple",
-      "question": "¿Cuál es la principal diferencia entre un objetivo general y uno específico?",
-      "options": [
-        "El objetivo general incluye los métodos y el específico no",
-        "El objetivo general expresa el propósito global y el específico detalla pasos concretos",
-        "No hay diferencia",
-        "El objetivo específico es más amplio que el general"
-      ],
-      "correctIndex": 1,
-      "dificultad": 2,
-      "dificultad_label": "Intermedio",
-      "subtema": "objetivos",
-      "subtema_label": "Objetivos de investigación",
-      "feedback": {
-        "correcta": "¡Correcto! «El objetivo general expresa el propósito global y el específico detalla pasos concretos» es la respuesta adecuada. Un objetivo de investigación vive en el Plano 1 (propósito cognitivo: identificar, describir, estimar, determinar, establecer) y enuncia el conocimiento nuevo que el estudio producirá, no tareas del método ni finalidades prácticas.",
-        "incorrecta": "No es correcto. La respuesta acertada es «El objetivo general expresa el propósito global y el específico detalla pasos concretos». Un objetivo de investigación vive en el Plano 1 (propósito cognitivo: identificar, describir, estimar, determinar, establecer) y enuncia el conocimiento nuevo que el estudio producirá, no tareas del método ni finalidades prácticas. Aplica las 2 pruebas de la Clase 6: ¿el enunciado puede pasarse a pasado como un hallazgo en las conclusiones? ¿Su verbo rige un objeto de conocimiento y no una tarea metodológica?",
-        "correct": "¡Correcto! «El objetivo general expresa el propósito global y el específico detalla pasos concretos» es la respuesta adecuada. Un objetivo de investigación vive en el Plano 1 (propósito cognitivo: identificar, describir, estimar, determinar, establecer) y enuncia el conocimiento nuevo que el estudio producirá, no tareas del método ni finalidades prácticas.",
-        "incorrect": "No es correcto. La respuesta acertada es «El objetivo general expresa el propósito global y el específico detalla pasos concretos». Un objetivo de investigación vive en el Plano 1 (propósito cognitivo: identificar, describir, estimar, determinar, establecer) y enuncia el conocimiento nuevo que el estudio producirá, no tareas del método ni finalidades prácticas. Aplica las 2 pruebas de la Clase 6: ¿el enunciado puede pasarse a pasado como un hallazgo en las conclusiones? ¿Su verbo rige un objeto de conocimiento y no una tarea metodológica?",
-        "origen": "cátedra_2026"
-      }
-    },
-    {
       "id": "m05-0089",
       "tipo": "opcion_multiple",
       "question": "¿Cuál de los siguientes verbos es más adecuado para un objetivo específico que busque clasificar datos?",
@@ -2031,50 +1987,6 @@
       }
     },
     {
-      "id": "m05-0096",
-      "tipo": "verdadero_falso",
-      "question": "Para que un objetivo cumpla la característica de 'Medible' (M), es necesario definir claramente el método o sistema de medición y establecer los indicadores a emplear.",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correctIndex": 0,
-      "dificultad": 2,
-      "dificultad_label": "Intermedio",
-      "subtema": "objetivos",
-      "subtema_label": "Objetivos de investigación",
-      "feedback": {
-        "correcta": "¡Exactamente! 📊 'Medible' significa que podemos ponerle números, fechas o criterios claros. Si no puedes medirlo, ¿cómo sabrás si lo lograste? ¡Ciencia, no adivinación!",
-        "incorrecta": "Esta era verdadera. 🎯 Para ser medible, un objetivo necesita indicadores concretos. Sin ellos, es como intentar medir el amor con una regla... ¡imposible!",
-        "correct": "¡Exactamente! 📊 'Medible' significa que podemos ponerle números, fechas o criterios claros. Si no puedes medirlo, ¿cómo sabrás si lo lograste? ¡Ciencia, no adivinación!",
-        "incorrect": "Esta era verdadera. 🎯 Para ser medible, un objetivo necesita indicadores concretos. Sin ellos, es como intentar medir el amor con una regla... ¡imposible!",
-        "origen": "original"
-      }
-    },
-    {
-      "id": "m05-0098",
-      "tipo": "opcion_multiple",
-      "question": "¿Cuál es un error común que ocurre cuando se redacta un objetivo de investigación con la intención de 'contribuir a la reducción del bajo peso al nacer'?",
-      "options": [
-        "Confundir un objetivo con una actividad metodológica.",
-        "Confundir un objetivo con un propósito o intención de largo alcance.",
-        "Confundir un objetivo con una variable de estudio.",
-        "Incluir un verbo en pasado simple."
-      ],
-      "correctIndex": 1,
-      "dificultad": 2,
-      "dificultad_label": "Intermedio",
-      "subtema": "objetivos",
-      "subtema_label": "Objetivos de investigación",
-      "feedback": {
-        "correcta": "¡Excelente! 🚫 'Contribuir a' es una ASPIRACIÓN, no un objetivo. Los objetivos son acciones concretas, no buenas intenciones. ¡Separaste el sueño de la acción!",
-        "incorrecta": "Casi, pero no. 💭 El error está en confundir un objetivo con una buena intención. 'Contribuir a' es vago e inmedible. ¡Los objetivos quieren acción, no wishful thinking!",
-        "correct": "¡Excelente! 🚫 'Contribuir a' es una ASPIRACIÓN, no un objetivo. Los objetivos son acciones concretas, no buenas intenciones. ¡Separaste el sueño de la acción!",
-        "incorrect": "Casi, pero no. 💭 El error está en confundir un objetivo con una buena intención. 'Contribuir a' es vago e inmedible. ¡Los objetivos quieren acción, no wishful thinking!",
-        "origen": "original"
-      }
-    },
-    {
       "id": "m05-0099",
       "tipo": "verdadero_falso",
       "question": "Los objetivos específicos deben ser una simple enunciación de la metodología o de las fases metodológicas que se ejecutarán.",
@@ -2182,29 +2094,6 @@
         "incorrecta": "Esta era falsa. 🔍 Los objetivos deben ser claros por sí mismos, incluso si lees solo esa sección. ¡Nada de 'ya lo saben porque está en el título'!",
         "correct": "¡Bravo! 📝 Cada objetivo debe ser AUTOSUFICIENTE. Aunque las variables estén en el título, deben repetirse en los objetivos. ¡Nada de suponer que el lector adivina!",
         "incorrect": "Esta era falsa. 🔍 Los objetivos deben ser claros por sí mismos, incluso si lees solo esa sección. ¡Nada de 'ya lo saben porque está en el título'!",
-        "origen": "original"
-      }
-    },
-    {
-      "id": "m05-0105",
-      "tipo": "opcion_multiple",
-      "question": "¿Cuál es la pregunta clave a la que responde principalmente un objetivo general?",
-      "options": [
-        "¿Cómo se realizarán los pasos intermedios?",
-        "¿Qué se va a hacer y para qué?",
-        "¿Qué instrumentos se van a utilizar?",
-        "¿Quién financiará el proyecto?"
-      ],
-      "correctIndex": 1,
-      "dificultad": 2,
-      "dificultad_label": "Intermedio",
-      "subtema": "objetivos",
-      "subtema_label": "Objetivos de investigación",
-      "feedback": {
-        "correcta": "¡Impresionante! 🎯 El objetivo general responde al QUÉ y PARA QUÉ de toda la investigación. Es la esencia, el corazón del proyecto. ¡Captaste la pregunta fundamental!",
-        "incorrecta": "Casi, pero piensa en lo fundamental. 💡 El objetivo general responde al QUÉ (qué vas a hacer) y PARA QUÉ (cuál es el propósito). Los 'cómos' son para los específicos y la metodología.",
-        "correct": "¡Impresionante! 🎯 El objetivo general responde al QUÉ y PARA QUÉ de toda la investigación. Es la esencia, el corazón del proyecto. ¡Captaste la pregunta fundamental!",
-        "incorrect": "Casi, pero piensa en lo fundamental. 💡 El objetivo general responde al QUÉ (qué vas a hacer) y PARA QUÉ (cuál es el propósito). Los 'cómos' son para los específicos y la metodología.",
         "origen": "original"
       }
     },
@@ -2324,29 +2213,6 @@
       }
     },
     {
-      "id": "m05-0113",
-      "tipo": "opcion_multiple",
-      "question": "¿Cuál de los siguientes verbos es más adecuado para un objetivo en una investigación con alcance EXPLICATIVO, cuyo propósito es determinar las causas de un fenómeno?",
-      "options": [
-        "Describir",
-        "Identificar",
-        "Comprobar",
-        "Relacionar"
-      ],
-      "correctIndex": 2,
-      "dificultad": 3,
-      "dificultad_label": "Difícil",
-      "subtema": "objetivos",
-      "subtema_label": "Objetivos de investigación",
-      "feedback": {
-        "correcta": "¡Impresionante! 🔍 'Comprobar' es el verbo rey de lo explicativo. No solo queremos describir o identificar, queremos DEMOSTRAR relaciones causales. ¡Llegaste al nivel científico avanzado!",
-        "incorrecta": "Uy, esta era tricky. 🧐 En investigación explicativa buscamos CAUSAS, no solo descripciones. 'Comprobar' es el verbo que mejor captura esa esencia de demostración causal. ¡Casi casi!",
-        "correct": "¡Impresionante! 🔍 'Comprobar' es el verbo rey de lo explicativo. No solo queremos describir o identificar, queremos DEMOSTRAR relaciones causales. ¡Llegaste al nivel científico avanzado!",
-        "incorrect": "Uy, esta era tricky. 🧐 En investigación explicativa buscamos CAUSAS, no solo descripciones. 'Comprobar' es el verbo que mejor captura esa esencia de demostración causal. ¡Casi casi!",
-        "origen": "original"
-      }
-    },
-    {
       "id": "m05-0114",
       "tipo": "opcion_multiple",
       "question": "Si el objetivo general es 'Describir los hábitos de consumo de noticias digitales...', un objetivo específico incorrecto sería 'Explicar el impacto de las fake news...' debido a:",
@@ -2366,27 +2232,6 @@
         "incorrecta": "Uy, esta era tricky. 🎭 El error está en la JERARQUÍA: un objetivo específico no puede ser más complejo que el general. Sería como decir que el ayudante sabe más que el jefe.",
         "correct": "¡Impresionante! 🚫 Atrapaste el error sutil: un específico NO puede ser más complejo que el general. 'Explicar' es más profundo que 'Describir'. ¡Jerarquía de objetivos respetada!",
         "incorrect": "Uy, esta era tricky. 🎭 El error está en la JERARQUÍA: un objetivo específico no puede ser más complejo que el general. Sería como decir que el ayudante sabe más que el jefe.",
-        "origen": "original"
-      }
-    },
-    {
-      "id": "m05-0115",
-      "tipo": "verdadero_falso",
-      "question": "Si un investigador formula el objetivo como 'Incrementar el conocimiento sobre el asma bronquial en adolescentes', está cometiendo el error de enunciar como objetivo un logro o finalidad de la investigación.",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correctIndex": 0,
-      "dificultad": 3,
-      "dificultad_label": "Difícil",
-      "subtema": "objetivos",
-      "subtema_label": "Objetivos de investigación",
-      "feedback": {
-        "correcta": "¡Excelente! 🚫 'Incrementar el conocimiento' es una FINALIDAD, no un objetivo. Los objetivos son acciones específicas, no aspiraciones vagas. ¡Separaste la meta del camino!",
-        "incorrecta": "Esta era verdadera. 💭 'Incrementar conocimiento' es muy vago. ¿Cómo? ¿Qué conocimiento específicamente? Los objetivos deben ser acciones concretas, no buenas intenciones.",
-        "correct": "¡Excelente! 🚫 'Incrementar el conocimiento' es una FINALIDAD, no un objetivo. Los objetivos son acciones específicas, no aspiraciones vagas. ¡Separaste la meta del camino!",
-        "incorrect": "Esta era verdadera. 💭 'Incrementar conocimiento' es muy vago. ¿Cómo? ¿Qué conocimiento específicamente? Los objetivos deben ser acciones concretas, no buenas intenciones.",
         "origen": "original"
       }
     },
@@ -2678,52 +2523,6 @@
         "incorrecta": "No es correcto. La respuesta acertada es «Indica el propósito global o la finalidad del estudio.». Un objetivo de investigación vive en el Plano 1 (propósito cognitivo: identificar, describir, estimar, determinar, establecer) y enuncia el conocimiento nuevo que el estudio producirá, no tareas del método ni finalidades prácticas. Aplica las 2 pruebas de la Clase 6: ¿el enunciado puede pasarse a pasado como un hallazgo en las conclusiones? ¿Su verbo rige un objeto de conocimiento y no una tarea metodológica?",
         "correct": "¡Correcto! «Indica el propósito global o la finalidad del estudio.» es la respuesta adecuada. Un objetivo de investigación vive en el Plano 1 (propósito cognitivo: identificar, describir, estimar, determinar, establecer) y enuncia el conocimiento nuevo que el estudio producirá, no tareas del método ni finalidades prácticas.",
         "incorrect": "No es correcto. La respuesta acertada es «Indica el propósito global o la finalidad del estudio.». Un objetivo de investigación vive en el Plano 1 (propósito cognitivo: identificar, describir, estimar, determinar, establecer) y enuncia el conocimiento nuevo que el estudio producirá, no tareas del método ni finalidades prácticas. Aplica las 2 pruebas de la Clase 6: ¿el enunciado puede pasarse a pasado como un hallazgo en las conclusiones? ¿Su verbo rige un objeto de conocimiento y no una tarea metodológica?",
-        "origen": "cátedra_2026"
-      }
-    },
-    {
-      "id": "m05-0132",
-      "tipo": "opcion_multiple",
-      "question": "¿Cómo se diferencia un objetivo general de uno específico?",
-      "options": [
-        "El objetivo general es más amplio y el específico detalla los pasos concretos.",
-        "Los objetivos específicos siempre se formulan después de la recolección de datos.",
-        "El objetivo específico es más amplio que el general.",
-        "Los objetivos generales no requieren seguimiento empírico."
-      ],
-      "correctIndex": 0,
-      "dificultad": 3,
-      "dificultad_label": "Difícil",
-      "subtema": "objetivos",
-      "subtema_label": "Objetivos de investigación",
-      "feedback": {
-        "correcta": "¡Correcto! «El objetivo general es más amplio y el específico detalla los pasos concretos.» es la respuesta adecuada. Un objetivo de investigación vive en el Plano 1 (propósito cognitivo: identificar, describir, estimar, determinar, establecer) y enuncia el conocimiento nuevo que el estudio producirá, no tareas del método ni finalidades prácticas.",
-        "incorrecta": "No es correcto. La respuesta acertada es «El objetivo general es más amplio y el específico detalla los pasos concretos.». Un objetivo de investigación vive en el Plano 1 (propósito cognitivo: identificar, describir, estimar, determinar, establecer) y enuncia el conocimiento nuevo que el estudio producirá, no tareas del método ni finalidades prácticas. Aplica las 2 pruebas de la Clase 6: ¿el enunciado puede pasarse a pasado como un hallazgo en las conclusiones? ¿Su verbo rige un objeto de conocimiento y no una tarea metodológica?",
-        "correct": "¡Correcto! «El objetivo general es más amplio y el específico detalla los pasos concretos.» es la respuesta adecuada. Un objetivo de investigación vive en el Plano 1 (propósito cognitivo: identificar, describir, estimar, determinar, establecer) y enuncia el conocimiento nuevo que el estudio producirá, no tareas del método ni finalidades prácticas.",
-        "incorrect": "No es correcto. La respuesta acertada es «El objetivo general es más amplio y el específico detalla los pasos concretos.». Un objetivo de investigación vive en el Plano 1 (propósito cognitivo: identificar, describir, estimar, determinar, establecer) y enuncia el conocimiento nuevo que el estudio producirá, no tareas del método ni finalidades prácticas. Aplica las 2 pruebas de la Clase 6: ¿el enunciado puede pasarse a pasado como un hallazgo en las conclusiones? ¿Su verbo rige un objeto de conocimiento y no una tarea metodológica?",
-        "origen": "cátedra_2026"
-      }
-    },
-    {
-      "id": "m05-0134",
-      "tipo": "opcion_multiple",
-      "question": "¿Qué función tienen los objetivos específicos en una investigación?",
-      "options": [
-        "Definir las conclusiones del estudio.",
-        "Establecer los pasos que se deben seguir para lograr el objetivo general.",
-        "Plantear los problemas principales de la investigación.",
-        "Recolectar los datos empíricos."
-      ],
-      "correctIndex": 1,
-      "dificultad": 3,
-      "dificultad_label": "Difícil",
-      "subtema": "objetivos",
-      "subtema_label": "Objetivos de investigación",
-      "feedback": {
-        "correcta": "¡Correcto! «Establecer los pasos que se deben seguir para lograr el objetivo general.» es la respuesta adecuada. Un objetivo de investigación vive en el Plano 1 (propósito cognitivo: identificar, describir, estimar, determinar, establecer) y enuncia el conocimiento nuevo que el estudio producirá, no tareas del método ni finalidades prácticas.",
-        "incorrecta": "No es correcto. La respuesta acertada es «Establecer los pasos que se deben seguir para lograr el objetivo general.». Un objetivo de investigación vive en el Plano 1 (propósito cognitivo: identificar, describir, estimar, determinar, establecer) y enuncia el conocimiento nuevo que el estudio producirá, no tareas del método ni finalidades prácticas. Aplica las 2 pruebas de la Clase 6: ¿el enunciado puede pasarse a pasado como un hallazgo en las conclusiones? ¿Su verbo rige un objeto de conocimiento y no una tarea metodológica?",
-        "correct": "¡Correcto! «Establecer los pasos que se deben seguir para lograr el objetivo general.» es la respuesta adecuada. Un objetivo de investigación vive en el Plano 1 (propósito cognitivo: identificar, describir, estimar, determinar, establecer) y enuncia el conocimiento nuevo que el estudio producirá, no tareas del método ni finalidades prácticas.",
-        "incorrect": "No es correcto. La respuesta acertada es «Establecer los pasos que se deben seguir para lograr el objetivo general.». Un objetivo de investigación vive en el Plano 1 (propósito cognitivo: identificar, describir, estimar, determinar, establecer) y enuncia el conocimiento nuevo que el estudio producirá, no tareas del método ni finalidades prácticas. Aplica las 2 pruebas de la Clase 6: ¿el enunciado puede pasarse a pasado como un hallazgo en las conclusiones? ¿Su verbo rige un objeto de conocimiento y no una tarea metodológica?",
         "origen": "cátedra_2026"
       }
     },

@@ -2456,10 +2456,21 @@ def main():
             if not card.get("tag") or card["tag"] == SUBTEMA_LABELS.get(mod["subtemas"][0], "Concepto clave"):
                 card["tag"] = sub_labels[c_i % len(sub_labels)]
 
-        # 2. Quiz items (solo aprobados + extras/reparados curados)
+        # 2. Quiz items (solo aprobados + extras/reparados curados, excluyendo ítems descartados)
+        EXCLUDED_QUIZ_IDS = {
+            "m05-0113",  # Da 'Comprobar' como verbo explicativo y feedback dice 'DEMOSTRAR'
+            "m05-0088",  # Define el objetivo específico como 'pasos concretos'
+            "m05-0132",  # Define el objetivo específico como 'pasos para alcanzar el general'
+            "m05-0134",  # 'Establecer los pasos que se deben seguir…'
+            "m05-0105",  # Afirma que el objetivo general responde a '¿qué se va a hacer y para qué?'
+            "m05-0087",  # SMART 'T': objetivos definidos en el tiempo para marcar etapas
+            "m05-0096",  # SMART 'M': objetivo debe 'definir el método o sistema de medición'
+            "m05-0098",  # Feedback dice 'los objetivos son acciones concretas'
+            "m05-0115",  # Feedback dice 'los objetivos son acciones específicas'
+        }
         banco_file = BANCO_ROOT / "banco" / f"{mod_id}.json"
         banco_data = json.loads(banco_file.read_text(encoding="utf-8"))
-        aprobados = [x for x in banco_data["items"] if x.get("estado") == "aprobado"]
+        aprobados = [x for x in banco_data["items"] if x.get("estado") == "aprobado" and x.get("id") not in EXCLUDED_QUIZ_IDS]
         extras = EXTRA_QUIZ_ITEMS.get(mod_id, [])
 
         seen_ids = {x["id"] for x in aprobados}
