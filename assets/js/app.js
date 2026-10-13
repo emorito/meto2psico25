@@ -154,13 +154,14 @@
   }
 
   function isModuleUnlocked(modId, progress) {
-    if (modId === 'm01') return true;
+    const num = parseInt(modId.slice(1), 10);
+    // Tarea A2: m01 a m08 (clases 1 a 9 que entran en el parcial) quedan SIEMPRE abiertos
+    if (num >= 1 && num <= 8) return true;
     if (progress.freeReviewMode) return true;
     const modState = progress.modules[modId];
     if (modState && modState.unlockedManually) return true;
     if (modState && modState.completed) return true;
 
-    const num = parseInt(modId.slice(1), 10);
     if (num > 1) {
       const prevId = 'm' + String(num - 1).padStart(2, '0');
       const prevState = progress.modules[prevId];
@@ -236,13 +237,40 @@
         currentMod = list[list.length - 1];
       }
 
+      // Evento de evaluación institucional
+      const EXAMEN_EVENT = {
+        tipo: 'examen',
+        nombre: 'Examen parcial',
+        fecha: '2026-10-13',
+        modulos: ['m01', 'm02', 'm03', 'm04', 'm05', 'm06', 'm07', 'm08'],
+        duracion_min: 60
+      };
+
+      const now = new Date();
+      const y = now.getFullYear();
+      const m = String(now.getMonth() + 1).padStart(2, '0');
+      const d = String(now.getDate()).padStart(2, '0');
+      const todayStr = y + '-' + m + '-' + d;
+
+      const examDate = new Date(EXAMEN_EVENT.fecha + 'T00:00:00');
+      const nowDateOnly = new Date(todayStr + 'T00:00:00');
+      const diffDays = Math.round((examDate.getTime() - nowDateOnly.getTime()) / (1000 * 60 * 60 * 24));
+      const examActive = diffDays >= 0 && diffDays <= 7;
+
       const continueBtn = document.getElementById('hero-continue-btn');
       const continueNum = document.getElementById('hero-continue-num');
       const continueTitle = document.getElementById('hero-continue-title');
-      if (continueBtn && currentMod) {
-        continueBtn.href = 'modules/view.html?id=' + encodeURIComponent(currentMod.id);
-        if (continueNum) continueNum.textContent = String(currentMod.number || 1);
-        if (continueTitle) continueTitle.textContent = currentMod.title || '';
+      if (continueBtn) {
+        if (examActive) {
+          continueBtn.href = 'examen.html';
+          continueBtn.innerHTML =
+            '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>' +
+            '<span>Preparación para el parcial<small>Diagnóstico rápido (16 ítems) y simulacro de 60 min</small></span>';
+        } else if (currentMod) {
+          continueBtn.href = 'modules/view.html?id=' + encodeURIComponent(currentMod.id);
+          if (continueNum) continueNum.textContent = String(currentMod.number || 1);
+          if (continueTitle) continueTitle.textContent = currentMod.title || '';
+        }
       }
 
       // 2. Repaso de hoy · N ítems (oculto si no existe repaso espaciado)
@@ -258,13 +286,7 @@
         }
       }
 
-      // 3. "Esta semana": próxima clase según fecha actual y fecha_clase en modulos.json
-      const now = new Date();
-      const y = now.getFullYear();
-      const m = String(now.getMonth() + 1).padStart(2, '0');
-      const d = String(now.getDate()).padStart(2, '0');
-      const todayStr = y + '-' + m + '-' + d;
-
+      // 3. "Esta semana": evaluación de examen o próxima clase según fecha actual
       let nextClassMod = null;
       for (let i = 0; i < list.length; i++) {
         const mod = list[i];
@@ -278,7 +300,14 @@
       const weekList = document.getElementById('hero-week-list');
 
       if (weekWhen && weekList) {
-        if (nextClassMod) {
+        if (examActive) {
+          const diasTexto = diffDays === 0 ? 'hoy, 13/10' : (diffDays === 1 ? 'mañana' : ('en ' + diffDays + ' días'));
+          weekWhen.innerHTML = 'Examen parcial · <span>' + diasTexto + '</span>';
+          weekList.innerHTML =
+            '<li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/></svg><span><b>Qué entra:</b> clases 1 a 9 (módulos 1 al 8).</span></li>' +
+            '<li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="9"/></svg><span><b>Formato:</b> 60 minutos, un único intento, sin IA.</span></li>' +
+            '<li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg><span><b>Preparación:</b> <a href="examen.html" style="color:var(--accent);font-weight:600;text-decoration:underline;">diagnóstico y simulacro en examen.html →</a></span></li>';
+        } else if (nextClassMod) {
           const claseNum = nextClassMod.clase_numero || nextClassMod.clase_2026 || '';
           const fechaTxt = nextClassMod.fecha_clase_texto || nextClassMod.fecha_display || '';
           weekWhen.innerHTML = 'Clase ' + escapeHtml(String(claseNum)) + ' · <span>' + escapeHtml(fechaTxt) + '</span>';
@@ -305,6 +334,11 @@
       const routeSummary = document.getElementById('route-progress-summary');
       if (routeSummary) {
         routeSummary.textContent = stats.completedCount + ' de ' + list.length + ' módulos dominados';
+      }
+
+      const routeTitleEl = document.querySelector('.route-head h2');
+      if (routeTitleEl) {
+        routeTitleEl.innerHTML = 'La ruta del proyecto' + (examActive ? ' <span class="exam-pill" title="Módulos evaluados en el parcial">Entra en el parcial (1 a 8)</span>' : '');
       }
 
       let maxCompletedIdx = -1;
@@ -385,6 +419,9 @@
 
           const ariaCurrentAttr = isCurrent ? ' aria-current="step"' : '';
           const modNumber = modItem.number || (idx + 1);
+          if (examActive && modNumber <= 8) {
+            stepClass += ' in-exam';
+          }
           const shortTitle = modItem.short_title || modItem.title;
 
           stepsHtml +=
@@ -400,6 +437,19 @@
         });
 
         stepsOl.innerHTML = stepsHtml;
+
+        const legendEl = document.querySelector('.hero .legend');
+        if (legendEl) {
+          const existingExamLegend = legendEl.querySelector('.l-exam-item');
+          if (examActive && !existingExamLegend) {
+            const examSpan = document.createElement('span');
+            examSpan.className = 'l-exam-item';
+            examSpan.innerHTML = '<i class="l-exam"></i>Entra en el parcial (1 al 8)';
+            legendEl.appendChild(examSpan);
+          } else if (!examActive && existingExamLegend) {
+            existingExamLegend.remove();
+          }
+        }
       }
     }
 

@@ -949,6 +949,32 @@ button {
 .hero .legend .l-next {
   border-color: var(--primary);
 }
+.hero .legend .l-exam {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.hero .step.in-exam {
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
+  border-radius: 8px;
+}
+.hero .step.in-exam:not(.is-done):not(.is-current) .dot {
+  border-color: color-mix(in srgb, var(--accent) 50%, var(--line));
+}
+
+.exam-pill {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
+  border-radius: 999px;
+  padding: 2px 9px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
 
 @media (prefers-reduced-motion: reduce) {
   .hero * {

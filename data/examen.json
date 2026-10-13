@@ -1,0 +1,18 @@
+{
+  "tipo": "examen",
+  "nombre": "Examen parcial",
+  "fecha": "2026-10-13",
+  "modulos": ["m01", "m02", "m03", "m04", "m05", "m06", "m07", "m08"],
+  "clases": "Clases 1 a 9",
+  "duracion_min": 60,
+  "activo": true,
+  "titulo_semana": "Examen parcial · hoy, 13/10",
+  "que_entra": "clases 1 a 9 (módulos 1 al 8)",
+  "formato": "60 minutos, un único intento, sin IA",
+  "preparacion_url": "examen.html",
+  "texto_moodle": {
+    "objetivo": "Comprobar la comprensión y la aplicación de los contenidos desarrollados entre las clases 1 y 9 mediante preguntas y casos de análisis, valoración y corrección metodológica.",
+    "orientaciones": "La evaluación dispone de 60 minutos y un único intento. Antes de comenzar, revise las instrucciones, el tiempo disponible y las condiciones de envío. Resuelva individualmente y revise sus respuestas antes de finalizar. No se permite utilizar herramientas de IA, consultar a otras personas ni compartir respuestas. Ante una interrupción técnica comprobable se aplicará el procedimiento institucional correspondiente.",
+    "contenidos": "Proceso de investigación; selección y delimitación del tema; revisión de literatura; problema y preguntas; objetivos e hipótesis o supuestos; variables o categorías; enfoque, alcance y diseño; población, muestra o corpus."
+  }
+}
