@@ -1,0 +1,419 @@
+[
+  {
+    "id": "m01",
+    "slug": "m01",
+    "number": 1,
+    "title": "El proceso de investigación científica",
+    "clase_2026": "1-2",
+    "titulo_clase_plan_2026": "Clase 1 — Presentación de la asignatura / Clase 2 — Mapa completo del proceso",
+    "etapa": "Etapa 1 · Fundamentos y Búsqueda",
+    "etapa_num": 1,
+    "icon": "🔬",
+    "proposito": "Clase 1: comprender objetivos, metodología *B-Learning*, evaluación y producto final. | Clase 2: visualizar el proceso desde la elección del tema hasta la presentación del borrador y reconocer sus relaciones no lineales.",
+    "subtemas": [
+      "ciencia",
+      "metodo_cientifico",
+      "enfoque_cientifico"
+    ],
+    "subtemas_labels": [
+      "Ciencia y conocimiento",
+      "Método científico",
+      "Enfoque científico"
+    ],
+    "resultados": [
+      "Clase 1 (Propósito): comprender objetivos, metodología *B-Learning*, evaluación y producto final.",
+      "Clase 2 (Propósito): visualizar el proceso desde la elección del tema hasta la presentación del borrador y reconocer sus relaciones no lineales."
+    ],
+    "counts": {
+      "videos": 1,
+      "readings": 1,
+      "notebooks": 1,
+      "flipCards": 10,
+      "miniCases": 3,
+      "simulationSteps": 3,
+      "quiz": 64
+    }
+  },
+  {
+    "id": "m02",
+    "slug": "m02",
+    "number": 2,
+    "title": "Elección, delimitación y búsqueda",
+    "clase_2026": "3",
+    "titulo_clase_plan_2026": "Clase 3 — Elección, delimitación, búsqueda e IA responsable",
+    "etapa": "Etapa 1 · Fundamentos y Búsqueda",
+    "etapa_num": 1,
+    "icon": "🧭",
+    "proposito": "salir de la clase con un tema provisional delimitado y una búsqueda inicial verificable.",
+    "subtemas": [
+      "eleccion_tema",
+      "delimitacion",
+      "busqueda",
+      "ia_responsable"
+    ],
+    "subtemas_labels": [
+      "Elección del tema",
+      "Delimitación",
+      "Búsqueda académica",
+      "IA responsable"
+    ],
+    "resultados": [
+      "aplicar factores subjetivos y objetivos;",
+      "diferenciar campo, tema y problema;",
+      "delimitar fenómeno, población o unidad, espacio y tiempo cuando correspondan;",
+      "construir descriptores y localizar una fuente verificable;",
+      "usar IA para ampliar opciones sin delegar la elección."
+    ],
+    "counts": {
+      "videos": 0,
+      "readings": 2,
+      "notebooks": 1,
+      "flipCards": 11,
+      "miniCases": 3,
+      "simulationSteps": 3,
+      "quiz": 35
+    }
+  },
+  {
+    "id": "m03",
+    "slug": "m03",
+    "number": 3,
+    "title": "Literatura, teoría, antecedentes y vacío",
+    "clase_2026": "4",
+    "titulo_clase_plan_2026": "Clase 4 — Revisión de literatura, teoría, antecedentes y vacío",
+    "etapa": "Etapa 1 · Fundamentos y Búsqueda",
+    "etapa_num": 1,
+    "icon": "📚",
+    "proposito": "convertir fuentes verificadas en una síntesis inicial que muestre qué se sabe, cómo se estudió y qué aspecto requiere investigación.",
+    "subtemas": [
+      "revision_literatura",
+      "teoria",
+      "antecedentes",
+      "vacio"
+    ],
+    "subtemas_labels": [
+      "Revisión de literatura",
+      "Teoría y marcos",
+      "Antecedentes",
+      "Vacío de conocimiento"
+    ],
+    "resultados": [
+      "distinguir antecedente, concepto, teoría, método y aporte;",
+      "registrar una fuente con trazabilidad;",
+      "comparar fuentes y reconocer coincidencias, tensiones y límites;",
+      "redactar un vacío provisional sin afirmar que “no existe nada”."
+    ],
+    "counts": {
+      "videos": 1,
+      "readings": 2,
+      "notebooks": 1,
+      "flipCards": 10,
+      "miniCases": 3,
+      "simulationSteps": 3,
+      "quiz": 34
+    }
+  },
+  {
+    "id": "m04",
+    "slug": "m04",
+    "number": 4,
+    "title": "Problema y preguntas de investigación",
+    "clase_2026": "5",
+    "titulo_clase_plan_2026": "Clase 5 — Planteamiento del problema y preguntas",
+    "etapa": "Etapa 2 · El Problema de Investigación",
+    "etapa_num": 2,
+    "icon": "❓",
+    "proposito": "formular un problema investigable sustentado en la revisión inicial y expresarlo mediante preguntas coherentes.",
+    "subtemas": [
+      "problema",
+      "preguntas",
+      "justificacion"
+    ],
+    "subtemas_labels": [
+      "Planteamiento del problema",
+      "Preguntas de investigación",
+      "Justificación y viabilidad"
+    ],
+    "resultados": [
+      "distinguir tema, situación problemática, problema y pregunta;",
+      "construir la secuencia contexto → evidencia → vacío → relevancia → delimitación;",
+      "formular una pregunta central y preguntas específicas viables;",
+      "reconocer que problema y literatura continuarán ajustándose mutuamente."
+    ],
+    "counts": {
+      "videos": 1,
+      "readings": 3,
+      "notebooks": 1,
+      "flipCards": 11,
+      "miniCases": 3,
+      "simulationSteps": 3,
+      "quiz": 57
+    }
+  },
+  {
+    "id": "m05",
+    "slug": "m05",
+    "number": 5,
+    "title": "Objetivos, hipótesis y coherencia",
+    "clase_2026": "6",
+    "titulo_clase_plan_2026": "Clase 6 — Objetivos, hipótesis o supuestos y coherencia",
+    "etapa": "Etapa 2 · El Problema de Investigación",
+    "etapa_num": 2,
+    "icon": "🎯",
+    "proposito": "traducir las preguntas en objetivos viables, decidir si corresponde hipótesis y construir una primera auditoría de coherencia.",
+    "subtemas": [
+      "objetivos",
+      "hipotesis",
+      "coherencia"
+    ],
+    "subtemas_labels": [
+      "Objetivos de investigación",
+      "Hipótesis y supuestos",
+      "Matriz de coherencia"
+    ],
+    "resultados": [
+      "diferenciar objetivo, actividad y resultado esperado;",
+      "formular objetivo general y específicos correspondientes a las preguntas;",
+      "decidir justificadamente si corresponde hipótesis, supuestos o preguntas orientadoras;",
+      "identificar inconsistencias del núcleo del proyecto."
+    ],
+    "counts": {
+      "videos": 2,
+      "readings": 3,
+      "notebooks": 2,
+      "flipCards": 12,
+      "miniCases": 3,
+      "simulationSteps": 3,
+      "quiz": 114
+    }
+  },
+  {
+    "id": "m06",
+    "slug": "m06",
+    "number": 6,
+    "title": "Constructos, variables, definiciones y categorías",
+    "clase_2026": "7",
+    "titulo_clase_plan_2026": "Clase 7 — Constructos, variables, definiciones y categorías",
+    "etapa": "Etapa 2 · El Problema de Investigación",
+    "etapa_num": 2,
+    "icon": "🧩",
+    "proposito": "pasar de conceptos abstractos a elementos observables o analizables sin forzar una lógica cuantitativa sobre proyectos cualitativos.",
+    "subtemas": [
+      "constructos",
+      "variables",
+      "definiciones",
+      "categorias"
+    ],
+    "subtemas_labels": [
+      "Constructos",
+      "Variables",
+      "Definiciones C. y O.",
+      "Categorías cualitativas"
+    ],
+    "resultados": [
+      "distinguir constructo, variable, definición conceptual, operacional, dimensión, indicador y categoría;",
+      "elegir una ruta de operacionalización o categorización;",
+      "justificar definiciones con fuentes;",
+      "comprobar correspondencia con objetivos."
+    ],
+    "counts": {
+      "videos": 1,
+      "readings": 1,
+      "notebooks": 1,
+      "flipCards": 11,
+      "miniCases": 3,
+      "simulationSteps": 3,
+      "quiz": 66
+    }
+  },
+  {
+    "id": "m07",
+    "slug": "m07",
+    "number": 7,
+    "title": "Enfoque, alcance y diseño",
+    "clase_2026": "8",
+    "titulo_clase_plan_2026": "Clase 8 — Enfoque, alcance y diseño",
+    "etapa": "Etapa 3 · Diseño y Muestreo",
+    "etapa_num": 3,
+    "icon": "📐",
+    "proposito": "seleccionar una arquitectura metodológica capaz de producir la evidencia necesaria para responder las preguntas.",
+    "subtemas": [
+      "enfoque",
+      "alcance",
+      "diseno"
+    ],
+    "subtemas_labels": [
+      "Enfoque metodológico",
+      "Alcance del estudio",
+      "Diseño y validez"
+    ],
+    "resultados": [
+      "relacionar preguntas, objetivos, enfoque, alcance y diseño;",
+      "comparar rutas cuantitativas y cualitativas;",
+      "distinguir diseños experimentales y no experimentales;",
+      "justificar una elección y reconocer límites."
+    ],
+    "counts": {
+      "videos": 1,
+      "readings": 1,
+      "notebooks": 1,
+      "flipCards": 10,
+      "miniCases": 3,
+      "simulationSteps": 3,
+      "quiz": 53
+    }
+  },
+  {
+    "id": "m08",
+    "slug": "m08",
+    "number": 8,
+    "title": "Población, muestra, corpus y muestreo",
+    "clase_2026": "9",
+    "titulo_clase_plan_2026": "Clase 9 — Población, muestra, corpus y muestreo",
+    "etapa": "Etapa 3 · Diseño y Muestreo",
+    "etapa_num": 3,
+    "icon": "👥",
+    "proposito": "definir de quién o de qué se obtendrá información y justificar su selección.",
+    "subtemas": [
+      "poblacion",
+      "muestra",
+      "muestreo",
+      "corpus"
+    ],
+    "subtemas_labels": [
+      "Población y universo",
+      "Muestra",
+      "Tipos de muestreo",
+      "Corpus y unidades"
+    ],
+    "resultados": [
+      "distinguir universo, población, marco, muestra, unidad de análisis y observación;",
+      "comparar procedimientos probabilísticos y no probabilísticos;",
+      "definir selección intencional, criterios o suficiencia en estudios cualitativos;",
+      "justificar alcance y límites de generalización o transferencia."
+    ],
+    "counts": {
+      "videos": 1,
+      "readings": 1,
+      "notebooks": 1,
+      "flipCards": 10,
+      "miniCases": 3,
+      "simulationSteps": 3,
+      "quiz": 47
+    }
+  },
+  {
+    "id": "m09",
+    "slug": "m09",
+    "number": 9,
+    "title": "Técnicas, instrumentos, procedimientos y ética",
+    "clase_2026": "11",
+    "titulo_clase_plan_2026": "Clase 11 — Técnicas, instrumentos, procedimientos y ética",
+    "etapa": "Etapa 4 · Recolección, Análisis e Informe",
+    "etapa_num": 4,
+    "icon": "🛠️",
+    "proposito": "decidir cómo se obtendría la información y anticipar calidad, procedimiento y protección de participantes o fuentes.",
+    "subtemas": [
+      "tecnicas",
+      "instrumentos",
+      "calidad_medicion",
+      "etica"
+    ],
+    "subtemas_labels": [
+      "Técnicas de recolección",
+      "Instrumentos",
+      "Validez y confiabilidad",
+      "Ética e integridad"
+    ],
+    "resultados": [
+      "diferenciar técnica, instrumento y fuente;",
+      "vincular objetivo, dato, técnica e instrumento;",
+      "identificar validez/confiabilidad o rigor cualitativo según corresponda;",
+      "anticipar consentimiento, riesgo, privacidad, custodia y eliminación."
+    ],
+    "counts": {
+      "videos": 1,
+      "readings": 1,
+      "notebooks": 1,
+      "flipCards": 10,
+      "miniCases": 3,
+      "simulationSteps": 3,
+      "quiz": 16
+    }
+  },
+  {
+    "id": "m10",
+    "slug": "m10",
+    "number": 10,
+    "title": "Análisis cuantitativo y cualitativo",
+    "clase_2026": "12",
+    "titulo_clase_plan_2026": "Clase 12 — Plan de análisis cuantitativo y cualitativo",
+    "etapa": "Etapa 4 · Recolección, Análisis e Informe",
+    "etapa_num": 4,
+    "icon": "📊",
+    "proposito": "anticipar cómo se organizará y analizará la información para responder cada objetivo, mediante una ruta cuantitativa, cualitativa o mixta.",
+    "subtemas": [
+      "analisis_cuantitativo",
+      "analisis_cualitativo"
+    ],
+    "subtemas_labels": [
+      "Análisis cuantitativo",
+      "Análisis cualitativo"
+    ],
+    "resultados": [
+      "diferenciar preparación, análisis, resultado e interpretación;",
+      "elegir procedimientos coherentes con objetivo, diseño y tipo de dato;",
+      "describir trazabilidad, rigor y límites;",
+      "evitar conclusiones anticipadas."
+    ],
+    "counts": {
+      "videos": 1,
+      "readings": 1,
+      "notebooks": 1,
+      "flipCards": 10,
+      "miniCases": 3,
+      "simulationSteps": 3,
+      "quiz": 24
+    }
+  },
+  {
+    "id": "m11",
+    "slug": "m11",
+    "number": 11,
+    "title": "Escritura académica, APA, Zotero e IA",
+    "clase_2026": "13",
+    "titulo_clase_plan_2026": "Clase 13 — Escritura académica, APA, Zotero e IA",
+    "etapa": "Etapa 4 · Recolección, Análisis e Informe",
+    "etapa_num": 4,
+    "icon": "✍️",
+    "proposito": "integrar el borrador con argumentación trazable, referencias verificadas y uso transparente de herramientas.",
+    "subtemas": [
+      "escritura",
+      "apa",
+      "citacion",
+      "ia_responsable"
+    ],
+    "subtemas_labels": [
+      "Escritura académica",
+      "Normas APA 7",
+      "Citación y Zotero",
+      "IA responsable"
+    ],
+    "resultados": [
+      "revisar la cadena de coherencia;",
+      "distinguir cita, paráfrasis, síntesis y copia;",
+      "verificar metadatos y correspondencia entre citas y referencias;",
+      "usar Zotero como apoyo, no como garantía automática;",
+      "usar IA para revisar un texto propio sin ceder autoría."
+    ],
+    "counts": {
+      "videos": 1,
+      "readings": 2,
+      "notebooks": 1,
+      "flipCards": 10,
+      "miniCases": 3,
+      "simulationSteps": 3,
+      "quiz": 16
+    }
+  }
+]

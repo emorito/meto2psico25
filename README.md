@@ -1,32 +1,80 @@
-# Centro de Aprendizaje en Metodología de la Investigación
+# Metodología de la Investigación Científica II — Psicología UNIBE (Plan 2026)
 
-Este repositorio contiene el código y los recursos para un sitio web educativo sobre metodología de la investigación, estructurado en nueve módulos y diseñado para ser desplegado en GitHub Pages.
+Plataforma web educativa interactiva para la asignatura **Metodología de la Investigación Científica II** de la Licenciatura en Psicología en la **Universidad Iberoamericana (UNIBE)**, bajo la cátedra del **Prof. Lic. Ezequiel Morosini**.
 
-La estructura actual de carpetas es la siguiente:
+---
 
-```
-site_web_metodologia/
-├── index.html                 # Página principal con tarjetas de navegación de los módulos
-├── modules/                   # Carpeta para la visualización de módulos
-│   └── view.html              # Plantilla genérica para visualizar el contenido dinámico de los módulos
+## 🧭 Arquitectura Pedagógica (Plan 2026 · 11 Módulos)
+
+El curso acompaña al estudiante desde la concepción de la idea de investigación hasta la redacción del informe final con normas APA (7.ª ed.) y uso ético de Inteligencia Artificial (**Protocolo VERA**), organizado en **4 etapas** y **11 módulos (`m01` a `m11`)**:
+
+| Etapa | ID | Módulo | Clases Plan 2026 |
+| :--- | :--- | :--- | :--- |
+| **Etapa 1 · Fundamentos y Literatura** | `m01` | El proceso de investigación científica | Clase 1 |
+| **Etapa 1 · Fundamentos y Literatura** | `m02` | Elección del tema, delimitación y búsqueda de información | Clases 2 y 3 |
+| **Etapa 1 · Fundamentos y Literatura** | `m03` | Revisión de la literatura, teoría, antecedentes y vacío | Clase 4 |
+| **Etapa 2 · Planteamiento y Variables** | `m04` | Planteamiento del problema y preguntas de investigación | Clase 5 |
+| **Etapa 2 · Planteamiento y Variables** | `m05` | Objetivos, hipótesis y matriz de coherencia | Clases 6 y 7 |
+| **Etapa 2 · Planteamiento y Variables** | `m06` | Constructos, variables, definiciones, operacionalización y categorización | Clase 8 (Parte 1) |
+| **Etapa 3 · Estrategia Empírica** | `m07` | Enfoque, alcance y diseño de investigación | Clase 8 (Parte 2) |
+| **Etapa 3 · Estrategia Empírica** | `m08` | Población, muestra, corpus y muestreo | Clase 10 |
+| **Etapa 3 · Estrategia Empírica** | `m09` | Técnicas, instrumentos, procedimientos y ética | Clase 11 |
+| **Etapa 4 · Análisis y Escritura** | `m10` | Análisis de datos cuantitativos y cualitativos | Clase 12 |
+| **Etapa 4 · Análisis y Escritura** | `m11` | Escritura académica, normas APA, Zotero y uso responsable de IA | Transversal / Clases 13–15 |
+
+---
+
+## ✨ Componentes Interactivos por Módulo
+
+Cada uno de los 11 módulos integra 5 experiencias de aprendizaje activo:
+
+1. **Multimedia, Guías y Bibliografía Oficial**:
+   - Selector de clases en video (incluyendo soporte multi-video en `m05` y Guía Interactiva de Laboratorio Documental en `m02`).
+   - Descarga directa de lecturas y guías en PDF (`assets/reading/`) y enlaces a cuadernos interactivos en **NotebookLM**.
+2. **Cápsula Metodológica Clave**:
+   - Síntesis estructurada con tablas comparativas, reglas de oro y listas de verificación para el trabajo práctico.
+3. **Tarjetas de Estudio 3D (Flip-Cards)**:
+   - **115 tarjetas interactivas** (10 a 12 por módulo) con giro 3D por clic o teclado (`Enter` / `Espacio`), mezclado aleatorio y seguimiento de dominio.
+4. **Minicasos Aplicados y Simulador de Decisiones**:
+   - **33 minicasos reales** (3 por módulo) con acordeones independientes para *Pista Orientadora* y *Dictamen Docente*.
+   - **11 laboratorios interactivos de simulación** (3 pasos ramificados por módulo) con retroalimentación inmediata sobre riesgos metodológicos y validez.
+5. **Autoevaluación Formativa con Retroalimentación**:
+   - Banco depurado de **526 ítems** con barajado simultáneo de preguntas y opciones de respuesta.
+   - Modalidades de práctica rápida (5 ítems), intensiva (10 ítems) o banco completo, filtro por nivel de dificultad (*Fácil*, *Intermedio*, *Difícil*) y explicación formativa en el 100% de las preguntas.
+
+---
+
+## 🗂️ Estructura del Repositorio
+
+```text
+├── index.html                  # Portada con video hero, panel de progreso, filtros por etapa y catálogo de 11 módulos
+├── modules/
+│   └── view.html               # Vista dinámica de estudio por módulo (?id=m01 .. ?id=m11)
 ├── assets/
 │   ├── css/
-│   │   ├── main.css           # Estilos principales del sitio
-│   │   ├── flip-cards.css     # Estilos específicos para tarjetas giratorias
-│   │   └── theme-toggle.css   # Estilos para el cambio de tema (claro/oscuro)
+│   │   └── main.css            # Hoja de estilos consolidada (Light/Dark, tipografía fluida clamp(), componentes)
 │   ├── js/
-│   │   ├── app.js             # Lógica principal de interactividad y carga de datos
-│   │   └── theme-toggle.js    # Lógica para el cambio de tema
-│   ├── img/                   # Imágenes y recursos gráficos
-│   └── reading/               # Archivos PDF y lecturas complementarias
+│   │   └── app.js              # Motor de estado, catálogo, cápsulas, flip-cards, simulador y autoevaluación
+│   ├── images/
+│   │   └── hero.png            # Póster de respaldo del encabezado
+│   ├── videos/
+│   │   └── cerebro_efficient.mp4
+│   └── reading/                # 14 lecturas y guías oficiales en PDF
 ├── data/
-│   ├── modulo[1-9].json       # Archivos JSON con el contenido de cada una de las 9 unidades
-│   ├── items_modulo[1-6].json # Bancos de ítems para evaluación (disponibles para módulos 1-6)
-│   └── progreso.json          # Estructura inicial para el seguimiento del avance del usuario
-├── integridad.json            # Manifiesto de integridad con hashes SHA‑256
-└── deploy_guide.md            # Guía para desplegar en GitHub Pages
+│   ├── modulos.json            # Índice maestro de los 11 módulos del Plan 2026
+│   └── m01.json .. m11.json    # Datos completos de cada módulo (recursos, cápsula, flipCards, miniCases, simulation, quiz)
+└── scripts/
+    └── build_site_data.py      # Script reproducible de construcción y validación de datos JSON
 ```
 
-Para editar el contenido de los módulos, modifica los archivos JSON correspondientes en la carpeta `data/`.
-Para ajustar los estilos, revisa los archivos en `assets/css/`, principalmente `main.css`.
-La lógica de la aplicación se encuentra en `assets/js/app.js`.
+---
+
+## 🚀 Ejecución Local
+
+Para visualizar el sitio localmente (necesario para que `fetch()` cargue los archivos JSON):
+
+```bash
+python3 -m http.server 8000
+```
+
+Luego abre en el navegador: `http://localhost:8000`

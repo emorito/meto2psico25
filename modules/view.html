@@ -1,64 +1,272 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Módulo - Metodología</title>
-    <link rel="stylesheet" href="../assets/css/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('meto2_theme');
+        var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        var theme = saved || (prefersDark ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch (e) {}
+    })();
+  </script>
+  <title>Módulo de Estudio | Metodología de la Investigación II — UNIBE</title>
+  <meta name="description" content="Módulo interactivo de Metodología de la Investigación Científica II — Psicología UNIBE (Plan 2026).">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/main.css">
 </head>
+<body data-page="module">
 
-<body data-module="dynamic"> <!-- Trigger initModuleView -->
+  <!-- Barra Superior Pegajosa -->
+  <header class="site-topbar">
+    <div class="container topbar-inner">
+      <a href="../index.html" class="brand-link" aria-label="Volver al catálogo de módulos">
+        <span class="brand-badge" aria-hidden="true">←</span>
+        <span class="brand-text-wrap">
+          <span class="brand-title">Catálogo de Módulos</span>
+          <span class="brand-subtitle">Metodología II · Plan 2026</span>
+        </span>
+      </a>
 
-    <div class="progress-container">
-        <div class="progress-bar"></div>
-    </div>
+      <div class="topbar-controls">
+        <label for="module-quick-select" class="sr-only">Saltar a otro módulo</label>
+        <select id="module-quick-select" class="module-quick-select" aria-label="Saltar a otro módulo">
+          <!-- Poblado dinámicamente -->
+        </select>
 
-    <div class="container">
-        <!-- Navigation Header -->
-        <a href="../index.html" class="back-link">← Volver al Temario</a>
-
-        <!-- Module Title -->
-        <h2 id="module-title">Cargando...</h2>
-
-        <!-- Video Section -->
-        <section class="section" id="video-dynamic-container">
-            <!-- Video injected here -->
-        </section>
-
-        <!-- Dynamic Content: Notebook / Reading -->
-        <section class="section notebook-section">
-            <h3><i class="fa-solid fa-book"></i> Material de Estudio</h3>
-            <p>Accede al material complementario y asistentes de IA para este módulo.</p>
-            <a id="notebook-dynamic-link" href="#" target="_blank" class="notebook-link" hidden>
-                <i class="fa-solid fa-robot"></i> Abrir Notebook LM
-            </a>
-            <!-- We can add PDF download button here dynamically too if needed from JSON -->
-        </section>
-
-        <!-- Activities: Flip Cards -->
-        <section class="section">
-            <h3><i class="fa-solid fa-layer-group"></i> Conceptos Clave</h3>
-            <div id="flips-dynamic-container" class="flip-container">
-                <!-- Cards injected here -->
-            </div>
-        </section>
-
-        <!-- Evaluation: Quiz -->
-        <section class="section">
-            <h3><i class="fa-solid fa-clipboard-check"></i> Evaluación</h3>
-            <div id="quiz-dynamic-container" class="quiz-container">
-                <!-- Quiz injected here -->
-            </div>
-        </section>
-
-        <!-- Navigation Footer -->
-        <div class="module-navigation">
-            <!-- Buttons injected here -->
+        <div class="topbar-progress-pill" title="Módulos aprobados en el curso">
+          <span id="topbar-progress-text">0/11</span>
+          <div class="topbar-progress-mini" aria-hidden="true">
+            <div class="topbar-progress-mini-fill" id="topbar-progress-fill"></div>
+          </div>
         </div>
+
+        <button type="button" id="theme-toggle" class="theme-toggle-btn" aria-label="Cambiar entre modo claro y oscuro">
+          <span id="theme-toggle-icon" aria-hidden="true">🌙</span>
+          <span id="theme-toggle-text">Modo oscuro</span>
+        </button>
+      </div>
     </div>
+  </header>
 
-    <script src="../assets/js/app.js"></script>
+  <!-- Cabecera Compacta del Módulo -->
+  <section class="module-hero">
+    <div class="container">
+      <div class="module-hero-meta">
+        <span class="module-stage-pill" id="module-stage-badge">Etapa</span>
+        <span class="module-class-badge" id="module-class-badge">Clase 2026</span>
+        <span class="status-badge in-progress" id="module-status-badge">En estudio</span>
+      </div>
+
+      <h1 id="module-title">Cargando módulo...</h1>
+      <p class="module-hero-purpose prose-measure" id="module-purpose"></p>
+
+      <!-- Resultados de aprendizaje esperados (interactivos) -->
+      <div class="outcomes-card" id="outcomes-card">
+        <div class="outcomes-card-header">
+          <span class="outcomes-card-title">🎯 Resultados de aprendizaje esperados (marca tu dominio)</span>
+          <span class="stat-meta" id="outcomes-counter">0 completados</span>
+        </div>
+        <ul class="outcomes-list" id="outcomes-list">
+          <!-- Poblado dinámicamente -->
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Navegación Interna Pegajosa por Secciones -->
+  <nav class="section-nav-bar" aria-label="Secciones del módulo">
+    <div class="container">
+      <ul class="section-nav-list">
+        <li><a href="#sec-estudio" class="section-nav-link is-active">1. Multimedia y Lecturas</a></li>
+        <li><a href="#sec-capsula" class="section-nav-link">2. Cápsula Clave</a></li>
+        <li><a href="#sec-flipcards" class="section-nav-link">3. Tarjetas 3D</a></li>
+        <li><a href="#sec-practica" class="section-nav-link">4. Minicasos y Simulación</a></li>
+        <li><a href="#sec-quiz" class="section-nav-link">5. Autoevaluación</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+
+    <!-- SECCIÓN 1: MULTIMEDIA, GUÍA Y LECTURAS -->
+    <section id="sec-estudio" class="module-section" aria-labelledby="heading-estudio">
+      <div class="section-header">
+        <div>
+          <span class="section-eyebrow">Paso 1 · Materiales Centrales</span>
+          <h2 id="heading-estudio">Clase Multimedia, Lecturas y Cuaderno IA</h2>
+          <p class="section-subtitle">Revisa el material audiovisual o la ruta guiada del módulo y descarga la bibliografía oficial en PDF.</p>
+        </div>
+      </div>
+
+      <div class="study-layout">
+        <div class="media-panel">
+          <div class="video-tabs" id="video-tabs" hidden></div>
+          <div id="media-stage">
+            <!-- Video 16:9 o Guía Interactiva renderizada por JS -->
+          </div>
+        </div>
+
+        <aside class="resources-sidebar" aria-label="Bibliografía y recursos descargables">
+          <div class="resource-group-card">
+            <h3>📄 Lecturas y Guías Oficiales (PDF)</h3>
+            <ul class="resource-list" id="readings-list">
+              <!-- Poblado dinámicamente -->
+            </ul>
+          </div>
+
+          <div class="resource-group-card" id="notebooks-card">
+            <h3>🤖 Cuadernos Interactivos (NotebookLM)</h3>
+            <ul class="resource-list" id="notebooks-list">
+              <!-- Poblado dinámicamente -->
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 2: CÁPSULA METODOLÓGICA CLAVE -->
+    <section id="sec-capsula" class="module-section" aria-labelledby="heading-capsula">
+      <div class="section-header">
+        <div>
+          <span class="section-eyebrow">Paso 2 · Síntesis Estructural</span>
+          <h2 id="heading-capsula">Cápsula Metodológica Clave</h2>
+          <p class="section-subtitle">Conceptos nodales, tablas comparativas, errores frecuentes y criterios de verificación para tu trabajo de investigación.</p>
+        </div>
+      </div>
+
+      <div id="capsula-container">
+        <!-- Poblado dinámicamente -->
+      </div>
+    </section>
+
+    <!-- SECCIÓN 3: TARJETAS DE ESTUDIO 3D (FLIP-CARDS) -->
+    <section id="sec-flipcards" class="module-section" aria-labelledby="heading-flipcards">
+      <div class="section-header">
+        <div>
+          <span class="section-eyebrow">Paso 3 · Recuperación Activa</span>
+          <h2 id="heading-flipcards">Tarjetas de Estudio 3D (Flip-Cards)</h2>
+          <p class="section-subtitle">Haz clic o presiona Enter/Espacio sobre cada tarjeta para contrastar tu definición mental con la respuesta metodológica rigurosa.</p>
+        </div>
+      </div>
+
+      <div class="flipcards-toolbar">
+        <span class="status-badge in-progress" id="flipcards-progress-badge">0 / 10 tarjetas exploradas</span>
+        <div class="topbar-controls">
+          <button type="button" id="flip-all-btn" class="btn btn-outline">🔄 Voltear todas</button>
+          <button type="button" id="shuffle-cards-btn" class="btn btn-outline">🔀 Mezclar orden</button>
+          <button type="button" id="reset-cards-btn" class="btn btn-ghost">↺ Poner de frente</button>
+        </div>
+      </div>
+
+      <div class="flipcards-grid" id="flip-cards-container">
+        <!-- Poblado dinámicamente -->
+      </div>
+    </section>
+
+    <!-- SECCIÓN 4: MINICASOS PRÁCTICOS Y SIMULADOR DE DECISIONES -->
+    <section id="sec-practica" class="module-section" aria-labelledby="heading-practica">
+      <div class="section-header">
+        <div>
+          <span class="section-eyebrow">Paso 4 · Transferencia Práctica</span>
+          <h2 id="heading-practica">Minicasos Aplicados y Laboratorio de Decisiones</h2>
+          <p class="section-subtitle">Analiza situaciones reales de investigación en Psicología antes de desplegar la pista orientadora y el dictamen metodológico docente.</p>
+        </div>
+      </div>
+
+      <div class="minicases-grid" id="minicases-container">
+        <!-- 3 minicasos renderizados dinámicamente -->
+      </div>
+
+      <div id="simulation-container">
+        <!-- Simulación interactiva de 3 pasos renderizada dinámicamente -->
+      </div>
+    </section>
+
+    <!-- SECCIÓN 5: AUTOEVALUACIÓN FORMATIVA -->
+    <section id="sec-quiz" class="module-section" aria-labelledby="heading-quiz">
+      <div class="section-header">
+        <div>
+          <span class="section-eyebrow">Paso 5 · Verificación de Dominio</span>
+          <h2 id="heading-quiz">Autoevaluación Formativa con Retroalimentación</h2>
+          <p class="section-subtitle">Responde las preguntas seleccionadas al azar del banco validado. Obtén al menos 70% de aciertos para aprobar el módulo y desbloquear el siguiente.</p>
+        </div>
+      </div>
+
+      <div class="quiz-container">
+        <div class="quiz-controls-bar" id="quiz-controls-bar">
+          <div class="quiz-control-group" role="group" aria-label="Cantidad de preguntas">
+            <span class="quiz-control-label">Modalidad:</span>
+            <button type="button" class="btn-chip is-active" data-quiz-count="5">Rápida (5 ítems)</button>
+            <button type="button" class="btn-chip" data-quiz-count="10">Intensiva (10 ítems)</button>
+            <button type="button" class="btn-chip" data-quiz-count="all">Banco Completo</button>
+          </div>
+
+          <div class="quiz-control-group" role="group" aria-label="Filtro por dificultad">
+            <span class="quiz-control-label">Nivel:</span>
+            <button type="button" class="btn-chip is-active" data-quiz-diff="all">Todos</button>
+            <button type="button" class="btn-chip" data-quiz-diff="1">Fácil</button>
+            <button type="button" class="btn-chip" data-quiz-diff="2">Intermedio</button>
+            <button type="button" class="btn-chip" data-quiz-diff="3">Difícil</button>
+          </div>
+
+          <button type="button" id="new-quiz-btn" class="btn btn-outline">
+            🔀 Nuevas preguntas
+          </button>
+        </div>
+
+        <form id="quiz-form" novalidate>
+          <div class="quiz-questions-list" id="quiz-questions-container">
+            <!-- Preguntas renderizadas dinámicamente -->
+          </div>
+
+          <div class="quiz-submit-row">
+            <span class="stat-meta" id="quiz-answered-counter">0 preguntas respondidas</span>
+            <div class="topbar-controls">
+              <button type="submit" id="submit-quiz-btn" class="btn btn-primary">
+                ✅ Verificar Respuestas y Calificar
+              </button>
+            </div>
+          </div>
+        </form>
+
+        <div id="quiz-result-banner" class="quiz-result-banner" role="region" aria-live="polite">
+          <!-- Banner de resultado integrado -->
+        </div>
+      </div>
+    </section>
+
+    <!-- NAVEGACIÓN INFERIOR ENTRE MÓDULOS -->
+    <nav class="module-navigation" aria-label="Navegación entre módulos">
+      <a href="../index.html" id="prev-module-btn" class="btn btn-outline">← Módulo Anterior</a>
+
+      <div class="topbar-controls">
+        <button type="button" id="unlock-next-btn" class="btn btn-ghost" title="Desbloquea manualmente el siguiente módulo sin necesidad de aprobar el cuestionario actual">
+          🔓 Saltar / Desbloquear siguiente
+        </button>
+        <a href="../index.html" id="next-module-btn" class="btn btn-primary">Siguiente Módulo →</a>
+      </div>
+    </nav>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Universidad Iberoamericana (UNIBE)</strong> · Carrera de Psicología · Metodología de la Investigación Científica II (Plan 2026)
+      </div>
+      <div>
+        Cátedra: Prof. Lic. Ezequiel Morosini · <a href="../index.html">Volver al inicio</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/app.js"></script>
 </body>
-
 </html>

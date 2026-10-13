@@ -1,82 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Centro de Entrenamiento – Metodología de la Investigación</title>
-    <!-- Precarga del video para mejor rendimiento -->
-    <link rel="preload" as="video" href="assets/img/cerebro_efficient.mp4" type="video/mp4">
-    <!-- Fonts optimizadas -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&family=Inter:wght@400;600;700&display=swap"
-        rel="stylesheet">
-    <!-- Meta tags para SEO y performance -->
-    <meta name="description" content="Centro de Entrenamiento en Metodología de la Investigación">
-    <meta name="theme-color" content="#E35336">
-    <!-- CSS Unificado -->
-    <link rel="stylesheet" href="assets/css/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('meto2_theme');
+        var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        var theme = saved || (prefersDark ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch (e) {}
+    })();
+  </script>
+  <title>Metodología de la Investigación II | Psicología UNIBE — Plan 2026</title>
+  <meta name="description" content="Plataforma interactiva de aprendizaje de Metodología de la Investigación Científica II para Psicología (UNIBE, Plan 2026). 11 módulos con cápsulas, tarjetas 3D, minicasos, simulaciones y autoevaluación formativa.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
+<body data-page="home">
 
-<body>
-    <!-- Header con video optimizado y overlay -->
-    <header class="hero">
-        <!-- Video background ultra-optimizado -->
-        <video class="hero-video" autoplay muted loop playsinline preload="metadata">
-            <source src="assets/img/cerebro_efficient.mp4" type="video/mp4">
-            <!-- Fallback para navegadores que no soportan video -->
-            <div
-                style="background: linear-gradient(rgba(34, 46, 34, 0.8), rgba(20, 30, 20, 0.8)), url('assets/img/hero.png'); background-size: cover; background-position: center; width: 100%; height: 100%; position: absolute; top: 0; left: 0;">
-            </div>
-        </video>
-        <!-- Overlay gradiente para legibilidad del texto -->
-        <div class="hero-overlay"></div>
-        <!-- Contenido principal del hero -->
-        <div class="hero-content">
-            <h1 class="hero-title">
-                <span class="line1">Centro de Entrenamiento</span>
-                <span class="line2">Metodología de la Investigación</span>
-            </h1>
-            <p class="hero-subtitle">
-                Desarrolla habilidades de investigación con claridad, rigor y un toque de humor.
-                Explorar módulos que se desbloquean progresivamente.
-            </p>
+  <!-- Barra Superior Pegajosa -->
+  <header class="site-topbar">
+    <div class="container topbar-inner">
+      <a href="index.html" class="brand-link" aria-label="Inicio Metodología de la Investigación II">
+        <span class="brand-badge" aria-hidden="true">M2</span>
+        <span class="brand-text-wrap">
+          <span class="brand-title">Metodología de la Investigación II</span>
+          <span class="brand-subtitle">Lic. en Psicología · UNIBE · Plan 2026</span>
+        </span>
+      </a>
+
+      <div class="topbar-controls">
+        <button type="button" id="free-review-toggle" class="btn-chip" aria-pressed="false" title="Desbloquea temporalmente los 11 módulos para repasar antes de exámenes sin alterar tu progreso real">
+          <span id="free-review-icon" aria-hidden="true">🔒</span>
+          <span id="free-review-label">Modo Secuencial</span>
+        </button>
+
+        <button type="button" id="theme-toggle" class="theme-toggle-btn" aria-label="Cambiar entre modo claro y oscuro">
+          <span id="theme-toggle-icon" aria-hidden="true">🌙</span>
+          <span id="theme-toggle-text">Modo oscuro</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Principal con Video de Fondo -->
+  <section class="hero-banner">
+    <video class="hero-video-bg" autoplay muted loop playsinline poster="assets/images/hero.png">
+      <source src="assets/videos/cerebro_efficient.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay" aria-hidden="true"></div>
+
+    <div class="container hero-content">
+      <span class="hero-eyebrow">Ciclo Académico 2026 · 11 Módulos Interactivos</span>
+      <h1>De la Idea de Investigación al Informe Científico en Psicología</h1>
+      <p class="hero-lead prose-measure">
+        Recorre paso a paso la arquitectura metodológica de un proyecto empírico riguroso: búsqueda estratégica, planteamiento del problema, matriz de coherencia, diseño, muestreo, ética, análisis de datos y escritura científica con normas APA 7 y uso ético de IA (Protocolo VERA).
+      </p>
+      <div class="hero-badges">
+        <span class="hero-badge-item">🎬 Videos y Guías de Estudio</span>
+        <span class="hero-badge-item">🧭 Cápsulas Metodológicas</span>
+        <span class="hero-badge-item">🃏 115 Tarjetas 3D</span>
+        <span class="hero-badge-item">🔬 33 Minicasos + 11 Simuladores</span>
+        <span class="hero-badge-item">✅ +520 Ítems con Feedback Formativo</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Panel de Progreso del Estudiante -->
+  <main class="container">
+    <section class="dashboard-section" aria-labelledby="dashboard-heading">
+      <div class="dashboard-panel">
+        <div class="dashboard-top">
+          <div class="dashboard-title-group">
+            <h2 id="dashboard-heading">Tu Panel de Avance Metodológico</h2>
+            <p id="dashboard-subtitle">Aprueba cada autoevaluación con 70% o más para desbloquear el siguiente módulo, o activa el Modo Repaso Libre para explorar sin restricciones.</p>
+          </div>
+          <div class="dashboard-actions">
+            <button type="button" id="unlock-all-btn" class="btn btn-outline" title="Alternar acceso libre a todos los módulos">
+              🔓 Activar Repaso Libre
+            </button>
+            <button type="button" id="reset-progress-btn" class="btn btn-ghost" title="Borrar todo el progreso guardado en este navegador">
+              ↺ Reiniciar progreso
+            </button>
+          </div>
         </div>
-        <!-- Partículas neuronales sutiles -->
-        <div class="floating-particles"></div>
-    </header>
-    <!-- Contenido principal -->
-    <main>
-        <!-- Sección introductoria -->
-        <section class="intro-section">
-            <p>
-                Aquí encontrarás un taller progresivo para que aprendas a tu ritmo: al completar cada unidad,
-                se desbloqueará la siguiente. Contarás con videos, ejercicios prácticos y simulaciones;
-                al finalizar cada tema podrás responder un cuestionario que se renueva en cada intento.
-                No te preocupes, puedes volver a repasar cuando quieras: tu progreso se guarda automáticamente
-                y cada nueva evaluación te ofrecerá retos diferentes para que sigas mejorando.
-            </p>
-        </section>
-        <!-- Grid de módulos -->
-        <section class="modules-grid">
-            <!-- Grid Generated by app.js -->
-        </section>
-    </main>
-    <!-- Footer profesional -->
-    <footer class="site-footer">
-        <p>
-            Centro de Entrenamiento en Metodología de la Investigación &copy; 2025 |
-            Estructura inicial desarrollada por <strong>ChatGPT modo agente</strong>
-        </p>
-        Mejoras y optimizaciones implementadas con 💜 por <a href="https://minimax.chat" target="_blank"
-            rel="noopener"><strong>MiniMax Agent</strong></a>
-        </p>
 
-        <p style="margin-top: 0.5rem; font-size: 0.85rem; opacity: 0.8;">
-            Plataforma educativa optimizada para el aprendizaje interactivo
-        </p>
-    </footer>
-    <!-- Script optimizado - SOLO uno -->
-    <script src="assets/js/app.js"></script>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="stat-label">Módulos Aprobados</span>
+            <span class="stat-value" id="stat-completed">0 / 11</span>
+            <span class="stat-meta" id="stat-completed-pct">0% del recorrido completado</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Promedio en Autoevaluación</span>
+            <span class="stat-value" id="stat-avg-score">—</span>
+            <span class="stat-meta">Umbral de aprobación: 70%</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Tarjetas 3D Exploradas</span>
+            <span class="stat-value" id="stat-flipcards">0 / 115</span>
+            <span class="stat-meta">Conceptos clave volteados</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Simulaciones Completadas</span>
+            <span class="stat-value" id="stat-simulations">0 / 11</span>
+            <span class="stat-meta">Laboratorios de toma de decisiones</span>
+          </div>
+        </div>
+
+        <div class="global-progress-track" role="progressbar" aria-label="Progreso general del curso" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="global-progress-bar">
+          <div class="global-progress-fill" id="global-progress-fill"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Filtros por Etapa del Proyecto y Buscador Instantáneo -->
+    <section class="catalog-controls" aria-label="Filtrar y buscar módulos">
+      <div class="stage-tabs" id="stage-tabs" role="tablist" aria-label="Etapas del recorrido metodológico">
+        <button type="button" class="stage-tab is-active" data-stage="all" role="tab" aria-selected="true">
+          Todos los módulos (11)
+        </button>
+        <button type="button" class="stage-tab" data-stage="1" role="tab" aria-selected="false">
+          Etapa 1 · Fundamentos y Literatura (M1–M3)
+        </button>
+        <button type="button" class="stage-tab" data-stage="2" role="tab" aria-selected="false">
+          Etapa 2 · Planteamiento y Variables (M4–M6)
+        </button>
+        <button type="button" class="stage-tab" data-stage="3" role="tab" aria-selected="false">
+          Etapa 3 · Estrategia Empírica (M7–M9)
+        </button>
+        <button type="button" class="stage-tab" data-stage="4" role="tab" aria-selected="false">
+          Etapa 4 · Análisis y Escritura (M10–M11)
+        </button>
+      </div>
+
+      <div class="search-row">
+        <div class="search-input-wrap">
+          <span class="search-icon" aria-hidden="true">🔍</span>
+          <label for="module-search-input" class="sr-only">Buscar por tema, concepto, clase o palabra clave</label>
+          <input
+            type="search"
+            id="module-search-input"
+            class="search-input"
+            placeholder="Buscar módulo por tema (ej. hipótesis, Kerlinger, muestreo, Zotero, VERA, validez)..."
+            autocomplete="off"
+          >
+        </div>
+        <span class="catalog-count-label" id="catalog-count-label">Mostrando 11 de 11 módulos</span>
+      </div>
+    </section>
+
+    <!-- Grilla Dinámica de los 11 Módulos -->
+    <section aria-label="Catálogo de módulos del curso">
+      <div class="modules-grid" id="modules-grid">
+        <!-- Renderizado dinámicamente por assets/js/app.js -->
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de Página Institucional -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Universidad Iberoamericana (UNIBE)</strong> · Carrera de Psicología · Metodología de la Investigación Científica II (Plan 2026)
+      </div>
+      <div>
+        Cátedra: Prof. Lic. Ezequiel Morosini · Recursos interactivos de estudio autónomo
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
 </body>
-
 </html>

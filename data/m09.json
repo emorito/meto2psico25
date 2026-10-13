@@ -1,0 +1,693 @@
+{
+  "id": "m09",
+  "slug": "m09",
+  "number": 9,
+  "title": "Técnicas, instrumentos, procedimientos y ética",
+  "clase_2026": "11",
+  "titulo_clase_plan_2026": "Clase 11 — Técnicas, instrumentos, procedimientos y ética",
+  "etapa": "Etapa 4 · Recolección, Análisis e Informe",
+  "etapa_num": 4,
+  "icon": "🛠️",
+  "proposito": "decidir cómo se obtendría la información y anticipar calidad, procedimiento y protección de participantes o fuentes.",
+  "subtemas": [
+    "tecnicas",
+    "instrumentos",
+    "calidad_medicion",
+    "etica"
+  ],
+  "subtemas_labels": [
+    "Técnicas de recolección",
+    "Instrumentos",
+    "Validez y confiabilidad",
+    "Ética e integridad"
+  ],
+  "resultados": [
+    "diferenciar técnica, instrumento y fuente;",
+    "vincular objetivo, dato, técnica e instrumento;",
+    "identificar validez/confiabilidad o rigor cualitativo según corresponda;",
+    "anticipar consentimiento, riesgo, privacidad, custodia y eliminación."
+  ],
+  "resultados_rutas": null,
+  "videoId": "r1jWY-XG4_I",
+  "readingFile": "assets/reading/7. Diez pasos para la construcción de un test.pdf",
+  "webReadingUrl": null,
+  "notebookUrl": "https://notebooklm.google.com/notebook/b1f3de4f-282f-4ad9-bf64-71b70ef49488",
+  "resources": {
+    "videos": [
+      {
+        "videoId": "r1jWY-XG4_I",
+        "title": "Técnicas, desarrollo de instrumentos y calidad de medición",
+        "badge": "Clase 11 · Instrumentos y Ética"
+      }
+    ],
+    "readings": [
+      {
+        "title": "Diez pasos para la construcción de un test (Muñiz y Fonseca-Pedrero)",
+        "url": "assets/reading/7. Diez pasos para la construcción de un test.pdf",
+        "type": "pdf",
+        "description": "Guía paso a paso para delimitar el marco general, definir la variable, redactar ítems, validar contenido y realizar el estudio piloto."
+      }
+    ],
+    "notebooks": [
+      {
+        "title": "Cuaderno IA · Desarrollo de instrumentos",
+        "url": "https://notebooklm.google.com/notebook/b1f3de4f-282f-4ad9-bf64-71b70ef49488"
+      }
+    ]
+  },
+  "keyTakeaways": {
+    "title": "Cápsula Metodológica · Cadena Objetivo–Instrumento, Calidad y Ética",
+    "subtitle": "Clase 11 · Fuente, técnica, instrumento, psicometría básica y resguardo ético",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Diferenciar Fuente, Técnica e Instrumento (¡No son sinónimos!)",
+        "headers": [
+          "Componente",
+          "Pregunta",
+          "Ejemplos en Psicología"
+        ],
+        "rows": [
+          [
+            "Fuente de información",
+            "¿Quién o qué entrega el dato?",
+            "Participantes (estudiantes, pacientes, docentes), registros clínicos, expedientes, observación en aula."
+          ],
+          [
+            "Técnica de recolección",
+            "¿Mediante qué procedimiento general se obtiene?",
+            "Encuesta, entrevista semiestructurada, grupo focal, observación sistemática, evaluación psicométrica."
+          ],
+          [
+            "Instrumento",
+            "¿Con qué herramienta material o soporte se registra?",
+            "Cuestionario sociodemográfico, Escala DASS-21, guía de pautas de entrevista, lista de cotejo o matriz de registro."
+          ]
+        ]
+      },
+      {
+        "type": "cards",
+        "title": "Calidad de la evidencia y Líneas Rojas Éticas",
+        "items": [
+          {
+            "badge": "Confiabilidad (Fiabilidad)",
+            "title": "Consistencia y precisión de la medida",
+            "text": "Grado en que el instrumento produce puntuaciones consistentes y libres de error aleatorio (ej. consistencia interna Alfa de Cronbach / Omega de McDonald, estabilidad test-retest)."
+          },
+          {
+            "badge": "Validez",
+            "title": "¿Mide realmente el constructo que dice medir?",
+            "text": "Evidencias de validez de contenido (juicio de expertos), de estructura interna (análisis factorial) y de relación con otras variables."
+          },
+          {
+            "badge": "Rigor cualitativo",
+            "title": "Credibilidad, auditabilidad y reflexividad",
+            "text": "Triangulación de fuentes o investigadores, devolución a participantes, descripción densa y trazabilidad del proceso analítico."
+          },
+          {
+            "badge": "Ética y Privacidad en IA",
+            "title": "Consentimiento, custodia y prohibición en IA pública",
+            "text": "Consentimiento informado libre y revocable, anonimización mediante códigos, plan de custodia y PROHIBICIÓN absoluta de subir entrevistas o datos sensibles a plataformas públicas de IA."
+          }
+        ]
+      }
+    ]
+  },
+  "capsula": {
+    "title": "Cápsula Metodológica · Cadena Objetivo–Instrumento, Calidad y Ética",
+    "subtitle": "Clase 11 · Fuente, técnica, instrumento, psicometría básica y resguardo ético",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Diferenciar Fuente, Técnica e Instrumento (¡No son sinónimos!)",
+        "headers": [
+          "Componente",
+          "Pregunta",
+          "Ejemplos en Psicología"
+        ],
+        "rows": [
+          [
+            "Fuente de información",
+            "¿Quién o qué entrega el dato?",
+            "Participantes (estudiantes, pacientes, docentes), registros clínicos, expedientes, observación en aula."
+          ],
+          [
+            "Técnica de recolección",
+            "¿Mediante qué procedimiento general se obtiene?",
+            "Encuesta, entrevista semiestructurada, grupo focal, observación sistemática, evaluación psicométrica."
+          ],
+          [
+            "Instrumento",
+            "¿Con qué herramienta material o soporte se registra?",
+            "Cuestionario sociodemográfico, Escala DASS-21, guía de pautas de entrevista, lista de cotejo o matriz de registro."
+          ]
+        ]
+      },
+      {
+        "type": "cards",
+        "title": "Calidad de la evidencia y Líneas Rojas Éticas",
+        "items": [
+          {
+            "badge": "Confiabilidad (Fiabilidad)",
+            "title": "Consistencia y precisión de la medida",
+            "text": "Grado en que el instrumento produce puntuaciones consistentes y libres de error aleatorio (ej. consistencia interna Alfa de Cronbach / Omega de McDonald, estabilidad test-retest)."
+          },
+          {
+            "badge": "Validez",
+            "title": "¿Mide realmente el constructo que dice medir?",
+            "text": "Evidencias de validez de contenido (juicio de expertos), de estructura interna (análisis factorial) y de relación con otras variables."
+          },
+          {
+            "badge": "Rigor cualitativo",
+            "title": "Credibilidad, auditabilidad y reflexividad",
+            "text": "Triangulación de fuentes o investigadores, devolución a participantes, descripción densa y trazabilidad del proceso analítico."
+          },
+          {
+            "badge": "Ética y Privacidad en IA",
+            "title": "Consentimiento, custodia y prohibición en IA pública",
+            "text": "Consentimiento informado libre y revocable, anonimización mediante códigos, plan de custodia y PROHIBICIÓN absoluta de subir entrevistas o datos sensibles a plataformas públicas de IA."
+          }
+        ]
+      }
+    ]
+  },
+  "flipCards": [
+    {
+      "front": "¿Qué es un instrumento de medición?",
+      "back": "Es un conjunto estructurado de ítems o procedimientos diseñado para medir variables previamente definidas.",
+      "tag": "Técnicas de recolección"
+    },
+    {
+      "front": "Relación entre variables e instrumentos",
+      "back": "Los instrumentos se construyen a partir de variables y sus indicadores, no al revés.",
+      "tag": "Instrumentos"
+    },
+    {
+      "front": "Primer paso en la construcción de un instrumento",
+      "back": "Definir claramente el constructo y las variables a medir.",
+      "tag": "Validez y confiabilidad"
+    },
+    {
+      "front": "Importancia de la operacionalización",
+      "back": "Permite traducir conceptos abstractos en indicadores observables y medibles.",
+      "tag": "Ética e integridad"
+    },
+    {
+      "front": "¿Qué es un ítem?",
+      "back": "Es una unidad básica de medición que representa un indicador de una variable.",
+      "tag": "Técnicas de recolección"
+    },
+    {
+      "front": "Criterio de claridad en los ítems",
+      "back": "Los ítems deben ser comprensibles, precisos y adecuados al nivel del respondiente.",
+      "tag": "Instrumentos"
+    },
+    {
+      "front": "Error frecuente en la construcción de ítems",
+      "back": "Redactar ítems ambiguos, dobles o con juicios implícitos.",
+      "tag": "Validez y confiabilidad"
+    },
+    {
+      "front": "Función del pilotaje",
+      "back": "Detectar problemas de comprensión, redacción y funcionamiento del instrumento.",
+      "tag": "Ética e integridad"
+    },
+    {
+      "front": "Relación entre instrumento y análisis de datos",
+      "back": "La calidad del instrumento condiciona la calidad de los datos y del análisis.",
+      "tag": "Técnicas de recolección"
+    },
+    {
+      "front": "Construcción de instrumentos y validez",
+      "back": "Un instrumento mal construido compromete la validez de los resultados.",
+      "tag": "Instrumentos"
+    }
+  ],
+  "miniCases": [
+    {
+      "id": "m09_c1",
+      "title": "Caso 1 · El cuestionario inventado el domingo a la noche",
+      "context": "Psicometría y Medición · Calidad del instrumento",
+      "scenario": "Para medir «Resiliencia y Afrontamiento» en su proyecto, un estudiante redacta por su cuenta 8 preguntas improvisadas (entre ellas: *«¿Eres una persona fuerte que supera todo rápido y nunca se deprime ni se estresa?»*) sin revisar escalas validadas ni hacer prueba piloto. En la columna «Técnica» escribe «Formulario de Google» y en «Instrumento» escribe «Encuesta».",
+      "question": "Señala tres errores técnicos en la propuesta del estudiante (clasificación de técnica/instrumento, redacción de ítems y evidencias de validez/confiabilidad).",
+      "hints": [
+        "Primero: ¿«Encuesta» es la técnica o el instrumento? ¿Y qué es «Google Forms»?",
+        "Segundo: mira el ítem que redactó: ¿cuántas ideas mezcla a la vez?"
+      ],
+      "analysis": "1. **Confusión Técnica vs. Instrumento vs. Soporte:** La **técnica** es la *encuesta*; el **instrumento** es la *escala o cuestionario específico* (p. ej. Escala de Resiliencia CD-RISC); y *Google Forms* es solo el soporte digital de administración.\n2. **Ítem defectuoso (doble o triple barra y sesgo de deseabilidad):** La pregunta mezcla fortaleza, rapidez, ausencia de depresión y ausencia de estrés en un solo reactivo. Si alguien responde «No», es imposible saber a cuál de las cuatro partes se refiere.\n3. **Ausencia de validez y confiabilidad:** Antes de inventar preguntas sin sustento, debe buscarse un instrumento con evidencias psicométricas de validez y confiabilidad (o seguir los 10 pasos de construcción, juicio de expertos y pilotaje).",
+      "keyConcept": "Cadena Objetivo → Dato → Fuente → Técnica → Instrumento y criterios de calidad de ítems"
+    },
+    {
+      "id": "m09_c2",
+      "title": "Caso 2 · «Subí las entrevistas con nombres reales a un chatbot para que las resuma»",
+      "context": "Ética de la Investigación e IA · Protección de participantes",
+      "scenario": "En un estudio sobre violencia en el noviazgo en jóvenes universitarios, el equipo planea grabar entrevistas utilizando los nombres y apellidos reales de las participantes, guardar los audios en una carpeta pública de Google Drive sin contraseña y subir las transcripciones completas a un servicio público gratuito de IA para «pedirle que arme las categorías».",
+      "question": "Audita todos los riesgos éticos y de confidencialidad de este procedimiento y diseña el protocolo ético correcto según la Clase 11.",
+      "hints": [
+        "Revisa las reglas del Plan 2026 sobre datos sensibles e IA pública.",
+        "¿Qué elementos debe incluir el consentimiento informado, la anonimización y el protocolo de derivación?"
+      ],
+      "analysis": "El procedimiento vulnera principios éticos esenciales de confidencialidad, no maleficencia y autonomía:\n1. **Prohibición estricta en IA pública:** Jamás deben subirse entrevistas identificables ni datos clínicos/sensibles a servicios públicos de IA (pérdida de control y confidencialidad de los datos).\n2. **Anonimización desde la transcripción:** Cada participante debe identificarse con un código alfanumérico (ej. `P01`, `P02`), suprimiendo nombres propios, lugares de trabajo o detalles que permitan rastrear su identidad.\n3. **Custodia y eliminación:** Los archivos deben resguardarse en carpetas cifradas o con acceso restringido solo al equipo investigador por un plazo definido.\n4. **Consentimiento informado y contención:** Tratándose de violencia en el noviazgo, debe informarse el derecho a no responder o retirarse sin perjuicio y contar con un **protocolo de información y derivación a servicios de apoyo psicológico**.",
+      "keyConcept": "Consentimiento informado, anonimización, custodia segura y prohibición de datos sensibles en IA pública"
+    },
+    {
+      "id": "m09_c3",
+      "title": "Caso 3 · Alta confiabilidad sin validez: la báscula descalibrada",
+      "context": "Calidad de la Medición · Validez vs. Confiabilidad",
+      "scenario": "Un equipo aplica una escala traducida literalmente de otro idioma para medir «Ansiedad Social» en adolescentes paraguayos. Al calcular el Alfa de Cronbach obtienen $\\alpha = .89$, por lo que aseguran que «el instrumento tiene validez total y mide perfectamente la ansiedad social». Sin embargo, al leer los ítems, un juez experto nota que las preguntas en realidad evalúan introversión y preferencia por la lectura solitaria, sin medir temor a la evaluación negativa.",
+      "question": "Explica por qué un Alfa de Cronbach alto ($\\alpha = .89$) no garantiza por sí mismo la validez del instrumento.",
+      "hints": [
+        "Recuerda la diferencia entre consistencia de las puntuaciones (confiabilidad) y medir efectivamente el constructo teórico propuesto (validez)."
+      ],
+      "analysis": "El coeficiente Alfa de Cronbach ($\\alpha = .89$) informa únicamente sobre la **consistencia interna (confiabilidad)**: indica que los ítems covarían entre sí de manera homogénea. Sin embargo, **la confiabilidad es condición necesaria pero no suficiente para la validez**.\n\nSi todos los ítems miden consistentemente *introversión* en lugar de *temor a la evaluación social negativa*, el instrumento será muy confiable (consistente), pero **carecerá de validez de contenido y de constructo** para medir ansiedad social. Por eso siempre se requiere verificar la correspondencia teórica entre las dimensiones del constructo y los ítems, además de la adaptación lingüística y cultural al contexto paraguayo.",
+      "keyConcept": "Un instrumento puede ser consistente (confiable) sin medir el constructo correcto (válido)"
+    }
+  ],
+  "simulation": {
+    "title": "Simulación 09 · Selección de instrumentos, psicometría y protocolo ético",
+    "context": "Estás en la Clase 11 armando la matriz Objetivo → Dato → Fuente → Técnica → Instrumento y el apartado ético para un estudio sobre ansiedad social y apoyo familiar en adolescentes de 15 a 17 años.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Paso 1 · Alinear técnica, instrumento y calidad psicométrica",
+        "prompt": "Para medir «Ansiedad social», tienes dos opciones: A) redactar 5 preguntas propias sin pilotaje; B) utilizar una escala estandarizada validada en adolescentes hispanohablantes y reportar su consistencia interna ($\\alpha$ / $\\omega$). ¿Qué decides?",
+        "options": [
+          {
+            "text": "Elijo la Opción B (escala con evidencias previas de validez y confiabilidad en población comparable), verifico su adecuación lingüística local mediante prueba piloto y reporto sus propiedades psicométricas.",
+            "isOptimal": true,
+            "feedback": "¡Excelente decisión! Usar instrumentos con evidencias documentadas de validez y confiabilidad —y verificar su comprensión local— protege la calidad de tus datos."
+          },
+          {
+            "text": "Elijo la Opción A porque inventar preguntas sin validación ni piloto es más rápido.",
+            "isOptimal": false,
+            "feedback": "Improvisar un instrumento sin validación de contenido ni estudio piloto compromete gravemente la validez y confiabilidad de los resultados."
+          }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "title": "Paso 2 · Diseñar el consentimiento y asentimiento (menores de edad)",
+        "prompt": "Tus participantes son adolescentes escolarizados de 15 a 17 años. ¿Qué requisito ético debes prever antes de aplicar cualquier instrumento?",
+        "options": [
+          {
+            "text": "Aplicar el cuestionario por sorpresa sin avisar a las familias ni a los alumnos para que no mientan.",
+            "isOptimal": false,
+            "feedback": "Viola el principio ético de autonomía y las normativas de protección de niños, niñas y adolescentes."
+          },
+          {
+            "text": "Contar con autorización institucional, consentimiento informado de los padres o tutores legales y asentimiento informado libre y voluntario de los propios adolescentes.",
+            "isOptimal": true,
+            "feedback": "¡Correcto! Al trabajar con menores de edad se requiere tanto el consentimiento de los representantes legales como el asentimiento de los adolescentes."
+          }
+        ]
+      },
+      {
+        "stepNumber": 3,
+        "title": "Paso 3 · Custodia de datos y prohibición en IA pública",
+        "prompt": "Una vez recogidos los datos (o en la simulación del procedimiento), ¿cómo aseguras la privacidad y el manejo ético de la información?",
+        "options": [
+          {
+            "text": "Reemplazo cualquier dato identificatorio por códigos (`ID_001`), resguardo la base en almacenamiento seguro con acceso restringido y prohíbo subir datos individuales o sensibles a chatbots de IA pública.",
+            "isOptimal": true,
+            "feedback": "¡Impecable! Cumples con los estándares de privacidad, custodia responsable e integridad en el uso de tecnologías."
+          },
+          {
+            "text": "Subo la planilla con nombres, teléfonos y puntajes de ansiedad a una IA pública gratuita para que redacte un informe por alumno.",
+            "isOptimal": false,
+            "feedback": "Línea roja ética absoluta: nunca se cargan datos personales o clínicos en plataformas públicas de IA."
+          }
+        ]
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": "m09-0002",
+      "tipo": "opcion_multiple",
+      "question": "La calidad del instrumento afecta directamente a:",
+      "options": [
+        "El tamaño de la muestra",
+        "La validez de los resultados",
+        "El diseño del estudio",
+        "El marco teórico"
+      ],
+      "correctIndex": 1,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "calidad_medicion",
+      "subtema_label": "Validez y confiabilidad",
+      "feedback": {
+        "correcta": "Exacto. Instrumentos deficientes generan resultados inválidos.",
+        "incorrecta": "Pensá en la relación entre medición y resultados. La opción correcta es: «La validez de los resultados».",
+        "correct": "Exacto. Instrumentos deficientes generan resultados inválidos.",
+        "incorrect": "Pensá en la relación entre medición y resultados. La opción correcta es: «La validez de los resultados».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m09-0004",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál de los siguientes no es un instrumento de recolección de datos?",
+      "options": [
+        "Hipótesis",
+        "Encuesta",
+        "Entrevista",
+        "Observación"
+      ],
+      "correctIndex": 0,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "instrumentos",
+      "subtema_label": "Instrumentos",
+      "feedback": {
+        "correcta": "¡Correcto! «Hipótesis» es la respuesta adecuada. Los instrumentos de recolección traducen las variables operacionalizadas en ítems claros y comprensibles, cuya calidad exige evidencias de validez, confiabilidad, pilotaje previo y resguardo ético.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Hipótesis». Los instrumentos de recolección traducen las variables operacionalizadas en ítems claros y comprensibles, cuya calidad exige evidencias de validez, confiabilidad, pilotaje previo y resguardo ético. Distingue entre técnica e instrumento y recuerda que ningún instrumento forma parte del problema o de la hipótesis: es la herramienta empírica para registrar los datos.",
+        "correct": "¡Correcto! «Hipótesis» es la respuesta adecuada. Los instrumentos de recolección traducen las variables operacionalizadas en ítems claros y comprensibles, cuya calidad exige evidencias de validez, confiabilidad, pilotaje previo y resguardo ético.",
+        "incorrect": "No es correcto. La respuesta acertada es «Hipótesis». Los instrumentos de recolección traducen las variables operacionalizadas en ítems claros y comprensibles, cuya calidad exige evidencias de validez, confiabilidad, pilotaje previo y resguardo ético. Distingue entre técnica e instrumento y recuerda que ningún instrumento forma parte del problema o de la hipótesis: es la herramienta empírica para registrar los datos.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m09-0011",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál es el primer paso lógico para construir un instrumento?",
+      "options": [
+        "Redactar ítems",
+        "Aplicar el instrumento",
+        "Definir constructos y variables",
+        "Analizar datos"
+      ],
+      "correctIndex": 2,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "instrumentos",
+      "subtema_label": "Instrumentos",
+      "feedback": {
+        "correcta": "Exacto. Sin variables claras no puede construirse un instrumento.",
+        "incorrecta": "Pensá en qué precede a la redacción de ítems. La opción correcta es: «Definir constructos y variables».",
+        "correct": "Exacto. Sin variables claras no puede construirse un instrumento.",
+        "incorrect": "Pensá en qué precede a la redacción de ítems. La opción correcta es: «Definir constructos y variables».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m09-0012",
+      "tipo": "opcion_multiple",
+      "question": "Los instrumentos deben construirse a partir de:",
+      "options": [
+        "Los objetivos",
+        "Las variables operacionalizadas",
+        "El análisis estadístico",
+        "La muestra"
+      ],
+      "correctIndex": 1,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "instrumentos",
+      "subtema_label": "Instrumentos",
+      "feedback": {
+        "correcta": "Correcto. Las variables guían la construcción del instrumento.",
+        "incorrecta": "Revisá la secuencia correcta del proceso. La opción correcta es: «Las variables operacionalizadas».",
+        "correct": "Correcto. Las variables guían la construcción del instrumento.",
+        "incorrect": "Revisá la secuencia correcta del proceso. La opción correcta es: «Las variables operacionalizadas».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m09-0013",
+      "tipo": "opcion_multiple",
+      "question": "¿Qué es un ítem?",
+      "options": [
+        "Un instrumento completo",
+        "Una unidad básica de medición",
+        "Un objetivo específico",
+        "Un análisis de resultados"
+      ],
+      "correctIndex": 1,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "instrumentos",
+      "subtema_label": "Instrumentos",
+      "feedback": {
+        "correcta": "Muy bien. El ítem representa un indicador.",
+        "incorrecta": "Pensá en la estructura interna del instrumento. La opción correcta es: «Una unidad básica de medición».",
+        "correct": "Muy bien. El ítem representa un indicador.",
+        "incorrect": "Pensá en la estructura interna del instrumento. La opción correcta es: «Una unidad básica de medición».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m09-0014",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál es un criterio fundamental de un buen ítem?",
+      "options": [
+        "Que sea complejo",
+        "Que sea ambiguo",
+        "Que sea claro y comprensible",
+        "Que incluya dos ideas"
+      ],
+      "correctIndex": 2,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "instrumentos",
+      "subtema_label": "Instrumentos",
+      "feedback": {
+        "correcta": "Exacto. La claridad es central en la redacción de ítems.",
+        "incorrecta": "Revisá los criterios de redacción de ítems. La opción correcta es: «Que sea claro y comprensible».",
+        "correct": "Exacto. La claridad es central en la redacción de ítems.",
+        "incorrect": "Revisá los criterios de redacción de ítems. La opción correcta es: «Que sea claro y comprensible».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m09-0015",
+      "tipo": "opcion_multiple",
+      "question": "Un error frecuente en la construcción de instrumentos es:",
+      "options": [
+        "Pilotear el instrumento",
+        "Definir indicadores",
+        "Redactar ítems ambiguos o dobles",
+        "Revisar el contenido"
+      ],
+      "correctIndex": 2,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "instrumentos",
+      "subtema_label": "Instrumentos",
+      "feedback": {
+        "correcta": "Correcto. Los ítems ambiguos afectan la calidad de los datos.",
+        "incorrecta": "Pensá en errores comunes de redacción. La opción correcta es: «Redactar ítems ambiguos o dobles».",
+        "correct": "Correcto. Los ítems ambiguos afectan la calidad de los datos.",
+        "incorrect": "Pensá en errores comunes de redacción. La opción correcta es: «Redactar ítems ambiguos o dobles».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m09-0016",
+      "tipo": "opcion_multiple",
+      "question": "¿Para qué sirve el pilotaje de un instrumento?",
+      "options": [
+        "Para analizar los datos finales",
+        "Para detectar problemas antes de la aplicación definitiva",
+        "Para formular hipótesis",
+        "Para seleccionar la muestra"
+      ],
+      "correctIndex": 1,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "instrumentos",
+      "subtema_label": "Instrumentos",
+      "feedback": {
+        "correcta": "Muy bien. El pilotaje permite corregir errores tempranamente.",
+        "incorrecta": "Revisá el propósito del pilotaje. La opción correcta es: «Para detectar problemas antes de la aplicación definitiva».",
+        "correct": "Muy bien. El pilotaje permite corregir errores tempranamente.",
+        "incorrect": "Revisá el propósito del pilotaje. La opción correcta es: «Para detectar problemas antes de la aplicación definitiva».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m09-0017",
+      "tipo": "opcion_multiple",
+      "question": "Desde el enfoque metodológico, la construcción de instrumentos pertenece a:",
+      "options": [
+        "El marco teórico",
+        "El diseño metodológico",
+        "El análisis de datos",
+        "La discusión"
+      ],
+      "correctIndex": 1,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "instrumentos",
+      "subtema_label": "Instrumentos",
+      "feedback": {
+        "correcta": "Muy bien. Es parte del diseño metodológico.",
+        "incorrecta": "Ubicá esta etapa dentro del proceso de investigación. La opción correcta es: «El diseño metodológico».",
+        "correct": "Muy bien. Es parte del diseño metodológico.",
+        "incorrect": "Ubicá esta etapa dentro del proceso de investigación. La opción correcta es: «El diseño metodológico».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m09-fix-01",
+      "tipo": "opcion_multiple",
+      "question": "En psicometría y metodología de la investigación, la **confiabilidad (o fiabilidad)** de un instrumento se refiere principalmente a:",
+      "options": [
+        "La consistencia y precisión de las puntuaciones obtenidas al medir una variable",
+        "La extensión geográfica de la población donde se aplica el estudio",
+        "La cantidad de páginas que ocupa el marco teórico del proyecto",
+        "La originalidad literaria con que se redactan las conclusiones finales"
+      ],
+      "correctIndex": 0,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "calidad_medicion",
+      "subtema_label": "Validez y confiabilidad",
+      "feedback": {
+        "correcta": "¡Exacto! La confiabilidad indica el grado en que las puntuaciones de un instrumento son consistentes, reproducibles y libres de error aleatorio de medición.",
+        "incorrecta": "Recuerda que la confiabilidad es una propiedad psicométrica de las puntuaciones del instrumento vinculada a su consistencia y precisión.",
+        "correct": "¡Exacto! La confiabilidad indica el grado en que las puntuaciones de un instrumento son consistentes, reproducibles y libres de error aleatorio de medición.",
+        "incorrect": "Recuerda que la confiabilidad es una propiedad psicométrica de las puntuaciones del instrumento vinculada a su consistencia y precisión.",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m09-fix-02",
+      "tipo": "opcion_multiple",
+      "question": "Construir o seleccionar un instrumento de recolección de datos **sin haber definido ni operacionalizado previamente las variables** implica:",
+      "options": [
+        "Un alto riesgo de incoherencia metodológica y pérdida de validez de constructo",
+        "Una garantía automática de obtener resultados estadísticamente significativos",
+        "Una mayor velocidad para aprobar el comité de ética sin consentimiento",
+        "Una ventaja técnica que evita realizar la revisión de la literatura"
+      ],
+      "correctIndex": 0,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "instrumentos",
+      "subtema_label": "Instrumentos",
+      "feedback": {
+        "correcta": "¡Muy bien! Los ítems de un instrumento deben responder a los indicadores y dimensiones de las variables; sin operacionalización previa se mide a ciegas.",
+        "incorrecta": "En la cadena de coherencia, el instrumento depende directamente de los objetivos y de las variables operacionalizadas (o categorías definidas).",
+        "correct": "¡Muy bien! Los ítems de un instrumento deben responder a los indicadores y dimensiones de las variables; sin operacionalización previa se mide a ciegas.",
+        "incorrect": "En la cadena de coherencia, el instrumento depende directamente de los objetivos y de las variables operacionalizadas (o categorías definidas).",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m09-fix-03",
+      "tipo": "opcion_multiple",
+      "question": "¿Cómo se define con precisión un **instrumento de medición** dentro del diseño metodológico?",
+      "options": [
+        "Un conjunto estructurado de reactivos o pautas diseñado para registrar indicadores de las variables",
+        "Un procedimiento matemático utilizado para calcular el tamaño de la muestra probabilística",
+        "Un resumen bibliográfico de los antecedentes internacionales de los últimos cinco años",
+        "Una suposición tentativa sobre la dirección causal entre dos constructos teóricos"
+      ],
+      "correctIndex": 0,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "instrumentos",
+      "subtema_label": "Instrumentos",
+      "feedback": {
+        "correcta": "¡Correcto! El instrumento es la herramienta concreta (escala, cuestionario, pauta de observación o guía de entrevista) donde se operacionalizan los indicadores para registrar los datos.",
+        "incorrecta": "Distingue el instrumento de recolección de otras piezas del proyecto como la fórmula muestral, los antecedentes o la hipótesis.",
+        "correct": "¡Correcto! El instrumento es la herramienta concreta (escala, cuestionario, pauta de observación o guía de entrevista) donde se operacionalizan los indicadores para registrar los datos.",
+        "incorrect": "Distingue el instrumento de recolección de otras piezas del proyecto como la fórmula muestral, los antecedentes o la hipótesis.",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m09-extra-04",
+      "tipo": "opcion_multiple",
+      "question": "En la cadena **Objetivo → Información → Fuente → Técnica → Instrumento** (Clase 11), si un estudio aplica la *Escala de Ansiedad de Beck (BAI)* mediante una encuesta a estudiantes universitarios, ¿cuál es la distinción correcta?",
+      "options": [
+        "Fuente: los estudiantes; Técnica: la encuesta / autoinforme; Instrumento: la Escala de Ansiedad de Beck (BAI)",
+        "Fuente: la Escala de Beck; Técnica: los estudiantes; Instrumento: la universidad",
+        "Fuente: el software estadístico; Técnica: la hipótesis; Instrumento: el marco teórico",
+        "No existe ninguna diferencia entre fuente, técnica e instrumento porque son sinónimos"
+      ],
+      "correctIndex": 0,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "tecnicas",
+      "subtema_label": "Técnicas de recolección",
+      "feedback": {
+        "correcta": "¡Excelente! La fuente es quién o qué provee el dato (los estudiantes), la técnica es el procedimiento general de obtención (encuesta/autoinforme) y el instrumento es la herramienta específica (Escala BAI).",
+        "incorrecta": "Revisa la cadena de la Clase 11: Fuente (de quién proviene el dato) ≠ Técnica (cómo se aborda) ≠ Instrumento (con qué herramienta específica se registra).",
+        "correct": "¡Excelente! La fuente es quién o qué provee el dato (los estudiantes), la técnica es el procedimiento general de obtención (encuesta/autoinforme) y el instrumento es la herramienta específica (Escala BAI).",
+        "incorrect": "Revisa la cadena de la Clase 11: Fuente (de quién proviene el dato) ≠ Técnica (cómo se aborda) ≠ Instrumento (con qué herramienta específica se registra).",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m09-extra-05",
+      "tipo": "opcion_multiple",
+      "question": "Un equipo obtiene un coeficiente Alfa de Cronbach de **$\\alpha = .91$** en una escala, pero el juicio de expertos advierte que los ítems evalúan *extroversión social* en lugar de *empatía cognitiva*, que era la variable del estudio. ¿Qué ocurre en este caso?",
+      "options": [
+        "El instrumento presenta alta consistencia interna (confiabilidad), pero carece de validez de contenido y de constructo para ese estudio",
+        "El instrumento es totalmente válido porque cualquier Alfa mayor a .80 demuestra validez de constructo automática",
+        "El estudio no necesita marco conceptual porque el Alfa de Cronbach reemplaza la teoría",
+        "La muestra fue seleccionada por muestreo aleatorio estratificado"
+      ],
+      "correctIndex": 0,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "calidad_medicion",
+      "subtema_label": "Validez y confiabilidad",
+      "feedback": {
+        "correcta": "¡Brillante! Un instrumento puede medir de forma muy consistente ($\\alpha = .91$) el constructo equivocado. La confiabilidad es necesaria, pero no garantiza por sí sola que estés midiendo lo que pretendes medir (validez).",
+        "incorrecta": "No confundas confiabilidad (consistencia de las puntuaciones) con validez (que el instrumento mida efectivamente el constructo teórico propuesto).",
+        "correct": "¡Brillante! Un instrumento puede medir de forma muy consistente ($\\alpha = .91$) el constructo equivocado. La confiabilidad es necesaria, pero no garantiza por sí sola que estés midiendo lo que pretendes medir (validez).",
+        "incorrect": "No confundas confiabilidad (consistencia de las puntuaciones) con validez (que el instrumento mida efectivamente el constructo teórico propuesto).",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m09-extra-06",
+      "tipo": "opcion_multiple",
+      "question": "Respecto al manejo ético de los datos y el uso de Inteligencia Artificial (Clase 11 del Plan 2026), ¿cuál de las siguientes acciones constituye una **falta ética grave**?",
+      "options": [
+        "Subir transcripciones de entrevistas con nombres reales o datos clínicos sensibles de participantes a servicios públicos de IA",
+        "Sustituir los nombres de los participantes por códigos alfanuméricos desde el momento de la recolección o transcripción",
+        "Explicitar en el consentimiento informado el objetivo del estudio, la voluntariedad y el derecho a retirarse sin perjuicio",
+        "Establecer un plan de custodia con acceso restringido y plazo de eliminación de los registros crudos"
+      ],
+      "correctIndex": 0,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "etica",
+      "subtema_label": "Ética e integridad",
+      "feedback": {
+        "correcta": "¡Exacto! El Plan 2026 prohíbe taxativamente cargar datos personales, sensibles o confidenciales en plataformas públicas de IA, pues vulnera la privacidad y el secreto profesional.",
+        "incorrecta": "Las opciones de anonimización por códigos, consentimiento informado y custodia segura son buenas prácticas éticas; lo prohibido es subir datos sensibles o identificables a IAs públicas.",
+        "correct": "¡Exacto! El Plan 2026 prohíbe taxativamente cargar datos personales, sensibles o confidenciales en plataformas públicas de IA, pues vulnera la privacidad y el secreto profesional.",
+        "incorrect": "Las opciones de anonimización por códigos, consentimiento informado y custodia segura son buenas prácticas éticas; lo prohibido es subir datos sensibles o identificables a IAs públicas.",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m09-extra-07",
+      "tipo": "opcion_multiple",
+      "question": "Si una investigación en Psicología involucra a **adolescentes escolarizados de 14 a 16 años**, ¿qué recaudo ético específico debe preverse en el procedimiento?",
+      "options": [
+        "Obtener autorización institucional, el consentimiento informado de los padres o tutores legales y el asentimiento informado de los propios adolescentes",
+        "Aplicar las escalas sin informar a los padres ni a los estudiantes para evitar el efecto Hawthorne",
+        "Pedir autorización únicamente al delegado estudiantil del curso el mismo día de la prueba",
+        "Exigir que los adolescentes firmen un contrato obligándose a no abandonar jamás el estudio"
+      ],
+      "correctIndex": 0,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "etica",
+      "subtema_label": "Ética e integridad",
+      "feedback": {
+        "correcta": "¡Muy bien! En investigaciones con personas menores de edad es indispensable combinar el consentimiento de los representantes legales con el asentimiento libre e informado de los propios adolescentes.",
+        "incorrecta": "Con participantes menores de edad no basta el permiso de la escuela: se requiere consentimiento de padres/tutores y asentimiento del adolescente, garantizando siempre el derecho a retirarse.",
+        "correct": "¡Muy bien! En investigaciones con personas menores de edad es indispensable combinar el consentimiento de los representantes legales con el asentimiento libre e informado de los propios adolescentes.",
+        "incorrect": "Con participantes menores de edad no basta el permiso de la escuela: se requiere consentimiento de padres/tutores y asentimiento del adolescente, garantizando siempre el derecho a retirarse.",
+        "origen": "original"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1823 @@
+{
+  "id": "m06",
+  "slug": "m06",
+  "number": 6,
+  "title": "Constructos, variables, definiciones y categorías",
+  "clase_2026": "7",
+  "titulo_clase_plan_2026": "Clase 7 — Constructos, variables, definiciones y categorías",
+  "etapa": "Etapa 2 · El Problema de Investigación",
+  "etapa_num": 2,
+  "icon": "🧩",
+  "proposito": "pasar de conceptos abstractos a elementos observables o analizables sin forzar una lógica cuantitativa sobre proyectos cualitativos.",
+  "subtemas": [
+    "constructos",
+    "variables",
+    "definiciones",
+    "categorias"
+  ],
+  "subtemas_labels": [
+    "Constructos",
+    "Variables",
+    "Definiciones C. y O.",
+    "Categorías cualitativas"
+  ],
+  "resultados": [
+    "distinguir constructo, variable, definición conceptual, operacional, dimensión, indicador y categoría;",
+    "elegir una ruta de operacionalización o categorización;",
+    "justificar definiciones con fuentes;",
+    "comprobar correspondencia con objetivos."
+  ],
+  "resultados_rutas": null,
+  "videoId": "tCGTLLMx3Pw",
+  "readingFile": "assets/reading/4. Constructo, Variables y Definiciones - Kerlinger y Lee Cap. 3.pdf",
+  "webReadingUrl": null,
+  "notebookUrl": "https://notebooklm.google.com/notebook/378f0c07-8737-46f3-9475-6972d78fadb8",
+  "resources": {
+    "videos": [
+      {
+        "videoId": "tCGTLLMx3Pw",
+        "title": "Constructos, variables y definiciones operacionales",
+        "badge": "Clase 7 · Operacionalización"
+      }
+    ],
+    "readings": [
+      {
+        "title": "Cap. 3: Constructos, variables y definiciones (Kerlinger y Lee)",
+        "url": "assets/reading/4. Constructo, Variables y Definiciones - Kerlinger y Lee Cap. 3.pdf",
+        "type": "pdf",
+        "description": "Distinción rigurosa entre conceptos, constructos, definiciones constitutivas y definiciones operacionales (de medida y experimentales)."
+      }
+    ],
+    "notebooks": [
+      {
+        "title": "Cuaderno IA · Constructos y variables",
+        "url": "https://notebooklm.google.com/notebook/378f0c07-8737-46f3-9475-6972d78fadb8"
+      }
+    ]
+  },
+  "keyTakeaways": {
+    "title": "Cápsula Metodológica · De los Constructos a los Indicadores y Categorías",
+    "subtitle": "Clase 7 · Ruta cuantitativa de operacionalización y ruta cualitativa de categorización",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Cadena de descenso de abstracción (Kerlinger y Lee, Cap. 3)",
+        "headers": [
+          "Concepto / Pieza",
+          "Definición precisa",
+          "Ejemplo en Psicología (Agotamiento laboral / Burnout)"
+        ],
+        "rows": [
+          [
+            "Constructo",
+            "Concepto teórico adoptado deliberadamente y con respaldo científico para explicar un fenómeno no observable directamente.",
+            "Síndrome de Burnout (Maslach y Jackson)."
+          ],
+          [
+            "Definición conceptual (constitutiva)",
+            "Define el constructo precisa y coherentemente usando otros conceptos de la teoría elegida (no de diccionario general).",
+            "Respuesta prolongada a estresores interpersonales crónicos en el trabajo, integrada por agotamiento emocional, despersonalización y baja realización personal."
+          ],
+          [
+            "Dimensiones",
+            "Facetas o componentes teóricos en que se desglosa un constructo multidimensional.",
+            "1) Agotamiento emocional; 2) Despersonalización / cinismo; 3) Eficacia profesional."
+          ],
+          [
+            "Indicadores",
+            "Manifestaciones empíricas concretas y observables de cada dimensión.",
+            "Frecuencia autoinformada de sentirse emocionalmente exhausto al final de la jornada laboral."
+          ],
+          [
+            "Definición operacional",
+            "Especifica qué actividades u operaciones (de medida o experimentales) se realizarán para medir o manipular la variable.",
+            "Puntaje obtenido en los ítems 1, 2, 3, 6, 8, 13, 14, 16 y 20 del inventario MBI-HSS en escala de 0 (nunca) a 6 (todos los días)."
+          ]
+        ]
+      },
+      {
+        "type": "cards",
+        "title": "Dos rutas legítimas: no forzar moldes cuantitativos en estudios cualitativos",
+        "items": [
+          {
+            "badge": "Ruta Cuantitativa",
+            "title": "Matriz de Operacionalización",
+            "text": "Constructo → Definición conceptual → Definición operacional → Dimensiones → Indicadores → Nivel de medición (nominal, ordinal, intervalo, razón)."
+          },
+          {
+            "badge": "Ruta Cualitativa",
+            "title": "Matriz de Categorización",
+            "text": "Conceptos sensibilizadores → Categorías iniciales (apriorísticas) → Subcategorías → Preguntas guía, manteniendo apertura a categorías emergentes del campo."
+          }
+        ]
+      }
+    ]
+  },
+  "capsula": {
+    "title": "Cápsula Metodológica · De los Constructos a los Indicadores y Categorías",
+    "subtitle": "Clase 7 · Ruta cuantitativa de operacionalización y ruta cualitativa de categorización",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Cadena de descenso de abstracción (Kerlinger y Lee, Cap. 3)",
+        "headers": [
+          "Concepto / Pieza",
+          "Definición precisa",
+          "Ejemplo en Psicología (Agotamiento laboral / Burnout)"
+        ],
+        "rows": [
+          [
+            "Constructo",
+            "Concepto teórico adoptado deliberadamente y con respaldo científico para explicar un fenómeno no observable directamente.",
+            "Síndrome de Burnout (Maslach y Jackson)."
+          ],
+          [
+            "Definición conceptual (constitutiva)",
+            "Define el constructo precisa y coherentemente usando otros conceptos de la teoría elegida (no de diccionario general).",
+            "Respuesta prolongada a estresores interpersonales crónicos en el trabajo, integrada por agotamiento emocional, despersonalización y baja realización personal."
+          ],
+          [
+            "Dimensiones",
+            "Facetas o componentes teóricos en que se desglosa un constructo multidimensional.",
+            "1) Agotamiento emocional; 2) Despersonalización / cinismo; 3) Eficacia profesional."
+          ],
+          [
+            "Indicadores",
+            "Manifestaciones empíricas concretas y observables de cada dimensión.",
+            "Frecuencia autoinformada de sentirse emocionalmente exhausto al final de la jornada laboral."
+          ],
+          [
+            "Definición operacional",
+            "Especifica qué actividades u operaciones (de medida o experimentales) se realizarán para medir o manipular la variable.",
+            "Puntaje obtenido en los ítems 1, 2, 3, 6, 8, 13, 14, 16 y 20 del inventario MBI-HSS en escala de 0 (nunca) a 6 (todos los días)."
+          ]
+        ]
+      },
+      {
+        "type": "cards",
+        "title": "Dos rutas legítimas: no forzar moldes cuantitativos en estudios cualitativos",
+        "items": [
+          {
+            "badge": "Ruta Cuantitativa",
+            "title": "Matriz de Operacionalización",
+            "text": "Constructo → Definición conceptual → Definición operacional → Dimensiones → Indicadores → Nivel de medición (nominal, ordinal, intervalo, razón)."
+          },
+          {
+            "badge": "Ruta Cualitativa",
+            "title": "Matriz de Categorización",
+            "text": "Conceptos sensibilizadores → Categorías iniciales (apriorísticas) → Subcategorías → Preguntas guía, manteniendo apertura a categorías emergentes del campo."
+          }
+        ]
+      }
+    ]
+  },
+  "flipCards": [
+    {
+      "front": "¿Qué es un constructo?",
+      "back": "Un constructo es una entidad conceptual, teórica y abstracta que no se observa directamente, pero que se infiere a partir de indicadores empíricos.",
+      "tag": "Constructos"
+    },
+    {
+      "front": "¿Qué es una variable?",
+      "back": "Una variable es una representación empírica y observable de un constructo, susceptible de adoptar distintos valores.",
+      "tag": "Variables"
+    },
+    {
+      "front": "Diferencia entre constructo y variable",
+      "back": "El constructo es teórico y abstracto; la variable es empírica y medible.",
+      "tag": "Definiciones C. y O."
+    },
+    {
+      "front": "¿Qué es una definición conceptual?",
+      "back": "Es la definición teórica de un constructo, basada en la literatura científica y en el marco teórico del estudio.",
+      "tag": "Categorías cualitativas"
+    },
+    {
+      "front": "¿Qué es una definición operacional?",
+      "back": "Es la especificación concreta de cómo se medirá una variable, indicando procedimientos, instrumentos e indicadores.",
+      "tag": "Constructos"
+    },
+    {
+      "front": "¿Qué es la operacionalización?",
+      "back": "Es el proceso mediante el cual un constructo teórico se traduce en variables, dimensiones e indicadores observables.",
+      "tag": "Variables"
+    },
+    {
+      "front": "¿Qué es una dimensión?",
+      "back": "Es un componente o aspecto parcial de un constructo complejo que permite descomponerlo para su medición.",
+      "tag": "Definiciones C. y O."
+    },
+    {
+      "front": "¿Qué es un indicador?",
+      "back": "Es una manifestación empírica concreta de una dimensión, directamente observable o registrable.",
+      "tag": "Categorías cualitativas"
+    },
+    {
+      "front": "Relación entre variables e instrumentos",
+      "back": "Los instrumentos se construyen a partir de las variables y sus indicadores; no al revés.",
+      "tag": "Constructos"
+    },
+    {
+      "front": "Error común en operacionalización",
+      "back": "Definir instrumentos sin haber definido claramente las variables, dimensiones e indicadores.",
+      "tag": "Variables"
+    },
+    {
+      "front": "¿Por qué es clave la operacionalización?",
+      "back": "Porque garantiza coherencia entre teoría, medición, análisis de datos e interpretación de resultados.",
+      "tag": "Definiciones C. y O."
+    }
+  ],
+  "miniCases": [
+    {
+      "id": "m06_c1",
+      "title": "Caso 1 · Cuando el marco dice una cosa y la escala mide otra",
+      "context": "Psicología Clínica y de la Salud · Coherencia conceptual-operacional",
+      "scenario": "En su marco conceptual, Julián define el **uso problemático de redes sociales** como «un patrón persistente de pérdida de control, abstinencia e interferencia en la vida cotidiana y académica (no equivalente a la mera cantidad de horas conectado)». Sin embargo, en su matriz de operacionalización define operacionalmente la variable con una sola pregunta: «¿Cuántas horas al día pasas en Instagram y TikTok?».",
+      "question": "¿Dónde se rompió la cadena constructo → definición conceptual → definición operacional y qué consecuencia tendrá sobre las conclusiones del estudio?",
+      "hints": [
+        "Compara lo que Julián dijo que excluía en su definición conceptual con lo que terminó midiendo.",
+        "¿Tiempo de pantalla es lo mismo que interferencia y pérdida de control?"
+      ],
+      "analysis": "Hay una **fractura de validez de constructo** entre la definición conceptual y la definición operacional. Mientras el marco conceptual distingue explícitamente entre *frecuencia de exposición* y *uso problemático* (que exige dimensiones como pérdida de control, saliencia e interferencia), la definición operacional reduce todo el constructo a una medida unidimensional de horas de pantalla.\n\n**Corrección:** operacionalizar el constructo mediante una escala validada que contemple las dimensiones declaradas en la definición conceptual (interferencia cotidiana, tolerancia/pérdida de control y modificación del estado de ánimo), pudiendo registrar las horas diarias como una variable complementaria de exposición, pero no como sinónimo de uso problemático.",
+      "keyConcept": "Isomorfismo entre definición conceptual, dimensiones e indicadores operacionales"
+    },
+    {
+      "id": "m06_c2",
+      "title": "Caso 2 · Forzar indicadores numéricos en un estudio cualitativo",
+      "context": "Psicología Comunitaria · Categorización cualitativa",
+      "scenario": "Elena realiza un estudio cualitativo fenomenológico sobre las **vivencias de duelo migratorio** en estudiantes del interior del país que se trasladan a estudiar a Asunción. Al llegar a la Clase 7, intenta forzar su tema en una tabla cuantitativa escribiendo: «Variable independiente: kilómetros de distancia al pueblo; Variable dependiente: porcentaje de llanto semanal medido de 1 a 5».",
+      "question": "¿Por qué es un error forzar la lógica de VI/VD e indicadores métricos en este estudio y cómo debe construir su matriz de categorización?",
+      "hints": [
+        "Recuerda el propósito de la Clase 7 del Plan 2026: «sin forzar una lógica cuantitativa sobre proyectos cualitativos».",
+        "¿Qué papel cumplen los conceptos sensibilizadores y las categorías iniciales y emergentes?"
+      ],
+      "analysis": "En un estudio cualitativo orientado a comprender significados y vivencias, forzar variables independientes/dependientes y puntajes numéricos desnaturaliza el enfoque. La Clase 7 distingue dos rutas:\n\n**Ruta cualitativa adecuada para Elena (Matriz de Categorización):**\n• **Concepto orientador / sensibilizador:** Transición y adaptación psicosocial universitaria.\n• **Categorías iniciales (apriorísticas):** 1) Reconfiguración de redes de apoyo; 2) Tensiones identitarias y desarraigo cotidiano; 3) Estrategias de afrontamiento y pertenencia en la ciudad.\n• **Apertura a categorías emergentes:** dejar espacio explícito para que del relato de los estudiantes surjan dimensiones no previstas antes de ir al campo.",
+      "keyConcept": "Diferenciación entre operacionalización cuantitativa y categorización cualitativa"
+    },
+    {
+      "id": "m06_c3",
+      "title": "Caso 3 · Confundir constructo, dimensión, indicador e ítem",
+      "context": "Psicología Educacional · Operacionalización",
+      "scenario": "Un equipo quiere operacionalizar el constructo **Clima Social Escolar**. En la columna «Dimensiones» escribe: «Pregunta 4 del cuestionario». En la columna «Indicadores» escribe: «El clima escolar según Moos (1974)». Y en «Definición conceptual» escribe: «Se aplicará una escala tipo Likert de 1 a 5».",
+      "question": "Reordena correctamente las piezas desubicadas y explica la secuencia lógica desde el constructo hasta el ítem.",
+      "hints": [
+        "Recuerda la dirección del descenso de abstracción: Constructo → Definición conceptual → Dimensiones → Indicadores → Definición operacional / Ítems."
+      ],
+      "analysis": "El equipo invirtió todas las columnas de la matriz:\n1. **Constructo:** Clima Social Escolar.\n2. **Definición conceptual:** Percepción compartida por los miembros de la comunidad educativa sobre la calidad de las relaciones, el apoyo al aprendizaje y la claridad normativa (Moos, 1974).\n3. **Dimensiones (facetas teóricas):** Relaciones interpersonales, Autorrealización/orientación a la tarea y Estabilidad/claridad de normas.\n4. **Indicadores (manifestaciones observables):** Grado de ayuda mutua entre compañeros, apoyo percibido del docente y conocimiento de las reglas del aula.\n5. **Definición operacional / Ítems:** Puntajes obtenidos en los reactivos específicos de la escala (de 1 = totalmente en desacuerdo a 5 = totalmente de acuerdo).",
+      "keyConcept": "Secuencia lógica: Constructo → Dimensión → Indicador → Ítem"
+    }
+  ],
+  "simulation": {
+    "title": "Simulación 06 · Operacionalización y categorización con rigor teórico",
+    "context": "Estás en la Clase 7 construyendo la matriz de variables de un estudio sobre Procrastinación Académica y Autoeficacia en universitarios de Ciudad del Este.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Paso 1 · Redactar la definición conceptual (constitutiva)",
+        "prompt": "Necesitas definir conceptualmente «Autoeficacia académica». ¿Qué opción eliges?",
+        "options": [
+          {
+            "text": "Copio la definición de la palabra «eficaz» del diccionario general de la lengua.",
+            "isOptimal": false,
+            "feedback": "El diccionario común define el uso cotidiano del idioma, no el constructo psicológico científico dentro de una teoría."
+          },
+          {
+            "text": "La defino a partir de la Teoría Social Cognitiva (Bandura) como las creencias del estudiante sobre su propia capacidad para organizar y ejecutar las acciones requeridas para alcanzar un desempeño académico exitoso.",
+            "isOptimal": true,
+            "feedback": "¡Exacto! Una definición conceptual rigurosa se fundamenta en el marco teórico adoptado y delimita con precisión la naturaleza del constructo."
+          },
+          {
+            "text": "Escribo directamente «Puntaje de 10 a 50 en la escala EACA» como definición conceptual.",
+            "isOptimal": false,
+            "feedback": "Eso corresponde a la definición operacional de medida, no a la definición conceptual."
+          }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "title": "Paso 2 · Desglosar Dimensiones e Indicadores",
+        "prompt": "Ahora operacionalizas «Procrastinación académica» siguiendo tu marco conceptual. ¿Cuál es la cadena correcta Constructo → Dimensión → Indicador?",
+        "options": [
+          {
+            "text": "Constructo: Procrastinación académica → Dimensiones: Postergación de actividades y Autorregulación académica → Indicadores: Frecuencia con que deja el estudio para último momento y planificación semanal de entregas.",
+            "isOptimal": true,
+            "feedback": "¡Muy bien! Pasaste ordenadamente del constructo abstracto a sus facetas teóricas (dimensiones) y de estas a sus manifestaciones empíricas observables (indicadores)."
+          },
+          {
+            "text": "Indicador: Procrastinación académica → Constructo: Ítem 3 → Dimensión: Estadística descriptiva.",
+            "isOptimal": false,
+            "feedback": "La jerarquía lógica está invertida y mezcla procedimientos estadísticos con niveles de abstracción conceptual."
+          }
+        ]
+      },
+      {
+        "stepNumber": 3,
+        "title": "Paso 3 · Articular con una fase cualitativa complementaria",
+        "prompt": "Si otro equipo del curso realiza un estudio cualitativo sobre los motivos subjetivos por los que los estudiantes postergan su tesis, ¿qué matriz debe construir?",
+        "options": [
+          {
+            "text": "Una matriz de categorización con conceptos orientadores, categorías iniciales (ej. temor a la evaluación, bloqueos en la escritura, demandas laborales) y apertura a categorías emergentes.",
+            "isOptimal": true,
+            "feedback": "¡Excelente! Respetaste la especificidad de la ruta cualitativa sin forzar una escala numérica artificial."
+          },
+          {
+            "text": "Obligarlos a inventar una variable independiente manipulada en laboratorio.",
+            "isOptimal": false,
+            "feedback": "En un estudio cualitativo comprensivo no se manipulan variables independientes; se trabaja con categorías de análisis."
+          }
+        ]
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": "m06-0001",
+      "tipo": "verdadero_falso",
+      "question": "En una variable categórica de medición nominal, no existe un orden en cuanto a rango entre las categorías.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correctIndex": 0,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "categorias",
+      "subtema_label": "Categorías cualitativas",
+      "feedback": {
+        "correcta": "¡Exacto! 🚦 En nominal, todas las categorías son iguales en jerarquía. Como los colores: ¿el rojo es 'mejor' que el azul? ¡No, solo diferentes!",
+        "incorrecta": "Ups, esta era verdadera. 😅 En escala nominal no hay orden (ej: estados civiles: soltero, casado, divorciado). Si hubiera orden, sería ordinal. ¡Esta distinción es fundamental!",
+        "correct": "¡Exacto! 🚦 En nominal, todas las categorías son iguales en jerarquía. Como los colores: ¿el rojo es 'mejor' que el azul? ¡No, solo diferentes!",
+        "incorrect": "Ups, esta era verdadera. 😅 En escala nominal no hay orden (ej: estados civiles: soltero, casado, divorciado). Si hubiera orden, sería ordinal. ¡Esta distinción es fundamental!",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0002",
+      "tipo": "opcion_multiple",
+      "question": "Si la variable 'Número de hijos' se mide utilizando una escala donde el cero (0) implica la ausencia de la categoría (ej. 0 hijos), ¿qué tipo de escala es?",
+      "options": [
+        "Nominal",
+        "Ordinal",
+        "Intervalo",
+        "Razón"
+      ],
+      "correctIndex": 3,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "categorias",
+      "subtema_label": "Categorías cualitativas",
+      "feedback": {
+        "correcta": "¡Excelente! 📈 Escala de razón, porque tiene un cero absoluto y significativo (0 hijos = ausencia de hijos). ¡Y podemos decir que 4 hijos son el doble que 2!",
+        "incorrecta": "Uy, casi. 🤔 Piensa: si el cero es real (ausencia de la característica) y podemos hacer proporciones (el doble, triple), es escala de razón. ¡El número de hijos es el ejemplo de libro de texto!",
+        "correct": "¡Excelente! 📈 Escala de razón, porque tiene un cero absoluto y significativo (0 hijos = ausencia de hijos). ¡Y podemos decir que 4 hijos son el doble que 2!",
+        "incorrect": "Uy, casi. 🤔 Piensa: si el cero es real (ausencia de la característica) y podemos hacer proporciones (el doble, triple), es escala de razón. ¡El número de hijos es el ejemplo de libro de texto!",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0003",
+      "tipo": "verdadero_falso",
+      "question": "Una variable latente es una 'entidad' no observada que se presume subyace a las variables observadas o manifiestas.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correctIndex": 0,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "constructos",
+      "subtema_label": "Constructos",
+      "feedback": {
+        "correcta": "¡Exacto! 👻 Las variables latentes son como fantasmas científicos: no las vemos directamente, pero sabemos que están ahí por sus 'manifestaciones' (indicadores).",
+        "incorrecta": "Ups, esta era verdadera. 😅 Las variables latentes sí existen pero no las observamos directamente (como la inteligencia o la ansiedad). Las inferimos a través de lo que SÍ podemos medir.",
+        "correct": "¡Exacto! 👻 Las variables latentes son como fantasmas científicos: no las vemos directamente, pero sabemos que están ahí por sus 'manifestaciones' (indicadores).",
+        "incorrect": "Ups, esta era verdadera. 😅 Las variables latentes sí existen pero no las observamos directamente (como la inteligencia o la ansiedad). Las inferimos a través de lo que SÍ podemos medir.",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0004",
+      "tipo": "verdadero_falso",
+      "question": "Los científicos operan en dos niveles principales: teoría-hipótesis-constructo y observación, oscilando continuamente entre ellos.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correctIndex": 0,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "constructos",
+      "subtema_label": "Constructos",
+      "feedback": {
+        "correcta": "¡Exactamente! 🔁 Los científicos somos como hamsters en una rueda: teoría → observación → teoría. ¡Pero una rueda que avanza la ciencia!",
+        "incorrecta": "Esta era verdadera. 💫 La ciencia es ese baile constante entre lo abstracto (teorías) y lo concreto (observaciones). Sin este vaivén, no hay avance científico.",
+        "correct": "¡Exactamente! 🔁 Los científicos somos como hamsters en una rueda: teoría → observación → teoría. ¡Pero una rueda que avanza la ciencia!",
+        "incorrect": "Esta era verdadera. 💫 La ciencia es ese baile constante entre lo abstracto (teorías) y lo concreto (observaciones). Sin este vaivén, no hay avance científico.",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0006",
+      "tipo": "opcion_multiple",
+      "question": "La variable latente 'Inteligencia' se infiere a partir de la relación positiva y sustancial de qué tipo de variables, según el ejemplo dado en la fuente:",
+      "options": [
+        "Edad, Sexo y Nivel socioeconómico",
+        "Pruebas de habilidad verbal, numérica y espacial",
+        "Aprovechamiento, Motivación y Ansiedad",
+        "Horas de estudio, Nivel de ansiedad y Frecuencia cardíaca"
+      ],
+      "correctIndex": 1,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "constructos",
+      "subtema_label": "Constructos",
+      "feedback": {
+        "correcta": "¡Impresionante! 🧠 Atrapaste la esencia: la inteligencia se infiere de cómo se relacionan distintas habilidades cognitivas. ¡Varias piezas apuntando al mismo constructo oculto!",
+        "incorrecta": "Complicada, lo sé. 🤯 La inteligencia es latente, así que la inferimos de cómo se correlacionan distintas pruebas de habilidad. Si todas suben y bajan juntas, es que miden algo en común: ¡la inteligencia!",
+        "correct": "¡Impresionante! 🧠 Atrapaste la esencia: la inteligencia se infiere de cómo se relacionan distintas habilidades cognitivas. ¡Varias piezas apuntando al mismo constructo oculto!",
+        "incorrect": "Complicada, lo sé. 🤯 La inteligencia es latente, así que la inferimos de cómo se correlacionan distintas pruebas de habilidad. Si todas suben y bajan juntas, es que miden algo en común: ¡la inteligencia!",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0007",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál es la principal diferencia entre un constructo y una variable?",
+      "options": [
+        "El constructo es observable y la variable es abstracta",
+        "El constructo es teórico y la variable es empírica",
+        "Ambos son equivalentes",
+        "La variable solo existe en estudios cualitativos"
+      ],
+      "correctIndex": 1,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "constructos",
+      "subtema_label": "Constructos",
+      "feedback": {
+        "correcta": "Correcto. El constructo pertenece al plano teórico y la variable al plano empírico.",
+        "incorrecta": "Revisá la distinción básica entre teoría y medición en Kerlinger. La opción correcta es: «El constructo es teórico y la variable es empírica».",
+        "correct": "Correcto. El constructo pertenece al plano teórico y la variable al plano empírico.",
+        "incorrect": "Revisá la distinción básica entre teoría y medición en Kerlinger. La opción correcta es: «El constructo es teórico y la variable es empírica».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0008",
+      "tipo": "verdadero_falso",
+      "question": "Una definición operacional experimental describe los detalles de cómo se medirá una variable.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correctIndex": 1,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "definiciones",
+      "subtema_label": "Definiciones C. y O.",
+      "feedback": {
+        "correcta": "¡Justo! ✅ La definición operacional experimental describe cómo se MANIPULA la variable, no cómo se mide. ¡Atrapaste el matiz importante!",
+        "incorrecta": "Cuidado con la confusión. 🔍 La definición operacional experimental describe cómo manipulamos la variable independiente. La de MEDIDA es la que describe cómo la... bueno, adivinaste: medimos.",
+        "correct": "¡Justo! ✅ La definición operacional experimental describe cómo se MANIPULA la variable, no cómo se mide. ¡Atrapaste el matiz importante!",
+        "incorrect": "Cuidado con la confusión. 🔍 La definición operacional experimental describe cómo manipulamos la variable independiente. La de MEDIDA es la que describe cómo la... bueno, adivinaste: medimos.",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0009",
+      "tipo": "opcion_multiple",
+      "question": "Los elementos concretos de las dimensiones que expresan la realidad medible de la variable y son unidades de medida se denominan:",
+      "options": [
+        "Constructos",
+        "Variables Compuestas",
+        "Indicadores",
+        "Atributos"
+      ],
+      "correctIndex": 2,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "definiciones",
+      "subtema_label": "Definiciones C. y O.",
+      "feedback": {
+        "correcta": "¡Directo al grano! 🎯 Los indicadores son lo que realmente medimos. Sin ellos, nuestros constructos serían como coches sin ruedas: bonitos pero no funcionan.",
+        "incorrecta": "No exactamente. 💡 Los indicadores son las partes medibles específicas. Son como los síntomas que nos indican una enfermedad (constructo) - no vemos la enfermedad, pero sí sus manifestaciones.",
+        "correct": "¡Directo al grano! 🎯 Los indicadores son lo que realmente medimos. Sin ellos, nuestros constructos serían como coches sin ruedas: bonitos pero no funcionan.",
+        "incorrect": "No exactamente. 💡 Los indicadores son las partes medibles específicas. Son como los síntomas que nos indican una enfermedad (constructo) - no vemos la enfermedad, pero sí sus manifestaciones.",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0012",
+      "tipo": "opcion_multiple",
+      "question": "La definición operacional se refiere a:",
+      "options": [
+        "Cómo se medirá el concepto en la práctica",
+        "El sentido filosófico del concepto",
+        "La revisión bibliográfica",
+        "La redacción de conclusiones"
+      ],
+      "correctIndex": 0,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "definiciones",
+      "subtema_label": "Definiciones C. y O.",
+      "feedback": {
+        "correcta": "¡Correcto! «Cómo se medirá el concepto en la práctica» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Cómo se medirá el concepto en la práctica». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "correct": "¡Correcto! «Cómo se medirá el concepto en la práctica» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrect": "No es correcto. La respuesta acertada es «Cómo se medirá el concepto en la práctica». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m06-0013",
+      "tipo": "opcion_multiple",
+      "question": "¿Qué tipo de definición asigna significado a un constructo o variable al especificar las actividades u 'operaciones' necesarias para medirlo y evaluar la medición?",
+      "options": [
+        "Definición Constitutiva",
+        "Definición Conceptual",
+        "Definición Teórica",
+        "Definición Operacional"
+      ],
+      "correctIndex": 3,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "definiciones",
+      "subtema_label": "Definiciones C. y O.",
+      "feedback": {
+        "correcta": "¡BOOM! 💥 Definición operacional es la respuesta. Sin ella, nuestros constructos serían como fantasmas: todos hablan de ellos pero nadie sabe cómo pesarlos o medirlos.",
+        "incorrecta": "Ah, la confusión clásica. 😅 Sin definición operacional, es como tener receta sin instrucciones: sabes qué cocinar pero no cómo. ¡Esta es la que nos dice el paso a paso!",
+        "correct": "¡BOOM! 💥 Definición operacional es la respuesta. Sin ella, nuestros constructos serían como fantasmas: todos hablan de ellos pero nadie sabe cómo pesarlos o medirlos.",
+        "incorrect": "Ah, la confusión clásica. 😅 Sin definición operacional, es como tener receta sin instrucciones: sabes qué cocinar pero no cómo. ¡Esta es la que nos dice el paso a paso!",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0014",
+      "tipo": "opcion_multiple",
+      "question": "En el proceso de operacionalización para una variable compleja, la descomposición de lo general a lo específico sigue la secuencia:",
+      "options": [
+        "Variable → Indicadores → Dimensiones",
+        "Variable → Definición Conceptual → Indicadores",
+        "Variable → Dimensiones → Indicadores",
+        "Variable → Definición Operacional → Dimensiones"
+      ],
+      "correctIndex": 2,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "definiciones",
+      "subtema_label": "Definiciones C. y O.",
+      "feedback": {
+        "correcta": "¡Bravo! 🧩 Variable → Dimensiones → Indicadores es el camino correcto. Primero desglosamos en partes grandes (dimensiones) y luego en lo medible (indicadores). ¡Dominas el arte de descomponer!",
+        "incorrecta": "Casi, pero el orden importa. 🤓 Primero identificamos las dimensiones (las partes grandes) y luego los indicadores específicos (lo medible). ¡Es como pelar una cebolla: capa por capa!",
+        "correct": "¡Bravo! 🧩 Variable → Dimensiones → Indicadores es el camino correcto. Primero desglosamos en partes grandes (dimensiones) y luego en lo medible (indicadores). ¡Dominas el arte de descomponer!",
+        "incorrect": "Casi, pero el orden importa. 🤓 Primero identificamos las dimensiones (las partes grandes) y luego los indicadores específicos (lo medible). ¡Es como pelar una cebolla: capa por capa!",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0015",
+      "tipo": "opcion_multiple",
+      "question": "Si se define operacionalmente la inteligencia como 'la puntuación obtenida en una prueba X de inteligencia', ¿a qué tipo de definición operacional pertenece?",
+      "options": [
+        "Experimental",
+        "Constitutiva",
+        "Conceptual",
+        "Medida"
+      ],
+      "correctIndex": 3,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "definiciones",
+      "subtema_label": "Definiciones C. y O.",
+      "feedback": {
+        "correcta": "¡Correcto! 📝 Es una definición operacional de medida. Cuando usamos un test o instrumento para medir, estamos en el terreno de la medición pura y dura.",
+        "incorrecta": "No exactamente. 🧐 Cuando definimos una variable por el instrumento que usamos para medirla (como un test), es definición operacional de MEDIDA. ¡Es la más común en psicología!",
+        "correct": "¡Correcto! 📝 Es una definición operacional de medida. Cuando usamos un test o instrumento para medir, estamos en el terreno de la medición pura y dura.",
+        "incorrect": "No exactamente. 🧐 Cuando definimos una variable por el instrumento que usamos para medirla (como un test), es definición operacional de MEDIDA. ¡Es la más común en psicología!",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0016",
+      "tipo": "verdadero_falso",
+      "question": "El proceso de operacionalización de variables es un procedimiento que solo se presenta en el enfoque cuantitativo, ya que las variables deben ser susceptibles de ser observadas y medidas.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correctIndex": 0,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "definiciones",
+      "subtema_label": "Definiciones C. y O.",
+      "feedback": {
+        "correcta": "¡Exacto! 📊 La operacionalización es el pan de cada día de la investigación cuantitativa. Sin ella, no podríamos medir rigurosamente. ¡Cuantitativo sin operacionalización es como café sin cafeína!",
+        "incorrecta": "Esta era verdadera. 🔍 En cualitativa también se conceptualiza, pero la operacionalización formal (definir cómo medir) es característica del enfoque cuantitativo. ¡Es su superpoder!",
+        "correct": "¡Exacto! 📊 La operacionalización es el pan de cada día de la investigación cuantitativa. Sin ella, no podríamos medir rigurosamente. ¡Cuantitativo sin operacionalización es como café sin cafeína!",
+        "incorrect": "Esta era verdadera. 🔍 En cualitativa también se conceptualiza, pero la operacionalización formal (definir cómo medir) es característica del enfoque cuantitativo. ¡Es su superpoder!",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0017",
+      "tipo": "opcion_multiple",
+      "question": "Convertir una variable continua (como la inteligencia) en una dicotómica o politómica es conceptualmente útil, pero para el análisis de datos se considera una práctica negativa porque:",
+      "options": [
+        "Incrementa innecesariamente la complejidad del análisis.",
+        "Descarta información.",
+        "Convierte la variable en una de razón.",
+        "Impide el uso de pruebas estandarizadas."
+      ],
+      "correctIndex": 1,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "definiciones",
+      "subtema_label": "Definiciones C. y O.",
+      "feedback": {
+        "correcta": "¡Excelente! 🧠 Convertir continua en categórica es como pasar de HD a 8-bits: pierdes matices y información valiosa. ¡Mantengamos los datos en alta definición!",
+        "incorrecta": "Casi, pero no exactamente. 🤔 Cuando categorizamos una variable continua, es como agrupar personas solo por 'altas' y 'bajas'... ¡perdemos toda la riqueza de las alturas específicas!",
+        "correct": "¡Excelente! 🧠 Convertir continua en categórica es como pasar de HD a 8-bits: pierdes matices y información valiosa. ¡Mantengamos los datos en alta definición!",
+        "incorrect": "Casi, pero no exactamente. 🤔 Cuando categorizamos una variable continua, es como agrupar personas solo por 'altas' y 'bajas'... ¡perdemos toda la riqueza de las alturas específicas!",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0018",
+      "tipo": "opcion_multiple",
+      "question": "Según la guía para la operacionalización de variables, la definición conceptual de una variable debe:",
+      "options": [
+        "Utilizar solo la definición de diccionario sin contexto.",
+        "Redactarse incluyendo conectores (ej. 'El rendimiento académico').",
+        "Incluir explícitamente el atributo 'tipo', 'nivel' o 'grado'.",
+        "Indicar términos diferentes a los del marco teórico y ser contextualizada (población y espacio)."
+      ],
+      "correctIndex": 3,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "definiciones",
+      "subtema_label": "Definiciones C. y O.",
+      "feedback": {
+        "correcta": "¡Impresionante! 🎓 Atrapaste el detalle crucial: la definición conceptual debe contextualizarse. No es copiar-pegar del diccionario, sino adaptar al estudio específico. ¡Eso es pensar como investigador!",
+        "incorrecta": "Uff, esta era difícil. 🤯 La definición conceptual debe ser contextualizada (para QUÉ estudio, QUIÉNES son los participantes). No vale con definiciones genéricas - ¡hay que hacerlas nuestras!",
+        "correct": "¡Impresionante! 🎓 Atrapaste el detalle crucial: la definición conceptual debe contextualizarse. No es copiar-pegar del diccionario, sino adaptar al estudio específico. ¡Eso es pensar como investigador!",
+        "incorrect": "Uff, esta era difícil. 🤯 La definición conceptual debe ser contextualizada (para QUÉ estudio, QUIÉNES son los participantes). No vale con definiciones genéricas - ¡hay que hacerlas nuestras!",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0019",
+      "tipo": "opcion_multiple",
+      "question": "¿Qué función cumple la definición operacional?",
+      "options": [
+        "Explicar el origen histórico del constructo",
+        "Describir cómo se medirá la variable",
+        "Justificar el marco teórico",
+        "Clasificar el tipo de investigación"
+      ],
+      "correctIndex": 1,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "definiciones",
+      "subtema_label": "Definiciones C. y O.",
+      "feedback": {
+        "correcta": "Exacto. La definición operacional indica cómo se mide una variable.",
+        "incorrecta": "La definición operacional no es teórica, sino procedimental. La opción correcta es: «Describir cómo se medirá la variable».",
+        "correct": "Exacto. La definición operacional indica cómo se mide una variable.",
+        "incorrect": "La definición operacional no es teórica, sino procedimental. La opción correcta es: «Describir cómo se medirá la variable».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0020",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál de los siguientes es un error frecuente en investigación?",
+      "options": [
+        "Definir variables antes del análisis",
+        "Construir instrumentos sin operacionalizar variables",
+        "Usar dimensiones para constructos complejos",
+        "Relacionar variables con objetivos"
+      ],
+      "correctIndex": 1,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "definiciones",
+      "subtema_label": "Definiciones C. y O.",
+      "feedback": {
+        "correcta": "Así es. Medir sin operacionalizar conduce a incoherencias metodológicas.",
+        "incorrecta": "Pensá qué paso metodológico no puede omitirse antes de medir. La opción correcta es: «Construir instrumentos sin operacionalizar variables».",
+        "correct": "Así es. Medir sin operacionalizar conduce a incoherencias metodológicas.",
+        "incorrect": "Pensá qué paso metodológico no puede omitirse antes de medir. La opción correcta es: «Construir instrumentos sin operacionalizar variables».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0022",
+      "tipo": "opcion_multiple",
+      "question": "¿Por qué la operacionalización es central en el análisis de datos?",
+      "options": [
+        "Porque permite elegir el tipo de muestra",
+        "Porque determina cómo se interpretan los resultados",
+        "Porque reemplaza al marco teórico",
+        "Porque define el tipo de informe final"
+      ],
+      "correctIndex": 1,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "definiciones",
+      "subtema_label": "Definiciones C. y O.",
+      "feedback": {
+        "correcta": "Muy bien. Sin una buena operacionalización, los resultados carecen de sentido.",
+        "incorrecta": "Pensá qué conecta la medición con la interpretación. La opción correcta es: «Porque determina cómo se interpretan los resultados».",
+        "correct": "Muy bien. Sin una buena operacionalización, los resultados carecen de sentido.",
+        "incorrect": "Pensá qué conecta la medición con la interpretación. La opción correcta es: «Porque determina cómo se interpretan los resultados».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0023",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál de estas afirmaciones es correcta?",
+      "options": [
+        "Los instrumentos determinan las variables",
+        "Las variables determinan los instrumentos",
+        "Las variables se definen después del análisis",
+        "Los indicadores son sinónimos de constructo"
+      ],
+      "correctIndex": 1,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "definiciones",
+      "subtema_label": "Definiciones C. y O.",
+      "feedback": {
+        "correcta": "Exacto. Primero se definen las variables, luego se construyen los instrumentos.",
+        "incorrecta": "Revisá la dirección correcta del proceso metodológico. La opción correcta es: «Las variables determinan los instrumentos».",
+        "correct": "Exacto. Primero se definen las variables, luego se construyen los instrumentos.",
+        "incorrect": "Revisá la dirección correcta del proceso metodológico. La opción correcta es: «Las variables determinan los instrumentos».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0024",
+      "tipo": "opcion_multiple",
+      "question": "Un indicador debe ser:",
+      "options": [
+        "Abstracto y teórico",
+        "Directamente observable o registrable",
+        "Equivalente a una hipótesis",
+        "Una definición conceptual"
+      ],
+      "correctIndex": 1,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "definiciones",
+      "subtema_label": "Definiciones C. y O.",
+      "feedback": {
+        "correcta": "Correcto. El indicador pertenece al plano empírico.",
+        "incorrecta": "Recordá qué elementos pueden observarse directamente. La opción correcta es: «Directamente observable o registrable».",
+        "correct": "Correcto. El indicador pertenece al plano empírico.",
+        "incorrect": "Recordá qué elementos pueden observarse directamente. La opción correcta es: «Directamente observable o registrable».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0025",
+      "tipo": "opcion_multiple",
+      "question": "¿Qué se logra con una buena operacionalización?",
+      "options": [
+        "Reducir el tamaño de la muestra",
+        "Aumentar la coherencia metodológica del estudio",
+        "Evitar la revisión de la literatura",
+        "Eliminar la necesidad de análisis"
+      ],
+      "correctIndex": 1,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "definiciones",
+      "subtema_label": "Definiciones C. y O.",
+      "feedback": {
+        "correcta": "Así es. La operacionalización articula teoría, medición y análisis.",
+        "incorrecta": "Pensá en la función integradora de la operacionalización. La opción correcta es: «Aumentar la coherencia metodológica del estudio».",
+        "correct": "Así es. La operacionalización articula teoría, medición y análisis.",
+        "incorrect": "Pensá en la función integradora de la operacionalización. La opción correcta es: «Aumentar la coherencia metodológica del estudio».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0026",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuándo un constructo requiere dimensiones?",
+      "options": [
+        "Siempre",
+        "Nunca",
+        "Cuando es complejo y multidimensional",
+        "Solo en estudios cualitativos"
+      ],
+      "correctIndex": 2,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "definiciones",
+      "subtema_label": "Definiciones C. y O.",
+      "feedback": {
+        "correcta": "Correcto. Las dimensiones permiten descomponer constructos complejos.",
+        "incorrecta": "No todos los constructos requieren el mismo nivel de desagregación. La opción correcta es: «Cuando es complejo y multidimensional».",
+        "correct": "Correcto. Las dimensiones permiten descomponer constructos complejos.",
+        "incorrect": "No todos los constructos requieren el mismo nivel de desagregación. La opción correcta es: «Cuando es complejo y multidimensional».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0027",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál es el riesgo de una mala definición operacional?",
+      "options": [
+        "Dificultar la redacción del informe",
+        "Obtener datos incoherentes o irrelevantes",
+        "Perder participantes",
+        "Aumentar el costo del estudio"
+      ],
+      "correctIndex": 1,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "definiciones",
+      "subtema_label": "Definiciones C. y O.",
+      "feedback": {
+        "correcta": "Exacto. Medir mal implica analizar e interpretar mal.",
+        "incorrecta": "Pensá en la relación entre medición y calidad de los datos. La opción correcta es: «Obtener datos incoherentes o irrelevantes».",
+        "correct": "Exacto. Medir mal implica analizar e interpretar mal.",
+        "incorrect": "Pensá en la relación entre medición y calidad de los datos. La opción correcta es: «Obtener datos incoherentes o irrelevantes».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0028",
+      "tipo": "opcion_multiple",
+      "question": "¿La operacionalización pertenece a qué etapa del proceso de investigación?",
+      "options": [
+        "Planteamiento del problema",
+        "Marco teórico",
+        "Diseño metodológico",
+        "Análisis de resultados"
+      ],
+      "correctIndex": 2,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "definiciones",
+      "subtema_label": "Definiciones C. y O.",
+      "feedback": {
+        "correcta": "Correcto. La operacionalización forma parte del diseño metodológico.",
+        "incorrecta": "Ubicá la operacionalización dentro de la lógica del proceso. La opción correcta es: «Diseño metodológico».",
+        "correct": "Correcto. La operacionalización forma parte del diseño metodológico.",
+        "incorrect": "Ubicá la operacionalización dentro de la lógica del proceso. La opción correcta es: «Diseño metodológico».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0030",
+      "tipo": "opcion_multiple",
+      "question": "¿Qué término se define como un concepto que tiene el significado agregado de haber sido inventado o adoptado deliberadamente para un propósito científico especial?",
+      "options": [
+        "Concepto",
+        "Constructo",
+        "Variable Latente",
+        "Variable Categórica"
+      ],
+      "correctIndex": 1,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Exacto! 🧠 Un constructo es justo eso: nuestro 'invento' científico para medir lo abstracto. Le pusimos nombre y apellido a lo intangible. ¡Ciencia en acción!",
+        "incorrecta": "Ups, no era ese. 😅 Un constructo es como nuestro personaje de ficción favorito: lo creamos los científicos para darle vida a conceptos abstractos. ¡Sigue intentando!",
+        "correct": "¡Exacto! 🧠 Un constructo es justo eso: nuestro 'invento' científico para medir lo abstracto. Le pusimos nombre y apellido a lo intangible. ¡Ciencia en acción!",
+        "incorrect": "Ups, no era ese. 😅 Un constructo es como nuestro personaje de ficción favorito: lo creamos los científicos para darle vida a conceptos abstractos. ¡Sigue intentando!",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0031",
+      "tipo": "verdadero_falso",
+      "question": "Una variable es una propiedad que asume diversos valores y puede tener tan solo dos valores, siendo aún considerada una variable.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correctIndex": 0,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Correcto! ✅ Una variable puede ser minimalista y tener solo dos valores (como sí/no) y seguir siendo completamente variable. ¡No juzgues por la cantidad!",
+        "incorrecta": "Nop, aquí te equivocaste. 💡 Una variable sí puede ser binaria y seguir contando como variable. Piensa en el género (femenino/masculino) - ¡solo dos opciones pero totalmente válida!",
+        "correct": "¡Correcto! ✅ Una variable puede ser minimalista y tener solo dos valores (como sí/no) y seguir siendo completamente variable. ¡No juzgues por la cantidad!",
+        "incorrect": "Nop, aquí te equivocaste. 💡 Una variable sí puede ser binaria y seguir contando como variable. Piensa en el género (femenino/masculino) - ¡solo dos opciones pero totalmente válida!",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0032",
+      "tipo": "opcion_multiple",
+      "question": "Según la clasificación de Kerlinger, la variable que se asume influye o es la causa supuesta (el antecedente) en una relación se denomina:",
+      "options": [
+        "Variable Dependiente",
+        "Variable Interviniente",
+        "Variable Independiente",
+        "Variable Latente"
+      ],
+      "correctIndex": 2,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Directo al clavo! 🎯 La variable independiente es la que mueve los hilos en la investigación. Es la 'causa' que queremos probar. ¡Eres un detective de variables!",
+        "incorrecta": "Ups, casi pero no. 💭 Recuerda: la independiente es la que manipulamos (la causa), la dependiente es la que cambia (el efecto). ¡Como en una relación tóxica, pero científica!",
+        "correct": "¡Directo al clavo! 🎯 La variable independiente es la que mueve los hilos en la investigación. Es la 'causa' que queremos probar. ¡Eres un detective de variables!",
+        "incorrect": "Ups, casi pero no. 💭 Recuerda: la independiente es la que manipulamos (la causa), la dependiente es la que cambia (el efecto). ¡Como en una relación tóxica, pero científica!",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0033",
+      "tipo": "verdadero_falso",
+      "question": "El género (femenino-masculino) es un ejemplo de variable activa, ya que es manipulada directamente por el investigador en estudios de comparación de grupos.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correctIndex": 1,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Correcto! ✅ El género es variable atributo, no activa. No podemos 'asignar' género aleatoriamente a las personas (¡sería poco ético y científico!).",
+        "incorrecta": "¡Alto ahí! 🚫 El género es una variable atributo porque es una característica preexistente. Las variables activas las manipulamos; las atributo las observamos. ¡Importante distinción!",
+        "correct": "¡Correcto! ✅ El género es variable atributo, no activa. No podemos 'asignar' género aleatoriamente a las personas (¡sería poco ético y científico!).",
+        "incorrect": "¡Alto ahí! 🚫 El género es una variable atributo porque es una característica preexistente. Las variables activas las manipulamos; las atributo las observamos. ¡Importante distinción!",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0034",
+      "tipo": "opcion_multiple",
+      "question": "En el ejemplo 'Si A (método de enseñanza), entonces B (aprovechamiento)', ¿cuál es la variable dependiente?",
+      "options": [
+        "A (método de enseñanza)",
+        "El coeficiente de correlación",
+        "La hipótesis",
+        "B (aprovechamiento/aprendizaje)"
+      ],
+      "correctIndex": 3,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Exactamente! 🎓 B es la dependiente - el 'efecto' que medimos. Si A es la causa, B es la consecuencia. ¡Dominas la relación causa-efecto!",
+        "incorrecta": "Ups, confundiste causa con efecto. 😅 En 'Si A, entonces B', B es la variable dependiente (el resultado). ¡Es como decir 'si estudio (A), entonces apruebo (B)'!",
+        "correct": "¡Exactamente! 🎓 B es la dependiente - el 'efecto' que medimos. Si A es la causa, B es la consecuencia. ¡Dominas la relación causa-efecto!",
+        "incorrect": "Ups, confundiste causa con efecto. 😅 En 'Si A, entonces B', B es la variable dependiente (el resultado). ¡Es como decir 'si estudio (A), entonces apruebo (B)'!",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0035",
+      "tipo": "verdadero_falso",
+      "question": "Una variable continua es capaz de asumir un conjunto ordenado de valores dentro de cierto rango y refleja, al menos, un orden categórico.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correctIndex": 0,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Así es! 📊 Las variables continuas pueden tomar cualquier valor en un rango (como la estatura: 1.70, 1.71, 1.715...). ¡Son las divas de la precisión!",
+        "incorrecta": "Nop, esta vez no. 💡 Las variables continuas SÍ pueden tomar infinitos valores dentro de un rango. Piensa en termómetros digitales vs. los antiguos de mercurio - ¡los digitales son mucho más continuos!",
+        "correct": "¡Así es! 📊 Las variables continuas pueden tomar cualquier valor en un rango (como la estatura: 1.70, 1.71, 1.715...). ¡Son las divas de la precisión!",
+        "incorrect": "Nop, esta vez no. 💡 Las variables continuas SÍ pueden tomar infinitos valores dentro de un rango. Piensa en termómetros digitales vs. los antiguos de mercurio - ¡los digitales son mucho más continuos!",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0036",
+      "tipo": "opcion_multiple",
+      "question": "En el contexto de un estudio, las condiciones que se mantienen iguales o constantes en todas las muestras o grupos se denominan:",
+      "options": [
+        "Variables Intervinientes",
+        "Variables Activas",
+        "Variables Control",
+        "Variables Dependientes"
+      ],
+      "correctIndex": 2,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Perfecto! 🎮 Variables control - las que mantenemos constantes para asegurar que cualquier cambio se deba solo a nuestra variable independiente. ¡El grupo de control de las variables!",
+        "incorrecta": "Casi, pero no. 🎯 Las variables que mantenemos constantes son las de control. Sin ellas, no sabríamos si los cambios se deben a nuestra variable o a otra cosa. ¡Control es la palabra clave!",
+        "correct": "¡Perfecto! 🎮 Variables control - las que mantenemos constantes para asegurar que cualquier cambio se deba solo a nuestra variable independiente. ¡El grupo de control de las variables!",
+        "incorrect": "Casi, pero no. 🎯 Las variables que mantenemos constantes son las de control. Sin ellas, no sabríamos si los cambios se deben a nuestra variable o a otra cosa. ¡Control es la palabra clave!",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0037",
+      "tipo": "opcion_multiple",
+      "question": "Las variables categóricas, que clasifican individuos en subgrupos no superpuestos, pertenecen a una clase de medición llamada:",
+      "options": [
+        "Intervalo",
+        "Ordinal",
+        "Razón",
+        "Nominal"
+      ],
+      "correctIndex": 3,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Lo tienes! ✅ Nominal es la escala que solo clasifica sin orden. Como los colores: azul, rojo, verde... todos iguales en jerarquía.",
+        "incorrecta": "Casi, pero no. 🧐 Las variables que solo clasifican sin orden son nominales. Si tuvieran orden serían ordinales. ¡Esta distinción es clave para no mezclar peras con manzanas!",
+        "correct": "¡Lo tienes! ✅ Nominal es la escala que solo clasifica sin orden. Como los colores: azul, rojo, verde... todos iguales en jerarquía.",
+        "incorrect": "Casi, pero no. 🧐 Las variables que solo clasifican sin orden son nominales. Si tuvieran orden serían ordinales. ¡Esta distinción es clave para no mezclar peras con manzanas!",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0038",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál de los siguientes es un ejemplo de una variable atributo?",
+      "options": [
+        "Exposición a un video (Sí/No)",
+        "Reforzamiento positivo",
+        "La clase social del sujeto",
+        "Un tipo de instrucción experimental"
+      ],
+      "correctIndex": 2,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Perfecto! 🎯 La clase social es el ejemplo clásico de variable atributo: una característica que ya tiene el sujeto y no manipulamos. ¡Identificaste la que no podemos cambiar!",
+        "incorrecta": "Uy, esta era tramposa. 😅 Las variables atributo son características preexistentes (como clase social, género, edad). Las otras opciones son variables que SÍ podemos manipular.",
+        "correct": "¡Perfecto! 🎯 La clase social es el ejemplo clásico de variable atributo: una característica que ya tiene el sujeto y no manipulamos. ¡Identificaste la que no podemos cambiar!",
+        "incorrect": "Uy, esta era tramposa. 😅 Las variables atributo son características preexistentes (como clase social, género, edad). Las otras opciones son variables que SÍ podemos manipular.",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0039",
+      "tipo": "opcion_multiple",
+      "question": "¿Qué tipo de variable es aquella que se interpone entre la variable independiente y la dependiente y debe ser controlada en un diseño experimental puro para asegurar que el efecto se deba solo a la variable independiente?",
+      "options": [
+        "Variable Categórica",
+        "Variable Atributo",
+        "Variable Interviniente",
+        "Variable Latente"
+      ],
+      "correctIndex": 2,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Bravo! 🕵️‍♀️ Variable interviniente - la 'tercera en discordia' que puede arruinar nuestro experimento si no la controlamos. ¡La espía que altera los resultados!",
+        "incorrecta": "Uy, esta era complicada. 😅 La variable interviniente es esa que se mete entre nuestra variable independiente y dependiente. Como la motivación en un estudio sobre métodos de enseñanza: ¡puede alterar los resultados si no la controlamos!",
+        "correct": "¡Bravo! 🕵️‍♀️ Variable interviniente - la 'tercera en discordia' que puede arruinar nuestro experimento si no la controlamos. ¡La espía que altera los resultados!",
+        "incorrect": "Uy, esta era complicada. 😅 La variable interviniente es esa que se mete entre nuestra variable independiente y dependiente. Como la motivación en un estudio sobre métodos de enseñanza: ¡puede alterar los resultados si no la controlamos!",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0040",
+      "tipo": "opcion_multiple",
+      "question": "Cuando el investigador asigna participantes a diferentes grupos basándose en una característica preexistente, como el género, esta variable independiente se clasifica como:",
+      "options": [
+        "Variable Activa",
+        "Variable Interviniente",
+        "Variable Atributo",
+        "Variable Continua"
+      ],
+      "correctIndex": 2,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Correcto! 🏷️ Variable atributo - cuando usamos características que ya tienen las personas (género, edad, etc.). No las manipulamos, las seleccionamos. ¡Identificaste la que viene de fábrica!",
+        "incorrecta": "Casi, pero no. 💭 Cuando asignamos grupos por características preexistentes (como género), es variable atributo. Las activas son las que SÍ manipulamos experimentalmente.",
+        "correct": "¡Correcto! 🏷️ Variable atributo - cuando usamos características que ya tienen las personas (género, edad, etc.). No las manipulamos, las seleccionamos. ¡Identificaste la que viene de fábrica!",
+        "incorrect": "Casi, pero no. 💭 Cuando asignamos grupos por características preexistentes (como género), es variable atributo. Las activas son las que SÍ manipulamos experimentalmente.",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0041",
+      "tipo": "verdadero_falso",
+      "question": "La escala de medición ordinal expresa una cualidad de forma ordenada (ej. de mayor a menor), y se utiliza frecuentemente en variables cualitativas como el control emocional o el rendimiento académico.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correctIndex": 0,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Exacto! 📊 Ordinal significa ORDEN (bajo, medio, alto). Podemos decir qué es más o menos, pero no cuánto más. ¡Como los puestos en una carrera: primero, segundo, tercero!",
+        "incorrecta": "Esta era verdadera. 🎯 La escala ordinal sí tiene orden (más/menos, mejor/peor) pero sin distancias definidas. ¡Es la reina de las encuestas con 'de acuerdo', 'neutral', 'en desacuerdo'!",
+        "correct": "¡Exacto! 📊 Ordinal significa ORDEN (bajo, medio, alto). Podemos decir qué es más o menos, pero no cuánto más. ¡Como los puestos en una carrera: primero, segundo, tercero!",
+        "incorrect": "Esta era verdadera. 🎯 La escala ordinal sí tiene orden (más/menos, mejor/peor) pero sin distancias definidas. ¡Es la reina de las encuestas con 'de acuerdo', 'neutral', 'en desacuerdo'!",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0042",
+      "tipo": "opcion_multiple",
+      "question": "Una variable independiente es...",
+      "options": [
+        "aquella que el investigador manipula o controla",
+        "el resultado medido",
+        "la característica dependiente",
+        "una constante del diseño"
+      ],
+      "correctIndex": 0,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Correcto! «aquella que el investigador manipula o controla» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrecta": "No es correcto. La respuesta acertada es «aquella que el investigador manipula o controla». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "correct": "¡Correcto! «aquella que el investigador manipula o controla» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrect": "No es correcto. La respuesta acertada es «aquella que el investigador manipula o controla». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m06-0043",
+      "tipo": "opcion_multiple",
+      "question": "La variable dependiente representa...",
+      "options": [
+        "el efecto o respuesta observada",
+        "el estímulo inicial",
+        "el control estadístico",
+        "una categoría nominal"
+      ],
+      "correctIndex": 0,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Correcto! «el efecto o respuesta observada» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrecta": "No es correcto. La respuesta acertada es «el efecto o respuesta observada». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "correct": "¡Correcto! «el efecto o respuesta observada» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrect": "No es correcto. La respuesta acertada es «el efecto o respuesta observada». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m06-0044",
+      "tipo": "opcion_multiple",
+      "question": "Las variables de control permiten...",
+      "options": [
+        "mantener constantes factores extraños",
+        "incrementar el error aleatorio",
+        "modificar el grupo de estudio",
+        "reducir el tamaño muestral"
+      ],
+      "correctIndex": 0,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Correcto! «mantener constantes factores extraños» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrecta": "No es correcto. La respuesta acertada es «mantener constantes factores extraños». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "correct": "¡Correcto! «mantener constantes factores extraños» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrect": "No es correcto. La respuesta acertada es «mantener constantes factores extraños». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m06-0045",
+      "tipo": "opcion_multiple",
+      "question": "Las variables cualitativas...",
+      "options": [
+        "clasifican sin expresar magnitud",
+        "permiten cálculos aritméticos",
+        "se miden en intervalos",
+        "expresan distancia constante"
+      ],
+      "correctIndex": 0,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Correcto! «clasifican sin expresar magnitud» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrecta": "No es correcto. La respuesta acertada es «clasifican sin expresar magnitud». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "correct": "¡Correcto! «clasifican sin expresar magnitud» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrect": "No es correcto. La respuesta acertada es «clasifican sin expresar magnitud». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m06-0046",
+      "tipo": "opcion_multiple",
+      "question": "El nivel de medición ordinal se caracteriza por...",
+      "options": [
+        "establecer un orden sin intervalos iguales",
+        "distinguir solo categorías",
+        "tener cero absoluto",
+        "medir proporciones"
+      ],
+      "correctIndex": 0,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Correcto! «establecer un orden sin intervalos iguales» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrecta": "No es correcto. La respuesta acertada es «establecer un orden sin intervalos iguales». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "correct": "¡Correcto! «establecer un orden sin intervalos iguales» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrect": "No es correcto. La respuesta acertada es «establecer un orden sin intervalos iguales». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m06-0047",
+      "tipo": "opcion_multiple",
+      "question": "El nivel de medición de la escala Likert es...",
+      "options": [
+        "ordinal",
+        "nominal",
+        "intervalar",
+        "razón"
+      ],
+      "correctIndex": 0,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Correcto! «ordinal» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrecta": "No es correcto. La respuesta acertada es «ordinal». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "correct": "¡Correcto! «ordinal» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrect": "No es correcto. La respuesta acertada es «ordinal». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m06-0048",
+      "tipo": "opcion_multiple",
+      "question": "Una variable perturbadora...",
+      "options": [
+        "interfiere en la relación entre variables principales",
+        "es la variable dependiente",
+        "se utiliza para control estadístico",
+        "representa la hipótesis nula"
+      ],
+      "correctIndex": 0,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Correcto! «interfiere en la relación entre variables principales» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrecta": "No es correcto. La respuesta acertada es «interfiere en la relación entre variables principales». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "correct": "¡Correcto! «interfiere en la relación entre variables principales» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrect": "No es correcto. La respuesta acertada es «interfiere en la relación entre variables principales». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m06-0049",
+      "tipo": "opcion_multiple",
+      "question": "La operacionalización de variables consiste en...",
+      "options": [
+        "traducir conceptos teóricos en indicadores medibles",
+        "comparar medias de grupos",
+        "formular hipótesis nulas",
+        "controlar errores muestrales"
+      ],
+      "correctIndex": 0,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Correcto! «traducir conceptos teóricos en indicadores medibles» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrecta": "No es correcto. La respuesta acertada es «traducir conceptos teóricos en indicadores medibles». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "correct": "¡Correcto! «traducir conceptos teóricos en indicadores medibles» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrect": "No es correcto. La respuesta acertada es «traducir conceptos teóricos en indicadores medibles». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m06-0050",
+      "tipo": "verdadero_falso",
+      "question": "Las variables dependientes son manipuladas por el investigador.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correctIndex": 1,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Correcto! La afirmación es **Falso**. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrecta": "Respuesta incorrecta (la opción correcta es **Falso**). En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "correct": "¡Correcto! La afirmación es **Falso**. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrect": "Respuesta incorrecta (la opción correcta es **Falso**). En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m06-0051",
+      "tipo": "verdadero_falso",
+      "question": "Las variables controladas reducen el error sistemático.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correctIndex": 0,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Correcto! La afirmación es **Verdadero**. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrecta": "Respuesta incorrecta (la opción correcta es **Verdadero**). En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "correct": "¡Correcto! La afirmación es **Verdadero**. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrect": "Respuesta incorrecta (la opción correcta es **Verdadero**). En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m06-0052",
+      "tipo": "verdadero_falso",
+      "question": "Las variables nominales expresan jerarquía de valores.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correctIndex": 1,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Correcto! La afirmación es **Falso**. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrecta": "Respuesta incorrecta (la opción correcta es **Falso**). En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "correct": "¡Correcto! La afirmación es **Falso**. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrect": "Respuesta incorrecta (la opción correcta es **Falso**). En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m06-0053",
+      "tipo": "verdadero_falso",
+      "question": "Las variables continuas pueden asumir valores intermedios.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correctIndex": 0,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Correcto! La afirmación es **Verdadero**. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrecta": "Respuesta incorrecta (la opción correcta es **Verdadero**). En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "correct": "¡Correcto! La afirmación es **Verdadero**. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrect": "Respuesta incorrecta (la opción correcta es **Verdadero**). En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m06-0054",
+      "tipo": "verdadero_falso",
+      "question": "Las variables discretas solo asumen números enteros.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correctIndex": 0,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Correcto! La afirmación es **Verdadero**. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrecta": "Respuesta incorrecta (la opción correcta es **Verdadero**). En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "correct": "¡Correcto! La afirmación es **Verdadero**. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrect": "Respuesta incorrecta (la opción correcta es **Verdadero**). En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m06-0055",
+      "tipo": "verdadero_falso",
+      "question": "Las variables latentes son directamente observables.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correctIndex": 1,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Correcto! La afirmación es **Falso**. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrecta": "Respuesta incorrecta (la opción correcta es **Falso**). En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "correct": "¡Correcto! La afirmación es **Falso**. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrect": "Respuesta incorrecta (la opción correcta es **Falso**). En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m06-0056",
+      "tipo": "opcion_multiple",
+      "question": "¿Qué es una variable en una investigación?",
+      "options": [
+        "Un concepto abstracto que no puede ser medido.",
+        "Un elemento del estudio que puede cambiar o variar.",
+        "Un dato fijo que se utiliza para verificar teorías.",
+        "Una suposición que no requiere medición."
+      ],
+      "correctIndex": 1,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Correcto! «Un elemento del estudio que puede cambiar o variar.» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Un elemento del estudio que puede cambiar o variar.». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "correct": "¡Correcto! «Un elemento del estudio que puede cambiar o variar.» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrect": "No es correcto. La respuesta acertada es «Un elemento del estudio que puede cambiar o variar.». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m06-0058",
+      "tipo": "opcion_multiple",
+      "question": "¿Qué es un constructo en el contexto de la investigación?",
+      "options": [
+        "Un término utilizado para referirse a cualquier variable.",
+        "Una variable que no puede observarse directamente, pero puede medirse indirectamente.",
+        "Un concepto que no se puede medir ni observar.",
+        "Una variable fija que no cambia en el estudio."
+      ],
+      "correctIndex": 1,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Correcto! «Una variable que no puede observarse directamente, pero puede medirse indirectamente.» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Una variable que no puede observarse directamente, pero puede medirse indirectamente.». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "correct": "¡Correcto! «Una variable que no puede observarse directamente, pero puede medirse indirectamente.» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrect": "No es correcto. La respuesta acertada es «Una variable que no puede observarse directamente, pero puede medirse indirectamente.». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m06-0059",
+      "tipo": "opcion_multiple",
+      "question": "¿Cómo se relaciona un constructo con una variable?",
+      "options": [
+        "El constructo es una forma específica de variable que puede ser medida indirectamente.",
+        "El constructo es lo mismo que una variable categórica.",
+        "Los constructos no están relacionados con las variables de investigación.",
+        "El constructo es una variable que nunca se mide en la investigación."
+      ],
+      "correctIndex": 0,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Correcto! «El constructo es una forma específica de variable que puede ser medida indirectamente.» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrecta": "No es correcto. La respuesta acertada es «El constructo es una forma específica de variable que puede ser medida indirectamente.». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "correct": "¡Correcto! «El constructo es una forma específica de variable que puede ser medida indirectamente.» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrect": "No es correcto. La respuesta acertada es «El constructo es una forma específica de variable que puede ser medida indirectamente.». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m06-0060",
+      "tipo": "opcion_multiple",
+      "question": "¿Qué función cumple una variable independiente en una investigación?",
+      "options": [
+        "Es la variable que se observa y mide para ver cómo varía.",
+        "Es la variable que el investigador manipula para observar su efecto en otras variables.",
+        "Es una variable que no se puede manipular ni medir.",
+        "Es la variable que permanece constante a lo largo del estudio."
+      ],
+      "correctIndex": 1,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Correcto! «Es la variable que el investigador manipula para observar su efecto en otras variables.» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Es la variable que el investigador manipula para observar su efecto en otras variables.». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "correct": "¡Correcto! «Es la variable que el investigador manipula para observar su efecto en otras variables.» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrect": "No es correcto. La respuesta acertada es «Es la variable que el investigador manipula para observar su efecto en otras variables.». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m06-0061",
+      "tipo": "opcion_multiple",
+      "question": "¿Qué es una variable dependiente?",
+      "options": [
+        "Una variable que depende de los valores de otras variables.",
+        "Una variable que se manipula en la investigación.",
+        "Una variable que no puede ser observada.",
+        "Una variable que permanece sin cambios en la investigación."
+      ],
+      "correctIndex": 0,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Correcto! «Una variable que depende de los valores de otras variables.» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Una variable que depende de los valores de otras variables.». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "correct": "¡Correcto! «Una variable que depende de los valores de otras variables.» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrect": "No es correcto. La respuesta acertada es «Una variable que depende de los valores de otras variables.». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m06-0062",
+      "tipo": "opcion_multiple",
+      "question": "¿Cómo se integran las variables a la formulación del problema de investigación?",
+      "options": [
+        "Las variables se utilizan para formular hipótesis que guían el estudio.",
+        "Las variables son irrelevantes para el problema de investigación.",
+        "Las variables solo se utilizan al final del estudio.",
+        "Las variables no se integran al problema de investigación."
+      ],
+      "correctIndex": 0,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Correcto! «Las variables se utilizan para formular hipótesis que guían el estudio.» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Las variables se utilizan para formular hipótesis que guían el estudio.». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "correct": "¡Correcto! «Las variables se utilizan para formular hipótesis que guían el estudio.» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrect": "No es correcto. La respuesta acertada es «Las variables se utilizan para formular hipótesis que guían el estudio.». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m06-0063",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál es el papel de una variable de control en una investigación?",
+      "options": [
+        "Es la variable que se manipula para observar su efecto en otras variables.",
+        "Es una variable que se mantiene constante para evitar que influya en los resultados del estudio.",
+        "Es la variable que siempre cambia a lo largo del estudio.",
+        "Es una variable irrelevante que no afecta los resultados."
+      ],
+      "correctIndex": 1,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Correcto! «Es una variable que se mantiene constante para evitar que influya en los resultados del estudio.» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Es una variable que se mantiene constante para evitar que influya en los resultados del estudio.». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "correct": "¡Correcto! «Es una variable que se mantiene constante para evitar que influya en los resultados del estudio.» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrect": "No es correcto. La respuesta acertada es «Es una variable que se mantiene constante para evitar que influya en los resultados del estudio.». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m06-0064",
+      "tipo": "opcion_multiple",
+      "question": "¿Qué tipo de variable mide una respuesta categórica?",
+      "options": [
+        "Variable continua.",
+        "Variable de control.",
+        "Variable categórica.",
+        "Variable independiente."
+      ],
+      "correctIndex": 2,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Correcto! «Variable categórica.» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Variable categórica.». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "correct": "¡Correcto! «Variable categórica.» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrect": "No es correcto. La respuesta acertada es «Variable categórica.». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m06-0065",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál de las siguientes afirmaciones es verdadera acerca de una variable continua?",
+      "options": [
+        "Una variable continua solo puede tomar valores enteros.",
+        "Una variable continua puede tomar un rango infinito de valores.",
+        "Una variable continua no puede medirse.",
+        "Una variable continua es fija y no varía."
+      ],
+      "correctIndex": 1,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Correcto! «Una variable continua puede tomar un rango infinito de valores.» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Una variable continua puede tomar un rango infinito de valores.». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "correct": "¡Correcto! «Una variable continua puede tomar un rango infinito de valores.» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrect": "No es correcto. La respuesta acertada es «Una variable continua puede tomar un rango infinito de valores.». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m06-0066",
+      "tipo": "opcion_multiple",
+      "question": "¿Qué tipo de variables se utilizan para definir los grupos en un estudio experimental?",
+      "options": [
+        "Variables de control.",
+        "Variables dependientes.",
+        "Variables independientes.",
+        "Variables categóricas."
+      ],
+      "correctIndex": 2,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Correcto! «Variables independientes.» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Variables independientes.». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "correct": "¡Correcto! «Variables independientes.» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrect": "No es correcto. La respuesta acertada es «Variables independientes.». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m06-0067",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál de las siguientes características describe mejor una variable latente?",
+      "options": [
+        "Es una variable que no puede ser manipulada directamente, pero puede inferirse a través de indicadores observables.",
+        "Es una variable que se mide directamente sin necesidad de instrumentos.",
+        "Es una variable fija y constante en el estudio.",
+        "Es una variable categórica que no cambia."
+      ],
+      "correctIndex": 0,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "¡Correcto! «Es una variable que no puede ser manipulada directamente, pero puede inferirse a través de indicadores observables.» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Es una variable que no puede ser manipulada directamente, pero puede inferirse a través de indicadores observables.». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "correct": "¡Correcto! «Es una variable que no puede ser manipulada directamente, pero puede inferirse a través de indicadores observables.» es la respuesta adecuada. En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido.",
+        "incorrect": "No es correcto. La respuesta acertada es «Es una variable que no puede ser manipulada directamente, pero puede inferirse a través de indicadores observables.». En la operacionalización se traduce un constructo abstracto en dimensiones e indicadores observables; en diseños causales o asociativos, la variable independiente (VI) es el antecedente o factor manipulado y la dependiente (VD) es el efecto o resultado medido. Distingue entre definición conceptual (qué significa el constructo en la teoría) y definición operacional (cómo se medirá u observará concretamente a través de sus indicadores).",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m06-0073",
+      "tipo": "opcion_multiple",
+      "question": "¿Qué elemento conecta directamente variables y análisis de datos?",
+      "options": [
+        "Hipótesis",
+        "Instrumentos",
+        "Marco teórico",
+        "Objetivos"
+      ],
+      "correctIndex": 1,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "Muy bien. Los instrumentos materializan las variables para el análisis.",
+        "incorrecta": "Pensá qué transforma lo teórico en datos. La opción correcta es: «Instrumentos».",
+        "correct": "Muy bien. Los instrumentos materializan las variables para el análisis.",
+        "incorrect": "Pensá qué transforma lo teórico en datos. La opción correcta es: «Instrumentos».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0074",
+      "tipo": "opcion_multiple",
+      "question": "Una variable bien definida debe ser:",
+      "options": [
+        "Ambigua",
+        "Observable o medible",
+        "Puramente teórica",
+        "Independiente del objetivo"
+      ],
+      "correctIndex": 1,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "Correcto. Una variable debe poder medirse empíricamente.",
+        "incorrecta": "Revisá la definición básica de variable. La opción correcta es: «Observable o medible».",
+        "correct": "Correcto. Una variable debe poder medirse empíricamente.",
+        "incorrect": "Revisá la definición básica de variable. La opción correcta es: «Observable o medible».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0075",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál es la relación correcta entre objetivos y variables?",
+      "options": [
+        "Los objetivos se definen a partir de las variables",
+        "Las variables deben derivarse de los objetivos",
+        "No existe relación directa",
+        "Las variables reemplazan a los objetivos"
+      ],
+      "correctIndex": 1,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "Exacto. Las variables operacionalizan lo que los objetivos plantean.",
+        "incorrecta": "Pensá en la coherencia interna del estudio. La opción correcta es: «Las variables deben derivarse de los objetivos».",
+        "correct": "Exacto. Las variables operacionalizan lo que los objetivos plantean.",
+        "incorrect": "Pensá en la coherencia interna del estudio. La opción correcta es: «Las variables deben derivarse de los objetivos».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0076",
+      "tipo": "opcion_multiple",
+      "question": "Desde el punto de vista metodológico, medir es:",
+      "options": [
+        "Asignar números sin criterio",
+        "Traducir conceptos en procedimientos observables",
+        "Interpretar resultados",
+        "Redactar conclusiones"
+      ],
+      "correctIndex": 1,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "variables",
+      "subtema_label": "Variables",
+      "feedback": {
+        "correcta": "Correcto. Medir implica operacionalizar conceptos.",
+        "incorrecta": "Revisá la definición de medición en investigación científica. La opción correcta es: «Traducir conceptos en procedimientos observables».",
+        "correct": "Correcto. Medir implica operacionalizar conceptos.",
+        "incorrect": "Revisá la definición de medición en investigación científica. La opción correcta es: «Traducir conceptos en procedimientos observables».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m06-0021",
+      "tipo": "opcion_multiple",
+      "question": "En el proceso de operacionalización de un concepto complejo, ¿cuál es la secuencia lógica que va de lo más abstracto a lo más concreto y observable?",
+      "options": [
+        "Constructo → dimensión → indicador",
+        "Indicador → dimensión → constructo",
+        "Constructo → indicador → marco teórico",
+        "Dimensión → constructo → hipótesis"
+      ],
+      "correctIndex": 0,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "definiciones",
+      "subtema_label": "Definiciones C. y O.",
+      "feedback": {
+        "correcta": "¡Correcto! En la operacionalización se parte del constructo teórico abstracto, se lo desglosa en sus facetas o dimensiones y, finalmente, en indicadores observables que permiten construir o elegir los ítems.",
+        "incorrecta": "Revisa la jerarquía de abstracción de la Clase 7: primero está el constructo teórico, luego sus dimensiones y finalmente los indicadores empíricos observables.",
+        "correct": "¡Correcto! En la operacionalización se parte del constructo teórico abstracto, se lo desglosa en sus facetas o dimensiones y, finalmente, en indicadores observables que permiten construir o elegir los ítems.",
+        "incorrect": "Revisa la jerarquía de abstracción de la Clase 7: primero está el constructo teórico, luego sus dimensiones y finalmente los indicadores empíricos observables.",
+        "origen": "original"
+      }
+    }
+  ]
+}

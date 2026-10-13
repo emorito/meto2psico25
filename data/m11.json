@@ -1,0 +1,710 @@
+{
+  "id": "m11",
+  "slug": "m11",
+  "number": 11,
+  "title": "Escritura académica, APA, Zotero e IA",
+  "clase_2026": "13",
+  "titulo_clase_plan_2026": "Clase 13 — Escritura académica, APA, Zotero e IA",
+  "etapa": "Etapa 4 · Recolección, Análisis e Informe",
+  "etapa_num": 4,
+  "icon": "✍️",
+  "proposito": "integrar el borrador con argumentación trazable, referencias verificadas y uso transparente de herramientas.",
+  "subtemas": [
+    "escritura",
+    "apa",
+    "citacion",
+    "ia_responsable"
+  ],
+  "subtemas_labels": [
+    "Escritura académica",
+    "Normas APA 7",
+    "Citación y Zotero",
+    "IA responsable"
+  ],
+  "resultados": [
+    "revisar la cadena de coherencia;",
+    "distinguir cita, paráfrasis, síntesis y copia;",
+    "verificar metadatos y correspondencia entre citas y referencias;",
+    "usar Zotero como apoyo, no como garantía automática;",
+    "usar IA para revisar un texto propio sin ceder autoría."
+  ],
+  "resultados_rutas": null,
+  "videoId": "nNMM6g2KtZw",
+  "readingFile": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf",
+  "webReadingUrl": null,
+  "notebookUrl": "https://notebooklm.google.com/notebook/a175e386-f6e7-4f21-befd-56d63cd78964",
+  "resources": {
+    "videos": [
+      {
+        "videoId": "nNMM6g2KtZw",
+        "title": "Informe académico, citación y Estilo APA 7",
+        "badge": "Clase 13 · Escritura y APA"
+      }
+    ],
+    "readings": [
+      {
+        "title": "Aplicación del Estilo APA en trabajos académicos",
+        "url": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf",
+        "type": "pdf",
+        "description": "Manual práctico sobre citas en el texto (narrativas y parentéticas), paráfrasis, lista de referencias y formato general APA."
+      },
+      {
+        "title": "Guía práctica de revisión, redacción académica y uso ético de IA (2026)",
+        "url": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+        "type": "pdf",
+        "description": "Incluye arquitectura de párrafos de síntesis, auditoría de coherencia global y plantilla de declaración de uso de IA."
+      }
+    ],
+    "notebooks": [
+      {
+        "title": "Cuaderno IA · Informe académico y Estilo APA",
+        "url": "https://notebooklm.google.com/notebook/a175e386-f6e7-4f21-befd-56d63cd78964"
+      }
+    ]
+  },
+  "keyTakeaways": {
+    "title": "Cápsula Metodológica · Escritura Académica, APA 7, Zotero e IA Transparente",
+    "subtitle": "Clase 13 · Integración del borrador, atribución rigurosa y auditoría global",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Cita textual, Paráfrasis, Síntesis y Copia (Integridad Académica)",
+        "headers": [
+          "Modalidad",
+          "Cómo se construye",
+          "¿Lleva cita APA en el texto?",
+          "Cuándo usarla"
+        ],
+        "rows": [
+          [
+            "Cita directa (textual)",
+            "Reproduce literalmente las palabras del autor entre comillas (<40 palabras) o en bloque sangrado (≥40 palabras).",
+            "Sí: Autor, año y número de página (p. X) o párrafo.",
+            "Solo cuando la formulación exacta de una definición o norma es indispensable."
+          ],
+          [
+            "Paráfrasis genuina",
+            "Explica la idea de un autor con estructura sintáctica y palabras propias tras comprender el texto.",
+            "Sí: Autor y año obligatorios.",
+            "Es la forma preferida en Psicología para mantener fluidez argumentativa."
+          ],
+          [
+            "Síntesis comparada",
+            "Integra en un mismo párrafo lo que convergen o discrepan dos o más fuentes sobre un eje temático.",
+            "Sí: Cita múltiple ordenada o integrada en el discurso.",
+            "Ideal para redactar antecedentes, estado del arte y justificación."
+          ],
+          [
+            "Falsa paráfrasis / Copia",
+            "Cambiar solo dos o tres palabras por sinónimos (\"patchwriting\") o pegar texto de IA sin atribución.",
+            "Constituye plagio o falta a la integridad académica.",
+            "Nunca: debe reemplazarse por paráfrasis real o síntesis propia."
+          ]
+        ]
+      },
+      {
+        "type": "cards",
+        "title": "3 controles finales antes de entregar el borrador",
+        "items": [
+          {
+            "badge": "Correspondencia 1 a 1",
+            "title": "Citas en texto ↔ Lista de referencias",
+            "text": "Todo autor citado en el cuerpo debe figurar en las Referencias finales con metadatos completos, y ninguna referencia debe quedar \"huérfana\" sin citar."
+          },
+          {
+            "badge": "Zotero con curaduría humana",
+            "title": "El gestor ayuda, pero tú verificas",
+            "text": "Zotero captura metadatos automáticamente, pero a menudo importa títulos en mayúsculas, autores mal partidos o sin DOI. Revisa cada ficha antes de exportar."
+          },
+          {
+            "badge": "Auditoría de Coherencia",
+            "title": "El hilo conductor completo",
+            "text": "Verifica que los mismos constructos atraviesen título, pregunta, objetivo general, variables/categorías, diseño, instrumento y plan de análisis."
+          }
+        ]
+      }
+    ]
+  },
+  "capsula": {
+    "title": "Cápsula Metodológica · Escritura Académica, APA 7, Zotero e IA Transparente",
+    "subtitle": "Clase 13 · Integración del borrador, atribución rigurosa y auditoría global",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Cita textual, Paráfrasis, Síntesis y Copia (Integridad Académica)",
+        "headers": [
+          "Modalidad",
+          "Cómo se construye",
+          "¿Lleva cita APA en el texto?",
+          "Cuándo usarla"
+        ],
+        "rows": [
+          [
+            "Cita directa (textual)",
+            "Reproduce literalmente las palabras del autor entre comillas (<40 palabras) o en bloque sangrado (≥40 palabras).",
+            "Sí: Autor, año y número de página (p. X) o párrafo.",
+            "Solo cuando la formulación exacta de una definición o norma es indispensable."
+          ],
+          [
+            "Paráfrasis genuina",
+            "Explica la idea de un autor con estructura sintáctica y palabras propias tras comprender el texto.",
+            "Sí: Autor y año obligatorios.",
+            "Es la forma preferida en Psicología para mantener fluidez argumentativa."
+          ],
+          [
+            "Síntesis comparada",
+            "Integra en un mismo párrafo lo que convergen o discrepan dos o más fuentes sobre un eje temático.",
+            "Sí: Cita múltiple ordenada o integrada en el discurso.",
+            "Ideal para redactar antecedentes, estado del arte y justificación."
+          ],
+          [
+            "Falsa paráfrasis / Copia",
+            "Cambiar solo dos o tres palabras por sinónimos (\"patchwriting\") o pegar texto de IA sin atribución.",
+            "Constituye plagio o falta a la integridad académica.",
+            "Nunca: debe reemplazarse por paráfrasis real o síntesis propia."
+          ]
+        ]
+      },
+      {
+        "type": "cards",
+        "title": "3 controles finales antes de entregar el borrador",
+        "items": [
+          {
+            "badge": "Correspondencia 1 a 1",
+            "title": "Citas en texto ↔ Lista de referencias",
+            "text": "Todo autor citado en el cuerpo debe figurar en las Referencias finales con metadatos completos, y ninguna referencia debe quedar \"huérfana\" sin citar."
+          },
+          {
+            "badge": "Zotero con curaduría humana",
+            "title": "El gestor ayuda, pero tú verificas",
+            "text": "Zotero captura metadatos automáticamente, pero a menudo importa títulos en mayúsculas, autores mal partidos o sin DOI. Revisa cada ficha antes de exportar."
+          },
+          {
+            "badge": "Auditoría de Coherencia",
+            "title": "El hilo conductor completo",
+            "text": "Verifica que los mismos constructos atraviesen título, pregunta, objetivo general, variables/categorías, diseño, instrumento y plan de análisis."
+          }
+        ]
+      }
+    ]
+  },
+  "flipCards": [
+    {
+      "front": "¿Qué es un informe académico?",
+      "back": "Es un documento escrito que comunica de manera sistemática, clara y fundamentada los resultados de una investigación.",
+      "tag": "Escritura académica"
+    },
+    {
+      "front": "Finalidad del informe académico",
+      "back": "Comunicar procesos, resultados e interpretaciones siguiendo normas científicas.",
+      "tag": "Normas APA 7"
+    },
+    {
+      "front": "Estructura básica de un informe académico",
+      "back": "Introducción, método, resultados y discusión, con referencias.",
+      "tag": "Citación y Zotero"
+    },
+    {
+      "front": "Función del estilo APA",
+      "back": "Estandarizar la presentación, citación y referencias en trabajos académicos.",
+      "tag": "IA responsable"
+    },
+    {
+      "front": "Cita en el texto",
+      "back": "Referencia breve a la fuente utilizada dentro del cuerpo del texto.",
+      "tag": "Escritura académica"
+    },
+    {
+      "front": "Referencia bibliográfica",
+      "back": "Descripción completa de la fuente citada, ubicada al final del trabajo.",
+      "tag": "Normas APA 7"
+    },
+    {
+      "front": "Diferencia entre citar y referenciar",
+      "back": "Citar es mencionar la fuente en el texto; referenciar es describirla completamente.",
+      "tag": "Citación y Zotero"
+    },
+    {
+      "front": "Plagio académico",
+      "back": "Uso de ideas o textos ajenos sin el reconocimiento adecuado de la fuente.",
+      "tag": "IA responsable"
+    },
+    {
+      "front": "Importancia de las normas APA",
+      "back": "Garantizan claridad, ética académica y trazabilidad de las fuentes.",
+      "tag": "Escritura académica"
+    },
+    {
+      "front": "Error frecuente en trabajos académicos",
+      "back": "Citar incorrectamente o no incluir referencias completas.",
+      "tag": "Normas APA 7"
+    }
+  ],
+  "miniCases": [
+    {
+      "id": "m11_c1",
+      "title": "Caso 1 · El «patchwriting» (maquillaje de sinónimos) vs. la paráfrasis real",
+      "context": "Escritura Académica y APA 7 · Clase 13",
+      "scenario": "**Texto original de Kerlinger y Lee (2002, p. 14):** *«Una teoría es un conjunto de constructos (conceptos), definiciones y proposiciones relacionadas entre sí, que presentan un punto de vista sistemático de fenómenos especificando relaciones entre variables, con el objeto de explicar y predecir los fenómenos».*\n\n**Borrador del estudiante (sin comillas ni cita):** *«Una teoría representa un grupo de conceptos, definiciones y proposiciones vinculadas entre sí, que muestran una visión sistemática de los hechos detallando vínculos entre variables, con la meta de explicar y pronosticar los fenómenos».*",
+      "question": "¿Por qué el texto del estudiante constituye plagio por «patchwriting» (paráfrasis mecánica) y cómo debería reescribirse correctamente en APA 7?",
+      "hints": [
+        "Observa que el estudiante mantuvo exactamente la misma estructura de la oración y solo cambió palabras sueltas («conjunto» por «grupo», «objeto» por «meta»).",
+        "Además, ¿qué falta al final o al inicio de la oración?"
+      ],
+      "analysis": "Reemplazar palabras por sinónimos conservando el esqueleto sintáctico del original —y más aún omitiendo la cita— es **plagio por paráfrasis mecánica (*patchwriting*)**.\n\n**Cómo hacerlo con integridad académica:**\n1. Comprender la idea central y redactarla con estructura propia en función del argumento del párrafo.\n2. Atribuir siempre la autoría mediante cita narrativa o parentética en APA 7.\n\n**Ejemplo de paráfrasis genuina:** *Desde la perspectiva de Kerlinger y Lee (2002), las teorías científicas no son simples listas de conceptos aislados, sino sistemas articulados de proposiciones que permiten comprender cómo se vinculan determinadas variables para explicar y anticipar el comportamiento de un fenómeno.*",
+      "keyConcept": "Paráfrasis comprensiva y atribución APA 7 vs. reemplazo mecánico de sinónimos"
+    },
+    {
+      "id": "m11_c2",
+      "title": "Caso 2 · Citas huérfanas y metadatos sucios en Zotero",
+      "context": "Gestión Bibliográfica · Auditoría APA y Zotero",
+      "scenario": "En la revisión final de su borrador (Clase 13), Andrea detecta tres situaciones en su documento generado con Zotero:\n1. En el texto aparece citado `Bandura (1997)`, pero en la lista final de Referencias no figura ninguna obra de Bandura.\n2. En la lista de Referencias aparecen 8 artículos que nunca fueron citados en ningún párrafo del trabajo.\n3. Una referencia exportada automáticamente por Zotero dice: `PÉREZ, JUAN (2021). ANSIEDAD EN UNIVERSITARIOS. PDF DESCARGADO DE SCIELO.`",
+      "question": "Explica cómo corregir las tres anomalías aplicando las normas APA 7 y el principio de «Zotero como apoyo, no como garantía automática».",
+      "hints": [
+        "Recuerda la regla de correspondencia biunívoca entre citas en el texto y lista de referencias en APA 7.",
+        "¿Por qué Zotero a veces exporta mayúsculas o datos rotos?"
+      ],
+      "analysis": "1. **Cita sin referencia (`Bandura, 1997`):** Es un error grave de trazabilidad. Debe incorporarse la referencia completa verificada en la lista final.\n2. **Referencias no citadas en el texto:** En APA 7 la sección se denomina **Referencias** (no «Bibliografía general») e incluye **únicamente las fuentes citadas en el cuerpo del documento**. Las 8 fuentes no citadas deben retirarse o integrarse genuinamente donde correspondan.\n3. **Metadatos defectuosos en Zotero:** Los conectores web suelen capturar metadatos incompletos o en mayúsculas sostenidas desde PDFs mal etiquetados. El estudiante debe **editar manualmente los campos dentro de Zotero** (apellido e inicial `Pérez, J.`, año `(2021)`, título en formato oración, nombre de la revista en cursiva, volumen, número, páginas y enlace DOI) antes de actualizar el documento.",
+      "keyConcept": "Correspondencia 1 a 1 entre citas y referencias y curaduría manual de metadatos en Zotero"
+    },
+    {
+      "id": "m11_c3",
+      "title": "Caso 3 · Auditoría de la cadena completa antes de la defensa",
+      "context": "Integración del Proyecto · Clases 13 y 14",
+      "scenario": "Antes de entregar su borrador integrado, Martín aplica la lista de cotejo de coherencia global y descubre lo siguiente:\n• **Pregunta general:** *¿Qué relación existe entre el apoyo social percibido y la sintomatología depresiva en adultos mayores de Luque?*\n• **Objetivo general:** *Comparar el nivel de deterioro cognitivo entre adultos mayores institucionalizados y no institucionalizados de Asunción.*\n• **Instrumento previsto:** *Escala de Autoestima de Rosenberg.*",
+      "question": "Realiza la auditoría de coherencia de este proyecto: ¿qué pasa entre la pregunta, el objetivo y el instrumento, y cómo debe alinearse la cadena antes de la defensa?",
+      "hints": [
+        "Subraya los constructos y la población en las tres piezas: parece que fueran tres proyectos distintos pegados en un mismo archivo."
+      ],
+      "analysis": "El borrador sufre una **fractura total en la cadena de coherencia**:\n• La **pregunta** habla de *apoyo social y depresión en Luque* (correlacional).\n• El **objetivo** cambia a *deterioro cognitivo según institucionalización en Asunción* (comparativo).\n• El **instrumento** mide un quinto constructo distinto (*autoestima*).\n\n**Regla de oro para el borrador final y la defensa:** Una sola línea conductora debe atravesar todo el documento. Si el proyecto estudia la relación entre **apoyo social percibido** y **sintomatología depresiva** en **adultos mayores de Luque**, entonces:\n1. El **objetivo general** debe ser *Determinar el grado y dirección de la relación entre el apoyo social percibido y la sintomatología depresiva en adultos mayores de Luque en 2026*.\n2. La **matriz de variables** debe operacionalizar *apoyo social percibido* y *sintomatología depresiva*.\n3. Los **instrumentos** deben medir exactamente esos dos constructos (p. ej. Escala Multidimensional de Apoyo Social de Zimet y Escala de Depresión Geriátrica de Yesavage).\n4. El **plan de análisis** debe prever un análisis de correlación (Pearson/Spearman) entre ambas puntuaciones.",
+      "keyConcept": "Auditoría de coherencia global: Pregunta ↔ Objetivo ↔ Variables ↔ Diseño ↔ Instrumento ↔ Análisis"
+    }
+  ],
+  "simulation": {
+    "title": "Simulación 11 · Auditoría final de escritura, APA 7, Zotero e IA antes de la defensa",
+    "context": "Estás en las Clases 13 y 14 realizando la auditoría final de tu borrador integrado antes de subirlo a Moodle y preparar tu defensa oral.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Paso 1 · Auditar citación y paráfrasis en el marco teórico",
+        "prompt": "Revisando un párrafo de un compañero de equipo, encuentras 6 líneas copiadas literalmente de un artículo de 2023 sin comillas y sin página, aunque al final puso `(Gómez, 2023)`. ¿Qué corrección aplicas?",
+        "options": [
+          {
+            "text": "Lo dejo así porque como puso el apellido al final ya no es plagio.",
+            "isOptimal": false,
+            "feedback": "Copiar un texto literal sin comillas ni número de página, aunque se mencione al autor, sigue siendo una citación defectuosa e impropia en APA 7."
+          },
+          {
+            "text": "Reelaboramos la idea mediante una paráfrasis genuina escrita con nuestra propia estructura sintáctica y conectada con el argumento del párrafo (manteniendo la cita `Gómez, 2023`), o si la frase literal es indispensable, colocamos comillas y número de página.",
+            "isOptimal": true,
+            "feedback": "¡Excelente! Distingues con rigor entre paráfrasis genuina y cita textual directa según APA 7."
+          }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "title": "Paso 2 · Verificar Zotero y la lista de Referencias",
+        "prompt": "Generas la lista de referencias con Zotero. ¿Qué verificación realizas antes de dar por cerrado el apartado?",
+        "options": [
+          {
+            "text": "Compruebo la correspondencia 1 a 1 entre todas las citas del texto y las referencias finales, y reviso en Zotero que cada entrada tenga autoría, año, título, revista en cursiva, volumen y DOI correctos.",
+            "isOptimal": true,
+            "feedback": "¡Exacto! Zotero automatiza el formato, pero la calidad de la referencia depende de tu revisión y curaduría de los metadatos."
+          },
+          {
+            "text": "Confío ciegamente en el botón automático de Zotero sin leer la lista final.",
+            "isOptimal": false,
+            "feedback": "Si los metadatos importados tenían errores (mayúsculas, autores incompletos o páginas faltantes), Zotero reproducirá esos errores en tu bibliografía."
+          }
+        ]
+      },
+      {
+        "stepNumber": 3,
+        "title": "Paso 3 · Transparencia de IA y preparación de la defensa",
+        "prompt": "Usaste un asistente de IA para pedir diagnóstico de claridad en dos párrafos escritos por ti y luego decidiste qué correcciones aceptar. ¿Cómo cierras tu entrega y preparas tu defensa?",
+        "options": [
+          {
+            "text": "Incluyo la declaración final de uso de IA (herramienta, propósito, sección, verificación y decisión propia) y preparo una síntesis oral defendiendo la cadena Problema → Objetivo → Variables → Diseño → Muestra → Instrumento → Análisis y sus principales límites.",
+            "isOptimal": true,
+            "feedback": "¡Felicitaciones! Has completado los 11 módulos del Centro de Entrenamiento con rigor metodológico, integridad académica y autonomía intelectual."
+          },
+          {
+            "text": "Oculto el uso de la herramienta y en la defensa leo diapositivas llenas de texto sin explicar por qué elegí mi diseño.",
+            "isOptimal": false,
+            "feedback": "En la defensa del Plan 2026 se evalúa la coherencia de la cadena metodológica, la capacidad de justificar límites y la transparencia en el uso de herramientas."
+          }
+        ]
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": "m11-0001",
+      "tipo": "opcion_multiple",
+      "question": "El estilo APA se utiliza principalmente para:",
+      "options": [
+        "Redactar hipótesis",
+        "Estandarizar citaciones y referencias",
+        "Diseñar instrumentos",
+        "Analizar datos"
+      ],
+      "correctIndex": 1,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "apa",
+      "subtema_label": "Normas APA 7",
+      "feedback": {
+        "correcta": "Exacto. APA regula la forma de citar y referenciar.",
+        "incorrecta": "Pensá en el rol normativo del estilo APA. La opción correcta es: «Estandarizar citaciones y referencias».",
+        "correct": "Exacto. APA regula la forma de citar y referenciar.",
+        "incorrect": "Pensá en el rol normativo del estilo APA. La opción correcta es: «Estandarizar citaciones y referencias».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m11-0002",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál es la diferencia entre cita y referencia?",
+      "options": [
+        "No existe diferencia",
+        "La cita va al final y la referencia en el texto",
+        "La cita va en el texto y la referencia al final",
+        "La referencia reemplaza la cita"
+      ],
+      "correctIndex": 2,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "apa",
+      "subtema_label": "Normas APA 7",
+      "feedback": {
+        "correcta": "Correcto. La cita aparece en el texto y la referencia al final.",
+        "incorrecta": "Revisá la función de cada elemento. La opción correcta es: «La cita va en el texto y la referencia al final».",
+        "correct": "Correcto. La cita aparece en el texto y la referencia al final.",
+        "incorrect": "Revisá la función de cada elemento. La opción correcta es: «La cita va en el texto y la referencia al final».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m11-0003",
+      "tipo": "opcion_multiple",
+      "question": "El plagio académico ocurre cuando:",
+      "options": [
+        "Se citan muchas fuentes",
+        "No se reconoce adecuadamente la autoría",
+        "Se utiliza el estilo APA",
+        "Se redacta un informe largo"
+      ],
+      "correctIndex": 1,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "apa",
+      "subtema_label": "Normas APA 7",
+      "feedback": {
+        "correcta": "Exacto. El plagio implica falta de reconocimiento de fuentes.",
+        "incorrecta": "Pensá en la dimensión ética del trabajo académico. La opción correcta es: «No se reconoce adecuadamente la autoría».",
+        "correct": "Exacto. El plagio implica falta de reconocimiento de fuentes.",
+        "incorrect": "Pensá en la dimensión ética del trabajo académico. La opción correcta es: «No se reconoce adecuadamente la autoría».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m11-0004",
+      "tipo": "opcion_multiple",
+      "question": "Una referencia bibliográfica debe:",
+      "options": [
+        "Ser breve y general",
+        "Permitir identificar y localizar la fuente",
+        "Reemplazar la cita",
+        "Aparecer solo si el texto es largo"
+      ],
+      "correctIndex": 1,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "apa",
+      "subtema_label": "Normas APA 7",
+      "feedback": {
+        "correcta": "Correcto. La referencia permite rastrear la fuente.",
+        "incorrecta": "Revisá la función de la referencia. La opción correcta es: «Permitir identificar y localizar la fuente».",
+        "correct": "Correcto. La referencia permite rastrear la fuente.",
+        "incorrect": "Revisá la función de la referencia. La opción correcta es: «Permitir identificar y localizar la fuente».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m11-0005",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál es un error frecuente en trabajos académicos?",
+      "options": [
+        "Usar citas",
+        "Incluir referencias",
+        "Citar incorrectamente las fuentes",
+        "Redactar con claridad"
+      ],
+      "correctIndex": 2,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "apa",
+      "subtema_label": "Normas APA 7",
+      "feedback": {
+        "correcta": "Exacto. Las citas incorrectas afectan la integridad académica.",
+        "incorrecta": "Pensá en errores habituales de presentación. La opción correcta es: «Citar incorrectamente las fuentes».",
+        "correct": "Exacto. Las citas incorrectas afectan la integridad académica.",
+        "incorrect": "Pensá en errores habituales de presentación. La opción correcta es: «Citar incorrectamente las fuentes».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m11-0006",
+      "tipo": "opcion_multiple",
+      "question": "¿Por qué es importante seguir normas APA?",
+      "options": [
+        "Porque lo exige el docente",
+        "Porque mejora la estética del trabajo",
+        "Porque garantiza ética y estandarización",
+        "Porque reduce el contenido"
+      ],
+      "correctIndex": 2,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "apa",
+      "subtema_label": "Normas APA 7",
+      "feedback": {
+        "correcta": "Correcto. APA asegura ética y estandarización académica.",
+        "incorrecta": "Pensá en la función ética y comunicativa de las normas. La opción correcta es: «Porque garantiza ética y estandarización».",
+        "correct": "Correcto. APA asegura ética y estandarización académica.",
+        "incorrect": "Pensá en la función ética y comunicativa de las normas. La opción correcta es: «Porque garantiza ética y estandarización».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m11-0007",
+      "tipo": "opcion_multiple",
+      "question": "Las referencias deben incluir:",
+      "options": [
+        "Solo el nombre del autor",
+        "Información completa de la fuente",
+        "Únicamente el año",
+        "Solo el título"
+      ],
+      "correctIndex": 1,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "apa",
+      "subtema_label": "Normas APA 7",
+      "feedback": {
+        "correcta": "Exacto. Las referencias deben ser completas.",
+        "incorrecta": "Revisá los elementos básicos de una referencia. La opción correcta es: «Información completa de la fuente».",
+        "correct": "Exacto. Las referencias deben ser completas.",
+        "incorrect": "Revisá los elementos básicos de una referencia. La opción correcta es: «Información completa de la fuente».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m11-0008",
+      "tipo": "opcion_multiple",
+      "question": "Desde el enfoque académico, escribir un informe implica:",
+      "options": [
+        "Transcribir resultados",
+        "Comunicar científicamente el proceso y los hallazgos",
+        "Repetir citas",
+        "Cumplir un requisito formal"
+      ],
+      "correctIndex": 1,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "apa",
+      "subtema_label": "Normas APA 7",
+      "feedback": {
+        "correcta": "Muy bien. El informe es un acto de comunicación científica.",
+        "incorrecta": "Pensá en el sentido académico del informe. La opción correcta es: «Comunicar científicamente el proceso y los hallazgos».",
+        "correct": "Muy bien. El informe es un acto de comunicación científica.",
+        "incorrect": "Pensá en el sentido académico del informe. La opción correcta es: «Comunicar científicamente el proceso y los hallazgos».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m11-0010",
+      "tipo": "opcion_multiple",
+      "question": "El informe académico debe caracterizarse por:",
+      "options": [
+        "Lenguaje informal",
+        "Opiniones personales",
+        "Claridad y coherencia",
+        "Ausencia de estructura"
+      ],
+      "correctIndex": 2,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "escritura",
+      "subtema_label": "Escritura académica",
+      "feedback": {
+        "correcta": "Muy bien. La claridad y coherencia son esenciales.",
+        "incorrecta": "Revisá las características del lenguaje académico. La opción correcta es: «Claridad y coherencia».",
+        "correct": "Muy bien. La claridad y coherencia son esenciales.",
+        "incorrect": "Revisá las características del lenguaje académico. La opción correcta es: «Claridad y coherencia».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m11-0009",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál es la finalidad primordial de un informe o borrador académico de investigación?",
+      "options": [
+        "Exponer opiniones personales sin respaldo empírico ni teórico",
+        "Comunicar resultados o decisiones de investigación de forma sistemática y trazable",
+        "Resumir textos aislados sin conectarlos con una pregunta propia",
+        "Presentar datos crudos o extensos anexos sin ningún análisis"
+      ],
+      "correctIndex": 1,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "escritura",
+      "subtema_label": "Escritura académica",
+      "feedback": {
+        "correcta": "¡Correcto! La escritura académica busca comunicar de manera clara, estructurada, argumentada y verificable el proceso y las decisiones de la investigación.",
+        "incorrecta": "Un trabajo académico no es un ensayo de opinión libre ni una acumulación de resúmenes sueltos: exige sistematicidad, coherencia y trazabilidad.",
+        "correct": "¡Correcto! La escritura académica busca comunicar de manera clara, estructurada, argumentada y verificable el proceso y las decisiones de la investigación.",
+        "incorrect": "Un trabajo académico no es un ensayo de opinión libre ni una acumulación de resúmenes sueltos: exige sistematicidad, coherencia y trazabilidad.",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m11-extra-01",
+      "tipo": "opcion_multiple",
+      "question": "Un estudiante toma un párrafo de un artículo científico, mantiene exactamente su estructura sintáctica original y solo cambia cuatro palabras por sinónimos usando un diccionario, sin comillas. En escritura académica (Clase 13), esto constituye:",
+      "options": [
+        "Una copia encubierta o falsa paráfrasis («patchwriting»), que vulnera la integridad académica",
+        "Una síntesis comparada de alto nivel recomendada por el manual APA 7",
+        "Una cita narrativa ejemplar que demuestra dominio conceptual",
+        "Un procedimiento válido siempre que se utilice el gestor bibliográfico Zotero"
+      ],
+      "correctIndex": 0,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "citacion",
+      "subtema_label": "Citación y Zotero",
+      "feedback": {
+        "correcta": "¡Exacto! Cambiar solo algunas palabras por sinónimos manteniendo el calco sintáctico del autor es una falsa paráfrasis (*patchwriting*). Parafrasear exige comprender la idea y explicarla con estructura propia más la cita correspondiente.",
+        "incorrecta": "Recuerda que la paráfrasis genuina no consiste en reemplazar palabras sueltas por sinónimos, sino en reformular la idea con tu propia estructura argumentativa y atribuir la fuente.",
+        "correct": "¡Exacto! Cambiar solo algunas palabras por sinónimos manteniendo el calco sintáctico del autor es una falsa paráfrasis (*patchwriting*). Parafrasear exige comprender la idea y explicarla con estructura propia más la cita correspondiente.",
+        "incorrect": "Recuerda que la paráfrasis genuina no consiste en reemplazar palabras sueltas por sinónimos, sino en reformular la idea con tu propia estructura argumentativa y atribuir la fuente.",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m11-extra-02",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál es el principio correcto respecto al uso del gestor bibliográfico **Zotero** en la preparación del borrador (Clase 13)?",
+      "options": [
+        "Zotero es un apoyo valioso para organizar y citar, pero el estudiante debe revisar y corregir manualmente los metadatos importados antes de entregar",
+        "Zotero garantiza al 100 % que ninguna referencia tenga errores de mayúsculas, autores o DOI, por lo que no requiere revisión humana",
+        "Zotero redacta automáticamente el marco teórico y decide cuáles son los vacíos de conocimiento del proyecto",
+        "Zotero solo sirve para libros impresos del siglo XX y no admite artículos con DOI"
+      ],
+      "correctIndex": 0,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "citacion",
+      "subtema_label": "Citación y Zotero",
+      "feedback": {
+        "correcta": "¡Muy bien! Como señala el Plan 2026, Zotero se usa como apoyo y no como garantía automática: los metadatos capturados de la web o de PDFs suelen requerir limpieza manual (autores, títulos, revista, DOI).",
+        "incorrecta": "Zotero facilita enormemente la citación, pero si el registro importado tiene errores de carga (ej. todo en mayúsculas o falta de revista), el programa reproducirá ese error a menos que lo verifiques.",
+        "correct": "¡Muy bien! Como señala el Plan 2026, Zotero se usa como apoyo y no como garantía automática: los metadatos capturados de la web o de PDFs suelen requerir limpieza manual (autores, títulos, revista, DOI).",
+        "incorrect": "Zotero facilita enormemente la citación, pero si el registro importado tiene errores de carga (ej. todo en mayúsculas o falta de revista), el programa reproducirá ese error a menos que lo verifiques.",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m11-extra-03",
+      "tipo": "opcion_multiple",
+      "question": "Al realizar la auditoría de correspondencia entre citas en el texto y lista final de Referencias en formato **APA 7**, ¿qué regla debe cumplirse sin excepción?",
+      "options": [
+        "Toda fuente citada en el texto debe aparecer en la lista de Referencias y toda entrada de la lista de Referencias debe haber sido citada en el texto",
+        "La lista de Referencias debe incluir al menos veinte libros adicionales que el autor nunca citó en el cuerpo del trabajo",
+        "Las citas parentéticas del texto solo llevan el nombre de pila del autor sin el año de publicación",
+        "Solo se incluyen en las Referencias las citas textuales con comillas, omitiendo las fuentes parafraseadas"
+      ],
+      "correctIndex": 0,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "apa",
+      "subtema_label": "Normas APA 7",
+      "feedback": {
+        "correcta": "¡Correcto! En APA 7 la correspondencia entre citas en el cuerpo del texto (tanto textuales como parafraseadas) y la lista final de Referencias es estrictamente biunívoca (1 a 1).",
+        "incorrecta": "En APA 7 no deben existir «citas huérfanas» (citadas en el texto pero ausentes al final) ni «referencias de relleno» (enlistadas al final pero jamás citadas en el texto).",
+        "correct": "¡Correcto! En APA 7 la correspondencia entre citas en el cuerpo del texto (tanto textuales como parafraseadas) y la lista final de Referencias es estrictamente biunívoca (1 a 1).",
+        "incorrect": "En APA 7 no deben existir «citas huérfanas» (citadas en el texto pero ausentes al final) ni «referencias de relleno» (enlistadas al final pero jamás citadas en el texto).",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m11-extra-04",
+      "tipo": "opcion_multiple",
+      "question": "En la Clase 13, una estudiante escribe su propio párrafo de síntesis y le pide a una herramienta de IA que «señale oraciones ambiguas o saltos lógicos sin reescribir el texto», decidiendo luego qué ajustes aplicar. ¿Qué debe hacer al entregar su trabajo?",
+      "options": [
+        "Incluir la declaración de uso de IA indicando herramienta, propósito (revisión diagnóstica de claridad), sección afectada, verificación y decisión final propia",
+        "Ocultar que utilizó la herramienta porque cualquier mención de IA anula automáticamente la entrega",
+        "Poner al chatbot como primer coautor del proyecto en la portada institucional",
+        "Sustituir sus fuentes verificadas por las que el chatbot invente en ese momento"
+      ],
+      "correctIndex": 0,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "ia_responsable",
+      "subtema_label": "IA responsable",
+      "feedback": {
+        "correcta": "¡Excelente! Usar IA para auditar claridad sobre un texto propio conservando la autoría y declarándolo de forma transparente cumple ejemplarmente con el protocolo de la asignatura.",
+        "incorrecta": "Un chatbot no puede ser autor ni debe ocultarse su uso cuando la asignatura pide declararlo: el uso ético para revisión diagnóstica es válido y se acompaña con la declaración mínima.",
+        "correct": "¡Excelente! Usar IA para auditar claridad sobre un texto propio conservando la autoría y declarándolo de forma transparente cumple ejemplarmente con el protocolo de la asignatura.",
+        "incorrect": "Un chatbot no puede ser autor ni debe ocultarse su uso cuando la asignatura pide declararlo: el uso ético para revisión diagnóstica es válido y se acompaña con la declaración mínima.",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m11-extra-05",
+      "tipo": "opcion_multiple",
+      "question": "Durante el taller de integración y preparación de defensa (Clase 14), al auditar el borrador completo se detecta que el objetivo general habla de **«burnout»**, el marco conceptual define **«estrés agudo»** y el instrumento mide **«depresión»**. ¿Cómo se clasifica esta corrección?",
+      "options": [
+        "Corrección esencial de alto impacto, porque rompe la cadena de coherencia estructural del proyecto",
+        "Corrección meramente editorial o estética que puede ignorarse hasta después de la defensa",
+        "Ventaja metodológica que demuestra variedad de vocabulario y uso de sinónimos elegantes",
+        "Detalle menor de formato que se soluciona cambiando el interlineado a doble espacio"
+      ],
+      "correctIndex": 0,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "escritura",
+      "subtema_label": "Escritura académica",
+      "feedback": {
+        "correcta": "¡Exacto! En terminología científica, cambiar el nombre del constructo entre secciones no es «riqueza estilística», sino ruptura de la cadena de coherencia (error esencial de alto impacto).",
+        "incorrecta": "En escritura literaria se buscan sinónimos para no repetir palabras; en metodología científica, en cambio, los constructos centrales deben nombrarse con total consistencia desde la pregunta hasta el instrumento.",
+        "correct": "¡Exacto! En terminología científica, cambiar el nombre del constructo entre secciones no es «riqueza estilística», sino ruptura de la cadena de coherencia (error esencial de alto impacto).",
+        "incorrect": "En escritura literaria se buscan sinónimos para no repetir palabras; en metodología científica, en cambio, los constructos centrales deben nombrarse con total consistencia desde la pregunta hasta el instrumento.",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m11-extra-06",
+      "tipo": "opcion_multiple",
+      "question": "¿Qué diferencia fundamental existe entre una **paráfrasis** de una fuente y una **síntesis** en la redacción del estado del arte?",
+      "options": [
+        "La paráfrasis reformula con palabras propias la idea de una fuente; la síntesis integra y pone en diálogo los aportes, coincidencias o tensiones de varias fuentes torno a un eje",
+        "La paráfrasis lleva cita en APA 7, mientras que la síntesis nunca debe citar a ningún autor",
+        "La paráfrasis solo se usa en estudios cualitativos y la síntesis solo en diseños experimentales",
+        "La síntesis consiste en copiar y pegar los resúmenes textuales de cinco artículos uno debajo del otro"
+      ],
+      "correctIndex": 0,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "citacion",
+      "subtema_label": "Citación y Zotero",
+      "feedback": {
+        "correcta": "¡Impecable! Mientras la paráfrasis trabaja sobre la comprensión y reformulación de un texto, la síntesis articula múltiples fuentes en torno a una idea rectora (convergencia, contraste, límites).",
+        "incorrecta": "Tanto la paráfrasis como la síntesis llevan citas APA 7: la diferencia es que la síntesis integra varias fuentes en diálogo temático en lugar de resumir un texto aislado.",
+        "correct": "¡Impecable! Mientras la paráfrasis trabaja sobre la comprensión y reformulación de un texto, la síntesis articula múltiples fuentes en torno a una idea rectora (convergencia, contraste, límites).",
+        "incorrect": "Tanto la paráfrasis como la síntesis llevan citas APA 7: la diferencia es que la síntesis integra varias fuentes en diálogo temático en lugar de resumir un texto aislado.",
+        "origen": "original"
+      }
+    }
+  ]
+}

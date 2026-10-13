@@ -1,0 +1,1830 @@
+{
+  "id": "m01",
+  "slug": "m01",
+  "number": 1,
+  "title": "El proceso de investigación científica",
+  "clase_2026": "1-2",
+  "titulo_clase_plan_2026": "Clase 1 — Presentación de la asignatura / Clase 2 — Mapa completo del proceso",
+  "etapa": "Etapa 1 · Fundamentos y Búsqueda",
+  "etapa_num": 1,
+  "icon": "🔬",
+  "proposito": "Clase 1: comprender objetivos, metodología *B-Learning*, evaluación y producto final. | Clase 2: visualizar el proceso desde la elección del tema hasta la presentación del borrador y reconocer sus relaciones no lineales.",
+  "subtemas": [
+    "ciencia",
+    "metodo_cientifico",
+    "enfoque_cientifico"
+  ],
+  "subtemas_labels": [
+    "Ciencia y conocimiento",
+    "Método científico",
+    "Enfoque científico"
+  ],
+  "resultados": [
+    "Clase 1 (Propósito): comprender objetivos, metodología *B-Learning*, evaluación y producto final.",
+    "Clase 2 (Propósito): visualizar el proceso desde la elección del tema hasta la presentación del borrador y reconocer sus relaciones no lineales."
+  ],
+  "resultados_rutas": null,
+  "videoId": "l9fdq7LPccE",
+  "readingFile": "assets/reading/1. Ciencia y el enfoque científico - Kerlinger y Lee.pdf",
+  "webReadingUrl": null,
+  "notebookUrl": "https://notebooklm.google.com/notebook/12f614b2-45f2-464b-9db1-92822bf468fb",
+  "resources": {
+    "videos": [
+      {
+        "videoId": "l9fdq7LPccE",
+        "title": "El método científico y el enfoque de la ciencia",
+        "badge": "Clases 1–2 · Fundamentos"
+      }
+    ],
+    "readings": [
+      {
+        "title": "Cap. 1: La ciencia y el enfoque científico (Kerlinger y Lee)",
+        "url": "assets/reading/1. Ciencia y el enfoque científico - Kerlinger y Lee.pdf",
+        "type": "pdf",
+        "description": "Lectura base sobre los métodos del conocimiento, visión estática y dinámica de la ciencia y objetivos de la investigación científica."
+      }
+    ],
+    "notebooks": [
+      {
+        "title": "Cuaderno IA · El método científico",
+        "url": "https://notebooklm.google.com/notebook/12f614b2-45f2-464b-9db1-92822bf468fb"
+      }
+    ]
+  },
+  "keyTakeaways": {
+    "title": "Cápsula Metodológica · Ciencia, Sentido Común y Proceso No Lineal",
+    "subtitle": "Kerlinger y Lee (Cap. 1) + Clases 1 y 2 del Plan 2026",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "5 diferencias clave entre Ciencia y Sentido Común (Kerlinger y Lee)",
+        "headers": [
+          "Dimensión",
+          "Sentido Común",
+          "Enfoque Científico"
+        ],
+        "rows": [
+          [
+            "Uso de esquemas conceptuales",
+            "Usa teorías implícitas, vagas o pintorescas sin cuestionarlas.",
+            "Construye estructuras teóricas explícitas y evalúa su consistencia interna."
+          ],
+          [
+            "Prueba de teorías e hipótesis",
+            "Selecciona evidencia que confirma sus creencias (sesgo de confirmación).",
+            "Somete sus hipótesis a pruebas sistemáticas y empíricas con riesgo de refutación."
+          ],
+          [
+            "Noción de control",
+            "Rara vez controla explicaciones alternativas o variables extrañas.",
+            "Descarta sistemáticamente variables extrañas que podrían explicar el fenómeno."
+          ],
+          [
+            "Búsqueda de relaciones",
+            "Se impresiona por coincidencias fortuitas o casos aislados.",
+            "Persigue relaciones sistemáticas, conscientes y controladas entre fenómenos."
+          ],
+          [
+            "Tipo de explicaciones",
+            "Acepta explicaciones metafísicas o no verificables.",
+            "Exige explicaciones observables, públicas y empíricamente contrastables."
+          ]
+        ]
+      },
+      {
+        "type": "cards",
+        "title": "Los 4 métodos del conocimiento (Charles S. Peirce)",
+        "items": [
+          {
+            "badge": "1. Tenacidad",
+            "title": "Aferrarse a lo que siempre se creyó",
+            "text": "Se sostiene una creencia por hábito o repetición frecuente, cerrándose a nueva evidencia."
+          },
+          {
+            "badge": "2. Autoridad",
+            "title": "Aceptar por el prestigio de la fuente",
+            "text": "Útil en la vida práctica, pero falible si la autoridad sustituye la verificación empírica."
+          },
+          {
+            "badge": "3. A priori (Intuición)",
+            "title": "\"Es evidente para la razón\"",
+            "text": "Proposiciones que parecen razonables por sí mismas, pero dos personas pueden intuir opuestos."
+          },
+          {
+            "badge": "4. Ciencia",
+            "title": "Autocorrección y control público",
+            "text": "Sus controles son independientes de nuestras creencias personales: la evidencia empírica manda."
+          }
+        ]
+      },
+      {
+        "type": "highlight",
+        "title": "Regla de oro del Plan 2026: El mapa del proyecto no es una escalera rígida",
+        "text": "Avanzar en la revisión de la literatura o diseñar el instrumento suele obligar a ajustar la delimitación del tema, afinar la pregunta o precisar los objetivos. Volver atrás para ganar coherencia no es un error: es el funcionamiento normal de la investigación científica."
+      }
+    ]
+  },
+  "capsula": {
+    "title": "Cápsula Metodológica · Ciencia, Sentido Común y Proceso No Lineal",
+    "subtitle": "Kerlinger y Lee (Cap. 1) + Clases 1 y 2 del Plan 2026",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "5 diferencias clave entre Ciencia y Sentido Común (Kerlinger y Lee)",
+        "headers": [
+          "Dimensión",
+          "Sentido Común",
+          "Enfoque Científico"
+        ],
+        "rows": [
+          [
+            "Uso de esquemas conceptuales",
+            "Usa teorías implícitas, vagas o pintorescas sin cuestionarlas.",
+            "Construye estructuras teóricas explícitas y evalúa su consistencia interna."
+          ],
+          [
+            "Prueba de teorías e hipótesis",
+            "Selecciona evidencia que confirma sus creencias (sesgo de confirmación).",
+            "Somete sus hipótesis a pruebas sistemáticas y empíricas con riesgo de refutación."
+          ],
+          [
+            "Noción de control",
+            "Rara vez controla explicaciones alternativas o variables extrañas.",
+            "Descarta sistemáticamente variables extrañas que podrían explicar el fenómeno."
+          ],
+          [
+            "Búsqueda de relaciones",
+            "Se impresiona por coincidencias fortuitas o casos aislados.",
+            "Persigue relaciones sistemáticas, conscientes y controladas entre fenómenos."
+          ],
+          [
+            "Tipo de explicaciones",
+            "Acepta explicaciones metafísicas o no verificables.",
+            "Exige explicaciones observables, públicas y empíricamente contrastables."
+          ]
+        ]
+      },
+      {
+        "type": "cards",
+        "title": "Los 4 métodos del conocimiento (Charles S. Peirce)",
+        "items": [
+          {
+            "badge": "1. Tenacidad",
+            "title": "Aferrarse a lo que siempre se creyó",
+            "text": "Se sostiene una creencia por hábito o repetición frecuente, cerrándose a nueva evidencia."
+          },
+          {
+            "badge": "2. Autoridad",
+            "title": "Aceptar por el prestigio de la fuente",
+            "text": "Útil en la vida práctica, pero falible si la autoridad sustituye la verificación empírica."
+          },
+          {
+            "badge": "3. A priori (Intuición)",
+            "title": "\"Es evidente para la razón\"",
+            "text": "Proposiciones que parecen razonables por sí mismas, pero dos personas pueden intuir opuestos."
+          },
+          {
+            "badge": "4. Ciencia",
+            "title": "Autocorrección y control público",
+            "text": "Sus controles son independientes de nuestras creencias personales: la evidencia empírica manda."
+          }
+        ]
+      },
+      {
+        "type": "highlight",
+        "title": "Regla de oro del Plan 2026: El mapa del proyecto no es una escalera rígida",
+        "text": "Avanzar en la revisión de la literatura o diseñar el instrumento suele obligar a ajustar la delimitación del tema, afinar la pregunta o precisar los objetivos. Volver atrás para ganar coherencia no es un error: es el funcionamiento normal de la investigación científica."
+      }
+    ]
+  },
+  "flipCards": [
+    {
+      "front": "¿Qué se entiende por ciencia?",
+      "back": "La ciencia es una forma sistemática de producir conocimiento mediante procedimientos controlados, públicos y fundamentados racionalmente.",
+      "tag": "Ciencia y conocimiento"
+    },
+    {
+      "front": "¿Qué es el método científico?",
+      "back": "Es un conjunto organizado de procedimientos lógicos y empíricos orientados a la producción de conocimiento válido y controlable.",
+      "tag": "Método científico"
+    },
+    {
+      "front": "Ciencia y sentido común",
+      "back": "El sentido común se basa en creencias no sistemáticas; la ciencia se apoya en procedimientos explícitos, controlados y verificables.",
+      "tag": "Enfoque científico"
+    },
+    {
+      "front": "Conocimiento científico",
+      "back": "Es un conocimiento provisional, sistemático, crítico y susceptible de revisión.",
+      "tag": "Ciencia y conocimiento"
+    },
+    {
+      "front": "Rol de la teoría en la ciencia",
+      "back": "La teoría orienta la observación, la formulación de problemas y la interpretación de los resultados.",
+      "tag": "Método científico"
+    },
+    {
+      "front": "¿Por qué el conocimiento científico es provisional?",
+      "back": "Porque está abierto a revisión a la luz de nueva evidencia o mejores explicaciones.",
+      "tag": "Enfoque científico"
+    },
+    {
+      "front": "Objetividad científica",
+      "back": "No implica ausencia de valores, sino control sistemático de sesgos mediante procedimientos metodológicos.",
+      "tag": "Ciencia y conocimiento"
+    },
+    {
+      "front": "Investigación científica",
+      "back": "Es un proceso planificado y riguroso orientado a responder preguntas mediante el uso del método científico.",
+      "tag": "Método científico"
+    },
+    {
+      "front": "Método científico y disciplina",
+      "back": "El método científico es común a las ciencias, pero se adapta a las características de cada disciplina.",
+      "tag": "Enfoque científico"
+    },
+    {
+      "front": "Error común sobre el método científico",
+      "back": "Creer que es una secuencia rígida e inmutable de pasos, cuando en realidad es un proceso flexible y lógico.",
+      "tag": "Ciencia y conocimiento"
+    }
+  ],
+  "miniCases": [
+    {
+      "id": "m01_c1",
+      "title": "Caso 1 · «En mi consultorio siempre funciona así»",
+      "context": "Psicología Clínica · Asunción",
+      "scenario": "Durante el primer taller de Metodología II, un estudiante propone investigar por qué la grafología permite detectar la honestidad laboral. Argumenta: «En la consultora donde trabajo lo usamos hace diez años y mi jefa, que tiene 25 años de experiencia, asegura que nunca falla. Además, es lógico que quien escribe inclinado hacia la derecha sea más extrovertido».",
+      "question": "Según la clasificación de Peirce y Kerlinger sobre los métodos del conocimiento, ¿en qué métodos se está apoyando el estudiante y qué exigiría el enfoque científico para abordar su afirmación?",
+      "hints": [
+        "Observa los tres argumentos que usa: «lo usamos hace diez años», «mi jefa con 25 años de experiencia lo asegura» y «es lógico que sea así».",
+        "Recuerda cómo distingue Kerlinger entre tenacidad, autoridad, método a priori y método científico."
+      ],
+      "analysis": "El estudiante combina tres métodos precientíficos: **tenacidad** («lo usamos hace diez años»), **autoridad** («mi jefa experta asegura que no falla») y el **método a priori o intuición** («es lógico que escribir inclinado indique extroversión»). Para pasar al **enfoque científico**, debería transformar esa creencia en una pregunta contrastable empíricamente, medir los rasgos de escritura y la honestidad/extroversión con instrumentos independientes y validados, controlar el sesgo de confirmación (evaluación a ciegas) y aceptar de antemano que los datos podrían refutar la creencia de la consultora.",
+      "keyConcept": "Métodos del conocimiento y control sistemático de sesgos"
+    },
+    {
+      "id": "m01_c2",
+      "title": "Caso 2 · El pánico a «retroceder» en el proyecto",
+      "context": "Psicología Educativa · Modalidad B-Learning",
+      "scenario": "Valeria eligió en la semana 2 estudiar «motivación académica en universitarios». Al leer tres artículos en la semana 4, descubre que la literatura distingue entre motivación intrínseca, extrínseca y amotivación, y que su pregunta original era demasiado ambigua. Preocupada, piensa: «Si cambio mi pregunta ahora, significa que hice todo mal porque el método científico es una secuencia lineal estricta».",
+      "question": "¿Es correcto el temor de Valeria? ¿Cómo se explica lo que le ocurre desde el mapa real del proceso de investigación?",
+      "hints": [
+        "Piensa en el propósito de la Clase 2 del Plan 2026: las relaciones no lineales entre las etapas.",
+        "¿La revisión de la literatura ocurre una sola vez y se cierra, o dialoga con el problema?"
+      ],
+      "analysis": "El temor de Valeria parte de un **mito frecuente**: creer que el método científico es una escalera rígida donde nunca se revisa un escalón anterior. En la práctica real de la investigación (Clase 2), el proceso es **iterativo y espiralado**: leer literatura permite descubrir distinciones conceptuales (como las dimensiones de la motivación en la Teoría de la Autodeterminación) que obligan a **revisar y precisar la delimitación y la pregunta**. Ajustar el problema a la luz de la teoría no es fracasar: es exactamente cómo se construye coherencia interna.",
+      "keyConcept": "Carácter iterativo y autocorrectivo del proceso de investigación"
+    },
+    {
+      "id": "m01_c3",
+      "title": "Caso 3 · Confundir levantar datos con diseñar un proyecto",
+      "context": "Psicología Social · Proyecto de cátedra",
+      "scenario": "Un grupo de estudiantes quiere salir mañana mismo a aplicar 100 encuestas sobre estrés en el transporte público porque «sin datos reales e inventados o recolectados ya no hay proyecto de investigación». Aún no han revisado qué teorías explican el estrés ambiental ni qué pregunta exacta buscan responder.",
+      "question": "¿Por qué salir a encuestar sin problema ni marco conceptual vulnera la lógica del proyecto de investigación en nuestra asignatura?",
+      "hints": [
+        "Revisa el rol de la teoría y del diseño en la producción de evidencia pertinente.",
+        "En Metodología II el producto integrador es un anteproyecto fundamentado y coherente."
+      ],
+      "analysis": "Salir a recoger datos a ciegas invierte la lógica científica: sin saber **qué se pregunta** ni **cómo se define el constructo**, cualquier cuestionario improvisado medirá impresiones de sentido común con alto riesgo de invalidez. Además, en nuestra cátedra el producto integrador es un **borrador de proyecto fundamentado y coherente** (no se exigen levantamientos precipitados ni jamás datos ficticios). Primero se construye la arquitectura lógica (literatura → problema → objetivos → variables → diseño → plan de muestreo, instrumentos y análisis).",
+      "keyConcept": "Primacía del diseño lógico y teórico sobre la recolección empírica"
+    }
+  ],
+  "simulation": {
+    "title": "Simulación 01 · Del mito cotidiano al planteamiento científico",
+    "context": "Eres integrante de un equipo de investigación en Psicología en la UNIBE. Una organización afirma que «escuchar música clásica durante 10 minutos antes de rendir garantiza aprobar cualquier examen universitario» y te pide avalarlo.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Paso 1 · Diagnosticar el tipo de afirmación inicial",
+        "prompt": "Antes de diseñar cualquier estudio, ¿cómo clasificas epistemológicamente la afirmación de la organización («garantiza aprobar porque un famoso divulgador lo dijo en televisión»)?",
+        "options": [
+          {
+            "text": "Es una teoría científica consolidada porque apela a una figura de autoridad reconocida en medios de comunicación.",
+            "isOptimal": false,
+            "feedback": "Cuidado: aceptar una afirmación por el prestigio mediático de quien la emite corresponde al método de autoridad (Peirce/Kerlinger), no al enfoque científico."
+          },
+          {
+            "text": "Es una creencia apoyada en el método de autoridad y el sentido común; para la ciencia es, a lo sumo, una conjetura que debe traducirse en una relación contrastable y refutable.",
+            "isOptimal": true,
+            "feedback": "¡Excelente! El enfoque científico exige someter las creencias a control empírico y formularlas de modo que puedan ser refutadas por los datos."
+          },
+          {
+            "text": "Es una verdad a priori evidente por sí misma que no requiere contrastación empírica.",
+            "isOptimal": false,
+            "feedback": "El método a priori se basa en lo que «parece razonable», pero la ciencia exige evidencia empírica sistemática y controlada."
+          }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "title": "Paso 2 · Incorporar la noción de control",
+        "prompt": "Un compañero propone: «Hagamos que 30 alumnos escuchen Mozart antes del parcial de Metodología; si la mayoría aprueba, queda probado». ¿Qué le respondes desde Kerlinger y Lee?",
+        "options": [
+          {
+            "text": "Que es un diseño perfecto porque tiene evidencia empírica directa de 30 estudiantes reales.",
+            "isOptimal": false,
+            "feedback": "Tener datos no basta si no hay control: esos 30 estudiantes podrían aprobar porque estudiaron toda la semana o porque el examen fue sencillo."
+          },
+          {
+            "text": "Que carece de control de explicaciones alternativas: sin comparar con condiciones equivalentes y sin controlar cuánto estudiaron, confundiremos el efecto de la música con otras variables extrañas.",
+            "isOptimal": true,
+            "feedback": "¡Exacto! Lo que distingue a la investigación científica del sentido común es el control sistemático de variables extrañas y explicaciones rivales."
+          },
+          {
+            "text": "Que la ciencia nunca utiliza observaciones empíricas, sino únicamente deducciones filosóficas.",
+            "isOptimal": false,
+            "feedback": "La ciencia articula el razonamiento teórico-lógico con la observación empírica controlada."
+          }
+        ]
+      },
+      {
+        "stepNumber": 3,
+        "title": "Paso 3 · Articular el proceso con la teoría",
+        "prompt": "Al revisar la literatura psicológica, descubres que el efecto de la música no actúa mágicamente sobre la memoria, sino regulando el nivel de activación fisiológica y ansiedad previa. ¿Qué haces con tu esquema inicial?",
+        "options": [
+          {
+            "text": "Ignoro esos estudios porque en el método científico está prohibido modificar la idea inicial una vez pensado el tema.",
+            "isOptimal": false,
+            "feedback": "Falso: el proceso de investigación es dinámico e iterativo; la teoría orienta qué variables observar y cómo precisar el problema."
+          },
+          {
+            "text": "Ajusto mi problema a la luz de la teoría, enfocando el estudio en la relación entre la escucha musical previa, la ansiedad estado y el desempeño en la prueba.",
+            "isOptimal": true,
+            "feedback": "¡Brillante! Has conectado teoría, reformulación no lineal del problema y control metodológico como un verdadero investigador."
+          }
+        ]
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": "m01-0001",
+      "tipo": "opcion_multiple",
+      "question": "La evidencia empírica se refiere a:",
+      "options": [
+        "Datos obtenidos a través de la observación",
+        "Suposiciones teóricas",
+        "Opiniones de expertos",
+        "Resultados no verificables"
+      ],
+      "correctIndex": 0,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "ciencia",
+      "subtema_label": "Ciencia y conocimiento",
+      "feedback": {
+        "correcta": "¡Correcto! «Datos obtenidos a través de la observación» es la respuesta adecuada. En el enfoque científico, la evidencia empírica proviene de observaciones y registros sistemáticos de la realidad que permiten contrastar las conjeturas teóricas.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Datos obtenidos a través de la observación». En el enfoque científico, la evidencia empírica proviene de observaciones y registros sistemáticos de la realidad que permiten contrastar las conjeturas teóricas. Distingue entre datos observables y verificables (evidencia empírica) frente a opiniones personales o suposiciones sin contrastar.",
+        "correct": "¡Correcto! «Datos obtenidos a través de la observación» es la respuesta adecuada. En el enfoque científico, la evidencia empírica proviene de observaciones y registros sistemáticos de la realidad que permiten contrastar las conjeturas teóricas.",
+        "incorrect": "No es correcto. La respuesta acertada es «Datos obtenidos a través de la observación». En el enfoque científico, la evidencia empírica proviene de observaciones y registros sistemáticos de la realidad que permiten contrastar las conjeturas teóricas. Distingue entre datos observables y verificables (evidencia empírica) frente a opiniones personales o suposiciones sin contrastar.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0002",
+      "tipo": "opcion_multiple",
+      "question": "¿Qué es una hipótesis?",
+      "options": [
+        "Una explicación probada",
+        "Una conjetura no comprobable",
+        "Una predicción tentativa y comprobable",
+        "Un conjunto de datos"
+      ],
+      "correctIndex": 2,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "ciencia",
+      "subtema_label": "Ciencia y conocimiento",
+      "feedback": {
+        "correcta": "¡Correcto! «Una predicción tentativa y comprobable» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Una predicción tentativa y comprobable». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Una predicción tentativa y comprobable» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Una predicción tentativa y comprobable». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0004",
+      "tipo": "opcion_multiple",
+      "question": "Una explicación provisional sobre un fenómeno basada en evidencia limitada se denomina:",
+      "options": [
+        "Hipótesis",
+        "Ley",
+        "Teoría",
+        "Fórmula"
+      ],
+      "correctIndex": 0,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "ciencia",
+      "subtema_label": "Ciencia y conocimiento",
+      "feedback": {
+        "correcta": "¡Correcto! «Hipótesis» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Hipótesis». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Hipótesis» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Hipótesis». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0005",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál característica asegura que los resultados experimentales puedan repetirse?",
+      "options": [
+        "Objetividad",
+        "Racionalidad",
+        "Reproducibilidad",
+        "Creatividad"
+      ],
+      "correctIndex": 2,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "ciencia",
+      "subtema_label": "Ciencia y conocimiento",
+      "feedback": {
+        "correcta": "¡Correcto! «Reproducibilidad» es la respuesta adecuada. La reproducibilidad y el carácter público de los procedimientos permiten que otros investigadores verifiquen de forma independiente los hallazgos.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Reproducibilidad». La reproducibilidad y el carácter público de los procedimientos permiten que otros investigadores verifiquen de forma independiente los hallazgos. Piensa en qué propiedad del método científico permite que otro equipo repita el procedimiento para comprobar los resultados.",
+        "correct": "¡Correcto! «Reproducibilidad» es la respuesta adecuada. La reproducibilidad y el carácter público de los procedimientos permiten que otros investigadores verifiquen de forma independiente los hallazgos.",
+        "incorrect": "No es correcto. La respuesta acertada es «Reproducibilidad». La reproducibilidad y el carácter público de los procedimientos permiten que otros investigadores verifiquen de forma independiente los hallazgos. Piensa en qué propiedad del método científico permite que otro equipo repita el procedimiento para comprobar los resultados.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0006",
+      "tipo": "verdadero_falso",
+      "question": "Un grupo de control es un componente opcional en el diseño experimental.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correctIndex": 1,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "ciencia",
+      "subtema_label": "Ciencia y conocimiento",
+      "feedback": {
+        "correcta": "¡Correcto! La afirmación es **Falso**. El grupo de control o comparación permite establecer qué habría ocurrido en ausencia de la intervención (X) y descartar explicaciones rivales como historia o maduración.",
+        "incorrecta": "Respuesta incorrecta (la opción correcta es **Falso**). El grupo de control o comparación permite establecer qué habría ocurrido en ausencia de la intervención (X) y descartar explicaciones rivales como historia o maduración. En el diseño experimental, comparar la condición tratada frente a un grupo control es indispensable para aislar el efecto de la variable independiente.",
+        "correct": "¡Correcto! La afirmación es **Falso**. El grupo de control o comparación permite establecer qué habría ocurrido en ausencia de la intervención (X) y descartar explicaciones rivales como historia o maduración.",
+        "incorrect": "Respuesta incorrecta (la opción correcta es **Falso**). El grupo de control o comparación permite establecer qué habría ocurrido en ausencia de la intervención (X) y descartar explicaciones rivales como historia o maduración. En el diseño experimental, comparar la condición tratada frente a un grupo control es indispensable para aislar el efecto de la variable independiente.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0008",
+      "tipo": "opcion_multiple",
+      "question": "Cuando los resultados de un experimento contradicen la hipótesis, el científico debe:",
+      "options": [
+        "Ignorar los resultados",
+        "Modificar la hipótesis y diseñar nuevos experimentos",
+        "Aceptar la hipótesis como cierta",
+        "Desechar el método científico"
+      ],
+      "correctIndex": 1,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "ciencia",
+      "subtema_label": "Ciencia y conocimiento",
+      "feedback": {
+        "correcta": "¡Correcto! «Modificar la hipótesis y diseñar nuevos experimentos» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Modificar la hipótesis y diseñar nuevos experimentos». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Modificar la hipótesis y diseñar nuevos experimentos» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Modificar la hipótesis y diseñar nuevos experimentos». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0009",
+      "tipo": "opcion_multiple",
+      "question": "El razonamiento que va de lo general a lo particular se llama:",
+      "options": [
+        "Inducción",
+        "Abducción",
+        "Deducción",
+        "Reducción"
+      ],
+      "correctIndex": 2,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "ciencia",
+      "subtema_label": "Ciencia y conocimiento",
+      "feedback": {
+        "correcta": "¡Correcto! «Deducción» es la respuesta adecuada. El razonamiento deductivo parte de principios o teorías generales para derivar consecuencias o hipótesis particulares contrastables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Deducción». El razonamiento deductivo parte de principios o teorías generales para derivar consecuencias o hipótesis particulares contrastables. Recuerda: de lo general (teoría) a lo particular (consecuencia observable) es deducción; de casos particulares a generalizaciones es inducción.",
+        "correct": "¡Correcto! «Deducción» es la respuesta adecuada. El razonamiento deductivo parte de principios o teorías generales para derivar consecuencias o hipótesis particulares contrastables.",
+        "incorrect": "No es correcto. La respuesta acertada es «Deducción». El razonamiento deductivo parte de principios o teorías generales para derivar consecuencias o hipótesis particulares contrastables. Recuerda: de lo general (teoría) a lo particular (consecuencia observable) es deducción; de casos particulares a generalizaciones es inducción.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0010",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál es la diferencia clave entre una teoría y una hipótesis?",
+      "options": [
+        "Una teoría es provisional y una hipótesis está bien sustentada",
+        "Una teoría es una explicación bien sustentada y una hipótesis es una conjetura provisional",
+        "No hay diferencia",
+        "Una hipótesis siempre es verdadera"
+      ],
+      "correctIndex": 1,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "ciencia",
+      "subtema_label": "Ciencia y conocimiento",
+      "feedback": {
+        "correcta": "¡Correcto! «Una teoría es una explicación bien sustentada y una hipótesis es una conjetura provisional» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Una teoría es una explicación bien sustentada y una hipótesis es una conjetura provisional». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Una teoría es una explicación bien sustentada y una hipótesis es una conjetura provisional» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Una teoría es una explicación bien sustentada y una hipótesis es una conjetura provisional». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0011",
+      "tipo": "opcion_multiple",
+      "question": "La afirmación 'Todos los cisnes son blancos; tras observar cisnes negros se revisa esta afirmación' ilustra el principio de:",
+      "options": [
+        "Verificación",
+        "Falsabilidad",
+        "Coherencia",
+        "Causalidad"
+      ],
+      "correctIndex": 1,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "ciencia",
+      "subtema_label": "Ciencia y conocimiento",
+      "feedback": {
+        "correcta": "¡Correcto! «Falsabilidad» es la respuesta adecuada. Para que una proposición sea científica debe ser falsable o contrastable: debe existir alguna observación empírica posible capaz de refutarla si fuera falsa.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Falsabilidad». Para que una proposición sea científica debe ser falsable o contrastable: debe existir alguna observación empírica posible capaz de refutarla si fuera falsa. Una afirmación que se acomoda a cualquier resultado y nunca puede ponerse a prueba empírica no cumple el criterio de contrastabilidad.",
+        "correct": "¡Correcto! «Falsabilidad» es la respuesta adecuada. Para que una proposición sea científica debe ser falsable o contrastable: debe existir alguna observación empírica posible capaz de refutarla si fuera falsa.",
+        "incorrect": "No es correcto. La respuesta acertada es «Falsabilidad». Para que una proposición sea científica debe ser falsable o contrastable: debe existir alguna observación empírica posible capaz de refutarla si fuera falsa. Una afirmación que se acomoda a cualquier resultado y nunca puede ponerse a prueba empírica no cumple el criterio de contrastabilidad.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0012",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál es una de las funciones primarias de la ciencia, según Braithwaite?",
+      "options": [
+        "Establecer leyes generales sobre el comportamiento de eventos empíricos",
+        "Desarrollar tecnología avanzada para la humanidad",
+        "Confirmar las creencias establecidas por la sociedad",
+        "Preservar el conocimiento existente sin cuestionarlo"
+      ],
+      "correctIndex": 0,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "ciencia",
+      "subtema_label": "Ciencia y conocimiento",
+      "feedback": {
+        "correcta": "¡Correcto! «Establecer leyes generales sobre el comportamiento de eventos empíricos» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Establecer leyes generales sobre el comportamiento de eventos empíricos». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Establecer leyes generales sobre el comportamiento de eventos empíricos» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Establecer leyes generales sobre el comportamiento de eventos empíricos». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0013",
+      "tipo": "opcion_multiple",
+      "question": "¿Cómo se diferencia la visión dinámica de la ciencia de la visión estática?",
+      "options": [
+        "La visión dinámica se enfoca en la acumulación de hechos",
+        "La visión dinámica considera la ciencia como una actividad de descubrimiento continuo",
+        "La visión estática enfatiza la resolución de problemas",
+        "La visión estática promueve el cambio constante en los métodos científicos"
+      ],
+      "correctIndex": 1,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "ciencia",
+      "subtema_label": "Ciencia y conocimiento",
+      "feedback": {
+        "correcta": "¡Correcto! «La visión dinámica considera la ciencia como una actividad de descubrimiento continuo» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «La visión dinámica considera la ciencia como una actividad de descubrimiento continuo». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «La visión dinámica considera la ciencia como una actividad de descubrimiento continuo» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «La visión dinámica considera la ciencia como una actividad de descubrimiento continuo». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0014",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál de las siguientes NO es una función de la ciencia según el enfoque dinámico?",
+      "options": [
+        "Descubrir nuevos hechos",
+        "Elaborar teorías",
+        "Mantener la estabilidad del conocimiento existente",
+        "Generar descubrimientos futuros"
+      ],
+      "correctIndex": 2,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "ciencia",
+      "subtema_label": "Ciencia y conocimiento",
+      "feedback": {
+        "correcta": "¡Correcto! «Mantener la estabilidad del conocimiento existente» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Mantener la estabilidad del conocimiento existente». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Mantener la estabilidad del conocimiento existente» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Mantener la estabilidad del conocimiento existente». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0015",
+      "tipo": "opcion_multiple",
+      "question": "Según el texto, ¿qué perspectiva ve a la ciencia como un conjunto de teorías y leyes actuales que explican los fenómenos observados?",
+      "options": [
+        "Perspectiva heurística",
+        "Perspectiva sociohistórica",
+        "Perspectiva estática",
+        "Perspectiva empírica"
+      ],
+      "correctIndex": 2,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "ciencia",
+      "subtema_label": "Ciencia y conocimiento",
+      "feedback": {
+        "correcta": "¡Correcto! «Perspectiva estática» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Perspectiva estática». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Perspectiva estática» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Perspectiva estática». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0016",
+      "tipo": "opcion_multiple",
+      "question": "¿Qué visión de la ciencia se caracteriza por enfatizar la resolución creativa de problemas?",
+      "options": [
+        "Visión estática",
+        "Visión tecnológica",
+        "Visión heurística",
+        "Visión convencional"
+      ],
+      "correctIndex": 2,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "ciencia",
+      "subtema_label": "Ciencia y conocimiento",
+      "feedback": {
+        "correcta": "¡Correcto! «Visión heurística» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Visión heurística». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Visión heurística» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Visión heurística». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0017",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál de las siguientes es una característica de la investigación científica?",
+      "options": [
+        "Es amoral y pública",
+        "Se basa en suposiciones no verificables",
+        "Es una búsqueda desorganizada",
+        "Depende de la intuición y la tradición"
+      ],
+      "correctIndex": 0,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "ciencia",
+      "subtema_label": "Ciencia y conocimiento",
+      "feedback": {
+        "correcta": "¡Correcto! «Es amoral y pública» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Es amoral y pública». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Es amoral y pública» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Es amoral y pública». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0018",
+      "tipo": "opcion_multiple",
+      "question": "Según Kerlinger, ¿qué implica que la investigación científica sea empírica?",
+      "options": [
+        "Que se basa en creencias establecidas",
+        "Que depende de la observación y pruebas independientes",
+        "Que se enfoca únicamente en el conocimiento teórico",
+        "Que se realiza sin control ni orden"
+      ],
+      "correctIndex": 1,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "ciencia",
+      "subtema_label": "Ciencia y conocimiento",
+      "feedback": {
+        "correcta": "¡Correcto! «Que depende de la observación y pruebas independientes» es la respuesta adecuada. En el enfoque científico, la evidencia empírica proviene de observaciones y registros sistemáticos de la realidad que permiten contrastar las conjeturas teóricas.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Que depende de la observación y pruebas independientes». En el enfoque científico, la evidencia empírica proviene de observaciones y registros sistemáticos de la realidad que permiten contrastar las conjeturas teóricas. Distingue entre datos observables y verificables (evidencia empírica) frente a opiniones personales o suposiciones sin contrastar.",
+        "correct": "¡Correcto! «Que depende de la observación y pruebas independientes» es la respuesta adecuada. En el enfoque científico, la evidencia empírica proviene de observaciones y registros sistemáticos de la realidad que permiten contrastar las conjeturas teóricas.",
+        "incorrect": "No es correcto. La respuesta acertada es «Que depende de la observación y pruebas independientes». En el enfoque científico, la evidencia empírica proviene de observaciones y registros sistemáticos de la realidad que permiten contrastar las conjeturas teóricas. Distingue entre datos observables y verificables (evidencia empírica) frente a opiniones personales o suposiciones sin contrastar.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0019",
+      "tipo": "opcion_multiple",
+      "question": "¿Qué significa que la investigación científica sea \"controlada\"?",
+      "options": [
+        "Que sigue procedimientos ordenados para aumentar la confianza en los resultados",
+        "Que depende de la autoridad de expertos",
+        "Que se basa en la repetición de experimentos sin variación",
+        "Que evita el uso de cualquier tecnología avanzada"
+      ],
+      "correctIndex": 0,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "ciencia",
+      "subtema_label": "Ciencia y conocimiento",
+      "feedback": {
+        "correcta": "¡Correcto! «Que sigue procedimientos ordenados para aumentar la confianza en los resultados» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Que sigue procedimientos ordenados para aumentar la confianza en los resultados». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Que sigue procedimientos ordenados para aumentar la confianza en los resultados» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Que sigue procedimientos ordenados para aumentar la confianza en los resultados». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0020",
+      "tipo": "opcion_multiple",
+      "question": "¿Qué papel juega la teoría en la investigación científica?",
+      "options": [
+        "Es una base opcional que no se utiliza en todos los estudios",
+        "Sirve como guía para formular hipótesis y dirigir la investigación",
+        "Es un conjunto de creencias a ser confirmadas",
+        "Es la última fase del proceso de investigación"
+      ],
+      "correctIndex": 1,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "ciencia",
+      "subtema_label": "Ciencia y conocimiento",
+      "feedback": {
+        "correcta": "¡Correcto! «Sirve como guía para formular hipótesis y dirigir la investigación» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Sirve como guía para formular hipótesis y dirigir la investigación». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Sirve como guía para formular hipótesis y dirigir la investigación» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Sirve como guía para formular hipótesis y dirigir la investigación». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0021",
+      "tipo": "opcion_multiple",
+      "question": "¿Qué significa que la investigación científica es crítica?",
+      "options": [
+        "Que juzga los resultados en términos de moralidad",
+        "Que evalúa constantemente la validez y confiabilidad de los resultados",
+        "Que depende de opiniones subjetivas",
+        "Que se realiza de manera superficial y rápida"
+      ],
+      "correctIndex": 1,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "ciencia",
+      "subtema_label": "Ciencia y conocimiento",
+      "feedback": {
+        "correcta": "¡Correcto! «Que evalúa constantemente la validez y confiabilidad de los resultados» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Que evalúa constantemente la validez y confiabilidad de los resultados». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Que evalúa constantemente la validez y confiabilidad de los resultados» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Que evalúa constantemente la validez y confiabilidad de los resultados». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0022",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál es el objetivo básico de la ciencia según el texto?",
+      "options": [
+        "El desarrollo de tecnología avanzada",
+        "La acumulación de datos",
+        "La formulación de teorías",
+        "El mejoramiento de la humanidad"
+      ],
+      "correctIndex": 2,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "ciencia",
+      "subtema_label": "Ciencia y conocimiento",
+      "feedback": {
+        "correcta": "¡Correcto! «La formulación de teorías» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «La formulación de teorías». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «La formulación de teorías» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «La formulación de teorías». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0023",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál de los siguientes es considerado un subobjetivo de la ciencia?",
+      "options": [
+        "Generación de teorías",
+        "Explicación y comprensión de fenómenos",
+        "Creación de tecnología",
+        "Conservación de conocimientos tradicionales"
+      ],
+      "correctIndex": 1,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "ciencia",
+      "subtema_label": "Ciencia y conocimiento",
+      "feedback": {
+        "correcta": "¡Correcto! «Explicación y comprensión de fenómenos» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Explicación y comprensión de fenómenos». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Explicación y comprensión de fenómenos» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Explicación y comprensión de fenómenos». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0024",
+      "tipo": "opcion_multiple",
+      "question": "Según Kerlinger, una buena teoría debe ser:",
+      "options": [
+        "Simple y no refutable",
+        "Compleja y específica",
+        "General y aplicable a muchos fenómenos",
+        "Basada en creencias a priori"
+      ],
+      "correctIndex": 2,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "ciencia",
+      "subtema_label": "Ciencia y conocimiento",
+      "feedback": {
+        "correcta": "¡Correcto! «General y aplicable a muchos fenómenos» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «General y aplicable a muchos fenómenos». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «General y aplicable a muchos fenómenos» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «General y aplicable a muchos fenómenos». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0025",
+      "tipo": "opcion_multiple",
+      "question": "¿Qué es lo que distingue a una teoría en el contexto científico?",
+      "options": [
+        "Su simplicidad",
+        "Su capacidad de generar predicciones comprobables",
+        "Su aceptación social",
+        "Su alineación con creencias religiosas"
+      ],
+      "correctIndex": 1,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "ciencia",
+      "subtema_label": "Ciencia y conocimiento",
+      "feedback": {
+        "correcta": "¡Correcto! «Su capacidad de generar predicciones comprobables» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Su capacidad de generar predicciones comprobables». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Su capacidad de generar predicciones comprobables» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Su capacidad de generar predicciones comprobables». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0026",
+      "tipo": "opcion_multiple",
+      "question": "¿Por qué se considera la teoría el objetivo final de la ciencia?",
+      "options": [
+        "Porque es la manera más rápida de obtener resultados",
+        "Porque proporciona explicaciones generales y predicciones",
+        "Porque acumula hechos sin un orden específico",
+        "Porque representa la opinión mayoritaria de los científicos"
+      ],
+      "correctIndex": 1,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "ciencia",
+      "subtema_label": "Ciencia y conocimiento",
+      "feedback": {
+        "correcta": "¡Correcto! «Porque proporciona explicaciones generales y predicciones» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Porque proporciona explicaciones generales y predicciones». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Porque proporciona explicaciones generales y predicciones» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Porque proporciona explicaciones generales y predicciones». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0027",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál es una de las características fundamentales de la investigación científica según Kerlinger?",
+      "options": [
+        "La investigación científica es acumulativa y autorreflexiva.",
+        "La investigación científica se basa en suposiciones filosóficas.",
+        "La investigación científica no requiere pruebas empíricas.",
+        "La investigación científica se basa solo en deducciones lógicas."
+      ],
+      "correctIndex": 0,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "ciencia",
+      "subtema_label": "Ciencia y conocimiento",
+      "feedback": {
+        "correcta": "¡Correcto! «La investigación científica es acumulativa y autorreflexiva.» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «La investigación científica es acumulativa y autorreflexiva.». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «La investigación científica es acumulativa y autorreflexiva.» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «La investigación científica es acumulativa y autorreflexiva.». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0028",
+      "tipo": "opcion_multiple",
+      "question": "¿Qué función tiene el experimento en la investigación científica según Kerlinger?",
+      "options": [
+        "Es un proceso mediante el cual se prueban hipótesis formuladas.",
+        "Se utiliza solo para observar fenómenos naturales sin intervención.",
+        "Es una técnica utilizada solo en investigaciones cualitativas.",
+        "Se realiza al final de la investigación como verificación."
+      ],
+      "correctIndex": 0,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "ciencia",
+      "subtema_label": "Ciencia y conocimiento",
+      "feedback": {
+        "correcta": "¡Correcto! «Es un proceso mediante el cual se prueban hipótesis formuladas.» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Es un proceso mediante el cual se prueban hipótesis formuladas.». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Es un proceso mediante el cual se prueban hipótesis formuladas.» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Es un proceso mediante el cual se prueban hipótesis formuladas.». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0029",
+      "tipo": "opcion_multiple",
+      "question": "Según Kerlinger, ¿cuál de las siguientes afirmaciones describe mejor el rol del problema en la investigación científica?",
+      "options": [
+        "El problema es simplemente un obstáculo que debe ser superado.",
+        "El problema es la base que guía el desarrollo de la investigación.",
+        "El problema puede ser ignorado si no es relevante.",
+        "El problema siempre está basado en observaciones subjetivas."
+      ],
+      "correctIndex": 1,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "ciencia",
+      "subtema_label": "Ciencia y conocimiento",
+      "feedback": {
+        "correcta": "¡Correcto! «El problema es la base que guía el desarrollo de la investigación.» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «El problema es la base que guía el desarrollo de la investigación.». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «El problema es la base que guía el desarrollo de la investigación.» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «El problema es la base que guía el desarrollo de la investigación.». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0030",
+      "tipo": "opcion_multiple",
+      "question": "¿Por qué el conocimiento científico es público?",
+      "options": [
+        "Porque pertenece al Estado",
+        "Porque puede ser comunicado y evaluado por otros",
+        "Porque no tiene autores",
+        "Porque es de acceso gratuito"
+      ],
+      "correctIndex": 1,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "ciencia",
+      "subtema_label": "Ciencia y conocimiento",
+      "feedback": {
+        "correcta": "Correcto. El conocimiento científico debe ser comunicable y evaluable.",
+        "incorrecta": "Pensá en el carácter social de la ciencia. La opción correcta es: «Porque puede ser comunicado y evaluado por otros».",
+        "correct": "Correcto. El conocimiento científico debe ser comunicable y evaluable.",
+        "incorrect": "Pensá en el carácter social de la ciencia. La opción correcta es: «Porque puede ser comunicado y evaluado por otros».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m01-0031",
+      "tipo": "opcion_multiple",
+      "question": "Investigar científicamente implica:",
+      "options": [
+        "Confirmar creencias previas",
+        "Aplicar procedimientos sistemáticos para responder preguntas",
+        "Repetir estudios sin cuestionarlos",
+        "Evitar la teoría"
+      ],
+      "correctIndex": 1,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "ciencia",
+      "subtema_label": "Ciencia y conocimiento",
+      "feedback": {
+        "correcta": "Correcto. La investigación busca responder preguntas de forma sistemática.",
+        "incorrecta": "Pensá en el propósito central de la investigación. La opción correcta es: «Aplicar procedimientos sistemáticos para responder preguntas».",
+        "correct": "Correcto. La investigación busca responder preguntas de forma sistemática.",
+        "incorrect": "Pensá en el propósito central de la investigación. La opción correcta es: «Aplicar procedimientos sistemáticos para responder preguntas».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m01-0032",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál es el primer paso en el enfoque científico según Dewey?",
+      "options": [
+        "Observación",
+        "Planteamiento del problema",
+        "Formulación de la hipótesis",
+        "Prueba experimental"
+      ],
+      "correctIndex": 1,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "enfoque_cientifico",
+      "subtema_label": "Enfoque científico",
+      "feedback": {
+        "correcta": "¡Correcto! «Planteamiento del problema» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Planteamiento del problema». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Planteamiento del problema» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Planteamiento del problema». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0033",
+      "tipo": "opcion_multiple",
+      "question": "¿Qué es una hipótesis en el contexto del enfoque científico?",
+      "options": [
+        "Una creencia inmutable",
+        "Una proposición tentativa sobre la relación entre fenómenos",
+        "Un hecho establecido por la autoridad científica",
+        "Una conjetura sin base empírica"
+      ],
+      "correctIndex": 1,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "enfoque_cientifico",
+      "subtema_label": "Enfoque científico",
+      "feedback": {
+        "correcta": "¡Correcto! «Una proposición tentativa sobre la relación entre fenómenos» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Una proposición tentativa sobre la relación entre fenómenos». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Una proposición tentativa sobre la relación entre fenómenos» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Una proposición tentativa sobre la relación entre fenómenos». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0034",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál de las siguientes actividades es parte del proceso de razonamiento-deducción en el enfoque científico?",
+      "options": [
+        "Confirmación de creencias establecidas",
+        "Inferencia de consecuencias de una hipótesis formulada",
+        "Uso de suposiciones intuitivas para desarrollar teorías",
+        "Observación pasiva de fenómenos"
+      ],
+      "correctIndex": 1,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "enfoque_cientifico",
+      "subtema_label": "Enfoque científico",
+      "feedback": {
+        "correcta": "¡Correcto! «Inferencia de consecuencias de una hipótesis formulada» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Inferencia de consecuencias de una hipótesis formulada». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Inferencia de consecuencias de una hipótesis formulada» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Inferencia de consecuencias de una hipótesis formulada». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0035",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál es el propósito principal de la fase de observación-prueba-experimento en el enfoque científico?",
+      "options": [
+        "Confirmar todas las hipótesis",
+        "Evaluar empíricamente la relación entre variables",
+        "Recoger datos sin un objetivo claro",
+        "Evitar cualquier tipo de error experimental"
+      ],
+      "correctIndex": 1,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "enfoque_cientifico",
+      "subtema_label": "Enfoque científico",
+      "feedback": {
+        "correcta": "¡Correcto! «Evaluar empíricamente la relación entre variables» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Evaluar empíricamente la relación entre variables». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Evaluar empíricamente la relación entre variables» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Evaluar empíricamente la relación entre variables». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0036",
+      "tipo": "opcion_multiple",
+      "question": "¿Qué rol juega la retroalimentación en el enfoque científico?",
+      "options": [
+        "Rechazar hipótesis no populares",
+        "Ajustar teorías y problemas de acuerdo con los resultados",
+        "Confirmar creencias preexistentes",
+        "Asegurar que el método utilizado sea siempre el mismo"
+      ],
+      "correctIndex": 1,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "enfoque_cientifico",
+      "subtema_label": "Enfoque científico",
+      "feedback": {
+        "correcta": "¡Correcto! «Ajustar teorías y problemas de acuerdo con los resultados» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Ajustar teorías y problemas de acuerdo con los resultados». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Ajustar teorías y problemas de acuerdo con los resultados» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Ajustar teorías y problemas de acuerdo con los resultados». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0037",
+      "tipo": "opcion_multiple",
+      "question": "¿Cómo se aplica el “enfoque científico” en la investigación?",
+      "options": [
+        "A través de la observación subjetiva de fenómenos.",
+        "Mediante la recolección de datos y su análisis sistemático.",
+        "A través de la interpretación personal de los resultados.",
+        "Usando exclusivamente métodos deductivos."
+      ],
+      "correctIndex": 1,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "enfoque_cientifico",
+      "subtema_label": "Enfoque científico",
+      "feedback": {
+        "correcta": "¡Correcto! «Mediante la recolección de datos y su análisis sistemático.» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Mediante la recolección de datos y su análisis sistemático.». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Mediante la recolección de datos y su análisis sistemático.» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Mediante la recolección de datos y su análisis sistemático.». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0038",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál es una característica central del conocimiento científico?",
+      "options": [
+        "Es definitivo e incuestionable",
+        "Es provisional y revisable",
+        "Depende del sentido común",
+        "No requiere fundamentación teórica"
+      ],
+      "correctIndex": 1,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "enfoque_cientifico",
+      "subtema_label": "Enfoque científico",
+      "feedback": {
+        "correcta": "Correcto. El conocimiento científico es siempre provisional y abierto a revisión.",
+        "incorrecta": "Revisá las características del conocimiento científico según Kerlinger. La opción correcta es: «Es provisional y revisable».",
+        "correct": "Correcto. El conocimiento científico es siempre provisional y abierto a revisión.",
+        "incorrect": "Revisá las características del conocimiento científico según Kerlinger. La opción correcta es: «Es provisional y revisable».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m01-0039",
+      "tipo": "opcion_multiple",
+      "question": "¿Qué distingue principalmente a la ciencia del sentido común?",
+      "options": [
+        "El uso exclusivo de estadísticas",
+        "La sistematicidad y el control metodológico",
+        "La intuición del investigador",
+        "La ausencia de teoría"
+      ],
+      "correctIndex": 1,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "enfoque_cientifico",
+      "subtema_label": "Enfoque científico",
+      "feedback": {
+        "correcta": "Exacto. La ciencia se distingue por su método y control sistemático.",
+        "incorrecta": "Pensá en cómo se produce el conocimiento en ciencia. La opción correcta es: «La sistematicidad y el control metodológico».",
+        "correct": "Exacto. La ciencia se distingue por su método y control sistemático.",
+        "incorrect": "Pensá en cómo se produce el conocimiento en ciencia. La opción correcta es: «La sistematicidad y el control metodológico».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m01-0040",
+      "tipo": "opcion_multiple",
+      "question": "La objetividad científica se refiere principalmente a:",
+      "options": [
+        "La neutralidad absoluta del investigador",
+        "El control de sesgos mediante métodos explícitos",
+        "La eliminación de valores personales",
+        "La ausencia de interpretación"
+      ],
+      "correctIndex": 1,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "enfoque_cientifico",
+      "subtema_label": "Enfoque científico",
+      "feedback": {
+        "correcta": "Exacto. La objetividad se construye mediante controles metodológicos.",
+        "incorrecta": "La objetividad no implica ausencia total de valores. La opción correcta es: «El control de sesgos mediante métodos explícitos».",
+        "correct": "Exacto. La objetividad se construye mediante controles metodológicos.",
+        "incorrect": "La objetividad no implica ausencia total de valores. La opción correcta es: «El control de sesgos mediante métodos explícitos».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m01-0041",
+      "tipo": "opcion_multiple",
+      "question": "Desde el enfoque científico, conocer implica:",
+      "options": [
+        "Opinar con fundamento personal",
+        "Describir fenómenos sin teoría",
+        "Explicar fenómenos mediante métodos controlados",
+        "Aceptar afirmaciones por autoridad"
+      ],
+      "correctIndex": 2,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "enfoque_cientifico",
+      "subtema_label": "Enfoque científico",
+      "feedback": {
+        "correcta": "Muy bien. Conocer científicamente implica explicar con métodos controlados.",
+        "incorrecta": "Pensá en la relación entre explicación y método. La opción correcta es: «Explicar fenómenos mediante métodos controlados».",
+        "correct": "Muy bien. Conocer científicamente implica explicar con métodos controlados.",
+        "incorrect": "Pensá en la relación entre explicación y método. La opción correcta es: «Explicar fenómenos mediante métodos controlados».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m01-0042",
+      "tipo": "opcion_multiple",
+      "question": "En el método científico, la observación se utiliza para:",
+      "options": [
+        "Crear teorías",
+        "Recoger evidencia empírica",
+        "Publicar resultados",
+        "Rechazar hipótesis"
+      ],
+      "correctIndex": 1,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "metodo_cientifico",
+      "subtema_label": "Método científico",
+      "feedback": {
+        "correcta": "¡Correcto! «Recoger evidencia empírica» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Recoger evidencia empírica». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Recoger evidencia empírica» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Recoger evidencia empírica». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0043",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál de las siguientes NO es una característica del método científico?",
+      "options": [
+        "Objetividad",
+        "Sistematicidad",
+        "Subjetividad",
+        "Reproducibilidad"
+      ],
+      "correctIndex": 2,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "metodo_cientifico",
+      "subtema_label": "Método científico",
+      "feedback": {
+        "correcta": "¡Correcto! «Subjetividad» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Subjetividad». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Subjetividad» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Subjetividad». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0045",
+      "tipo": "verdadero_falso",
+      "question": "El paso final del método científico incluye comunicar resultados.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correctIndex": 0,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "metodo_cientifico",
+      "subtema_label": "Método científico",
+      "feedback": {
+        "correcta": "¡Correcto! La afirmación es **Verdadero**. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "Respuesta incorrecta (la opción correcta es **Verdadero**). El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! La afirmación es **Verdadero**. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "Respuesta incorrecta (la opción correcta es **Verdadero**). El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0046",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál es el primer paso del método científico?",
+      "options": [
+        "Hipótesis",
+        "Conclusión",
+        "Observación",
+        "Análisis"
+      ],
+      "correctIndex": 2,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "metodo_cientifico",
+      "subtema_label": "Método científico",
+      "feedback": {
+        "correcta": "¡Correcto! «Observación» es la respuesta adecuada. En el enfoque científico, la evidencia empírica proviene de observaciones y registros sistemáticos de la realidad que permiten contrastar las conjeturas teóricas.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Observación». En el enfoque científico, la evidencia empírica proviene de observaciones y registros sistemáticos de la realidad que permiten contrastar las conjeturas teóricas. Distingue entre datos observables y verificables (evidencia empírica) frente a opiniones personales o suposiciones sin contrastar.",
+        "correct": "¡Correcto! «Observación» es la respuesta adecuada. En el enfoque científico, la evidencia empírica proviene de observaciones y registros sistemáticos de la realidad que permiten contrastar las conjeturas teóricas.",
+        "incorrect": "No es correcto. La respuesta acertada es «Observación». En el enfoque científico, la evidencia empírica proviene de observaciones y registros sistemáticos de la realidad que permiten contrastar las conjeturas teóricas. Distingue entre datos observables y verificables (evidencia empírica) frente a opiniones personales o suposiciones sin contrastar.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0047",
+      "tipo": "opcion_multiple",
+      "question": "¿En qué paso del método científico se generan predicciones comprobables?",
+      "options": [
+        "Observación",
+        "Hipótesis",
+        "Experimentación",
+        "Conclusión"
+      ],
+      "correctIndex": 1,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "metodo_cientifico",
+      "subtema_label": "Método científico",
+      "feedback": {
+        "correcta": "¡Correcto! «Hipótesis» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Hipótesis». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Hipótesis» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Hipótesis». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0048",
+      "tipo": "opcion_multiple",
+      "question": "¿Qué paso sigue después del análisis de datos en el método científico?",
+      "options": [
+        "Hipótesis",
+        "Observación",
+        "Conclusión",
+        "Experimentación"
+      ],
+      "correctIndex": 2,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "metodo_cientifico",
+      "subtema_label": "Método científico",
+      "feedback": {
+        "correcta": "¡Correcto! «Conclusión» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Conclusión». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Conclusión» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Conclusión». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0049",
+      "tipo": "opcion_multiple",
+      "question": "¿Qué paso asegura que los datos se organizan para su interpretación?",
+      "options": [
+        "Hipótesis",
+        "Experimentación",
+        "Análisis",
+        "Conclusión"
+      ],
+      "correctIndex": 2,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "metodo_cientifico",
+      "subtema_label": "Método científico",
+      "feedback": {
+        "correcta": "¡Correcto! «Análisis» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Análisis». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Análisis» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Análisis». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0050",
+      "tipo": "opcion_multiple",
+      "question": "El razonamiento que va de observaciones específicas a principios generales se denomina:",
+      "options": [
+        "Inducción",
+        "Deducción",
+        "Reducción",
+        "Sinergia"
+      ],
+      "correctIndex": 0,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "metodo_cientifico",
+      "subtema_label": "Método científico",
+      "feedback": {
+        "correcta": "¡Correcto! «Inducción» es la respuesta adecuada. El razonamiento inductivo parte de la observación de casos particulares para formular regularidades o generalizaciones empíricas.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Inducción». El razonamiento inductivo parte de la observación de casos particulares para formular regularidades o generalizaciones empíricas. Distingue la dirección del razonamiento: partir de observaciones singulares hacia patrones generales corresponde a la inducción.",
+        "correct": "¡Correcto! «Inducción» es la respuesta adecuada. El razonamiento inductivo parte de la observación de casos particulares para formular regularidades o generalizaciones empíricas.",
+        "incorrect": "No es correcto. La respuesta acertada es «Inducción». El razonamiento inductivo parte de la observación de casos particulares para formular regularidades o generalizaciones empíricas. Distingue la dirección del razonamiento: partir de observaciones singulares hacia patrones generales corresponde a la inducción.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0051",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál es el método del conocimiento que se basa en la repetición continua de una creencia establecida?",
+      "options": [
+        "Método de la autoridad",
+        "Método de la tenacidad",
+        "Método a priori",
+        "Método de la ciencia"
+      ],
+      "correctIndex": 1,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "metodo_cientifico",
+      "subtema_label": "Método científico",
+      "feedback": {
+        "correcta": "¡Correcto! «Método de la tenacidad» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Método de la tenacidad». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Método de la tenacidad» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Método de la tenacidad». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0052",
+      "tipo": "opcion_multiple",
+      "question": "¿Qué método del conocimiento se basa en la aceptación de creencias establecidas por instituciones o figuras reconocidas?",
+      "options": [
+        "Método de la ciencia",
+        "Método de la tenacidad",
+        "Método de la autoridad",
+        "Método a priori"
+      ],
+      "correctIndex": 2,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "metodo_cientifico",
+      "subtema_label": "Método científico",
+      "feedback": {
+        "correcta": "¡Correcto! «Método de la autoridad» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Método de la autoridad». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Método de la autoridad» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Método de la autoridad». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0053",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál de los siguientes métodos de conocimiento implica una tendencia natural hacia la verdad, basándose en proposiciones que parecen evidentes por sí mismas?",
+      "options": [
+        "Método de la tenacidad",
+        "Método de la ciencia",
+        "Método a priori",
+        "Método de la autoridad"
+      ],
+      "correctIndex": 2,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "metodo_cientifico",
+      "subtema_label": "Método científico",
+      "feedback": {
+        "correcta": "¡Correcto! «Método a priori» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Método a priori». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Método a priori» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Método a priori». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0054",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál es la característica principal del método de la ciencia que lo diferencia de los otros métodos de conocimiento?",
+      "options": [
+        "Se basa en la autoridad de expertos",
+        "Es autocorrectivo y depende de pruebas empíricas",
+        "Se basa en la intuición natural",
+        "Utiliza creencias repetidas a lo largo del tiempo"
+      ],
+      "correctIndex": 1,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "metodo_cientifico",
+      "subtema_label": "Método científico",
+      "feedback": {
+        "correcta": "¡Correcto! «Es autocorrectivo y depende de pruebas empíricas» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Es autocorrectivo y depende de pruebas empíricas». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Es autocorrectivo y depende de pruebas empíricas» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Es autocorrectivo y depende de pruebas empíricas». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0055",
+      "tipo": "opcion_multiple",
+      "question": "Según Peirce, ¿cuál es el método más confiable para establecer creencias debido a su capacidad de autocorrección?",
+      "options": [
+        "Método de la autoridad",
+        "Método a priori",
+        "Método de la ciencia",
+        "Método de la tenacidad"
+      ],
+      "correctIndex": 2,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "metodo_cientifico",
+      "subtema_label": "Método científico",
+      "feedback": {
+        "correcta": "¡Correcto! «Método de la ciencia» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Método de la ciencia». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Método de la ciencia» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Método de la ciencia». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0061",
+      "tipo": "opcion_multiple",
+      "question": "¿En qué consiste el método científico?",
+      "options": [
+        "Es un conjunto de reglas para formular juicios morales.",
+        "Es una secuencia de pasos lógicos y sistemáticos para resolver problemas.",
+        "Es un enfoque filosófico para cuestionar realidades abstractas.",
+        "Es un proceso basado únicamente en el análisis cualitativo."
+      ],
+      "correctIndex": 1,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "metodo_cientifico",
+      "subtema_label": "Método científico",
+      "feedback": {
+        "correcta": "¡Correcto! «Es una secuencia de pasos lógicos y sistemáticos para resolver problemas.» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Es una secuencia de pasos lógicos y sistemáticos para resolver problemas.». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Es una secuencia de pasos lógicos y sistemáticos para resolver problemas.» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Es una secuencia de pasos lógicos y sistemáticos para resolver problemas.». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0062",
+      "tipo": "opcion_multiple",
+      "question": "¿Qué relación existe entre el problema y la hipótesis en el método científico?",
+      "options": [
+        "El problema siempre contradice la hipótesis.",
+        "La hipótesis es una posible solución al problema planteado.",
+        "La hipótesis es una descripción extensa del problema.",
+        "No existe una relación directa entre ambos conceptos."
+      ],
+      "correctIndex": 1,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "metodo_cientifico",
+      "subtema_label": "Método científico",
+      "feedback": {
+        "correcta": "¡Correcto! «La hipótesis es una posible solución al problema planteado.» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «La hipótesis es una posible solución al problema planteado.». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «La hipótesis es una posible solución al problema planteado.» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «La hipótesis es una posible solución al problema planteado.». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0063",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál de los siguientes elementos es esencial en la formulación de una hipótesis científica?",
+      "options": [
+        "Debe ser compleja y difícil de probar.",
+        "Debe ser clara, precisa y susceptible de ser puesta a prueba.",
+        "Debe estar basada únicamente en teorías filosóficas.",
+        "Debe ser formulada de manera vaga y abierta."
+      ],
+      "correctIndex": 1,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "metodo_cientifico",
+      "subtema_label": "Método científico",
+      "feedback": {
+        "correcta": "¡Correcto! «Debe ser clara, precisa y susceptible de ser puesta a prueba.» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Debe ser clara, precisa y susceptible de ser puesta a prueba.». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Debe ser clara, precisa y susceptible de ser puesta a prueba.» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Debe ser clara, precisa y susceptible de ser puesta a prueba.». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0064",
+      "tipo": "opcion_multiple",
+      "question": "¿Qué implica la deducción en el contexto del método científico?",
+      "options": [
+        "Partir de lo particular para llegar a lo general.",
+        "Derivar conclusiones específicas a partir de una hipótesis general.",
+        "Hacer predicciones basadas en intuiciones.",
+        "Recolectar datos empíricos sin una hipótesis previa."
+      ],
+      "correctIndex": 1,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "metodo_cientifico",
+      "subtema_label": "Método científico",
+      "feedback": {
+        "correcta": "¡Correcto! «Derivar conclusiones específicas a partir de una hipótesis general.» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Derivar conclusiones específicas a partir de una hipótesis general.». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Derivar conclusiones específicas a partir de una hipótesis general.» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Derivar conclusiones específicas a partir de una hipótesis general.». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0065",
+      "tipo": "opcion_multiple",
+      "question": "¿Cómo se utiliza la observación en el método científico?",
+      "options": [
+        "Para verificar ideas filosóficas abstractas.",
+        "Como herramienta para formular nuevas hipótesis.",
+        "Como una etapa para recopilar información empírica sobre fenómenos.",
+        "Como un reemplazo de la experimentación."
+      ],
+      "correctIndex": 2,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "metodo_cientifico",
+      "subtema_label": "Método científico",
+      "feedback": {
+        "correcta": "¡Correcto! «Como una etapa para recopilar información empírica sobre fenómenos.» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Como una etapa para recopilar información empírica sobre fenómenos.». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Como una etapa para recopilar información empírica sobre fenómenos.» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Como una etapa para recopilar información empírica sobre fenómenos.». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0066",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál es el papel de la prueba en el método científico según Kerlinger?",
+      "options": [
+        "Es un proceso subjetivo que implica la interpretación de los resultados.",
+        "Es una evaluación empírica que se utiliza para validar o refutar una hipótesis.",
+        "Es una técnica utilizada solo para teorías no probadas.",
+        "Es una herramienta filosófica que no requiere observación empírica."
+      ],
+      "correctIndex": 1,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "metodo_cientifico",
+      "subtema_label": "Método científico",
+      "feedback": {
+        "correcta": "¡Correcto! «Es una evaluación empírica que se utiliza para validar o refutar una hipótesis.» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Es una evaluación empírica que se utiliza para validar o refutar una hipótesis.». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Es una evaluación empírica que se utiliza para validar o refutar una hipótesis.» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Es una evaluación empírica que se utiliza para validar o refutar una hipótesis.». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0067",
+      "tipo": "opcion_multiple",
+      "question": "Según Kerlinger, ¿cuál de los siguientes pasos es el primero en el método científico?",
+      "options": [
+        "Formular hipótesis.",
+        "Recolectar datos.",
+        "Identificar un problema.",
+        "Experimentar."
+      ],
+      "correctIndex": 2,
+      "dificultad": 1,
+      "dificultad_label": "Fácil",
+      "subtema": "metodo_cientifico",
+      "subtema_label": "Método científico",
+      "feedback": {
+        "correcta": "¡Correcto! «Identificar un problema.» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Identificar un problema.». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Identificar un problema.» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Identificar un problema.». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0068",
+      "tipo": "opcion_multiple",
+      "question": "¿Qué distingue a un obstáculo de una idea en el contexto del método científico?",
+      "options": [
+        "Un obstáculo es siempre empírico, mientras que una idea es siempre teórica.",
+        "Un obstáculo es una barrera para la observación, mientras que una idea es una solución potencial.",
+        "Un obstáculo es una dificultad que surge durante el experimento, mientras que una idea es la base para formular hipótesis.",
+        "Un obstáculo se refiere al problema planteado y una idea a la posible solución."
+      ],
+      "correctIndex": 3,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "metodo_cientifico",
+      "subtema_label": "Método científico",
+      "feedback": {
+        "correcta": "¡Correcto! «Un obstáculo se refiere al problema planteado y una idea a la posible solución.» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Un obstáculo se refiere al problema planteado y una idea a la posible solución.». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "correct": "¡Correcto! «Un obstáculo se refiere al problema planteado y una idea a la posible solución.» es la respuesta adecuada. El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común.",
+        "incorrect": "No es correcto. La respuesta acertada es «Un obstáculo se refiere al problema planteado y una idea a la posible solución.». El enfoque científico se caracteriza por ser sistemático, empírico, controlado y crítico, articulando teoría y observación para superar los sesgos del sentido común. Repasa las características de la ciencia según Kerlinger y Lee (Cap. 1): sistematicidad, control de explicaciones alternativas y carácter público/autocorrectivo.",
+        "origen": "cátedra_2026"
+      }
+    },
+    {
+      "id": "m01-0069",
+      "tipo": "opcion_multiple",
+      "question": "El método científico puede definirse como:",
+      "options": [
+        "Una serie rígida de pasos obligatorios",
+        "Un conjunto lógico y flexible de procedimientos",
+        "Una técnica exclusiva de laboratorio",
+        "Un recurso exclusivo de las ciencias naturales"
+      ],
+      "correctIndex": 1,
+      "dificultad": 3,
+      "dificultad_label": "Difícil",
+      "subtema": "metodo_cientifico",
+      "subtema_label": "Método científico",
+      "feedback": {
+        "correcta": "Muy bien. El método científico no es rígido, sino lógico y adaptable.",
+        "incorrecta": "Revisá la idea de flexibilidad del método científico. La opción correcta es: «Un conjunto lógico y flexible de procedimientos».",
+        "correct": "Muy bien. El método científico no es rígido, sino lógico y adaptable.",
+        "incorrect": "Revisá la idea de flexibilidad del método científico. La opción correcta es: «Un conjunto lógico y flexible de procedimientos».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m01-0070",
+      "tipo": "opcion_multiple",
+      "question": "¿Qué función cumple la teoría en la investigación científica?",
+      "options": [
+        "Reemplazar la observación",
+        "Guiar la formulación de problemas e hipótesis",
+        "Eliminar la necesidad de datos",
+        "Servir solo como marco histórico"
+      ],
+      "correctIndex": 1,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "metodo_cientifico",
+      "subtema_label": "Método científico",
+      "feedback": {
+        "correcta": "Correcto. La teoría orienta todo el proceso de investigación.",
+        "incorrecta": "Pensá en la relación entre teoría y observación. La opción correcta es: «Guiar la formulación de problemas e hipótesis».",
+        "correct": "Correcto. La teoría orienta todo el proceso de investigación.",
+        "incorrect": "Pensá en la relación entre teoría y observación. La opción correcta es: «Guiar la formulación de problemas e hipótesis».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m01-0071",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál de las siguientes afirmaciones es correcta?",
+      "options": [
+        "La ciencia produce verdades absolutas",
+        "La ciencia elimina la incertidumbre",
+        "La ciencia acepta la revisión crítica",
+        "La ciencia se basa únicamente en la observación"
+      ],
+      "correctIndex": 2,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "metodo_cientifico",
+      "subtema_label": "Método científico",
+      "feedback": {
+        "correcta": "Así es. La revisión crítica es central en la ciencia.",
+        "incorrecta": "Revisá el carácter crítico del conocimiento científico. La opción correcta es: «La ciencia acepta la revisión crítica».",
+        "correct": "Así es. La revisión crítica es central en la ciencia.",
+        "incorrect": "Revisá el carácter crítico del conocimiento científico. La opción correcta es: «La ciencia acepta la revisión crítica».",
+        "origen": "original"
+      }
+    },
+    {
+      "id": "m01-0072",
+      "tipo": "opcion_multiple",
+      "question": "¿Cuál es un error frecuente sobre la ciencia?",
+      "options": [
+        "Reconocer su carácter provisional",
+        "Considerarla una actividad crítica",
+        "Creer que sigue pasos rígidos e invariables",
+        "Aceptar la revisión de resultados"
+      ],
+      "correctIndex": 2,
+      "dificultad": 2,
+      "dificultad_label": "Intermedio",
+      "subtema": "metodo_cientifico",
+      "subtema_label": "Método científico",
+      "feedback": {
+        "correcta": "Exacto. El método científico no es una receta fija.",
+        "incorrecta": "Revisá la idea de flexibilidad metodológica. La opción correcta es: «Creer que sigue pasos rígidos e invariables».",
+        "correct": "Exacto. El método científico no es una receta fija.",
+        "incorrect": "Revisá la idea de flexibilidad metodológica. La opción correcta es: «Creer que sigue pasos rígidos e invariables».",
+        "origen": "original"
+      }
+    }
+  ]
+}
