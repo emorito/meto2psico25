@@ -58,9 +58,9 @@
   --stage-3: #0f766e;
   --stage-4: #6d28d9;
 
-  /* Tipografía y Ritmo */
-  --font-sans: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-display: 'Outfit', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  /* Tipografía y Ritmo (Unificada: Inter y Source Serif 4) */
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Source Serif 4', Georgia, serif;
   --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
 
   /* Geometría */
@@ -2371,6 +2371,243 @@ button {
   justify-content: space-between;
   gap: 1rem;
   flex-wrap: wrap;
+}
+
+/* ==========================================================================
+   OPTIMIZACIONES MÓVILES (RAMA AJUSTES-MOVIL)
+   ========================================================================== */
+
+/* Barra superior móvil de 56px (elimina barra de 27% en móvil) */
+@media (max-width: 768px) {
+  .site-topbar {
+    height: 56px;
+    max-height: 56px;
+  }
+  .site-topbar .topbar-inner {
+    min-height: 56px;
+    height: 56px;
+    padding-block: 0;
+    flex-wrap: nowrap;
+    gap: 8px;
+  }
+  .site-topbar .brand-badge {
+    width: 34px;
+    height: 34px;
+    font-size: 0.82rem;
+  }
+  .site-topbar .brand-subtitle {
+    display: none;
+  }
+  .site-topbar .brand-title {
+    font-size: 0.88rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 170px;
+  }
+  /* Selector de módulo y avance pasan de la barra superior al cuerpo */
+  body[data-page="module"] .site-topbar .module-quick-select,
+  body[data-page="module"] .site-topbar .topbar-progress-pill {
+    display: none;
+  }
+  .site-topbar #theme-toggle-text {
+    display: none;
+  }
+  .site-topbar .theme-toggle-btn {
+    min-height: 44px;
+    min-width: 44px;
+    padding: 6px;
+    justify-content: center;
+  }
+  .site-topbar #free-review-label {
+    display: none;
+  }
+}
+
+.site-topbar.is-scrolled-down {
+  transform: translateY(-100%);
+}
+
+/* Selector de módulo en el cuerpo para móvil */
+.module-mobile-body-controls {
+  display: none;
+}
+@media (max-width: 768px) {
+  .module-mobile-body-controls {
+    display: block;
+    background: var(--bg-surface);
+    border-bottom: 1px solid var(--border-subtle);
+    padding: 8px 12px;
+  }
+  .module-mobile-body-controls .mobile-body-controls-inner {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .module-mobile-body-controls .module-quick-select {
+    flex: 1;
+    min-height: 44px;
+    font-size: 0.88rem;
+  }
+  .module-mobile-body-controls .mobile-progress-pill {
+    flex-shrink: 0;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 6px 10px;
+    border-radius: var(--radius-sm);
+    background: var(--bg-surface-alt);
+    border: 1px solid var(--border-subtle);
+    color: var(--text-secondary);
+  }
+}
+
+/* Pestañas 1-5 cambian de sección en móvil en vez de scroll de 18 pantallas */
+@media (max-width: 768px) {
+  body[data-page="module"] .section-nav-bar {
+    top: 0;
+    padding: 6px 0;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  body[data-page="module"] .section-nav-list {
+    flex-wrap: nowrap;
+    gap: 6px;
+    padding-inline: 12px;
+  }
+  body[data-page="module"] .section-nav-link {
+    white-space: nowrap;
+    padding: 8px 12px;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+  body[data-page="module"].mobile-step-active .module-section:not(.is-active-step) {
+    display: none !important;
+  }
+  .mobile-section-pager {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 24px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border-subtle);
+  }
+  .mobile-section-pager .btn {
+    min-height: 44px;
+    padding: 10px 16px;
+  }
+  .mobile-step-indicator {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-muted);
+  }
+}
+
+@media (min-width: 769px) {
+  .mobile-section-pager {
+    display: none;
+  }
+}
+
+/* Tarjetas 3D reducidas en móvil */
+@media (max-width: 640px) {
+  .flip-cards-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .flip-card {
+    min-height: 140px;
+  }
+  .flip-card-inner {
+    min-height: 140px;
+  }
+  .flip-card-face {
+    padding: 12px 14px;
+  }
+  .flip-card-question,
+  .flip-card-answer {
+    font-size: 0.95rem;
+    margin-block: 6px;
+  }
+}
+
+/* Portada: filtros plegables en móvil */
+.filters-mobile-toggle-btn {
+  display: none;
+}
+@media (max-width: 768px) {
+  .filters-mobile-toggle-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    min-height: 44px;
+    margin-bottom: 12px;
+    padding: 10px 16px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-sm);
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--text-main);
+    cursor: pointer;
+  }
+  .catalog-controls:not(.is-filters-expanded) .stage-tabs,
+  .catalog-controls:not(.is-filters-expanded) .search-row {
+    display: none;
+  }
+}
+
+/* Tablas de la cápsula apiladas en móvil */
+@media (max-width: 640px) {
+  .capsula-table,
+  .capsula-table tbody,
+  .capsula-table tr,
+  .capsula-table td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .capsula-table thead {
+    display: none;
+  }
+  .capsula-table tr {
+    margin-bottom: 12px;
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-sm);
+    padding: 12px;
+    background: var(--bg-surface);
+  }
+  .capsula-table td {
+    padding: 6px 0;
+    border-bottom: 1px dashed var(--border-subtle);
+  }
+  .capsula-table td:last-child {
+    border-bottom: none;
+  }
+}
+
+/* Ajustes de tamaño mínimo de texto (>= 12px) y zonas táctiles (>= 44px) */
+.hero .date {
+  font-size: 0.78rem;
+}
+.hero .stage-inline {
+  font-size: 0.78rem;
+}
+.resource-mini-pill {
+  font-size: 0.78rem;
+}
+.outcome-item label {
+  min-height: 44px;
+  padding: 6px 8px;
+}
+.outcome-item input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
 }
 
 /* Accesibilidad: Reducción de movimiento */
