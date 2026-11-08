@@ -1,0 +1,159 @@
+{
+  "modulo": "m09",
+  "autor": "claude",
+  "version": "2026-11-08",
+  "nota_integracion": "Contenido nuevo que reemplaza la cápsula migrada de m09. Se mantienen los subtemas del módulo y se agregan dos (medicion, construccion_adaptacion). El script de migración no debe sobrescribir este archivo.",
+  "subtemas_nuevos": {
+    "medicion": "Medir en psicología",
+    "construccion_adaptacion": "Construir, adaptar y elegir instrumentos"
+  },
+  "capsula": {
+    "title": "Instrumentos y medición: de la técnica a la psicometría",
+    "subtitle": "Clase 11 · Con qué se obtiene el dato y cuánto se puede confiar en él",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Fuente, técnica e instrumento no son sinónimos",
+        "headers": ["Componente", "Pregunta", "Ejemplos"],
+        "rows": [
+          ["Fuente", "¿Quién o qué entrega el dato?", "Participantes, informantes (padres, docentes), registros clínicos, documentos."],
+          ["Técnica", "¿Con qué procedimiento general se obtiene?", "Encuesta, entrevista, observación sistemática, evaluación psicométrica, análisis documental."],
+          ["Instrumento", "¿Con qué herramienta concreta se registra?", "Cuestionario, escala, test, guía de entrevista, lista de cotejo, registro de observación."]
+        ]
+      },
+      {
+        "type": "highlight",
+        "title": "La cadena que ordena todo el módulo",
+        "text": "Objetivo → información necesaria → fuente → técnica → instrumento. Si un instrumento no responde a ningún objetivo, sobra; si un objetivo no tiene instrumento, el proyecto no puede cumplirlo."
+      },
+      {
+        "type": "cards",
+        "title": "Medir en psicología",
+        "items": [
+          {"badge": "Constructo", "title": "Lo que no se ve", "text": "Ansiedad, autoestima o inteligencia no se observan directamente: se infieren a partir de indicadores. Por eso la definición operacional (clase 7) es el puente entre el constructo y el instrumento."},
+          {"badge": "Nivel de medición", "title": "Qué operaciones permite", "text": "Nominal, ordinal, de intervalo o de razón (Stevens). El nivel limita qué análisis tienen sentido: no se promedia una variable nominal."},
+          {"badge": "Teoría clásica de los tests", "title": "X = V + E", "text": "Toda puntuación observada (X) es la suma de una puntuación verdadera (V) y un error aleatorio (E). La fiabilidad es la proporción de la varianza observada que corresponde a la verdadera."},
+          {"badge": "Dos tipos de error", "title": "Aleatorio y sistemático", "text": "El error aleatorio afecta la **fiabilidad** (las puntuaciones fluctúan). El sistemático afecta la **validez** (el instrumento mide de forma consistente algo distinto de lo que dice medir)."}
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Fiabilidad: cuánto error tiene la medida",
+        "headers": ["Tipo", "Qué responde", "Cómo se estima"],
+        "rows": [
+          ["Estabilidad (test-retest)", "¿Las puntuaciones se mantienen en el tiempo?", "Correlación entre dos aplicaciones; el intervalo tiene que ser coherente con la estabilidad esperada del rasgo."],
+          ["Formas paralelas", "¿Dos versiones equivalentes dan lo mismo?", "Correlación entre formas."],
+          ["Consistencia interna", "¿Los ítems miden lo mismo?", "Alfa de Cronbach u omega de McDonald."],
+          ["Entre observadores", "¿Dos jueces coinciden?", "Kappa de Cohen (categorías) o coeficiente de correlación intraclase (puntuaciones)."]
+        ]
+      },
+      {
+        "type": "cards",
+        "title": "Alfa, omega y el error de la persona",
+        "items": [
+          {"badge": "Alfa", "title": "Tiene supuestos", "text": "Alfa supone que todos los ítems pesan lo mismo en el factor (tau-equivalencia) y que los errores no se correlacionan. Si no se cumplen, suele subestimar la fiabilidad. Y depende del número de ítems: con muchos ítems sube aunque la escala sea mediocre."},
+          {"badge": "Omega", "title": "La alternativa recomendada", "text": "Omega se calcula a partir de las cargas factoriales y no exige tau-equivalencia. Es la opción recomendada cuando las cargas difieren (Dunn, Baguley y Brunsden, 2014)."},
+          {"badge": "Error frecuente", "title": "Alfa alto no prueba unidimensionalidad", "text": "Una escala con dos factores correlacionados puede dar alfa = 0,85. La dimensionalidad se examina con análisis factorial, no con alfa (Sijtsma, 2009)."},
+          {"badge": "Error estándar de medida", "title": "La fiabilidad aplicada a una persona", "text": "**EEM = s·√(1 − r)**. Con s = 10 y r = 0,91, EEM = 3: una puntuación de 60 se lee como un intervalo de aproximadamente 54 a 66 (95 %). Por eso las decisiones individuales exigen fiabilidad alta."}
+        ]
+      },
+      {
+        "type": "highlight",
+        "title": "¿Cuánta fiabilidad alcanza? (Nunnally)",
+        "text": "Depende del uso. Para investigación exploratoria, alrededor de 0,70; para investigación básica, 0,80; para tomar **decisiones sobre personas** (diagnóstico, selección), 0,90 o más. Un mismo coeficiente puede ser suficiente para un uso e insuficiente para otro."
+      },
+      {
+        "type": "table",
+        "title": "Validez: un argumento con cinco fuentes de evidencia (Standards AERA, APA y NCME, 2014)",
+        "headers": ["Fuente de evidencia", "Pregunta", "Cómo se obtiene"],
+        "rows": [
+          ["Contenido", "¿Los ítems cubren el constructo de forma relevante y representativa?", "Juicio de expertos con criterios explícitos; índices de acuerdo (por ejemplo, V de Aiken)."],
+          ["Procesos de respuesta", "¿Las personas responden por las razones que suponemos?", "Entrevistas cognitivas, pensamiento en voz alta."],
+          ["Estructura interna", "¿Los ítems se agrupan como dice la teoría?", "Análisis factorial exploratorio y confirmatorio; invarianza entre grupos."],
+          ["Relación con otras variables", "¿Correlaciona con lo que debería, y no con lo que no?", "Evidencia convergente, discriminante y de criterio (concurrente o predictiva)."],
+          ["Consecuencias", "¿Qué efectos tiene usar estas puntuaciones?", "Análisis de decisiones tomadas con el test y de posibles sesgos contra grupos."]
+        ]
+      },
+      {
+        "type": "highlight",
+        "title": "Lo que se valida es la interpretación",
+        "text": "Un test no «es válido» en abstracto: se acumulan evidencias a favor de **una interpretación de sus puntuaciones para un uso y una población**. Una escala validada en adultos españoles no está validada para adolescentes paraguayos."
+      },
+      {
+        "type": "cards",
+        "title": "Construir un instrumento",
+        "items": [
+          {"badge": "Pasos", "title": "De la definición al baremo", "text": "Marco general y propósito → definición del constructo → especificaciones → redacción de ítems → revisión por expertos → estudio piloto → análisis de ítems → estudio de fiabilidad y validez → baremos → versión final (Muñiz y Fonseca-Pedrero, *Diez pasos*)."},
+          {"badge": "Análisis de ítems", "title": "Dificultad y discriminación", "text": "La **dificultad** es la proporción de aciertos (o la media en escalas). La **discriminación** es cuánto separa el ítem a quienes puntúan alto de quienes puntúan bajo; se estima con la correlación ítem-total corregida."},
+          {"badge": "AFE y AFC", "title": "Explorar o confirmar", "text": "El análisis factorial exploratorio busca cuántas dimensiones hay sin imponerlas; el confirmatorio pone a prueba una estructura definida de antemano. No se confirma con los mismos datos con que se exploró."},
+          {"badge": "Más allá de la teoría clásica", "title": "Teoría de respuesta al ítem", "text": "Modela la probabilidad de respuesta según el nivel de la persona y los parámetros del ítem. Permite saber dónde mide bien el test y construir tests adaptativos."}
+        ]
+      },
+      {
+        "type": "cards",
+        "title": "Adaptar y elegir un instrumento ya existente",
+        "items": [
+          {"badge": "Adaptar no es traducir", "title": "Directrices de la ITC", "text": "La adaptación exige equivalencia lingüística, conceptual y métrica: traducción y retrotraducción o comité de expertos, piloto con entrevistas cognitivas y estudio psicométrico en la nueva población (ITC, 2.ª ed., 2017)."},
+          {"badge": "Invarianza", "title": "¿Mide lo mismo en ambos grupos?", "text": "Antes de comparar medias entre grupos (varones y mujeres, países, versiones en castellano y en guaraní) hay que mostrar que el instrumento funciona igual: invarianza configural, métrica y escalar."},
+          {"badge": "Baremos", "title": "Normas locales", "text": "Interpretar una puntuación con baremos de otra población puede llevar a sobrediagnosticar o subdiagnosticar. Si no hay baremos locales, se declara."},
+          {"badge": "Elegir", "title": "Criterios al seleccionar", "text": "Antes de elegir: ¿mide mi constructo tal como lo definí?, ¿hay evidencia en una población parecida a la mía?, ¿qué fiabilidad reporta y para qué uso?, ¿tengo permiso o licencia para usarlo?"}
+        ]
+      },
+      {
+        "type": "cards",
+        "title": "Instrumentos en investigación cualitativa",
+        "items": [
+          {"badge": "Guía de entrevista", "title": "Ejes, no cuestionario", "text": "Organiza temas y preguntas abiertas derivadas de los objetivos, con repreguntas posibles. Se ajusta tras las primeras entrevistas."},
+          {"badge": "Guía de observación", "title": "Qué mirar y cómo registrar", "text": "Define unidades de observación, situaciones y formato de registro (notas descriptivas separadas de las interpretativas)."},
+          {"badge": "Rigor", "title": "Otra lógica, no menos exigencia", "text": "Credibilidad, transferibilidad, dependencia y confirmabilidad: triangulación, devolución a participantes, descripción densa, registro de decisiones."},
+          {"badge": "Reflexividad", "title": "El investigador como instrumento", "text": "En la entrevista, quien pregunta forma parte del instrumento: sus supuestos se explicitan y se registran."}
+        ]
+      },
+      {
+        "type": "cards",
+        "title": "Ética del instrumento y de los datos",
+        "items": [
+          {"badge": "Consentimiento", "title": "Informado, libre y revocable", "text": "Con menores: asentimiento del participante y consentimiento de padres o tutores."},
+          {"badge": "Derechos", "title": "Tests con licencia", "text": "No se fotocopian, reproducen ni suben a internet tests comerciales. Se usan con licencia y por profesionales habilitados."},
+          {"badge": "Custodia", "title": "Anonimizar y resguardar", "text": "Códigos en lugar de nombres, plan de custodia y de eliminación de los datos."},
+          {"badge": "IA", "title": "Nunca datos identificables", "text": "Prohibido subir entrevistas, protocolos o datos sensibles a plataformas públicas de IA."}
+        ]
+      },
+      {
+        "type": "checklist",
+        "title": "Qué tiene que quedar reportado (APA, JARS)",
+        "items": [
+          "Nombre completo del instrumento, autores, versión y adaptación usada.",
+          "Qué mide, número de ítems, formato de respuesta y forma de puntuación.",
+          "Evidencias de validez previas, en qué población se obtuvieron.",
+          "Fiabilidad **en tu propia muestra** (omega o alfa, con su intervalo si es posible), no solo la del manual.",
+          "Si el instrumento fue traducido o adaptado: procedimiento seguido.",
+          "En cualitativo: guía de entrevista u observación (en anexo) y cómo se ajustó."
+        ]
+      }
+    ]
+  },
+  "autoauditoria": [
+    "¿Cada instrumento responde a un objetivo y cada objetivo tiene su instrumento?",
+    "¿Distinguí fuente, técnica e instrumento en mi método?",
+    "¿El instrumento mide mi constructo tal como lo definí operacionalmente?",
+    "¿Tiene evidencias de validez en una población parecida a la mía? Si no, ¿lo declaré como limitación?",
+    "¿Voy a reportar la fiabilidad en mi propia muestra?",
+    "Si es una escala adaptada o traducida, ¿seguí un procedimiento y lo voy a describir?",
+    "¿Tengo permiso o licencia para usar el instrumento?",
+    "¿Previ consentimiento, anonimización y custodia de los datos?"
+  ],
+  "fuentes": [
+    "AERA, APA y NCME (2014). *Standards for Educational and Psychological Testing*. AERA.",
+    "Nunnally, J. C. y Bernstein, I. H. (1994). *Psychometric Theory* (3.ª ed.). McGraw-Hill.",
+    "Cooper, H. (Ed.) (2012). *APA Handbook of Research Methods in Psychology*, vol. 1: Foundations, planning, measures, and psychometrics. APA.",
+    "Kerlinger, F. N. y Lee, H. B. (2002). *Investigación del comportamiento* (4.ª ed.). McGraw-Hill. Caps. 3 y 26–28.",
+    "Muñiz, J. y Fonseca-Pedrero, E. (2019). Diez pasos para la construcción de un test. *Psicothema, 31*(1), 7–16.",
+    "Muñiz, J. (2018). *Introducción a la psicometría*. Pirámide.",
+    "Sijtsma, K. (2009). On the use, the misuse, and the very limited usefulness of Cronbach's alpha. *Psychometrika, 74*(1), 107–120.",
+    "Dunn, T. J., Baguley, T. y Brunsden, V. (2014). From alpha to omega. *British Journal of Psychology, 105*(3), 399–412.",
+    "International Test Commission (2017). *ITC Guidelines for Translating and Adapting Tests* (2.ª ed.).",
+    "Stevens, S. S. (1946). On the theory of scales of measurement. *Science, 103*(2684), 677–680.",
+    "Appelbaum, M. et al. (2018). JARS-Quant. *American Psychologist, 73*(1), 3–25."
+  ]
+}

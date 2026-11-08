@@ -1,0 +1,249 @@
+{
+  "modulo": "m08",
+  "autor": "claude",
+  "version": "2026-11-08",
+  "nota_integracion": "Contenido nuevo que reemplaza la cápsula migrada de m08. El script de migración no debe sobrescribir este archivo. Los textos de las hojas del árbol y de la calculadora se consumen por identificador.",
+  "capsula": {
+    "title": "Población, muestra y tamaño: sin pseudocálculo",
+    "subtitle": "Clase 9 · De quién se obtiene evidencia, cómo se selecciona y cómo se justifica cuántos",
+    "blocks": [
+      {
+        "type": "highlight",
+        "title": "Regla rectora",
+        "text": "Primero el diseño, después el número. Un margen de error y un nivel de confianza solo existen cuando cada unidad del marco tuvo una **probabilidad conocida y mayor que cero** de ser elegida. Sin esa condición, «n = 384, 95 %, ±5 %» es un número sin referente."
+      },
+      {
+        "type": "table",
+        "title": "Precisión terminológica",
+        "headers": ["Concepto", "Qué designa", "Ejemplo"],
+        "rows": [
+          ["Población objetivo", "Conjunto de casos sobre el que se quiere concluir, definido por criterios, lugar y tiempo.", "Estudiantes de Psicología matriculados en universidades de Asunción en 2026."],
+          ["Marco muestral", "Listado o registro efectivo desde el que se seleccionan las unidades. Lo que no está en el marco no puede salir sorteado.", "Nómina de matriculados activos de secretaría académica."],
+          ["Muestra planificada", "Las unidades seleccionadas según el diseño.", "300 estudiantes sorteados de la nómina."],
+          ["Muestra lograda", "Las unidades que efectivamente aportaron datos. La diferencia con la planificada es la no respuesta.", "198 respondieron: tasa de respuesta de 66 %."],
+          ["Unidad de análisis y de observación", "Sobre quién se concluye y quién aporta el dato. Pueden no coincidir.", "Se estudia el clima familiar (familia) y responde la madre (observación)."],
+          ["Corpus", "En estudios documentales o cualitativos, el conjunto de textos, registros o casos que se analiza.", "18 entrevistas y 40 historias clínicas anonimizadas."]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Cada propósito tiene su propia justificación del tamaño",
+        "headers": ["Qué querés hacer", "Condición", "Cómo se justifica el tamaño", "Lo que no vale"],
+        "rows": [
+          ["**Estimar** un valor de la población (proporción, media)", "Muestreo probabilístico desde un marco", "Fórmula de precisión: confianza, margen de error, variabilidad; corrección por población finita, efecto de diseño y tasa de respuesta (Cochran, cap. 4; Kish, *Survey Sampling*)", "Usar la fórmula con una muestra de conveniencia"],
+          ["**Contrastar** una hipótesis (relación, diferencia)", "Cualquier diseño cuantitativo", "Análisis de potencia: α, potencia (1 − β) y un tamaño de efecto **tomado de la literatura o de un piloto**", "Elegir el tamaño de efecto «mediano» por convención sin fuente"],
+          ["**Ajustar un modelo** factorial o de ecuaciones estructurales", "Cualquier diseño cuantitativo", "Según las condiciones del modelo (cargas, indicadores por factor, comunalidades); idealmente con simulación", "Reglas fijas como «10 casos por ítem» o «n ≥ 200» presentadas como ley"],
+          ["**Comprender** significados, procesos o experiencias", "Estudio cualitativo", "Potencia informativa y saturación, argumentadas durante el estudio", "Cualquier fórmula"]
+        ]
+      },
+      {
+        "type": "herramienta",
+        "id": "arbol-muestreo",
+        "title": "¿Qué justificación corresponde a tu estudio?"
+      },
+      {
+        "type": "herramienta",
+        "id": "calculadora-honesta",
+        "title": "Calculadora honesta"
+      },
+      {
+        "type": "cards",
+        "title": "Diseños probabilísticos y su costo en precisión",
+        "items": [
+          {"badge": "Aleatorio simple", "title": "La referencia", "text": "Cada unidad del marco tiene la misma probabilidad. Las fórmulas de manual suponen este diseño; los demás se comparan con él."},
+          {"badge": "Sistemático", "title": "Uno cada k", "text": "Arranque al azar y luego uno cada k = N/n. Equivale al aleatorio simple salvo que la lista tenga un orden periódico."},
+          {"badge": "Estratificado", "title": "Gana precisión", "text": "Se sortea dentro de grupos homogéneos. La asignación puede ser proporcional o no; si no es proporcional, hay que ponderar al estimar."},
+          {"badge": "Conglomerados", "title": "Pierde precisión", "text": "Se sortean grupos (escuelas, cursos). Las personas de un mismo grupo se parecen, y eso infla la varianza: **deff ≈ 1 + (m − 1)·ρ**, con m el tamaño medio del conglomerado y ρ la correlación intraclase (Kish). Con 30 alumnos por curso y ρ = 0,05, deff ≈ 2,45: hacen falta casi 2,5 veces más casos."}
+        ]
+      },
+      {
+        "type": "cards",
+        "title": "Si tu muestra no es probabilística",
+        "items": [
+          {"badge": "Lo que no podés decir", "title": "Margen de error ni confianza", "text": "Sin probabilidades de selección no hay distribución muestral que dé sentido a ±5 % con 95 % de confianza."},
+          {"badge": "Lo que sí podés hacer", "title": "Potencia para tu contraste", "text": "Si vas a contrastar una hipótesis, el análisis de potencia justifica cuántos casos necesitás para detectar el efecto que te interesa. Eso es legítimo con cualquier diseño."},
+          {"badge": "Lo que tenés que declarar", "title": "Límites de inferencia", "text": "Describí quiénes quedaron dentro y quiénes no (perfil de la muestra lograda) y limitá las conclusiones a casos como esos. La generalización pasa a ser un argumento teórico, no estadístico."},
+          {"badge": "Cuidado", "title": "Más casos no corrigen el sesgo", "text": "Agrandar una muestra autoseleccionada reduce la variación aleatoria pero deja intacto el sesgo de selección: estima con mucha precisión un valor equivocado."}
+        ]
+      },
+      {
+        "type": "cards",
+        "title": "Muestras en investigación cualitativa",
+        "items": [
+          {"badge": "Selección", "title": "Intencional, con criterio", "text": "Casos típicos, extremos, de máxima variación o teóricamente relevantes. El criterio se declara y se justifica por la pregunta."},
+          {"badge": "Potencia informativa", "title": "Malterud, Siersma y Guassora (2016)", "text": "Cuanta más información relevante aporta cada caso, menos casos hacen falta. Depende de cinco cosas: amplitud del objetivo, especificidad de los participantes, uso de teoría, calidad del diálogo y estrategia de análisis."},
+          {"badge": "Saturación", "title": "Un criterio, no un número", "text": "Se alcanza cuando nuevos casos ya no agregan códigos o significados relevantes para la pregunta. Se documenta durante el análisis; no se anuncia por adelantado."},
+          {"badge": "Lo que no vale", "title": "Fórmulas para fijar entrevistas", "text": "Calcular el número de entrevistas con una fórmula de proporciones mezcla dos lógicas incompatibles. Lo correcto es dar un rango inicial razonado y una regla de cierre."}
+        ]
+      },
+      {
+        "type": "checklist",
+        "title": "Qué tiene que quedar reportado (APA, JARS)",
+        "items": [
+          "Población objetivo, marco muestral y criterios de inclusión y exclusión.",
+          "Procedimiento de selección, nombrado con precisión (no «aleatorio» si no hubo sorteo).",
+          "Tamaño planificado, cómo se justificó y con qué supuestos; si hubo análisis de potencia, el tamaño de efecto y su fuente.",
+          "Muestra lograda, tasa de respuesta y perfil de quienes no respondieron, si se conoce.",
+          "En cualitativo: criterio de selección, cómo se decidió el cierre y por qué los casos alcanzan para la pregunta.",
+          "Límites de inferencia o transferencia derivados del diseño."
+        ]
+      },
+      {
+        "type": "highlight",
+        "title": "Conexión con el diseño (Kish)",
+        "text": "La **representación** es uno de los tres criterios de Kish, junto con el control y el realismo. Quien sacrificó representación al elegir el diseño tiene un problema que ninguna fórmula de muestreo arregla después."
+      }
+    ]
+  },
+  "arbol": {
+    "preguntas": {
+      "cualitativo": "¿Tu estudio busca comprender significados, procesos o experiencias, más que medir y cuantificar?",
+      "marco": "¿Existe un listado de la población accesible (un marco muestral) del que puedas seleccionar?",
+      "aleatoria": "¿La selección desde ese marco es por sorteo, de modo que cada unidad tiene una probabilidad conocida y mayor que cero?",
+      "proposito": "¿Qué querés hacer con los datos?"
+    },
+    "opciones_proposito": {
+      "EST": "Estimar un valor de la población (una proporción o una media)",
+      "POT": "Contrastar una hipótesis (una relación o una diferencia)",
+      "MOD": "Ajustar un modelo factorial o de ecuaciones estructurales"
+    },
+    "hojas": {
+      "EST": {
+        "titulo": "Fórmula de precisión",
+        "texto": "Tu diseño permite estimar con margen de error. Necesitás: nivel de confianza, margen de error tolerable, una estimación de la variabilidad (p o σ, de un estudio previo o un piloto), el tamaño de la población si es chica, el efecto de diseño si sorteás conglomerados y la tasa de respuesta esperada.",
+        "accion": "Abrir la calculadora en modo estimación",
+        "fuente": "Cochran, *Sampling Techniques*, cap. 4; Kish, *Survey Sampling*, cap. 8."
+      },
+      "POT": {
+        "titulo": "Análisis de potencia",
+        "texto": "Para contrastar una hipótesis, el tamaño se justifica por la probabilidad de detectar un efecto de cierta magnitud si existe. Necesitás α, la potencia deseada (habitualmente 0,80 o 0,90) y un tamaño de efecto con fuente: un metaanálisis, estudios previos con población similar o un piloto.",
+        "accion": "Abrir la calculadora en modo potencia",
+        "fuente": "Cohen (1988); Lakens (2022), «Sample size justification», *Collabra: Psychology*."
+      },
+      "MOD": {
+        "titulo": "Sin fórmula única",
+        "texto": "En análisis factorial y modelos de ecuaciones estructurales el tamaño necesario depende de las cargas, el número de indicadores por factor, las comunalidades y la complejidad del modelo. Las reglas fijas («10 casos por ítem», «n ≥ 200») no tienen respaldo general. Justificá con estudios de simulación publicados para modelos parecidos al tuyo o con una simulación propia.",
+        "accion": null,
+        "fuente": "MacCallum, Widaman, Zhang y Hong (1999); Wolf, Harrington, Clark y Miller (2013)."
+      },
+      "NP": {
+        "titulo": "No corresponde margen de error",
+        "texto": "Sin selección por sorteo desde un marco, no hay probabilidades de selección y el margen de error no tiene referente. Esto no invalida tu estudio: si vas a contrastar hipótesis, justificá el tamaño con un análisis de potencia, describí el perfil de la muestra lograda y declará los límites de la inferencia.",
+        "accion": "Abrir la calculadora en modo potencia",
+        "fuente": "Kish, *Statistical Design for Research*, cap. 1; JARS-Quant (APA)."
+      },
+      "Q": {
+        "titulo": "Potencia informativa y saturación",
+        "texto": "En investigación cualitativa el tamaño no se calcula. Se propone un rango inicial razonado según la potencia informativa y se fija una regla de cierre (saturación de códigos o de significados) que se documenta durante el análisis.",
+        "accion": "Ver la guía de potencia informativa",
+        "fuente": "Malterud, Siersma y Guassora (2016), *Qualitative Health Research*; Hennink, Kaiser y Marconi (2017)."
+      }
+    }
+  },
+  "calculadora": {
+    "aviso_inicial": "Primero contanos cómo vas a seleccionar los casos y para qué. Los números vienen después.",
+    "bloqueo_no_probabilistico": "Sin probabilidades de selección conocidas, el margen de error no tiene referente. Si vas a contrastar una hipótesis, podés justificar tu tamaño con el modo potencia.",
+    "bloqueo_cualitativo": "En investigación cualitativa el tamaño no se calcula con fórmulas. Usá la guía de potencia informativa.",
+    "aviso_p05": "p = 0,5 es el supuesto más conservador. Si tenés una estimación previa, usala.",
+    "aviso_fuente_efecto": "El tamaño de efecto tiene que venir de la literatura o de un estudio piloto, no de una convención.",
+    "aviso_aproximacion": "Cálculo aproximado con la distribución normal. Para diseños más complejos usá G*Power.",
+    "guia_cualitativa": [
+      "**Objetivo:** cuanto más acotado, menos casos hacen falta.",
+      "**Especificidad de los participantes:** si cada caso tiene experiencia directa y densa del fenómeno, menos casos.",
+      "**Teoría:** si el estudio parte de una teoría establecida, menos casos que si construye teoría.",
+      "**Calidad del diálogo:** entrevistas profundas y bien conducidas aportan más por caso.",
+      "**Estrategia de análisis:** un análisis caso por caso en profundidad necesita menos casos que uno transversal entre muchos.",
+      "**Regla de cierre:** escribí de antemano cómo vas a decidir que ya alcanza (por ejemplo, dos o tres entrevistas seguidas sin códigos nuevos relevantes) y documentalo."
+    ]
+  },
+  "galeria_pseudocalculos": [
+    {
+      "id": "pc01",
+      "titulo": "Los 384 universales",
+      "lo_que_se_escribio": "«Se encuestó a 384 personas mediante un formulario difundido por redes sociales, tamaño calculado con un nivel de confianza del 95 % y un margen de error del 5 %.»",
+      "diagnostico": "La fórmula supone muestreo aleatorio desde un marco. Un formulario en redes es una muestra autoseleccionada: no hay probabilidades de selección, así que el 95 % y el ±5 % no describen nada.",
+      "correccion": "Nombrar el procedimiento como no probabilístico por autoselección; justificar el tamaño por potencia si hay contraste de hipótesis; describir el perfil de quienes respondieron y limitar las conclusiones."
+    },
+    {
+      "id": "pc02",
+      "titulo": "La población finita inventada",
+      "lo_que_se_escribio": "«Para una población de 10.000 estudiantes, con la fórmula para poblaciones finitas, se obtuvo n = 370.»",
+      "diagnostico": "No hay registro que respalde N = 10.000 ni marco del que se haya sorteado. Además, con N grande la corrección casi no cambia nada: el número sigue viniendo de una fórmula sin diseño.",
+      "correccion": "Si existe el marco, citar la fuente de N y sortear desde él. Si no existe, el diseño es no probabilístico y la fórmula no corresponde."
+    },
+    {
+      "id": "pc03",
+      "titulo": "Confianza en una muestra intencional",
+      "lo_que_se_escribio": "«Se seleccionaron intencionalmente 60 docentes con más de diez años de experiencia, con un nivel de confianza del 95 %.»",
+      "diagnostico": "El muestreo intencional elige por criterio, no por sorteo. El nivel de confianza no tiene sentido ahí.",
+      "correccion": "Justificar el criterio de selección por la pregunta y, si hay contraste, el tamaño por potencia."
+    },
+    {
+      "id": "pc04",
+      "titulo": "Fórmula para fijar entrevistas",
+      "lo_que_se_escribio": "«Aplicando la fórmula de Fisher se determinó que el número de entrevistas en profundidad sería de 12.»",
+      "diagnostico": "Mezcla la lógica de la estimación estadística con la de la comprensión cualitativa. Ninguna fórmula de proporciones dice cuántas entrevistas necesita un estudio fenomenológico.",
+      "correccion": "Proponer un rango inicial según la potencia informativa y una regla de cierre por saturación, documentada en el análisis."
+    },
+    {
+      "id": "pc05",
+      "titulo": "Grande, entonces representativa",
+      "lo_que_se_escribio": "«Con 1.500 respuestas, la muestra es altamente representativa de la población adulta del país.»",
+      "diagnostico": "El tamaño reduce la variación aleatoria, pero no corrige quién quedó afuera. Mil quinientas personas que siguen a la misma cuenta no representan al país.",
+      "correccion": "Separar tamaño y procedimiento: describir quiénes respondieron, compararlos con datos poblacionales disponibles y declarar el sesgo probable."
+    },
+    {
+      "id": "pc06",
+      "titulo": "Cuotas presentadas como estratos",
+      "lo_que_se_escribio": "«Se utilizó un muestreo estratificado por sexo y edad: se encuestó a los primeros 50 varones y 50 mujeres de cada grupo etario que aceptaron participar.»",
+      "diagnostico": "Hay grupos, pero no sorteo dentro de ellos: es muestreo por cuotas, que es no probabilístico. «Estratificado» implica selección aleatoria en cada estrato.",
+      "correccion": "Nombrarlo muestreo por cuotas y tratarlo como no probabilístico, sin margen de error."
+    },
+    {
+      "id": "pc07",
+      "titulo": "El efecto de diseño olvidado",
+      "lo_que_se_escribio": "«Se sortearon 8 cursos completos de 35 alumnos y se calculó el margen de error como si fuera un muestreo aleatorio simple de 280 personas.»",
+      "diagnostico": "Sortear cursos es muestreo por conglomerados. Los compañeros de curso se parecen entre sí, así que la información real equivale a menos de 280 casos independientes y el margen de error está subestimado.",
+      "correccion": "Estimar la correlación intraclase, aplicar el efecto de diseño (deff ≈ 1 + (m − 1)·ρ) y recalcular el margen, o planificar más conglomerados."
+    },
+    {
+      "id": "pc08",
+      "titulo": "El tamaño de efecto de cajón",
+      "lo_que_se_escribio": "«El tamaño muestral se calculó con G*Power para un efecto mediano (d = 0,5), α = 0,05 y potencia de 0,80.»",
+      "diagnostico": "La cuenta es correcta, pero «mediano» es una convención, no una justificación. Si el efecto real en la literatura es d = 0,2, la muestra planificada tiene una potencia muy baja.",
+      "correccion": "Tomar el tamaño de efecto de un metaanálisis o de estudios con población similar, citar la fuente y, si hay incertidumbre, planificar para el menor efecto de interés."
+    }
+  ],
+  "autoauditoria": [
+    "¿Nombré a la población objetivo con criterios, lugar y tiempo?",
+    "¿Existe un marco muestral? ¿De dónde sale y quiénes no están en él?",
+    "¿Mi selección es por sorteo? Si no lo es, ¿borré toda mención a margen de error y nivel de confianza?",
+    "¿El tamaño está justificado según mi propósito (estimar, contrastar, modelar o comprender)?",
+    "Si hice análisis de potencia, ¿cité la fuente del tamaño de efecto?",
+    "¿Previ la tasa de respuesta y cómo voy a describir a quienes no respondieron?",
+    "Si mi estudio es cualitativo, ¿escribí la regla de cierre?"
+  ],
+  "auditoria_items_existentes": [
+    {"id": "m08-0024", "estado": "revisar", "nota_revision": "Confunde dos cosas: el sesgo de selección es una propiedad de cómo se obtuvo la muestra; aplicar una fórmula probabilística a una muestra de conveniencia es un error de inferencia (pseudocálculo), no un sesgo de selección."},
+    {"id": "m08-0036", "estado": "revisar", "nota_revision": "Afirmación demasiado amplia. La ponderación corrige desbalances solo en las variables usadas para ponderar y bajo supuestos; no corrige el sesgo de selección de una muestra no probabilística."},
+    {"id": "m08-0045", "estado": "revisar", "nota_revision": "Mismo problema que m08-0036: «devolver la estructura real del universo» sobreestima lo que logra la ponderación."},
+    {"id": "m08-0029", "estado": "revisar", "nota_revision": "El muestreo estratificado no siempre es proporcional: la asignación puede ser desproporcionada y entonces se pondera. Su propósito central es ganar precisión o asegurar casos por subgrupo."},
+    {"id": "m08-0052", "estado": "revisar", "nota_revision": "«Seleccionar unidades representativas» no vale para todo muestreo (no es el objetivo en cualitativo) y «representativa» es un término impreciso (Kish). Además, «Reducir costos» también es un objetivo legítimo del muestreo."},
+    {"id": "m08-0055", "estado": "revisar", "nota_revision": "Definición vaga: «diferencias entre muestra y población» incluye también el sesgo. El error muestral es la variación debida al azar de la selección."},
+    {"id": "m08-0040", "estado": "revisar", "nota_revision": "Precisar «generalizar estadísticamente»: la generalización teórica o analítica no requiere muestreo probabilístico."}
+  ],
+  "fuentes": [
+    "Cochran, W. G. (1977). *Sampling Techniques* (3.ª ed.). Wiley. Cap. 4.",
+    "Kish, L. (1965). *Survey Sampling*. Wiley. Cap. 8 (efecto de diseño).",
+    "Kish, L. (1987). *Statistical Design for Research*. Wiley. Cap. 1.",
+    "Snedecor, G. W. y Cochran, W. G. (1989). *Statistical Methods* (8.ª ed.). Iowa State University Press.",
+    "Rodríguez Osuna, J. *Métodos de muestreo*. CIS.",
+    "Cohen, J. (1988). *Statistical Power Analysis for the Behavioral Sciences* (2.ª ed.). Erlbaum.",
+    "Lakens, D. (2022). Sample size justification. *Collabra: Psychology, 8*(1), 33267.",
+    "Malterud, K., Siersma, V. D. y Guassora, A. D. (2016). Sample size in qualitative interview studies: Guided by information power. *Qualitative Health Research, 26*(13), 1753–1760.",
+    "Hennink, M. M., Kaiser, B. N. y Marconi, V. C. (2017). Code saturation versus meaning saturation. *Qualitative Health Research, 27*(4), 591–608.",
+    "MacCallum, R. C., Widaman, K. F., Zhang, S. y Hong, S. (1999). Sample size in factor analysis. *Psychological Methods, 4*(1), 84–99.",
+    "Wolf, E. J., Harrington, K. M., Clark, S. L. y Miller, M. W. (2013). Sample size requirements for structural equation models. *Educational and Psychological Measurement, 73*(6), 913–934.",
+    "Appelbaum, M. et al. (2018). Journal article reporting standards for quantitative research in psychology (JARS-Quant). *American Psychologist, 73*(1), 3–25."
+  ]
+}
