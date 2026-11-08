@@ -1,0 +1,188 @@
+{
+  "modulo_id": "m10",
+  "capsula": {
+    "title": "Cápsula Metodológica · Plan de Análisis Cuantitativo, Cualitativo y Mixto",
+    "subtitle": "Clase 12 · Cómo transformar los datos recolectados en respuestas a los objetivos",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Selección de procedimientos según el objetivo y el nivel de medición",
+        "headers": [
+          "Propósito del objetivo",
+          "Nivel de medición / Dato",
+          "Procedimiento analítico coherente"
+        ],
+        "rows": [
+          [
+            "Describir o estimar frecuencias/niveles",
+            "Nominal / Ordinal / Escala",
+            "Frecuencias absolutas y relativas (%), mediana/RIC o media y desviación estándar según distribución."
+          ],
+          [
+            "Determinar grado y dirección de relación",
+            "Dos variables continuas o ordinales",
+            "Coeficiente r de Pearson (paramétrico) o rho de Spearman (no paramétrico / ordinal)."
+          ],
+          [
+            "Establecer diferencias entre 2 grupos",
+            "VI dicotómica + VD continua/ordinal",
+            "Prueba t de Student (independiente o pareada) o U de Mann-Whitney / Wilcoxon + tamaño del efecto."
+          ],
+          [
+            "Comprender significados o experiencias",
+            "Corpus textual (entrevistas, grupos focales)",
+            "Transcripción y anonimización → codificación abierta/axial → familias de categorías y temas → selección de citas y casos divergentes."
+          ]
+        ]
+      },
+      {
+        "type": "cards",
+        "title": "4 distinciones para la Clase 12 (Plan 2026)",
+        "items": [
+          {
+            "badge": "1. Preparación",
+            "title": "Antes de analizar",
+            "text": "Limpieza de base, detección de valores perdidos, recodificación de ítems inversos y prueba de supuestos (o transcripción y anonimización en cualitativa)."
+          },
+          {
+            "badge": "2. Análisis",
+            "title": "El procedimiento aplicado",
+            "text": "Cálculo estadístico o proceso sistemático de codificación y comparación constante."
+          },
+          {
+            "badge": "3. Resultado",
+            "title": "Lo que muestran los datos",
+            "text": "El hallazgo empírico organizado en tablas, gráficos o matrices categoriales (en el anteproyecto se planifica SIN inventar datos ficticios)."
+          },
+          {
+            "badge": "4. Interpretación",
+            "title": "Diálogo con la teoría",
+            "text": "Explicar qué significa el resultado a la luz del marco teórico, los antecedentes y las limitaciones del diseño."
+          }
+        ]
+      }
+    ]
+  },
+  "casos": {
+    "miniCases": [
+      {
+        "id": "m10_c1",
+        "title": "Caso 1 · Promediar códigos nominales y aplicar Pearson a todo",
+        "context": "Ruta Cuantitativa · Coherencia nivel de medición–estadístico",
+        "scenario": "En su matriz de análisis cuantitativo (Clase 12), un estudiante codifica la variable *Estado civil* como `1 = Soltero, 2 = Casado, 3 = Divorciado, 4 = Viudo` y propone calcular la **media aritmética y la desviación estándar del estado civil** (imaginando concluir «el estado civil promedio es 1,8»). Además, para comparar el nivel de ansiedad (variable continua con distribución fuertemente asimétrica en una muestra pequeña de $n = 18$) entre dos grupos, propone usar únicamente una prueba paramétrica sin verificar supuestos.",
+        "question": "¿Por qué es un error calcular la media del estado civil y qué ajustes requiere su plan de análisis descriptivo e inferencial?",
+        "hints": [
+          "¿Qué nivel de medición tiene la variable Estado civil aunque se codifique con números 1, 2, 3, 4?",
+          "¿Qué estadísticos corresponden a variables nominales y qué alternativa no paramétrica existe cuando no se cumplen supuestos?"
+        ],
+        "analysis": "1. **Error con variable nominal:** En *Estado civil*, los números `1, 2, 3, 4` son simples etiquetas de clasificación (**nivel nominal**), sin orden ni distancia métrica. Calcular su media aritmética carece de sentido matemático y sustantivo. Corresponde reportar **frecuencias absolutas ($n$) y porcentajes (%)**, y como medida de posición, la **moda**.\n2. **Verificación de supuestos en inferencial:** Con $n = 18$ y fuerte asimetría, el plan de análisis debe prever comprobar primero la normalidad (p. ej. prueba de Shapiro-Wilk). Si no se cumple el supuesto paramétrico, debe declararse el uso de **mediana y rango intercuartílico (RIC)** para describir, y la prueba no paramétrica **U de Mann-Whitney** para comparar los dos grupos independientes.",
+        "keyConcept": "El nivel de medición (nominal, ordinal, intervalo, razón) y los supuestos gobiernan el estadístico"
+      },
+      {
+        "id": "m10_c2",
+        "title": "Caso 2 · El análisis cualitativo no es «elegir tres frases que me gustaron»",
+        "context": "Ruta Cualitativa · Trazabilidad y Rigor Analítico",
+        "scenario": "En su plan de análisis cualitativo para 15 entrevistas semiestructuradas sobre maternidad adolescente, un grupo escribe: «Leeremos las entrevistas y seleccionaremos las frases más interesantes que confirmen nuestra idea inicial para pegarlas en los resultados».",
+        "question": "¿Por qué este procedimiento carece de rigor cualitativo y cuáles son los eslabones que debe explicitar el plan de análisis en la Clase 12?",
+        "hints": [
+          "Seleccionar solo las citas que confirman tu idea previa se llama sesgo de confirmación o «cherry-picking».",
+          "Revisa la secuencia de la ruta cualitativa del Plan 2026: preparación → codificación → categorización → memos y casos divergentes."
+        ],
+        "analysis": "Elegir discrecionalmente citas que confirman la expectativa del investigador anula el rigor cualitativo. Un plan de análisis cualitativo trazable (Clase 12) debe especificar cinco pasos:\n1. **Preparación del corpus:** transcripción literal, anonimización y lectura flotante completa.\n2. **Segmentación y codificación inicial:** identificación de unidades de significado y asignación de códigos descriptivos/in vivo.\n3. **Agrupación categorial y temática:** comparación constante de códigos para construir o refinar categorías y ejes temáticos.\n4. **Memos analíticos y casos negativos/divergentes:** documentar las decisiones e incluir explícitamente los relatos que **matizan o contradicen** el patrón dominante.\n5. **Presentación:** matrices de sentido acompañadas de fragmentos textuales verificables (identificados con código de participante).",
+        "keyConcept": "Codificación sistemática, comparación constante y análisis de casos divergentes"
+      },
+      {
+        "id": "m10_c3",
+        "title": "Caso 3 · Planificar el análisis sin inventar resultados",
+        "context": "Integridad Metodológica · Plan vs. Ejecución",
+        "scenario": "Al redactar el apartado «Plan de análisis de datos» de su borrador de proyecto, una estudiante incluye un gráfico de barras con porcentajes inventados y escribe: «Como se observa en el Gráfico 1, el 78 % de los encuestados presentó alto estrés laboral, confirmando nuestra hipótesis».",
+        "question": "¿Por qué incluir porcentajes o conclusiones de resultados en un proyecto/anteproyecto es un error metodológico y ético grave?",
+        "hints": [
+          "En un proyecto o protocolo de investigación (antes de ir al campo), ¿qué diferencia hay entre diseñar el plan de análisis y reportar resultados?"
+        ],
+        "analysis": "En un anteproyecto o borrador de proyecto **no se han recolectado datos reales**, por lo que presentar porcentajes, gráficos con cifras o dar por confirmada la hipótesis constituye **fabricación de resultados** y confunde el *proyecto* con el *informe final de tesis*.\n\n**Lo que sí corresponde en la Clase 12:**\n• Especificar en tiempo futuro cómo se codificarán y limpiarán los datos.\n• Declarar qué estadísticos o procedimientos de codificación se aplicarán para responder cada objetivo específico.\n• Presentar **esqueletos o maquetas de tablas vacías** (sin datos inventados) y explicar qué regla de decisión se usará sin adelantar conclusiones.",
+        "keyConcept": "Distinción entre Plan de Análisis (anteproyecto) y Resultados Ejecutados (informe final)"
+      }
+    ],
+    "simulation": {
+      "title": "Simulación 10 · Construcción del plan de análisis cuantitativo y cualitativo",
+      "context": "Estás en la Clase 12 diseñando el plan de análisis para un proyecto que combina una fase cuantitativa (correlación entre horas de sueño y fatiga académica en 150 estudiantes) y una fase cualitativa (12 entrevistas sobre hábitos de estudio nocturnos).",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Paso 1 · Planificar la preparación y el análisis descriptivo",
+          "prompt": "En la ruta cuantitativa, antes de cruzar las variables, ¿qué pasos debes declarar en tu plan?",
+          "options": [
+            {
+              "text": "Codificación y limpieza de la matriz de datos, revisión de valores perdidos/atípicos, cálculo de consistencia interna de la escala de fatiga y estadísticos descriptivos (media y DE, o mediana y RIC según normalidad).",
+              "isOptimal": true,
+              "feedback": "¡Excelente! Diferencias claramente la preparación de los datos y el análisis descriptivo previo a la contrastación inferencial."
+            },
+            {
+              "text": "Saltar directamente a escribir que la hipótesis fue probada sin revisar la base ni describir las variables.",
+              "isOptimal": false,
+              "feedback": "Sin limpieza de datos, análisis descriptivo ni verificación de supuestos, cualquier prueba inferencial puede ser espuria."
+            }
+          ]
+        },
+        {
+          "stepNumber": 2,
+          "title": "Paso 2 · Seleccionar la prueba bivariada coherente",
+          "prompt": "Para responder el objetivo *«Determinar el grado y la dirección de la relación entre las horas de sueño y el nivel de fatiga académica»*, ¿qué procedimiento especificas?",
+          "options": [
+            {
+              "text": "Coeficiente de correlación r de Pearson (si se cumplen los supuestos de normalidad y linealidad) o rho de Spearman (si la distribución es asimétrica u ordinal), reportando magnitud, dirección y valor p.",
+              "isOptimal": true,
+              "feedback": "¡Exacto! Vinculaste un objetivo correlacional entre dos variables cuantitativas con el coeficiente bivariado correspondiente y su alternativa no paramétrica."
+            },
+            {
+              "text": "Una tabla de frecuencias simples de la variable sexo únicamente.",
+              "isOptimal": false,
+              "feedback": "Una tabla univariada de sexo no responde en absoluto a la relación entre horas de sueño y fatiga académica."
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "title": "Paso 3 · Planificar la ruta cualitativa con trazabilidad",
+          "prompt": "Para las 12 entrevistas sobre hábitos nocturnos, ¿cómo describes el plan de análisis cualitativo en tu proyecto?",
+          "options": [
+            {
+              "text": "Transcripción literal y anonimización del corpus, segmentación en unidades de significado, codificación inicial y axial, construcción de categorías temáticas, registro de memos y análisis de casos divergentes.",
+              "isOptimal": true,
+              "feedback": "¡Brillante! Has estructurado un plan de análisis mixto (cuantitativo y cualitativo) con total trazabilidad y sin inventar datos."
+            },
+            {
+              "text": "Inventar hoy mismo tres citas textuales falsas y ponerlas como si ya hubiéramos entrevistado a los alumnos.",
+              "isOptimal": false,
+              "feedback": "En el proyecto se planifica el procedimiento analítico; jamás se fabrican datos numéricos ni fragmentos textuales inexistentes."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "recursos": {
+    "videos": [
+      {
+        "videoId": "IDrnQgYgRqA",
+        "title": "Plan de análisis de datos cuantitativo y cualitativo",
+        "badge": "Clase 12 · Análisis de Datos"
+      }
+    ],
+    "readings": [
+      {
+        "title": "Guía Interactiva de Análisis de Datos (Recurso Web Oficial)",
+        "url": "https://emorito.github.io/guianalisis/",
+        "type": "web",
+        "description": "Plataforma interactiva de la cátedra para seleccionar procedimientos descriptivos, inferenciales y cualitativos según objetivos y nivel de medición."
+      }
+    ],
+    "notebooks": [
+      {
+        "title": "Cuaderno IA · Análisis de datos",
+        "url": "https://notebooklm.google.com/notebook/e9d0f775-f431-47f9-8c39-70f1742b9f48"
+      }
+    ]
+  }
+}

@@ -43,7 +43,11 @@
       "antes": "lectura sobre el enfoque científico y mapa completo del proyecto.",
       "despues": "verificación de dominio del módulo 1.",
       "entrega_moodle": "cuestionario diagnóstico inicial, hasta el martes 11/08, 23:59."
-    }
+    },
+    "preguntas_orientadoras": [],
+    "autoauditoria": [],
+    "evidencia_moodle": "",
+    "eslabon_cadena": ""
   },
   {
     "id": "m02",
@@ -94,7 +98,11 @@
       "antes": "guía de elección del tema, delimitación y ecuación booleana con IA responsable.",
       "despues": "verificación de dominio del módulo 2.",
       "entrega_moodle": "tema delimitado y protocolo de búsqueda inicial, hasta el martes 25/08, 23:59."
-    }
+    },
+    "preguntas_orientadoras": [],
+    "autoauditoria": [],
+    "evidencia_moodle": "",
+    "eslabon_cadena": ""
   },
   {
     "id": "m03",
@@ -144,7 +152,11 @@
       "antes": "guía para la revisión de literatura, marco teórico y vacíos de conocimiento.",
       "despues": "verificación de dominio del módulo 3.",
       "entrega_moodle": "matriz de literatura y ficha de antecedentes, hasta el martes 01/09, 23:59."
-    }
+    },
+    "preguntas_orientadoras": [],
+    "autoauditoria": [],
+    "evidencia_moodle": "",
+    "eslabon_cadena": ""
   },
   {
     "id": "m04",
@@ -192,7 +204,11 @@
       "antes": "lectura sobre planteamiento del problema (Kerlinger cap. 2 y deficiencias en problemas).",
       "despues": "verificación de dominio del módulo 4.",
       "entrega_moodle": "planteamiento del problema y preguntas de investigación, hasta el martes 08/09, 23:59."
-    }
+    },
+    "preguntas_orientadoras": [],
+    "autoauditoria": [],
+    "evidencia_moodle": "",
+    "eslabon_cadena": ""
   },
   {
     "id": "m05",
@@ -240,7 +256,11 @@
       "antes": "guía de formulación de objetivos (los 3 planos) e hipótesis de investigación.",
       "despues": "verificación de dominio del módulo 5.",
       "entrega_moodle": "matriz de coherencia: problema, preguntas, objetivos e hipótesis, hasta el martes 15/09, 23:59."
-    }
+    },
+    "preguntas_orientadoras": [],
+    "autoauditoria": [],
+    "evidencia_moodle": "",
+    "eslabon_cadena": ""
   },
   {
     "id": "m06",
@@ -290,7 +310,11 @@
       "antes": "lectura sobre constructos, variables y operacionalización.",
       "despues": "verificación de dominio del módulo 6.",
       "entrega_moodle": "tabla de operacionalización de variables o categorías, hasta el martes 22/09, 23:59."
-    }
+    },
+    "preguntas_orientadoras": [],
+    "autoauditoria": [],
+    "evidencia_moodle": "",
+    "eslabon_cadena": ""
   },
   {
     "id": "m07",
@@ -338,7 +362,11 @@
       "antes": "banco de casos sobre diseño y amenazas a la validez (criterios de Kish y notación X/O/R).",
       "despues": "verificación de dominio del módulo 7.",
       "entrega_moodle": "justificación del enfoque, alcance y diseño de investigación, hasta el martes 29/09, 23:59."
-    }
+    },
+    "preguntas_orientadoras": [],
+    "autoauditoria": [],
+    "evidencia_moodle": "",
+    "eslabon_cadena": ""
   },
   {
     "id": "m08",
@@ -388,7 +416,19 @@
       "antes": "lectura sobre criterios de inclusión/exclusión, marco muestral y tipos de muestreo.",
       "despues": "verificación de dominio del módulo 8.",
       "entrega_moodle": "apartado de población, muestra y procedimiento de muestreo, hasta el martes 06/10, 23:59."
-    }
+    },
+    "preguntas_orientadoras": [],
+    "autoauditoria": [
+      "¿Nombré a la población objetivo con criterios, lugar y tiempo?",
+      "¿Existe un marco muestral? ¿De dónde sale y quiénes no están en él?",
+      "¿Mi selección es por sorteo? Si no lo es, ¿borré toda mención a margen de error y nivel de confianza?",
+      "¿El tamaño está justificado según mi propósito (estimar, contrastar, modelar o comprender)?",
+      "Si hice análisis de potencia, ¿cité la fuente del tamaño de efecto?",
+      "¿Previ la tasa de respuesta y cómo voy a describir a quienes no respondieron?",
+      "Si mi estudio es cualitativo, ¿escribí la regla de cierre?"
+    ],
+    "evidencia_moodle": "",
+    "eslabon_cadena": ""
   },
   {
     "id": "m09",
@@ -405,13 +445,17 @@
       "tecnicas",
       "instrumentos",
       "calidad_medicion",
-      "etica"
+      "etica",
+      "medicion",
+      "construccion_adaptacion"
     ],
     "subtemas_labels": [
       "Técnicas de recolección",
       "Instrumentos",
       "Validez y confiabilidad",
-      "Ética e integridad"
+      "Ética e integridad",
+      "Medir en psicología",
+      "Construir, adaptar y elegir instrumentos"
     ],
     "resultados": [
       "diferenciar técnica, instrumento y fuente;",
@@ -438,7 +482,20 @@
       "antes": "lectura de técnicas, instrumentos y ética, y la matriz objetivo–dato–fuente.",
       "despues": "verificación de dominio del módulo 9.",
       "entrega_moodle": "matriz e instrumento bosquejado, hasta el martes 20/10, 23:59."
-    }
+    },
+    "preguntas_orientadoras": [],
+    "autoauditoria": [
+      "¿Cada instrumento responde a un objetivo y cada objetivo tiene su instrumento?",
+      "¿Distinguí fuente, técnica e instrumento en mi método?",
+      "¿El instrumento mide mi constructo tal como lo definí operacionalmente?",
+      "¿Tiene evidencias de validez en una población parecida a la mía? Si no, ¿lo declaré como limitación?",
+      "¿Voy a reportar la fiabilidad en mi propia muestra?",
+      "Si es una escala adaptada o traducida, ¿seguí un procedimiento y lo voy a describir?",
+      "¿Tengo permiso o licencia para usar el instrumento?",
+      "¿Previ consentimiento, anonimización y custodia de los datos?"
+    ],
+    "evidencia_moodle": "",
+    "eslabon_cadena": ""
   },
   {
     "id": "m10",
@@ -484,7 +541,11 @@
       "antes": "guías de plan de análisis cuantitativo y cualitativo según objetivos.",
       "despues": "verificación de dominio del módulo 10.",
       "entrega_moodle": "plan de procesamiento y análisis previsto de datos, hasta el martes 27/10, 23:59."
-    }
+    },
+    "preguntas_orientadoras": [],
+    "autoauditoria": [],
+    "evidencia_moodle": "",
+    "eslabon_cadena": ""
   },
   {
     "id": "m11",
@@ -535,6 +596,10 @@
       "antes": "guía de citación APA 7.ª ed., gestor Zotero y declaración ética de IA (Protocolo VERA).",
       "despues": "verificación de dominio del módulo 11.",
       "entrega_moodle": "borrador completo del proyecto de investigación integrado, hasta el martes 03/11, 23:59."
-    }
+    },
+    "preguntas_orientadoras": [],
+    "autoauditoria": [],
+    "evidencia_moodle": "",
+    "eslabon_cadena": ""
   }
 ]

@@ -1,0 +1,1285 @@
+{
+  "modulo_id": "m07",
+  "items": [
+    {
+      "id": "m07-0001",
+      "tipo": "verdadero_falso",
+      "enunciado": "La investigación correlacional indaga en las relaciones superficiales entre variables, pero no necesariamente busca las razones causales subyacentes.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Verdadero! Y es el mantra que te tatuarás: 'Correlación no implica causalidad'. ⚠️ Solo te dice 'estas dos cosas se mueven juntas', pero no te dice *por qué* ni *quién* causa a *quién*.",
+        "incorrecta": "Ojo, es verdadero. La investigación correlacional es 'chismosa': te dice quién se junta con quién, pero no quién empezó la relación (causa). Para eso, necesitas un experimento.",
+        "correct": "¡Verdadero! Y es el mantra que te tatuarás: 'Correlación no implica causalidad'. ⚠️ Solo te dice 'estas dos cosas se mueven juntas', pero no te dice *por qué* ni *quién* causa a *quién*.",
+        "incorrect": "Ojo, es verdadero. La investigación correlacional es 'chismosa': te dice quién se junta con quién, pero no quién empezó la relación (causa). Para eso, necesitas un experimento.",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "alcance",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0002",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué tipo de investigación descriptiva es particularmente apropiada para analizar tendencias de desarrollo al seguir a un grupo particular durante un largo período de tiempo?",
+      "opciones": [
+        "Estudio Transversal (*Cross-sectional study*).",
+        "Estudio Longitudinal (*Longitudinal study*).",
+        "Investigación Etnográfica.",
+        "Diseño de Grupo Estático."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! ⏳ 'Longitudinal' = a lo largo del tiempo. Sigues al mismo grupo de gente (una cohorte) durante años para ver cómo cambian. Es como ver una serie entera, no solo una foto.",
+        "incorrecta": "'Transversal' (Cross-sectional) es lo opuesto: es una 'foto' en un momento dado de diferentes grupos de edad. Para ver *tendencias de desarrollo* en el *mismo* grupo, necesitas el longitudinal. 🎬",
+        "correct": "¡Correcto! ⏳ 'Longitudinal' = a lo largo del tiempo. Sigues al mismo grupo de gente (una cohorte) durante años para ver cómo cambian. Es como ver una serie entera, no solo una foto.",
+        "incorrect": "'Transversal' (Cross-sectional) es lo opuesto: es una 'foto' en un momento dado de diferentes grupos de edad. Para ver *tendencias de desarrollo* en el *mismo* grupo, necesitas el longitudinal. 🎬",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "alcance",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0003",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es uno de los dos propósitos básicos del diseño de investigación, además de controlar la varianza?",
+      "opciones": [
+        "Proporcionar respuestas a preguntas de investigación.",
+        "Garantizar el 100% de validez externa.",
+        "Establecer una teoría final o ley universal."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Elemental, mi querido Watson! 🕵️‍♂️ Un diseño es el mapa para encontrar la respuesta. Sin un buen mapa... bueno, estás perdido en el bosque de los datos.",
+        "incorrecta": "Nop. El 100% de validez es una utopía 😅, y una 'ley universal' es algo MUY grande. El diseño es el plan práctico para responder *tu* pregunta.",
+        "correct": "¡Elemental, mi querido Watson! 🕵️‍♂️ Un diseño es el mapa para encontrar la respuesta. Sin un buen mapa... bueno, estás perdido en el bosque de los datos.",
+        "incorrect": "Nop. El 100% de validez es una utopía 😅, y una 'ley universal' es algo MUY grande. El diseño es el plan práctico para responder *tu* pregunta.",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0004",
+      "tipo": "verdadero_falso",
+      "enunciado": "El diseño de investigación se refiere a la estructura general que guía la recopilación y el análisis de datos para abordar un problema de investigación.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Verdadero! ✅ Es el 'plano' de tu investigación. Te dice dónde poner los cimientos (datos) y cómo construir las paredes (análisis) para que la casa no se caiga.",
+        "incorrecta": "De hecho, es verdadero. Piensa en el diseño como el plan del arquitecto antes de poner un solo ladrillo. Es la estructura que lo sostiene todo. 🏠",
+        "correct": "¡Verdadero! ✅ Es el 'plano' de tu investigación. Te dice dónde poner los cimientos (datos) y cómo construir las paredes (análisis) para que la casa no se caiga.",
+        "incorrect": "De hecho, es verdadero. Piensa en el diseño como el plan del arquitecto antes de poner un solo ladrillo. Es la estructura que lo sostiene todo. 🏠",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0005",
+      "tipo": "opcion_multiple",
+      "enunciado": "Las tres categorías principales de estudios que se utilizan activamente en la investigación en psicología incluyen los experimentos verdaderos, los cuasiexperimentos y los:",
+      "opciones": [
+        "Diseños observacionales.",
+        "Diseños pre-experimentales.",
+        "Estudios instrumentales."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Bingo! 🎯 Tienes los 'verdaderos' (control total), los 'cuasi' (control a medias) y los 'observacionales' (o correlacionales: sin control, solo miras). Esos son los tres grandes.",
+        "incorrecta": "Casi. Los 'pre-experimentales' son como los 'borradores' de los experimentos, pero los 'observacionales' (o correlacionales) son la tercera gran familia.",
+        "correct": "¡Bingo! 🎯 Tienes los 'verdaderos' (control total), los 'cuasi' (control a medias) y los 'observacionales' (o correlacionales: sin control, solo miras). Esos son los tres grandes.",
+        "incorrect": "Casi. Los 'pre-experimentales' son como los 'borradores' de los experimentos, pero los 'observacionales' (o correlacionales) son la tercera gran familia.",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0006",
+      "tipo": "verdadero_falso",
+      "enunciado": "La validez interna de un estudio es la medida en que su diseño permite al investigador sacar conclusiones defendibles sobre las relaciones de causa y efecto dentro de los datos.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Verdadero! 💡 La validez interna es tu 'escudo anti-excusas'. Responde a: '¿Estás SEGURO de que A causó B, y no fue otra cosa?'",
+        "incorrecta": "Ojo, es verdadero. Validez **Interna** = ¿El experimento está bien *dentro*? ¿La causa-efecto es real? (Validez Externa = ¿Funciona *fuera*, en el mundo real?)",
+        "correct": "¡Verdadero! 💡 La validez interna es tu 'escudo anti-excusas'. Responde a: '¿Estás SEGURO de que A causó B, y no fue otra cosa?'",
+        "incorrect": "Ojo, es verdadero. Validez **Interna** = ¿El experimento está bien *dentro*? ¿La causa-efecto es real? (Validez Externa = ¿Funciona *fuera*, en el mundo real?)",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0007",
+      "tipo": "verdadero_falso",
+      "enunciado": "Según el principio de control de la varianza (maxmincon), una de las tareas principales del investigador es minimizar la varianza del error o aleatoria.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Verdadero! 'Max-Min-Con' es el mantra del investigador: MAXimiza la varianza 'buena' (la del efecto), MINimiza la del 'error' (ruido aleatorio) y CONtrola la 'mala' (variables extrañas).",
+        "incorrecta": "De hecho, es verdadero. Es uno de los 3 pilares del principio MAXMINCON. Quieres que el 'ruido' (varianza de error) sea lo más bajo posible para poder 'escuchar' el efecto real.",
+        "correct": "¡Verdadero! 'Max-Min-Con' es el mantra del investigador: MAXimiza la varianza 'buena' (la del efecto), MINimiza la del 'error' (ruido aleatorio) y CONtrola la 'mala' (variables extrañas).",
+        "incorrect": "De hecho, es verdadero. Es uno de los 3 pilares del principio MAXMINCON. Quieres que el 'ruido' (varianza de error) sea lo más bajo posible para poder 'escuchar' el efecto real.",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0008",
+      "tipo": "verdadero_falso",
+      "enunciado": "La existencia de diferentes denominaciones (confusión terminológica) genera confusión tanto para los estudiantes como para los investigadores en el campo de la metodología de la investigación.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Verdadero! 😅 Y bienvenido al club. ¿Es 'cuantitativo' o 'variable-centrado'? ¿'Ex Post Facto' o 'Correlacional'? La metodología a veces parece una torre de Babel. ¡Pero para eso estamos aquí!",
+        "incorrecta": "¡Ojalá fuera falso! Pero es dolorosamente verdadero. Diferentes autores usan diferentes nombres para la misma cosa. Es una de las primeras barreras al aprender metodología. 🙄",
+        "correct": "¡Verdadero! 😅 Y bienvenido al club. ¿Es 'cuantitativo' o 'variable-centrado'? ¿'Ex Post Facto' o 'Correlacional'? La metodología a veces parece una torre de Babel. ¡Pero para eso estamos aquí!",
+        "incorrect": "¡Ojalá fuera falso! Pero es dolorosamente verdadero. Diferentes autores usan diferentes nombres para la misma cosa. Es una de las primeras barreras al aprender metodología. 🙄",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0009",
+      "tipo": "verdadero_falso",
+      "enunciado": "Una hipótesis es una predicción o explicación propuesta para un fenómeno bajo investigación, que se puede plantear antes de que comience la recopilación de datos (hipótesis a priori) o después.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Verdadero! Es tu 'predicción informada'. 🧐 Tu 'apuesta' sobre lo que crees que va a pasar, basada en la teoría. Y sí, puede ser 'a priori' (antes) o 'post hoc' (después, aunque con menos peso).",
+        "incorrecta": "De hecho, es verdadero. Es la definición de libro de texto. Una hipótesis es esa conjetura educada que guía tu investigación. 🔭",
+        "correct": "¡Verdadero! Es tu 'predicción informada'. 🧐 Tu 'apuesta' sobre lo que crees que va a pasar, basada en la teoría. Y sí, puede ser 'a priori' (antes) o 'post hoc' (después, aunque con menos peso).",
+        "incorrect": "De hecho, es verdadero. Es la definición de libro de texto. Una hipótesis es esa conjetura educada que guía tu investigación. 🔭",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0010",
+      "tipo": "opcion_multiple",
+      "enunciado": "Un diseño de investigación es:",
+      "opciones": [
+        "El plan general para recoger y analizar datos",
+        "Un resumen de la bibliografía",
+        "Un tipo de muestra",
+        "Un programa informático"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «El plan general para recoger y analizar datos» es la respuesta adecuada. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrecta": "No es correcto. La respuesta acertada es «El plan general para recoger y analizar datos». El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "correct": "¡Correcto! «El plan general para recoger y analizar datos» es la respuesta adecuada. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrect": "No es correcto. La respuesta acertada es «El plan general para recoger y analizar datos». El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0011",
+      "tipo": "opcion_multiple",
+      "enunciado": "En un diseño experimental, el investigador manipula:",
+      "opciones": [
+        "La variable dependiente",
+        "La variable independiente",
+        "Los resultados",
+        "Las conclusiones"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «La variable independiente» es la respuesta adecuada. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrecta": "No es correcto. La respuesta acertada es «La variable independiente». El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "correct": "¡Correcto! «La variable independiente» es la respuesta adecuada. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrect": "No es correcto. La respuesta acertada es «La variable independiente». El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0012",
+      "tipo": "opcion_multiple",
+      "enunciado": "Los diseños no experimentales incluyen:",
+      "opciones": [
+        "Estudios correlacionales y observacionales",
+        "Experimentos controlados",
+        "Ensayos clínicos",
+        "Muestreo aleatorio"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Estudios correlacionales y observacionales» es la respuesta adecuada. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Estudios correlacionales y observacionales». El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "correct": "¡Correcto! «Estudios correlacionales y observacionales» es la respuesta adecuada. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrect": "No es correcto. La respuesta acertada es «Estudios correlacionales y observacionales». El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0013",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cómo se denomina una característica, experiencia o comportamiento de interés que tiene dos o más valores distintos en un proyecto de investigación?",
+      "opciones": [
+        "Delimitación.",
+        "Hipótesis a priori.",
+        "Variable.",
+        "Constructo teórico."
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "¡Correcto! Es una **Variable**. ¿Por qué? Porque 'varía'. 😉 Edad, género, puntuación de ansiedad... si puede cambiar o tomar diferentes valores, es una variable.",
+        "incorrecta": "Mmm, no. Un constructo es la idea teórica (ej. 'inteligencia'), pero la 'variable' es cómo la mides y qué valores toma (ej. 'CI de 80 a 120').",
+        "correct": "¡Correcto! Es una **Variable**. ¿Por qué? Porque 'varía'. 😉 Edad, género, puntuación de ansiedad... si puede cambiar o tomar diferentes valores, es una variable.",
+        "incorrect": "Mmm, no. Un constructo es la idea teórica (ej. 'inteligencia'), pero la 'variable' es cómo la mides y qué valores toma (ej. 'CI de 80 a 120').",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0014",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es una característica definitoria de los experimentos verdaderos (*true experiments*)?",
+      "opciones": [
+        "La manipulación de variables de atributo.",
+        "La asignación aleatoria de participantes a grupos.",
+        "La selección de grupos preexistentes (intactos)."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Esa es! 🎲 La asignación aleatoria (meter a la gente en grupos al azar) es la 'salsa secreta'. Es lo que hace a un experimento 'verdadero' y nos da el poder de hablar de causa-efecto.",
+        "incorrecta": "Nop. Usar grupos preexistentes es justo lo que hacen los *cuasi*experimentos. La magia del 'verdadero' es el control total, y eso empieza con la aleatorización. ¡Randomización FTW!",
+        "correct": "¡Esa es! 🎲 La asignación aleatoria (meter a la gente en grupos al azar) es la 'salsa secreta'. Es lo que hace a un experimento 'verdadero' y nos da el poder de hablar de causa-efecto.",
+        "incorrect": "Nop. Usar grupos preexistentes es justo lo que hacen los *cuasi*experimentos. La magia del 'verdadero' es el control total, y eso empieza con la aleatorización. ¡Randomización FTW!",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0015",
+      "tipo": "verdadero_falso",
+      "enunciado": "En los diseños *Ex Post Facto*, el investigador manipula la variable independiente para examinar su efecto en la variable dependiente.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Totalmente falso! 'Ex Post Facto' significa 'después del hecho'. El 'hecho' (la causa) YA pasó (ej. fumar). El investigador no manipula nada, solo mira las consecuencias.",
+        "incorrecta": "¡Alerta de trampa! 🚨 'Ex Post Facto' es lo opuesto a manipular. El investigador llega *después* de que la variable independiente (ej. un terremoto) ocurriera. Solo puede observar.",
+        "correct": "¡Totalmente falso! 'Ex Post Facto' significa 'después del hecho'. El 'hecho' (la causa) YA pasó (ej. fumar). El investigador no manipula nada, solo mira las consecuencias.",
+        "incorrect": "¡Alerta de trampa! 🚨 'Ex Post Facto' es lo opuesto a manipular. El investigador llega *después* de que la variable independiente (ej. un terremoto) ocurriera. Solo puede observar.",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0016",
+      "tipo": "opcion_multiple",
+      "enunciado": "Un diseño cuasiexperimental es aquel en el que las condiciones de un experimento verdadero solo se aproximan debido a restricciones en aspectos como:",
+      "opciones": [
+        "La asignación aleatoria de casos a condiciones.",
+        "La definición del constructo de interés.",
+        "La interpretación de los resultados."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! El 'cuasi' es el 'casi' experimento. Es lo que haces cuando *quieres* hacer un experimento verdadero, pero no puedes asignar la gente al azar (ej. usas dos aulas ya formadas). 🧑‍🏫",
+        "incorrecta": "Nop. El 'cuasi' se llama así porque le falta el ingrediente estrella: la **asignación aleatoria**. Intenta compensarlo, pero no es lo mismo.",
+        "correct": "¡Exacto! El 'cuasi' es el 'casi' experimento. Es lo que haces cuando *quieres* hacer un experimento verdadero, pero no puedes asignar la gente al azar (ej. usas dos aulas ya formadas). 🧑‍🏫",
+        "incorrect": "Nop. El 'cuasi' se llama así porque le falta el ingrediente estrella: la **asignación aleatoria**. Intenta compensarlo, pero no es lo mismo.",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0017",
+      "tipo": "verdadero_falso",
+      "enunciado": "El diseño de línea base múltiple (*Multiple-Baseline Design*) se clasifica como uno de los diseños que se utilizan en la investigación de intervención de caso único.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Verdadero! 📈 Es un diseño súper potente para N=1. Mides la línea base, aplicas la intervención a una conducta (o persona, o contexto), y ves si cambia... mientras las otras líneas base siguen estables. ¡Pura elegancia!",
+        "incorrecta": "Pues sí, es verdadero. Es uno de los diseños estrella de la investigación de 'caso único' (single-case). Permite ver causa-efecto sin necesidad de un grupo de control.",
+        "correct": "¡Verdadero! 📈 Es un diseño súper potente para N=1. Mides la línea base, aplicas la intervención a una conducta (o persona, o contexto), y ves si cambia... mientras las otras líneas base siguen estables. ¡Pura elegancia!",
+        "incorrect": "Pues sí, es verdadero. Es uno de los diseños estrella de la investigación de 'caso único' (single-case). Permite ver causa-efecto sin necesidad de un grupo de control.",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0018",
+      "tipo": "opcion_multiple",
+      "enunciado": "Según la clasificación de propósitos de investigación, el objetivo de **probar teorías** (Theory testing) corresponde principalmente a estrategias:",
+      "opciones": [
+        "Orientadas a variables (*Variable-Centred*).",
+        "Orientadas a casos (*Case-Oriented*).",
+        "Puramente descriptivas.",
+        "De diseño de la experiencia."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Eso es! 🧠 Para probar una teoría (ej. 'la ansiedad reduce la memoria'), te centras en las *variables* ('nivel de ansiedad', 'puntuación en memoria') y cómo se relacionan en un grupo grande.",
+        "incorrecta": "Nop. 'Orientado a casos' es más para *entender* un fenómeno complejo en profundidad (ej. un estudio de caso). Para *probar* teorías generales, nos centramos en las variables.",
+        "correct": "¡Eso es! 🧠 Para probar una teoría (ej. 'la ansiedad reduce la memoria'), te centras en las *variables* ('nivel de ansiedad', 'puntuación en memoria') y cómo se relacionan en un grupo grande.",
+        "incorrect": "Nop. 'Orientado a casos' es más para *entender* un fenómeno complejo en profundidad (ej. un estudio de caso). Para *probar* teorías generales, nos centramos en las variables.",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0019",
+      "tipo": "verdadero_falso",
+      "enunciado": "La maximización de la varianza experimental requiere que la variable independiente tenga niveles muy distintos entre sí, para así separar los tratamientos lo más posible.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Verdadero! Es parte del 'MAX' en Maxmincon. Si quieres ver si un tratamiento funciona, no comparas 'dosis alta' con 'dosis casi alta'. Comparas 'dosis alta' con 'placebo'. ¡Separa los grupos lo más posible! 💥",
+        "incorrecta": "Piénsalo: es verdadero. Si quieres 'maximizar' el efecto de tu variable independiente, tienes que hacer que sus niveles sean súper diferentes. (Ej. 'terapia intensiva' vs 'nada de terapia').",
+        "correct": "¡Verdadero! Es parte del 'MAX' en Maxmincon. Si quieres ver si un tratamiento funciona, no comparas 'dosis alta' con 'dosis casi alta'. Comparas 'dosis alta' con 'placebo'. ¡Separa los grupos lo más posible! 💥",
+        "incorrect": "Piénsalo: es verdadero. Si quieres 'maximizar' el efecto de tu variable independiente, tienes que hacer que sus niveles sean súper diferentes. (Ej. 'terapia intensiva' vs 'nada de terapia').",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0020",
+      "tipo": "verdadero_falso",
+      "enunciado": "El propósito principal de la asignación aleatoria de participantes en estudios experimentales es producir dos o más grupos que sean equivalentes al comienzo del experimento.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Verdadero! ⚖️ Es la razón de ser de la aleatorización. No *garantiza* que sean idénticos, pero es la mejor herramienta que tenemos para que, *en promedio*, los grupos sean equivalentes antes de que empiece la magia (la intervención).",
+        "incorrecta": "¡Cuidado! Es verdadero. Ese es su propósito principal. Al repartir al azar, las 'variables extrañas' (inteligencia, motivación, etc.) deberían repartirse por igual entre los grupos, 'anulándose' mutuamente.",
+        "correct": "¡Verdadero! ⚖️ Es la razón de ser de la aleatorización. No *garantiza* que sean idénticos, pero es la mejor herramienta que tenemos para que, *en promedio*, los grupos sean equivalentes antes de que empiece la magia (la intervención).",
+        "incorrect": "¡Cuidado! Es verdadero. Ese es su propósito principal. Al repartir al azar, las 'variables extrañas' (inteligencia, motivación, etc.) deberían repartirse por igual entre los grupos, 'anulándose' mutuamente.",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0021",
+      "tipo": "opcion_multiple",
+      "enunciado": "La técnica de **mantener constante una variable independiente potencial** (como la inteligencia) se utiliza para:",
+      "opciones": [
+        "Maximizar la varianza sistemática.",
+        "Eliminar el efecto de la variable extraña sobre la variable dependiente.",
+        "Reducir la confiabilidad de la medición."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Movimiento maestro! ♟️ Si crees que la 'inteligencia' puede arruinar tu experimento (es una variable extraña), una forma de controlarla es... ¡eliminándola! Si todos tienen el mismo CI, la inteligencia *ya no es una variable*.",
+        "incorrecta": "Al contrario. Es una técnica de **control**. Al hacer que algo sea 'constante', deja de ser una 'variable extraña' que pueda molestar. Es como ponerle 'mute' a esa variable. 🤫",
+        "correct": "¡Movimiento maestro! ♟️ Si crees que la 'inteligencia' puede arruinar tu experimento (es una variable extraña), una forma de controlarla es... ¡eliminándola! Si todos tienen el mismo CI, la inteligencia *ya no es una variable*.",
+        "incorrect": "Al contrario. Es una técnica de **control**. Al hacer que algo sea 'constante', deja de ser una 'variable extraña' que pueda molestar. Es como ponerle 'mute' a esa variable. 🤫",
+        "origen": "original"
+      },
+      "dificultad": 3,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0022",
+      "tipo": "opcion_multiple",
+      "enunciado": "En la concepción de un diseño de investigación, la 'estructura' puede definirse como:",
+      "opciones": [
+        "El análisis final de los datos recopilados.",
+        "Un paradigma o modelo de las relaciones entre las variables de un estudio.",
+        "La formulación de hipótesis operacionales sin ambigüedades."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Exacto! 🧠 Es un concepto denso. La 'estructura' del diseño es el 'diagrama' lógico que conecta tus variables. Es el 'cómo' crees que A afecta a B, mientras controlas C.",
+        "incorrecta": "Nop. El análisis es el final. La estructura es el *principio*, es el 'modelo' o 'paradigma' conceptual. Es el esqueleto lógico de tu estudio.",
+        "correct": "¡Exacto! 🧠 Es un concepto denso. La 'estructura' del diseño es el 'diagrama' lógico que conecta tus variables. Es el 'cómo' crees que A afecta a B, mientras controlas C.",
+        "incorrect": "Nop. El análisis es el final. La estructura es el *principio*, es el 'modelo' o 'paradigma' conceptual. Es el esqueleto lógico de tu estudio.",
+        "origen": "original"
+      },
+      "dificultad": 3,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0023",
+      "tipo": "verdadero_falso",
+      "enunciado": "La validez (*Validity*) se refiere a la calidad de los datos, mientras que la fiabilidad (*Reliability*) se refiere a la calidad de la inferencia extraída de las puntuaciones de la prueba.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Falso! Están al revés. **Fiabilidad** = calidad de los *datos* (consistencia, precisión). **Validez** = calidad de la *inferencia* (¿estás midiendo lo que crees?). ¡No lo olvides! 🔄",
+        "incorrecta": "¡Trampa, están intercambiados! 🔄 **Fiabilidad** es consistencia (el dato es estable). **Validez** es si esa inferencia es correcta (el dato significa lo que crees que significa). Un clásico.",
+        "correct": "¡Falso! Están al revés. **Fiabilidad** = calidad de los *datos* (consistencia, precisión). **Validez** = calidad de la *inferencia* (¿estás midiendo lo que crees?). ¡No lo olvides! 🔄",
+        "incorrect": "¡Trampa, están intercambiados! 🔄 **Fiabilidad** es consistencia (el dato es estable). **Validez** es si esa inferencia es correcta (el dato significa lo que crees que significa). Un clásico.",
+        "origen": "original"
+      },
+      "dificultad": 3,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0024",
+      "tipo": "opcion_multiple",
+      "enunciado": "Un diseño experimental implica...",
+      "opciones": [
+        "manipular una variable independiente para observar su efecto",
+        "solo observar sin intervenir",
+        "entrevistar participantes",
+        "estudiar significados culturales"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «manipular una variable independiente para observar su efecto» es la respuesta adecuada. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrecta": "No es correcto. La respuesta acertada es «manipular una variable independiente para observar su efecto». El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "correct": "¡Correcto! «manipular una variable independiente para observar su efecto» es la respuesta adecuada. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrect": "No es correcto. La respuesta acertada es «manipular una variable independiente para observar su efecto». El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0025",
+      "tipo": "opcion_multiple",
+      "enunciado": "Un estudio transversal se caracteriza por...",
+      "opciones": [
+        "recolectar datos en un solo momento temporal",
+        "medir cambios a lo largo del tiempo",
+        "aplicar varias intervenciones",
+        "controlar sujetos a largo plazo"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «recolectar datos en un solo momento temporal» es la respuesta adecuada. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrecta": "No es correcto. La respuesta acertada es «recolectar datos en un solo momento temporal». El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "correct": "¡Correcto! «recolectar datos en un solo momento temporal» es la respuesta adecuada. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrect": "No es correcto. La respuesta acertada es «recolectar datos en un solo momento temporal». El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0026",
+      "tipo": "opcion_multiple",
+      "enunciado": "El diseño no experimental...",
+      "opciones": [
+        "observa fenómenos sin manipular variables",
+        "controla el azar en laboratorio",
+        "asigna aleatoriamente grupos",
+        "requiere hipótesis nula"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «observa fenómenos sin manipular variables» es la respuesta adecuada. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrecta": "No es correcto. La respuesta acertada es «observa fenómenos sin manipular variables». El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "correct": "¡Correcto! «observa fenómenos sin manipular variables» es la respuesta adecuada. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrect": "No es correcto. La respuesta acertada es «observa fenómenos sin manipular variables». El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 1,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0027",
+      "tipo": "opcion_multiple",
+      "enunciado": "Un estudio longitudinal permite...",
+      "opciones": [
+        "analizar cambios en el tiempo en la misma población",
+        "comparar grupos independientes",
+        "examinar diferencias instantáneas",
+        "controlar condiciones experimentales"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «analizar cambios en el tiempo en la misma población» es la respuesta adecuada. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrecta": "No es correcto. La respuesta acertada es «analizar cambios en el tiempo en la misma población». El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "correct": "¡Correcto! «analizar cambios en el tiempo en la misma población» es la respuesta adecuada. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrect": "No es correcto. La respuesta acertada es «analizar cambios en el tiempo en la misma población». El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0028",
+      "tipo": "verdadero_falso",
+      "enunciado": "Los diseños descriptivos pueden ser tanto cualitativos como cuantitativos.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! La afirmación es **Verdadero**. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrecta": "Respuesta incorrecta (la opción correcta es **Verdadero**). El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "correct": "¡Correcto! La afirmación es **Verdadero**. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrect": "Respuesta incorrecta (la opción correcta es **Verdadero**). El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0029",
+      "tipo": "verdadero_falso",
+      "enunciado": "La validez interna se maximiza en diseños experimentales.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! La afirmación es **Verdadero**. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrecta": "Respuesta incorrecta (la opción correcta es **Verdadero**). El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "correct": "¡Correcto! La afirmación es **Verdadero**. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrect": "Respuesta incorrecta (la opción correcta es **Verdadero**). El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 1,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0030",
+      "tipo": "verdadero_falso",
+      "enunciado": "El diseño correlacional busca establecer causalidad directa.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! La afirmación es **Falso**. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrecta": "Respuesta incorrecta (la opción correcta es **Falso**). El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "correct": "¡Correcto! La afirmación es **Falso**. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrect": "Respuesta incorrecta (la opción correcta es **Falso**). El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 1,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0031",
+      "tipo": "verdadero_falso",
+      "enunciado": "Los estudios de caso son típicos del enfoque cualitativo.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! La afirmación es **Verdadero**. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrecta": "Respuesta incorrecta (la opción correcta es **Verdadero**). El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "correct": "¡Correcto! La afirmación es **Verdadero**. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrect": "Respuesta incorrecta (la opción correcta es **Verdadero**). El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0032",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es la función principal del diseño de investigación?",
+      "opciones": [
+        "Seleccionar la muestra",
+        "Organizar lógicamente el proceso de investigación",
+        "Reemplazar el marco teórico",
+        "Definir los resultados"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Correcto. El diseño estructura y organiza todo el proceso de investigación.",
+        "incorrecta": "Revisá el rol integrador del diseño. La opción correcta es: «Organizar lógicamente el proceso de investigación».",
+        "correct": "Correcto. El diseño estructura y organiza todo el proceso de investigación.",
+        "incorrect": "Revisá el rol integrador del diseño. La opción correcta es: «Organizar lógicamente el proceso de investigación».",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0033",
+      "tipo": "opcion_multiple",
+      "enunciado": "El diseño de investigación se caracteriza por:",
+      "opciones": [
+        "Ser una técnica específica",
+        "Ser un plan lógico y estructurado",
+        "Ser un instrumento de medición",
+        "Ser un análisis estadístico"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Exacto. El diseño es un plan general, no una técnica aislada.",
+        "incorrecta": "Pensá en el nivel de abstracción del diseño. La opción correcta es: «Ser un plan lógico y estructurado».",
+        "correct": "Exacto. El diseño es un plan general, no una técnica aislada.",
+        "incorrect": "Pensá en el nivel de abstracción del diseño. La opción correcta es: «Ser un plan lógico y estructurado».",
+        "origen": "original"
+      },
+      "dificultad": 3,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0034",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es la diferencia central entre diseños experimentales y no experimentales?",
+      "opciones": [
+        "El tamaño de la muestra",
+        "La manipulación de variables",
+        "El tipo de análisis",
+        "El uso de teoría"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Correcto. La manipulación de variables distingue a los diseños experimentales.",
+        "incorrecta": "Revisá el criterio de control y manipulación. La opción correcta es: «La manipulación de variables».",
+        "correct": "Correcto. La manipulación de variables distingue a los diseños experimentales.",
+        "incorrect": "Revisá el criterio de control y manipulación. La opción correcta es: «La manipulación de variables».",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0035",
+      "tipo": "opcion_multiple",
+      "enunciado": "Un diseño transversal se caracteriza por:",
+      "opciones": [
+        "Recoger datos en varios momentos",
+        "Manipular variables",
+        "Recoger datos en un único momento",
+        "Evaluar causalidad directa"
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "Exacto. El diseño transversal recoge datos en un solo momento.",
+        "incorrecta": "Pensá en la dimensión temporal. La opción correcta es: «Recoger datos en un único momento».",
+        "correct": "Exacto. El diseño transversal recoge datos en un solo momento.",
+        "incorrect": "Pensá en la dimensión temporal. La opción correcta es: «Recoger datos en un único momento».",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0036",
+      "tipo": "opcion_multiple",
+      "enunciado": "Los diseños longitudinales permiten principalmente:",
+      "opciones": [
+        "Reducir costos",
+        "Observar cambios a lo largo del tiempo",
+        "Evitar hipótesis",
+        "Eliminar variables extrañas"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Muy bien. Permiten analizar cambios temporales.",
+        "incorrecta": "Revisá el propósito del diseño longitudinal. La opción correcta es: «Observar cambios a lo largo del tiempo».",
+        "correct": "Muy bien. Permiten analizar cambios temporales.",
+        "incorrect": "Revisá el propósito del diseño longitudinal. La opción correcta es: «Observar cambios a lo largo del tiempo».",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0037",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Por qué el diseño influye en la validez del estudio?",
+      "opciones": [
+        "Porque determina el tamaño de la muestra",
+        "Porque organiza el control de variables y procedimientos",
+        "Porque reemplaza el análisis",
+        "Porque define los resultados"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Correcto. El diseño afecta directamente la validez.",
+        "incorrecta": "Pensá en la relación entre control y validez. La opción correcta es: «Porque organiza el control de variables y procedimientos».",
+        "correct": "Correcto. El diseño afecta directamente la validez.",
+        "incorrect": "Pensá en la relación entre control y validez. La opción correcta es: «Porque organiza el control de variables y procedimientos».",
+        "origen": "original"
+      },
+      "dificultad": 3,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0038",
+      "tipo": "opcion_multiple",
+      "enunciado": "Un error frecuente respecto al diseño de investigación es:",
+      "opciones": [
+        "Relacionarlo con el problema",
+        "Confundirlo con técnicas de recolección",
+        "Derivarlo de los objetivos",
+        "Vincularlo a las hipótesis"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Exacto. El diseño no es una técnica aislada.",
+        "incorrecta": "Revisá qué nivel ocupa el diseño. La opción correcta es: «Confundirlo con técnicas de recolección».",
+        "correct": "Exacto. El diseño no es una técnica aislada.",
+        "incorrect": "Revisá qué nivel ocupa el diseño. La opción correcta es: «Confundirlo con técnicas de recolección».",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0039",
+      "tipo": "opcion_multiple",
+      "enunciado": "El diseño de investigación debe definirse:",
+      "opciones": [
+        "Después del análisis de datos",
+        "Antes de la recolección de datos",
+        "Al final del informe",
+        "Luego de los resultados"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Correcto. El diseño se define antes de recolectar datos.",
+        "incorrecta": "Pensá en la secuencia lógica del proceso. La opción correcta es: «Antes de la recolección de datos».",
+        "correct": "Correcto. El diseño se define antes de recolectar datos.",
+        "incorrect": "Pensá en la secuencia lógica del proceso. La opción correcta es: «Antes de la recolección de datos».",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0040",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué relación existe entre diseño y análisis de datos?",
+      "opciones": [
+        "No existe relación",
+        "El análisis determina el diseño",
+        "El diseño condiciona el análisis posible",
+        "El análisis reemplaza al diseño"
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "Muy bien. El diseño limita y orienta el análisis.",
+        "incorrecta": "Revisá la direccionalidad de la relación. La opción correcta es: «El diseño condiciona el análisis posible».",
+        "correct": "Muy bien. El diseño limita y orienta el análisis.",
+        "incorrect": "Revisá la direccionalidad de la relación. La opción correcta es: «El diseño condiciona el análisis posible».",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "diseno",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0041",
+      "tipo": "opcion_multiple",
+      "enunciado": "Para que los hallazgos de un estudio cuantitativo tengan credibilidad, las estrategias de evaluación utilizadas deben tener:",
+      "opciones": [
+        "Validez y fiabilidad.",
+        "Consistencia interna alta y muestreo probabilístico.",
+        "Saturación teórica y transferibilidad."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correctísimo! ✅ Validez (¿mides lo que dices que mides?) y Fiabilidad (¿lo mides bien y consistentemente?). Son el dúo dinámico de una buena medición.",
+        "incorrecta": "Esas otras son importantes, pero la 'credibilidad' de una *evaluación* (un test, una medida) se sostiene sobre estos dos pilares: Validez y Fiabilidad. 🏛️",
+        "correct": "¡Correctísimo! ✅ Validez (¿mides lo que dices que mides?) y Fiabilidad (¿lo mides bien y consistentemente?). Son el dúo dinámico de una buena medición.",
+        "incorrect": "Esas otras son importantes, pero la 'credibilidad' de una *evaluación* (un test, una medida) se sostiene sobre estos dos pilares: Validez y Fiabilidad. 🏛️",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "enfoque",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0042",
+      "tipo": "opcion_multiple",
+      "enunciado": "En la investigación cuantitativa, ¿qué tipo de variable es manipulada por el investigador y examina sus efectos en otra variable?",
+      "opciones": [
+        "Variable de control.",
+        "Variable dependiente.",
+        "Variable independiente.",
+        "Variable mediadora."
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "¡La estrella del show! 🌟 La **Independiente** (VI) es la que tú, como investigador, 'manipulas', 'mueves', 'cambias' (ej. 'tipo de terapia') para ver qué le pasa a la otra.",
+        "incorrecta": "¡Justo la otra! La **Dependiente** (VD) es la que 'depende' de la otra; es el *resultado* que mides (ej. 'nivel de depresión'). La que manipulas es la **Independiente**.",
+        "correct": "¡La estrella del show! 🌟 La **Independiente** (VI) es la que tú, como investigador, 'manipulas', 'mueves', 'cambias' (ej. 'tipo de terapia') para ver qué le pasa a la otra.",
+        "incorrect": "¡Justo la otra! La **Dependiente** (VD) es la que 'depende' de la otra; es el *resultado* que mides (ej. 'nivel de depresión'). La que manipulas es la **Independiente**.",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "enfoque",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0043",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál de las siguientes es una estrategia de indagación cualitativa reconocida en el diseño de investigación?",
+      "opciones": [
+        "Diseños Factoriales.",
+        "Investigación Narrativa (*Narrative research*).",
+        "Diseños de Regresión Discontinua."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! 📖 La Investigación Narrativa es 100% cualitativa. Se centra en las historias de vida, en cómo las personas cuentan sus experiencias. Es fascinante.",
+        "incorrecta": "'Factorial' y 'Regresión Discontinua' son diseños súper CUANTITATIVOS. La 'Narrativa' es cualitativa pura, se basa en historias, no en números. 🗣️",
+        "correct": "¡Correcto! 📖 La Investigación Narrativa es 100% cualitativa. Se centra en las historias de vida, en cómo las personas cuentan sus experiencias. Es fascinante.",
+        "incorrect": "'Factorial' y 'Regresión Discontinua' son diseños súper CUANTITATIVOS. La 'Narrativa' es cualitativa pura, se basa en historias, no en números. 🗣️",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "enfoque",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0046",
+      "tipo": "opcion_multiple",
+      "enunciado": "Un enfoque de métodos mixtos combina:",
+      "opciones": [
+        "Técnicas cuantitativas y cualitativas",
+        "Hipótesis alternas y nulas",
+        "Teorías y discusiones",
+        "Diseños experimentales y correlacionales"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Técnicas cuantitativas y cualitativas» es la respuesta adecuada. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Técnicas cuantitativas y cualitativas». El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "correct": "¡Correcto! «Técnicas cuantitativas y cualitativas» es la respuesta adecuada. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrect": "No es correcto. La respuesta acertada es «Técnicas cuantitativas y cualitativas». El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "enfoque",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0047",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué diseño de métodos mixtos comienza con una fase cuantitativa, seguida de una fase cualitativa para ayudar a explicar los resultados iniciales?",
+      "opciones": [
+        "Diseño Secuencial Explicatorio (*Explanatory Sequential*).",
+        "Diseño Convergente (*Convergent*).",
+        "Diseño Secuencial Exploratorio (*Exploratory Sequential*)."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Perfecto! ➡️ Lo dice el nombre: Primero haces lo CUAN (la secuencia) y luego usas lo CUAL para **Explicar** (Explicatorio) esos números. Ej: 'Salió que el 70% está insatisfecho... ahora hagamos entrevistas para saber *por qué*'.",
+        "incorrecta": "Nop. 'Exploratorio' es al revés (cual -> CUAN). 'Convergente' es los dos a la vez. Este es **Explicatorio**: los números (CUAN) vienen primero, la explicación (cual) después.",
+        "correct": "¡Perfecto! ➡️ Lo dice el nombre: Primero haces lo CUAN (la secuencia) y luego usas lo CUAL para **Explicar** (Explicatorio) esos números. Ej: 'Salió que el 70% está insatisfecho... ahora hagamos entrevistas para saber *por qué*'.",
+        "incorrect": "Nop. 'Exploratorio' es al revés (cual -> CUAN). 'Convergente' es los dos a la vez. Este es **Explicatorio**: los números (CUAN) vienen primero, la explicación (cual) después.",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "enfoque",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0048",
+      "tipo": "verdadero_falso",
+      "enunciado": "La investigación cualitativa, al estudiar intensivamente un número reducido de sujetos, se distingue de la investigación cuantitativa por no ser considerada un enfoque científicamente riguroso.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Falsísimo! 🛑 Ese es un mito terrible. La investigación cualitativa tiene su *propio* tipo de rigor (credibilidad, transferibilidad, etc.). Es diferente, no peor. Es como decir que un microscopio es 'menos científico' que un telescopio.",
+        "incorrecta": "¡Error! Es falso. El rigor cualitativo es súper estricto, solo que usa otras métricas. No busca 'generalizar' (cuanti), sino 'comprender en profundidad' (cuali). Ambas son científicas. 💪",
+        "correct": "¡Falsísimo! 🛑 Ese es un mito terrible. La investigación cualitativa tiene su *propio* tipo de rigor (credibilidad, transferibilidad, etc.). Es diferente, no peor. Es como decir que un microscopio es 'menos científico' que un telescopio.",
+        "incorrect": "¡Error! Es falso. El rigor cualitativo es súper estricto, solo que usa otras métricas. No busca 'generalizar' (cuanti), sino 'comprender en profundidad' (cuali). Ambas son científicas. 💪",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "enfoque",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0049",
+      "tipo": "opcion_multiple",
+      "enunciado": "La investigación cuantitativa se centra en...",
+      "opciones": [
+        "medición numérica y prueba de hipótesis",
+        "interpretación subjetiva",
+        "descripción narrativa",
+        "observación participante"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «medición numérica y prueba de hipótesis» es la respuesta adecuada. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrecta": "No es correcto. La respuesta acertada es «medición numérica y prueba de hipótesis». El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "correct": "¡Correcto! «medición numérica y prueba de hipótesis» es la respuesta adecuada. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrect": "No es correcto. La respuesta acertada es «medición numérica y prueba de hipótesis». El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 1,
+      "subtema": "enfoque",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0050",
+      "tipo": "opcion_multiple",
+      "enunciado": "La investigación cualitativa busca...",
+      "opciones": [
+        "comprender significados y procesos en profundidad",
+        "establecer relaciones causales",
+        "calcular coeficientes estadísticos",
+        "controlar variables"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «comprender significados y procesos en profundidad» es la respuesta adecuada. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrecta": "No es correcto. La respuesta acertada es «comprender significados y procesos en profundidad». El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "correct": "¡Correcto! «comprender significados y procesos en profundidad» es la respuesta adecuada. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrect": "No es correcto. La respuesta acertada es «comprender significados y procesos en profundidad». El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "enfoque",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0051",
+      "tipo": "opcion_multiple",
+      "enunciado": "La triangulación metodológica busca...",
+      "opciones": [
+        "aumentar la validez combinando técnicas distintas",
+        "reducir el tamaño muestral",
+        "crear más hipótesis",
+        "restringir el análisis a un método"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «aumentar la validez combinando técnicas distintas» es la respuesta adecuada. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrecta": "No es correcto. La respuesta acertada es «aumentar la validez combinando técnicas distintas». El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "correct": "¡Correcto! «aumentar la validez combinando técnicas distintas» es la respuesta adecuada. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrect": "No es correcto. La respuesta acertada es «aumentar la validez combinando técnicas distintas». El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "enfoque",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0052",
+      "tipo": "opcion_multiple",
+      "enunciado": "El enfoque mixto se caracteriza por...",
+      "opciones": [
+        "integrar métodos cuantitativos y cualitativos",
+        "usar solo datos numéricos",
+        "ser exclusivamente exploratorio",
+        "limitarse a casos únicos"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «integrar métodos cuantitativos y cualitativos» es la respuesta adecuada. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrecta": "No es correcto. La respuesta acertada es «integrar métodos cuantitativos y cualitativos». El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "correct": "¡Correcto! «integrar métodos cuantitativos y cualitativos» es la respuesta adecuada. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrect": "No es correcto. La respuesta acertada es «integrar métodos cuantitativos y cualitativos». El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "enfoque",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0053",
+      "tipo": "verdadero_falso",
+      "enunciado": "La investigación cualitativa utiliza la estadística inferencial como método principal.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! La afirmación es **Falso**. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrecta": "Respuesta incorrecta (la opción correcta es **Falso**). El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "correct": "¡Correcto! La afirmación es **Falso**. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrect": "Respuesta incorrecta (la opción correcta es **Falso**). El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 1,
+      "subtema": "enfoque",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0054",
+      "tipo": "verdadero_falso",
+      "enunciado": "El enfoque mixto evita la triangulación entre métodos.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! La afirmación es **Falso**. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrecta": "Respuesta incorrecta (la opción correcta es **Falso**). El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "correct": "¡Correcto! La afirmación es **Falso**. El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos.",
+        "incorrect": "Respuesta incorrecta (la opción correcta es **Falso**). El diseño de investigación es la arquitectura lógica para responder la pregunta y controlar varianza extraña: los diseños experimentales manipulan la VI (X) y asignan al azar (R), mientras que los no experimentales (transversales o longitudinales) observan los fenómenos sin manipularlos. Revisa si existe manipulación deliberada de la variable independiente (experimental/cuasiexperimental) o medición sin intervención en uno (transversal) o varios momentos (longitudinal).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "enfoque",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m07-0055",
+      "tipo": "opcion_multiple",
+      "enunciado": "Desde el enfoque metodológico, un buen diseño debe ser:",
+      "opciones": [
+        "Complejo",
+        "Flexible y coherente",
+        "Rígido",
+        "Independiente del problema"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Correcto. El diseño debe ser coherente y adaptable al problema.",
+        "incorrecta": "Pensá en la función práctica del diseño. La opción correcta es: «Flexible y coherente».",
+        "correct": "Correcto. El diseño debe ser coherente y adaptable al problema.",
+        "incorrect": "Pensá en la función práctica del diseño. La opción correcta es: «Flexible y coherente».",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "enfoque",
+      "lectura_ref": "assets/reading/5. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    }
+  ]
+}

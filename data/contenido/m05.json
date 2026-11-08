@@ -1,0 +1,214 @@
+{
+  "modulo_id": "m05",
+  "capsula": {
+    "title": "Cápsula Metodológica · Los 3 Planos de Verbos, las 2 Pruebas e Hipótesis",
+    "subtitle": "Clase 6 · Guía de Formulación de Objetivos de la Cátedra UNIBE 2026",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Los 3 planos que se confunden en los manuales (¡Un objetivo vive SOLO en el Plano 1!)",
+        "headers": [
+          "Plano",
+          "Qué enuncia",
+          "Verbos típicos",
+          "¿Es objetivo de investigación?"
+        ],
+        "rows": [
+          [
+            "1. Propósito cognitivo",
+            "El conocimiento nuevo que el estudio va a producir",
+            "identificar, describir, estimar, determinar, establecer, comparar, explicar",
+            "✅ SÍ: Es un objetivo de investigación."
+          ],
+          [
+            "2. Operación o procedimiento",
+            "El medio metodológico para producir el conocimiento",
+            "analizar, calcular, medir, aplicar, recoger, revisar, tabular, procesar",
+            "❌ NO: Es una actividad del método o cronograma."
+          ],
+          [
+            "3. Finalidad práctica",
+            "El «para qué» externo o beneficio esperado",
+            "mejorar, reducir, prevenir, concienciar, contribuir, fortalecer, sensibilizar",
+            "❌ NO: Pertenece a la justificación."
+          ]
+        ]
+      },
+      {
+        "type": "cards",
+        "title": "Las 2 pruebas infalibles y la regla de coherencia",
+        "items": [
+          {
+            "badge": "Prueba 1 · Resultado enunciable",
+            "title": "Pásalo a pasado en las Conclusiones",
+            "text": "«Analizar la relación entre X e Y» → «Se analizó la relación» (no informa qué se halló: FALLA). «Determinar el grado y dirección de la relación» → «Se determinó una relación positiva moderada r = .42» (informa un hallazgo: PASA)."
+          },
+          {
+            "badge": "Prueba 2 · Del complemento",
+            "title": "¿Rige conocimiento o material de trabajo?",
+            "text": "«Analizar los datos / Aplicar la encuesta» rige objetos materiales (FALLA). «Estimar la prevalencia / Establecer las diferencias» rige objetos de conocimiento (PASA)."
+          },
+          {
+            "badge": "Jerarquía y Derivabilidad",
+            "title": "No son pasos cronológicos",
+            "text": "Los específicos descomponen el conocimiento del general (conjuntamente suficientes e individualmente necesarios). Ningún específico puede superar el nivel epistémico del general."
+          },
+          {
+            "badge": "¿Cuándo va hipótesis?",
+            "title": "Según alcance y pregunta",
+            "text": "Estudios correlacionales, comparativos y explicativos suelen contrastar hipótesis (Hi / H0). Estudios exploratorios, descriptivos o cualitativos trabajan con preguntas orientadoras o supuestos."
+          }
+        ]
+      }
+    ]
+  },
+  "casos": {
+    "miniCases": [
+      {
+        "id": "m05_c1",
+        "title": "Caso 1 · Desconexión digital y teletrabajo (Asunción · Alcance Exploratorio)",
+        "context": "Psicología Organizacional · Asunción (Caso oficial de cátedra)",
+        "scenario": "El trabajo remoto se extendió en empresas de servicios de Asunción sin pautas claras de desconexión. No existe un inventario local de qué hacen efectivamente los trabajadores para delimitar su jornada.\n\n**Pregunta:** ¿Qué prácticas de desconexión digital emplean los trabajadores en modalidad remota de empresas de servicios de Asunción?\n\n**Borrador del estudiante:**\n• *Propuesta A:* «Analizar el fenómeno del teletrabajo en Asunción para concienciar a las empresas sobre la desconexión».\n• *Propuesta B:* «Aplicar una encuesta a trabajadores remotos para conocer sus hábitos».",
+        "question": "Aplica la tabla de los 3 planos y las 2 pruebas de la cátedra para diagnosticar por qué fallan las propuestas A y B, y formula el objetivo general y específicos correctos.",
+        "hints": [
+          "¿En qué plano está «analizar» y qué introduce la palabra «para concienciar»?",
+          "En la Propuesta B, ¿«aplicar una encuesta» es el conocimiento buscado o una tarea del método?"
+        ],
+        "analysis": "• **Diagnóstico de A:** «Analizar» pertenece al **Plano 2 (operación)** y es subdeterminado (no pasa la prueba del resultado enunciable); «el fenómeno del teletrabajo» es vago; y «para concienciar a las empresas» agrega una **cláusula de finalidad práctica (Plano 3)** que pertenece a la justificación.\n• **Diagnóstico de B:** «Aplicar una encuesta» es un **objetivo-actividad** con complemento material (la encuesta) y «conocer» es un verbo subdeterminado.\n\n**Formulación ejemplar (Plano 1 · Alcance Exploratorio):**\n• **Objetivo general:** *Identificar las prácticas de desconexión digital que emplean los trabajadores en modalidad remota de empresas de servicios de Asunción durante 2026.*\n• **Objetivos específicos:**\n  1.º Identificar las conductas de delimitación temporal de la jornada referidas por los trabajadores.\n  2.º Identificar los recursos técnicos que utilizan para restringir la comunicación laboral fuera de horario.\n  3.º Describir las condiciones organizacionales que los trabajadores asocian a la posibilidad de desconectarse.",
+        "keyConcept": "Verbo «Identificar» en alcance exploratorio y exclusión de actividades/finalidades"
+      },
+      {
+        "id": "m05_c2",
+        "title": "Caso 2 · Redes sociales y autoestima en adolescentes (Encarnación · Correlacional)",
+        "context": "Psicología Social · Encarnación (Caso oficial de cátedra)",
+        "scenario": "Se busca responder: *¿Qué relación existe entre el tiempo de uso de redes sociales y la autoestima en adolescentes escolarizados de Encarnación?*\n\n**Tres intentos de objetivo general en el taller:**\n1. «Analizar la relación entre el uso de redes sociales y la autoestima».\n2. «Demostrar que el uso excesivo de redes sociales disminuye la autoestima».\n3. «Correlacionar las variables mediante el coeficiente r de Pearson para promover un uso responsable».",
+        "question": "¿Por qué los tres intentos son metodológicamente defectuosos y cuál es la formulación que supera la prueba del resultado enunciable?",
+        "hints": [
+          "Pasa el intento 1 a tiempo pasado («Se analizó la relación»): ¿informa algún hallazgo?",
+          "En el intento 2, ¿qué hace el verbo «demostrar» y la palabra «disminuye»?"
+        ],
+        "analysis": "1. **«Analizar la relación...»:** Falla la **prueba del resultado enunciable**. Decir en las conclusiones «Se analizó la relación» informa una tarea hecha, no qué se descubrió.\n2. **«Demostrar que... disminuye...»:** Usa un **verbo confirmatorio** (presupone el resultado antes de tener los datos) y atribuye **causalidad** sin un diseño experimental.\n3. **«Correlacionar con Pearson para promover...»:** Confunde el procedimiento estadístico (Plano 2) y le adosa una finalidad práctica (Plano 3).\n\n**Formulación ejemplar (Plano 1):**\n• **Objetivo general:** *Determinar el grado y la dirección de la relación entre el tiempo de uso de redes sociales y el nivel de autoestima en adolescentes escolarizados de instituciones educativas de Encarnación durante 2026.*\n• **Objetivos específicos (Derivabilidad horizontal):**\n  1.º Estimar el tiempo diario de uso de redes sociales en la muestra estudiada.\n  2.º Estimar el nivel de autoestima de los participantes.\n  3.º Determinar la magnitud y la dirección de la asociación entre ambas variables.\n  4.º Establecer si la asociación se mantiene al considerar el sexo y la edad de los participantes.",
+        "keyConcept": "Diferencia entre «analizar la relación» (medio) y «determinar el grado y dirección de la relación» (logro)"
+      },
+      {
+        "id": "m05_c3",
+        "title": "Caso 3 · Burnout en enfermería (Central · Comparativo) y Procrastinación (Ciudad del Este · Descriptivo)",
+        "context": "Psicología de la Salud y Educativa · Central y Ciudad del Este (Casos de cátedra)",
+        "scenario": "Compara estos dos proyectos de grado en Paraguay:\n• **Proyecto 1 (Ciudad del Este · Descriptivo):** *¿Cómo se manifiesta la procrastinación académica en estudiantes universitarios de Ciudad del Este?* El alumno propone como específico 3: «Determinar las causas psicológicas de la procrastinación» y formula una hipótesis causal.\n• **Proyecto 2 (Departamento Central · Comparativo):** *¿Qué diferencias existen en el agotamiento emocional entre el personal de enfermería de hospitales públicos y privados de Central?* La alumna escribe como específicos: «1) Revisar bibliografía sobre burnout; 2) Aplicar el Maslach Burnout Inventory; 3) Tabular los puntajes en SPSS».",
+        "question": "Identifica el error lógico del Proyecto 1 y el error estructural del Proyecto 2, indicando cómo corregir ambos.",
+        "hints": [
+          "En el Proyecto 1, compara el nivel epistémico de «Describir» (general) con «Determinar las causas» (específico).",
+          "En el Proyecto 2, ¿esos tres puntos descomponen el conocimiento o listan la agenda de tareas?"
+        ],
+        "analysis": "• **Proyecto 1 (Ciudad del Este):** Comete **inversión jerárquica** (un específico causal dentro de un estudio descriptivo) e incluye una hipótesis causal improcedente. En un estudio descriptivo (*Describir la procrastinación académica...*), los específicos deben: 1.º *Estimar el nivel general de procrastinación*; 2.º *Describir el comportamiento de las dimensiones de postergación, autorregulación y evitación*; 3.º *Establecer el perfil según curso y turno*, sin hipótesis causal.\n• **Proyecto 2 (Central):** Cayó en el **objetivo-cronograma** (listar pasos del trabajo en vez de descomponer el conocimiento). Si el general es *Establecer las diferencias en el nivel de agotamiento emocional entre enfermeros de hospitales públicos y privados de Central*, los específicos correctos son: 1.º *Estimar el nivel en hospitales públicos*; 2.º *Estimar el nivel en hospitales privados*; 3.º *Determinar la significación estadística de la diferencia entre ambos grupos*; 4.º *Establecer si la diferencia se mantiene al controlar antigüedad y turno* (y aquí sí corresponde hipótesis de diferencia de grupos).",
+        "keyConcept": "Jerarquía vertical, derivabilidad horizontal y criterio de presencia de hipótesis"
+      }
+    ],
+    "simulation": {
+      "title": "Simulación 05 · Auditoría de objetivos (3 planos y 2 pruebas) e hipótesis",
+      "context": "Estás en la Clase 6 traduciendo tu pregunta (*¿Qué diferencias existen en el agotamiento emocional entre enfermeros de hospitales públicos y privados del Departamento Central en 2026?*) en objetivos e hipótesis.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Paso 1 · Elegir el verbo del Objetivo General (Plano 1)",
+          "prompt": "Debes redactar el objetivo general de tu estudio comparativo. ¿Cuál de estos enunciados supera las dos pruebas de la cátedra (resultado enunciable y complemento de conocimiento)?",
+          "options": [
+            {
+              "text": "Analizar los datos del Maslach Burnout Inventory en enfermeros para mejorar su salud mental en los hospitales de Central.",
+              "isOptimal": false,
+              "feedback": "Triple error: «Analizar» es Plano 2 (operación), «los datos del MBI» es un complemento material (falla Prueba 2) y «para mejorar su salud» es Plano 3 (finalidad práctica)."
+            },
+            {
+              "text": "Comprobar que los enfermeros de hospitales públicos sufren mucho más agotamiento emocional que los de hospitales privados.",
+              "isOptimal": false,
+              "feedback": "«Comprobar que...» es un verbo confirmatorio que presupone la conclusión antes de recolectar y analizar la evidencia."
+            },
+            {
+              "text": "Establecer las diferencias en el nivel de agotamiento emocional entre el personal de enfermería de hospitales públicos y privados del Departamento Central durante 2026.",
+              "isOptimal": true,
+              "feedback": "¡Impecable! «Establecer» es del Plano 1 (propósito cognitivo), rige un objeto de conocimiento («las diferencias en el nivel...») y al pasarlo a pasado en las conclusiones informa un hallazgo claro."
+            }
+          ]
+        },
+        {
+          "stepNumber": 2,
+          "title": "Paso 2 · Formular los Objetivos Específicos sin caer en el cronograma",
+          "prompt": "¿Qué conjunto de objetivos específicos cumple con la derivabilidad horizontal (conjuntamente suficientes e individualmente necesarios)?",
+          "options": [
+            {
+              "text": "1) Revisar la bibliografía sobre burnout; 2) Solicitar permiso a los directores de hospital; 3) Aplicar el cuestionario MBI; 4) Tabular los gráficos en Excel.",
+              "isOptimal": false,
+              "feedback": "¡Alerta de objetivo-cronograma! Estás listando las tareas operativas de tu agenda de trabajo (Plano 2), no los conocimientos parciales que componen el objetivo general."
+            },
+            {
+              "text": "1) Estimar el nivel de agotamiento emocional en enfermeros de hospitales públicos; 2) Estimar el nivel de agotamiento emocional en enfermeros de hospitales privados; 3) Determinar la significación estadística de la diferencia entre ambos grupos; 4) Establecer si la diferencia se mantiene según antigüedad y turno.",
+              "isOptimal": true,
+              "feedback": "¡Excelente! Cada específico enuncia un logro de conocimiento de nivel igual o menor al general, y alcanzarlos todos equivale a responder el objetivo general."
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "title": "Paso 3 · Decidir sobre la hipótesis del estudio",
+          "prompt": "Dado que tu estudio es cuantitativo de alcance comparativo entre dos sectores con antecedentes que reportan mayor sobrecarga en el sector público, ¿qué decisión tomas respecto a la hipótesis?",
+          "options": [
+            {
+              "text": "Formulo una hipótesis de diferencia de grupos (Hi: el nivel de agotamiento emocional difiere significativamente entre enfermeros de hospitales públicos y privados) y su correspondiente hipótesis nula (H0).",
+              "isOptimal": true,
+              "feedback": "¡Correcto! Al comparar grupos con sustento en antecedentes teóricos y empíricos, corresponde formular hipótesis contrastables (Hi y H0)."
+            },
+            {
+              "text": "Formulo una hipótesis causal experimental afirmando que trabajar en el hospital público causa depresión clínica severa en el 100 % de los casos.",
+              "isOptimal": false,
+              "feedback": "Un diseño comparativo transversal sin manipulación no permite sostener causalidad experimental ni afirmaciones absolutas del 100 %."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "recursos": {
+    "videos": [
+      {
+        "videoId": "W7j0rWTA17g",
+        "title": "Objetivos de investigación: ¿Qué quieres lograr?",
+        "badge": "Video 1 · Objetivos"
+      },
+      {
+        "videoId": "5LycvPV-zt4",
+        "title": "Hipótesis: Adivina… ¡pero con ciencia!",
+        "badge": "Video 2 · Hipótesis"
+      }
+    ],
+    "readings": [
+      {
+        "title": "Los objetivos de investigación (Material de lectura)",
+        "url": "assets/reading/3b. Los objetivos de investigación.pdf",
+        "type": "pdf",
+        "description": "Texto de referencia sobre formulación de objetivos generales y específicos (leer junto con la Cápsula Docente sobre los 3 planos)."
+      },
+      {
+        "title": "Cap. 2: Problemas e Hipótesis (Kerlinger y Lee)",
+        "url": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+        "type": "pdf",
+        "description": "Fundamentación sobre la naturaleza, función y criterios de contrastabilidad de las hipótesis científicas."
+      },
+      {
+        "title": "Compendio: Problemas, hipótesis y variables",
+        "url": "assets/reading/3. Problemas, hipotesis y variables.pdf",
+        "type": "pdf",
+        "description": "Dossier complementario para profundizar en tipos de hipótesis y coherencia interna."
+      }
+    ],
+    "notebooks": [
+      {
+        "title": "Cuaderno IA · Objetivos de investigación",
+        "url": "https://notebooklm.google.com/notebook/259d72c6-772e-4431-9ccb-7b5d6a567933"
+      },
+      {
+        "title": "Cuaderno IA · Hipótesis de investigación",
+        "url": "https://notebooklm.google.com/notebook/4b3ec791-6766-470e-a521-e7084165687c"
+      }
+    ]
+  }
+}

@@ -6,7 +6,7 @@
 
 | Encargo | Responsable | Estado |
 |---|---|---|
-| `docs/ENCARGO-CODEX.md`: migración de datos, motor v3 (MVP), herramientas de muestreo | Codex | Pendiente de inicio |
+| `docs/ENCARGO-CODEX.md`: migración de datos, motor v3 (MVP), herramientas de muestreo | Codex | Tarea 1 completa; Tarea 3 en preparación |
 | `docs/ENCARGO-ANTIGRAVITY.md`: borradores de ítems m08 a m11; convertir Olaz y Medrano | Antigravity | m10 y m11 pueden empezar; m08 y m09 esperan las cápsulas de Claude |
 | Cápsulas nuevas de m08 y m09, galería de pseudocálculos, auditoría de ítems de m08 | Claude | En curso |
 
@@ -14,6 +14,18 @@
 
 1. Fecha del examen final (fija el plazo del *merge*).
 2. Las cuatro del plan maestro: umbral del 80 %, comprobante, voseo e ítems en revisar.
+
+## Registro de ejecución de Codex
+
+### Tarea 1 — Migración de datos (08/11/2026)
+
+- Se creó `scripts/migrar_v3.py`, una migración idempotente que conserva `estado`, `nota_revision` y `origen` cuando ya existen en `data/banco/`.
+- Se generaron `data/banco/m01.json` a `m11.json`, `data/banco/flipcards.json`, `data/contenido/m01.json` a `m11.json` y se ampliaron los módulos de `data/modulos.json`.
+- Resultado: 517 ítems migrados, 115 flipcards y 3 ítems bajo observación propia (`m05-0091`, `m05-0095`, `m05-0106`). La lista negra docente no reapareció.
+- Se aplicó R1 de `REVISION.md`: las cápsulas de `data/contenido_claude/m08.json` y `m09.json` tienen precedencia sin ser modificadas; se integraron árbol, calculadora, galería, autoauditorías, la auditoría de 7 ítems de m08 (`estado: "revisar"`) y los dos subtemas nuevos de m09.
+- `fecha_clase` se conserva desde el índice existente. `preguntas_orientadoras`, `evidencia_moodle` y `eslabon_cadena` quedan vacíos porque no tienen fuente en los datos actuales; `autoauditoria` ya está integrada para m08 y m09.
+- Verificación: conteo 517 → 517, auditoría de exclusión (`scripts/verify_exam_readiness.py`), prueba de conservación de campos editables, segunda ejecución byte a byte idéntica y hashes intactos de `data/contenido_claude/`.
+- Falta: cerrar Tarea 3 y luego motor/páginas (Tarea 2), con parada en PC1.
 
 ---
 
@@ -64,3 +76,13 @@ Los siguientes ítems permanecen activos pero aislados para evaluación posterio
 - **Módulos abiertos sin restricción:** `m01` a `m08` (Clases 1 a 9). Cualquier estudiante puede acceder a sus cápsulas, tarjetas 3D, minicasos, simulador y autoevaluación directamente.
 - **Módulos con progresión normal:** `m09` a `m11` (Clases 11 a 15, correspondientes a la segunda mitad del semestre).
 - **Puerta de entrada de evaluación:** `examen.html` con diagnóstico formativo de 16 preguntas (2 por módulo) y simulacro de 60 minutos (30 preguntas), sin afectar el progreso guardado en `localStorage`.
+
+---
+
+## Antigravity — Avance y Verificación
+
+### Tarea 2 — Conversión de Olaz y Medrano a Markdown
+- **Archivo origen:** *Cuadernos de Metodología para Estudiantes de Psicología: Manual de entrenamiento y práctica* (Fabián O. Olaz & Leonardo A. Medrano, 2014, Editorial Brujas / RDU UNC handle `11086/561651`).
+- **Destino generado:** `Diseno de Investigacion/Archivos MD/Metodología de la investigación para estudiantes de psicología (Fabián Olaz y Leonardo Medrano).md` (y enlace simbólico `Metodología de la investigación para estudiantes de psicología.md`).
+- **Verificación:** 146 páginas convertidas mediante `pdf_converter.py`, 233.587 caracteres, 2.955 líneas de markdown estructurado con índice, capítulos (epistemología, búsqueda bibliográfica, lectura crítica de papers, citas y referencias APA, textos expositivos/proyectos y presentación de trabajos) y tablas preservadas.
+

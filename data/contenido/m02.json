@@ -1,0 +1,230 @@
+{
+  "modulo_id": "m02",
+  "capsula": {
+    "title": "Cápsula Metodológica · Delimitación, Ecuaciones Booleanas y Protocolo VERA",
+    "subtitle": "Clase 3 · Elección del tema, búsqueda verificable e IA sin delegación intelectual",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Del campo general al tema delimitado y viable",
+        "headers": [
+          "Nivel",
+          "Ejemplo en Psicología",
+          "Diagnóstico metodológico"
+        ],
+        "rows": [
+          [
+            "Campo amplio",
+            "Salud mental y tecnología",
+            "Demasiado vasto: no define fenómeno, población ni contexto."
+          ],
+          [
+            "Tema general",
+            "Redes sociales y ansiedad",
+            "Identifica variables, pero sigue siendo inabarcable para un proyecto."
+          ],
+          [
+            "Tema delimitado",
+            "Uso problemático de redes sociales y sintomatología ansiosa en estudiantes universitarios de Asunción (2026)",
+            "Especifica fenómeno (uso problemático, no solo horas), desenlace, población, lugar y tiempo."
+          ]
+        ]
+      },
+      {
+        "type": "cards",
+        "title": "Arquitectura de una ecuación booleana por capas",
+        "items": [
+          {
+            "badge": "OR · Amplía",
+            "title": "Agrupa sinónimos dentro de paréntesis",
+            "text": "(\"uso problemático de redes\" OR \"adicción a redes sociales\" OR \"problematic social media use\")"
+          },
+          {
+            "badge": "AND · Intersecta",
+            "title": "Une los conceptos obligatorios",
+            "text": "AND (ansiedad OR \"síntomas ansiosos\" OR anxiety) AND (\"estudiantes universitarios\" OR undergraduates)"
+          },
+          {
+            "badge": "Factores de selección",
+            "title": "Subjetivos vs. Objetivos",
+            "text": "Subjetivos: interés, preparación y tiempo del investigador. Objetivos: acceso a muestras/fuentes, viabilidad y utilidad científica."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Protocolo VERA para auditar cualquier salida de Inteligencia Artificial",
+        "headers": [
+          "Paso",
+          "Acción obligatoria del estudiante",
+          "Riesgo que previene"
+        ],
+        "rows": [
+          [
+            "V · Ver fuente",
+            "Abrir el PDF o artículo original en la base de datos; jamás citar desde el chat.",
+            "Referencias inventadas (alucinaciones de DOI, autor o año)."
+          ],
+          [
+            "E · Examinar correspondencia",
+            "Localizar página, tabla o párrafo exacto que respalda la afirmación.",
+            "Atribuir a un autor algo que el artículo no dice o que solo menciona en su introducción."
+          ],
+          [
+            "R · Revisar alcance",
+            "Comprobar si la IA convirtió una correlación transversal en una afirmación causal.",
+            "Sobreinterpretación y promesas metodológicas falsas."
+          ],
+          [
+            "A · Anotar uso",
+            "Registrar herramienta, fecha, propósito, sección, verificación y decisión propia.",
+            "Falta de transparencia académica o delegación intelectual."
+          ]
+        ]
+      }
+    ]
+  },
+  "casos": {
+    "miniCases": [
+      {
+        "id": "m02_c1",
+        "title": "Caso 1 · El tema oceánico vs. el tema sin acceso",
+        "context": "Clínica y Forense · Selección del tema",
+        "scenario": "Dos estudiantes presentan sus propuestas en la Clase 3:\n• **Propuesta A (Marcos):** «La depresión en América Latina».\n• **Propuesta B (Lucía):** «Perfil neuropsicológico de pacientes con un trastorno genético ultrarraro internados en clínicas psiquiátricas de máxima seguridad en Asunción» (Lucía no trabaja en el sistema penitenciario ni tiene contacto institucional ni acceso a esos expedientes).",
+        "question": "Evalúa ambas propuestas cruzando los factores subjetivos y objetivos de selección y los cuatro ejes de delimitación.",
+        "hints": [
+          "¿Qué le falta recortar a la Propuesta A?",
+          "¿Qué factor objetivo crítico incumple la Propuesta B para un trabajo semestral de grado?"
+        ],
+        "analysis": "• **Propuesta A (Marcos):** Falla por **falta de delimitación**. «La depresión en América Latina» es un campo temático gigantesco, no un tema delimitado. Debe acotar qué aspecto o relación de la depresión, en qué población específica (ej. adultos mayores en centros comunitarios), en qué ciudad/institución y en qué periodo.\n• **Propuesta B (Lucía):** Aunque parece muy específica, falla en los **factores objetivos de viabilidad y acceso**: no cuenta con autorización institucional, acceso real a la muestra ni tiempo suficiente en un semestre para superar las barreras éticas y legales de una población privada de libertad con baja prevalencia.",
+        "keyConcept": "Equilibrio entre delimitación específica y factibilidad empírica"
+      },
+      {
+        "id": "m02_c2",
+        "title": "Caso 2 · «Profe, busqué en SciELO y dio 0 resultados»",
+        "context": "Psicología Organizacional · Estrategia de búsqueda",
+        "scenario": "Matías quiere investigar el agotamiento laboral en cajeros de supermercados de San Lorenzo. Abre SciELO, escribe en la caja de búsqueda: `agotamiento laboral en cajeros de supermercados de San Lorenzo Paraguay en el año 2025` y obtiene **0 resultados**. Concluye en su ficha: «No existe ninguna investigación en el mundo sobre mi tema».",
+        "question": "¿Por qué la búsqueda de Matías dio cero resultados y cómo debería rediseñarla mediante una ecuación booleana por capas?",
+        "hints": [
+          "Escribir una oración larga completa en el buscador exige que aparezcan todas esas palabras exactas.",
+          "¿Qué pasa si buscas primero los conceptos centrales con sinónimos en español e inglés?"
+        ],
+        "analysis": "Matías cometió el error de introducir una **frase hiperrestrictiva en lenguaje natural** incluyendo ciudad y año desde el primer intento. La ausencia de resultados no refleja un vacío científico mundial, sino un **error de estrategia de búsqueda**.\n\n**Corrección por capas:**\n1. **Capa 1 (Conceptos + sinónimos con OR y AND):** `(\"agotamiento laboral\" OR burnout OR \"desgaste profesional\") AND (\"sector comercio\" OR supermercados OR cajeros OR \"atención al cliente\")`.\n2. **Capa 2 (Idioma internacional):** `(\"burnout\" OR \"emotional exhaustion\") AND (\"retail workers\" OR \"cashiers\" OR \"customer service\")`.\n3. **Capa 3 (Contexto regional):** explorar en SciELO, Redalyc y repositorios locales de Paraguay/Cono Sur estudios sobre trabajadores de comercio o atención al público.",
+        "keyConcept": "Búsqueda booleana por capas vs. frases literales hiperrestrictivas"
+      },
+      {
+        "id": "m02_c3",
+        "title": "Caso 3 · Las cinco referencias «perfectas» del chatbot",
+        "context": "Integridad Académica · Protocolo VERA de IA",
+        "scenario": "Para ahorrar tiempo en la tarea de la Clase 3, Sofía le pide a un chatbot: «Escribe el planteamiento de mi tema con 5 citas en APA 7 de artículos paraguayos de 2024». El chatbot le devuelve un texto impecable con citas como *González y Benítez (2024), Revista Paraguaya de Psicología Aplicada, DOI: 10.1016/j.rppa.2024.03.012*. Sofía lo pega directamente en su entrega.",
+        "question": "¿Qué líneas rojas del protocolo de IA responsable vulneró Sofía y cómo debió usar el Protocolo VERA?",
+        "hints": [
+          "¿De dónde saca un modelo de lenguaje los DOIs y títulos cuando se le pide generar bibliografía?",
+          "Revisa las 4 letras del protocolo VERA."
+        ],
+        "analysis": "Sofía incurrió en dos faltas graves: **delegar la redacción** y **citar fuentes alucinadas sin verificarlas**. Los modelos generativos predicen secuencias plausibles de palabras y suelen inventar títulos, revistas y DOIs inexistentes.\n\nCon el **Protocolo VERA**:\n• **IA permitida:** pedir al asistente sinónimos y descriptores en inglés/español para armar su propia ecuación booleana.\n• **V (Ver fuente):** buscar los artículos reales en SciELO, Google Académico o PubMed y abrir el PDF.\n• **E (Examinar):** comprobar en qué página están los datos.\n• **R (Revisar alcance)** y **A (Anotar):** redactar con voz propia y declarar el uso de la herramienta.",
+        "keyConcept": "Verificación de fuentes reales y prohibición de referencias generadas por IA"
+      }
+    ],
+    "simulation": {
+      "title": "Simulación 02 · Delimitación, búsqueda booleana y protocolo VERA",
+      "context": "Estás en la Clase 3 armando tu ficha de selección, delimitación y primera búsqueda académica sobre bienestar en estudiantes universitarios que trabajan y estudian.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Paso 1 · Delimitar el tema con viabilidad",
+          "prompt": "Tu idea inicial era «El estrés en el Paraguay». ¿Cuál de las siguientes opciones transforma ese campo amplio en un tema delimitado y viable para tu proyecto semestral?",
+          "options": [
+            {
+              "text": "La historia mundial del estrés laboral y académico desde la Revolución Industrial hasta el presente.",
+              "isOptimal": false,
+              "feedback": "Sigue siendo un tema monográfico inabarcable y sin delimitación empírica ni poblacional viable."
+            },
+            {
+              "text": "Conflicto trabajo-estudio y agotamiento académico en estudiantes universitarios que trabajan de una universidad privada de Asunción durante 2026.",
+              "isOptimal": true,
+              "feedback": "¡Muy bien! Delimita con precisión los constructos centrales, la población, el espacio institucional y el periodo temporal."
+            },
+            {
+              "text": "Medición diaria de cortisol salival durante tres años en los 50.000 universitarios trabajadores de todo el país.",
+              "isOptimal": false,
+              "feedback": "Incumple los factores objetivos de viabilidad temporal, económica y logística para un proyecto semestral."
+            }
+          ]
+        },
+        {
+          "stepNumber": 2,
+          "title": "Paso 2 · Construir la ecuación de búsqueda",
+          "prompt": "Vas a buscar antecedentes en SciELO y PsycINFO. ¿Qué ecuación booleana aplica correctamente los operadores OR y AND?",
+          "options": [
+            {
+              "text": "(\"conflicto trabajo-estudio\" OR \"work-study conflict\") AND (\"agotamiento académico\" OR \"academic burnout\") AND (\"estudiantes universitarios\" OR \"university students\")",
+              "isOptimal": true,
+              "feedback": "¡Exacto! Usa comillas para frases exactas, OR dentro de paréntesis para agrupar sinónimos/idiomas y AND para intersectar los tres componentes clave."
+            },
+            {
+              "text": "conflicto trabajo estudio NOT agotamiento NOT universitarios NOT Paraguay",
+              "isOptimal": false,
+              "feedback": "El operador NOT excluye términos: esa cadena eliminaría precisamente los artículos que necesitas encontrar."
+            },
+            {
+              "text": "\"artículos sobre conflicto entre el trabajo y el estudio en alumnos de Asunción en 2026\"",
+              "isOptimal": false,
+              "feedback": "Buscar una oración larga entre comillas exige coincidencia literal exacta y devolverá cero resultados."
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "title": "Paso 3 · Aplicar el protocolo VERA ante la IA",
+          "prompt": "Usaste un asistente de IA para explorar sinónimos y además el chatbot te sugirió un supuesto artículo clave de «Martínez (2023)». ¿Cuál es tu decisión responsable?",
+          "options": [
+            {
+              "text": "Copio la cita de Martínez (2023) directamente en mi matriz porque el chatbot redacta en formato APA 7 muy prolijo.",
+              "isOptimal": false,
+              "feedback": "Peligro de alucinación bibliográfica: nunca se cita una referencia sugerida por IA sin localizar y abrir la fuente original."
+            },
+            {
+              "text": "Busco el artículo en las bases de datos; si existe, abro el PDF original para verificar método y hallazgos (VERA), y registro en mi declaración que usé IA para generar descriptores.",
+              "isOptimal": true,
+              "feedback": "¡Excelente! Aplicaste íntegramente el protocolo VERA: Ver fuente, Examinar correspondencia, Revisar alcance y Anotar el uso."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "recursos": {
+    "videos": [],
+    "studyGuide": {
+      "title": "Guía Interactiva de Taller · Clase 3: Del interés amplio a la búsqueda verificable",
+      "summary": "En esta sesión trabajamos el paso del campo general al tema delimitado (fenómeno + población + contexto + tiempo) y ejecutamos una estrategia de búsqueda trazable con operadores booleanos y uso ético de IA (Protocolo VERA).",
+      "steps": [
+        "Evaluar el tema candidato con factores subjetivos (interés, capacidad, tiempo) y objetivos (relevancia, viabilidad, acceso a fuentes).",
+        "Transformar el campo general en un tema acotado indicando qué fenómeno, en quiénes y en qué contexto se estudiará.",
+        "Diseñar una ecuación booleana por capas usando OR para sinónimos y AND para intersectar conceptos en SciELO, Redalyc, PubMed o PsycINFO.",
+        "Aplicar el Protocolo VERA ante cualquier sugerencia de IA: Ver fuente original, Examinar correspondencia, Revisar alcance y Anotar uso."
+      ]
+    },
+    "readings": [
+      {
+        "title": "Guía práctica para la revisión de la literatura, búsqueda e IA (2026)",
+        "url": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+        "type": "pdf",
+        "description": "Guía de cátedra UNIBE 2026: del tema a la pregunta buscable, ecuaciones booleanas, selección de bases y protocolo VERA de IA responsable."
+      },
+      {
+        "title": "Cap. 1: La ciencia y el enfoque científico (Kerlinger y Lee)",
+        "url": "assets/reading/1. Ciencia y el enfoque científico - Kerlinger y Lee.pdf",
+        "type": "pdf",
+        "description": "Marco epistemológico de referencia para distinguir temas científicos verificables de opiniones o debates especulativos."
+      }
+    ],
+    "notebooks": [
+      {
+        "title": "Cuaderno IA · Búsqueda y Literatura",
+        "url": "https://notebooklm.google.com/notebook/b63860c5-713f-46dc-8f1c-1f958c345763"
+      }
+    ]
+  }
+}

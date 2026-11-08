@@ -1,0 +1,1138 @@
+{
+  "modulo_id": "m08",
+  "items": [
+    {
+      "id": "m08-0001",
+      "tipo": "opcion_multiple",
+      "enunciado": "Una muestra es:",
+      "opciones": [
+        "Un subconjunto de la población utilizado para análisis",
+        "La totalidad de la población",
+        "Un tipo de hipotesis",
+        "Un modelo teórico"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Un subconjunto de la población utilizado para análisis» es la respuesta adecuada. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Un subconjunto de la población utilizado para análisis». La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "correct": "¡Correcto! «Un subconjunto de la población utilizado para análisis» es la respuesta adecuada. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrect": "No es correcto. La respuesta acertada es «Un subconjunto de la población utilizado para análisis». La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 1,
+      "subtema": "muestra",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0002",
+      "tipo": "verdadero_falso",
+      "enunciado": "El Error Muestral es un error sistemático que 'tuercen' los resultados en una dirección particular y que solo se corrige aumentando la muestra.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Exacto, es FALSO! 🛑 Es la trampa clásica. El error MUESTRAL es aleatorio, es el 'precio' que pagamos por no entrevistar a todos. El error SISTEMÁTICO (sesgo) es el que 'tuerce' los datos (ej. marco muestral malo).",
+        "incorrecta": "¡Alerta de trampa! 🚨 La definición que se da (sistemático, 'tuerce' datos) es la de un **SESGO**, no la del error muestral. El error muestral es producto del AZAR, y sí se reduce aumentando la muestra. ¡Pero el sesgo no!",
+        "correct": "¡Exacto, es FALSO! 🛑 Es la trampa clásica. El error MUESTRAL es aleatorio, es el 'precio' que pagamos por no entrevistar a todos. El error SISTEMÁTICO (sesgo) es el que 'tuerce' los datos (ej. marco muestral malo).",
+        "incorrect": "¡Alerta de trampa! 🚨 La definición que se da (sistemático, 'tuerce' datos) es la de un **SESGO**, no la del error muestral. El error muestral es producto del AZAR, y sí se reduce aumentando la muestra. ¡Pero el sesgo no!",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "muestra",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0003",
+      "tipo": "verdadero_falso",
+      "enunciado": "La precisión de una estimación se define como la concentración de valores en el muestreo, o la poca variabilidad, y se mide por el error de muestreo (desviación típica del estimador).",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Verdadero! Precisión = consistencia. 🎯 Si repites el muestreo, tus resultados caen muy cerca unos de otros. Poca dispersión. El error de muestreo (desviación típica) es la medida de esa 'imprecisión'.",
+        "incorrecta": "¡Ojo! Es verdadero. Piensa en un arquero: **Precisión** es que todas sus flechas caigan juntas (poca variabilidad). **Insesgado** (la Q anterior) es que ese grupo de flechas esté en el centro.",
+        "correct": "¡Verdadero! Precisión = consistencia. 🎯 Si repites el muestreo, tus resultados caen muy cerca unos de otros. Poca dispersión. El error de muestreo (desviación típica) es la medida de esa 'imprecisión'.",
+        "incorrect": "¡Ojo! Es verdadero. Piensa en un arquero: **Precisión** es que todas sus flechas caigan juntas (poca variabilidad). **Insesgado** (la Q anterior) es que ese grupo de flechas esté en el centro.",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "muestra",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0004",
+      "tipo": "opcion_multiple",
+      "enunciado": "Según el análisis de la varianza, ¿cuál es la relación de proporciones (P y 1-P) que exige un mayor tamaño de la muestra, manteniendo el mismo error muestral?",
+      "opciones": [
+        "P=0.10 y 1-P=0.90",
+        "P=0.70 y 1-P=0.30",
+        "P=0.50 y 1-P=0.50"
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "¡Exacto! P=0.50 (o 50/50) es el 'peor escenario' para un investigador. Es la máxima incertidumbre (como lanzar una moneda). Al haber máxima variabilidad, necesitas el mayor tamaño de muestra. 💡",
+        "incorrecta": "Nop. Intuitivamente podrías pensar que 90/10 es más 'difícil', pero estadísticamente, la máxima varianza (el punto más 'inseguro') es el 50/50. Por eso, si no sabes la proporción, usas P=0.5 para ir a lo seguro.",
+        "correct": "¡Exacto! P=0.50 (o 50/50) es el 'peor escenario' para un investigador. Es la máxima incertidumbre (como lanzar una moneda). Al haber máxima variabilidad, necesitas el mayor tamaño de muestra. 💡",
+        "incorrect": "Nop. Intuitivamente podrías pensar que 90/10 es más 'difícil', pero estadísticamente, la máxima varianza (el punto más 'inseguro') es el 50/50. Por eso, si no sabes la proporción, usas P=0.5 para ir a lo seguro.",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "muestra",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0005",
+      "tipo": "opcion_multiple",
+      "enunciado": "En el cálculo del tamaño de la muestra, el nivel de confianza del 0.9544 (o 95.44%) es el que corresponde a:",
+      "opciones": [
+        "± 1 desviación estándar (K=1)",
+        "± 2 desviaciones estándar (K=2)",
+        "± 3 desviaciones estándar (K=3)"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! Es un clásico de la estadística. 📊 Un 95% 'redondo' es $K=1.96$. Pero si usas exactamente 2 desviaciones estándar (K=2), el área bajo la curva normal es 95.44%. ¡Bien visto!",
+        "incorrecta": "Cerca, pero no. El 95% exacto (el más famoso) es $K=1.96$. El K=1 solo te da un 68% de confianza (¡muy bajo!). El $K=2$ te da este 95.44%. Son los números mágicos de la curva normal.",
+        "correct": "¡Correcto! Es un clásico de la estadística. 📊 Un 95% 'redondo' es $K=1.96$. Pero si usas exactamente 2 desviaciones estándar (K=2), el área bajo la curva normal es 95.44%. ¡Bien visto!",
+        "incorrect": "Cerca, pero no. El 95% exacto (el más famoso) es $K=1.96$. El K=1 solo te da un 68% de confianza (¡muy bajo!). El $K=2$ te da este 95.44%. Son los números mágicos de la curva normal.",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "muestra",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0006",
+      "tipo": "opcion_multiple",
+      "enunciado": "Decir que una estimación es insesgada equivale a afirmar que:",
+      "opciones": [
+        "La varianza del estimador es cero",
+        "La media en el muestreo coincide con el valor que se trata de estimar",
+        "Se ha aplicado un coeficiente de variación bajo"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡BOOM! 🎯 Diste en el blanco de un concepto difícil. 'Insesgado' no significa que *tu* muestra dé el valor exacto. Significa que si repitieras el muestreo infinitas veces, el *promedio* de todas tus estimaciones sería el valor real.",
+        "incorrecta": "Uff, concepto denso. 'Insesgado' (unbiased) significa que tu 'mira' está bien calibrada. Aunque tus tiros (muestras) varíen, en promedio, apuntan al centro (valor real). No tiene que ver con varianza cero.",
+        "correct": "¡BOOM! 🎯 Diste en el blanco de un concepto difícil. 'Insesgado' no significa que *tu* muestra dé el valor exacto. Significa que si repitieras el muestreo infinitas veces, el *promedio* de todas tus estimaciones sería el valor real.",
+        "incorrect": "Uff, concepto denso. 'Insesgado' (unbiased) significa que tu 'mira' está bien calibrada. Aunque tus tiros (muestras) varíen, en promedio, apuntan al centro (valor real). No tiene que ver con varianza cero.",
+        "origen": "original"
+      },
+      "dificultad": 3,
+      "subtema": "muestra",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0007",
+      "tipo": "verdadero_falso",
+      "enunciado": "Si se desea reducir el error de muestreo a la mitad (doble precisión), es necesario cuadruplicar el tamaño de la muestra, *caeteris paribus*.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Verdadero! Esta es una regla de oro (y un dolor de cabeza) del muestreo. 🧠 Como el tamaño de la muestra ($n$) está en el denominador *dentro* de una raíz cuadrada en la fórmula del error... para reducir el error a la mitad, ¡tienes que multiplicar $n$ por cuatro! ($2^2$).",
+        "incorrecta": "Aunque suene exagerado, es verdadero. La relación no es lineal. La precisión cuesta cara. Querer el doble de precisión (mitad de error) exige cuadruplicar el esfuerzo (la muestra). ¡La estadística no regala nada! 😅",
+        "correct": "¡Verdadero! Esta es una regla de oro (y un dolor de cabeza) del muestreo. 🧠 Como el tamaño de la muestra ($n$) está en el denominador *dentro* de una raíz cuadrada en la fórmula del error... para reducir el error a la mitad, ¡tienes que multiplicar $n$ por cuatro! ($2^2$).",
+        "incorrect": "Aunque suene exagerado, es verdadero. La relación no es lineal. La precisión cuesta cara. Querer el doble de precisión (mitad de error) exige cuadruplicar el esfuerzo (la muestra). ¡La estadística no regala nada! 😅",
+        "origen": "original"
+      },
+      "dificultad": 3,
+      "subtema": "muestra",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0008",
+      "tipo": "opcion_multiple",
+      "enunciado": "A partir de un muestreo por conglomerados, la varianza de la estimación suele ser:",
+      "opciones": [
+        "Menor que en el muestreo aleatorio simple (MAS)",
+        "Igual que en el muestreo aleatorio simple (MAS)",
+        "Mayor que en el muestreo aleatorio simple (MAS)"
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "¡Correcto! Es la gran desventaja. Como la gente dentro de un conglomerado (ej. un barrio) tiende a parecerse entre sí, obtienes menos 'información' que si eligieras personas al azar por toda la ciudad. Esta 'ineficiencia' aumenta la varianza. 📈",
+        "incorrecta": "Al revés. Suele ser **mayor**. Piensa que si eliges 3 barrios, y esos 3 son 'ricos', te perdiste toda la info de los barrios 'pobres'. El MAS, al estar más disperso, captura mejor la variabilidad. El conglomerado es más barato, pero menos preciso.",
+        "correct": "¡Correcto! Es la gran desventaja. Como la gente dentro de un conglomerado (ej. un barrio) tiende a parecerse entre sí, obtienes menos 'información' que si eligieras personas al azar por toda la ciudad. Esta 'ineficiencia' aumenta la varianza. 📈",
+        "incorrect": "Al revés. Suele ser **mayor**. Piensa que si eliges 3 barrios, y esos 3 son 'ricos', te perdiste toda la info de los barrios 'pobres'. El MAS, al estar más disperso, captura mejor la variabilidad. El conglomerado es más barato, pero menos preciso.",
+        "origen": "original"
+      },
+      "dificultad": 3,
+      "subtema": "muestra",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0009",
+      "tipo": "opcion_multiple",
+      "enunciado": "El marco muestral corresponde a...",
+      "opciones": [
+        "la lista o base de datos de la cual se selecciona la muestra",
+        "el total de participantes reales",
+        "la tabla de resultados estadísticos",
+        "una submuestra piloto"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «la lista o base de datos de la cual se selecciona la muestra» es la respuesta adecuada. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrecta": "No es correcto. La respuesta acertada es «la lista o base de datos de la cual se selecciona la muestra». La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "correct": "¡Correcto! «la lista o base de datos de la cual se selecciona la muestra» es la respuesta adecuada. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrect": "No es correcto. La respuesta acertada es «la lista o base de datos de la cual se selecciona la muestra». La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "muestra",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0010",
+      "tipo": "opcion_multiple",
+      "enunciado": "Aumentar el tamaño de muestra...",
+      "opciones": [
+        "reduce el error muestral pero no elimina sesgos",
+        "elimina sesgos sistemáticos",
+        "reduce error sistemático",
+        "aumenta varianza de diseño"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «reduce el error muestral pero no elimina sesgos» es la respuesta adecuada. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrecta": "No es correcto. La respuesta acertada es «reduce el error muestral pero no elimina sesgos». La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "correct": "¡Correcto! «reduce el error muestral pero no elimina sesgos» es la respuesta adecuada. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrect": "No es correcto. La respuesta acertada es «reduce el error muestral pero no elimina sesgos». La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "muestra",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0011",
+      "tipo": "verdadero_falso",
+      "enunciado": "El error muestral aumenta al crecer el tamaño de muestra.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! La afirmación es **Falso**. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrecta": "Respuesta incorrecta (la opción correcta es **Falso**). La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "correct": "¡Correcto! La afirmación es **Falso**. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrect": "Respuesta incorrecta (la opción correcta es **Falso**). La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 1,
+      "subtema": "muestra",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0012",
+      "tipo": "opcion_multiple",
+      "enunciado": "El muestreo por conveniencia consiste en:",
+      "opciones": [
+        "Seleccionar participantes que están fácilmente disponibles",
+        "Elegir aleatoriamente a todos los estudiantes",
+        "Estratificar la población",
+        "Usar técnicas de simulación"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Seleccionar participantes que están fácilmente disponibles» es la respuesta adecuada. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Seleccionar participantes que están fácilmente disponibles». La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "correct": "¡Correcto! «Seleccionar participantes que están fácilmente disponibles» es la respuesta adecuada. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrect": "No es correcto. La respuesta acertada es «Seleccionar participantes que están fácilmente disponibles». La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 1,
+      "subtema": "muestreo",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0013",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es la lista, mapa o base de datos de la cual se extrae la muestra, y cuya calidad es crucial para evitar problemas de investigación?",
+      "opciones": [
+        "La Población (o Universo)",
+        "La Muestra",
+        "El Marco Muestral"
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "¡Exacto! 🎯 El Marco Muestral es como la 'guía telefónica' de tu población. Si tu guía está incompleta o desactualizada, vas a terminar llamando a gente que no es. ¡Clave!",
+        "incorrecta": "Casi, pero no. La población es *todo* el universo (¡gigante!), y la muestra es *quiénes* elegiste. El marco es la *lista* de la que eliges. Es el mapa del tesoro, ¡necesitas que sea preciso! 🧐",
+        "correct": "¡Exacto! 🎯 El Marco Muestral es como la 'guía telefónica' de tu población. Si tu guía está incompleta o desactualizada, vas a terminar llamando a gente que no es. ¡Clave!",
+        "incorrect": "Casi, pero no. La población es *todo* el universo (¡gigante!), y la muestra es *quiénes* elegiste. El marco es la *lista* de la que eliges. Es el mapa del tesoro, ¡necesitas que sea preciso! 🧐",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "muestreo",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0015",
+      "tipo": "verdadero_falso",
+      "enunciado": "En el muestreo por conglomerados, las unidades muestrales son conjuntos de individuos (ej. secciones censales), no los individuos propiamente dichos.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Verdadero! Y es clave entenderlo. No eliges personas, eliges 'cajas' de personas (manzanas, escuelas, hospitales). Es súper eficiente en costos, ¡pero tiene sus trucos! 📦",
+        "incorrecta": "¡Alerta! Es verdadero. Es la definición misma del muestreo por conglomerados. La unidad de selección es el grupo, no el individuo. Piensa en 'racimos' de uvas, no en uvas sueltas.",
+        "correct": "¡Verdadero! Y es clave entenderlo. No eliges personas, eliges 'cajas' de personas (manzanas, escuelas, hospitales). Es súper eficiente en costos, ¡pero tiene sus trucos! 📦",
+        "incorrect": "¡Alerta! Es verdadero. Es la definición misma del muestreo por conglomerados. La unidad de selección es el grupo, no el individuo. Piensa en 'racimos' de uvas, no en uvas sueltas.",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "muestreo",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0016",
+      "tipo": "verdadero_falso",
+      "enunciado": "El Muestreo Polietápico es una técnica en la que la selección de las unidades se realiza en varias fases sucesivas (unidades primarias, secundarias, etc.).",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Verdadero! Es como una muñeca rusa. 🪆 Primero eliges provincias, luego ciudades dentro de esas provincias, luego barrios dentro de esas ciudades... Vas bajando de nivel en etapas.",
+        "incorrecta": "¡Cuidado! Es verdadero. 'Poli' = muchas. Es una selección en cascada. Es la técnica que se usa en las grandes encuestas nacionales para no tener que viajar por todo el país.",
+        "correct": "¡Verdadero! Es como una muñeca rusa. 🪆 Primero eliges provincias, luego ciudades dentro de esas provincias, luego barrios dentro de esas ciudades... Vas bajando de nivel en etapas.",
+        "incorrect": "¡Cuidado! Es verdadero. 'Poli' = muchas. Es una selección en cascada. Es la técnica que se usa en las grandes encuestas nacionales para no tener que viajar por todo el país.",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "muestreo",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0017",
+      "tipo": "opcion_multiple",
+      "enunciado": "El muestreo aleatorio busca:",
+      "opciones": [
+        "Dar a todos los miembros igual probabilidad de ser seleccionados",
+        "Seleccionar sólo a los más accesibles",
+        "Preferir a los conocidos",
+        "Escoger según conveniencia"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Dar a todos los miembros igual probabilidad de ser seleccionados» es la respuesta adecuada. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Dar a todos los miembros igual probabilidad de ser seleccionados». La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "correct": "¡Correcto! «Dar a todos los miembros igual probabilidad de ser seleccionados» es la respuesta adecuada. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrect": "No es correcto. La respuesta acertada es «Dar a todos los miembros igual probabilidad de ser seleccionados». La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "muestreo",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0018",
+      "tipo": "verdadero_falso",
+      "enunciado": "El Muestreo Aleatorio Simple (MAS) se caracteriza porque la selección de los elementos de la muestra se realiza en una sola etapa, directamente y sin reemplazamiento.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Así es! Es la versión más 'pura'. Metes todos los nombres en un sombrero gigante (virtual, claro) y sacas 'n' papelitos de una sola vez. Simple y directo. ✅",
+        "incorrecta": "De hecho, es verdadero. 'Simple' significa justo eso: una sola etapa de selección directa. No hay grupos, ni pasos intermedios. ¡El más básico (y elegante) de los probabilísticos!",
+        "correct": "¡Así es! Es la versión más 'pura'. Metes todos los nombres en un sombrero gigante (virtual, claro) y sacas 'n' papelitos de una sola vez. Simple y directo. ✅",
+        "incorrect": "De hecho, es verdadero. 'Simple' significa justo eso: una sola etapa de selección directa. No hay grupos, ni pasos intermedios. ¡El más básico (y elegante) de los probabilísticos!",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "muestreo",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0019",
+      "tipo": "verdadero_falso",
+      "enunciado": "El muestreo aleatorio simple (MAS) se presenta como el prototipo de muestreo y sirve de referencia para calcular el 'efecto del diseño' en otros muestreos más complejos.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correctísimo! 🧠 El MAS es nuestra 'regla de medir'. El 'efecto del diseño' (deff) nos dice cuánto mejor (o peor) lo hizo nuestro muestreo complejo (estratificado, etc.) comparado con lo que hubiera hecho un MAS. Es el punto de referencia.",
+        "incorrecta": "Pues sí, es verdadero. Piensa en el MAS como el 'auto base' sin extras. Cualquier otro diseño (con 'extras' como estratos o conglomerados) se compara contra él para ver si valió la pena la complejidad.",
+        "correct": "¡Correctísimo! 🧠 El MAS es nuestra 'regla de medir'. El 'efecto del diseño' (deff) nos dice cuánto mejor (o peor) lo hizo nuestro muestreo complejo (estratificado, etc.) comparado con lo que hubiera hecho un MAS. Es el punto de referencia.",
+        "incorrect": "Pues sí, es verdadero. Piensa en el MAS como el 'auto base' sin extras. Cualquier otro diseño (con 'extras' como estratos o conglomerados) se compara contra él para ver si valió la pena la complejidad.",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "muestreo",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0021",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es el objetivo primordial del muestreo estratificado en términos de varianza?",
+      "opciones": [
+        "Asegurar la heterogeneidad dentro de cada estrato",
+        "Permitir la selección de la muestra con probabilidad proporcional al tamaño",
+        "Reunir en cada estrato a unidades homogéneas entre sí para reducir la varianza de las estimaciones"
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "¡Brillante! 💡 El truco es: Hacemos los grupos (estratos) lo MÁS DIFERENTES posible entre sí, pero por DENTRO, cada grupo es súper homogéneo (ej. grupo 'hombres', grupo 'mujeres'). Así reducimos la varianza total.",
+        "incorrecta": "Ah, la primera opción es lo contrario. Quieres **heterogeneidad ENTRE** estratos, pero **homogeneidad DENTRO**. Es como organizar tu ropa: pones todas las medias juntas, no las mezclas con las chaquetas.",
+        "correct": "¡Brillante! 💡 El truco es: Hacemos los grupos (estratos) lo MÁS DIFERENTES posible entre sí, pero por DENTRO, cada grupo es súper homogéneo (ej. grupo 'hombres', grupo 'mujeres'). Así reducimos la varianza total.",
+        "incorrect": "Ah, la primera opción es lo contrario. Quieres **heterogeneidad ENTRE** estratos, pero **homogeneidad DENTRO**. Es como organizar tu ropa: pones todas las medias juntas, no las mezclas con las chaquetas.",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "muestreo",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0023",
+      "tipo": "opcion_multiple",
+      "enunciado": "El sesgo de cobertura se produce cuando:",
+      "opciones": [
+        "Los entrevistados no responden a la encuesta",
+        "El investigador utiliza una muestra de conveniencia",
+        "El marco muestral no incluye a todos los miembros de la población objetivo"
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "¡Perfecto! 'Cobertura' viene de 'cubrir'. Si tu marco muestral (tu lista) no 'cubre' a toda la población (ej. dejas fuera a los que solo tienen celular), tienes un sesgo de cobertura. 🕵️",
+        "incorrecta": "Nop. El 'no responden' es sesgo de 'no respuesta'. El de conveniencia es de 'selección'. El de 'cobertura' es un problema de origen: tu 'mapa' (el marco muestral) está mal, le faltan territorios.",
+        "correct": "¡Perfecto! 'Cobertura' viene de 'cubrir'. Si tu marco muestral (tu lista) no 'cubre' a toda la población (ej. dejas fuera a los que solo tienen celular), tienes un sesgo de cobertura. 🕵️",
+        "incorrect": "Nop. El 'no responden' es sesgo de 'no respuesta'. El de conveniencia es de 'selección'. El de 'cobertura' es un problema de origen: tu 'mapa' (el marco muestral) está mal, le faltan territorios.",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "muestreo",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0024",
+      "tipo": "verdadero_falso",
+      "enunciado": "Aplicar fórmulas probabilísticas para calcular un margen de error a una muestra de conveniencia constituye un Sesgo de Selección.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Verdadero! Y es un pecado capital en investigación. 😱 Es como ponerle llantas de Fórmula 1 a un auto de juguete y decir que corre a 300 km/h. Esas fórmulas (margen de error, confianza) SOLO valen si la selección fue aleatoria.",
+        "incorrecta": "Oh, es muy verdadero. Es un error gravísimo. Estás usando una herramienta de precisión (fórmulas probabilísticas) en un material que no lo permite (muestra a dedo). El resultado es un engaño estadístico.",
+        "correct": "¡Verdadero! Y es un pecado capital en investigación. 😱 Es como ponerle llantas de Fórmula 1 a un auto de juguete y decir que corre a 300 km/h. Esas fórmulas (margen de error, confianza) SOLO valen si la selección fue aleatoria.",
+        "incorrect": "Oh, es muy verdadero. Es un error gravísimo. Estás usando una herramienta de precisión (fórmulas probabilísticas) en un material que no lo permite (muestra a dedo). El resultado es un engaño estadístico.",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "muestreo",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "revisar",
+      "origen": "original",
+      "nota_revision": "Confunde dos cosas: el sesgo de selección es una propiedad de cómo se obtuvo la muestra; aplicar una fórmula probabilística a una muestra de conveniencia es un error de inferencia (pseudocálculo), no un sesgo de selección."
+    },
+    {
+      "id": "m08-0025",
+      "tipo": "verdadero_falso",
+      "enunciado": "El muestreo por cuotas se caracteriza por sustituir la selección aleatoria de las unidades últimas de muestreo por una selección dejada, en parte, al criterio del entrevistador.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Verdadero! Es el primo 'no probabilístico' del estratificado. Le dices al entrevistador: 'Encuéntrame 5 mujeres de 20-30 años'. Cómo las encuentra (en la calle, en un café) es su criterio. Por eso no es aleatorio. 🚶‍♂️",
+        "incorrecta": "Pues sí, es verdadero. Esa es la diferencia clave con el estratificado. En el estratificado, la selección final es aleatoria (ej. por sorteo). En el de cuotas, la selección final es por conveniencia del entrevistador.",
+        "correct": "¡Verdadero! Es el primo 'no probabilístico' del estratificado. Le dices al entrevistador: 'Encuéntrame 5 mujeres de 20-30 años'. Cómo las encuentra (en la calle, en un café) es su criterio. Por eso no es aleatorio. 🚶‍♂️",
+        "incorrect": "Pues sí, es verdadero. Esa es la diferencia clave con el estratificado. En el estratificado, la selección final es aleatoria (ej. por sorteo). En el de cuotas, la selección final es por conveniencia del entrevistador.",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "muestreo",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0026",
+      "tipo": "opcion_multiple",
+      "enunciado": "El muestreo estratificado implica:",
+      "opciones": [
+        "Dividir la población en estratos y muestrear dentro de cada uno",
+        "Escoger participantes fácilmente accesibles",
+        "Elegir sólo un grupo",
+        "Ignorar la heterogeneidad"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Dividir la población en estratos y muestrear dentro de cada uno» es la respuesta adecuada. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Dividir la población en estratos y muestrear dentro de cada uno». La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "correct": "¡Correcto! «Dividir la población en estratos y muestrear dentro de cada uno» es la respuesta adecuada. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrect": "No es correcto. La respuesta acertada es «Dividir la población en estratos y muestrear dentro de cada uno». La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "muestreo",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0027",
+      "tipo": "opcion_multiple",
+      "enunciado": "El muestreo intencional o dirigido es común en:",
+      "opciones": [
+        "Investigación cualitativa",
+        "Investigación cuantitativa",
+        "Encuestas masivas",
+        "Experimentos"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Investigación cualitativa» es la respuesta adecuada. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Investigación cualitativa». La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "correct": "¡Correcto! «Investigación cualitativa» es la respuesta adecuada. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrect": "No es correcto. La respuesta acertada es «Investigación cualitativa». La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "muestreo",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0028",
+      "tipo": "opcion_multiple",
+      "enunciado": "El muestreo sistemático consiste en...",
+      "opciones": [
+        "elegir cada k-ésimo elemento de una lista ordenada",
+        "dividir la población en estratos homogéneos",
+        "seleccionar conglomerados sucesivos",
+        "escoger por conveniencia"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «elegir cada k-ésimo elemento de una lista ordenada» es la respuesta adecuada. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrecta": "No es correcto. La respuesta acertada es «elegir cada k-ésimo elemento de una lista ordenada». La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "correct": "¡Correcto! «elegir cada k-ésimo elemento de una lista ordenada» es la respuesta adecuada. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrect": "No es correcto. La respuesta acertada es «elegir cada k-ésimo elemento de una lista ordenada». La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "muestreo",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0029",
+      "tipo": "opcion_multiple",
+      "enunciado": "El muestreo estratificado busca...",
+      "opciones": [
+        "representar proporcionalmente subgrupos de la población",
+        "reducir tamaño muestral",
+        "aumentar error aleatorio",
+        "formar conglomerados naturales"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «representar proporcionalmente subgrupos de la población» es la respuesta adecuada. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrecta": "No es correcto. La respuesta acertada es «representar proporcionalmente subgrupos de la población». La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "correct": "¡Correcto! «representar proporcionalmente subgrupos de la población» es la respuesta adecuada. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrect": "No es correcto. La respuesta acertada es «representar proporcionalmente subgrupos de la población». La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "muestreo",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "revisar",
+      "origen": "original",
+      "nota_revision": "El muestreo estratificado no siempre es proporcional: la asignación puede ser desproporcionada y entonces se pondera. Su propósito central es ganar precisión o asegurar casos por subgrupo."
+    },
+    {
+      "id": "m08-0030",
+      "tipo": "opcion_multiple",
+      "enunciado": "Un muestreo por cuotas se considera...",
+      "opciones": [
+        "no probabilístico",
+        "aleatorio simple",
+        "polietápico",
+        "estratificado proporcional"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «no probabilístico» es la respuesta adecuada. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrecta": "No es correcto. La respuesta acertada es «no probabilístico». La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "correct": "¡Correcto! «no probabilístico» es la respuesta adecuada. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrect": "No es correcto. La respuesta acertada es «no probabilístico». La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 1,
+      "subtema": "muestreo",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0031",
+      "tipo": "opcion_multiple",
+      "enunciado": "El muestreo por conglomerados selecciona...",
+      "opciones": [
+        "grupos o unidades naturales como escuelas o barrios",
+        "individuos aleatorios de toda la población",
+        "solo sujetos extremos",
+        "una única fuente de datos"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «grupos o unidades naturales como escuelas o barrios» es la respuesta adecuada. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrecta": "No es correcto. La respuesta acertada es «grupos o unidades naturales como escuelas o barrios». La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "correct": "¡Correcto! «grupos o unidades naturales como escuelas o barrios» es la respuesta adecuada. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrect": "No es correcto. La respuesta acertada es «grupos o unidades naturales como escuelas o barrios». La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "muestreo",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0032",
+      "tipo": "opcion_multiple",
+      "enunciado": "El efecto de diseño (deff) se asocia con...",
+      "opciones": [
+        "aumento de varianza por diseño complejo",
+        "reducción del error muestral",
+        "cálculo del tamaño poblacional",
+        "uso de hipótesis nulas"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «aumento de varianza por diseño complejo» es la respuesta adecuada. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrecta": "No es correcto. La respuesta acertada es «aumento de varianza por diseño complejo». La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "correct": "¡Correcto! «aumento de varianza por diseño complejo» es la respuesta adecuada. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrect": "No es correcto. La respuesta acertada es «aumento de varianza por diseño complejo». La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "muestreo",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0033",
+      "tipo": "verdadero_falso",
+      "enunciado": "El muestreo probabilístico permite calcular márgenes de error.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! La afirmación es **Verdadero**. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrecta": "Respuesta incorrecta (la opción correcta es **Verdadero**). La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "correct": "¡Correcto! La afirmación es **Verdadero**. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrect": "Respuesta incorrecta (la opción correcta es **Verdadero**). La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 1,
+      "subtema": "muestreo",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0034",
+      "tipo": "verdadero_falso",
+      "enunciado": "El muestreo no probabilístico garantiza representatividad estadística.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! La afirmación es **Falso**. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrecta": "Respuesta incorrecta (la opción correcta es **Falso**). La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "correct": "¡Correcto! La afirmación es **Falso**. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrect": "Respuesta incorrecta (la opción correcta es **Falso**). La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "muestreo",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0035",
+      "tipo": "verdadero_falso",
+      "enunciado": "El sesgo de selección puede invalidar inferencias.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! La afirmación es **Verdadero**. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrecta": "Respuesta incorrecta (la opción correcta es **Verdadero**). La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "correct": "¡Correcto! La afirmación es **Verdadero**. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrect": "Respuesta incorrecta (la opción correcta es **Verdadero**). La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 1,
+      "subtema": "muestreo",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0036",
+      "tipo": "verdadero_falso",
+      "enunciado": "La ponderación posterior corrige desbalances muestrales.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! La afirmación es **Verdadero**. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrecta": "Respuesta incorrecta (la opción correcta es **Verdadero**). La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "correct": "¡Correcto! La afirmación es **Verdadero**. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrect": "Respuesta incorrecta (la opción correcta es **Verdadero**). La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 1,
+      "subtema": "muestreo",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "revisar",
+      "origen": "original",
+      "nota_revision": "Afirmación demasiado amplia. La ponderación corrige desbalances solo en las variables usadas para ponderar y bajo supuestos; no corrige el sesgo de selección de una muestra no probabilística."
+    },
+    {
+      "id": "m08-0037",
+      "tipo": "verdadero_falso",
+      "enunciado": "El muestreo polietápico selecciona unidades en varias fases.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! La afirmación es **Verdadero**. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrecta": "Respuesta incorrecta (la opción correcta es **Verdadero**). La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "correct": "¡Correcto! La afirmación es **Verdadero**. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrect": "Respuesta incorrecta (la opción correcta es **Verdadero**). La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "muestreo",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0038",
+      "tipo": "opcion_multiple",
+      "enunciado": "Una característica del muestreo probabilístico es:",
+      "opciones": [
+        "La selección subjetiva",
+        "La probabilidad conocida de selección",
+        "La imposibilidad de inferencia",
+        "La ausencia de criterios"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Exacto. Cada unidad tiene probabilidad conocida.",
+        "incorrecta": "Revisá la definición de muestreo probabilístico. La opción correcta es: «La probabilidad conocida de selección».",
+        "correct": "Exacto. Cada unidad tiene probabilidad conocida.",
+        "incorrect": "Revisá la definición de muestreo probabilístico. La opción correcta es: «La probabilidad conocida de selección».",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "muestreo",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0039",
+      "tipo": "opcion_multiple",
+      "enunciado": "El muestreo no probabilístico se caracteriza por:",
+      "opciones": [
+        "Permitir generalización sólida",
+        "Basarse en probabilidades conocidas",
+        "No permitir inferencias estadísticas fuertes",
+        "Eliminar el sesgo"
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "Correcto. Limita la inferencia estadística.",
+        "incorrecta": "Pensá en las consecuencias del tipo de muestreo. La opción correcta es: «No permitir inferencias estadísticas fuertes».",
+        "correct": "Correcto. Limita la inferencia estadística.",
+        "incorrect": "Pensá en las consecuencias del tipo de muestreo. La opción correcta es: «No permitir inferencias estadísticas fuertes».",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "muestreo",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0040",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuándo es más apropiado un muestreo probabilístico?",
+      "opciones": [
+        "Cuando se busca generalizar resultados",
+        "Cuando el acceso es limitado",
+        "Cuando no importa la inferencia",
+        "Cuando se trabaja cualitativamente"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "Muy bien. El muestreo probabilístico favorece la generalización.",
+        "incorrecta": "Pensá en la finalidad del estudio. La opción correcta es: «Cuando se busca generalizar resultados».",
+        "correct": "Muy bien. El muestreo probabilístico favorece la generalización.",
+        "incorrect": "Pensá en la finalidad del estudio. La opción correcta es: «Cuando se busca generalizar resultados».",
+        "origen": "original"
+      },
+      "dificultad": 3,
+      "subtema": "muestreo",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "revisar",
+      "origen": "original",
+      "nota_revision": "Precisar «generalizar estadísticamente»: la generalización teórica o analítica no requiere muestreo probabilístico."
+    },
+    {
+      "id": "m08-0041",
+      "tipo": "opcion_multiple",
+      "enunciado": "Desde el enfoque metodológico, la muestra debe definirse:",
+      "opciones": [
+        "Después del análisis",
+        "Antes de la recolección de datos",
+        "Al final del informe",
+        "Sin criterios explícitos"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Correcto. La muestra se define en la fase de diseño.",
+        "incorrecta": "Revisá la secuencia del proceso de investigación. La opción correcta es: «Antes de la recolección de datos».",
+        "correct": "Correcto. La muestra se define en la fase de diseño.",
+        "incorrect": "Revisá la secuencia del proceso de investigación. La opción correcta es: «Antes de la recolección de datos».",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "muestreo",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0042",
+      "tipo": "opcion_multiple",
+      "enunciado": "La población se refiere a:",
+      "opciones": [
+        "El grupo completo de interés en un estudio",
+        "Un subconjunto seleccionado",
+        "La muestra",
+        "Los instrumentos"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «El grupo completo de interés en un estudio» es la respuesta adecuada. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrecta": "No es correcto. La respuesta acertada es «El grupo completo de interés en un estudio». La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "correct": "¡Correcto! «El grupo completo de interés en un estudio» es la respuesta adecuada. La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad.",
+        "incorrect": "No es correcto. La respuesta acertada es «El grupo completo de interés en un estudio». La muestra es el subconjunto extraído de la población; en el muestreo probabilístico todos los elementos del marco muestral tienen probabilidad conocida de selección (permitiendo estimar el error muestral), mientras que en el no probabilístico o intencional la selección responde a criterios o accesibilidad. Recuerda que aumentar el tamaño de la muestra reduce el error muestral aleatorio, pero solo el procedimiento de selección probabilístico evita el sesgo de selección para generalizar estadísticamente.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 1,
+      "subtema": "poblacion",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0045",
+      "tipo": "verdadero_falso",
+      "enunciado": "La Ponderación es un ajuste estadístico utilizado para devolver a los datos obtenidos la estructura real del universo y corregir desbalances en la muestra final.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Verdadero! ⚖️ La ponderación es el 'Photoshop' ético de la estadística. Si te salieron 70% hombres en la muestra, pero sabes que en la población son 50%, 'ponderas' (les das menos 'peso') para que la foto final refleje la realidad.",
+        "incorrecta": "De hecho, es verdadero. Es una técnica de ajuste súper importante. Si tu muestra, por azar, quedó 'desbalanceada' (ej. pocos jóvenes), la ponderación 'nivela la cancha' estadísticamente.",
+        "correct": "¡Verdadero! ⚖️ La ponderación es el 'Photoshop' ético de la estadística. Si te salieron 70% hombres en la muestra, pero sabes que en la población son 50%, 'ponderas' (les das menos 'peso') para que la foto final refleje la realidad.",
+        "incorrect": "De hecho, es verdadero. Es una técnica de ajuste súper importante. Si tu muestra, por azar, quedó 'desbalanceada' (ej. pocos jóvenes), la ponderación 'nivela la cancha' estadísticamente.",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "poblacion",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "revisar",
+      "origen": "original",
+      "nota_revision": "Mismo problema que m08-0036: «devolver la estructura real del universo» sobreestima lo que logra la ponderación."
+    },
+    {
+      "id": "m08-0046",
+      "tipo": "verdadero_falso",
+      "enunciado": "Para un error de muestreo dado, si la población es muy heterogénea, la muestra tiene que ser mayor que en universos más homogéneos.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Verdadero y pura lógica! Si la población es un 'caos' de opiniones diferentes (heterogénea), necesitas una muestra más grande para capturar toda esa diversidad. Si todos piensan igual (homogénea), con pocos te basta. 🌍",
+        "incorrecta": "Piénsalo de nuevo: es verdadero. Es como hacer una sopa. Si la sopa es homogénea (crema), con una cucharada sabes el sabor. Si es un guiso (heterogéneo), necesitas un cucharón más grande para probar todos los ingredientes.",
+        "correct": "¡Verdadero y pura lógica! Si la población es un 'caos' de opiniones diferentes (heterogénea), necesitas una muestra más grande para capturar toda esa diversidad. Si todos piensan igual (homogénea), con pocos te basta. 🌍",
+        "incorrect": "Piénsalo de nuevo: es verdadero. Es como hacer una sopa. Si la sopa es homogénea (crema), con una cucharada sabes el sabor. Si es un guiso (heterogéneo), necesitas un cucharón más grande para probar todos los ingredientes.",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "poblacion",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0047",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es la técnica de muestreo no probabilístico fundamental para estudiar poblaciones 'ocultas' o de difícil localización, donde se pide a los participantes que recomienden a otros contactos?",
+      "opciones": [
+        "Muestreo por Conveniencia",
+        "Muestreo Intencional",
+        "Muestreo de Bola de Nieve"
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "¡Exacto! 🌨️ El 'Bola de Nieve' (Snowball sampling) es la técnica de 'un amigo trae a otro amigo'. Es perfecta para poblaciones a las que no llegarías con una lista, como coleccionistas de algo muy raro o grupos marginales.",
+        "incorrecta": "Nop. El de conveniencia es solo 'agarrar lo que tengas cerca'. El intencional es 'elegir expertos'. Pero para redes ocultas, necesitas que la propia red se vaya 'revelando' sola. Eso es Bola de Nieve.",
+        "correct": "¡Exacto! 🌨️ El 'Bola de Nieve' (Snowball sampling) es la técnica de 'un amigo trae a otro amigo'. Es perfecta para poblaciones a las que no llegarías con una lista, como coleccionistas de algo muy raro o grupos marginales.",
+        "incorrect": "Nop. El de conveniencia es solo 'agarrar lo que tengas cerca'. El intencional es 'elegir expertos'. Pero para redes ocultas, necesitas que la propia red se vaya 'revelando' sola. Eso es Bola de Nieve.",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "poblacion",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0050",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué se entiende por población en una investigación?",
+      "opciones": [
+        "El grupo que participa efectivamente en el estudio",
+        "El conjunto total de unidades que cumplen criterios definidos",
+        "El número de sujetos encuestados",
+        "Los resultados obtenidos"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Correcto. La población es el conjunto total definido por el investigador.",
+        "incorrecta": "Revisá la definición de población. La opción correcta es: «El conjunto total de unidades que cumplen criterios definidos».",
+        "correct": "Correcto. La población es el conjunto total definido por el investigador.",
+        "incorrect": "Revisá la definición de población. La opción correcta es: «El conjunto total de unidades que cumplen criterios definidos».",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "poblacion",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0051",
+      "tipo": "opcion_multiple",
+      "enunciado": "La muestra se define como:",
+      "opciones": [
+        "El total de la población",
+        "Un subconjunto de la población",
+        "Un grupo elegido al azar sin criterios",
+        "El resultado del análisis"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Exacto. La muestra es parte de la población.",
+        "incorrecta": "Pensá en la relación jerárquica población–muestra. La opción correcta es: «Un subconjunto de la población».",
+        "correct": "Exacto. La muestra es parte de la población.",
+        "incorrect": "Pensá en la relación jerárquica población–muestra. La opción correcta es: «Un subconjunto de la población».",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "poblacion",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0052",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es el objetivo principal del muestreo?",
+      "opciones": [
+        "Reducir costos",
+        "Seleccionar unidades representativas de la población",
+        "Eliminar el error",
+        "Aumentar el tamaño del estudio"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Correcto. El muestreo busca representatividad.",
+        "incorrecta": "Pensá en la función metodológica del muestreo. La opción correcta es: «Seleccionar unidades representativas de la población».",
+        "correct": "Correcto. El muestreo busca representatividad.",
+        "incorrect": "Pensá en la función metodológica del muestreo. La opción correcta es: «Seleccionar unidades representativas de la población».",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "poblacion",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "revisar",
+      "origen": "original",
+      "nota_revision": "«Seleccionar unidades representativas» no vale para todo muestreo (no es el objetivo en cualitativo) y «representativa» es un término impreciso (Kish). Además, «Reducir costos» también es un objetivo legítimo del muestreo."
+    },
+    {
+      "id": "m08-0054",
+      "tipo": "opcion_multiple",
+      "enunciado": "Un error frecuente en muestreo es:",
+      "opciones": [
+        "Definir criterios de inclusión",
+        "Confundir tamaño de muestra con representatividad",
+        "Seleccionar al azar",
+        "Diferenciar población y muestra"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Exacto. Una muestra grande no garantiza representatividad.",
+        "incorrecta": "Pensá en errores conceptuales comunes. La opción correcta es: «Confundir tamaño de muestra con representatividad».",
+        "correct": "Exacto. Una muestra grande no garantiza representatividad.",
+        "incorrect": "Pensá en errores conceptuales comunes. La opción correcta es: «Confundir tamaño de muestra con representatividad».",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "poblacion",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m08-0055",
+      "tipo": "opcion_multiple",
+      "enunciado": "El error muestral se refiere a:",
+      "opciones": [
+        "Errores del investigador",
+        "Diferencias entre muestra y población",
+        "Errores de medición",
+        "Errores de análisis"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Correcto. Es inherente al proceso de muestreo.",
+        "incorrecta": "Revisá la definición de error muestral. La opción correcta es: «Diferencias entre muestra y población».",
+        "correct": "Correcto. Es inherente al proceso de muestreo.",
+        "incorrect": "Revisá la definición de error muestral. La opción correcta es: «Diferencias entre muestra y población».",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "poblacion",
+      "lectura_ref": "assets/reading/6. Fundamentos y Metodología del Muestreo.pdf",
+      "estado": "revisar",
+      "origen": "original",
+      "nota_revision": "Definición vaga: «diferencias entre muestra y población» incluye también el sesgo. El error muestral es la variación debida al azar de la selección."
+    }
+  ]
+}

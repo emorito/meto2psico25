@@ -1,0 +1,421 @@
+{
+  "modulo_id": "m09",
+  "capsula": {
+    "title": "Instrumentos y medición: de la técnica a la psicometría",
+    "subtitle": "Clase 11 · Con qué se obtiene el dato y cuánto se puede confiar en él",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Fuente, técnica e instrumento no son sinónimos",
+        "headers": [
+          "Componente",
+          "Pregunta",
+          "Ejemplos"
+        ],
+        "rows": [
+          [
+            "Fuente",
+            "¿Quién o qué entrega el dato?",
+            "Participantes, informantes (padres, docentes), registros clínicos, documentos."
+          ],
+          [
+            "Técnica",
+            "¿Con qué procedimiento general se obtiene?",
+            "Encuesta, entrevista, observación sistemática, evaluación psicométrica, análisis documental."
+          ],
+          [
+            "Instrumento",
+            "¿Con qué herramienta concreta se registra?",
+            "Cuestionario, escala, test, guía de entrevista, lista de cotejo, registro de observación."
+          ]
+        ]
+      },
+      {
+        "type": "highlight",
+        "title": "La cadena que ordena todo el módulo",
+        "text": "Objetivo → información necesaria → fuente → técnica → instrumento. Si un instrumento no responde a ningún objetivo, sobra; si un objetivo no tiene instrumento, el proyecto no puede cumplirlo."
+      },
+      {
+        "type": "cards",
+        "title": "Medir en psicología",
+        "items": [
+          {
+            "badge": "Constructo",
+            "title": "Lo que no se ve",
+            "text": "Ansiedad, autoestima o inteligencia no se observan directamente: se infieren a partir de indicadores. Por eso la definición operacional (clase 7) es el puente entre el constructo y el instrumento."
+          },
+          {
+            "badge": "Nivel de medición",
+            "title": "Qué operaciones permite",
+            "text": "Nominal, ordinal, de intervalo o de razón (Stevens). El nivel limita qué análisis tienen sentido: no se promedia una variable nominal."
+          },
+          {
+            "badge": "Teoría clásica de los tests",
+            "title": "X = V + E",
+            "text": "Toda puntuación observada (X) es la suma de una puntuación verdadera (V) y un error aleatorio (E). La fiabilidad es la proporción de la varianza observada que corresponde a la verdadera."
+          },
+          {
+            "badge": "Dos tipos de error",
+            "title": "Aleatorio y sistemático",
+            "text": "El error aleatorio afecta la **fiabilidad** (las puntuaciones fluctúan). El sistemático afecta la **validez** (el instrumento mide de forma consistente algo distinto de lo que dice medir)."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Fiabilidad: cuánto error tiene la medida",
+        "headers": [
+          "Tipo",
+          "Qué responde",
+          "Cómo se estima"
+        ],
+        "rows": [
+          [
+            "Estabilidad (test-retest)",
+            "¿Las puntuaciones se mantienen en el tiempo?",
+            "Correlación entre dos aplicaciones; el intervalo tiene que ser coherente con la estabilidad esperada del rasgo."
+          ],
+          [
+            "Formas paralelas",
+            "¿Dos versiones equivalentes dan lo mismo?",
+            "Correlación entre formas."
+          ],
+          [
+            "Consistencia interna",
+            "¿Los ítems miden lo mismo?",
+            "Alfa de Cronbach u omega de McDonald."
+          ],
+          [
+            "Entre observadores",
+            "¿Dos jueces coinciden?",
+            "Kappa de Cohen (categorías) o coeficiente de correlación intraclase (puntuaciones)."
+          ]
+        ]
+      },
+      {
+        "type": "cards",
+        "title": "Alfa, omega y el error de la persona",
+        "items": [
+          {
+            "badge": "Alfa",
+            "title": "Tiene supuestos",
+            "text": "Alfa supone que todos los ítems pesan lo mismo en el factor (tau-equivalencia) y que los errores no se correlacionan. Si no se cumplen, suele subestimar la fiabilidad. Y depende del número de ítems: con muchos ítems sube aunque la escala sea mediocre."
+          },
+          {
+            "badge": "Omega",
+            "title": "La alternativa recomendada",
+            "text": "Omega se calcula a partir de las cargas factoriales y no exige tau-equivalencia. Es la opción recomendada cuando las cargas difieren (Dunn, Baguley y Brunsden, 2014)."
+          },
+          {
+            "badge": "Error frecuente",
+            "title": "Alfa alto no prueba unidimensionalidad",
+            "text": "Una escala con dos factores correlacionados puede dar alfa = 0,85. La dimensionalidad se examina con análisis factorial, no con alfa (Sijtsma, 2009)."
+          },
+          {
+            "badge": "Error estándar de medida",
+            "title": "La fiabilidad aplicada a una persona",
+            "text": "**EEM = s·√(1 − r)**. Con s = 10 y r = 0,91, EEM = 3: una puntuación de 60 se lee como un intervalo de aproximadamente 54 a 66 (95 %). Por eso las decisiones individuales exigen fiabilidad alta."
+          }
+        ]
+      },
+      {
+        "type": "highlight",
+        "title": "¿Cuánta fiabilidad alcanza? (Nunnally)",
+        "text": "Depende del uso. Para investigación exploratoria, alrededor de 0,70; para investigación básica, 0,80; para tomar **decisiones sobre personas** (diagnóstico, selección), 0,90 o más. Un mismo coeficiente puede ser suficiente para un uso e insuficiente para otro."
+      },
+      {
+        "type": "table",
+        "title": "Validez: un argumento con cinco fuentes de evidencia (Standards AERA, APA y NCME, 2014)",
+        "headers": [
+          "Fuente de evidencia",
+          "Pregunta",
+          "Cómo se obtiene"
+        ],
+        "rows": [
+          [
+            "Contenido",
+            "¿Los ítems cubren el constructo de forma relevante y representativa?",
+            "Juicio de expertos con criterios explícitos; índices de acuerdo (por ejemplo, V de Aiken)."
+          ],
+          [
+            "Procesos de respuesta",
+            "¿Las personas responden por las razones que suponemos?",
+            "Entrevistas cognitivas, pensamiento en voz alta."
+          ],
+          [
+            "Estructura interna",
+            "¿Los ítems se agrupan como dice la teoría?",
+            "Análisis factorial exploratorio y confirmatorio; invarianza entre grupos."
+          ],
+          [
+            "Relación con otras variables",
+            "¿Correlaciona con lo que debería, y no con lo que no?",
+            "Evidencia convergente, discriminante y de criterio (concurrente o predictiva)."
+          ],
+          [
+            "Consecuencias",
+            "¿Qué efectos tiene usar estas puntuaciones?",
+            "Análisis de decisiones tomadas con el test y de posibles sesgos contra grupos."
+          ]
+        ]
+      },
+      {
+        "type": "highlight",
+        "title": "Lo que se valida es la interpretación",
+        "text": "Un test no «es válido» en abstracto: se acumulan evidencias a favor de **una interpretación de sus puntuaciones para un uso y una población**. Una escala validada en adultos españoles no está validada para adolescentes paraguayos."
+      },
+      {
+        "type": "cards",
+        "title": "Construir un instrumento",
+        "items": [
+          {
+            "badge": "Pasos",
+            "title": "De la definición al baremo",
+            "text": "Marco general y propósito → definición del constructo → especificaciones → redacción de ítems → revisión por expertos → estudio piloto → análisis de ítems → estudio de fiabilidad y validez → baremos → versión final (Muñiz y Fonseca-Pedrero, *Diez pasos*)."
+          },
+          {
+            "badge": "Análisis de ítems",
+            "title": "Dificultad y discriminación",
+            "text": "La **dificultad** es la proporción de aciertos (o la media en escalas). La **discriminación** es cuánto separa el ítem a quienes puntúan alto de quienes puntúan bajo; se estima con la correlación ítem-total corregida."
+          },
+          {
+            "badge": "AFE y AFC",
+            "title": "Explorar o confirmar",
+            "text": "El análisis factorial exploratorio busca cuántas dimensiones hay sin imponerlas; el confirmatorio pone a prueba una estructura definida de antemano. No se confirma con los mismos datos con que se exploró."
+          },
+          {
+            "badge": "Más allá de la teoría clásica",
+            "title": "Teoría de respuesta al ítem",
+            "text": "Modela la probabilidad de respuesta según el nivel de la persona y los parámetros del ítem. Permite saber dónde mide bien el test y construir tests adaptativos."
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "title": "Adaptar y elegir un instrumento ya existente",
+        "items": [
+          {
+            "badge": "Adaptar no es traducir",
+            "title": "Directrices de la ITC",
+            "text": "La adaptación exige equivalencia lingüística, conceptual y métrica: traducción y retrotraducción o comité de expertos, piloto con entrevistas cognitivas y estudio psicométrico en la nueva población (ITC, 2.ª ed., 2017)."
+          },
+          {
+            "badge": "Invarianza",
+            "title": "¿Mide lo mismo en ambos grupos?",
+            "text": "Antes de comparar medias entre grupos (varones y mujeres, países, versiones en castellano y en guaraní) hay que mostrar que el instrumento funciona igual: invarianza configural, métrica y escalar."
+          },
+          {
+            "badge": "Baremos",
+            "title": "Normas locales",
+            "text": "Interpretar una puntuación con baremos de otra población puede llevar a sobrediagnosticar o subdiagnosticar. Si no hay baremos locales, se declara."
+          },
+          {
+            "badge": "Elegir",
+            "title": "Criterios al seleccionar",
+            "text": "Antes de elegir: ¿mide mi constructo tal como lo definí?, ¿hay evidencia en una población parecida a la mía?, ¿qué fiabilidad reporta y para qué uso?, ¿tengo permiso o licencia para usarlo?"
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "title": "Instrumentos en investigación cualitativa",
+        "items": [
+          {
+            "badge": "Guía de entrevista",
+            "title": "Ejes, no cuestionario",
+            "text": "Organiza temas y preguntas abiertas derivadas de los objetivos, con repreguntas posibles. Se ajusta tras las primeras entrevistas."
+          },
+          {
+            "badge": "Guía de observación",
+            "title": "Qué mirar y cómo registrar",
+            "text": "Define unidades de observación, situaciones y formato de registro (notas descriptivas separadas de las interpretativas)."
+          },
+          {
+            "badge": "Rigor",
+            "title": "Otra lógica, no menos exigencia",
+            "text": "Credibilidad, transferibilidad, dependencia y confirmabilidad: triangulación, devolución a participantes, descripción densa, registro de decisiones."
+          },
+          {
+            "badge": "Reflexividad",
+            "title": "El investigador como instrumento",
+            "text": "En la entrevista, quien pregunta forma parte del instrumento: sus supuestos se explicitan y se registran."
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "title": "Ética del instrumento y de los datos",
+        "items": [
+          {
+            "badge": "Consentimiento",
+            "title": "Informado, libre y revocable",
+            "text": "Con menores: asentimiento del participante y consentimiento de padres o tutores."
+          },
+          {
+            "badge": "Derechos",
+            "title": "Tests con licencia",
+            "text": "No se fotocopian, reproducen ni suben a internet tests comerciales. Se usan con licencia y por profesionales habilitados."
+          },
+          {
+            "badge": "Custodia",
+            "title": "Anonimizar y resguardar",
+            "text": "Códigos en lugar de nombres, plan de custodia y de eliminación de los datos."
+          },
+          {
+            "badge": "IA",
+            "title": "Nunca datos identificables",
+            "text": "Prohibido subir entrevistas, protocolos o datos sensibles a plataformas públicas de IA."
+          }
+        ]
+      },
+      {
+        "type": "checklist",
+        "title": "Qué tiene que quedar reportado (APA, JARS)",
+        "items": [
+          "Nombre completo del instrumento, autores, versión y adaptación usada.",
+          "Qué mide, número de ítems, formato de respuesta y forma de puntuación.",
+          "Evidencias de validez previas, en qué población se obtuvieron.",
+          "Fiabilidad **en tu propia muestra** (omega o alfa, con su intervalo si es posible), no solo la del manual.",
+          "Si el instrumento fue traducido o adaptado: procedimiento seguido.",
+          "En cualitativo: guía de entrevista u observación (en anexo) y cómo se ajustó."
+        ]
+      }
+    ]
+  },
+  "casos": {
+    "miniCases": [
+      {
+        "id": "m09_c1",
+        "title": "Caso 1 · El cuestionario inventado el domingo a la noche",
+        "context": "Psicometría y Medición · Calidad del instrumento",
+        "scenario": "Para medir «Resiliencia y Afrontamiento» en su proyecto, un estudiante redacta por su cuenta 8 preguntas improvisadas (entre ellas: *«¿Eres una persona fuerte que supera todo rápido y nunca se deprime ni se estresa?»*) sin revisar escalas validadas ni hacer prueba piloto. En la columna «Técnica» escribe «Formulario de Google» y en «Instrumento» escribe «Encuesta».",
+        "question": "Señala tres errores técnicos en la propuesta del estudiante (clasificación de técnica/instrumento, redacción de ítems y evidencias de validez/confiabilidad).",
+        "hints": [
+          "Primero: ¿«Encuesta» es la técnica o el instrumento? ¿Y qué es «Google Forms»?",
+          "Segundo: mira el ítem que redactó: ¿cuántas ideas mezcla a la vez?"
+        ],
+        "analysis": "1. **Confusión Técnica vs. Instrumento vs. Soporte:** La **técnica** es la *encuesta*; el **instrumento** es la *escala o cuestionario específico* (p. ej. Escala de Resiliencia CD-RISC); y *Google Forms* es solo el soporte digital de administración.\n2. **Ítem defectuoso (doble o triple barra y sesgo de deseabilidad):** La pregunta mezcla fortaleza, rapidez, ausencia de depresión y ausencia de estrés en un solo reactivo. Si alguien responde «No», es imposible saber a cuál de las cuatro partes se refiere.\n3. **Ausencia de validez y confiabilidad:** Antes de inventar preguntas sin sustento, debe buscarse un instrumento con evidencias psicométricas de validez y confiabilidad (o seguir los 10 pasos de construcción, juicio de expertos y pilotaje).",
+        "keyConcept": "Cadena Objetivo → Dato → Fuente → Técnica → Instrumento y criterios de calidad de ítems"
+      },
+      {
+        "id": "m09_c2",
+        "title": "Caso 2 · «Subí las entrevistas con nombres reales a un chatbot para que las resuma»",
+        "context": "Ética de la Investigación e IA · Protección de participantes",
+        "scenario": "En un estudio sobre violencia en el noviazgo en jóvenes universitarios, el equipo planea grabar entrevistas utilizando los nombres y apellidos reales de las participantes, guardar los audios en una carpeta pública de Google Drive sin contraseña y subir las transcripciones completas a un servicio público gratuito de IA para «pedirle que arme las categorías».",
+        "question": "Audita todos los riesgos éticos y de confidencialidad de este procedimiento y diseña el protocolo ético correcto según la Clase 11.",
+        "hints": [
+          "Revisa las reglas del Plan 2026 sobre datos sensibles e IA pública.",
+          "¿Qué elementos debe incluir el consentimiento informado, la anonimización y el protocolo de derivación?"
+        ],
+        "analysis": "El procedimiento vulnera principios éticos esenciales de confidencialidad, no maleficencia y autonomía:\n1. **Prohibición estricta en IA pública:** Jamás deben subirse entrevistas identificables ni datos clínicos/sensibles a servicios públicos de IA (pérdida de control y confidencialidad de los datos).\n2. **Anonimización desde la transcripción:** Cada participante debe identificarse con un código alfanumérico (ej. `P01`, `P02`), suprimiendo nombres propios, lugares de trabajo o detalles que permitan rastrear su identidad.\n3. **Custodia y eliminación:** Los archivos deben resguardarse en carpetas cifradas o con acceso restringido solo al equipo investigador por un plazo definido.\n4. **Consentimiento informado y contención:** Tratándose de violencia en el noviazgo, debe informarse el derecho a no responder o retirarse sin perjuicio y contar con un **protocolo de información y derivación a servicios de apoyo psicológico**.",
+        "keyConcept": "Consentimiento informado, anonimización, custodia segura y prohibición de datos sensibles en IA pública"
+      },
+      {
+        "id": "m09_c3",
+        "title": "Caso 3 · Alta confiabilidad sin validez: la báscula descalibrada",
+        "context": "Calidad de la Medición · Validez vs. Confiabilidad",
+        "scenario": "Un equipo aplica una escala traducida literalmente de otro idioma para medir «Ansiedad Social» en adolescentes paraguayos. Al calcular el Alfa de Cronbach obtienen $\\alpha = .89$, por lo que aseguran que «el instrumento tiene validez total y mide perfectamente la ansiedad social». Sin embargo, al leer los ítems, un juez experto nota que las preguntas en realidad evalúan introversión y preferencia por la lectura solitaria, sin medir temor a la evaluación negativa.",
+        "question": "Explica por qué un Alfa de Cronbach alto ($\\alpha = .89$) no garantiza por sí mismo la validez del instrumento.",
+        "hints": [
+          "Recuerda la diferencia entre consistencia de las puntuaciones (confiabilidad) y medir efectivamente el constructo teórico propuesto (validez)."
+        ],
+        "analysis": "El coeficiente Alfa de Cronbach ($\\alpha = .89$) informa únicamente sobre la **consistencia interna (confiabilidad)**: indica que los ítems covarían entre sí de manera homogénea. Sin embargo, **la confiabilidad es condición necesaria pero no suficiente para la validez**.\n\nSi todos los ítems miden consistentemente *introversión* en lugar de *temor a la evaluación social negativa*, el instrumento será muy confiable (consistente), pero **carecerá de validez de contenido y de constructo** para medir ansiedad social. Por eso siempre se requiere verificar la correspondencia teórica entre las dimensiones del constructo y los ítems, además de la adaptación lingüística y cultural al contexto paraguayo.",
+        "keyConcept": "Un instrumento puede ser consistente (confiable) sin medir el constructo correcto (válido)"
+      }
+    ],
+    "simulation": {
+      "title": "Simulación 09 · Selección de instrumentos, psicometría y protocolo ético",
+      "context": "Estás en la Clase 11 armando la matriz Objetivo → Dato → Fuente → Técnica → Instrumento y el apartado ético para un estudio sobre ansiedad social y apoyo familiar en adolescentes de 15 a 17 años.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Paso 1 · Alinear técnica, instrumento y calidad psicométrica",
+          "prompt": "Para medir «Ansiedad social», tienes dos opciones: A) redactar 5 preguntas propias sin pilotaje; B) utilizar una escala estandarizada validada en adolescentes hispanohablantes y reportar su consistencia interna ($\\alpha$ / $\\omega$). ¿Qué decides?",
+          "options": [
+            {
+              "text": "Elijo la Opción B (escala con evidencias previas de validez y confiabilidad en población comparable), verifico su adecuación lingüística local mediante prueba piloto y reporto sus propiedades psicométricas.",
+              "isOptimal": true,
+              "feedback": "¡Excelente decisión! Usar instrumentos con evidencias documentadas de validez y confiabilidad —y verificar su comprensión local— protege la calidad de tus datos."
+            },
+            {
+              "text": "Elijo la Opción A porque inventar preguntas sin validación ni piloto es más rápido.",
+              "isOptimal": false,
+              "feedback": "Improvisar un instrumento sin validación de contenido ni estudio piloto compromete gravemente la validez y confiabilidad de los resultados."
+            }
+          ]
+        },
+        {
+          "stepNumber": 2,
+          "title": "Paso 2 · Diseñar el consentimiento y asentimiento (menores de edad)",
+          "prompt": "Tus participantes son adolescentes escolarizados de 15 a 17 años. ¿Qué requisito ético debes prever antes de aplicar cualquier instrumento?",
+          "options": [
+            {
+              "text": "Aplicar el cuestionario por sorpresa sin avisar a las familias ni a los alumnos para que no mientan.",
+              "isOptimal": false,
+              "feedback": "Viola el principio ético de autonomía y las normativas de protección de niños, niñas y adolescentes."
+            },
+            {
+              "text": "Contar con autorización institucional, consentimiento informado de los padres o tutores legales y asentimiento informado libre y voluntario de los propios adolescentes.",
+              "isOptimal": true,
+              "feedback": "¡Correcto! Al trabajar con menores de edad se requiere tanto el consentimiento de los representantes legales como el asentimiento de los adolescentes."
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "title": "Paso 3 · Custodia de datos y prohibición en IA pública",
+          "prompt": "Una vez recogidos los datos (o en la simulación del procedimiento), ¿cómo aseguras la privacidad y el manejo ético de la información?",
+          "options": [
+            {
+              "text": "Reemplazo cualquier dato identificatorio por códigos (`ID_001`), resguardo la base en almacenamiento seguro con acceso restringido y prohíbo subir datos individuales o sensibles a chatbots de IA pública.",
+              "isOptimal": true,
+              "feedback": "¡Impecable! Cumples con los estándares de privacidad, custodia responsable e integridad en el uso de tecnologías."
+            },
+            {
+              "text": "Subo la planilla con nombres, teléfonos y puntajes de ansiedad a una IA pública gratuita para que redacte un informe por alumno.",
+              "isOptimal": false,
+              "feedback": "Línea roja ética absoluta: nunca se cargan datos personales o clínicos en plataformas públicas de IA."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "recursos": {
+    "videos": [
+      {
+        "videoId": "r1jWY-XG4_I",
+        "title": "Técnicas, desarrollo de instrumentos y calidad de medición",
+        "badge": "Clase 11 · Instrumentos y Ética"
+      }
+    ],
+    "readings": [
+      {
+        "title": "Diez pasos para la construcción de un test (Muñiz y Fonseca-Pedrero)",
+        "url": "assets/reading/7. Diez pasos para la construcción de un test.pdf",
+        "type": "pdf",
+        "description": "Guía paso a paso para delimitar el marco general, definir la variable, redactar ítems, validar contenido y realizar el estudio piloto."
+      }
+    ],
+    "notebooks": [
+      {
+        "title": "Cuaderno IA · Desarrollo de instrumentos",
+        "url": "https://notebooklm.google.com/notebook/b1f3de4f-282f-4ad9-bf64-71b70ef49488"
+      }
+    ]
+  },
+  "autoauditoria": [
+    "¿Cada instrumento responde a un objetivo y cada objetivo tiene su instrumento?",
+    "¿Distinguí fuente, técnica e instrumento en mi método?",
+    "¿El instrumento mide mi constructo tal como lo definí operacionalmente?",
+    "¿Tiene evidencias de validez en una población parecida a la mía? Si no, ¿lo declaré como limitación?",
+    "¿Voy a reportar la fiabilidad en mi propia muestra?",
+    "Si es una escala adaptada o traducida, ¿seguí un procedimiento y lo voy a describir?",
+    "¿Tengo permiso o licencia para usar el instrumento?",
+    "¿Previ consentimiento, anonimización y custodia de los datos?"
+  ],
+  "subtemas_nuevos": {
+    "medicion": "Medir en psicología",
+    "construccion_adaptacion": "Construir, adaptar y elegir instrumentos"
+  }
+}

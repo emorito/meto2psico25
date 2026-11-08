@@ -1,0 +1,605 @@
+{
+  "modulo_id": "m10",
+  "items": [
+    {
+      "id": "m10-0001",
+      "tipo": "opcion_multiple",
+      "enunciado": "El análisis de datos cualitativo implica:",
+      "opciones": [
+        "Codificar e identificar temas",
+        "Calcular medias",
+        "Crear histogramas",
+        "Aplicar pruebas t"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Codificar e identificar temas» es la respuesta adecuada. En el análisis cualitativo se organiza y codifica sistemáticamente el corpus textual para construir categorías y temas con trazabilidad, empleando criterios de rigor como la triangulación y la saturación teórica.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Codificar e identificar temas». En el análisis cualitativo se organiza y codifica sistemáticamente el corpus textual para construir categorías y temas con trazabilidad, empleando criterios de rigor como la triangulación y la saturación teórica. Repasa los conceptos de la ruta cualitativa (Clase 12): codificación de unidades de significado, categorización, saturación (cuando no emergen nuevos temas) y triangulación.",
+        "correct": "¡Correcto! «Codificar e identificar temas» es la respuesta adecuada. En el análisis cualitativo se organiza y codifica sistemáticamente el corpus textual para construir categorías y temas con trazabilidad, empleando criterios de rigor como la triangulación y la saturación teórica.",
+        "incorrect": "No es correcto. La respuesta acertada es «Codificar e identificar temas». En el análisis cualitativo se organiza y codifica sistemáticamente el corpus textual para construir categorías y temas con trazabilidad, empleando criterios de rigor como la triangulación y la saturación teórica. Repasa los conceptos de la ruta cualitativa (Clase 12): codificación de unidades de significado, categorización, saturación (cuando no emergen nuevos temas) y triangulación.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "analisis_cualitativo",
+      "lectura_ref": null,
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m10-0002",
+      "tipo": "opcion_multiple",
+      "enunciado": "En investigación cualitativa, la saturación ocurre cuando:",
+      "opciones": [
+        "No surgen nuevos temas",
+        "Se recolectan datos repetidos",
+        "Se alcanza la muestra ideal",
+        "Se aplica una prueba estadística"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «No surgen nuevos temas» es la respuesta adecuada. En el análisis cualitativo se organiza y codifica sistemáticamente el corpus textual para construir categorías y temas con trazabilidad, empleando criterios de rigor como la triangulación y la saturación teórica.",
+        "incorrecta": "No es correcto. La respuesta acertada es «No surgen nuevos temas». En el análisis cualitativo se organiza y codifica sistemáticamente el corpus textual para construir categorías y temas con trazabilidad, empleando criterios de rigor como la triangulación y la saturación teórica. Repasa los conceptos de la ruta cualitativa (Clase 12): codificación de unidades de significado, categorización, saturación (cuando no emergen nuevos temas) y triangulación.",
+        "correct": "¡Correcto! «No surgen nuevos temas» es la respuesta adecuada. En el análisis cualitativo se organiza y codifica sistemáticamente el corpus textual para construir categorías y temas con trazabilidad, empleando criterios de rigor como la triangulación y la saturación teórica.",
+        "incorrect": "No es correcto. La respuesta acertada es «No surgen nuevos temas». En el análisis cualitativo se organiza y codifica sistemáticamente el corpus textual para construir categorías y temas con trazabilidad, empleando criterios de rigor como la triangulación y la saturación teórica. Repasa los conceptos de la ruta cualitativa (Clase 12): codificación de unidades de significado, categorización, saturación (cuando no emergen nuevos temas) y triangulación.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "analisis_cualitativo",
+      "lectura_ref": null,
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m10-0003",
+      "tipo": "opcion_multiple",
+      "enunciado": "La triangulación en investigación cualitativa significa:",
+      "opciones": [
+        "Usar múltiples fuentes o métodos para comprobar la coherencia",
+        "Obtener tres veces la misma respuesta",
+        "Realizar tres experimentos",
+        "Medir tres variables"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Usar múltiples fuentes o métodos para comprobar la coherencia» es la respuesta adecuada. En el análisis cualitativo se organiza y codifica sistemáticamente el corpus textual para construir categorías y temas con trazabilidad, empleando criterios de rigor como la triangulación y la saturación teórica.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Usar múltiples fuentes o métodos para comprobar la coherencia». En el análisis cualitativo se organiza y codifica sistemáticamente el corpus textual para construir categorías y temas con trazabilidad, empleando criterios de rigor como la triangulación y la saturación teórica. Repasa los conceptos de la ruta cualitativa (Clase 12): codificación de unidades de significado, categorización, saturación (cuando no emergen nuevos temas) y triangulación.",
+        "correct": "¡Correcto! «Usar múltiples fuentes o métodos para comprobar la coherencia» es la respuesta adecuada. En el análisis cualitativo se organiza y codifica sistemáticamente el corpus textual para construir categorías y temas con trazabilidad, empleando criterios de rigor como la triangulación y la saturación teórica.",
+        "incorrect": "No es correcto. La respuesta acertada es «Usar múltiples fuentes o métodos para comprobar la coherencia». En el análisis cualitativo se organiza y codifica sistemáticamente el corpus textual para construir categorías y temas con trazabilidad, empleando criterios de rigor como la triangulación y la saturación teórica. Repasa los conceptos de la ruta cualitativa (Clase 12): codificación de unidades de significado, categorización, saturación (cuando no emergen nuevos temas) y triangulación.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "analisis_cualitativo",
+      "lectura_ref": null,
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m10-0004",
+      "tipo": "opcion_multiple",
+      "enunciado": "Una estadística descriptiva es:",
+      "opciones": [
+        "Media",
+        "Regresión",
+        "Análisis factorial",
+        "Ji-cuadrado"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Media» es la respuesta adecuada. El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Media». El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables. Distingue entre estadística descriptiva (resumir y caracterizar los datos de la muestra) y estadística inferencial (contrastar hipótesis y estimar parámetros poblacionales).",
+        "correct": "¡Correcto! «Media» es la respuesta adecuada. El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables.",
+        "incorrect": "No es correcto. La respuesta acertada es «Media». El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables. Distingue entre estadística descriptiva (resumir y caracterizar los datos de la muestra) y estadística inferencial (contrastar hipótesis y estimar parámetros poblacionales).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 1,
+      "subtema": "analisis_cuantitativo",
+      "lectura_ref": null,
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m10-0005",
+      "tipo": "opcion_multiple",
+      "enunciado": "Un componente clave de un informe en formato APA es:",
+      "opciones": [
+        "Resumen",
+        "Agradecimientos",
+        "Hipótesis",
+        "Lista de tablas"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Resumen» es la respuesta adecuada. El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Resumen». El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables. Distingue entre estadística descriptiva (resumir y caracterizar los datos de la muestra) y estadística inferencial (contrastar hipótesis y estimar parámetros poblacionales).",
+        "correct": "¡Correcto! «Resumen» es la respuesta adecuada. El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables.",
+        "incorrect": "No es correcto. La respuesta acertada es «Resumen». El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables. Distingue entre estadística descriptiva (resumir y caracterizar los datos de la muestra) y estadística inferencial (contrastar hipótesis y estimar parámetros poblacionales).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 1,
+      "subtema": "analisis_cuantitativo",
+      "lectura_ref": null,
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m10-0006",
+      "tipo": "opcion_multiple",
+      "enunciado": "La visualización de datos ayuda a:",
+      "opciones": [
+        "Comunicar los hallazgos de manera efectiva",
+        "Ocultar resultados",
+        "Reducir la muestra",
+        "Reemplazar el análisis"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Comunicar los hallazgos de manera efectiva» es la respuesta adecuada. El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Comunicar los hallazgos de manera efectiva». El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables. Distingue entre estadística descriptiva (resumir y caracterizar los datos de la muestra) y estadística inferencial (contrastar hipótesis y estimar parámetros poblacionales).",
+        "correct": "¡Correcto! «Comunicar los hallazgos de manera efectiva» es la respuesta adecuada. El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables.",
+        "incorrect": "No es correcto. La respuesta acertada es «Comunicar los hallazgos de manera efectiva». El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables. Distingue entre estadística descriptiva (resumir y caracterizar los datos de la muestra) y estadística inferencial (contrastar hipótesis y estimar parámetros poblacionales).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 1,
+      "subtema": "analisis_cuantitativo",
+      "lectura_ref": null,
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m10-0008",
+      "tipo": "opcion_multiple",
+      "enunciado": "El primer paso en el análisis de datos cuantitativos es:",
+      "opciones": [
+        "Limpiar y codificar los datos",
+        "Aplicar pruebas inferenciales",
+        "Publicar los resultados",
+        "Redactar el resumen"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Limpiar y codificar los datos» es la respuesta adecuada. El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Limpiar y codificar los datos». El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables. Distingue entre estadística descriptiva (resumir y caracterizar los datos de la muestra) y estadística inferencial (contrastar hipótesis y estimar parámetros poblacionales).",
+        "correct": "¡Correcto! «Limpiar y codificar los datos» es la respuesta adecuada. El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables.",
+        "incorrect": "No es correcto. La respuesta acertada es «Limpiar y codificar los datos». El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables. Distingue entre estadística descriptiva (resumir y caracterizar los datos de la muestra) y estadística inferencial (contrastar hipótesis y estimar parámetros poblacionales).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "analisis_cuantitativo",
+      "lectura_ref": null,
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m10-0010",
+      "tipo": "opcion_multiple",
+      "enunciado": "Una distribución normal es simétrica alrededor de:",
+      "opciones": [
+        "La mediana",
+        "La moda",
+        "La media",
+        "El rango"
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "¡Correcto! «La media» es la respuesta adecuada. El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «La media». El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables. Distingue entre estadística descriptiva (resumir y caracterizar los datos de la muestra) y estadística inferencial (contrastar hipótesis y estimar parámetros poblacionales).",
+        "correct": "¡Correcto! «La media» es la respuesta adecuada. El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables.",
+        "incorrect": "No es correcto. La respuesta acertada es «La media». El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables. Distingue entre estadística descriptiva (resumir y caracterizar los datos de la muestra) y estadística inferencial (contrastar hipótesis y estimar parámetros poblacionales).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "analisis_cuantitativo",
+      "lectura_ref": null,
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m10-0011",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué medida de variabilidad describe la distancia promedio de los datos respecto a la media?",
+      "opciones": [
+        "Varianza",
+        "Desviación estándar",
+        "Rango intercuartil",
+        "Moda"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «Desviación estándar» es la respuesta adecuada. El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Desviación estándar». El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables. Distingue entre estadística descriptiva (resumir y caracterizar los datos de la muestra) y estadística inferencial (contrastar hipótesis y estimar parámetros poblacionales).",
+        "correct": "¡Correcto! «Desviación estándar» es la respuesta adecuada. El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables.",
+        "incorrect": "No es correcto. La respuesta acertada es «Desviación estándar». El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables. Distingue entre estadística descriptiva (resumir y caracterizar los datos de la muestra) y estadística inferencial (contrastar hipótesis y estimar parámetros poblacionales).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "analisis_cuantitativo",
+      "lectura_ref": null,
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m10-0012",
+      "tipo": "opcion_multiple",
+      "enunciado": "Al reportar resultados, es importante incluir:",
+      "opciones": [
+        "Tablas, figuras y narrativa",
+        "Solamente tablas",
+        "Solamente figuras",
+        "Únicamente interpretaciones"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Tablas, figuras y narrativa» es la respuesta adecuada. El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Tablas, figuras y narrativa». El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables. Distingue entre estadística descriptiva (resumir y caracterizar los datos de la muestra) y estadística inferencial (contrastar hipótesis y estimar parámetros poblacionales).",
+        "correct": "¡Correcto! «Tablas, figuras y narrativa» es la respuesta adecuada. El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables.",
+        "incorrect": "No es correcto. La respuesta acertada es «Tablas, figuras y narrativa». El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables. Distingue entre estadística descriptiva (resumir y caracterizar los datos de la muestra) y estadística inferencial (contrastar hipótesis y estimar parámetros poblacionales).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "analisis_cuantitativo",
+      "lectura_ref": null,
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m10-0015",
+      "tipo": "opcion_multiple",
+      "enunciado": "El software NVivo se utiliza para:",
+      "opciones": [
+        "Codificar datos cualitativos",
+        "Realizar pruebas t",
+        "Generar distribuciones normales",
+        "Aplicar fórmulas"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Codificar datos cualitativos» es la respuesta adecuada. El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Codificar datos cualitativos». El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables. Distingue entre estadística descriptiva (resumir y caracterizar los datos de la muestra) y estadística inferencial (contrastar hipótesis y estimar parámetros poblacionales).",
+        "correct": "¡Correcto! «Codificar datos cualitativos» es la respuesta adecuada. El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables.",
+        "incorrect": "No es correcto. La respuesta acertada es «Codificar datos cualitativos». El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables. Distingue entre estadística descriptiva (resumir y caracterizar los datos de la muestra) y estadística inferencial (contrastar hipótesis y estimar parámetros poblacionales).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "analisis_cuantitativo",
+      "lectura_ref": null,
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m10-0016",
+      "tipo": "opcion_multiple",
+      "enunciado": "Las pruebas paramétricas requieren:",
+      "opciones": [
+        "Datos que cumplan ciertos supuestos como normalidad",
+        "Datos nominales únicamente",
+        "No tener ningún supuesto",
+        "Datos perdidos"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Datos que cumplan ciertos supuestos como normalidad» es la respuesta adecuada. El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Datos que cumplan ciertos supuestos como normalidad». El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables. Distingue entre estadística descriptiva (resumir y caracterizar los datos de la muestra) y estadística inferencial (contrastar hipótesis y estimar parámetros poblacionales).",
+        "correct": "¡Correcto! «Datos que cumplan ciertos supuestos como normalidad» es la respuesta adecuada. El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables.",
+        "incorrect": "No es correcto. La respuesta acertada es «Datos que cumplan ciertos supuestos como normalidad». El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables. Distingue entre estadística descriptiva (resumir y caracterizar los datos de la muestra) y estadística inferencial (contrastar hipótesis y estimar parámetros poblacionales).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "analisis_cuantitativo",
+      "lectura_ref": null,
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m10-0017",
+      "tipo": "opcion_multiple",
+      "enunciado": "Las pruebas no paramétricas se usan cuando:",
+      "opciones": [
+        "Los datos no cumplen los supuestos paramétricos",
+        "Los datos se distribuyen normalmente",
+        "La muestra es grande",
+        "El investigador lo prefiere"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Los datos no cumplen los supuestos paramétricos» es la respuesta adecuada. El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Los datos no cumplen los supuestos paramétricos». El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables. Distingue entre estadística descriptiva (resumir y caracterizar los datos de la muestra) y estadística inferencial (contrastar hipótesis y estimar parámetros poblacionales).",
+        "correct": "¡Correcto! «Los datos no cumplen los supuestos paramétricos» es la respuesta adecuada. El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables.",
+        "incorrect": "No es correcto. La respuesta acertada es «Los datos no cumplen los supuestos paramétricos». El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables. Distingue entre estadística descriptiva (resumir y caracterizar los datos de la muestra) y estadística inferencial (contrastar hipótesis y estimar parámetros poblacionales).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "analisis_cuantitativo",
+      "lectura_ref": null,
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m10-0019",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál prueba estadística es adecuada para comparar medias de dos grupos?",
+      "opciones": [
+        "Prueba t",
+        "Análisis de varianza",
+        "Regresión lineal",
+        "Prueba chi-cuadrado"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Prueba t» es la respuesta adecuada. El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Prueba t». El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables. Distingue entre estadística descriptiva (resumir y caracterizar los datos de la muestra) y estadística inferencial (contrastar hipótesis y estimar parámetros poblacionales).",
+        "correct": "¡Correcto! «Prueba t» es la respuesta adecuada. El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables.",
+        "incorrect": "No es correcto. La respuesta acertada es «Prueba t». El plan de análisis cuantitativo selecciona estadísticos descriptivos (frecuencias, media, mediana, desviación estándar) e inferenciales en estricta correspondencia con el objetivo, el diseño y el nivel de medición de las variables. Distingue entre estadística descriptiva (resumir y caracterizar los datos de la muestra) y estadística inferencial (contrastar hipótesis y estimar parámetros poblacionales).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "analisis_cuantitativo",
+      "lectura_ref": null,
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m10-0021",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es la finalidad principal del análisis de datos?",
+      "opciones": [
+        "Ordenar números",
+        "Responder a los objetivos de la investigación",
+        "Aplicar fórmulas estadísticas",
+        "Redactar conclusiones"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Correcto. El análisis debe responder a los objetivos planteados.",
+        "incorrecta": "Pensá en el vínculo entre análisis y objetivos. La opción correcta es: «Responder a los objetivos de la investigación».",
+        "correct": "Correcto. El análisis debe responder a los objetivos planteados.",
+        "incorrect": "Pensá en el vínculo entre análisis y objetivos. La opción correcta es: «Responder a los objetivos de la investigación».",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "analisis_cuantitativo",
+      "lectura_ref": null,
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m10-0022",
+      "tipo": "opcion_multiple",
+      "enunciado": "El análisis de datos debe definirse:",
+      "opciones": [
+        "Después de obtener los resultados",
+        "Antes de la recolección de datos",
+        "Al final del informe",
+        "De manera improvisada"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Exacto. El análisis se planifica antes de recolectar datos.",
+        "incorrecta": "Revisá la secuencia lógica del proceso de investigación. La opción correcta es: «Antes de la recolección de datos».",
+        "correct": "Exacto. El análisis se planifica antes de recolectar datos.",
+        "incorrect": "Revisá la secuencia lógica del proceso de investigación. La opción correcta es: «Antes de la recolección de datos».",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "analisis_cuantitativo",
+      "lectura_ref": null,
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m10-0023",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué diferencia al análisis descriptivo del inferencial?",
+      "opciones": [
+        "El tamaño de la muestra",
+        "El tipo de instrumento",
+        "La posibilidad de generalizar a la población",
+        "La cantidad de datos"
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "Correcto. El análisis inferencial permite generalizar.",
+        "incorrecta": "Pensá en la finalidad de cada tipo de análisis. La opción correcta es: «La posibilidad de generalizar a la población».",
+        "correct": "Correcto. El análisis inferencial permite generalizar.",
+        "incorrect": "Pensá en la finalidad de cada tipo de análisis. La opción correcta es: «La posibilidad de generalizar a la población».",
+        "origen": "original"
+      },
+      "dificultad": 3,
+      "subtema": "analisis_cuantitativo",
+      "lectura_ref": null,
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m10-0024",
+      "tipo": "opcion_multiple",
+      "enunciado": "Las hipótesis orientan el análisis porque:",
+      "opciones": [
+        "Determinan la muestra",
+        "Indican qué relaciones deben analizarse",
+        "Reemplazan los objetivos",
+        "Definen el diseño"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Muy bien. Las hipótesis guían qué se debe contrastar.",
+        "incorrecta": "Revisá la función de las hipótesis en el análisis. La opción correcta es: «Indican qué relaciones deben analizarse».",
+        "correct": "Muy bien. Las hipótesis guían qué se debe contrastar.",
+        "incorrect": "Revisá la función de las hipótesis en el análisis. La opción correcta es: «Indican qué relaciones deben analizarse».",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "analisis_cuantitativo",
+      "lectura_ref": null,
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m10-0025",
+      "tipo": "opcion_multiple",
+      "enunciado": "El tipo de variable influye en:",
+      "opciones": [
+        "La redacción del informe",
+        "El tipo de análisis posible",
+        "La formulación del problema",
+        "El marco teórico"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Exacto. Las variables condicionan el análisis.",
+        "incorrecta": "Pensá en la relación entre variables y técnicas. La opción correcta es: «El tipo de análisis posible».",
+        "correct": "Exacto. Las variables condicionan el análisis.",
+        "incorrect": "Pensá en la relación entre variables y técnicas. La opción correcta es: «El tipo de análisis posible».",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "analisis_cuantitativo",
+      "lectura_ref": null,
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m10-0026",
+      "tipo": "opcion_multiple",
+      "enunciado": "Un error frecuente en el análisis de datos es:",
+      "opciones": [
+        "Relacionar análisis con objetivos",
+        "Planificar el análisis previamente",
+        "Aplicar técnicas sin fundamento teórico",
+        "Interpretar los resultados"
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "Correcto. El análisis debe estar justificado conceptualmente.",
+        "incorrecta": "Pensá en errores comunes de análisis. La opción correcta es: «Aplicar técnicas sin fundamento teórico».",
+        "correct": "Correcto. El análisis debe estar justificado conceptualmente.",
+        "incorrect": "Pensá en errores comunes de análisis. La opción correcta es: «Aplicar técnicas sin fundamento teórico».",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "analisis_cuantitativo",
+      "lectura_ref": null,
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m10-0027",
+      "tipo": "opcion_multiple",
+      "enunciado": "La interpretación de resultados implica:",
+      "opciones": [
+        "Describir tablas",
+        "Aplicar fórmulas",
+        "Explicar el significado de los resultados",
+        "Seleccionar la muestra"
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "Muy bien. Interpretar es explicar, no solo describir.",
+        "incorrecta": "Revisá la diferencia entre análisis e interpretación. La opción correcta es: «Explicar el significado de los resultados».",
+        "correct": "Muy bien. Interpretar es explicar, no solo describir.",
+        "incorrect": "Revisá la diferencia entre análisis e interpretación. La opción correcta es: «Explicar el significado de los resultados».",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "analisis_cuantitativo",
+      "lectura_ref": null,
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m10-0028",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuándo el análisis permite inferir a la población?",
+      "opciones": [
+        "Siempre",
+        "Nunca",
+        "Cuando se utiliza muestreo probabilístico",
+        "Cuando el tamaño es grande"
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "Exacto. La inferencia depende del tipo de muestreo.",
+        "incorrecta": "Pensá en la relación muestreo–inferencia. La opción correcta es: «Cuando se utiliza muestreo probabilístico».",
+        "correct": "Exacto. La inferencia depende del tipo de muestreo.",
+        "incorrect": "Pensá en la relación muestreo–inferencia. La opción correcta es: «Cuando se utiliza muestreo probabilístico».",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "analisis_cuantitativo",
+      "lectura_ref": null,
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m10-0029",
+      "tipo": "opcion_multiple",
+      "enunciado": "Desde el enfoque metodológico, analizar datos es:",
+      "opciones": [
+        "Una etapa independiente",
+        "Un proceso vinculado al diseño",
+        "Un procedimiento automático",
+        "Una tarea secundaria"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Correcto. El análisis se deriva del diseño y las variables.",
+        "incorrecta": "Revisá la integración del análisis en el proceso. La opción correcta es: «Un proceso vinculado al diseño».",
+        "correct": "Correcto. El análisis se deriva del diseño y las variables.",
+        "incorrect": "Revisá la integración del análisis en el proceso. La opción correcta es: «Un proceso vinculado al diseño».",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "analisis_cuantitativo",
+      "lectura_ref": null,
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m10-0030",
+      "tipo": "opcion_multiple",
+      "enunciado": "El análisis de datos debe ser coherente con:",
+      "opciones": [
+        "Los resultados esperados",
+        "El marco teórico, objetivos y variables",
+        "La extensión del informe",
+        "El estilo APA"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Muy bien. La coherencia metodológica es central.",
+        "incorrecta": "Pensá en la articulación del proceso de investigación. La opción correcta es: «El marco teórico, objetivos y variables».",
+        "correct": "Muy bien. La coherencia metodológica es central.",
+        "incorrect": "Pensá en la articulación del proceso de investigación. La opción correcta es: «El marco teórico, objetivos y variables».",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "analisis_cuantitativo",
+      "lectura_ref": null,
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    }
+  ]
+}

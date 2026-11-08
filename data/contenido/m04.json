@@ -1,0 +1,211 @@
+{
+  "modulo_id": "m04",
+  "capsula": {
+    "title": "Cápsula Metodológica · Del Vacío al Problema y las Preguntas",
+    "subtitle": "Clase 5 · Estructura argumentativa del planteamiento y clínica de preguntas",
+    "blocks": [
+      {
+        "type": "cards",
+        "title": "La cadena argumentativa del planteamiento en 5 movimientos",
+        "items": [
+          {
+            "badge": "1. Contexto",
+            "title": "Situar el fenómeno",
+            "text": "Presenta el escenario institucional, social o clínico donde se manifiesta la situación de interés."
+          },
+          {
+            "badge": "2. Evidencia",
+            "title": "Qué sabemos con respaldo",
+            "text": "Integra hallazgos y datos verificados (evitando opiniones sueltas o afirmaciones sin cita)."
+          },
+          {
+            "badge": "3. Vacío / Tensión",
+            "title": "Qué no sabemos todavía",
+            "text": "Señala la brecha empírica, contextual o metodológica que justifica indagar."
+          },
+          {
+            "badge": "4. Relevancia y Delimitación",
+            "title": "Por qué importa y dónde se acota",
+            "text": "Explica qué aportará el estudio y delimita fenómeno, unidades, lugar y periodo."
+          },
+          {
+            "badge": "5. Pregunta de investigación",
+            "title": "Cierre interrogativo preciso",
+            "text": "Formula la incógnita central y las preguntas específicas en total sintonía con el vacío."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Clínica de errores frecuentes en preguntas de investigación",
+        "headers": [
+          "Pregunta deficiente",
+          "Error metodológico",
+          "Reformulación rigurosa"
+        ],
+        "rows": [
+          [
+            "¿Influye el estrés laboral en la salud mental?",
+            "Pregunta cerrada (Sí/No), vaga y sin población ni contexto.",
+            "¿Qué relación existe entre el estrés laboral percibido y el agotamiento emocional en enfermeros de hospitales públicos de Central en 2026?"
+          ],
+          [
+            "¿Cómo ayudar a los adolescentes a usar menos el celular?",
+            "Problema práctico de intervención, no pregunta de conocimiento.",
+            "¿Qué prácticas de desconexión digital emplean los adolescentes escolarizados de Asunción y con qué factores familiares las asocian?"
+          ],
+          [
+            "¿Deberían prohibirse las redes sociales en menores de 14 años?",
+            "Juicio de valor / normativo no resoluble empíricamente.",
+            "¿Cómo varía el nivel de bienestar subjetivo según la edad de inicio y el patrón de uso de redes sociales en escolares de 12 a 15 años?"
+          ]
+        ]
+      }
+    ]
+  },
+  "casos": {
+    "miniCases": [
+      {
+        "id": "m04_c1",
+        "title": "Caso 1 · El salto mortal de la opinión al problema",
+        "context": "Psicología Educacional · Planteamiento del problema",
+        "scenario": "Un borrador de planteamiento comienza y termina así:\n«Hoy en día todos sabemos que los jóvenes ya no leen ni se concentran por culpa de los videos cortos de internet, lo cual está destruyendo la educación paraguaya. Por eso, nuestra pregunta es: ¿Por qué los videos cortos destruyen la atención de los jóvenes?».",
+        "question": "Identifica al menos tres deficiencias metodológicas en este planteamiento y propón cómo reestructurarlo con la secuencia de la Clase 5.",
+        "hints": [
+          "¿Se apoya en evidencia verificada o en generalizaciones de sentido común («todos sabemos», «destruyendo»)?",
+          "Observa que la pregunta da por supuesto un efecto causal catastrófico antes de investigar."
+        ],
+        "analysis": "El texto presenta tres fallas críticas:\n1. **Opinión sin respaldo:** sustituye antecedentes científicos por prejuicios de sentido común («todos sabemos») y lenguaje valorativo («destruyendo»).\n2. **Petición de principio (sesgo confirmatorio):** la pregunta «¿Por qué X destruye Y?» da por probado un daño causal que aún no se midió.\n3. **Falta de delimitación:** no especifica qué proceso atencional (ej. atención sostenida), en qué población ni en qué contexto.\n\n**Reconstrucción (Contexto → Evidencia → Vacío → Delimitación → Pregunta):** contextualizar el auge del consumo de videos breves en adolescentes, citar estudios previos sobre hábitos digitales y funciones ejecutivas, señalar la falta de datos locales con medidas estandarizadas de atención y preguntar: *«¿Qué relación existe entre la frecuencia de uso de plataformas de videos breves y el desempeño en atención sostenida en estudiantes de educación media de un colegio de Asunción durante 2026?»*.",
+        "keyConcept": "Secuencia Contexto → Evidencia → Vacío → Relevancia → Delimitación"
+      },
+      {
+        "id": "m04_c2",
+        "title": "Caso 2 · Problema práctico de intervención vs. problema de investigación",
+        "context": "Psicología Comunitaria · Diferenciación conceptual",
+        "scenario": "Un equipo preocupado por el acoso escolar en una escuela de Luque formula como pregunta central de su investigación: «¿Cómo podemos implementar una campaña de charlas y afiches para erradicar el bullying en el tercer ciclo de la Escuela X?».",
+        "question": "¿Por qué esta pregunta formula un problema práctico de gestión/intervención y no un problema de investigación científica? ¿Cómo transformarla sin perder el interés en ese contexto?",
+        "hints": [
+          "Un proyecto de intervención busca cambiar la realidad mediante acciones; un proyecto de investigación busca producir conocimiento que hoy no tenemos.",
+          "¿Qué necesitamos saber sobre el acoso escolar en esa escuela o sobre un programa preventivo?"
+        ],
+        "analysis": "La pregunta «¿Cómo implementar una campaña para erradicar...?» plantea un **problema práctico o de acción profesional**, cuya respuesta es un plan de actividades y no un hallazgo empírico. Para convertirlo en un **problema de investigación**, debemos preguntarnos qué desconocemos:\n\n• **Opción descriptiva/correlacional:** *«¿Cuáles son las modalidades más frecuentes de acoso escolar y su relación con el clima de aula percibido en estudiantes del tercer ciclo de la Escuela X de Luque en 2026?»*.\n• **Opción evaluativa/explicativa:** *«¿Qué efecto tiene un programa psicoeducativo de convivencia escolar sobre las actitudes hacia el acoso escolar en estudiantes del tercer ciclo de la Escuela X?»*.",
+        "keyConcept": "Problema cognitivo (qué conocer) vs. problema práctico (qué hacer)"
+      },
+      {
+        "id": "m04_c3",
+        "title": "Caso 3 · Preguntas específicas que desbordan la pregunta central",
+        "context": "Psicología Clínica · Coherencia entre preguntas",
+        "scenario": "Una estudiante formula:\n• **Pregunta central:** «¿Cuál es el nivel de ansiedad ante los exámenes en estudiantes del primer curso de Psicología de la UNIBE en 2026?»\n• **Pregunta específica 1:** «¿Cuáles son las causas inconscientes infantiles que originan la ansiedad ante los exámenes?»\n• **Pregunta específica 2:** «¿Qué eficacia tiene la terapia cognitivo-conductual para curar la ansiedad en estos estudiantes?».",
+        "question": "Audita la coherencia entre la pregunta central y las preguntas específicas. ¿Qué problema estructural observas?",
+        "hints": [
+          "¿Cuál es el alcance de la pregunta central («Cuál es el nivel...»)?",
+          "¿Pueden las preguntas específicas exigir estudios causales profundos o ensayos clínicos que no están en la pregunta central?"
+        ],
+        "analysis": "Existe una **ruptura grave de coherencia y jerarquía**. La pregunta central es de alcance **descriptivo** (estimar y caracterizar el nivel de ansiedad ante exámenes en una población acotada). Sin embargo, la específica 1 exige un estudio etiológico retrospectivo sobre causas infantiles y la específica 2 exige un diseño experimental de eficacia terapéutica.\n\n**Corrección:** las preguntas específicas deben desglosar la pregunta central en sus dimensiones y subgrupos observables, por ejemplo:\n1. *¿Cómo se manifiestan las dimensiones cognitiva, fisiológica y motora de la ansiedad ante exámenes en los estudiantes de primer curso?*\n2. *¿Qué variaciones presenta el nivel de ansiedad ante exámenes según el turno de cursado y la condición laboral de los estudiantes?*",
+        "keyConcept": "Correspondencia de alcance entre pregunta general y preguntas específicas"
+      }
+    ],
+    "simulation": {
+      "title": "Simulación 04 · Clínica de planteamiento y preguntas de investigación",
+      "context": "Estás en la Clase 5 construyendo el planteamiento del problema y las preguntas para un estudio sobre sobrecarga del cuidador familiar de adultos mayores dependientes en Asunción.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Paso 1 · Ordenar la estructura argumentativa",
+          "prompt": "¿Qué secuencia argumentativa eliges para redactar las dos páginas de tu planteamiento del problema?",
+          "options": [
+            {
+              "text": "Contar una anécdota personal sin citas, opinar que las familias ya no tienen valores y cerrar pidiendo que el Estado construya más hogares.",
+              "isOptimal": false,
+              "feedback": "Sustituye la evidencia científica por opiniones personales y cierra con una demanda de política pública en vez de un problema cognitivo."
+            },
+            {
+              "text": "Contexto del envejecimiento y cuidado familiar → Evidencia empírica previa sobre sobrecarga → Vacío local sobre su relación con las estrategias de afrontamiento → Relevancia del estudio → Delimitación y pregunta central.",
+              "isOptimal": true,
+              "feedback": "¡Exacto! Esta es la arquitectura de 5 movimientos del Plan 2026: cada eslabón sostiene lógicamente la pregunta final."
+            },
+            {
+              "text": "Pegar directamente el cuestionario de Zarit sin explicar cuál es el problema ni qué dice la literatura.",
+              "isOptimal": false,
+              "feedback": "El instrumento pertenece al método (Clase 11); el planteamiento debe fundamentar qué se desconoce y por qué importa investigarlo."
+            }
+          ]
+        },
+        {
+          "stepNumber": 2,
+          "title": "Paso 2 · Formular la pregunta central",
+          "prompt": "¿Cuál de las siguientes preguntas centrales cumple con los criterios de Kerlinger y Lee?",
+          "options": [
+            {
+              "text": "¿Sufren sobrecarga los cuidadores familiares de Asunción? (Sí / No)",
+              "isOptimal": false,
+              "feedback": "Es una pregunta dicotómica cerrada que no especifica nivel, dimensiones ni relación con otra variable."
+            },
+            {
+              "text": "¿Cómo organizar un taller de fin de semana para aliviar a los cuidadores familiares?",
+              "isOptimal": false,
+              "feedback": "Formula una actividad práctica de intervención, no una pregunta de investigación científica."
+            },
+            {
+              "text": "¿Qué relación existe entre las estrategias de afrontamiento y el nivel de sobrecarga percibida en cuidadores familiares de adultos mayores dependientes que acuden a un hospital general de Asunción durante 2026?",
+              "isOptimal": true,
+              "feedback": "¡Excelente! Expresa con claridad una relación entre variables observables en una población, contexto y tiempo bien delimitados."
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "title": "Paso 3 · Alinear las preguntas específicas",
+          "prompt": "A partir de tu pregunta central correlacional, ¿qué conjunto de preguntas específicas guarda coherencia y derivabilidad?",
+          "options": [
+            {
+              "text": "1) ¿Cuáles son las estrategias de afrontamiento predominantes en los cuidadores?; 2) ¿Cuál es el nivel de sobrecarga percibida?; 3) ¿Cuál es la magnitud y dirección de la asociación entre las estrategias de afrontamiento y la sobrecarga?",
+              "isOptimal": true,
+              "feedback": "¡Perfecto! Las específicas desglosan las variables por separado y luego su asociación, permitiendo responder íntegramente la pregunta central."
+            },
+            {
+              "text": "1) ¿Qué alteraciones genéticas causan el Alzheimer?; 2) ¿Cuál es el efecto de un fármaco antidepresivo en los cuidadores?",
+              "isOptimal": false,
+              "feedback": "Introduce variables y diseños biomédicos que no guardan ninguna correspondencia con la pregunta central."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "recursos": {
+    "videos": [
+      {
+        "videoId": "ou1cjiMA14g",
+        "title": "¿Y cuál es tu problema de investigación?",
+        "badge": "Clase 5 · Planteamiento del Problema"
+      }
+    ],
+    "readings": [
+      {
+        "title": "Cap. 2: Problemas e Hipótesis (Kerlinger y Lee)",
+        "url": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+        "type": "pdf",
+        "description": "Criterios clásicos de Kerlinger y Lee para formular problemas y preguntas de investigación científicamente resolubles."
+      },
+      {
+        "title": "Deficiencias frecuentes en los problemas de investigación",
+        "url": "assets/reading/3c. Deficiencias en los problemas de investigacion.pdf",
+        "type": "pdf",
+        "description": "Síntesis diagnóstica para detectar vaguedad, juicios de valor, falsas preguntas y trampas prácticas en el planteamiento."
+      },
+      {
+        "title": "Compendio: Problemas, hipótesis y variables",
+        "url": "assets/reading/3. Problemas, hipotesis y variables.pdf",
+        "type": "pdf",
+        "description": "Material ampliado de referencia sobre la articulación del núcleo del proyecto."
+      }
+    ],
+    "notebooks": [
+      {
+        "title": "Cuaderno IA · Problemas de investigación",
+        "url": "https://notebooklm.google.com/notebook/a15563d7-fbc9-40d1-bfa9-aca8ecafa6ab"
+      }
+    ]
+  }
+}

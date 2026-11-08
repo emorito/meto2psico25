@@ -1,0 +1,188 @@
+{
+  "modulo_id": "m06",
+  "capsula": {
+    "title": "Cápsula Metodológica · De los Constructos a los Indicadores y Categorías",
+    "subtitle": "Clase 7 · Ruta cuantitativa de operacionalización y ruta cualitativa de categorización",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Cadena de descenso de abstracción (Kerlinger y Lee, Cap. 3)",
+        "headers": [
+          "Concepto / Pieza",
+          "Definición precisa",
+          "Ejemplo en Psicología (Agotamiento laboral / Burnout)"
+        ],
+        "rows": [
+          [
+            "Constructo",
+            "Concepto teórico adoptado deliberadamente y con respaldo científico para explicar un fenómeno no observable directamente.",
+            "Síndrome de Burnout (Maslach y Jackson)."
+          ],
+          [
+            "Definición conceptual (constitutiva)",
+            "Define el constructo precisa y coherentemente usando otros conceptos de la teoría elegida (no de diccionario general).",
+            "Respuesta prolongada a estresores interpersonales crónicos en el trabajo, integrada por agotamiento emocional, despersonalización y baja realización personal."
+          ],
+          [
+            "Dimensiones",
+            "Facetas o componentes teóricos en que se desglosa un constructo multidimensional.",
+            "1) Agotamiento emocional; 2) Despersonalización / cinismo; 3) Eficacia profesional."
+          ],
+          [
+            "Indicadores",
+            "Manifestaciones empíricas concretas y observables de cada dimensión.",
+            "Frecuencia autoinformada de sentirse emocionalmente exhausto al final de la jornada laboral."
+          ],
+          [
+            "Definición operacional",
+            "Especifica qué actividades u operaciones (de medida o experimentales) se realizarán para medir o manipular la variable.",
+            "Puntaje obtenido en los ítems 1, 2, 3, 6, 8, 13, 14, 16 y 20 del inventario MBI-HSS en escala de 0 (nunca) a 6 (todos los días)."
+          ]
+        ]
+      },
+      {
+        "type": "cards",
+        "title": "Dos rutas legítimas: no forzar moldes cuantitativos en estudios cualitativos",
+        "items": [
+          {
+            "badge": "Ruta Cuantitativa",
+            "title": "Matriz de Operacionalización",
+            "text": "Constructo → Definición conceptual → Definición operacional → Dimensiones → Indicadores → Nivel de medición (nominal, ordinal, intervalo, razón)."
+          },
+          {
+            "badge": "Ruta Cualitativa",
+            "title": "Matriz de Categorización",
+            "text": "Conceptos sensibilizadores → Categorías iniciales (apriorísticas) → Subcategorías → Preguntas guía, manteniendo apertura a categorías emergentes del campo."
+          }
+        ]
+      }
+    ]
+  },
+  "casos": {
+    "miniCases": [
+      {
+        "id": "m06_c1",
+        "title": "Caso 1 · Cuando el marco dice una cosa y la escala mide otra",
+        "context": "Psicología Clínica y de la Salud · Coherencia conceptual-operacional",
+        "scenario": "En su marco conceptual, Julián define el **uso problemático de redes sociales** como «un patrón persistente de pérdida de control, abstinencia e interferencia en la vida cotidiana y académica (no equivalente a la mera cantidad de horas conectado)». Sin embargo, en su matriz de operacionalización define operacionalmente la variable con una sola pregunta: «¿Cuántas horas al día pasas en Instagram y TikTok?».",
+        "question": "¿Dónde se rompió la cadena constructo → definición conceptual → definición operacional y qué consecuencia tendrá sobre las conclusiones del estudio?",
+        "hints": [
+          "Compara lo que Julián dijo que excluía en su definición conceptual con lo que terminó midiendo.",
+          "¿Tiempo de pantalla es lo mismo que interferencia y pérdida de control?"
+        ],
+        "analysis": "Hay una **fractura de validez de constructo** entre la definición conceptual y la definición operacional. Mientras el marco conceptual distingue explícitamente entre *frecuencia de exposición* y *uso problemático* (que exige dimensiones como pérdida de control, saliencia e interferencia), la definición operacional reduce todo el constructo a una medida unidimensional de horas de pantalla.\n\n**Corrección:** operacionalizar el constructo mediante una escala validada que contemple las dimensiones declaradas en la definición conceptual (interferencia cotidiana, tolerancia/pérdida de control y modificación del estado de ánimo), pudiendo registrar las horas diarias como una variable complementaria de exposición, pero no como sinónimo de uso problemático.",
+        "keyConcept": "Isomorfismo entre definición conceptual, dimensiones e indicadores operacionales"
+      },
+      {
+        "id": "m06_c2",
+        "title": "Caso 2 · Forzar indicadores numéricos en un estudio cualitativo",
+        "context": "Psicología Comunitaria · Categorización cualitativa",
+        "scenario": "Elena realiza un estudio cualitativo fenomenológico sobre las **vivencias de duelo migratorio** en estudiantes del interior del país que se trasladan a estudiar a Asunción. Al llegar a la Clase 7, intenta forzar su tema en una tabla cuantitativa escribiendo: «Variable independiente: kilómetros de distancia al pueblo; Variable dependiente: porcentaje de llanto semanal medido de 1 a 5».",
+        "question": "¿Por qué es un error forzar la lógica de VI/VD e indicadores métricos en este estudio y cómo debe construir su matriz de categorización?",
+        "hints": [
+          "Recuerda el propósito de la Clase 7 del Plan 2026: «sin forzar una lógica cuantitativa sobre proyectos cualitativos».",
+          "¿Qué papel cumplen los conceptos sensibilizadores y las categorías iniciales y emergentes?"
+        ],
+        "analysis": "En un estudio cualitativo orientado a comprender significados y vivencias, forzar variables independientes/dependientes y puntajes numéricos desnaturaliza el enfoque. La Clase 7 distingue dos rutas:\n\n**Ruta cualitativa adecuada para Elena (Matriz de Categorización):**\n• **Concepto orientador / sensibilizador:** Transición y adaptación psicosocial universitaria.\n• **Categorías iniciales (apriorísticas):** 1) Reconfiguración de redes de apoyo; 2) Tensiones identitarias y desarraigo cotidiano; 3) Estrategias de afrontamiento y pertenencia en la ciudad.\n• **Apertura a categorías emergentes:** dejar espacio explícito para que del relato de los estudiantes surjan dimensiones no previstas antes de ir al campo.",
+        "keyConcept": "Diferenciación entre operacionalización cuantitativa y categorización cualitativa"
+      },
+      {
+        "id": "m06_c3",
+        "title": "Caso 3 · Confundir constructo, dimensión, indicador e ítem",
+        "context": "Psicología Educacional · Operacionalización",
+        "scenario": "Un equipo quiere operacionalizar el constructo **Clima Social Escolar**. En la columna «Dimensiones» escribe: «Pregunta 4 del cuestionario». En la columna «Indicadores» escribe: «El clima escolar según Moos (1974)». Y en «Definición conceptual» escribe: «Se aplicará una escala tipo Likert de 1 a 5».",
+        "question": "Reordena correctamente las piezas desubicadas y explica la secuencia lógica desde el constructo hasta el ítem.",
+        "hints": [
+          "Recuerda la dirección del descenso de abstracción: Constructo → Definición conceptual → Dimensiones → Indicadores → Definición operacional / Ítems."
+        ],
+        "analysis": "El equipo invirtió todas las columnas de la matriz:\n1. **Constructo:** Clima Social Escolar.\n2. **Definición conceptual:** Percepción compartida por los miembros de la comunidad educativa sobre la calidad de las relaciones, el apoyo al aprendizaje y la claridad normativa (Moos, 1974).\n3. **Dimensiones (facetas teóricas):** Relaciones interpersonales, Autorrealización/orientación a la tarea y Estabilidad/claridad de normas.\n4. **Indicadores (manifestaciones observables):** Grado de ayuda mutua entre compañeros, apoyo percibido del docente y conocimiento de las reglas del aula.\n5. **Definición operacional / Ítems:** Puntajes obtenidos en los reactivos específicos de la escala (de 1 = totalmente en desacuerdo a 5 = totalmente de acuerdo).",
+        "keyConcept": "Secuencia lógica: Constructo → Dimensión → Indicador → Ítem"
+      }
+    ],
+    "simulation": {
+      "title": "Simulación 06 · Operacionalización y categorización con rigor teórico",
+      "context": "Estás en la Clase 7 construyendo la matriz de variables de un estudio sobre Procrastinación Académica y Autoeficacia en universitarios de Ciudad del Este.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Paso 1 · Redactar la definición conceptual (constitutiva)",
+          "prompt": "Necesitas definir conceptualmente «Autoeficacia académica». ¿Qué opción eliges?",
+          "options": [
+            {
+              "text": "Copio la definición de la palabra «eficaz» del diccionario general de la lengua.",
+              "isOptimal": false,
+              "feedback": "El diccionario común define el uso cotidiano del idioma, no el constructo psicológico científico dentro de una teoría."
+            },
+            {
+              "text": "La defino a partir de la Teoría Social Cognitiva (Bandura) como las creencias del estudiante sobre su propia capacidad para organizar y ejecutar las acciones requeridas para alcanzar un desempeño académico exitoso.",
+              "isOptimal": true,
+              "feedback": "¡Exacto! Una definición conceptual rigurosa se fundamenta en el marco teórico adoptado y delimita con precisión la naturaleza del constructo."
+            },
+            {
+              "text": "Escribo directamente «Puntaje de 10 a 50 en la escala EACA» como definición conceptual.",
+              "isOptimal": false,
+              "feedback": "Eso corresponde a la definición operacional de medida, no a la definición conceptual."
+            }
+          ]
+        },
+        {
+          "stepNumber": 2,
+          "title": "Paso 2 · Desglosar Dimensiones e Indicadores",
+          "prompt": "Ahora operacionalizas «Procrastinación académica» siguiendo tu marco conceptual. ¿Cuál es la cadena correcta Constructo → Dimensión → Indicador?",
+          "options": [
+            {
+              "text": "Constructo: Procrastinación académica → Dimensiones: Postergación de actividades y Autorregulación académica → Indicadores: Frecuencia con que deja el estudio para último momento y planificación semanal de entregas.",
+              "isOptimal": true,
+              "feedback": "¡Muy bien! Pasaste ordenadamente del constructo abstracto a sus facetas teóricas (dimensiones) y de estas a sus manifestaciones empíricas observables (indicadores)."
+            },
+            {
+              "text": "Indicador: Procrastinación académica → Constructo: Ítem 3 → Dimensión: Estadística descriptiva.",
+              "isOptimal": false,
+              "feedback": "La jerarquía lógica está invertida y mezcla procedimientos estadísticos con niveles de abstracción conceptual."
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "title": "Paso 3 · Articular con una fase cualitativa complementaria",
+          "prompt": "Si otro equipo del curso realiza un estudio cualitativo sobre los motivos subjetivos por los que los estudiantes postergan su tesis, ¿qué matriz debe construir?",
+          "options": [
+            {
+              "text": "Una matriz de categorización con conceptos orientadores, categorías iniciales (ej. temor a la evaluación, bloqueos en la escritura, demandas laborales) y apertura a categorías emergentes.",
+              "isOptimal": true,
+              "feedback": "¡Excelente! Respetaste la especificidad de la ruta cualitativa sin forzar una escala numérica artificial."
+            },
+            {
+              "text": "Obligarlos a inventar una variable independiente manipulada en laboratorio.",
+              "isOptimal": false,
+              "feedback": "En un estudio cualitativo comprensivo no se manipulan variables independientes; se trabaja con categorías de análisis."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "recursos": {
+    "videos": [
+      {
+        "videoId": "tCGTLLMx3Pw",
+        "title": "Constructos, variables y definiciones operacionales",
+        "badge": "Clase 7 · Operacionalización"
+      }
+    ],
+    "readings": [
+      {
+        "title": "Cap. 3: Constructos, variables y definiciones (Kerlinger y Lee)",
+        "url": "assets/reading/4. Constructo, Variables y Definiciones - Kerlinger y Lee Cap. 3.pdf",
+        "type": "pdf",
+        "description": "Distinción rigurosa entre conceptos, constructos, definiciones constitutivas y definiciones operacionales (de medida y experimentales)."
+      }
+    ],
+    "notebooks": [
+      {
+        "title": "Cuaderno IA · Constructos y variables",
+        "url": "https://notebooklm.google.com/notebook/378f0c07-8737-46f3-9475-6972d78fadb8"
+      }
+    ]
+  }
+}

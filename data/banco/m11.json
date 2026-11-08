@@ -1,0 +1,405 @@
+{
+  "modulo_id": "m11",
+  "items": [
+    {
+      "id": "m11-0001",
+      "tipo": "opcion_multiple",
+      "enunciado": "El estilo APA se utiliza principalmente para:",
+      "opciones": [
+        "Redactar hipótesis",
+        "Estandarizar citaciones y referencias",
+        "Diseñar instrumentos",
+        "Analizar datos"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Exacto. APA regula la forma de citar y referenciar.",
+        "incorrecta": "Pensá en el rol normativo del estilo APA. La opción correcta es: «Estandarizar citaciones y referencias».",
+        "correct": "Exacto. APA regula la forma de citar y referenciar.",
+        "incorrect": "Pensá en el rol normativo del estilo APA. La opción correcta es: «Estandarizar citaciones y referencias».",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "apa",
+      "lectura_ref": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-0002",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es la diferencia entre cita y referencia?",
+      "opciones": [
+        "No existe diferencia",
+        "La cita va al final y la referencia en el texto",
+        "La cita va en el texto y la referencia al final",
+        "La referencia reemplaza la cita"
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "Correcto. La cita aparece en el texto y la referencia al final.",
+        "incorrecta": "Revisá la función de cada elemento. La opción correcta es: «La cita va en el texto y la referencia al final».",
+        "correct": "Correcto. La cita aparece en el texto y la referencia al final.",
+        "incorrect": "Revisá la función de cada elemento. La opción correcta es: «La cita va en el texto y la referencia al final».",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "apa",
+      "lectura_ref": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-0003",
+      "tipo": "opcion_multiple",
+      "enunciado": "El plagio académico ocurre cuando:",
+      "opciones": [
+        "Se citan muchas fuentes",
+        "No se reconoce adecuadamente la autoría",
+        "Se utiliza el estilo APA",
+        "Se redacta un informe largo"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Exacto. El plagio implica falta de reconocimiento de fuentes.",
+        "incorrecta": "Pensá en la dimensión ética del trabajo académico. La opción correcta es: «No se reconoce adecuadamente la autoría».",
+        "correct": "Exacto. El plagio implica falta de reconocimiento de fuentes.",
+        "incorrect": "Pensá en la dimensión ética del trabajo académico. La opción correcta es: «No se reconoce adecuadamente la autoría».",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "apa",
+      "lectura_ref": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-0004",
+      "tipo": "opcion_multiple",
+      "enunciado": "Una referencia bibliográfica debe:",
+      "opciones": [
+        "Ser breve y general",
+        "Permitir identificar y localizar la fuente",
+        "Reemplazar la cita",
+        "Aparecer solo si el texto es largo"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Correcto. La referencia permite rastrear la fuente.",
+        "incorrecta": "Revisá la función de la referencia. La opción correcta es: «Permitir identificar y localizar la fuente».",
+        "correct": "Correcto. La referencia permite rastrear la fuente.",
+        "incorrect": "Revisá la función de la referencia. La opción correcta es: «Permitir identificar y localizar la fuente».",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "apa",
+      "lectura_ref": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-0005",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es un error frecuente en trabajos académicos?",
+      "opciones": [
+        "Usar citas",
+        "Incluir referencias",
+        "Citar incorrectamente las fuentes",
+        "Redactar con claridad"
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "Exacto. Las citas incorrectas afectan la integridad académica.",
+        "incorrecta": "Pensá en errores habituales de presentación. La opción correcta es: «Citar incorrectamente las fuentes».",
+        "correct": "Exacto. Las citas incorrectas afectan la integridad académica.",
+        "incorrect": "Pensá en errores habituales de presentación. La opción correcta es: «Citar incorrectamente las fuentes».",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "apa",
+      "lectura_ref": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-0006",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Por qué es importante seguir normas APA?",
+      "opciones": [
+        "Porque lo exige el docente",
+        "Porque mejora la estética del trabajo",
+        "Porque garantiza ética y estandarización",
+        "Porque reduce el contenido"
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "Correcto. APA asegura ética y estandarización académica.",
+        "incorrecta": "Pensá en la función ética y comunicativa de las normas. La opción correcta es: «Porque garantiza ética y estandarización».",
+        "correct": "Correcto. APA asegura ética y estandarización académica.",
+        "incorrect": "Pensá en la función ética y comunicativa de las normas. La opción correcta es: «Porque garantiza ética y estandarización».",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "apa",
+      "lectura_ref": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-0007",
+      "tipo": "opcion_multiple",
+      "enunciado": "Las referencias deben incluir:",
+      "opciones": [
+        "Solo el nombre del autor",
+        "Información completa de la fuente",
+        "Únicamente el año",
+        "Solo el título"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Exacto. Las referencias deben ser completas.",
+        "incorrecta": "Revisá los elementos básicos de una referencia. La opción correcta es: «Información completa de la fuente».",
+        "correct": "Exacto. Las referencias deben ser completas.",
+        "incorrect": "Revisá los elementos básicos de una referencia. La opción correcta es: «Información completa de la fuente».",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "apa",
+      "lectura_ref": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-0008",
+      "tipo": "opcion_multiple",
+      "enunciado": "Desde el enfoque académico, escribir un informe implica:",
+      "opciones": [
+        "Transcribir resultados",
+        "Comunicar científicamente el proceso y los hallazgos",
+        "Repetir citas",
+        "Cumplir un requisito formal"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Muy bien. El informe es un acto de comunicación científica.",
+        "incorrecta": "Pensá en el sentido académico del informe. La opción correcta es: «Comunicar científicamente el proceso y los hallazgos».",
+        "correct": "Muy bien. El informe es un acto de comunicación científica.",
+        "incorrect": "Pensá en el sentido académico del informe. La opción correcta es: «Comunicar científicamente el proceso y los hallazgos».",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "apa",
+      "lectura_ref": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-0010",
+      "tipo": "opcion_multiple",
+      "enunciado": "El informe académico debe caracterizarse por:",
+      "opciones": [
+        "Lenguaje informal",
+        "Opiniones personales",
+        "Claridad y coherencia",
+        "Ausencia de estructura"
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "Muy bien. La claridad y coherencia son esenciales.",
+        "incorrecta": "Revisá las características del lenguaje académico. La opción correcta es: «Claridad y coherencia».",
+        "correct": "Muy bien. La claridad y coherencia son esenciales.",
+        "incorrect": "Revisá las características del lenguaje académico. La opción correcta es: «Claridad y coherencia».",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "escritura",
+      "lectura_ref": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-0009",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es la finalidad primordial de un informe o borrador académico de investigación?",
+      "opciones": [
+        "Exponer opiniones personales sin respaldo empírico ni teórico",
+        "Comunicar resultados o decisiones de investigación de forma sistemática y trazable",
+        "Resumir textos aislados sin conectarlos con una pregunta propia",
+        "Presentar datos crudos o extensos anexos sin ningún análisis"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! La escritura académica busca comunicar de manera clara, estructurada, argumentada y verificable el proceso y las decisiones de la investigación.",
+        "incorrecta": "Un trabajo académico no es un ensayo de opinión libre ni una acumulación de resúmenes sueltos: exige sistematicidad, coherencia y trazabilidad.",
+        "correct": "¡Correcto! La escritura académica busca comunicar de manera clara, estructurada, argumentada y verificable el proceso y las decisiones de la investigación.",
+        "incorrect": "Un trabajo académico no es un ensayo de opinión libre ni una acumulación de resúmenes sueltos: exige sistematicidad, coherencia y trazabilidad.",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "escritura",
+      "lectura_ref": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-extra-01",
+      "tipo": "opcion_multiple",
+      "enunciado": "Un estudiante toma un párrafo de un artículo científico, mantiene exactamente su estructura sintáctica original y solo cambia cuatro palabras por sinónimos usando un diccionario, sin comillas. En escritura académica (Clase 13), esto constituye:",
+      "opciones": [
+        "Una copia encubierta o falsa paráfrasis («patchwriting»), que vulnera la integridad académica",
+        "Una síntesis comparada de alto nivel recomendada por el manual APA 7",
+        "Una cita narrativa ejemplar que demuestra dominio conceptual",
+        "Un procedimiento válido siempre que se utilice el gestor bibliográfico Zotero"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! Cambiar solo algunas palabras por sinónimos manteniendo el calco sintáctico del autor es una falsa paráfrasis (*patchwriting*). Parafrasear exige comprender la idea y explicarla con estructura propia más la cita correspondiente.",
+        "incorrecta": "Recuerda que la paráfrasis genuina no consiste en reemplazar palabras sueltas por sinónimos, sino en reformular la idea con tu propia estructura argumentativa y atribuir la fuente.",
+        "correct": "¡Exacto! Cambiar solo algunas palabras por sinónimos manteniendo el calco sintáctico del autor es una falsa paráfrasis (*patchwriting*). Parafrasear exige comprender la idea y explicarla con estructura propia más la cita correspondiente.",
+        "incorrect": "Recuerda que la paráfrasis genuina no consiste en reemplazar palabras sueltas por sinónimos, sino en reformular la idea con tu propia estructura argumentativa y atribuir la fuente.",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "citacion",
+      "lectura_ref": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-extra-02",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es el principio correcto respecto al uso del gestor bibliográfico **Zotero** en la preparación del borrador (Clase 13)?",
+      "opciones": [
+        "Zotero es un apoyo valioso para organizar y citar, pero el estudiante debe revisar y corregir manualmente los metadatos importados antes de entregar",
+        "Zotero garantiza al 100 % que ninguna referencia tenga errores de mayúsculas, autores o DOI, por lo que no requiere revisión humana",
+        "Zotero redacta automáticamente el marco teórico y decide cuáles son los vacíos de conocimiento del proyecto",
+        "Zotero solo sirve para libros impresos del siglo XX y no admite artículos con DOI"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Muy bien! Como señala el Plan 2026, Zotero se usa como apoyo y no como garantía automática: los metadatos capturados de la web o de PDFs suelen requerir limpieza manual (autores, títulos, revista, DOI).",
+        "incorrecta": "Zotero facilita enormemente la citación, pero si el registro importado tiene errores de carga (ej. todo en mayúsculas o falta de revista), el programa reproducirá ese error a menos que lo verifiques.",
+        "correct": "¡Muy bien! Como señala el Plan 2026, Zotero se usa como apoyo y no como garantía automática: los metadatos capturados de la web o de PDFs suelen requerir limpieza manual (autores, títulos, revista, DOI).",
+        "incorrect": "Zotero facilita enormemente la citación, pero si el registro importado tiene errores de carga (ej. todo en mayúsculas o falta de revista), el programa reproducirá ese error a menos que lo verifiques.",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "citacion",
+      "lectura_ref": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-extra-03",
+      "tipo": "opcion_multiple",
+      "enunciado": "Al realizar la auditoría de correspondencia entre citas en el texto y lista final de Referencias en formato **APA 7**, ¿qué regla debe cumplirse sin excepción?",
+      "opciones": [
+        "Toda fuente citada en el texto debe aparecer en la lista de Referencias y toda entrada de la lista de Referencias debe haber sido citada en el texto",
+        "La lista de Referencias debe incluir al menos veinte libros adicionales que el autor nunca citó en el cuerpo del trabajo",
+        "Las citas parentéticas del texto solo llevan el nombre de pila del autor sin el año de publicación",
+        "Solo se incluyen en las Referencias las citas textuales con comillas, omitiendo las fuentes parafraseadas"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! En APA 7 la correspondencia entre citas en el cuerpo del texto (tanto textuales como parafraseadas) y la lista final de Referencias es estrictamente biunívoca (1 a 1).",
+        "incorrecta": "En APA 7 no deben existir «citas huérfanas» (citadas en el texto pero ausentes al final) ni «referencias de relleno» (enlistadas al final pero jamás citadas en el texto).",
+        "correct": "¡Correcto! En APA 7 la correspondencia entre citas en el cuerpo del texto (tanto textuales como parafraseadas) y la lista final de Referencias es estrictamente biunívoca (1 a 1).",
+        "incorrect": "En APA 7 no deben existir «citas huérfanas» (citadas en el texto pero ausentes al final) ni «referencias de relleno» (enlistadas al final pero jamás citadas en el texto).",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "apa",
+      "lectura_ref": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-extra-04",
+      "tipo": "opcion_multiple",
+      "enunciado": "En la Clase 13, una estudiante escribe su propio párrafo de síntesis y le pide a una herramienta de IA que «señale oraciones ambiguas o saltos lógicos sin reescribir el texto», decidiendo luego qué ajustes aplicar. ¿Qué debe hacer al entregar su trabajo?",
+      "opciones": [
+        "Incluir la declaración de uso de IA indicando herramienta, propósito (revisión diagnóstica de claridad), sección afectada, verificación y decisión final propia",
+        "Ocultar que utilizó la herramienta porque cualquier mención de IA anula automáticamente la entrega",
+        "Poner al chatbot como primer coautor del proyecto en la portada institucional",
+        "Sustituir sus fuentes verificadas por las que el chatbot invente en ese momento"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Excelente! Usar IA para auditar claridad sobre un texto propio conservando la autoría y declarándolo de forma transparente cumple ejemplarmente con el protocolo de la asignatura.",
+        "incorrecta": "Un chatbot no puede ser autor ni debe ocultarse su uso cuando la asignatura pide declararlo: el uso ético para revisión diagnóstica es válido y se acompaña con la declaración mínima.",
+        "correct": "¡Excelente! Usar IA para auditar claridad sobre un texto propio conservando la autoría y declarándolo de forma transparente cumple ejemplarmente con el protocolo de la asignatura.",
+        "incorrect": "Un chatbot no puede ser autor ni debe ocultarse su uso cuando la asignatura pide declararlo: el uso ético para revisión diagnóstica es válido y se acompaña con la declaración mínima.",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "ia_responsable",
+      "lectura_ref": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-extra-05",
+      "tipo": "opcion_multiple",
+      "enunciado": "Durante el taller de integración y preparación de defensa (Clase 14), al auditar el borrador completo se detecta que el objetivo general habla de **«burnout»**, el marco conceptual define **«estrés agudo»** y el instrumento mide **«depresión»**. ¿Cómo se clasifica esta corrección?",
+      "opciones": [
+        "Corrección esencial de alto impacto, porque rompe la cadena de coherencia estructural del proyecto",
+        "Corrección meramente editorial o estética que puede ignorarse hasta después de la defensa",
+        "Ventaja metodológica que demuestra variedad de vocabulario y uso de sinónimos elegantes",
+        "Detalle menor de formato que se soluciona cambiando el interlineado a doble espacio"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! En terminología científica, cambiar el nombre del constructo entre secciones no es «riqueza estilística», sino ruptura de la cadena de coherencia (error esencial de alto impacto).",
+        "incorrecta": "En escritura literaria se buscan sinónimos para no repetir palabras; en metodología científica, en cambio, los constructos centrales deben nombrarse con total consistencia desde la pregunta hasta el instrumento.",
+        "correct": "¡Exacto! En terminología científica, cambiar el nombre del constructo entre secciones no es «riqueza estilística», sino ruptura de la cadena de coherencia (error esencial de alto impacto).",
+        "incorrect": "En escritura literaria se buscan sinónimos para no repetir palabras; en metodología científica, en cambio, los constructos centrales deben nombrarse con total consistencia desde la pregunta hasta el instrumento.",
+        "origen": "original"
+      },
+      "dificultad": 3,
+      "subtema": "escritura",
+      "lectura_ref": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-extra-06",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué diferencia fundamental existe entre una **paráfrasis** de una fuente y una **síntesis** en la redacción del estado del arte?",
+      "opciones": [
+        "La paráfrasis reformula con palabras propias la idea de una fuente; la síntesis integra y pone en diálogo los aportes, coincidencias o tensiones de varias fuentes torno a un eje",
+        "La paráfrasis lleva cita en APA 7, mientras que la síntesis nunca debe citar a ningún autor",
+        "La paráfrasis solo se usa en estudios cualitativos y la síntesis solo en diseños experimentales",
+        "La síntesis consiste en copiar y pegar los resúmenes textuales de cinco artículos uno debajo del otro"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Impecable! Mientras la paráfrasis trabaja sobre la comprensión y reformulación de un texto, la síntesis articula múltiples fuentes en torno a una idea rectora (convergencia, contraste, límites).",
+        "incorrecta": "Tanto la paráfrasis como la síntesis llevan citas APA 7: la diferencia es que la síntesis integra varias fuentes en diálogo temático en lugar de resumir un texto aislado.",
+        "correct": "¡Impecable! Mientras la paráfrasis trabaja sobre la comprensión y reformulación de un texto, la síntesis articula múltiples fuentes en torno a una idea rectora (convergencia, contraste, límites).",
+        "incorrect": "Tanto la paráfrasis como la síntesis llevan citas APA 7: la diferencia es que la síntesis integra varias fuentes en diálogo temático en lugar de resumir un texto aislado.",
+        "origen": "original"
+      },
+      "dificultad": 3,
+      "subtema": "citacion",
+      "lectura_ref": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    }
+  ]
+}

@@ -1,0 +1,876 @@
+{
+  "modulo_id": "m02",
+  "items": [
+    {
+      "id": "m02-0001",
+      "tipo": "opcion_multiple",
+      "enunciado": "Elegir un tema sin revisar la literatura para no sesgar la investigación es:",
+      "opciones": [
+        "Recomendable",
+        "No recomendable",
+        "Obligatorio",
+        "Indiferente"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «No recomendable» es la respuesta adecuada. Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes.",
+        "incorrecta": "No es correcto. La respuesta acertada es «No recomendable». Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes. Revisa en la Clase 3 cómo pasar de un campo de interés amplio a un tema viable y verificable en bases académicas.",
+        "correct": "¡Correcto! «No recomendable» es la respuesta adecuada. Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes.",
+        "incorrect": "No es correcto. La respuesta acertada es «No recomendable». Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes. Revisa en la Clase 3 cómo pasar de un campo de interés amplio a un tema viable y verificable en bases académicas.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 1,
+      "subtema": "busqueda",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m02-0002",
+      "tipo": "opcion_multiple",
+      "enunciado": "Para delimitar un tema de investigación, se debe especificar:",
+      "opciones": [
+        "Únicamente el título",
+        "Población, periodo y lugar",
+        "El financiamiento disponible",
+        "El número de páginas"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «Población, periodo y lugar» es la respuesta adecuada. Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Población, periodo y lugar». Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal. Un tema bien delimitado evita tanto la vaguedad inabarcable como la falta de viabilidad práctica.",
+        "correct": "¡Correcto! «Población, periodo y lugar» es la respuesta adecuada. Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal.",
+        "incorrect": "No es correcto. La respuesta acertada es «Población, periodo y lugar». Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal. Un tema bien delimitado evita tanto la vaguedad inabarcable como la falta de viabilidad práctica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 1,
+      "subtema": "delimitacion",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m02-0003",
+      "tipo": "verdadero_falso",
+      "enunciado": "La delimitación de un tema ayuda a que el estudio sea manejable y enfocado.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! La afirmación es **Verdadero**. Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal.",
+        "incorrecta": "Respuesta incorrecta (la opción correcta es **Verdadero**). Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal. Un tema bien delimitado evita tanto la vaguedad inabarcable como la falta de viabilidad práctica.",
+        "correct": "¡Correcto! La afirmación es **Verdadero**. Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal.",
+        "incorrect": "Respuesta incorrecta (la opción correcta es **Verdadero**). Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal. Un tema bien delimitado evita tanto la vaguedad inabarcable como la falta de viabilidad práctica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 1,
+      "subtema": "delimitacion",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m02-0004",
+      "tipo": "opcion_multiple",
+      "enunciado": "La etapa de delimitar un tema ocurre generalmente:",
+      "opciones": [
+        "Después de formular objetivos",
+        "Antes de formular objetivos",
+        "Después de analizar datos",
+        "Durante la redacción del informe"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «Antes de formular objetivos» es la respuesta adecuada. Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Antes de formular objetivos». Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal. Un tema bien delimitado evita tanto la vaguedad inabarcable como la falta de viabilidad práctica.",
+        "correct": "¡Correcto! «Antes de formular objetivos» es la respuesta adecuada. Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal.",
+        "incorrect": "No es correcto. La respuesta acertada es «Antes de formular objetivos». Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal. Un tema bien delimitado evita tanto la vaguedad inabarcable como la falta de viabilidad práctica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 1,
+      "subtema": "delimitacion",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m02-0005",
+      "tipo": "opcion_multiple",
+      "enunciado": "La factibilidad del tema se refiere a:",
+      "opciones": [
+        "Disponibilidad de tiempo y recursos para investigarlo",
+        "Popularidad del tema",
+        "Preferencias de la audiencia",
+        "Complejidad del análisis"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Disponibilidad de tiempo y recursos para investigarlo» es la respuesta adecuada. La elección responsable del tema equilibra factores subjetivos (interés, preparación, tiempo disponible) y factores objetivos (fuentes accesibles, viabilidad empírica y pertinencia).",
+        "incorrecta": "No es correcto. La respuesta acertada es «Disponibilidad de tiempo y recursos para investigarlo». La elección responsable del tema equilibra factores subjetivos (interés, preparación, tiempo disponible) y factores objetivos (fuentes accesibles, viabilidad empírica y pertinencia). Evalúa si la condición mencionada depende del investigador y sus posibilidades reales de acceso, tiempo y recursos bibliográficos.",
+        "correct": "¡Correcto! «Disponibilidad de tiempo y recursos para investigarlo» es la respuesta adecuada. La elección responsable del tema equilibra factores subjetivos (interés, preparación, tiempo disponible) y factores objetivos (fuentes accesibles, viabilidad empírica y pertinencia).",
+        "incorrect": "No es correcto. La respuesta acertada es «Disponibilidad de tiempo y recursos para investigarlo». La elección responsable del tema equilibra factores subjetivos (interés, preparación, tiempo disponible) y factores objetivos (fuentes accesibles, viabilidad empírica y pertinencia). Evalúa si la condición mencionada depende del investigador y sus posibilidades reales de acceso, tiempo y recursos bibliográficos.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 1,
+      "subtema": "delimitacion",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m02-0006",
+      "tipo": "opcion_multiple",
+      "enunciado": "Al delimitar un tema, se debe minimizar:",
+      "opciones": [
+        "Ambigüedad",
+        "Precisión",
+        "Claridad",
+        "Especificidad"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Ambigüedad» es la respuesta adecuada. Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Ambigüedad». Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal. Un tema bien delimitado evita tanto la vaguedad inabarcable como la falta de viabilidad práctica.",
+        "correct": "¡Correcto! «Ambigüedad» es la respuesta adecuada. Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal.",
+        "incorrect": "No es correcto. La respuesta acertada es «Ambigüedad». Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal. Un tema bien delimitado evita tanto la vaguedad inabarcable como la falta de viabilidad práctica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "delimitacion",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m02-0007",
+      "tipo": "opcion_multiple",
+      "enunciado": "Delimitar un tema demasiado restringido puede llevar a:",
+      "opciones": [
+        "Mayor profundidad",
+        "Datos insuficientes",
+        "Mejor generalización",
+        "Más financiamiento"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «Datos insuficientes» es la respuesta adecuada. Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Datos insuficientes». Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal. Un tema bien delimitado evita tanto la vaguedad inabarcable como la falta de viabilidad práctica.",
+        "correct": "¡Correcto! «Datos insuficientes» es la respuesta adecuada. Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal.",
+        "incorrect": "No es correcto. La respuesta acertada es «Datos insuficientes». Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal. Un tema bien delimitado evita tanto la vaguedad inabarcable como la falta de viabilidad práctica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "delimitacion",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m02-0008",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál de los siguientes no es un motivo para delimitar un tema?",
+      "opciones": [
+        "Hacerlo investigable",
+        "Evitar ambigüedad",
+        "Ampliar su alcance",
+        "Controlar variables"
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "¡Correcto! «Ampliar su alcance» es la respuesta adecuada. Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Ampliar su alcance». Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal. Un tema bien delimitado evita tanto la vaguedad inabarcable como la falta de viabilidad práctica.",
+        "correct": "¡Correcto! «Ampliar su alcance» es la respuesta adecuada. Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal.",
+        "incorrect": "No es correcto. La respuesta acertada es «Ampliar su alcance». Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal. Un tema bien delimitado evita tanto la vaguedad inabarcable como la falta de viabilidad práctica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "delimitacion",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m02-0010",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es el propósito principal de delimitar un tema de investigación?",
+      "opciones": [
+        "Ampliar el alcance de la investigación.",
+        "Reducir el enfoque del tema para hacerlo manejable.",
+        "Aumentar el número de variables a estudiar.",
+        "Explorar múltiples enfoques simultáneamente."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «Reducir el enfoque del tema para hacerlo manejable.» es la respuesta adecuada. Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Reducir el enfoque del tema para hacerlo manejable.». Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal. Un tema bien delimitado evita tanto la vaguedad inabarcable como la falta de viabilidad práctica.",
+        "correct": "¡Correcto! «Reducir el enfoque del tema para hacerlo manejable.» es la respuesta adecuada. Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal.",
+        "incorrect": "No es correcto. La respuesta acertada es «Reducir el enfoque del tema para hacerlo manejable.». Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal. Un tema bien delimitado evita tanto la vaguedad inabarcable como la falta de viabilidad práctica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "delimitacion",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m02-0011",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuándo es necesario ampliar un tema de investigación?",
+      "opciones": [
+        "Cuando el tema es demasiado amplio para ser cubierto adecuadamente.",
+        "Cuando hay demasiada información sobre el tema.",
+        "Cuando no se puede encontrar suficiente información relevante sobre el tema.",
+        "Cuando se completan las hipótesis iniciales."
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "¡Correcto! «Cuando no se puede encontrar suficiente información relevante sobre el tema.» es la respuesta adecuada. Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Cuando no se puede encontrar suficiente información relevante sobre el tema.». Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes. Revisa en la Clase 3 cómo pasar de un campo de interés amplio a un tema viable y verificable en bases académicas.",
+        "correct": "¡Correcto! «Cuando no se puede encontrar suficiente información relevante sobre el tema.» es la respuesta adecuada. Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes.",
+        "incorrect": "No es correcto. La respuesta acertada es «Cuando no se puede encontrar suficiente información relevante sobre el tema.». Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes. Revisa en la Clase 3 cómo pasar de un campo de interés amplio a un tema viable y verificable en bases académicas.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "delimitacion",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m02-0012",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué significa delimitar un tema de investigación?",
+      "opciones": [
+        "Aumentar el número de conceptos a investigar.",
+        "Determinar los objetivos generales del estudio.",
+        "Definir claramente los límites y el alcance de la investigación.",
+        "Probar la hipótesis antes de formular el problema."
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "¡Correcto! «Definir claramente los límites y el alcance de la investigación.» es la respuesta adecuada. Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Definir claramente los límites y el alcance de la investigación.». Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal. Un tema bien delimitado evita tanto la vaguedad inabarcable como la falta de viabilidad práctica.",
+        "correct": "¡Correcto! «Definir claramente los límites y el alcance de la investigación.» es la respuesta adecuada. Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal.",
+        "incorrect": "No es correcto. La respuesta acertada es «Definir claramente los límites y el alcance de la investigación.». Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal. Un tema bien delimitado evita tanto la vaguedad inabarcable como la falta de viabilidad práctica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "delimitacion",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m02-0013",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál de los siguientes es un signo de que el tema de investigación necesita ser delimitado?",
+      "opciones": [
+        "La investigación se extiende demasiado y abarca muchos aspectos no esenciales.",
+        "La investigación se centra en un solo fenómeno observable.",
+        "No se encuentran problemas metodológicos en el estudio.",
+        "Se identifican muy pocas variables relevantes."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «La investigación se extiende demasiado y abarca muchos aspectos no esenciales.» es la respuesta adecuada. Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal.",
+        "incorrecta": "No es correcto. La respuesta acertada es «La investigación se extiende demasiado y abarca muchos aspectos no esenciales.». Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal. Un tema bien delimitado evita tanto la vaguedad inabarcable como la falta de viabilidad práctica.",
+        "correct": "¡Correcto! «La investigación se extiende demasiado y abarca muchos aspectos no esenciales.» es la respuesta adecuada. Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal.",
+        "incorrect": "No es correcto. La respuesta acertada es «La investigación se extiende demasiado y abarca muchos aspectos no esenciales.». Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal. Un tema bien delimitado evita tanto la vaguedad inabarcable como la falta de viabilidad práctica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "delimitacion",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m02-0014",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué aspecto clave debe considerarse al delimitar un tema de investigación?",
+      "opciones": [
+        "Aumentar el número de hipótesis a probar.",
+        "Considerar la viabilidad y el tiempo disponible para la investigación.",
+        "Fijar conclusiones antes de iniciar la investigación.",
+        "Mantener el tema lo más amplio posible."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «Considerar la viabilidad y el tiempo disponible para la investigación.» es la respuesta adecuada. Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Considerar la viabilidad y el tiempo disponible para la investigación.». Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal. Un tema bien delimitado evita tanto la vaguedad inabarcable como la falta de viabilidad práctica.",
+        "correct": "¡Correcto! «Considerar la viabilidad y el tiempo disponible para la investigación.» es la respuesta adecuada. Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal.",
+        "incorrect": "No es correcto. La respuesta acertada es «Considerar la viabilidad y el tiempo disponible para la investigación.». Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal. Un tema bien delimitado evita tanto la vaguedad inabarcable como la falta de viabilidad práctica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "delimitacion",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m02-0015",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué se considera un recurso para investigar un tema?",
+      "opciones": [
+        "Bases de datos académicas",
+        "Publicidad",
+        "Videos de entretenimiento",
+        "Rumores"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Bases de datos académicas» es la respuesta adecuada. Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Bases de datos académicas». Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes. Revisa en la Clase 3 cómo pasar de un campo de interés amplio a un tema viable y verificable en bases académicas.",
+        "correct": "¡Correcto! «Bases de datos académicas» es la respuesta adecuada. Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes.",
+        "incorrect": "No es correcto. La respuesta acertada es «Bases de datos académicas». Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes. Revisa en la Clase 3 cómo pasar de un campo de interés amplio a un tema viable y verificable en bases académicas.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 1,
+      "subtema": "eleccion_tema",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m02-0016",
+      "tipo": "verdadero_falso",
+      "enunciado": "La experiencia del tutor puede ser un recurso en la selección del tema.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! La afirmación es **Verdadero**. Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes.",
+        "incorrecta": "Respuesta incorrecta (la opción correcta es **Verdadero**). Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes. Revisa en la Clase 3 cómo pasar de un campo de interés amplio a un tema viable y verificable en bases académicas.",
+        "correct": "¡Correcto! La afirmación es **Verdadero**. Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes.",
+        "incorrect": "Respuesta incorrecta (la opción correcta es **Verdadero**). Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes. Revisa en la Clase 3 cómo pasar de un campo de interés amplio a un tema viable y verificable en bases académicas.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 1,
+      "subtema": "eleccion_tema",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m02-0017",
+      "tipo": "opcion_multiple",
+      "enunciado": "Un ejemplo de recurso para seleccionar tema es:",
+      "opciones": [
+        "Conversar con expertos",
+        "Repetir un tema popular sin cambios",
+        "Evitar leer revistas científicas",
+        "Depender de rumores"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Conversar con expertos» es la respuesta adecuada. Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Conversar con expertos». Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes. Revisa en la Clase 3 cómo pasar de un campo de interés amplio a un tema viable y verificable en bases académicas.",
+        "correct": "¡Correcto! «Conversar con expertos» es la respuesta adecuada. Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes.",
+        "incorrect": "No es correcto. La respuesta acertada es «Conversar con expertos». Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes. Revisa en la Clase 3 cómo pasar de un campo de interés amplio a un tema viable y verificable en bases académicas.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 1,
+      "subtema": "eleccion_tema",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m02-0018",
+      "tipo": "opcion_multiple",
+      "enunciado": "Al seleccionar un tema de investigación, este debe cumplir con qué criterio?",
+      "opciones": [
+        "Únicamente ser novedoso",
+        "Interés, relevancia y factibilidad",
+        "Estar de moda",
+        "Ser el más sencillo"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «Interés, relevancia y factibilidad» es la respuesta adecuada. Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Interés, relevancia y factibilidad». Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes. Revisa en la Clase 3 cómo pasar de un campo de interés amplio a un tema viable y verificable en bases académicas.",
+        "correct": "¡Correcto! «Interés, relevancia y factibilidad» es la respuesta adecuada. Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes.",
+        "incorrect": "No es correcto. La respuesta acertada es «Interés, relevancia y factibilidad». Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes. Revisa en la Clase 3 cómo pasar de un campo de interés amplio a un tema viable y verificable en bases académicas.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "eleccion_tema",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m02-0019",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál de los siguientes factores es subjetivo al elegir un tema?",
+      "opciones": [
+        "Disponibilidad de fuentes",
+        "Interés personal",
+        "Tiempo disponible",
+        "Recursos económicos"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «Interés personal» es la respuesta adecuada. La elección responsable del tema equilibra factores subjetivos (interés, preparación, tiempo disponible) y factores objetivos (fuentes accesibles, viabilidad empírica y pertinencia).",
+        "incorrecta": "No es correcto. La respuesta acertada es «Interés personal». La elección responsable del tema equilibra factores subjetivos (interés, preparación, tiempo disponible) y factores objetivos (fuentes accesibles, viabilidad empírica y pertinencia). Evalúa si la condición mencionada depende del investigador y sus posibilidades reales de acceso, tiempo y recursos bibliográficos.",
+        "correct": "¡Correcto! «Interés personal» es la respuesta adecuada. La elección responsable del tema equilibra factores subjetivos (interés, preparación, tiempo disponible) y factores objetivos (fuentes accesibles, viabilidad empírica y pertinencia).",
+        "incorrect": "No es correcto. La respuesta acertada es «Interés personal». La elección responsable del tema equilibra factores subjetivos (interés, preparación, tiempo disponible) y factores objetivos (fuentes accesibles, viabilidad empírica y pertinencia). Evalúa si la condición mencionada depende del investigador y sus posibilidades reales de acceso, tiempo y recursos bibliográficos.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "eleccion_tema",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m02-0020",
+      "tipo": "opcion_multiple",
+      "enunciado": "Los factores objetivos en la elección del tema incluyen:",
+      "opciones": [
+        "Gustos personales",
+        "Disponibilidad de fuentes y recursos",
+        "Preferencias del público",
+        "Moda académica"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «Disponibilidad de fuentes y recursos» es la respuesta adecuada. La elección responsable del tema equilibra factores subjetivos (interés, preparación, tiempo disponible) y factores objetivos (fuentes accesibles, viabilidad empírica y pertinencia).",
+        "incorrecta": "No es correcto. La respuesta acertada es «Disponibilidad de fuentes y recursos». La elección responsable del tema equilibra factores subjetivos (interés, preparación, tiempo disponible) y factores objetivos (fuentes accesibles, viabilidad empírica y pertinencia). Evalúa si la condición mencionada depende del investigador y sus posibilidades reales de acceso, tiempo y recursos bibliográficos.",
+        "correct": "¡Correcto! «Disponibilidad de fuentes y recursos» es la respuesta adecuada. La elección responsable del tema equilibra factores subjetivos (interés, preparación, tiempo disponible) y factores objetivos (fuentes accesibles, viabilidad empírica y pertinencia).",
+        "incorrect": "No es correcto. La respuesta acertada es «Disponibilidad de fuentes y recursos». La elección responsable del tema equilibra factores subjetivos (interés, preparación, tiempo disponible) y factores objetivos (fuentes accesibles, viabilidad empírica y pertinencia). Evalúa si la condición mencionada depende del investigador y sus posibilidades reales de acceso, tiempo y recursos bibliográficos.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "eleccion_tema",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m02-0021",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué describe mejor el 'orden subjetivo'?",
+      "opciones": [
+        "La elección basada en intereses personales",
+        "La selección impuesta por una institución",
+        "La asignación aleatoria de un tema",
+        "La elección según moda"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «La elección basada en intereses personales» es la respuesta adecuada. La elección responsable del tema equilibra factores subjetivos (interés, preparación, tiempo disponible) y factores objetivos (fuentes accesibles, viabilidad empírica y pertinencia).",
+        "incorrecta": "No es correcto. La respuesta acertada es «La elección basada en intereses personales». La elección responsable del tema equilibra factores subjetivos (interés, preparación, tiempo disponible) y factores objetivos (fuentes accesibles, viabilidad empírica y pertinencia). Evalúa si la condición mencionada depende del investigador y sus posibilidades reales de acceso, tiempo y recursos bibliográficos.",
+        "correct": "¡Correcto! «La elección basada en intereses personales» es la respuesta adecuada. La elección responsable del tema equilibra factores subjetivos (interés, preparación, tiempo disponible) y factores objetivos (fuentes accesibles, viabilidad empírica y pertinencia).",
+        "incorrect": "No es correcto. La respuesta acertada es «La elección basada en intereses personales». La elección responsable del tema equilibra factores subjetivos (interés, preparación, tiempo disponible) y factores objetivos (fuentes accesibles, viabilidad empírica y pertinencia). Evalúa si la condición mencionada depende del investigador y sus posibilidades reales de acceso, tiempo y recursos bibliográficos.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "eleccion_tema",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m02-0022",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál describe mejor el 'orden objetivo'?",
+      "opciones": [
+        "Tema elegido al azar",
+        "Tema basado en necesidades externas y restricciones",
+        "Tema elegido por pasatiempos",
+        "Tema propuesto por amigos"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «Tema basado en necesidades externas y restricciones» es la respuesta adecuada. La elección responsable del tema equilibra factores subjetivos (interés, preparación, tiempo disponible) y factores objetivos (fuentes accesibles, viabilidad empírica y pertinencia).",
+        "incorrecta": "No es correcto. La respuesta acertada es «Tema basado en necesidades externas y restricciones». La elección responsable del tema equilibra factores subjetivos (interés, preparación, tiempo disponible) y factores objetivos (fuentes accesibles, viabilidad empírica y pertinencia). Evalúa si la condición mencionada depende del investigador y sus posibilidades reales de acceso, tiempo y recursos bibliográficos.",
+        "correct": "¡Correcto! «Tema basado en necesidades externas y restricciones» es la respuesta adecuada. La elección responsable del tema equilibra factores subjetivos (interés, preparación, tiempo disponible) y factores objetivos (fuentes accesibles, viabilidad empírica y pertinencia).",
+        "incorrect": "No es correcto. La respuesta acertada es «Tema basado en necesidades externas y restricciones». La elección responsable del tema equilibra factores subjetivos (interés, preparación, tiempo disponible) y factores objetivos (fuentes accesibles, viabilidad empírica y pertinencia). Evalúa si la condición mencionada depende del investigador y sus posibilidades reales de acceso, tiempo y recursos bibliográficos.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "eleccion_tema",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m02-0023",
+      "tipo": "opcion_multiple",
+      "enunciado": "Respecto al 'orden objetivo', es correcto afirmar que:",
+      "opciones": [
+        "Se centra en hobbies del investigador",
+        "Se alinea con necesidades sociales o institucionales",
+        "Se basa en sueños personales",
+        "Es irrelevante para la investigación"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «Se alinea con necesidades sociales o institucionales» es la respuesta adecuada. La elección responsable del tema equilibra factores subjetivos (interés, preparación, tiempo disponible) y factores objetivos (fuentes accesibles, viabilidad empírica y pertinencia).",
+        "incorrecta": "No es correcto. La respuesta acertada es «Se alinea con necesidades sociales o institucionales». La elección responsable del tema equilibra factores subjetivos (interés, preparación, tiempo disponible) y factores objetivos (fuentes accesibles, viabilidad empírica y pertinencia). Evalúa si la condición mencionada depende del investigador y sus posibilidades reales de acceso, tiempo y recursos bibliográficos.",
+        "correct": "¡Correcto! «Se alinea con necesidades sociales o institucionales» es la respuesta adecuada. La elección responsable del tema equilibra factores subjetivos (interés, preparación, tiempo disponible) y factores objetivos (fuentes accesibles, viabilidad empírica y pertinencia).",
+        "incorrect": "No es correcto. La respuesta acertada es «Se alinea con necesidades sociales o institucionales». La elección responsable del tema equilibra factores subjetivos (interés, preparación, tiempo disponible) y factores objetivos (fuentes accesibles, viabilidad empírica y pertinencia). Evalúa si la condición mencionada depende del investigador y sus posibilidades reales de acceso, tiempo y recursos bibliográficos.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "eleccion_tema",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m02-0024",
+      "tipo": "opcion_multiple",
+      "enunciado": "El orden subjetivo sugiere elegir un tema porque:",
+      "opciones": [
+        "Es requerido por la institución",
+        "Responde a un interés genuino del investigador",
+        "Tiene financiamiento asegurado",
+        "Ha sido poco estudiado"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «Responde a un interés genuino del investigador» es la respuesta adecuada. La elección responsable del tema equilibra factores subjetivos (interés, preparación, tiempo disponible) y factores objetivos (fuentes accesibles, viabilidad empírica y pertinencia).",
+        "incorrecta": "No es correcto. La respuesta acertada es «Responde a un interés genuino del investigador». La elección responsable del tema equilibra factores subjetivos (interés, preparación, tiempo disponible) y factores objetivos (fuentes accesibles, viabilidad empírica y pertinencia). Evalúa si la condición mencionada depende del investigador y sus posibilidades reales de acceso, tiempo y recursos bibliográficos.",
+        "correct": "¡Correcto! «Responde a un interés genuino del investigador» es la respuesta adecuada. La elección responsable del tema equilibra factores subjetivos (interés, preparación, tiempo disponible) y factores objetivos (fuentes accesibles, viabilidad empírica y pertinencia).",
+        "incorrect": "No es correcto. La respuesta acertada es «Responde a un interés genuino del investigador». La elección responsable del tema equilibra factores subjetivos (interés, preparación, tiempo disponible) y factores objetivos (fuentes accesibles, viabilidad empírica y pertinencia). Evalúa si la condición mencionada depende del investigador y sus posibilidades reales de acceso, tiempo y recursos bibliográficos.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "eleccion_tema",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m02-0025",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál de las siguientes preguntas de investigación es demasiado amplia?",
+      "opciones": [
+        "¿Cómo afecta la publicidad al comportamiento de compra en adolescentes?",
+        "¿Cómo influye el uso del teléfono inteligente en la calidad del sueño de estudiantes de primer año de psicología durante 2025?",
+        "¿Cuál es el impacto de la dieta mediterránea en la salud cardiovascular de adultos mayores de 60 años en Asunción?",
+        "¿Cómo se relacionan la autoeficacia y el rendimiento académico en estudiantes de tercer año?"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «¿Cómo afecta la publicidad al comportamiento de compra en adolescentes?» es la respuesta adecuada. Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes.",
+        "incorrecta": "No es correcto. La respuesta acertada es «¿Cómo afecta la publicidad al comportamiento de compra en adolescentes?». Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes. Revisa en la Clase 3 cómo pasar de un campo de interés amplio a un tema viable y verificable en bases académicas.",
+        "correct": "¡Correcto! «¿Cómo afecta la publicidad al comportamiento de compra en adolescentes?» es la respuesta adecuada. Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes.",
+        "incorrect": "No es correcto. La respuesta acertada es «¿Cómo afecta la publicidad al comportamiento de compra en adolescentes?». Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes. Revisa en la Clase 3 cómo pasar de un campo de interés amplio a un tema viable y verificable en bases académicas.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "eleccion_tema",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m02-0026",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es el primer paso para seleccionar un tema de investigación?",
+      "opciones": [
+        "Definir los objetivos específicos.",
+        "Revisar la literatura existente sobre el tema.",
+        "Formular las hipótesis.",
+        "Realizar un experimento piloto."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «Revisar la literatura existente sobre el tema.» es la respuesta adecuada. Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Revisar la literatura existente sobre el tema.». Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes. Revisa en la Clase 3 cómo pasar de un campo de interés amplio a un tema viable y verificable en bases académicas.",
+        "correct": "¡Correcto! «Revisar la literatura existente sobre el tema.» es la respuesta adecuada. Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes.",
+        "incorrect": "No es correcto. La respuesta acertada es «Revisar la literatura existente sobre el tema.». Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes. Revisa en la Clase 3 cómo pasar de un campo de interés amplio a un tema viable y verificable en bases académicas.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "eleccion_tema",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m02-0027",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué se debe considerar al elegir un tema de investigación?",
+      "opciones": [
+        "El acceso a fuentes de datos relevantes y factibles.",
+        "La popularidad del tema en medios sociales.",
+        "El enfoque en opiniones subjetivas.",
+        "La facilidad para formular preguntas cerradas."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «El acceso a fuentes de datos relevantes y factibles.» es la respuesta adecuada. Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes.",
+        "incorrecta": "No es correcto. La respuesta acertada es «El acceso a fuentes de datos relevantes y factibles.». Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes. Revisa en la Clase 3 cómo pasar de un campo de interés amplio a un tema viable y verificable en bases académicas.",
+        "correct": "¡Correcto! «El acceso a fuentes de datos relevantes y factibles.» es la respuesta adecuada. Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes.",
+        "incorrect": "No es correcto. La respuesta acertada es «El acceso a fuentes de datos relevantes y factibles.». Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes. Revisa en la Clase 3 cómo pasar de un campo de interés amplio a un tema viable y verificable en bases académicas.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "eleccion_tema",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m02-0028",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es una buena estrategia para seleccionar un tema de investigación?",
+      "opciones": [
+        "Escoger un tema sobre el que el investigador ya tenga experiencia.",
+        "Elegir un tema sin relevancia social o científica.",
+        "Seleccionar un tema sin preocuparse por la disponibilidad de recursos.",
+        "Basarse únicamente en intereses personales sin consultar la literatura."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Escoger un tema sobre el que el investigador ya tenga experiencia.» es la respuesta adecuada. Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Escoger un tema sobre el que el investigador ya tenga experiencia.». Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes. Revisa en la Clase 3 cómo pasar de un campo de interés amplio a un tema viable y verificable en bases académicas.",
+        "correct": "¡Correcto! «Escoger un tema sobre el que el investigador ya tenga experiencia.» es la respuesta adecuada. Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes.",
+        "incorrect": "No es correcto. La respuesta acertada es «Escoger un tema sobre el que el investigador ya tenga experiencia.». Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes. Revisa en la Clase 3 cómo pasar de un campo de interés amplio a un tema viable y verificable en bases académicas.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "eleccion_tema",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m02-0029",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál de las siguientes estrategias NO es recomendable al elegir un tema de investigación?",
+      "opciones": [
+        "Seleccionar un tema relevante y novedoso.",
+        "Elegir un tema del que ya existen estudios exhaustivos.",
+        "Revisar los estudios más recientes sobre el tema.",
+        "Identificar una laguna o vacío en la literatura existente."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «Elegir un tema del que ya existen estudios exhaustivos.» es la respuesta adecuada. Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Elegir un tema del que ya existen estudios exhaustivos.». Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes. Revisa en la Clase 3 cómo pasar de un campo de interés amplio a un tema viable y verificable en bases académicas.",
+        "correct": "¡Correcto! «Elegir un tema del que ya existen estudios exhaustivos.» es la respuesta adecuada. Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes.",
+        "incorrect": "No es correcto. La respuesta acertada es «Elegir un tema del que ya existen estudios exhaustivos.». Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes. Revisa en la Clase 3 cómo pasar de un campo de interés amplio a un tema viable y verificable en bases académicas.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "eleccion_tema",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m02-0030",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Por qué es importante la relevancia científica al seleccionar un tema de investigación?",
+      "opciones": [
+        "Porque asegura que los resultados tendrán un impacto significativo en el campo.",
+        "Porque facilita la publicación rápida de los resultados.",
+        "Porque elimina la necesidad de realizar experimentos.",
+        "Porque reduce el tiempo necesario para completar el estudio."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Porque asegura que los resultados tendrán un impacto significativo en el campo.» es la respuesta adecuada. Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Porque asegura que los resultados tendrán un impacto significativo en el campo.». Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes. Revisa en la Clase 3 cómo pasar de un campo de interés amplio a un tema viable y verificable en bases académicas.",
+        "correct": "¡Correcto! «Porque asegura que los resultados tendrán un impacto significativo en el campo.» es la respuesta adecuada. Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes.",
+        "incorrect": "No es correcto. La respuesta acertada es «Porque asegura que los resultados tendrán un impacto significativo en el campo.». Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes. Revisa en la Clase 3 cómo pasar de un campo de interés amplio a un tema viable y verificable en bases académicas.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "eleccion_tema",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m02-0031",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué se debe hacer cuando un tema de investigación resulta ser demasiado amplio?",
+      "opciones": [
+        "Ampliar aún más el alcance del estudio.",
+        "Delimitarlo y enfocarse en un aspecto específico.",
+        "Abandonar el tema completamente.",
+        "Replantear el estudio a un área completamente diferente."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «Delimitarlo y enfocarse en un aspecto específico.» es la respuesta adecuada. Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Delimitarlo y enfocarse en un aspecto específico.». Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal. Un tema bien delimitado evita tanto la vaguedad inabarcable como la falta de viabilidad práctica.",
+        "correct": "¡Correcto! «Delimitarlo y enfocarse en un aspecto específico.» es la respuesta adecuada. Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal.",
+        "incorrect": "No es correcto. La respuesta acertada es «Delimitarlo y enfocarse en un aspecto específico.». Delimitar un tema implica acotar con precisión el fenómeno, la población o unidades de análisis, el contexto espacial/institucional y el alcance temporal. Un tema bien delimitado evita tanto la vaguedad inabarcable como la falta de viabilidad práctica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "eleccion_tema",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m02-0032",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué papel juega la revisión de literatura al seleccionar un tema de investigación?",
+      "opciones": [
+        "Permite ignorar estudios previos.",
+        "Ayuda a identificar vacíos y oportunidades para investigar.",
+        "Elimina la necesidad de hacer hipótesis.",
+        "Facilita la formulación directa de conclusiones."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «Ayuda a identificar vacíos y oportunidades para investigar.» es la respuesta adecuada. Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Ayuda a identificar vacíos y oportunidades para investigar.». Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes. Revisa en la Clase 3 cómo pasar de un campo de interés amplio a un tema viable y verificable en bases académicas.",
+        "correct": "¡Correcto! «Ayuda a identificar vacíos y oportunidades para investigar.» es la respuesta adecuada. Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes.",
+        "incorrect": "No es correcto. La respuesta acertada es «Ayuda a identificar vacíos y oportunidades para investigar.». Una buena elección y búsqueda inicial parte de un tema delimitado y localiza fuentes académicas verificables mediante descriptores pertinentes. Revisa en la Clase 3 cómo pasar de un campo de interés amplio a un tema viable y verificable en bases académicas.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "eleccion_tema",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m02-extra-01",
+      "tipo": "opcion_multiple",
+      "enunciado": "En una ecuación de búsqueda bibliográfica, ¿qué efecto tiene utilizar el operador booleano **OR** entre dos sinónimos dentro de un paréntesis, por ejemplo `(\"agotamiento laboral\" OR \"burnout\")`?",
+      "opciones": [
+        "Amplía la recuperación, incluyendo documentos que contengan cualquiera de los dos términos",
+        "Restringe la búsqueda únicamente a documentos que contengan ambos términos a la vez",
+        "Excluye todos los artículos publicados en idioma inglés",
+        "Sustituye la necesidad de verificar el texto completo del artículo"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! El operador OR reúne sinónimos o equivalentes en distintos idiomas y amplía la sensibilidad de la búsqueda; luego se combina con AND para intersectar conceptos distintos.",
+        "incorrecta": "Recuerda la diferencia clave: OR une sinónimos y amplía la búsqueda; AND intersecta conceptos distintos y restringe los resultados.",
+        "correct": "¡Exacto! El operador OR reúne sinónimos o equivalentes en distintos idiomas y amplía la sensibilidad de la búsqueda; luego se combina con AND para intersectar conceptos distintos.",
+        "incorrect": "Recuerda la diferencia clave: OR une sinónimos y amplía la búsqueda; AND intersecta conceptos distintos y restringe los resultados.",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "busqueda",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m02-extra-02",
+      "tipo": "opcion_multiple",
+      "enunciado": "Según el **Protocolo VERA** de la cátedra para el uso ético de Inteligencia Artificial en la revisión y búsqueda, ¿qué exige el primer paso (**V — Ver fuente**)?",
+      "opciones": [
+        "Abrir y comprobar el documento original en una base o repositorio real, sin citar jamás desde la respuesta del chatbot",
+        "Verificar únicamente que la referencia sugerida por la IA tenga sangría francesa y formato APA 7",
+        "Pedirle a un segundo chatbot que confirme si la cita generada por el primero existe",
+        "Confiar en las referencias generadas por IA siempre que incluyan un número de DOI de apariencia válida"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! Los modelos de lenguaje pueden «alucinar» autores, títulos y DOIs verosímiles pero inexistentes. Toda fuente debe localizarse, abrirse y leerse en su publicación original.",
+        "incorrecta": "Cuidado: un DOI o formato APA generado por un chatbot puede ser una alucinación estadística. El paso V (Ver fuente) exige abrir siempre el documento original.",
+        "correct": "¡Correcto! Los modelos de lenguaje pueden «alucinar» autores, títulos y DOIs verosímiles pero inexistentes. Toda fuente debe localizarse, abrirse y leerse en su publicación original.",
+        "incorrect": "Cuidado: un DOI o formato APA generado por un chatbot puede ser una alucinación estadística. El paso V (Ver fuente) exige abrir siempre el documento original.",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "ia_responsable",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m02-extra-03",
+      "tipo": "opcion_multiple",
+      "enunciado": "Un estudiante introduce su tema en un chatbot, le pide que «elija cuál debe ser el problema de investigación y redacte la justificación con 5 referencias», y entrega ese texto como propio. Según el Plan 2026, esta práctica es:",
+      "opciones": [
+        "No permitida, porque delega decisiones intelectuales nucleares y arriesga incluir citas inventadas sin declaración ni verificación",
+        "Recomendable, porque garantiza que el planteamiento no tenga errores ortográficos",
+        "Aceptable siempre que el estudiante cambie el tipo de letra antes de subirlo a Moodle",
+        "Obligatoria para ahorrar tiempo en la etapa de delimitación"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Muy bien! En la asignatura la IA puede usarse para explorar sinónimos, detectar ambigüedades o autoevaluarse, pero jamás para delegar la lectura, la elección del problema ni inventar referencias.",
+        "incorrecta": "Revisa la sección 4 del Plan 2026: delegar las decisiones metodológicas o presentar texto e referencias generadas por IA sin verificación está expresamente prohibido.",
+        "correct": "¡Muy bien! En la asignatura la IA puede usarse para explorar sinónimos, detectar ambigüedades o autoevaluarse, pero jamás para delegar la lectura, la elección del problema ni inventar referencias.",
+        "incorrect": "Revisa la sección 4 del Plan 2026: delegar las decisiones metodológicas o presentar texto e referencias generadas por IA sin verificación está expresamente prohibido.",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "ia_responsable",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m02-extra-04",
+      "tipo": "opcion_multiple",
+      "enunciado": "Un estudiante pasa de proponer **«La salud mental»** a proponer **«Sintomatología ansiosa y calidad del sueño en estudiantes de primer año de Psicología de una universidad de Asunción durante 2026»**. ¿Qué operación metodológica realizó?",
+      "opciones": [
+        "Pasó de un campo general a un tema delimitado especificando fenómeno, población, espacio y tiempo",
+        "Realizó el análisis inferencial de los resultados finales de la tesis",
+        "Reemplazó un problema empírico por un dilema filosófico no verificable",
+        "Eliminó las variables para no tener que revisar literatura científica"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Excelente! Recortar el fenómeno específico, la población/unidad de análisis, el contexto geográfico/institucional y el periodo temporal convierte un campo inabarcable en un tema viable.",
+        "incorrecta": "Observa los cuatro componentes que agregó al enunciado: variables concretas, quiénes (estudiantes de 1.er año), dónde (Asunción) y cuándo (2026). Eso es delimitar el tema.",
+        "correct": "¡Excelente! Recortar el fenómeno específico, la población/unidad de análisis, el contexto geográfico/institucional y el periodo temporal convierte un campo inabarcable en un tema viable.",
+        "incorrect": "Observa los cuatro componentes que agregó al enunciado: variables concretas, quiénes (estudiantes de 1.er año), dónde (Asunción) y cuándo (2026). Eso es delimitar el tema.",
+        "origen": "original"
+      },
+      "dificultad": 3,
+      "subtema": "delimitacion",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    }
+  ]
+}

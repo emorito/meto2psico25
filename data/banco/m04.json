@@ -1,0 +1,1400 @@
+{
+  "modulo_id": "m04",
+  "items": [
+    {
+      "id": "m04-0006",
+      "tipo": "opcion_multiple",
+      "enunciado": "En un estudio cuantitativo, el problema se expresa a menudo:",
+      "opciones": [
+        "Como una hipótesis",
+        "Como una conclusión",
+        "Como una pregunta",
+        "Como un análisis"
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "¡Correcto! «Como una pregunta» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Como una pregunta». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "correct": "¡Correcto! «Como una pregunta» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrect": "No es correcto. La respuesta acertada es «Como una pregunta». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 1,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0007",
+      "tipo": "verdadero_falso",
+      "enunciado": "El problema debe delimitarse en tiempo y espacio.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! La afirmación es **Verdadero**. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrecta": "Respuesta incorrecta (la opción correcta es **Verdadero**). El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "correct": "¡Correcto! La afirmación es **Verdadero**. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrect": "Respuesta incorrecta (la opción correcta es **Verdadero**). El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 1,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0009",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es la definición clásica de un problema de investigación según Fred Kerlinger?",
+      "opciones": [
+        "Un enunciado descriptivo que caracteriza un fenómeno.",
+        "Un enunciado interrogativo que pregunta sobre la relación entre dos o más variables.",
+        "Una dificultad observada en un contexto real que requiere una solución práctica.",
+        "Una afirmación que debe ser verificable como absolutamente falsa o verdadera."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Directo a Kerlinger! ✅ Es la definición de libro. La ciencia no solo pregunta '¿qué es esto?', sino '¿qué le pasa a X *cuando* muevo Y?'. ¡Pura relación!",
+        "incorrecta": "Nop. Esas otras son descripciones o problemas prácticos. La clave de Kerlinger es la **relación entre variables** en forma de pregunta. 🧐",
+        "correct": "¡Directo a Kerlinger! ✅ Es la definición de libro. La ciencia no solo pregunta '¿qué es esto?', sino '¿qué le pasa a X *cuando* muevo Y?'. ¡Pura relación!",
+        "incorrect": "Nop. Esas otras son descripciones o problemas prácticos. La clave de Kerlinger es la **relación entre variables** en forma de pregunta. 🧐",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0010",
+      "tipo": "verdadero_falso",
+      "enunciado": "En esencia, la investigación científica es una actividad de naturaleza cognoscitiva cuyo propósito es obtener nuevos conocimientos para cubrir una laguna en nuestro saber.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Verdadero! 🧠 La investigación es, en esencia, el deporte de los curiosos. Vemos un 'hueco' en lo que sabemos y nuestra misión es rellenarlo con conocimiento.",
+        "incorrecta": "¡Cuidado! Es verdadero. Es la definición más pura. No investigamos (científicamente) para opinar o confirmar creencias, sino para *conocer* y tapar esa laguna.",
+        "correct": "¡Verdadero! 🧠 La investigación es, en esencia, el deporte de los curiosos. Vemos un 'hueco' en lo que sabemos y nuestra misión es rellenarlo con conocimiento.",
+        "incorrect": "¡Cuidado! Es verdadero. Es la definición más pura. No investigamos (científicamente) para opinar o confirmar creencias, sino para *conocer* y tapar esa laguna.",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0011",
+      "tipo": "verdadero_falso",
+      "enunciado": "Un problema práctico, o situación problémica, es una dificultad observada en un contexto real que requiere una solución, mientras que un problema científico es una cuestión de naturaleza cognoscitiva.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Verdadero! Diferencia clave. Problema práctico: 'El puente se cae' (necesita solución YA). Problema científico: '¿*Por qué* se cae el puente?' (necesita conocimiento). 🌉",
+        "incorrecta": "¡Ojo! Es verdadero. Uno es de 'hacer' (práctico), el otro es de 'saber' (científico). No los confundas, aunque a menudo el práctico inspira al científico.",
+        "correct": "¡Verdadero! Diferencia clave. Problema práctico: 'El puente se cae' (necesita solución YA). Problema científico: '¿*Por qué* se cae el puente?' (necesita conocimiento). 🌉",
+        "incorrect": "¡Ojo! Es verdadero. Uno es de 'hacer' (práctico), el otro es de 'saber' (científico). No los confundas, aunque a menudo el práctico inspira al científico.",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0012",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué manifestación de un problema científico ocurre cuando no concuerdan los resultados de varias investigaciones sobre el mismo tema?",
+      "opciones": [
+        "Una laguna en nuestro conocimiento.",
+        "Resultados contradictorios.",
+        "Un hecho sin explicación.",
+        "Un problema de circularidad viciosa."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Exacto! 💥 Cuando el Estudio A dice 'blanco' y el Estudio B dice 'negro' sobre lo mismo... ¡felicidades, tienes un problema de investigación! Hay que averiguar quién tiene razón (o si ambos están mal).",
+        "incorrecta": "Nop. Una 'laguna' es un vacío. Un 'hecho sin explicar' es un misterio. Pero cuando dos investigaciones chocan, eso es una **contradicción** directa.",
+        "correct": "¡Exacto! 💥 Cuando el Estudio A dice 'blanco' y el Estudio B dice 'negro' sobre lo mismo... ¡felicidades, tienes un problema de investigación! Hay que averiguar quién tiene razón (o si ambos están mal).",
+        "incorrect": "Nop. Una 'laguna' es un vacío. Un 'hecho sin explicar' es un misterio. Pero cuando dos investigaciones chocan, eso es una **contradicción** directa.",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0013",
+      "tipo": "opcion_multiple",
+      "enunciado": "El requisito de 'Claridad y Sin Ambigüedad' en la formulación del problema tiene como objetivo evitar:",
+      "opciones": [
+        "El desconcierto y la incapacidad de diseñar un estudio efectivo.",
+        "La replicación de estudios previos.",
+        "La aplicación del criterio FINER.",
+        "La necesidad de definir operacionalmente variables."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Evidente, pero crucial! ✅ Si tu pregunta es confusa ('¿Es la vida... algo?'), nadie (ni tú mismo) sabrá qué datos recoger. Una pregunta clara es el 50% de la respuesta.",
+        "incorrecta": "Al contrario. Una pregunta clara es lo que *permite* replicar, aplicar FINER y definir variables. Sin claridad, no hay nada, solo niebla. 🌫️",
+        "correct": "¡Evidente, pero crucial! ✅ Si tu pregunta es confusa ('¿Es la vida... algo?'), nadie (ni tú mismo) sabrá qué datos recoger. Una pregunta clara es el 50% de la respuesta.",
+        "incorrect": "Al contrario. Una pregunta clara es lo que *permite* replicar, aplicar FINER y definir variables. Sin claridad, no hay nada, solo niebla. 🌫️",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0014",
+      "tipo": "verdadero_falso",
+      "enunciado": "La ciencia es incapaz de contestar preguntas que por su forma o substancia no pueden someterse a prueba o ser comprobadas, o no implican relaciones entre variables.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Verdadero! La ciencia tiene límites. ✋ Si la pregunta es metafísica ('¿cuál es el sentido de la vida?') o no testeable... la ciencia humildemente dice 'eso no es lo mío'.",
+        "incorrecta": "Es verdadero. Es una autolimitación importante. Si no se puede poner a prueba, si no hay variables relacionándose... no es un problema científico.",
+        "correct": "¡Verdadero! La ciencia tiene límites. ✋ Si la pregunta es metafísica ('¿cuál es el sentido de la vida?') o no testeable... la ciencia humildemente dice 'eso no es lo mío'.",
+        "incorrect": "Es verdadero. Es una autolimitación importante. Si no se puede poner a prueba, si no hay variables relacionándose... no es un problema científico.",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0015",
+      "tipo": "opcion_multiple",
+      "enunciado": "El modelo PICO es el más conocido para estructurar preguntas en estudios cuantitativos de intervención. ¿Qué representa la 'O'?",
+      "opciones": [
+        "Población.",
+        "Operación.",
+        "Outcome/Resultado.",
+        "Observación."
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "¡Correcto! La 'O' es el **Outcome**. Es el *resultado* que te interesa medir. ¿Qué esperas que cambie? ¿Mortalidad? ¿Dolor? ¿Conocimiento?",
+        "incorrecta": "P (Población), I (Intervención), C (Comparación), O (**Outcome**). ¡El resultado es la clave! 🎯",
+        "correct": "¡Correcto! La 'O' es el **Outcome**. Es el *resultado* que te interesa medir. ¿Qué esperas que cambie? ¿Mortalidad? ¿Dolor? ¿Conocimiento?",
+        "incorrect": "P (Población), I (Intervención), C (Comparación), O (**Outcome**). ¡El resultado es la clave! 🎯",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0016",
+      "tipo": "opcion_multiple",
+      "enunciado": "El criterio del filtro de evaluación FINER que considera si se cuenta con el número adecuado de sujetos, la experticia técnica y los recursos económicos necesarios es:",
+      "opciones": [
+        "Factible (F).",
+        "Novedoso (N).",
+        "Ético (E).",
+        "Relevante (R)."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! **Factible** = ¿Se *puede* hacer? 💰🧑‍🔬⏰ ¿Tengo el dinero, la gente, el tiempo y el *know-how*? Si no, es una gran idea... pero infactible.",
+        "incorrecta": "Esas otras son importantes, pero la 'logística' (dinero, tiempo, sujetos, experticia) es 100% la 'F' de Factible.",
+        "correct": "¡Exacto! **Factible** = ¿Se *puede* hacer? 💰🧑‍🔬⏰ ¿Tengo el dinero, la gente, el tiempo y el *know-how*? Si no, es una gran idea... pero infactible.",
+        "incorrect": "Esas otras son importantes, pero la 'logística' (dinero, tiempo, sujetos, experticia) es 100% la 'F' de Factible.",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0017",
+      "tipo": "verdadero_falso",
+      "enunciado": "La 'F' de Factible en el criterio FINER solo evalúa si se cuenta con los recursos económicos y el tiempo, sin considerar la experticia técnica del investigador.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Falso! 🛑 La experticia técnica es CRUCIAL para la factibilidad. Puedes tener todo el dinero del mundo, pero si no sabes cómo hacer la cirugía o el análisis estadístico... el estudio es infactible.",
+        "incorrecta": "¡Alerta! Es falso. La 'F' de Factible incluye *todo* lo logístico: tiempo, dinero, sujetos *y* la experticia técnica del equipo. ¿Puedes hacerlo?",
+        "correct": "¡Falso! 🛑 La experticia técnica es CRUCIAL para la factibilidad. Puedes tener todo el dinero del mundo, pero si no sabes cómo hacer la cirugía o el análisis estadístico... el estudio es infactible.",
+        "incorrect": "¡Alerta! Es falso. La 'F' de Factible incluye *todo* lo logístico: tiempo, dinero, sujetos *y* la experticia técnica del equipo. ¿Puedes hacerlo?",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0019",
+      "tipo": "opcion_multiple",
+      "enunciado": "Los elementos de un planteamiento del problema incluyen:",
+      "opciones": [
+        "Identificación de variables, contexto y consecuencias",
+        "Enumerar referencias, biografía y anexos",
+        "Detalles de la metodología",
+        "Resultados esperados"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Identificación de variables, contexto y consecuencias» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Identificación de variables, contexto y consecuencias». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "correct": "¡Correcto! «Identificación de variables, contexto y consecuencias» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrect": "No es correcto. La respuesta acertada es «Identificación de variables, contexto y consecuencias». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0020",
+      "tipo": "opcion_multiple",
+      "enunciado": "Un problema adecuadamente formulado es:",
+      "opciones": [
+        "Amplio y ambiguo",
+        "Claro, conciso e investigable",
+        "Irrelevante para la ciencia",
+        "Redundante"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «Claro, conciso e investigable» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Claro, conciso e investigable». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "correct": "¡Correcto! «Claro, conciso e investigable» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrect": "No es correcto. La respuesta acertada es «Claro, conciso e investigable». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0021",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál de las siguientes NO forma parte del planteamiento del problema?",
+      "opciones": [
+        "Contextualización",
+        "Justificación",
+        "Solución detallada",
+        "Formulación de preguntas"
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "¡Correcto! «Solución detallada» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Solución detallada». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "correct": "¡Correcto! «Solución detallada» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrect": "No es correcto. La respuesta acertada es «Solución detallada». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0023",
+      "tipo": "opcion_multiple",
+      "enunciado": "El planteamiento del problema debe anclarse:",
+      "opciones": [
+        "En la imaginación del investigador",
+        "En la literatura existente y el contexto real",
+        "En opiniones personales",
+        "En datos no verificables"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «En la literatura existente y el contexto real» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «En la literatura existente y el contexto real». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "correct": "¡Correcto! «En la literatura existente y el contexto real» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrect": "No es correcto. La respuesta acertada es «En la literatura existente y el contexto real». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0024",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es un ejemplo de problema de investigación bien formulado?",
+      "opciones": [
+        "¿Cómo influye el tiempo de estudio en el rendimiento de estudiantes de psicología?",
+        "La motivación en la universidad",
+        "El aprendizaje y la memoria",
+        "¿Cuál es la importancia de la investigación?"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «¿Cómo influye el tiempo de estudio en el rendimiento de estudiantes de psicología?» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «¿Cómo influye el tiempo de estudio en el rendimiento de estudiantes de psicología?». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "correct": "¡Correcto! «¿Cómo influye el tiempo de estudio en el rendimiento de estudiantes de psicología?» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrect": "No es correcto. La respuesta acertada es «¿Cómo influye el tiempo de estudio en el rendimiento de estudiantes de psicología?». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0026",
+      "tipo": "verdadero_falso",
+      "enunciado": "La declaración del problema puede incluir los resultados esperados.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! La afirmación es **Falso**. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrecta": "Respuesta incorrecta (la opción correcta es **Falso**). El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "correct": "¡Correcto! La afirmación es **Falso**. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrect": "Respuesta incorrecta (la opción correcta es **Falso**). El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0029",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué es la 'formulación del problema'?",
+      "opciones": [
+        "La redacción de hipótesis alternativas",
+        "La identificación de variables",
+        "La formulación precisa de la pregunta que guiará la investigación",
+        "La determinación de los instrumentos"
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "¡Correcto! «La formulación precisa de la pregunta que guiará la investigación» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «La formulación precisa de la pregunta que guiará la investigación». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "correct": "¡Correcto! «La formulación precisa de la pregunta que guiará la investigación» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrect": "No es correcto. La respuesta acertada es «La formulación precisa de la pregunta que guiará la investigación». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0030",
+      "tipo": "opcion_multiple",
+      "enunciado": "La operacionalización implica:",
+      "opciones": [
+        "Determinar la muestra",
+        "Definir cómo se medirán las variables",
+        "Analizar los resultados",
+        "Elegir el título del estudio"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «Definir cómo se medirán las variables» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Definir cómo se medirán las variables». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "correct": "¡Correcto! «Definir cómo se medirán las variables» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrect": "No es correcto. La respuesta acertada es «Definir cómo se medirán las variables». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0031",
+      "tipo": "opcion_multiple",
+      "enunciado": "La función de la hipótesis es:",
+      "opciones": [
+        "Reemplazar la revisión bibliográfica",
+        "Guíar la recolección y análisis de datos",
+        "Resumir los resultados",
+        "Ser la conclusión del estudio"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «Guíar la recolección y análisis de datos» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Guíar la recolección y análisis de datos». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "correct": "¡Correcto! «Guíar la recolección y análisis de datos» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrect": "No es correcto. La respuesta acertada es «Guíar la recolección y análisis de datos». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0032",
+      "tipo": "opcion_multiple",
+      "enunciado": "Un problema demasiado estrecho puede conducir a:",
+      "opciones": [
+        "Una investigación profunda",
+        "Falta de datos suficientes",
+        "Mejor generalización",
+        "Mayor innovación"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «Falta de datos suficientes» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Falta de datos suficientes». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "correct": "¡Correcto! «Falta de datos suficientes» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrect": "No es correcto. La respuesta acertada es «Falta de datos suficientes». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0033",
+      "tipo": "opcion_multiple",
+      "enunciado": "La declaración del problema debe evitar:",
+      "opciones": [
+        "Ambigüedad",
+        "Claridad",
+        "Objetividad",
+        "Concisión"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Ambigüedad» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Ambigüedad». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "correct": "¡Correcto! «Ambigüedad» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrect": "No es correcto. La respuesta acertada es «Ambigüedad». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0034",
+      "tipo": "opcion_multiple",
+      "enunciado": "Según F. J. McGuigan, la manifestación de la falta de información suficiente ocurre por lo menos de tres maneras. ¿Cuál de las siguientes es una de ellas?",
+      "opciones": [
+        "La imposibilidad de definir operacionalmente una variable.",
+        "Cuando existe un 'hecho' como una pequeña porción de información que no tenemos explicación.",
+        "Cuando la pregunta se enfoca meramente en una enumeración de datos.",
+        "La dificultad para aplicar modelos PICO."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Esa es! 💡 A veces el problema no es que no haya datos, sino que hay un 'hecho' huérfano (ej: '¿por qué la gente hace X?') y no tenemos ni idea de por qué.",
+        "incorrecta": "Mmm, esas no son las que menciona McGuigan. Las 3 claves son: 1) una laguna, 2) resultados contradictorios, o 3) un hecho sin explicación. ¡Esta era la 3!",
+        "correct": "¡Esa es! 💡 A veces el problema no es que no haya datos, sino que hay un 'hecho' huérfano (ej: '¿por qué la gente hace X?') y no tenemos ni idea de por qué.",
+        "incorrect": "Mmm, esas no son las que menciona McGuigan. Las 3 claves son: 1) una laguna, 2) resultados contradictorios, o 3) un hecho sin explicación. ¡Esta era la 3!",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0035",
+      "tipo": "verdadero_falso",
+      "enunciado": "El criterio de Comprobabilidad Empírica (o ser 'soluble') exige que el problema permita realizar observaciones o mediciones en el mundo real que aporten evidencia para responder la pregunta.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Verdadero! Es la regla de oro. 🌎 Si tu pregunta no se puede responder midiendo, contando u observando algo en el *mundo real*, no es ciencia. Es filosofía o fe.",
+        "incorrecta": "¡Alerta! Es verdadero. 'Comprobable empíricamente' = 'se puede poner a prueba'. Si no puedes diseñar un experimento u observación, tu problema es 'insoluble' para la ciencia.",
+        "correct": "¡Verdadero! Es la regla de oro. 🌎 Si tu pregunta no se puede responder midiendo, contando u observando algo en el *mundo real*, no es ciencia. Es filosofía o fe.",
+        "incorrect": "¡Alerta! Es verdadero. 'Comprobable empíricamente' = 'se puede poner a prueba'. Si no puedes diseñar un experimento u observación, tu problema es 'insoluble' para la ciencia.",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0036",
+      "tipo": "opcion_multiple",
+      "enunciado": "Según los criterios fundamentales, la ciencia no se ocupa de estudiar variables aisladas, sino de entender cómo estas:",
+      "opciones": [
+        "Son expresadas mediante juicios de valor.",
+        "Se manifiestan de forma contemplativa.",
+        "Interactúan, se influencian o se asocian entre sí.",
+        "Se definen únicamente por sus conceptos constitutivos."
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "¡Ahí está! La ciencia es el estudio de las relaciones. 📈 No nos importa solo 'qué es la ansiedad', sino 'cómo la ansiedad *afecta* a la memoria'. ¡Buscamos la interacción!",
+        "incorrecta": "'Variables aisladas' es como coleccionar estampillas. La ciencia es entender *por qué* una estampilla está pegada a la otra (o cómo se relacionan).",
+        "correct": "¡Ahí está! La ciencia es el estudio de las relaciones. 📈 No nos importa solo 'qué es la ansiedad', sino 'cómo la ansiedad *afecta* a la memoria'. ¡Buscamos la interacción!",
+        "incorrect": "'Variables aisladas' es como coleccionar estampillas. La ciencia es entender *por qué* una estampilla está pegada a la otra (o cómo se relacionan).",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0037",
+      "tipo": "opcion_multiple",
+      "enunciado": "Una pregunta de valor, como '¿Es el capitalismo bueno?', no puede ser un problema científico porque:",
+      "opciones": [
+        "Requiere una definición operacional.",
+        "Busca optimizar un proceso técnico.",
+        "Es un juicio de valor que no puede responderse mediante observación empírica.",
+        "Es potencialmente comprobable, pero no al presente."
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "¡Preciso! 🧐 La ciencia no puede medir 'bondad'. Es un juicio de valor moral o filosófico. Podemos medir 'efectos del capitalismo en la pobreza', pero no si es 'bueno' o 'malo'.",
+        "incorrecta": "Nop. El problema no es la definición, es la *naturaleza* de la pregunta. 'Bueno' o 'malo' no se puede meter en un tubo de ensayo. No es empírico.",
+        "correct": "¡Preciso! 🧐 La ciencia no puede medir 'bondad'. Es un juicio de valor moral o filosófico. Podemos medir 'efectos del capitalismo en la pobreza', pero no si es 'bueno' o 'malo'.",
+        "incorrect": "Nop. El problema no es la definición, es la *naturaleza* de la pregunta. 'Bueno' o 'malo' no se puede meter en un tubo de ensayo. No es empírico.",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0038",
+      "tipo": "verdadero_falso",
+      "enunciado": "Uno de los errores frecuentes en la formulación de problemas es la 'Contaminación con el método', que consiste en incluir parte de la metodología en el propio enunciado del problema.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Verdadero! Es un error clásico. 😅 El *problema* es '¿Qué relación hay entre X e Y?'. El *método* es '...aplicando un cuestionario a 50 personas'. ¡No los mezcles en la pregunta!",
+        "incorrecta": "¡Cuidado, es verdadero! Es un error súper común. La pregunta debe ser pura. El 'cómo lo harás' (el método) viene después, en el diseño.",
+        "correct": "¡Verdadero! Es un error clásico. 😅 El *problema* es '¿Qué relación hay entre X e Y?'. El *método* es '...aplicando un cuestionario a 50 personas'. ¡No los mezcles en la pregunta!",
+        "incorrect": "¡Cuidado, es verdadero! Es un error súper común. La pregunta debe ser pura. El 'cómo lo harás' (el método) viene después, en el diseño.",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0039",
+      "tipo": "opcion_multiple",
+      "enunciado": "Cuando un problema es formulado como un dominio de interés vago, como 'Estudiar el desempeño de la enfermera', sin establecer relaciones o ser preciso, se incurre en el error de:",
+      "opciones": [
+        "Circularidad viciosa.",
+        "Falta de fundamento teórico.",
+        "Ambigüedad y falta de concreción.",
+        "Definiciones operacionales deficientes."
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "¡Totalmente! 'Estudiar el desempeño' no es una pregunta, es un tema de tesis. 😴 ¿Qué *del* desempeño? ¿Relacionado con *qué*? ¡Falta concreción!",
+        "incorrecta": "No es circular. Es simplemente... vago. Es como decir 'Voy a investigar sobre los carros'. Ajá, ¿pero *qué* de los carros? 🚗💨 Faltan las variables y la relación.",
+        "correct": "¡Totalmente! 'Estudiar el desempeño' no es una pregunta, es un tema de tesis. 😴 ¿Qué *del* desempeño? ¿Relacionado con *qué*? ¡Falta concreción!",
+        "incorrect": "No es circular. Es simplemente... vago. Es como decir 'Voy a investigar sobre los carros'. Ajá, ¿pero *qué* de los carros? 🚗💨 Faltan las variables y la relación.",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0040",
+      "tipo": "verdadero_falso",
+      "enunciado": "El modelo PECO es una adaptación del PICO y se usa para diseños observacionales, sustituyendo la Intervención por la Exposición a un factor.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Verdadero! ☣️ Cuando no puedes *intervenir* (ej. no puedes obligar a la gente a fumar), usas PECO. La 'I' de Intervención se cambia por la 'E' de **Exposición**.",
+        "incorrecta": "Es verdadero. Es la adaptación perfecta del PICO para estudios observacionales (como los epidemiológicos), donde solo puedes 'observar' si la gente estuvo expuesta.",
+        "correct": "¡Verdadero! ☣️ Cuando no puedes *intervenir* (ej. no puedes obligar a la gente a fumar), usas PECO. La 'I' de Intervención se cambia por la 'E' de **Exposición**.",
+        "incorrect": "Es verdadero. Es la adaptación perfecta del PICO para estudios observacionales (como los epidemiológicos), donde solo puedes 'observar' si la gente estuvo expuesta.",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0041",
+      "tipo": "verdadero_falso",
+      "enunciado": "El modelo SPIDER está diseñado para reflejar la naturaleza exploratoria y se utiliza principalmente en la investigación cualitativa o de métodos mixtos.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Verdadero! 🕷️ SPIDER es el PICO del mundo cualitativo. Está hecho para explorar experiencias y percepciones, no para medir intervenciones numéricas.",
+        "incorrecta": "Es verdadero. Si ves SPIDER, piensa en 'cualitativo' o 'mixto'. Es la herramienta para preguntas exploratorias sobre experiencias y percepciones.",
+        "correct": "¡Verdadero! 🕷️ SPIDER es el PICO del mundo cualitativo. Está hecho para explorar experiencias y percepciones, no para medir intervenciones numéricas.",
+        "incorrect": "Es verdadero. Si ves SPIDER, piensa en 'cualitativo' o 'mixto'. Es la herramienta para preguntas exploratorias sobre experiencias y percepciones.",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0042",
+      "tipo": "verdadero_falso",
+      "enunciado": "El error de 'Formulación acrítica o meramente contemplativa' viola el criterio de Kerlinger porque no busca una relación entre variables, limitándose a una enumeración de datos.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Verdadero! 🥱 Una pregunta 'contemplativa' (ej. '¿Cuánta gente usa el metro?') es solo pedir un dato. No relaciona variables (criterio de Kerlinger). La ciencia busca *relaciones*.",
+        "incorrecta": "Es verdadero. Es un error porque es solo 'descriptivo' básico. La ciencia de verdad empieza cuando preguntas '¿El *uso del metro* se relaciona con el *nivel de estrés*?'.",
+        "correct": "¡Verdadero! 🥱 Una pregunta 'contemplativa' (ej. '¿Cuánta gente usa el metro?') es solo pedir un dato. No relaciona variables (criterio de Kerlinger). La ciencia busca *relaciones*.",
+        "incorrect": "Es verdadero. Es un error porque es solo 'descriptivo' básico. La ciencia de verdad empieza cuando preguntas '¿El *uso del metro* se relaciona con el *nivel de estrés*?'.",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0043",
+      "tipo": "verdadero_falso",
+      "enunciado": "Se considera que un problema es 'posible al presente' si la solución de la tarea es factible con los métodos de investigación de los que se dispone inmediatamente.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Verdadero! Es una definición práctica. 'Posible al presente' = 'Tenemos las herramientas *hoy* para hacerlo'. 🛠️ Lo de viajar a Marte era 'insoluble' en 1950, pero 'posible al presente' hoy.",
+        "incorrecta": "¡Cuidado, es verdadero! Es la definición literal. Si los métodos y herramientas existen *ahora*, es 'posible al presente'.",
+        "correct": "¡Verdadero! Es una definición práctica. 'Posible al presente' = 'Tenemos las herramientas *hoy* para hacerlo'. 🛠️ Lo de viajar a Marte era 'insoluble' en 1950, pero 'posible al presente' hoy.",
+        "incorrect": "¡Cuidado, es verdadero! Es la definición literal. Si los métodos y herramientas existen *ahora*, es 'posible al presente'.",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0044",
+      "tipo": "verdadero_falso",
+      "enunciado": "El criterio de 'Novedoso' (N) en FINER obliga al investigador a asegurarse de que su pregunta no sea una replicación inútil o una especulación teóricamente infundamentada.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Verdadero! 💡 La 'N' de Novedoso no es solo 'ser original'. Es evitar replicar algo inútilmente. La ciencia avanza, no da vueltas en el mismo sitio.",
+        "incorrecta": "Es verdadero. La ciencia es construir sobre lo que ya existe. Si tu pregunta ya está mega-respondida, o es una idea loca sin fundamento... no pasa el filtro 'N'.",
+        "correct": "¡Verdadero! 💡 La 'N' de Novedoso no es solo 'ser original'. Es evitar replicar algo inútilmente. La ciencia avanza, no da vueltas en el mismo sitio.",
+        "incorrect": "Es verdadero. La ciencia es construir sobre lo que ya existe. Si tu pregunta ya está mega-respondida, o es una idea loca sin fundamento... no pasa el filtro 'N'.",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0045",
+      "tipo": "opcion_multiple",
+      "enunciado": "La diferencia entre 'planteamiento' y 'formulación' del problema es que:",
+      "opciones": [
+        "Planteamiento describe y contextualiza; formulación lo enuncia como pregunta",
+        "No hay diferencia",
+        "Formulación se hace primero y planteamiento después",
+        "Planteamiento incluye hipótesis"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Planteamiento describe y contextualiza; formulación lo enuncia como pregunta» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Planteamiento describe y contextualiza; formulación lo enuncia como pregunta». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "correct": "¡Correcto! «Planteamiento describe y contextualiza; formulación lo enuncia como pregunta» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrect": "No es correcto. La respuesta acertada es «Planteamiento describe y contextualiza; formulación lo enuncia como pregunta». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0046",
+      "tipo": "opcion_multiple",
+      "enunciado": "La **definición operacional** se distingue porque esencialmente especifica:",
+      "opciones": [
+        "Las consecuencias filosóficas de la hipótesis.",
+        "Las actividades u 'operaciones' necesarias para registrar y medir un fenómeno.",
+        "La delimitación del aporte real del estudio.",
+        "El consenso teórico entre los investigadores."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Definición de oro! 💡 'Operacional' = 'con qué operaciones mido esto'. No es la idea ('ansiedad'), es la acción ('número de palpitaciones por minuto' o 'puntos en el test X').",
+        "incorrecta": "No es filosófico ni un consenso. Es la 'receta' exacta 📜. ¿Cómo conviertes tu concepto abstracto (inteligencia) en un número (puntos en un test)? Eso es operacionalizar.",
+        "correct": "¡Definición de oro! 💡 'Operacional' = 'con qué operaciones mido esto'. No es la idea ('ansiedad'), es la acción ('número de palpitaciones por minuto' o 'puntos en el test X').",
+        "incorrect": "No es filosófico ni un consenso. Es la 'receta' exacta 📜. ¿Cómo conviertes tu concepto abstracto (inteligencia) en un número (puntos en un test)? Eso es operacionalizar.",
+        "origen": "original"
+      },
+      "dificultad": 3,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0047",
+      "tipo": "opcion_multiple",
+      "enunciado": "Cuando se utiliza un razonamiento sofístico de 'circularidad viciosa', el problema es considerado irresoluble porque:",
+      "opciones": [
+        "La hipótesis se formula como una afirmación declaratoria.",
+        "La pregunta se basa en la respuesta, sin recurrir a información externa que la sustente.",
+        "Se utilizan variables solamente con dos valores (dicotómicas).",
+        "El problema es potencialmente comprobable, pero no al presente."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Exacto! 🔄 Es una trampa lógica. '¿Por qué la gente fuma? Porque es adicta'. '¿Y cómo sabes que es adicta? Porque fuma'. No sales de ahí. No hay dato externo.",
+        "incorrecta": "Nop. Es un problema de lógica, no de formato. La 'circularidad viciosa' es un 'loop' donde la pregunta ya asume la respuesta. Es irresoluble.",
+        "correct": "¡Exacto! 🔄 Es una trampa lógica. '¿Por qué la gente fuma? Porque es adicta'. '¿Y cómo sabes que es adicta? Porque fuma'. No sales de ahí. No hay dato externo.",
+        "incorrect": "Nop. Es un problema de lógica, no de formato. La 'circularidad viciosa' es un 'loop' donde la pregunta ya asume la respuesta. Es irresoluble.",
+        "origen": "original"
+      },
+      "dificultad": 3,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0049",
+      "tipo": "opcion_multiple",
+      "enunciado": "Un problema que se mantiene irresoluble porque, aunque sus términos se definan operacionalmente, los científicos no saben especificar cómo obtener los datos necesarios, ilustra la razón de:",
+      "opciones": [
+        "Definiciones inadecuadas.",
+        "Imposibilidad de obtener datos relevantes.",
+        "Circularidad viciosa.",
+        "Resultados contradictorios."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Así es! 🛸 A veces la pregunta es genial (ej. '¿Hay vida inteligente en la galaxia X?'), pero no tenemos la *tecnología* (los datos) para responderla. Es irresoluble... por ahora.",
+        "incorrecta": "No es circularidad ni mala definición. La pregunta es clara, pero es 'imposible al presente'. No tenemos la nave espacial (los datos) para ir a ver.",
+        "correct": "¡Así es! 🛸 A veces la pregunta es genial (ej. '¿Hay vida inteligente en la galaxia X?'), pero no tenemos la *tecnología* (los datos) para responderla. Es irresoluble... por ahora.",
+        "incorrect": "No es circularidad ni mala definición. La pregunta es clara, pero es 'imposible al presente'. No tenemos la nave espacial (los datos) para ir a ver.",
+        "origen": "original"
+      },
+      "dificultad": 3,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0050",
+      "tipo": "opcion_multiple",
+      "enunciado": "En el modelo SPIDER, la 'E' (Evaluation/Evaluación) se refiere a:",
+      "opciones": [
+        "El diseño de la investigación (cualitativo o mixto).",
+        "La Exposición a un factor de riesgo.",
+        "Los resultados subjetivos, como puntos de vista, opiniones o experiencias.",
+        "El número adecuado de sujetos."
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "¡Difícil, pero la tienes! 🧠 En SPIDER, la 'E' no es un 'Outcome' numérico, es la **Evaluación** de los resultados subjetivos: las experiencias, opiniones, sentimientos...",
+        "incorrecta": "Nop. 'Exposición' es de PECO. En SPIDER, la 'E' (Evaluation) es el corazón cualitativo: ¿qué *experiencias* o *puntos de vista* estamos buscando? 🗣️",
+        "correct": "¡Difícil, pero la tienes! 🧠 En SPIDER, la 'E' no es un 'Outcome' numérico, es la **Evaluación** de los resultados subjetivos: las experiencias, opiniones, sentimientos...",
+        "incorrect": "Nop. 'Exposición' es de PECO. En SPIDER, la 'E' (Evaluation) es el corazón cualitativo: ¿qué *experiencias* o *puntos de vista* estamos buscando? 🗣️",
+        "origen": "original"
+      },
+      "dificultad": 3,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0051",
+      "tipo": "opcion_multiple",
+      "enunciado": "Un problema de investigación debe formularse de modo que sea...",
+      "opciones": [
+        "susceptible de comprobación empírica",
+        "una descripción narrativa del fenómeno",
+        "una opinión razonada",
+        "una hipótesis implícita"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «susceptible de comprobación empírica» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «susceptible de comprobación empírica». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "correct": "¡Correcto! «susceptible de comprobación empírica» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrect": "No es correcto. La respuesta acertada es «susceptible de comprobación empírica». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0052",
+      "tipo": "opcion_multiple",
+      "enunciado": "En la estructura lógica, el problema antecede a...",
+      "opciones": [
+        "los objetivos e hipótesis",
+        "la selección de muestra",
+        "la discusión de resultados",
+        "la revisión bibliográfica"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «los objetivos e hipótesis» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «los objetivos e hipótesis». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "correct": "¡Correcto! «los objetivos e hipótesis» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrect": "No es correcto. La respuesta acertada es «los objetivos e hipótesis». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0053",
+      "tipo": "opcion_multiple",
+      "enunciado": "Formular correctamente un problema de investigación requiere...",
+      "opciones": [
+        "precisión conceptual y delimitación empírica",
+        "usar lenguaje valorativo",
+        "incluir supuestos éticos",
+        "definir resultados esperados"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «precisión conceptual y delimitación empírica» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «precisión conceptual y delimitación empírica». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "correct": "¡Correcto! «precisión conceptual y delimitación empírica» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrect": "No es correcto. La respuesta acertada es «precisión conceptual y delimitación empírica». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0055",
+      "tipo": "verdadero_falso",
+      "enunciado": "Las preguntas que incluyen juicios morales son científicamente válidas.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! La afirmación es **Falso**. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrecta": "Respuesta incorrecta (la opción correcta es **Falso**). El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "correct": "¡Correcto! La afirmación es **Falso**. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrect": "Respuesta incorrecta (la opción correcta es **Falso**). El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 1,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0056",
+      "tipo": "verdadero_falso",
+      "enunciado": "Formular el problema después de la recolección de datos mejora la validez interna.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! La afirmación es **Falso**. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrecta": "Respuesta incorrecta (la opción correcta es **Falso**). El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "correct": "¡Correcto! La afirmación es **Falso**. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrect": "Respuesta incorrecta (la opción correcta es **Falso**). El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0057",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cómo se define un problema de investigación científica?",
+      "opciones": [
+        "Un enunciado que plantea una duda o pregunta que puede ser investigada empíricamente.",
+        "Una conclusión obtenida a partir de la observación.",
+        "Una afirmación sin posibilidad de ser investigada.",
+        "Una suposición basada en teorías filosóficas."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Un enunciado que plantea una duda o pregunta que puede ser investigada empíricamente.» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Un enunciado que plantea una duda o pregunta que puede ser investigada empíricamente.». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "correct": "¡Correcto! «Un enunciado que plantea una duda o pregunta que puede ser investigada empíricamente.» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrect": "No es correcto. La respuesta acertada es «Un enunciado que plantea una duda o pregunta que puede ser investigada empíricamente.». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0058",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿De dónde suelen surgir los problemas de investigación científica?",
+      "opciones": [
+        "De la observación de fenómenos naturales o el análisis de estudios previos.",
+        "De suposiciones personales del investigador.",
+        "De discusiones filosóficas sin base empírica.",
+        "De opiniones sin respaldo teórico."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «De la observación de fenómenos naturales o el análisis de estudios previos.» es la respuesta adecuada. En el enfoque científico, la evidencia empírica proviene de observaciones y registros sistemáticos de la realidad que permiten contrastar las conjeturas teóricas.",
+        "incorrecta": "No es correcto. La respuesta acertada es «De la observación de fenómenos naturales o el análisis de estudios previos.». En el enfoque científico, la evidencia empírica proviene de observaciones y registros sistemáticos de la realidad que permiten contrastar las conjeturas teóricas. Distingue entre datos observables y verificables (evidencia empírica) frente a opiniones personales o suposiciones sin contrastar.",
+        "correct": "¡Correcto! «De la observación de fenómenos naturales o el análisis de estudios previos.» es la respuesta adecuada. En el enfoque científico, la evidencia empírica proviene de observaciones y registros sistemáticos de la realidad que permiten contrastar las conjeturas teóricas.",
+        "incorrect": "No es correcto. La respuesta acertada es «De la observación de fenómenos naturales o el análisis de estudios previos.». En el enfoque científico, la evidencia empírica proviene de observaciones y registros sistemáticos de la realidad que permiten contrastar las conjeturas teóricas. Distingue entre datos observables y verificables (evidencia empírica) frente a opiniones personales o suposiciones sin contrastar.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0059",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es una característica clave de un buen problema de investigación?",
+      "opciones": [
+        "Ser difícil de entender.",
+        "Ser empírico y susceptible de ser investigado.",
+        "Plantear una conclusión definitiva.",
+        "No necesitar validación empírica."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «Ser empírico y susceptible de ser investigado.» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Ser empírico y susceptible de ser investigado.». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "correct": "¡Correcto! «Ser empírico y susceptible de ser investigado.» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrect": "No es correcto. La respuesta acertada es «Ser empírico y susceptible de ser investigado.». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0060",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cómo deben ser los problemas de investigación para ser científicos?",
+      "opciones": [
+        "Deben tener soluciones filosóficas.",
+        "Deben ser claros, precisos y posibles de investigar.",
+        "Deben ser formulados sin referencia a teorías anteriores.",
+        "Deben basarse en opiniones subjetivas."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «Deben ser claros, precisos y posibles de investigar.» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Deben ser claros, precisos y posibles de investigar.». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "correct": "¡Correcto! «Deben ser claros, precisos y posibles de investigar.» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrect": "No es correcto. La respuesta acertada es «Deben ser claros, precisos y posibles de investigar.». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0061",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué distingue a un problema de investigación general de uno específico?",
+      "opciones": [
+        "Los problemas generales no requieren verificación empírica.",
+        "Los problemas específicos están claramente delimitados y son más manejables.",
+        "Los problemas generales son siempre más fáciles de resolver.",
+        "No existe diferencia significativa entre ambos."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «Los problemas específicos están claramente delimitados y son más manejables.» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Los problemas específicos están claramente delimitados y son más manejables.». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "correct": "¡Correcto! «Los problemas específicos están claramente delimitados y son más manejables.» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrect": "No es correcto. La respuesta acertada es «Los problemas específicos están claramente delimitados y son más manejables.». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0062",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál de las siguientes opciones describe mejor una dificultad al plantear problemas de investigación?",
+      "opciones": [
+        "La falta de acceso a recursos tecnológicos avanzados.",
+        "Definir un problema que sea demasiado amplio o vago.",
+        "La necesidad de formular conclusiones al principio del estudio.",
+        "La incapacidad de encontrar teorías que respalden el problema."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «Definir un problema que sea demasiado amplio o vago.» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Definir un problema que sea demasiado amplio o vago.». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "correct": "¡Correcto! «Definir un problema que sea demasiado amplio o vago.» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrect": "No es correcto. La respuesta acertada es «Definir un problema que sea demasiado amplio o vago.». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0063",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Por qué es importante que un problema de investigación esté delimitado?",
+      "opciones": [
+        "Para hacer más complejo el análisis.",
+        "Para facilitar la formulación de hipótesis y objetivos claros.",
+        "Para asegurarse de que no se requiere verificación empírica.",
+        "Para garantizar que no se utilicen teorías en la investigación."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «Para facilitar la formulación de hipótesis y objetivos claros.» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Para facilitar la formulación de hipótesis y objetivos claros.». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "correct": "¡Correcto! «Para facilitar la formulación de hipótesis y objetivos claros.» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrect": "No es correcto. La respuesta acertada es «Para facilitar la formulación de hipótesis y objetivos claros.». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0064",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cómo influye la observación en la formulación de problemas de investigación?",
+      "opciones": [
+        "Permite generar preguntas basadas en fenómenos reales observables.",
+        "Elimina la necesidad de realizar hipótesis.",
+        "Reduce la importancia del marco teórico.",
+        "Facilita la recolección de datos antes de plantear el problema."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Permite generar preguntas basadas en fenómenos reales observables.» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Permite generar preguntas basadas en fenómenos reales observables.». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "correct": "¡Correcto! «Permite generar preguntas basadas en fenómenos reales observables.» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrect": "No es correcto. La respuesta acertada es «Permite generar preguntas basadas en fenómenos reales observables.». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0065",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué relación existe entre el problema de investigación y la hipótesis?",
+      "opciones": [
+        "El problema de investigación no influye en la formulación de la hipótesis.",
+        "El problema de investigación guía la formulación de la hipótesis.",
+        "El problema surge después de que se ha probado la hipótesis.",
+        "No existe ninguna relación entre ambos conceptos."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «El problema de investigación guía la formulación de la hipótesis.» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «El problema de investigación guía la formulación de la hipótesis.». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "correct": "¡Correcto! «El problema de investigación guía la formulación de la hipótesis.» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrect": "No es correcto. La respuesta acertada es «El problema de investigación guía la formulación de la hipótesis.». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0066",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es una de las dificultades principales al delimitar un problema de investigación?",
+      "opciones": [
+        "Hacerlo demasiado específico y perder relevancia.",
+        "Mantenerlo muy general para evitar errores.",
+        "Hacerlo demasiado simple y fácil de investigar.",
+        "No tener en cuenta las variables relevantes."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Hacerlo demasiado específico y perder relevancia.» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Hacerlo demasiado específico y perder relevancia.». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "correct": "¡Correcto! «Hacerlo demasiado específico y perder relevancia.» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrect": "No es correcto. La respuesta acertada es «Hacerlo demasiado específico y perder relevancia.». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0067",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es una forma adecuada de formular un problema de investigación?",
+      "opciones": [
+        "Como una declaración vaga.",
+        "Como una pregunta clara y precisa.",
+        "Como una afirmación sin necesidad de comprobación empírica.",
+        "Como una suposición teórica."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «Como una pregunta clara y precisa.» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Como una pregunta clara y precisa.». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "correct": "¡Correcto! «Como una pregunta clara y precisa.» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrect": "No es correcto. La respuesta acertada es «Como una pregunta clara y precisa.». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0068",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Por qué es importante que el problema de investigación sea relevante para el campo de estudio?",
+      "opciones": [
+        "Porque garantiza la aceptación inmediata de los resultados.",
+        "Porque permite que los resultados sean aplicables y útiles.",
+        "Porque elimina la necesidad de un marco teórico.",
+        "Porque facilita la creación de teorías sin prueba empírica."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «Porque permite que los resultados sean aplicables y útiles.» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Porque permite que los resultados sean aplicables y útiles.». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "correct": "¡Correcto! «Porque permite que los resultados sean aplicables y útiles.» es la respuesta adecuada. El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables.",
+        "incorrect": "No es correcto. La respuesta acertada es «Porque permite que los resultados sean aplicables y útiles.». El planteamiento del problema articula contexto, evidencia previa, vacío de conocimiento y relevancia, desembocando en preguntas claras, delimitadas y empíricamente investigables. Verifica los tres criterios de Kerlinger para el problema: relación entre variables (o caracterización precisa), formulación clara como pregunta y posibilidad de prueba empírica.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0069",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué define principalmente a un problema de investigación científica?",
+      "opciones": [
+        "Que sea interesante para el investigador",
+        "Que sea una situación no resuelta formulada como pregunta",
+        "Que tenga una solución inmediata",
+        "Que surja de la intuición personal"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Correcto. El problema científico se formula como una pregunta investigable.",
+        "incorrecta": "Revisá la definición de problema de investigación. La opción correcta es: «Que sea una situación no resuelta formulada como pregunta».",
+        "correct": "Correcto. El problema científico se formula como una pregunta investigable.",
+        "incorrect": "Revisá la definición de problema de investigación. La opción correcta es: «Que sea una situación no resuelta formulada como pregunta».",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m04-0070",
+      "tipo": "opcion_multiple",
+      "enunciado": "Un problema de investigación bien formulado debe ser:",
+      "opciones": [
+        "Amplio e indefinido",
+        "Claro y delimitado",
+        "Abstracto e impreciso",
+        "Independiente de la teoría"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Exacto. La claridad y delimitación son condiciones básicas.",
+        "incorrecta": "Pensá en qué facilita el diseño metodológico. La opción correcta es: «Claro y delimitado».",
+        "correct": "Exacto. La claridad y delimitación son condiciones básicas.",
+        "incorrect": "Pensá en qué facilita el diseño metodológico. La opción correcta es: «Claro y delimitado».",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "problema",
+      "lectura_ref": "assets/reading/3a. Problemas e Hipótesis - Kerlinger y Lee Cap. 2.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    }
+  ]
+}

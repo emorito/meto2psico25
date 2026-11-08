@@ -1,0 +1,807 @@
+[
+  {
+    "id": "m01-fc-0001",
+    "modulo_id": "m01",
+    "frente": "¿Qué se entiende por ciencia?",
+    "dorso": "La ciencia es una forma sistemática de producir conocimiento mediante procedimientos controlados, públicos y fundamentados racionalmente.",
+    "tag": "Ciencia y conocimiento"
+  },
+  {
+    "id": "m01-fc-0002",
+    "modulo_id": "m01",
+    "frente": "¿Qué es el método científico?",
+    "dorso": "Es un conjunto organizado de procedimientos lógicos y empíricos orientados a la producción de conocimiento válido y controlable.",
+    "tag": "Método científico"
+  },
+  {
+    "id": "m01-fc-0003",
+    "modulo_id": "m01",
+    "frente": "Ciencia y sentido común",
+    "dorso": "El sentido común se basa en creencias no sistemáticas; la ciencia se apoya en procedimientos explícitos, controlados y verificables.",
+    "tag": "Enfoque científico"
+  },
+  {
+    "id": "m01-fc-0004",
+    "modulo_id": "m01",
+    "frente": "Conocimiento científico",
+    "dorso": "Es un conocimiento provisional, sistemático, crítico y susceptible de revisión.",
+    "tag": "Ciencia y conocimiento"
+  },
+  {
+    "id": "m01-fc-0005",
+    "modulo_id": "m01",
+    "frente": "Rol de la teoría en la ciencia",
+    "dorso": "La teoría orienta la observación, la formulación de problemas y la interpretación de los resultados.",
+    "tag": "Método científico"
+  },
+  {
+    "id": "m01-fc-0006",
+    "modulo_id": "m01",
+    "frente": "¿Por qué el conocimiento científico es provisional?",
+    "dorso": "Porque está abierto a revisión a la luz de nueva evidencia o mejores explicaciones.",
+    "tag": "Enfoque científico"
+  },
+  {
+    "id": "m01-fc-0007",
+    "modulo_id": "m01",
+    "frente": "Objetividad científica",
+    "dorso": "No implica ausencia de valores, sino control sistemático de sesgos mediante procedimientos metodológicos.",
+    "tag": "Ciencia y conocimiento"
+  },
+  {
+    "id": "m01-fc-0008",
+    "modulo_id": "m01",
+    "frente": "Investigación científica",
+    "dorso": "Es un proceso planificado y riguroso orientado a responder preguntas mediante el uso del método científico.",
+    "tag": "Método científico"
+  },
+  {
+    "id": "m01-fc-0009",
+    "modulo_id": "m01",
+    "frente": "Método científico y disciplina",
+    "dorso": "El método científico es común a las ciencias, pero se adapta a las características de cada disciplina.",
+    "tag": "Enfoque científico"
+  },
+  {
+    "id": "m01-fc-0010",
+    "modulo_id": "m01",
+    "frente": "Error común sobre el método científico",
+    "dorso": "Creer que es una secuencia rígida e inmutable de pasos, cuando en realidad es un proceso flexible y lógico.",
+    "tag": "Ciencia y conocimiento"
+  },
+  {
+    "id": "m02-fc-0001",
+    "modulo_id": "m02",
+    "frente": "¿Qué diferencia hay entre campo, tema y problema?",
+    "dorso": "El campo es el área amplia (ej. Psicología Educativa); el tema recorta un fenómeno de interés; el problema formula una incógnita empírica precisa y respaldada por literatura.",
+    "tag": "Delimitación"
+  },
+  {
+    "id": "m02-fc-0002",
+    "modulo_id": "m02",
+    "frente": "Factores subjetivos en la elección del tema",
+    "dorso": "Condiciones vinculadas a la persona que investiga: interés genuino, formación previa, dominio de lectura técnica y disponibilidad real de tiempo.",
+    "tag": "Elección"
+  },
+  {
+    "id": "m02-fc-0003",
+    "modulo_id": "m02",
+    "frente": "Factores objetivos en la elección del tema",
+    "dorso": "Condiciones externas verificables: existencia de fuentes académicas, acceso factible a la población o corpus, viabilidad ética/material y relevancia disciplinar.",
+    "tag": "Elección"
+  },
+  {
+    "id": "m02-fc-0004",
+    "modulo_id": "m02",
+    "frente": "Los 4 ejes de la delimitación",
+    "dorso": "1) Fenómeno o constructos centrales; 2) Población o unidades de análisis; 3) Espacio o contexto institucional/geográfico; 4) Periodo temporal.",
+    "tag": "Delimitación"
+  },
+  {
+    "id": "m02-fc-0005",
+    "modulo_id": "m02",
+    "frente": "Operador booleano OR",
+    "dorso": "Conecta sinónimos, variantes o traducciones de un mismo concepto y AMPLÍA los resultados (ej. \"redes sociales\" OR \"social media\").",
+    "tag": "Búsqueda"
+  },
+  {
+    "id": "m02-fc-0006",
+    "modulo_id": "m02",
+    "frente": "Operador booleano AND",
+    "dorso": "Intersecta conceptos distintos que deben aparecer simultáneamente y RESTRINGE los resultados para ganar precisión (ej. ansiedad AND universitarios).",
+    "tag": "Búsqueda"
+  },
+  {
+    "id": "m02-fc-0007",
+    "modulo_id": "m02",
+    "frente": "Operador booleano NOT y comillas (\" \")",
+    "dorso": "Las comillas exigen la frase exacta; NOT excluye términos ruidosos (debe usarse con cautela para no borrar estudios relevantes).",
+    "tag": "Búsqueda"
+  },
+  {
+    "id": "m02-fc-0008",
+    "modulo_id": "m02",
+    "frente": "Búsqueda por capas",
+    "dorso": "Estrategia que inicia con los 2 conceptos nucleares, identifica el vocabulario del campo y luego añade población, contexto y filtros de año para no obtener falsos ceros.",
+    "tag": "Búsqueda"
+  },
+  {
+    "id": "m02-fc-0009",
+    "modulo_id": "m02",
+    "frente": "Protocolo VERA para uso de IA",
+    "dorso": "V: Ver la fuente original; E: Examinar correspondencia en texto/tablas; R: Revisar alcance sin exagerar causalidad; A: Anotar el uso en la declaración.",
+    "tag": "IA responsable"
+  },
+  {
+    "id": "m02-fc-0010",
+    "modulo_id": "m02",
+    "frente": "¿Por qué no pedir a un chatbot \"dame 10 referencias\"?",
+    "dorso": "Los modelos de lenguaje generan texto por probabilidad y pueden \"alucinar\" títulos, autores o DOIs inexistentes. Las fuentes se buscan en bases académicas reales.",
+    "tag": "IA responsable"
+  },
+  {
+    "id": "m02-fc-0011",
+    "modulo_id": "m02",
+    "frente": "Declaración mínima de uso de IA (Plan 2026)",
+    "dorso": "Debe transparentar: 1) herramienta utilizada, 2) propósito específico, 3) sección afectada, 4) modo de verificación y 5) decisión final del estudiante.",
+    "tag": "IA responsable"
+  },
+  {
+    "id": "m03-fc-0001",
+    "modulo_id": "m03",
+    "frente": "¿Qué se entiende por teoría científica?",
+    "dorso": "Una teoría es un sistema organizado de conceptos y proposiciones que explica y predice fenómenos.",
+    "tag": "Revisión de literatura"
+  },
+  {
+    "id": "m03-fc-0002",
+    "modulo_id": "m03",
+    "frente": "Función principal de la teoría en investigación",
+    "dorso": "Orientar la formulación del problema, las hipótesis, las variables y la interpretación de los resultados.",
+    "tag": "Teoría y marcos"
+  },
+  {
+    "id": "m03-fc-0003",
+    "modulo_id": "m03",
+    "frente": "Teoría y observación",
+    "dorso": "La observación no es neutral: siempre está guiada por supuestos teóricos.",
+    "tag": "Antecedentes"
+  },
+  {
+    "id": "m03-fc-0004",
+    "modulo_id": "m03",
+    "frente": "¿Qué es la revisión de la literatura?",
+    "dorso": "Es un proceso sistemático de búsqueda, análisis y síntesis de investigaciones previas relevantes.",
+    "tag": "Vacío de conocimiento"
+  },
+  {
+    "id": "m03-fc-0005",
+    "modulo_id": "m03",
+    "frente": "Objetivo de la revisión de la literatura",
+    "dorso": "Identificar el estado del conocimiento, vacíos teóricos y antecedentes del problema.",
+    "tag": "Revisión de literatura"
+  },
+  {
+    "id": "m03-fc-0006",
+    "modulo_id": "m03",
+    "frente": "Error frecuente en la revisión de literatura",
+    "dorso": "Limitarse a resumir textos sin analizarlos críticamente.",
+    "tag": "Teoría y marcos"
+  },
+  {
+    "id": "m03-fc-0007",
+    "modulo_id": "m03",
+    "frente": "Relación entre teoría y problema de investigación",
+    "dorso": "La teoría proporciona el marco conceptual desde el cual se formula el problema.",
+    "tag": "Antecedentes"
+  },
+  {
+    "id": "m03-fc-0008",
+    "modulo_id": "m03",
+    "frente": "Marco teórico",
+    "dorso": "Es la articulación de teorías, conceptos y antecedentes que sustentan una investigación.",
+    "tag": "Vacío de conocimiento"
+  },
+  {
+    "id": "m03-fc-0009",
+    "modulo_id": "m03",
+    "frente": "Revisión narrativa vs. revisión sistemática",
+    "dorso": "La revisión narrativa es descriptiva; la sistemática sigue criterios explícitos y controlados.",
+    "tag": "Revisión de literatura"
+  },
+  {
+    "id": "m03-fc-0010",
+    "modulo_id": "m03",
+    "frente": "¿Por qué la teoría no es decorativa?",
+    "dorso": "Porque cumple una función explicativa y orientadora, no meramente formal.",
+    "tag": "Teoría y marcos"
+  },
+  {
+    "id": "m04-fc-0001",
+    "modulo_id": "m04",
+    "frente": "¿Qué es un problema de investigación?",
+    "dorso": "Es una pregunta formulada de manera clara y precisa que expresa una situación no resuelta y susceptible de investigación científica.",
+    "tag": "Planteamiento del problema"
+  },
+  {
+    "id": "m04-fc-0002",
+    "modulo_id": "m04",
+    "frente": "Características de un buen problema de investigación",
+    "dorso": "Debe ser claro, delimitado, relevante, viable y fundamentado teóricamente.",
+    "tag": "Preguntas de investigación"
+  },
+  {
+    "id": "m04-fc-0003",
+    "modulo_id": "m04",
+    "frente": "Problema científico vs. problema práctico",
+    "dorso": "El problema científico busca explicar fenómenos; el problema práctico busca intervenir o resolver situaciones concretas.",
+    "tag": "Justificación y viabilidad"
+  },
+  {
+    "id": "m04-fc-0004",
+    "modulo_id": "m04",
+    "frente": "Los 3 criterios de Kerlinger para un buen problema",
+    "dorso": "1) Expresar una relación entre dos o más variables (o caracterizar un fenómeno); 2) Formularse claramente y sin ambigüedad como pregunta; 3) Permitir prueba empírica.",
+    "tag": "Problema"
+  },
+  {
+    "id": "m04-fc-0005",
+    "modulo_id": "m04",
+    "frente": "Secuencia argumentativa del planteamiento",
+    "dorso": "Contexto del fenómeno → Evidencia previa (antecedentes) → Vacío o límite identificado → Relevancia del estudio → Delimitación y pregunta central.",
+    "tag": "Planteamiento"
+  },
+  {
+    "id": "m04-fc-0006",
+    "modulo_id": "m04",
+    "frente": "Situación problemática vs. problema de investigación",
+    "dorso": "La situación problemática es una dificultad práctica observable (ej. deserción en 1.er año); el problema de investigación es la incógnita cognitiva sobre qué factores la explican o caracterizan.",
+    "tag": "Problema"
+  },
+  {
+    "id": "m04-fc-0007",
+    "modulo_id": "m04",
+    "frente": "¿Por qué las preguntas de \"Sí / No\" son deficientes?",
+    "dorso": "Porque cierran la indagación de forma dicotómica y no especifican qué dimensión, magnitud, patrón o dirección de la relación se busca establecer.",
+    "tag": "Preguntas"
+  },
+  {
+    "id": "m04-fc-0008",
+    "modulo_id": "m04",
+    "frente": "¿Por qué un dilema moral o de valor no es un problema científico?",
+    "dorso": "Preguntas con \"¿debería...?\" o \"¿es correcto...?\" expresan juicios normativos no contrastables empíricamente mediante observación o medición.",
+    "tag": "Problema"
+  },
+  {
+    "id": "m04-fc-0009",
+    "modulo_id": "m04",
+    "frente": "Relación entre pregunta central y preguntas específicas",
+    "dorso": "Las preguntas específicas desglosan las dimensiones o subproblemas necesarios para responder íntegramente la pregunta central sin exceder su alcance.",
+    "tag": "Preguntas"
+  },
+  {
+    "id": "m04-fc-0010",
+    "modulo_id": "m04",
+    "frente": "Justificación teórica, práctica y metodológica",
+    "dorso": "Expone el \"para qué\" del estudio: qué aporta a la comprensión conceptual (teórica), a qué problema real informa (práctica) o qué instrumento/abordaje adapta (metodológica).",
+    "tag": "Justificación"
+  },
+  {
+    "id": "m04-fc-0011",
+    "modulo_id": "m04",
+    "frente": "Viabilidad o factibilidad del problema",
+    "dorso": "Condición realista de poder responder la pregunta con el tiempo del semestre, acceso efectivo a los participantes, recursos técnicos y resguardo ético.",
+    "tag": "Justificación"
+  },
+  {
+    "id": "m05-fc-0001",
+    "modulo_id": "m05",
+    "frente": "¿Qué son los objetivos de investigación?",
+    "dorso": "Son enunciados que indican qué se pretende lograr con el estudio.",
+    "tag": "Objetivos de investigación"
+  },
+  {
+    "id": "m05-fc-0002",
+    "modulo_id": "m05",
+    "frente": "Objetivo general",
+    "dorso": "Expresa el propósito central de la investigación de manera amplia.",
+    "tag": "Hipótesis y supuestos"
+  },
+  {
+    "id": "m05-fc-0003",
+    "modulo_id": "m05",
+    "frente": "Objetivos específicos",
+    "dorso": "Desglosan el objetivo general en metas concretas y operativas.",
+    "tag": "Matriz de coherencia"
+  },
+  {
+    "id": "m05-fc-0004",
+    "modulo_id": "m05",
+    "frente": "¿Qué es una hipótesis?",
+    "dorso": "Es una proposición tentativa que establece una relación entre variables y puede ser contrastada empíricamente.",
+    "tag": "Objetivos de investigación"
+  },
+  {
+    "id": "m05-fc-0005",
+    "modulo_id": "m05",
+    "frente": "Relación entre problema e hipótesis",
+    "dorso": "La hipótesis surge como una posible respuesta al problema de investigación.",
+    "tag": "Hipótesis y supuestos"
+  },
+  {
+    "id": "m05-fc-0006",
+    "modulo_id": "m05",
+    "frente": "Hipótesis y variables",
+    "dorso": "Las hipótesis formulan relaciones entre variables previamente definidas.",
+    "tag": "Matriz de coherencia"
+  },
+  {
+    "id": "m05-fc-0007",
+    "modulo_id": "m05",
+    "frente": "Error frecuente en objetivos",
+    "dorso": "Confundir objetivos con actividades o procedimientos.",
+    "tag": "Objetivos de investigación"
+  },
+  {
+    "id": "m05-fc-0008",
+    "modulo_id": "m05",
+    "frente": "Error frecuente en hipótesis",
+    "dorso": "Formular hipótesis vagas, no contrastables o sin variables claras.",
+    "tag": "Hipótesis y supuestos"
+  },
+  {
+    "id": "m05-fc-0009",
+    "modulo_id": "m05",
+    "frente": "Los 3 planos que suelen confundirse al redactar objetivos",
+    "dorso": "Plano 1: Propósito cognitivo (conocimiento a producir: identificar, describir, determinar, establecer). Plano 2: Operación metodológica (analizar, medir, aplicar). Plano 3: Finalidad práctica (mejorar, prevenir).",
+    "tag": "Objetivos"
+  },
+  {
+    "id": "m05-fc-0010",
+    "modulo_id": "m05",
+    "frente": "Prueba 1: Resultado enunciable",
+    "dorso": "Si al pasar el objetivo a pasado en las conclusiones queda un informe de tareas (\"Se analizó la relación\") en vez de un hallazgo (\"Se determinó una relación r = .42\"), no es un buen objetivo.",
+    "tag": "Objetivos"
+  },
+  {
+    "id": "m05-fc-0011",
+    "modulo_id": "m05",
+    "frente": "Prueba 2: Prueba del complemento",
+    "dorso": "El verbo del objetivo debe regir un objeto de conocimiento (la prevalencia, el grado de asociación, las diferencias) y no un objeto material del trabajo (los datos, las encuestas).",
+    "tag": "Objetivos"
+  },
+  {
+    "id": "m05-fc-0012",
+    "modulo_id": "m05",
+    "frente": "Derivabilidad horizontal vs. cronograma de pasos",
+    "dorso": "Los objetivos específicos descomponen el conocimiento buscado (son conjuntamente suficientes e individualmente necesarios); NO son una lista cronológica de tareas metodológicas.",
+    "tag": "Coherencia"
+  },
+  {
+    "id": "m06-fc-0001",
+    "modulo_id": "m06",
+    "frente": "¿Qué es un constructo?",
+    "dorso": "Un constructo es una entidad conceptual, teórica y abstracta que no se observa directamente, pero que se infiere a partir de indicadores empíricos.",
+    "tag": "Constructos"
+  },
+  {
+    "id": "m06-fc-0002",
+    "modulo_id": "m06",
+    "frente": "¿Qué es una variable?",
+    "dorso": "Una variable es una representación empírica y observable de un constructo, susceptible de adoptar distintos valores.",
+    "tag": "Variables"
+  },
+  {
+    "id": "m06-fc-0003",
+    "modulo_id": "m06",
+    "frente": "Diferencia entre constructo y variable",
+    "dorso": "El constructo es teórico y abstracto; la variable es empírica y medible.",
+    "tag": "Definiciones C. y O."
+  },
+  {
+    "id": "m06-fc-0004",
+    "modulo_id": "m06",
+    "frente": "¿Qué es una definición conceptual?",
+    "dorso": "Es la definición teórica de un constructo, basada en la literatura científica y en el marco teórico del estudio.",
+    "tag": "Categorías cualitativas"
+  },
+  {
+    "id": "m06-fc-0005",
+    "modulo_id": "m06",
+    "frente": "¿Qué es una definición operacional?",
+    "dorso": "Es la especificación concreta de cómo se medirá una variable, indicando procedimientos, instrumentos e indicadores.",
+    "tag": "Constructos"
+  },
+  {
+    "id": "m06-fc-0006",
+    "modulo_id": "m06",
+    "frente": "¿Qué es la operacionalización?",
+    "dorso": "Es el proceso mediante el cual un constructo teórico se traduce en variables, dimensiones e indicadores observables.",
+    "tag": "Variables"
+  },
+  {
+    "id": "m06-fc-0007",
+    "modulo_id": "m06",
+    "frente": "¿Qué es una dimensión?",
+    "dorso": "Es un componente o aspecto parcial de un constructo complejo que permite descomponerlo para su medición.",
+    "tag": "Definiciones C. y O."
+  },
+  {
+    "id": "m06-fc-0008",
+    "modulo_id": "m06",
+    "frente": "¿Qué es un indicador?",
+    "dorso": "Es una manifestación empírica concreta de una dimensión, directamente observable o registrable.",
+    "tag": "Categorías cualitativas"
+  },
+  {
+    "id": "m06-fc-0009",
+    "modulo_id": "m06",
+    "frente": "Relación entre variables e instrumentos",
+    "dorso": "Los instrumentos se construyen a partir de las variables y sus indicadores; no al revés.",
+    "tag": "Constructos"
+  },
+  {
+    "id": "m06-fc-0010",
+    "modulo_id": "m06",
+    "frente": "Error común en operacionalización",
+    "dorso": "Definir instrumentos sin haber definido claramente las variables, dimensiones e indicadores.",
+    "tag": "Variables"
+  },
+  {
+    "id": "m06-fc-0011",
+    "modulo_id": "m06",
+    "frente": "¿Por qué es clave la operacionalización?",
+    "dorso": "Porque garantiza coherencia entre teoría, medición, análisis de datos e interpretación de resultados.",
+    "tag": "Definiciones C. y O."
+  },
+  {
+    "id": "m07-fc-0001",
+    "modulo_id": "m07",
+    "frente": "¿Qué es el diseño de investigación?",
+    "dorso": "Es el plan lógico y estructurado que orienta cómo se llevará a cabo una investigación para responder al problema planteado.",
+    "tag": "Enfoque metodológico"
+  },
+  {
+    "id": "m07-fc-0002",
+    "modulo_id": "m07",
+    "frente": "Función del diseño de investigación",
+    "dorso": "Asegurar coherencia entre problema, objetivos, hipótesis, variables, procedimientos y análisis.",
+    "tag": "Alcance del estudio"
+  },
+  {
+    "id": "m07-fc-0003",
+    "modulo_id": "m07",
+    "frente": "Diseño y método",
+    "dorso": "El diseño no es una técnica específica, sino la estructura general que integra métodos y procedimientos.",
+    "tag": "Diseño y validez"
+  },
+  {
+    "id": "m07-fc-0004",
+    "modulo_id": "m07",
+    "frente": "Diseños experimentales",
+    "dorso": "Buscan establecer relaciones causales mediante el control y la manipulación de variables.",
+    "tag": "Enfoque metodológico"
+  },
+  {
+    "id": "m07-fc-0005",
+    "modulo_id": "m07",
+    "frente": "Diseños no experimentales",
+    "dorso": "Describen o analizan fenómenos sin manipular deliberadamente las variables.",
+    "tag": "Alcance del estudio"
+  },
+  {
+    "id": "m07-fc-0006",
+    "modulo_id": "m07",
+    "frente": "Diseños transversales",
+    "dorso": "Recogen datos en un único momento temporal.",
+    "tag": "Diseño y validez"
+  },
+  {
+    "id": "m07-fc-0007",
+    "modulo_id": "m07",
+    "frente": "Diseños longitudinales",
+    "dorso": "Recogen datos en dos o más momentos del tiempo.",
+    "tag": "Enfoque metodológico"
+  },
+  {
+    "id": "m07-fc-0008",
+    "modulo_id": "m07",
+    "frente": "Diseño y validez",
+    "dorso": "Un diseño adecuado fortalece la validez interna y externa del estudio.",
+    "tag": "Alcance del estudio"
+  },
+  {
+    "id": "m07-fc-0009",
+    "modulo_id": "m07",
+    "frente": "Error frecuente sobre el diseño",
+    "dorso": "Confundir el diseño de investigación con técnicas de recolección de datos.",
+    "tag": "Diseño y validez"
+  },
+  {
+    "id": "m07-fc-0010",
+    "modulo_id": "m07",
+    "frente": "Relación entre diseño y análisis",
+    "dorso": "El diseño condiciona el tipo de análisis de datos que puede realizarse.",
+    "tag": "Enfoque metodológico"
+  },
+  {
+    "id": "m08-fc-0001",
+    "modulo_id": "m08",
+    "frente": "¿Qué es la población en investigación?",
+    "dorso": "Es el conjunto total de elementos o unidades de análisis que cumplen con criterios definidos para un estudio.",
+    "tag": "Población y universo"
+  },
+  {
+    "id": "m08-fc-0002",
+    "modulo_id": "m08",
+    "frente": "¿Qué es una muestra?",
+    "dorso": "Es un subconjunto de la población seleccionado para realizar la investigación.",
+    "tag": "Muestra"
+  },
+  {
+    "id": "m08-fc-0003",
+    "modulo_id": "m08",
+    "frente": "Relación entre población y muestra",
+    "dorso": "La muestra debe representar adecuadamente a la población de la cual se extrae.",
+    "tag": "Tipos de muestreo"
+  },
+  {
+    "id": "m08-fc-0004",
+    "modulo_id": "m08",
+    "frente": "¿Qué es el muestreo?",
+    "dorso": "Es el procedimiento mediante el cual se seleccionan las unidades de análisis de la población.",
+    "tag": "Corpus y unidades"
+  },
+  {
+    "id": "m08-fc-0005",
+    "modulo_id": "m08",
+    "frente": "Muestreo probabilístico",
+    "dorso": "Todos los elementos de la población tienen una probabilidad conocida y distinta de cero de ser seleccionados.",
+    "tag": "Población y universo"
+  },
+  {
+    "id": "m08-fc-0006",
+    "modulo_id": "m08",
+    "frente": "Muestreo no probabilístico",
+    "dorso": "La selección de unidades no se basa en probabilidades conocidas.",
+    "tag": "Muestra"
+  },
+  {
+    "id": "m08-fc-0007",
+    "modulo_id": "m08",
+    "frente": "Ventaja del muestreo probabilístico",
+    "dorso": "Permite realizar inferencias más sólidas sobre la población.",
+    "tag": "Tipos de muestreo"
+  },
+  {
+    "id": "m08-fc-0008",
+    "modulo_id": "m08",
+    "frente": "Limitación del muestreo no probabilístico",
+    "dorso": "Reduce la posibilidad de generalizar los resultados.",
+    "tag": "Corpus y unidades"
+  },
+  {
+    "id": "m08-fc-0009",
+    "modulo_id": "m08",
+    "frente": "Error muestral",
+    "dorso": "Es la diferencia entre las características de la muestra y las de la población.",
+    "tag": "Población y universo"
+  },
+  {
+    "id": "m08-fc-0010",
+    "modulo_id": "m08",
+    "frente": "Error frecuente en muestreo",
+    "dorso": "Confundir tamaño de muestra con representatividad.",
+    "tag": "Muestra"
+  },
+  {
+    "id": "m09-fc-0001",
+    "modulo_id": "m09",
+    "frente": "¿Qué es un instrumento de medición?",
+    "dorso": "Es un conjunto estructurado de ítems o procedimientos diseñado para medir variables previamente definidas.",
+    "tag": "Técnicas de recolección"
+  },
+  {
+    "id": "m09-fc-0002",
+    "modulo_id": "m09",
+    "frente": "Relación entre variables e instrumentos",
+    "dorso": "Los instrumentos se construyen a partir de variables y sus indicadores, no al revés.",
+    "tag": "Instrumentos"
+  },
+  {
+    "id": "m09-fc-0003",
+    "modulo_id": "m09",
+    "frente": "Primer paso en la construcción de un instrumento",
+    "dorso": "Definir claramente el constructo y las variables a medir.",
+    "tag": "Validez y confiabilidad"
+  },
+  {
+    "id": "m09-fc-0004",
+    "modulo_id": "m09",
+    "frente": "Importancia de la operacionalización",
+    "dorso": "Permite traducir conceptos abstractos en indicadores observables y medibles.",
+    "tag": "Ética e integridad"
+  },
+  {
+    "id": "m09-fc-0005",
+    "modulo_id": "m09",
+    "frente": "¿Qué es un ítem?",
+    "dorso": "Es una unidad básica de medición que representa un indicador de una variable.",
+    "tag": "Técnicas de recolección"
+  },
+  {
+    "id": "m09-fc-0006",
+    "modulo_id": "m09",
+    "frente": "Criterio de claridad en los ítems",
+    "dorso": "Los ítems deben ser comprensibles, precisos y adecuados al nivel del respondiente.",
+    "tag": "Instrumentos"
+  },
+  {
+    "id": "m09-fc-0007",
+    "modulo_id": "m09",
+    "frente": "Error frecuente en la construcción de ítems",
+    "dorso": "Redactar ítems ambiguos, dobles o con juicios implícitos.",
+    "tag": "Validez y confiabilidad"
+  },
+  {
+    "id": "m09-fc-0008",
+    "modulo_id": "m09",
+    "frente": "Función del pilotaje",
+    "dorso": "Detectar problemas de comprensión, redacción y funcionamiento del instrumento.",
+    "tag": "Ética e integridad"
+  },
+  {
+    "id": "m09-fc-0009",
+    "modulo_id": "m09",
+    "frente": "Relación entre instrumento y análisis de datos",
+    "dorso": "La calidad del instrumento condiciona la calidad de los datos y del análisis.",
+    "tag": "Técnicas de recolección"
+  },
+  {
+    "id": "m09-fc-0010",
+    "modulo_id": "m09",
+    "frente": "Construcción de instrumentos y validez",
+    "dorso": "Un instrumento mal construido compromete la validez de los resultados.",
+    "tag": "Instrumentos"
+  },
+  {
+    "id": "m10-fc-0001",
+    "modulo_id": "m10",
+    "frente": "¿Qué es el análisis de datos?",
+    "dorso": "Es el proceso de organización, descripción e interpretación de los datos obtenidos para responder a los objetivos y contrastar hipótesis.",
+    "tag": "Análisis cuantitativo"
+  },
+  {
+    "id": "m10-fc-0002",
+    "modulo_id": "m10",
+    "frente": "Análisis y objetivos",
+    "dorso": "El análisis de datos debe responder directamente a los objetivos planteados.",
+    "tag": "Análisis cualitativo"
+  },
+  {
+    "id": "m10-fc-0003",
+    "modulo_id": "m10",
+    "frente": "Análisis y hipótesis",
+    "dorso": "Las hipótesis guían qué relaciones o diferencias deben analizarse.",
+    "tag": "Análisis cuantitativo"
+  },
+  {
+    "id": "m10-fc-0004",
+    "modulo_id": "m10",
+    "frente": "Datos cualitativos",
+    "dorso": "Son datos no numéricos que se analizan mediante categorización e interpretación.",
+    "tag": "Análisis cualitativo"
+  },
+  {
+    "id": "m10-fc-0005",
+    "modulo_id": "m10",
+    "frente": "Datos cuantitativos",
+    "dorso": "Son datos numéricos que permiten análisis estadísticos descriptivos e inferenciales.",
+    "tag": "Análisis cuantitativo"
+  },
+  {
+    "id": "m10-fc-0006",
+    "modulo_id": "m10",
+    "frente": "Análisis descriptivo",
+    "dorso": "Resume y organiza los datos mediante medidas y representaciones.",
+    "tag": "Análisis cualitativo"
+  },
+  {
+    "id": "m10-fc-0007",
+    "modulo_id": "m10",
+    "frente": "Análisis inferencial",
+    "dorso": "Permite realizar inferencias sobre la población a partir de la muestra.",
+    "tag": "Análisis cuantitativo"
+  },
+  {
+    "id": "m10-fc-0008",
+    "modulo_id": "m10",
+    "frente": "Relación entre variables y análisis",
+    "dorso": "El tipo de variables determina el tipo de análisis posible.",
+    "tag": "Análisis cualitativo"
+  },
+  {
+    "id": "m10-fc-0009",
+    "modulo_id": "m10",
+    "frente": "Error frecuente en análisis de datos",
+    "dorso": "Aplicar técnicas sin considerar objetivos, hipótesis o tipo de variables.",
+    "tag": "Análisis cuantitativo"
+  },
+  {
+    "id": "m10-fc-0010",
+    "modulo_id": "m10",
+    "frente": "Interpretación de resultados",
+    "dorso": "Implica explicar el significado de los resultados en relación con el marco teórico.",
+    "tag": "Análisis cualitativo"
+  },
+  {
+    "id": "m11-fc-0001",
+    "modulo_id": "m11",
+    "frente": "¿Qué es un informe académico?",
+    "dorso": "Es un documento escrito que comunica de manera sistemática, clara y fundamentada los resultados de una investigación.",
+    "tag": "Escritura académica"
+  },
+  {
+    "id": "m11-fc-0002",
+    "modulo_id": "m11",
+    "frente": "Finalidad del informe académico",
+    "dorso": "Comunicar procesos, resultados e interpretaciones siguiendo normas científicas.",
+    "tag": "Normas APA 7"
+  },
+  {
+    "id": "m11-fc-0003",
+    "modulo_id": "m11",
+    "frente": "Estructura básica de un informe académico",
+    "dorso": "Introducción, método, resultados y discusión, con referencias.",
+    "tag": "Citación y Zotero"
+  },
+  {
+    "id": "m11-fc-0004",
+    "modulo_id": "m11",
+    "frente": "Función del estilo APA",
+    "dorso": "Estandarizar la presentación, citación y referencias en trabajos académicos.",
+    "tag": "IA responsable"
+  },
+  {
+    "id": "m11-fc-0005",
+    "modulo_id": "m11",
+    "frente": "Cita en el texto",
+    "dorso": "Referencia breve a la fuente utilizada dentro del cuerpo del texto.",
+    "tag": "Escritura académica"
+  },
+  {
+    "id": "m11-fc-0006",
+    "modulo_id": "m11",
+    "frente": "Referencia bibliográfica",
+    "dorso": "Descripción completa de la fuente citada, ubicada al final del trabajo.",
+    "tag": "Normas APA 7"
+  },
+  {
+    "id": "m11-fc-0007",
+    "modulo_id": "m11",
+    "frente": "Diferencia entre citar y referenciar",
+    "dorso": "Citar es mencionar la fuente en el texto; referenciar es describirla completamente.",
+    "tag": "Citación y Zotero"
+  },
+  {
+    "id": "m11-fc-0008",
+    "modulo_id": "m11",
+    "frente": "Plagio académico",
+    "dorso": "Uso de ideas o textos ajenos sin el reconocimiento adecuado de la fuente.",
+    "tag": "IA responsable"
+  },
+  {
+    "id": "m11-fc-0009",
+    "modulo_id": "m11",
+    "frente": "Importancia de las normas APA",
+    "dorso": "Garantizan claridad, ética académica y trazabilidad de las fuentes.",
+    "tag": "Escritura académica"
+  },
+  {
+    "id": "m11-fc-0010",
+    "modulo_id": "m11",
+    "frente": "Error frecuente en trabajos académicos",
+    "dorso": "Citar incorrectamente o no incluir referencias completas.",
+    "tag": "Normas APA 7"
+  }
+]

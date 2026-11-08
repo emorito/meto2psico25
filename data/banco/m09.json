@@ -1,0 +1,405 @@
+{
+  "modulo_id": "m09",
+  "items": [
+    {
+      "id": "m09-0002",
+      "tipo": "opcion_multiple",
+      "enunciado": "La calidad del instrumento afecta directamente a:",
+      "opciones": [
+        "El tamaño de la muestra",
+        "La validez de los resultados",
+        "El diseño del estudio",
+        "El marco teórico"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Exacto. Instrumentos deficientes generan resultados inválidos.",
+        "incorrecta": "Pensá en la relación entre medición y resultados. La opción correcta es: «La validez de los resultados».",
+        "correct": "Exacto. Instrumentos deficientes generan resultados inválidos.",
+        "incorrect": "Pensá en la relación entre medición y resultados. La opción correcta es: «La validez de los resultados».",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "calidad_medicion",
+      "lectura_ref": "assets/reading/7. Diez pasos para la construcción de un test.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m09-0004",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál de los siguientes no es un instrumento de recolección de datos?",
+      "opciones": [
+        "Hipótesis",
+        "Encuesta",
+        "Entrevista",
+        "Observación"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Hipótesis» es la respuesta adecuada. Los instrumentos de recolección traducen las variables operacionalizadas en ítems claros y comprensibles, cuya calidad exige evidencias de validez, confiabilidad, pilotaje previo y resguardo ético.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Hipótesis». Los instrumentos de recolección traducen las variables operacionalizadas en ítems claros y comprensibles, cuya calidad exige evidencias de validez, confiabilidad, pilotaje previo y resguardo ético. Distingue entre técnica e instrumento y recuerda que ningún instrumento forma parte del problema o de la hipótesis: es la herramienta empírica para registrar los datos.",
+        "correct": "¡Correcto! «Hipótesis» es la respuesta adecuada. Los instrumentos de recolección traducen las variables operacionalizadas en ítems claros y comprensibles, cuya calidad exige evidencias de validez, confiabilidad, pilotaje previo y resguardo ético.",
+        "incorrect": "No es correcto. La respuesta acertada es «Hipótesis». Los instrumentos de recolección traducen las variables operacionalizadas en ítems claros y comprensibles, cuya calidad exige evidencias de validez, confiabilidad, pilotaje previo y resguardo ético. Distingue entre técnica e instrumento y recuerda que ningún instrumento forma parte del problema o de la hipótesis: es la herramienta empírica para registrar los datos.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "instrumentos",
+      "lectura_ref": "assets/reading/7. Diez pasos para la construcción de un test.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m09-0011",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es el primer paso lógico para construir un instrumento?",
+      "opciones": [
+        "Redactar ítems",
+        "Aplicar el instrumento",
+        "Definir constructos y variables",
+        "Analizar datos"
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "Exacto. Sin variables claras no puede construirse un instrumento.",
+        "incorrecta": "Pensá en qué precede a la redacción de ítems. La opción correcta es: «Definir constructos y variables».",
+        "correct": "Exacto. Sin variables claras no puede construirse un instrumento.",
+        "incorrect": "Pensá en qué precede a la redacción de ítems. La opción correcta es: «Definir constructos y variables».",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "instrumentos",
+      "lectura_ref": "assets/reading/7. Diez pasos para la construcción de un test.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m09-0012",
+      "tipo": "opcion_multiple",
+      "enunciado": "Los instrumentos deben construirse a partir de:",
+      "opciones": [
+        "Los objetivos",
+        "Las variables operacionalizadas",
+        "El análisis estadístico",
+        "La muestra"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Correcto. Las variables guían la construcción del instrumento.",
+        "incorrecta": "Revisá la secuencia correcta del proceso. La opción correcta es: «Las variables operacionalizadas».",
+        "correct": "Correcto. Las variables guían la construcción del instrumento.",
+        "incorrect": "Revisá la secuencia correcta del proceso. La opción correcta es: «Las variables operacionalizadas».",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "instrumentos",
+      "lectura_ref": "assets/reading/7. Diez pasos para la construcción de un test.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m09-0013",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué es un ítem?",
+      "opciones": [
+        "Un instrumento completo",
+        "Una unidad básica de medición",
+        "Un objetivo específico",
+        "Un análisis de resultados"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Muy bien. El ítem representa un indicador.",
+        "incorrecta": "Pensá en la estructura interna del instrumento. La opción correcta es: «Una unidad básica de medición».",
+        "correct": "Muy bien. El ítem representa un indicador.",
+        "incorrect": "Pensá en la estructura interna del instrumento. La opción correcta es: «Una unidad básica de medición».",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "instrumentos",
+      "lectura_ref": "assets/reading/7. Diez pasos para la construcción de un test.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m09-0014",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es un criterio fundamental de un buen ítem?",
+      "opciones": [
+        "Que sea complejo",
+        "Que sea ambiguo",
+        "Que sea claro y comprensible",
+        "Que incluya dos ideas"
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "Exacto. La claridad es central en la redacción de ítems.",
+        "incorrecta": "Revisá los criterios de redacción de ítems. La opción correcta es: «Que sea claro y comprensible».",
+        "correct": "Exacto. La claridad es central en la redacción de ítems.",
+        "incorrect": "Revisá los criterios de redacción de ítems. La opción correcta es: «Que sea claro y comprensible».",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "instrumentos",
+      "lectura_ref": "assets/reading/7. Diez pasos para la construcción de un test.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m09-0015",
+      "tipo": "opcion_multiple",
+      "enunciado": "Un error frecuente en la construcción de instrumentos es:",
+      "opciones": [
+        "Pilotear el instrumento",
+        "Definir indicadores",
+        "Redactar ítems ambiguos o dobles",
+        "Revisar el contenido"
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "Correcto. Los ítems ambiguos afectan la calidad de los datos.",
+        "incorrecta": "Pensá en errores comunes de redacción. La opción correcta es: «Redactar ítems ambiguos o dobles».",
+        "correct": "Correcto. Los ítems ambiguos afectan la calidad de los datos.",
+        "incorrect": "Pensá en errores comunes de redacción. La opción correcta es: «Redactar ítems ambiguos o dobles».",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "instrumentos",
+      "lectura_ref": "assets/reading/7. Diez pasos para la construcción de un test.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m09-0016",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Para qué sirve el pilotaje de un instrumento?",
+      "opciones": [
+        "Para analizar los datos finales",
+        "Para detectar problemas antes de la aplicación definitiva",
+        "Para formular hipótesis",
+        "Para seleccionar la muestra"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Muy bien. El pilotaje permite corregir errores tempranamente.",
+        "incorrecta": "Revisá el propósito del pilotaje. La opción correcta es: «Para detectar problemas antes de la aplicación definitiva».",
+        "correct": "Muy bien. El pilotaje permite corregir errores tempranamente.",
+        "incorrect": "Revisá el propósito del pilotaje. La opción correcta es: «Para detectar problemas antes de la aplicación definitiva».",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "instrumentos",
+      "lectura_ref": "assets/reading/7. Diez pasos para la construcción de un test.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m09-0017",
+      "tipo": "opcion_multiple",
+      "enunciado": "Desde el enfoque metodológico, la construcción de instrumentos pertenece a:",
+      "opciones": [
+        "El marco teórico",
+        "El diseño metodológico",
+        "El análisis de datos",
+        "La discusión"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Muy bien. Es parte del diseño metodológico.",
+        "incorrecta": "Ubicá esta etapa dentro del proceso de investigación. La opción correcta es: «El diseño metodológico».",
+        "correct": "Muy bien. Es parte del diseño metodológico.",
+        "incorrect": "Ubicá esta etapa dentro del proceso de investigación. La opción correcta es: «El diseño metodológico».",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "instrumentos",
+      "lectura_ref": "assets/reading/7. Diez pasos para la construcción de un test.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m09-fix-01",
+      "tipo": "opcion_multiple",
+      "enunciado": "En psicometría y metodología de la investigación, la **confiabilidad (o fiabilidad)** de un instrumento se refiere principalmente a:",
+      "opciones": [
+        "La consistencia y precisión de las puntuaciones obtenidas al medir una variable",
+        "La extensión geográfica de la población donde se aplica el estudio",
+        "La cantidad de páginas que ocupa el marco teórico del proyecto",
+        "La originalidad literaria con que se redactan las conclusiones finales"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! La confiabilidad indica el grado en que las puntuaciones de un instrumento son consistentes, reproducibles y libres de error aleatorio de medición.",
+        "incorrecta": "Recuerda que la confiabilidad es una propiedad psicométrica de las puntuaciones del instrumento vinculada a su consistencia y precisión.",
+        "correct": "¡Exacto! La confiabilidad indica el grado en que las puntuaciones de un instrumento son consistentes, reproducibles y libres de error aleatorio de medición.",
+        "incorrect": "Recuerda que la confiabilidad es una propiedad psicométrica de las puntuaciones del instrumento vinculada a su consistencia y precisión.",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "calidad_medicion",
+      "lectura_ref": "assets/reading/7. Diez pasos para la construcción de un test.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m09-fix-02",
+      "tipo": "opcion_multiple",
+      "enunciado": "Construir o seleccionar un instrumento de recolección de datos **sin haber definido ni operacionalizado previamente las variables** implica:",
+      "opciones": [
+        "Un alto riesgo de incoherencia metodológica y pérdida de validez de constructo",
+        "Una garantía automática de obtener resultados estadísticamente significativos",
+        "Una mayor velocidad para aprobar el comité de ética sin consentimiento",
+        "Una ventaja técnica que evita realizar la revisión de la literatura"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Muy bien! Los ítems de un instrumento deben responder a los indicadores y dimensiones de las variables; sin operacionalización previa se mide a ciegas.",
+        "incorrecta": "En la cadena de coherencia, el instrumento depende directamente de los objetivos y de las variables operacionalizadas (o categorías definidas).",
+        "correct": "¡Muy bien! Los ítems de un instrumento deben responder a los indicadores y dimensiones de las variables; sin operacionalización previa se mide a ciegas.",
+        "incorrect": "En la cadena de coherencia, el instrumento depende directamente de los objetivos y de las variables operacionalizadas (o categorías definidas).",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "instrumentos",
+      "lectura_ref": "assets/reading/7. Diez pasos para la construcción de un test.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m09-fix-03",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cómo se define con precisión un **instrumento de medición** dentro del diseño metodológico?",
+      "opciones": [
+        "Un conjunto estructurado de reactivos o pautas diseñado para registrar indicadores de las variables",
+        "Un procedimiento matemático utilizado para calcular el tamaño de la muestra probabilística",
+        "Un resumen bibliográfico de los antecedentes internacionales de los últimos cinco años",
+        "Una suposición tentativa sobre la dirección causal entre dos constructos teóricos"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! El instrumento es la herramienta concreta (escala, cuestionario, pauta de observación o guía de entrevista) donde se operacionalizan los indicadores para registrar los datos.",
+        "incorrecta": "Distingue el instrumento de recolección de otras piezas del proyecto como la fórmula muestral, los antecedentes o la hipótesis.",
+        "correct": "¡Correcto! El instrumento es la herramienta concreta (escala, cuestionario, pauta de observación o guía de entrevista) donde se operacionalizan los indicadores para registrar los datos.",
+        "incorrect": "Distingue el instrumento de recolección de otras piezas del proyecto como la fórmula muestral, los antecedentes o la hipótesis.",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "instrumentos",
+      "lectura_ref": "assets/reading/7. Diez pasos para la construcción de un test.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m09-extra-04",
+      "tipo": "opcion_multiple",
+      "enunciado": "En la cadena **Objetivo → Información → Fuente → Técnica → Instrumento** (Clase 11), si un estudio aplica la *Escala de Ansiedad de Beck (BAI)* mediante una encuesta a estudiantes universitarios, ¿cuál es la distinción correcta?",
+      "opciones": [
+        "Fuente: los estudiantes; Técnica: la encuesta / autoinforme; Instrumento: la Escala de Ansiedad de Beck (BAI)",
+        "Fuente: la Escala de Beck; Técnica: los estudiantes; Instrumento: la universidad",
+        "Fuente: el software estadístico; Técnica: la hipótesis; Instrumento: el marco teórico",
+        "No existe ninguna diferencia entre fuente, técnica e instrumento porque son sinónimos"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Excelente! La fuente es quién o qué provee el dato (los estudiantes), la técnica es el procedimiento general de obtención (encuesta/autoinforme) y el instrumento es la herramienta específica (Escala BAI).",
+        "incorrecta": "Revisa la cadena de la Clase 11: Fuente (de quién proviene el dato) ≠ Técnica (cómo se aborda) ≠ Instrumento (con qué herramienta específica se registra).",
+        "correct": "¡Excelente! La fuente es quién o qué provee el dato (los estudiantes), la técnica es el procedimiento general de obtención (encuesta/autoinforme) y el instrumento es la herramienta específica (Escala BAI).",
+        "incorrect": "Revisa la cadena de la Clase 11: Fuente (de quién proviene el dato) ≠ Técnica (cómo se aborda) ≠ Instrumento (con qué herramienta específica se registra).",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "tecnicas",
+      "lectura_ref": "assets/reading/7. Diez pasos para la construcción de un test.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m09-extra-05",
+      "tipo": "opcion_multiple",
+      "enunciado": "Un equipo obtiene un coeficiente Alfa de Cronbach de **$\\alpha = .91$** en una escala, pero el juicio de expertos advierte que los ítems evalúan *extroversión social* en lugar de *empatía cognitiva*, que era la variable del estudio. ¿Qué ocurre en este caso?",
+      "opciones": [
+        "El instrumento presenta alta consistencia interna (confiabilidad), pero carece de validez de contenido y de constructo para ese estudio",
+        "El instrumento es totalmente válido porque cualquier Alfa mayor a .80 demuestra validez de constructo automática",
+        "El estudio no necesita marco conceptual porque el Alfa de Cronbach reemplaza la teoría",
+        "La muestra fue seleccionada por muestreo aleatorio estratificado"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Brillante! Un instrumento puede medir de forma muy consistente ($\\alpha = .91$) el constructo equivocado. La confiabilidad es necesaria, pero no garantiza por sí sola que estés midiendo lo que pretendes medir (validez).",
+        "incorrecta": "No confundas confiabilidad (consistencia de las puntuaciones) con validez (que el instrumento mida efectivamente el constructo teórico propuesto).",
+        "correct": "¡Brillante! Un instrumento puede medir de forma muy consistente ($\\alpha = .91$) el constructo equivocado. La confiabilidad es necesaria, pero no garantiza por sí sola que estés midiendo lo que pretendes medir (validez).",
+        "incorrect": "No confundas confiabilidad (consistencia de las puntuaciones) con validez (que el instrumento mida efectivamente el constructo teórico propuesto).",
+        "origen": "original"
+      },
+      "dificultad": 3,
+      "subtema": "calidad_medicion",
+      "lectura_ref": "assets/reading/7. Diez pasos para la construcción de un test.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m09-extra-06",
+      "tipo": "opcion_multiple",
+      "enunciado": "Respecto al manejo ético de los datos y el uso de Inteligencia Artificial (Clase 11 del Plan 2026), ¿cuál de las siguientes acciones constituye una **falta ética grave**?",
+      "opciones": [
+        "Subir transcripciones de entrevistas con nombres reales o datos clínicos sensibles de participantes a servicios públicos de IA",
+        "Sustituir los nombres de los participantes por códigos alfanuméricos desde el momento de la recolección o transcripción",
+        "Explicitar en el consentimiento informado el objetivo del estudio, la voluntariedad y el derecho a retirarse sin perjuicio",
+        "Establecer un plan de custodia con acceso restringido y plazo de eliminación de los registros crudos"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! El Plan 2026 prohíbe taxativamente cargar datos personales, sensibles o confidenciales en plataformas públicas de IA, pues vulnera la privacidad y el secreto profesional.",
+        "incorrecta": "Las opciones de anonimización por códigos, consentimiento informado y custodia segura son buenas prácticas éticas; lo prohibido es subir datos sensibles o identificables a IAs públicas.",
+        "correct": "¡Exacto! El Plan 2026 prohíbe taxativamente cargar datos personales, sensibles o confidenciales en plataformas públicas de IA, pues vulnera la privacidad y el secreto profesional.",
+        "incorrect": "Las opciones de anonimización por códigos, consentimiento informado y custodia segura son buenas prácticas éticas; lo prohibido es subir datos sensibles o identificables a IAs públicas.",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "etica",
+      "lectura_ref": "assets/reading/7. Diez pasos para la construcción de un test.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m09-extra-07",
+      "tipo": "opcion_multiple",
+      "enunciado": "Si una investigación en Psicología involucra a **adolescentes escolarizados de 14 a 16 años**, ¿qué recaudo ético específico debe preverse en el procedimiento?",
+      "opciones": [
+        "Obtener autorización institucional, el consentimiento informado de los padres o tutores legales y el asentimiento informado de los propios adolescentes",
+        "Aplicar las escalas sin informar a los padres ni a los estudiantes para evitar el efecto Hawthorne",
+        "Pedir autorización únicamente al delegado estudiantil del curso el mismo día de la prueba",
+        "Exigir que los adolescentes firmen un contrato obligándose a no abandonar jamás el estudio"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Muy bien! En investigaciones con personas menores de edad es indispensable combinar el consentimiento de los representantes legales con el asentimiento libre e informado de los propios adolescentes.",
+        "incorrecta": "Con participantes menores de edad no basta el permiso de la escuela: se requiere consentimiento de padres/tutores y asentimiento del adolescente, garantizando siempre el derecho a retirarse.",
+        "correct": "¡Muy bien! En investigaciones con personas menores de edad es indispensable combinar el consentimiento de los representantes legales con el asentimiento libre e informado de los propios adolescentes.",
+        "incorrect": "Con participantes menores de edad no basta el permiso de la escuela: se requiere consentimiento de padres/tutores y asentimiento del adolescente, garantizando siempre el derecho a retirarse.",
+        "origen": "original"
+      },
+      "dificultad": 3,
+      "subtema": "etica",
+      "lectura_ref": "assets/reading/7. Diez pasos para la construcción de un test.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    }
+  ]
+}

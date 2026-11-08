@@ -1,0 +1,849 @@
+{
+  "modulo_id": "m03",
+  "items": [
+    {
+      "id": "m03-0001",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es la función central de la teoría en una investigación?",
+      "opciones": [
+        "Decorar el marco teórico",
+        "Orientar el planteamiento y la interpretación del estudio",
+        "Reemplazar los datos empíricos",
+        "Servir solo como antecedente histórico"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Correcto. La teoría guía todo el proceso de investigación.",
+        "incorrecta": "Revisá el rol activo de la teoría según Kerlinger. La opción correcta es: «Orientar el planteamiento y la interpretación del estudio».",
+        "correct": "Correcto. La teoría guía todo el proceso de investigación.",
+        "incorrect": "Revisá el rol activo de la teoría según Kerlinger. La opción correcta es: «Orientar el planteamiento y la interpretación del estudio».",
+        "origen": "original"
+      },
+      "dificultad": 3,
+      "subtema": "antecedentes",
+      "lectura_ref": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m03-0002",
+      "tipo": "opcion_multiple",
+      "enunciado": "Al seleccionar literatura, se debe priorizar:",
+      "opciones": [
+        "Artículos de revistas arbitradas",
+        "Blogs personales",
+        "Redes sociales",
+        "Anuncios publicitarios"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Artículos de revistas arbitradas» es la respuesta adecuada. La revisión de la literatura es un proceso sistemático de búsqueda, evaluación y síntesis crítica de fuentes verificadas para establecer qué se sabe y qué vacío persiste.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Artículos de revistas arbitradas». La revisión de la literatura es un proceso sistemático de búsqueda, evaluación y síntesis crítica de fuentes verificadas para establecer qué se sabe y qué vacío persiste. Distingue entre resumir textos aislados («lista de compras») y sintetizar críticamente antecedentes de fuentes arbitradas y trazables.",
+        "correct": "¡Correcto! «Artículos de revistas arbitradas» es la respuesta adecuada. La revisión de la literatura es un proceso sistemático de búsqueda, evaluación y síntesis crítica de fuentes verificadas para establecer qué se sabe y qué vacío persiste.",
+        "incorrect": "No es correcto. La respuesta acertada es «Artículos de revistas arbitradas». La revisión de la literatura es un proceso sistemático de búsqueda, evaluación y síntesis crítica de fuentes verificadas para establecer qué se sabe y qué vacío persiste. Distingue entre resumir textos aislados («lista de compras») y sintetizar críticamente antecedentes de fuentes arbitradas y trazables.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 1,
+      "subtema": "revision_literatura",
+      "lectura_ref": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m03-0003",
+      "tipo": "opcion_multiple",
+      "enunciado": "Citar fuentes confiables garantiza:",
+      "opciones": [
+        "Integridad académica y fiabilidad",
+        "Menor esfuerzo",
+        "Mayor creatividad",
+        "Menos tiempo"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Integridad académica y fiabilidad» es la respuesta adecuada. La revisión de la literatura es un proceso sistemático de búsqueda, evaluación y síntesis crítica de fuentes verificadas para establecer qué se sabe y qué vacío persiste.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Integridad académica y fiabilidad». La revisión de la literatura es un proceso sistemático de búsqueda, evaluación y síntesis crítica de fuentes verificadas para establecer qué se sabe y qué vacío persiste. Distingue entre resumir textos aislados («lista de compras») y sintetizar críticamente antecedentes de fuentes arbitradas y trazables.",
+        "correct": "¡Correcto! «Integridad académica y fiabilidad» es la respuesta adecuada. La revisión de la literatura es un proceso sistemático de búsqueda, evaluación y síntesis crítica de fuentes verificadas para establecer qué se sabe y qué vacío persiste.",
+        "incorrect": "No es correcto. La respuesta acertada es «Integridad académica y fiabilidad». La revisión de la literatura es un proceso sistemático de búsqueda, evaluación y síntesis crítica de fuentes verificadas para establecer qué se sabe y qué vacío persiste. Distingue entre resumir textos aislados («lista de compras») y sintetizar críticamente antecedentes de fuentes arbitradas y trazables.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 1,
+      "subtema": "revision_literatura",
+      "lectura_ref": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m03-0005",
+      "tipo": "verdadero_falso",
+      "enunciado": "La exploración de fuentes puede revelar teorías contradictorias.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! La afirmación es **Verdadero**. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrecta": "Respuesta incorrecta (la opción correcta es **Verdadero**). La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "correct": "¡Correcto! La afirmación es **Verdadero**. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrect": "Respuesta incorrecta (la opción correcta es **Verdadero**). La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "revision_literatura",
+      "lectura_ref": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m03-0006",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Por qué se revisa la literatura?",
+      "opciones": [
+        "Para comprender el conocimiento existente e identificar vacíos",
+        "Para repetir investigaciones sin cambios",
+        "Para evitar escribir conclusiones",
+        "Para copiar textos"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Para comprender el conocimiento existente e identificar vacíos» es la respuesta adecuada. La revisión de la literatura es un proceso sistemático de búsqueda, evaluación y síntesis crítica de fuentes verificadas para establecer qué se sabe y qué vacío persiste.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Para comprender el conocimiento existente e identificar vacíos». La revisión de la literatura es un proceso sistemático de búsqueda, evaluación y síntesis crítica de fuentes verificadas para establecer qué se sabe y qué vacío persiste. Distingue entre resumir textos aislados («lista de compras») y sintetizar críticamente antecedentes de fuentes arbitradas y trazables.",
+        "correct": "¡Correcto! «Para comprender el conocimiento existente e identificar vacíos» es la respuesta adecuada. La revisión de la literatura es un proceso sistemático de búsqueda, evaluación y síntesis crítica de fuentes verificadas para establecer qué se sabe y qué vacío persiste.",
+        "incorrect": "No es correcto. La respuesta acertada es «Para comprender el conocimiento existente e identificar vacíos». La revisión de la literatura es un proceso sistemático de búsqueda, evaluación y síntesis crítica de fuentes verificadas para establecer qué se sabe y qué vacío persiste. Distingue entre resumir textos aislados («lista de compras») y sintetizar críticamente antecedentes de fuentes arbitradas y trazables.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "revision_literatura",
+      "lectura_ref": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m03-0007",
+      "tipo": "opcion_multiple",
+      "enunciado": "El proceso de sintetizar la literatura para construir un marco se conoce como:",
+      "opciones": [
+        "Revisión bibliográfica",
+        "Experimentación",
+        "Diseño experimental",
+        "Codificación"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Revisión bibliográfica» es la respuesta adecuada. La revisión de la literatura es un proceso sistemático de búsqueda, evaluación y síntesis crítica de fuentes verificadas para establecer qué se sabe y qué vacío persiste.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Revisión bibliográfica». La revisión de la literatura es un proceso sistemático de búsqueda, evaluación y síntesis crítica de fuentes verificadas para establecer qué se sabe y qué vacío persiste. Distingue entre resumir textos aislados («lista de compras») y sintetizar críticamente antecedentes de fuentes arbitradas y trazables.",
+        "correct": "¡Correcto! «Revisión bibliográfica» es la respuesta adecuada. La revisión de la literatura es un proceso sistemático de búsqueda, evaluación y síntesis crítica de fuentes verificadas para establecer qué se sabe y qué vacío persiste.",
+        "incorrect": "No es correcto. La respuesta acertada es «Revisión bibliográfica». La revisión de la literatura es un proceso sistemático de búsqueda, evaluación y síntesis crítica de fuentes verificadas para establecer qué se sabe y qué vacío persiste. Distingue entre resumir textos aislados («lista de compras») y sintetizar críticamente antecedentes de fuentes arbitradas y trazables.",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "revision_literatura",
+      "lectura_ref": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m03-0008",
+      "tipo": "opcion_multiple",
+      "enunciado": "La revisión de la literatura permite principalmente:",
+      "opciones": [
+        "Confirmar opiniones personales",
+        "Identificar el estado actual del conocimiento",
+        "Evitar formular hipótesis",
+        "Reemplazar el trabajo empírico"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Exacto. La revisión muestra qué se sabe y qué falta investigar.",
+        "incorrecta": "Pensá en la función diagnóstica de la revisión. La opción correcta es: «Identificar el estado actual del conocimiento».",
+        "correct": "Exacto. La revisión muestra qué se sabe y qué falta investigar.",
+        "incorrect": "Pensá en la función diagnóstica de la revisión. La opción correcta es: «Identificar el estado actual del conocimiento».",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "revision_literatura",
+      "lectura_ref": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m03-0009",
+      "tipo": "opcion_multiple",
+      "enunciado": "Una buena revisión de literatura debe ser:",
+      "opciones": [
+        "Exhaustiva y acrítica",
+        "Selectiva y analítica",
+        "Breve y superficial",
+        "Basada solo en libros"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Muy bien. La clave es la selección y el análisis crítico.",
+        "incorrecta": "Pensá en la calidad, no en la cantidad. La opción correcta es: «Selectiva y analítica».",
+        "correct": "Muy bien. La clave es la selección y el análisis crítico.",
+        "incorrect": "Pensá en la calidad, no en la cantidad. La opción correcta es: «Selectiva y analítica».",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "revision_literatura",
+      "lectura_ref": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m03-0010",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué diferencia a una revisión sistemática de una narrativa?",
+      "opciones": [
+        "La cantidad de textos",
+        "El uso de criterios explícitos",
+        "La extensión del marco teórico",
+        "El tipo de disciplina"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Exacto. La revisión sistemática sigue criterios claros y controlados.",
+        "incorrecta": "Pensá en el nivel de control metodológico. La opción correcta es: «El uso de criterios explícitos».",
+        "correct": "Exacto. La revisión sistemática sigue criterios claros y controlados.",
+        "incorrect": "Pensá en el nivel de control metodológico. La opción correcta es: «El uso de criterios explícitos».",
+        "origen": "original"
+      },
+      "dificultad": 3,
+      "subtema": "revision_literatura",
+      "lectura_ref": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m03-0012",
+      "tipo": "verdadero_falso",
+      "enunciado": "Los marcos teóricos son estáticos y no evolucionan.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! La afirmación es **Falso**. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrecta": "Respuesta incorrecta (la opción correcta es **Falso**). La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "correct": "¡Correcto! La afirmación es **Falso**. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrect": "Respuesta incorrecta (la opción correcta es **Falso**). La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 1,
+      "subtema": "teoria",
+      "lectura_ref": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m03-0013",
+      "tipo": "verdadero_falso",
+      "enunciado": "El marco conceptual puede representarse gráficamente.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! La afirmación es **Verdadero**. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrecta": "Respuesta incorrecta (la opción correcta es **Verdadero**). La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "correct": "¡Correcto! La afirmación es **Verdadero**. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrect": "Respuesta incorrecta (la opción correcta es **Verdadero**). La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 1,
+      "subtema": "teoria",
+      "lectura_ref": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m03-0015",
+      "tipo": "opcion_multiple",
+      "enunciado": "El marco teórico sirve para:",
+      "opciones": [
+        "Presentar la bibliografía al final",
+        "Proporcionar fundamento y contexto a la investigación",
+        "Describir la muestra",
+        "Determinar los colores de la presentación"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «Proporcionar fundamento y contexto a la investigación» es la respuesta adecuada. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Proporcionar fundamento y contexto a la investigación». La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "correct": "¡Correcto! «Proporcionar fundamento y contexto a la investigación» es la respuesta adecuada. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrect": "No es correcto. La respuesta acertada es «Proporcionar fundamento y contexto a la investigación». La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "teoria",
+      "lectura_ref": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m03-0017",
+      "tipo": "opcion_multiple",
+      "enunciado": "Una buena práctica al construir el marco teórico es:",
+      "opciones": [
+        "Usar fuentes fiables y actualizadas",
+        "Evitar artículos recientes",
+        "Omitir teorías",
+        "Excluir investigaciones anteriores"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Usar fuentes fiables y actualizadas» es la respuesta adecuada. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Usar fuentes fiables y actualizadas». La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "correct": "¡Correcto! «Usar fuentes fiables y actualizadas» es la respuesta adecuada. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrect": "No es correcto. La respuesta acertada es «Usar fuentes fiables y actualizadas». La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "teoria",
+      "lectura_ref": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m03-0018",
+      "tipo": "opcion_multiple",
+      "enunciado": "El marco teórico también ayuda a:",
+      "opciones": [
+        "Definir variables y proponer un modelo de investigación",
+        "Determinar el tamaño de la muestra",
+        "Diseñar la presentación",
+        "Crear hipervínculos"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Definir variables y proponer un modelo de investigación» es la respuesta adecuada. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Definir variables y proponer un modelo de investigación». La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "correct": "¡Correcto! «Definir variables y proponer un modelo de investigación» es la respuesta adecuada. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrect": "No es correcto. La respuesta acertada es «Definir variables y proponer un modelo de investigación». La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "teoria",
+      "lectura_ref": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m03-0019",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué elemento NO forma parte del marco teórico?",
+      "opciones": [
+        "Metodología detallada",
+        "Revisión de teorías",
+        "Conceptualización de variables",
+        "Relación de conceptos"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Metodología detallada» es la respuesta adecuada. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Metodología detallada». La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "correct": "¡Correcto! «Metodología detallada» es la respuesta adecuada. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrect": "No es correcto. La respuesta acertada es «Metodología detallada». La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "teoria",
+      "lectura_ref": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m03-0022",
+      "tipo": "opcion_multiple",
+      "enunciado": "El marco teórico se completa:",
+      "opciones": [
+        "Después de la recolección de datos",
+        "Antes de la recolección de datos",
+        "Durante la redacción del informe",
+        "Nunca"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «Antes de la recolección de datos» es la respuesta adecuada. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Antes de la recolección de datos». La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "correct": "¡Correcto! «Antes de la recolección de datos» es la respuesta adecuada. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrect": "No es correcto. La respuesta acertada es «Antes de la recolección de datos». La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 2,
+      "subtema": "teoria",
+      "lectura_ref": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m03-0025",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué es una teoría en el contexto de la investigación científica?",
+      "opciones": [
+        "Una suposición sin fundamentos empíricos.",
+        "Un conjunto de principios que explican fenómenos y guían la investigación.",
+        "Una opinión personal del investigador.",
+        "Un concepto que no necesita ser probado."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «Un conjunto de principios que explican fenómenos y guían la investigación.» es la respuesta adecuada. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Un conjunto de principios que explican fenómenos y guían la investigación.». La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "correct": "¡Correcto! «Un conjunto de principios que explican fenómenos y guían la investigación.» es la respuesta adecuada. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrect": "No es correcto. La respuesta acertada es «Un conjunto de principios que explican fenómenos y guían la investigación.». La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "teoria",
+      "lectura_ref": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m03-0026",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué diferencia principal existe entre el marco teórico y el marco conceptual?",
+      "opciones": [
+        "El marco teórico se basa en teorías existentes, mientras que el marco conceptual organiza los conceptos específicos del estudio.",
+        "El marco conceptual siempre es más amplio que el marco teórico.",
+        "El marco teórico está relacionado con datos empíricos, mientras que el marco conceptual no.",
+        "No existe diferencia significativa entre ambos."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «El marco teórico se basa en teorías existentes, mientras que el marco conceptual organiza los conceptos específicos del estudio.» es la respuesta adecuada. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrecta": "No es correcto. La respuesta acertada es «El marco teórico se basa en teorías existentes, mientras que el marco conceptual organiza los conceptos específicos del estudio.». La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "correct": "¡Correcto! «El marco teórico se basa en teorías existentes, mientras que el marco conceptual organiza los conceptos específicos del estudio.» es la respuesta adecuada. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrect": "No es correcto. La respuesta acertada es «El marco teórico se basa en teorías existentes, mientras que el marco conceptual organiza los conceptos específicos del estudio.». La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "teoria",
+      "lectura_ref": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m03-0027",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cómo puede una teoría guiar la formulación de hipótesis en una investigación?",
+      "opciones": [
+        "Proporcionando principios y conceptos que permiten formular hipótesis verificables.",
+        "Definiendo las conclusiones finales antes de la investigación.",
+        "Eliminando la necesidad de hacer hipótesis.",
+        "Sustituyendo la necesidad de realizar pruebas empíricas."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Proporcionando principios y conceptos que permiten formular hipótesis verificables.» es la respuesta adecuada. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Proporcionando principios y conceptos que permiten formular hipótesis verificables.». La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "correct": "¡Correcto! «Proporcionando principios y conceptos que permiten formular hipótesis verificables.» es la respuesta adecuada. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrect": "No es correcto. La respuesta acertada es «Proporcionando principios y conceptos que permiten formular hipótesis verificables.». La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "teoria",
+      "lectura_ref": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m03-0028",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué criterios deben tenerse en cuenta al elegir una teoría relevante para un estudio?",
+      "opciones": [
+        "La popularidad de la teoría entre los investigadores.",
+        "La capacidad de la teoría para explicar el problema de investigación y su validez empírica.",
+        "La antigüedad de la teoría y su relevancia histórica.",
+        "Que la teoría haya sido desarrollada en el mismo país donde se lleva a cabo la investigación."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «La capacidad de la teoría para explicar el problema de investigación y su validez empírica.» es la respuesta adecuada. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrecta": "No es correcto. La respuesta acertada es «La capacidad de la teoría para explicar el problema de investigación y su validez empírica.». La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "correct": "¡Correcto! «La capacidad de la teoría para explicar el problema de investigación y su validez empírica.» es la respuesta adecuada. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrect": "No es correcto. La respuesta acertada es «La capacidad de la teoría para explicar el problema de investigación y su validez empírica.». La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "teoria",
+      "lectura_ref": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m03-0029",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cómo influye el marco teórico en el diseño metodológico de una investigación?",
+      "opciones": [
+        "El marco teórico determina los métodos de recolección de datos y las estrategias de análisis.",
+        "El marco teórico es irrelevante para el diseño metodológico.",
+        "El marco teórico establece las conclusiones que se deben obtener.",
+        "El marco teórico solo se utiliza para definir el problema de investigación."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «El marco teórico determina los métodos de recolección de datos y las estrategias de análisis.» es la respuesta adecuada. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrecta": "No es correcto. La respuesta acertada es «El marco teórico determina los métodos de recolección de datos y las estrategias de análisis.». La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "correct": "¡Correcto! «El marco teórico determina los métodos de recolección de datos y las estrategias de análisis.» es la respuesta adecuada. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrect": "No es correcto. La respuesta acertada es «El marco teórico determina los métodos de recolección de datos y las estrategias de análisis.». La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "teoria",
+      "lectura_ref": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m03-0030",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué función desempeña el marco conceptual en una investigación?",
+      "opciones": [
+        "Organizar y clarificar los conceptos clave del estudio y sus relaciones.",
+        "Formular las conclusiones antes de comenzar la investigación.",
+        "Eliminar la necesidad de teorías en el estudio.",
+        "Definir las herramientas tecnológicas a usar en la recolección de datos."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Organizar y clarificar los conceptos clave del estudio y sus relaciones.» es la respuesta adecuada. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Organizar y clarificar los conceptos clave del estudio y sus relaciones.». La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "correct": "¡Correcto! «Organizar y clarificar los conceptos clave del estudio y sus relaciones.» es la respuesta adecuada. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrect": "No es correcto. La respuesta acertada es «Organizar y clarificar los conceptos clave del estudio y sus relaciones.». La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "teoria",
+      "lectura_ref": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m03-0031",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué papel juegan las teorías en la interpretación de los resultados de una investigación?",
+      "opciones": [
+        "Las teorías ayudan a darle sentido a los datos recolectados, conectándolos con conocimientos previos.",
+        "Las teorías son irrelevantes para la interpretación de los resultados.",
+        "Las teorías impiden la interpretación de resultados.",
+        "Las teorías solo son importantes al inicio de la investigación."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Las teorías ayudan a darle sentido a los datos recolectados, conectándolos con conocimientos previos.» es la respuesta adecuada. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Las teorías ayudan a darle sentido a los datos recolectados, conectándolos con conocimientos previos.». La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "correct": "¡Correcto! «Las teorías ayudan a darle sentido a los datos recolectados, conectándolos con conocimientos previos.» es la respuesta adecuada. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrect": "No es correcto. La respuesta acertada es «Las teorías ayudan a darle sentido a los datos recolectados, conectándolos con conocimientos previos.». La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "teoria",
+      "lectura_ref": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m03-0032",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué ocurre si una teoría no puede explicar los resultados obtenidos en una investigación?",
+      "opciones": [
+        "Los resultados deben ser descartados.",
+        "Se debe modificar la teoría o formular una nueva.",
+        "Los datos deben ajustarse para que coincidan con la teoría.",
+        "No es necesario modificar nada."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «Se debe modificar la teoría o formular una nueva.» es la respuesta adecuada. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Se debe modificar la teoría o formular una nueva.». La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "correct": "¡Correcto! «Se debe modificar la teoría o formular una nueva.» es la respuesta adecuada. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrect": "No es correcto. La respuesta acertada es «Se debe modificar la teoría o formular una nueva.». La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "teoria",
+      "lectura_ref": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m03-0033",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es el propósito principal de un marco teórico en la investigación?",
+      "opciones": [
+        "Ofrecer una base teórica que sustente el estudio y relacione el problema con teorías existentes.",
+        "Presentar una opinión subjetiva sobre el tema de estudio.",
+        "Definir el conjunto de herramientas tecnológicas a utilizar.",
+        "Plantear las conclusiones de manera anticipada."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Ofrecer una base teórica que sustente el estudio y relacione el problema con teorías existentes.» es la respuesta adecuada. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Ofrecer una base teórica que sustente el estudio y relacione el problema con teorías existentes.». La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "correct": "¡Correcto! «Ofrecer una base teórica que sustente el estudio y relacione el problema con teorías existentes.» es la respuesta adecuada. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrect": "No es correcto. La respuesta acertada es «Ofrecer una base teórica que sustente el estudio y relacione el problema con teorías existentes.». La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "teoria",
+      "lectura_ref": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m03-0034",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cómo se define un marco conceptual en una investigación?",
+      "opciones": [
+        "Es un esquema que organiza los conceptos clave y su relación en el estudio.",
+        "Es una suposición sin respaldo teórico.",
+        "Es un conjunto de resultados esperados.",
+        "Es una base de datos con definiciones abstractas."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Es un esquema que organiza los conceptos clave y su relación en el estudio.» es la respuesta adecuada. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Es un esquema que organiza los conceptos clave y su relación en el estudio.». La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "correct": "¡Correcto! «Es un esquema que organiza los conceptos clave y su relación en el estudio.» es la respuesta adecuada. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrect": "No es correcto. La respuesta acertada es «Es un esquema que organiza los conceptos clave y su relación en el estudio.». La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "teoria",
+      "lectura_ref": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m03-0035",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué aspecto es fundamental para seleccionar una teoría que guíe la investigación?",
+      "opciones": [
+        "Que haya sido comprobada en investigaciones anteriores y esté relacionada con el problema de estudio.",
+        "Que sea completamente novedosa y sin antecedentes previos.",
+        "Que solo haya sido utilizada en investigaciones cualitativas.",
+        "Que no esté relacionada con el problema de estudio."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! «Que haya sido comprobada en investigaciones anteriores y esté relacionada con el problema de estudio.» es la respuesta adecuada. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrecta": "No es correcto. La respuesta acertada es «Que haya sido comprobada en investigaciones anteriores y esté relacionada con el problema de estudio.». La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "correct": "¡Correcto! «Que haya sido comprobada en investigaciones anteriores y esté relacionada con el problema de estudio.» es la respuesta adecuada. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrect": "No es correcto. La respuesta acertada es «Que haya sido comprobada en investigaciones anteriores y esté relacionada con el problema de estudio.». La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "teoria",
+      "lectura_ref": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m03-0036",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cómo debe interactuar una teoría con los resultados de una investigación?",
+      "opciones": [
+        "Los resultados deben coincidir siempre con la teoría propuesta.",
+        "La teoría ayuda a interpretar los resultados y, si es necesario, puede ser modificada.",
+        "Los resultados que no coinciden con la teoría deben ser eliminados.",
+        "La teoría solo se utiliza para plantear hipótesis, no para interpretar resultados."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "¡Correcto! «La teoría ayuda a interpretar los resultados y, si es necesario, puede ser modificada.» es la respuesta adecuada. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrecta": "No es correcto. La respuesta acertada es «La teoría ayuda a interpretar los resultados y, si es necesario, puede ser modificada.». La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "correct": "¡Correcto! «La teoría ayuda a interpretar los resultados y, si es necesario, puede ser modificada.» es la respuesta adecuada. La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis.",
+        "incorrect": "No es correcto. La respuesta acertada es «La teoría ayuda a interpretar los resultados y, si es necesario, puede ser modificada.». La teoría no es un adorno formal: proporciona el sistema de conceptos y proposiciones que permite explicar por qué ocurre el fenómeno y orientar las preguntas e hipótesis. Recuerda la heurística de la Clase 4: el marco conceptual define («X es...»), mientras que el marco teórico explica el mecanismo («X se relaciona con Y porque...»).",
+        "origen": "cátedra_2026"
+      },
+      "dificultad": 3,
+      "subtema": "teoria",
+      "lectura_ref": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m03-0037",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Por qué se afirma que la observación está guiada por la teoría?",
+      "opciones": [
+        "Porque la teoría limita la investigación",
+        "Porque no existe observación neutral",
+        "Porque la teoría reemplaza los datos",
+        "Porque toda teoría es verdadera"
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcta": "Muy bien. La teoría orienta qué y cómo se observa.",
+        "incorrecta": "Revisá la relación entre teoría y observación. La opción correcta es: «Porque no existe observación neutral».",
+        "correct": "Muy bien. La teoría orienta qué y cómo se observa.",
+        "incorrect": "Revisá la relación entre teoría y observación. La opción correcta es: «Porque no existe observación neutral».",
+        "origen": "original"
+      },
+      "dificultad": 3,
+      "subtema": "teoria",
+      "lectura_ref": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m03-0038",
+      "tipo": "opcion_multiple",
+      "enunciado": "El marco teórico cumple la función de:",
+      "opciones": [
+        "Presentar resultados",
+        "Justificar metodológicamente la muestra",
+        "Sustentar conceptualmente la investigación",
+        "Reemplazar el análisis de datos"
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "Exacto. El marco teórico sostiene conceptualmente el estudio.",
+        "incorrecta": "Ubicá el marco teórico dentro de la estructura del trabajo. La opción correcta es: «Sustentar conceptualmente la investigación».",
+        "correct": "Exacto. El marco teórico sostiene conceptualmente el estudio.",
+        "incorrect": "Ubicá el marco teórico dentro de la estructura del trabajo. La opción correcta es: «Sustentar conceptualmente la investigación».",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "teoria",
+      "lectura_ref": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m03-0039",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es la relación correcta entre teoría y problema de investigación?",
+      "opciones": [
+        "El problema se formula al margen de la teoría",
+        "La teoría surge después del análisis",
+        "La teoría orienta la formulación del problema",
+        "No existe relación directa"
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "Correcto. La teoría da sentido al problema planteado.",
+        "incorrecta": "Revisá la secuencia lógica del proceso. La opción correcta es: «La teoría orienta la formulación del problema».",
+        "correct": "Correcto. La teoría da sentido al problema planteado.",
+        "incorrect": "Revisá la secuencia lógica del proceso. La opción correcta es: «La teoría orienta la formulación del problema».",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "teoria",
+      "lectura_ref": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m03-0040",
+      "tipo": "opcion_multiple",
+      "enunciado": "Desde el enfoque científico, la teoría sirve para:",
+      "opciones": [
+        "Explicar y predecir fenómenos",
+        "Confirmar prejuicios",
+        "Evitar el trabajo empírico",
+        "Sustituir la metodología"
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "Correcto. La teoría tiene función explicativa y predictiva.",
+        "incorrecta": "Revisá la definición de teoría científica. La opción correcta es: «Explicar y predecir fenómenos».",
+        "correct": "Correcto. La teoría tiene función explicativa y predictiva.",
+        "incorrect": "Revisá la definición de teoría científica. La opción correcta es: «Explicar y predecir fenómenos».",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "teoria",
+      "lectura_ref": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m03-0041",
+      "tipo": "opcion_multiple",
+      "enunciado": "La teoría en investigación científica es:",
+      "opciones": [
+        "Opcional",
+        "Decorativa",
+        "Estructurante",
+        "Irrelevante para el análisis"
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "Muy bien. La teoría estructura todo el estudio.",
+        "incorrecta": "Revisá el carácter central de la teoría. La opción correcta es: «Estructurante».",
+        "correct": "Muy bien. La teoría estructura todo el estudio.",
+        "incorrect": "Revisá el carácter central de la teoría. La opción correcta es: «Estructurante».",
+        "origen": "original"
+      },
+      "dificultad": 1,
+      "subtema": "teoria",
+      "lectura_ref": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    },
+    {
+      "id": "m03-0042",
+      "tipo": "opcion_multiple",
+      "enunciado": "Un error frecuente en la revisión de literatura es:",
+      "opciones": [
+        "Analizar críticamente los estudios",
+        "Comparar resultados",
+        "Resumir textos sin análisis",
+        "Identificar vacíos teóricos"
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcta": "Correcto. La revisión no debe ser solo descriptiva.",
+        "incorrecta": "Pensá en qué NO aporta al conocimiento. La opción correcta es: «Resumir textos sin análisis».",
+        "correct": "Correcto. La revisión no debe ser solo descriptiva.",
+        "incorrect": "Pensá en qué NO aporta al conocimiento. La opción correcta es: «Resumir textos sin análisis».",
+        "origen": "original"
+      },
+      "dificultad": 2,
+      "subtema": "vacio",
+      "lectura_ref": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+      "estado": "aprobado",
+      "origen": "original",
+      "nota_revision": ""
+    }
+  ]
+}

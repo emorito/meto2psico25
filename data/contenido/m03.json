@@ -1,0 +1,211 @@
+{
+  "modulo_id": "m03",
+  "capsula": {
+    "title": "Cápsula Metodológica · Proceso vs. Productos de la Literatura y Vacío",
+    "subtitle": "Clase 4 · Revisión, antecedentes, estado del arte, marco conceptual y marco teórico",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Distinción funcional entre el proceso y sus productos (Guía 2026)",
+        "headers": [
+          "Elemento",
+          "Qué es",
+          "Pregunta que responde",
+          "Heurística rápida"
+        ],
+        "rows": [
+          [
+            "Revisión de la literatura",
+            "El PROCESO de buscar, seleccionar, evaluar, fichar y sintetizar fuentes.",
+            "¿Cómo construí una visión fundamentada y trazable?",
+            "Informa bases, descriptores, fechas y criterios de inclusión."
+          ],
+          [
+            "Antecedentes",
+            "Estudios empíricos previos relevantes para el problema.",
+            "¿Qué investigaciones concretas se hicieron, cómo y qué hallaron?",
+            "Sintetiza objetivo, método, muestra, hallazgo y límite de estudios previos."
+          ],
+          [
+            "Estado del arte",
+            "Balance crítico e integrado del conocimiento actual sobre el tema.",
+            "¿Qué converge, qué se discute y qué vacío queda abierto?",
+            "Agrupa por ejes temáticos (no \"lista de compras\") y deriva el vacío."
+          ],
+          [
+            "Marco conceptual",
+            "Definiciones rigurosas de los conceptos centrales del estudio.",
+            "¿Qué significa exactamente X en este proyecto?",
+            "Responde «X se entiende como...» y prepara la operacionalización."
+          ],
+          [
+            "Marco teórico",
+            "Conjunto articulado de proposiciones que explica por qué ocurre el fenómeno.",
+            "¿Por qué X se relaciona con Y y qué mecanismo lo explica?",
+            "Responde «X ocurre porque...» (ej. Teoría de la Comparación Social)."
+          ]
+        ]
+      },
+      {
+        "type": "cards",
+        "title": "Cómo redactar un vacío sin exagerar («No existe nada»)",
+        "items": [
+          {
+            "badge": "Vacío contextual",
+            "title": "Población o entorno poco explorado",
+            "text": "La relación se estudió en otros países, pero hay escasa evidencia situada en universitarios paraguayos."
+          },
+          {
+            "badge": "Vacío metodológico",
+            "title": "Limitación de los diseños previos",
+            "text": "Predominan estudios que miden solo horas de pantalla sin distinguir uso problemático ni controlar sueño."
+          },
+          {
+            "badge": "Plantilla de síntesis",
+            "title": "De la matriz al párrafo",
+            "text": "«La literatura revisada coincide en ___; sin embargo, predominan ___ y permanece poco estudiado ___ en ___. Por ello, resulta pertinente ___.»"
+          }
+        ]
+      }
+    ]
+  },
+  "casos": {
+    "miniCases": [
+      {
+        "id": "m03_c1",
+        "title": "Caso 1 · El síndrome de la «lista de compras» en los antecedentes",
+        "context": "Psicología Educativa · Redacción del Estado del Arte",
+        "scenario": "En su borrador de la Clase 4, Rodrigo escribe cuatro párrafos seguidos con este formato:\n«En 2020, Pérez estudió la procrastinación en Lima con 120 alumnos y halló que el 40 % procrastina. En 2021, Gómez estudió la procrastinación en Bogotá con 200 alumnos y halló relación con la ansiedad. En 2022, Silva estudió la procrastinación en Chile con 80 alumnos...».",
+        "question": "¿Por qué este modo de redactar no constituye un verdadero estado del arte y cómo debe reorganizarse a partir de la matriz de literatura?",
+        "hints": [
+          "¿Qué pasa cuando cada párrafo resume un artículo aislado sin ponerlos a dialogar?",
+          "Recuerda las cuatro operaciones de síntesis: convergencia, contraste, explicación y vacío."
+        ],
+        "analysis": "Rodrigo cayó en la **«lista de compras»** (yuxtaposición cronológica de fichas aisladas). Un estado del arte no se organiza como «un autor por párrafo», sino **por ejes temáticos e ideas** que integran varias fuentes.\n\n**Cómo mejorarlo leyendo la matriz por columnas:**\n1. **Convergencia:** «Diversos estudios en universitarios latinoamericanos coinciden en que la procrastinación académica se asocia positivamente con el malestar ansioso (Gómez, 2021; Silva, 2022)...».\n2. **Contraste y método:** «No obstante, las estimaciones de prevalencia varían según se evalúe postergación general o evitación por miedo al fracaso...».\n3. **Vacío derivado:** «Pese a esta convergencia regional, la evidencia en universidades paraguayas bajo modalidad semipresencial sigue siendo escasa».",
+        "keyConcept": "Síntesis integradora por ejes vs. resumen secuencial de autores"
+      },
+      {
+        "id": "m03_c2",
+        "title": "Caso 2 · ¿Definir o explicar? Marco conceptual vs. Marco teórico",
+        "context": "Psicología Social · Construcción de marcos",
+        "scenario": "Camila investiga la relación entre exposición a redes sociales e insatisfacción corporal en adolescentes. En la sección que titula «Marco Teórico», incluye únicamente definiciones del diccionario de la RAE para las palabras «red», «adolescente» e «imagen», sin mencionar ningún modelo psicológico que explique por qué ver fotos idealizadas afectaría la autovaloración corporal.",
+        "question": "Explica los dos errores que comete Camila al construir sus marcos de referencia.",
+        "hints": [
+          "Primero: ¿una definición del diccionario general sirve como definición conceptual científica?",
+          "Segundo: aplica la heurística «X es...» (conceptual) frente a «X ocurre porque...» (teórico)."
+        ],
+        "analysis": "Camila comete dos errores:\n1. **En lo conceptual:** usa definiciones de diccionario general en lugar de **definiciones conceptuales académicas** provenientes de la literatura psicológica especializada (que delimiten qué se entiende por *insatisfacción corporal* y qué la distingue de otros constructos).\n2. **En lo teórico:** confunde definir palabras con **explicar el fenómeno**. Un **marco teórico** requiere adoptar una teoría articulada —por ejemplo, la *Teoría de la Comparación Social* de Festinger o el *Modelo Tripartito de Influencia*— que proponga el **mecanismo explicativo** («la exposición a imágenes idealizadas incrementa la insatisfacción corporal *porque* activa comparaciones ascendentes e internalización del ideal estético»).",
+        "keyConcept": "Heurística: definir conceptos (Marco Conceptual) vs. explicar mecanismos (Marco Teórico)"
+      },
+      {
+        "id": "m03_c3",
+        "title": "Caso 3 · Formular el vacío sin exagerar la evidencia",
+        "context": "Psicología de la Salud · Justificación del vacío",
+        "scenario": "Tras revisar cinco artículos en español sobre adherencia al tratamiento en pacientes hipertensos, un estudiante escribe en su proyecto: «Como ha quedado demostrado, no existe absolutamente ningún estudio previo sobre adherencia terapéutica en pacientes crónicos, por lo que esta investigación será la primera en abordar el tema».",
+        "question": "¿Por qué esta afirmación debilita la credibilidad del proyecto ante un tribunal y cómo debería redactarse un vacío proporcional a la evidencia?",
+        "hints": [
+          "Afirmar que «no existe nada» suele revelar una búsqueda insuficiente, no un tema virgen.",
+          "Piensa en los tipos de vacío: contextual, metodológico, conceptual o poblacional."
+        ],
+        "analysis": "Afirmar que «no existe ningún estudio» sobre un tema clásico como la adherencia terapéutica es una **exageración insostenible** que demuestra desconocimiento de la literatura internacional. Un vacío riguroso es **proporcional al alcance de la búsqueda realizada** y especifica qué aspecto concreto falta.\n\n**Ejemplo de formulación rigurosa:** «Aunque la literatura internacional documenta ampliamente el rol del apoyo familiar en la adherencia al tratamiento antihipertensivo, en las bases consultadas se identificó escasa evidencia empírica situada en usuarios de Unidades de Salud de la Familia (USF) del Departamento Central que considere simultáneamente las barreras percibidas de acceso y las creencias sobre la medicación».",
+        "keyConcept": "Proporcionalidad y especificidad en la formulación del vacío"
+      }
+    ],
+    "simulation": {
+      "title": "Simulación 03 · De las fichas dispersas al estado del arte y el vacío",
+      "context": "Tienes 6 artículos verificados sobre uso de pantallas, calidad del sueño y rendimiento académico en jóvenes. Debes organizar tu síntesis de la Clase 4.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Paso 1 · Clasificar la función de cada enunciado",
+          "prompt": "Uno de tus textos define el modelo neurobiológico mediante el cual la luz azul nocturna inhibe la melatonina y retrasa el sueño, afectando la consolidación de la memoria. ¿Qué función cumple este aporte en tu proyecto?",
+          "options": [
+            {
+              "text": "Forma parte del Marco Teórico, porque propone el mecanismo explicativo de por qué y cómo se relacionan las variables.",
+              "isOptimal": true,
+              "feedback": "¡Correcto! Cuando un sistema de proposiciones explica el mecanismo por el cual X se vincula con Y, cumple una función teórica explicativa."
+            },
+            {
+              "text": "Es únicamente el registro técnico del proceso de búsqueda en bases de datos.",
+              "isOptimal": false,
+              "feedback": "El registro de bases y ecuaciones describe el proceso de revisión, no el mecanismo teórico explicativo."
+            },
+            {
+              "text": "Es una nota periodística de divulgación sin valor conceptual.",
+              "isOptimal": false,
+              "feedback": "Se trata de un modelo teórico-explicativo que orienta las hipótesis y la interpretación de los datos."
+            }
+          ]
+        },
+        {
+          "stepNumber": 2,
+          "title": "Paso 2 · Superar el error de la «lista de compras»",
+          "prompt": "Al leer tu matriz por columnas, notas que 4 estudios hallan que el uso nocturno del celular deteriora el sueño, pero 2 estudios muestran que el impacto sobre el promedio académico desaparece cuando se controla el apoyo académico. ¿Cómo redactas tu párrafo?",
+          "options": [
+            {
+              "text": "Escribo seis párrafos separados: «Autor 1 dijo esto. Autor 2 dijo esto. Autor 3 dijo esto...» sin compararlos.",
+              "isOptimal": false,
+              "feedback": "Eso es una lista de compras descriptiva: el lector no percibe qué patrón converge ni qué tensión metodológica existe."
+            },
+            {
+              "text": "Omito los 2 estudios que contradicen mi idea para que parezca que todos los autores me dan la razón.",
+              "isOptimal": false,
+              "feedback": "Ocultar evidencia divergente es un sesgo grave: las tensiones entre estudios son justamente las que enriquecen el estado del arte."
+            },
+            {
+              "text": "Redacto un párrafo integrador mostrando la convergencia sobre el deterioro del sueño y contrastando la discrepancia sobre el rendimiento según las variables de control empleadas.",
+              "isOptimal": true,
+              "feedback": "¡Excelente! Pones a dialogar las fuentes mediante operaciones de convergencia, contraste y explicación metodológica."
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "title": "Paso 3 · Redactar el vacío de conocimiento",
+          "prompt": "¿Cómo formulas el cierre de tu síntesis para justificar tu problema de investigación en Paraguay?",
+          "options": [
+            {
+              "text": "«Como nadie en la historia mundial ha investigado jamás el sueño en estudiantes, este estudio es totalmente inédito».",
+              "isOptimal": false,
+              "feedback": "Exageración insostenible: afirma algo falso y contradice los mismos antecedentes que acabas de citar."
+            },
+            {
+              "text": "«Aunque la evidencia internacional converge en asociar el uso nocturno de pantallas con menor calidad de sueño, predominan estudios que no distinguen el turno de cursado y existe escasa evidencia situada en universitarios paraguayos que trabajan y estudian».",
+              "isOptimal": true,
+              "feedback": "¡Impecable! Es un vacío contextual y metodológico preciso, honesto y directamente conectado con tu pregunta de investigación."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "recursos": {
+    "videos": [
+      {
+        "videoId": "EJ8aQ9q97vE",
+        "title": "Teoría y revisión de la literatura en investigación",
+        "badge": "Clase 4 · Literatura y Teoría"
+      }
+    ],
+    "readings": [
+      {
+        "title": "El papel de la teoría en la investigación social (Marradi, Archenti y Piovani)",
+        "url": "assets/reading/2. El papel de la Teoría en la Investigación.pdf",
+        "type": "pdf",
+        "description": "Lectura obligatoria sobre la relación entre teoría, observación, conceptualización y construcción del objeto de estudio."
+      },
+      {
+        "title": "Guía práctica para la revisión de la literatura (Versión revisada 2026)",
+        "url": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+        "type": "pdf",
+        "description": "Distinción operativa entre revisión, antecedentes, estado del arte, marco conceptual y marco teórico, más plantillas de matriz."
+      }
+    ],
+    "notebooks": [
+      {
+        "title": "Cuaderno IA · Teoría y revisión de la literatura",
+        "url": "https://notebooklm.google.com/notebook/b63860c5-713f-46dc-8f1c-1f958c345763"
+      }
+    ]
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "modulo_id": "m01",
+  "capsula": {
+    "title": "Cápsula Metodológica · Ciencia, Sentido Común y Proceso No Lineal",
+    "subtitle": "Kerlinger y Lee (Cap. 1) + Clases 1 y 2 del Plan 2026",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "5 diferencias clave entre Ciencia y Sentido Común (Kerlinger y Lee)",
+        "headers": [
+          "Dimensión",
+          "Sentido Común",
+          "Enfoque Científico"
+        ],
+        "rows": [
+          [
+            "Uso de esquemas conceptuales",
+            "Usa teorías implícitas, vagas o pintorescas sin cuestionarlas.",
+            "Construye estructuras teóricas explícitas y evalúa su consistencia interna."
+          ],
+          [
+            "Prueba de teorías e hipótesis",
+            "Selecciona evidencia que confirma sus creencias (sesgo de confirmación).",
+            "Somete sus hipótesis a pruebas sistemáticas y empíricas con riesgo de refutación."
+          ],
+          [
+            "Noción de control",
+            "Rara vez controla explicaciones alternativas o variables extrañas.",
+            "Descarta sistemáticamente variables extrañas que podrían explicar el fenómeno."
+          ],
+          [
+            "Búsqueda de relaciones",
+            "Se impresiona por coincidencias fortuitas o casos aislados.",
+            "Persigue relaciones sistemáticas, conscientes y controladas entre fenómenos."
+          ],
+          [
+            "Tipo de explicaciones",
+            "Acepta explicaciones metafísicas o no verificables.",
+            "Exige explicaciones observables, públicas y empíricamente contrastables."
+          ]
+        ]
+      },
+      {
+        "type": "cards",
+        "title": "Los 4 métodos del conocimiento (Charles S. Peirce)",
+        "items": [
+          {
+            "badge": "1. Tenacidad",
+            "title": "Aferrarse a lo que siempre se creyó",
+            "text": "Se sostiene una creencia por hábito o repetición frecuente, cerrándose a nueva evidencia."
+          },
+          {
+            "badge": "2. Autoridad",
+            "title": "Aceptar por el prestigio de la fuente",
+            "text": "Útil en la vida práctica, pero falible si la autoridad sustituye la verificación empírica."
+          },
+          {
+            "badge": "3. A priori (Intuición)",
+            "title": "\"Es evidente para la razón\"",
+            "text": "Proposiciones que parecen razonables por sí mismas, pero dos personas pueden intuir opuestos."
+          },
+          {
+            "badge": "4. Ciencia",
+            "title": "Autocorrección y control público",
+            "text": "Sus controles son independientes de nuestras creencias personales: la evidencia empírica manda."
+          }
+        ]
+      },
+      {
+        "type": "highlight",
+        "title": "Regla de oro del Plan 2026: El mapa del proyecto no es una escalera rígida",
+        "text": "Avanzar en la revisión de la literatura o diseñar el instrumento suele obligar a ajustar la delimitación del tema, afinar la pregunta o precisar los objetivos. Volver atrás para ganar coherencia no es un error: es el funcionamiento normal de la investigación científica."
+      }
+    ]
+  },
+  "casos": {
+    "miniCases": [
+      {
+        "id": "m01_c1",
+        "title": "Caso 1 · «En mi consultorio siempre funciona así»",
+        "context": "Psicología Clínica · Asunción",
+        "scenario": "Durante el primer taller de Metodología II, un estudiante propone investigar por qué la grafología permite detectar la honestidad laboral. Argumenta: «En la consultora donde trabajo lo usamos hace diez años y mi jefa, que tiene 25 años de experiencia, asegura que nunca falla. Además, es lógico que quien escribe inclinado hacia la derecha sea más extrovertido».",
+        "question": "Según la clasificación de Peirce y Kerlinger sobre los métodos del conocimiento, ¿en qué métodos se está apoyando el estudiante y qué exigiría el enfoque científico para abordar su afirmación?",
+        "hints": [
+          "Observa los tres argumentos que usa: «lo usamos hace diez años», «mi jefa con 25 años de experiencia lo asegura» y «es lógico que sea así».",
+          "Recuerda cómo distingue Kerlinger entre tenacidad, autoridad, método a priori y método científico."
+        ],
+        "analysis": "El estudiante combina tres métodos precientíficos: **tenacidad** («lo usamos hace diez años»), **autoridad** («mi jefa experta asegura que no falla») y el **método a priori o intuición** («es lógico que escribir inclinado indique extroversión»). Para pasar al **enfoque científico**, debería transformar esa creencia en una pregunta contrastable empíricamente, medir los rasgos de escritura y la honestidad/extroversión con instrumentos independientes y validados, controlar el sesgo de confirmación (evaluación a ciegas) y aceptar de antemano que los datos podrían refutar la creencia de la consultora.",
+        "keyConcept": "Métodos del conocimiento y control sistemático de sesgos"
+      },
+      {
+        "id": "m01_c2",
+        "title": "Caso 2 · El pánico a «retroceder» en el proyecto",
+        "context": "Psicología Educativa · Modalidad B-Learning",
+        "scenario": "Valeria eligió en la semana 2 estudiar «motivación académica en universitarios». Al leer tres artículos en la semana 4, descubre que la literatura distingue entre motivación intrínseca, extrínseca y amotivación, y que su pregunta original era demasiado ambigua. Preocupada, piensa: «Si cambio mi pregunta ahora, significa que hice todo mal porque el método científico es una secuencia lineal estricta».",
+        "question": "¿Es correcto el temor de Valeria? ¿Cómo se explica lo que le ocurre desde el mapa real del proceso de investigación?",
+        "hints": [
+          "Piensa en el propósito de la Clase 2 del Plan 2026: las relaciones no lineales entre las etapas.",
+          "¿La revisión de la literatura ocurre una sola vez y se cierra, o dialoga con el problema?"
+        ],
+        "analysis": "El temor de Valeria parte de un **mito frecuente**: creer que el método científico es una escalera rígida donde nunca se revisa un escalón anterior. En la práctica real de la investigación (Clase 2), el proceso es **iterativo y espiralado**: leer literatura permite descubrir distinciones conceptuales (como las dimensiones de la motivación en la Teoría de la Autodeterminación) que obligan a **revisar y precisar la delimitación y la pregunta**. Ajustar el problema a la luz de la teoría no es fracasar: es exactamente cómo se construye coherencia interna.",
+        "keyConcept": "Carácter iterativo y autocorrectivo del proceso de investigación"
+      },
+      {
+        "id": "m01_c3",
+        "title": "Caso 3 · Confundir levantar datos con diseñar un proyecto",
+        "context": "Psicología Social · Proyecto de cátedra",
+        "scenario": "Un grupo de estudiantes quiere salir mañana mismo a aplicar 100 encuestas sobre estrés en el transporte público porque «sin datos reales e inventados o recolectados ya no hay proyecto de investigación». Aún no han revisado qué teorías explican el estrés ambiental ni qué pregunta exacta buscan responder.",
+        "question": "¿Por qué salir a encuestar sin problema ni marco conceptual vulnera la lógica del proyecto de investigación en nuestra asignatura?",
+        "hints": [
+          "Revisa el rol de la teoría y del diseño en la producción de evidencia pertinente.",
+          "En Metodología II el producto integrador es un anteproyecto fundamentado y coherente."
+        ],
+        "analysis": "Salir a recoger datos a ciegas invierte la lógica científica: sin saber **qué se pregunta** ni **cómo se define el constructo**, cualquier cuestionario improvisado medirá impresiones de sentido común con alto riesgo de invalidez. Además, en nuestra cátedra el producto integrador es un **borrador de proyecto fundamentado y coherente** (no se exigen levantamientos precipitados ni jamás datos ficticios). Primero se construye la arquitectura lógica (literatura → problema → objetivos → variables → diseño → plan de muestreo, instrumentos y análisis).",
+        "keyConcept": "Primacía del diseño lógico y teórico sobre la recolección empírica"
+      }
+    ],
+    "simulation": {
+      "title": "Simulación 01 · Del mito cotidiano al planteamiento científico",
+      "context": "Eres integrante de un equipo de investigación en Psicología en la UNIBE. Una organización afirma que «escuchar música clásica durante 10 minutos antes de rendir garantiza aprobar cualquier examen universitario» y te pide avalarlo.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Paso 1 · Diagnosticar el tipo de afirmación inicial",
+          "prompt": "Antes de diseñar cualquier estudio, ¿cómo clasificas epistemológicamente la afirmación de la organización («garantiza aprobar porque un famoso divulgador lo dijo en televisión»)?",
+          "options": [
+            {
+              "text": "Es una teoría científica consolidada porque apela a una figura de autoridad reconocida en medios de comunicación.",
+              "isOptimal": false,
+              "feedback": "Cuidado: aceptar una afirmación por el prestigio mediático de quien la emite corresponde al método de autoridad (Peirce/Kerlinger), no al enfoque científico."
+            },
+            {
+              "text": "Es una creencia apoyada en el método de autoridad y el sentido común; para la ciencia es, a lo sumo, una conjetura que debe traducirse en una relación contrastable y refutable.",
+              "isOptimal": true,
+              "feedback": "¡Excelente! El enfoque científico exige someter las creencias a control empírico y formularlas de modo que puedan ser refutadas por los datos."
+            },
+            {
+              "text": "Es una verdad a priori evidente por sí misma que no requiere contrastación empírica.",
+              "isOptimal": false,
+              "feedback": "El método a priori se basa en lo que «parece razonable», pero la ciencia exige evidencia empírica sistemática y controlada."
+            }
+          ]
+        },
+        {
+          "stepNumber": 2,
+          "title": "Paso 2 · Incorporar la noción de control",
+          "prompt": "Un compañero propone: «Hagamos que 30 alumnos escuchen Mozart antes del parcial de Metodología; si la mayoría aprueba, queda probado». ¿Qué le respondes desde Kerlinger y Lee?",
+          "options": [
+            {
+              "text": "Que es un diseño perfecto porque tiene evidencia empírica directa de 30 estudiantes reales.",
+              "isOptimal": false,
+              "feedback": "Tener datos no basta si no hay control: esos 30 estudiantes podrían aprobar porque estudiaron toda la semana o porque el examen fue sencillo."
+            },
+            {
+              "text": "Que carece de control de explicaciones alternativas: sin comparar con condiciones equivalentes y sin controlar cuánto estudiaron, confundiremos el efecto de la música con otras variables extrañas.",
+              "isOptimal": true,
+              "feedback": "¡Exacto! Lo que distingue a la investigación científica del sentido común es el control sistemático de variables extrañas y explicaciones rivales."
+            },
+            {
+              "text": "Que la ciencia nunca utiliza observaciones empíricas, sino únicamente deducciones filosóficas.",
+              "isOptimal": false,
+              "feedback": "La ciencia articula el razonamiento teórico-lógico con la observación empírica controlada."
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "title": "Paso 3 · Articular el proceso con la teoría",
+          "prompt": "Al revisar la literatura psicológica, descubres que el efecto de la música no actúa mágicamente sobre la memoria, sino regulando el nivel de activación fisiológica y ansiedad previa. ¿Qué haces con tu esquema inicial?",
+          "options": [
+            {
+              "text": "Ignoro esos estudios porque en el método científico está prohibido modificar la idea inicial una vez pensado el tema.",
+              "isOptimal": false,
+              "feedback": "Falso: el proceso de investigación es dinámico e iterativo; la teoría orienta qué variables observar y cómo precisar el problema."
+            },
+            {
+              "text": "Ajusto mi problema a la luz de la teoría, enfocando el estudio en la relación entre la escucha musical previa, la ansiedad estado y el desempeño en la prueba.",
+              "isOptimal": true,
+              "feedback": "¡Brillante! Has conectado teoría, reformulación no lineal del problema y control metodológico como un verdadero investigador."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "recursos": {
+    "videos": [
+      {
+        "videoId": "l9fdq7LPccE",
+        "title": "El método científico y el enfoque de la ciencia",
+        "badge": "Clases 1–2 · Fundamentos"
+      }
+    ],
+    "readings": [
+      {
+        "title": "Cap. 1: La ciencia y el enfoque científico (Kerlinger y Lee)",
+        "url": "assets/reading/1. Ciencia y el enfoque científico - Kerlinger y Lee.pdf",
+        "type": "pdf",
+        "description": "Lectura base sobre los métodos del conocimiento, visión estática y dinámica de la ciencia y objetivos de la investigación científica."
+      }
+    ],
+    "notebooks": [
+      {
+        "title": "Cuaderno IA · El método científico",
+        "url": "https://notebooklm.google.com/notebook/12f614b2-45f2-464b-9db1-92822bf468fb"
+      }
+    ]
+  }
+}
