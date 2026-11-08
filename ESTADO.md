@@ -6,7 +6,7 @@
 
 | Encargo | Responsable | Estado |
 |---|---|---|
-| `docs/ENCARGO-CODEX.md`: migración de datos, motor v3 (MVP), herramientas de muestreo | Codex | Tarea 1 completa; Tarea 3 en preparación |
+| `docs/ENCARGO-CODEX.md`: migración de datos, motor v3 (MVP), herramientas de muestreo | Codex | Tareas 1 y 3 completas; Tarea 2 pendiente de PC1 |
 | `docs/ENCARGO-ANTIGRAVITY.md`: borradores de ítems m08 a m11; convertir Olaz y Medrano | Antigravity | m10 y m11 pueden empezar; m08 y m09 esperan las cápsulas de Claude |
 | Cápsulas nuevas de m08 y m09, galería de pseudocálculos, auditoría de ítems de m08 | Claude | En curso |
 
@@ -26,6 +26,14 @@
 - `fecha_clase` se conserva desde el índice existente. `preguntas_orientadoras`, `evidencia_moodle` y `eslabon_cadena` quedan vacíos porque no tienen fuente en los datos actuales; `autoauditoria` ya está integrada para m08 y m09.
 - Verificación: conteo 517 → 517, auditoría de exclusión (`scripts/verify_exam_readiness.py`), prueba de conservación de campos editables, segunda ejecución byte a byte idéntica y hashes intactos de `data/contenido_claude/`.
 - Falta: cerrar Tarea 3 y luego motor/páginas (Tarea 2), con parada en PC1.
+
+### Tarea 3 — Herramientas de muestreo (08/11/2026)
+
+- Se crearon `assets/js/muestreo/calculos.mjs`, `arbol-muestreo.mjs`, `calculadora-honesta.mjs` e `index.mjs`, además de `tests/muestreo.test.mjs`.
+- La calculadora obliga a elegir diseño y propósito antes de mostrar números; bloquea estimación para muestras no probabilísticas, no calcula estudios cualitativos y exige la fuente del tamaño de efecto para potencia.
+- El árbol muestra un nodo por vez, permite volver y conserva el camino. Sus hojas y textos, igual que los avisos de la calculadora, se leen desde `data/contenido_claude/m08.json` a través del contenido integrado; no se duplican textos pedagógicos en el código.
+- Verificación: `node --test tests/` — 9 pruebas pasan: estimación 385/292/730, potencia 85/64/93 y los tres bloqueos sin número.
+- Falta: montar estos componentes en el ciclo de m08 desde los bloques `type: "herramienta"` durante la Tarea 2.
 
 ---
 
