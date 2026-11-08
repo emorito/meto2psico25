@@ -1,3 +1,22 @@
+# ESTADO — rama `rediseno-2026`
+
+**Abierta:** 08/11/2026 desde `main` (bc1aed6). `main` sigue publicada sin cambios hasta la aprobación del docente.
+
+## Encargos activos
+
+| Encargo | Responsable | Estado |
+|---|---|---|
+| `docs/ENCARGO-CODEX.md`: migración de datos, motor v3 (MVP), herramientas de muestreo | Codex | Pendiente de inicio |
+| `docs/ENCARGO-ANTIGRAVITY.md`: borradores de ítems m08 a m11; convertir Olaz y Medrano | Antigravity | m10 y m11 pueden empezar; m08 y m09 esperan las cápsulas de Claude |
+| Cápsulas nuevas de m08 y m09, galería de pseudocálculos, auditoría de ítems de m08 | Claude | En curso |
+
+## Decisiones abiertas
+
+1. Fecha del examen final (fija el plazo del *merge*).
+2. Las cuatro del plan maestro: umbral del 80 %, comprobante, voseo e ítems en revisar.
+
+---
+
 # ESTADO DEL PROYECTO — METO2PSICO25 (PLAN 2026)
 
 Fecha de corte: 13 de octubre de 2026  
