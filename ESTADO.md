@@ -6,7 +6,7 @@
 
 | Encargo | Responsable | Estado |
 |---|---|---|
-| `docs/ENCARGO-CODEX.md`: migración de datos, motor v3 (MVP), herramientas de muestreo | Codex | Tareas 1 y 3 completas; Tarea 2 pendiente de PC1 |
+| `docs/ENCARGO-CODEX.md`: migración de datos, motor v3 (MVP), herramientas de muestreo | Codex | Tareas 1 y 3 completas; Tarea 2 detenida en PC1 |
 | `docs/ENCARGO-ANTIGRAVITY.md`: borradores de ítems m08 a m11; convertir Olaz y Medrano | Antigravity | m10 y m11 pueden empezar; m08 y m09 esperan las cápsulas de Claude |
 | Cápsulas nuevas de m08 y m09, galería de pseudocálculos, auditoría de ítems de m08 | Claude | En curso |
 
@@ -33,8 +33,17 @@
 - La calculadora obliga a elegir diseño y propósito antes de mostrar números; bloquea estimación para muestras no probabilísticas, no calcula estudios cualitativos y exige la fuente del tamaño de efecto para potencia.
 - El árbol muestra un nodo por vez, permite volver y conserva el camino. Sus hojas y textos, igual que los avisos de la calculadora, se leen desde `data/contenido_claude/m08.json` a través del contenido integrado; no se duplican textos pedagógicos en el código.
 - Verificación: `node --test tests/` — 9 pruebas pasan: estimación 385/292/730, potencia 85/64/93 y los tres bloqueos sin número.
-- Falta: montar estos componentes en el ciclo de m08 desde los bloques `type: "herramienta"` durante la Tarea 2.
+- Falta: integrar el helper en el renderer del ciclo de m08 desde los bloques `type: "herramienta"` durante F2.
 
+
+### Tarea 2 — F1: base visual y persistencia (PC1, 08/11/2026)
+
+- Se agregaron `tokens.css`, `base.css`, `components.css` e `icons.svg` con la dirección editorial, tokens claro/oscuro, foco visible, reducción de movimiento y componentes sin emojis.
+- Se creó `estilo.html` como guía navegable y `assets/js/store.js` con la clave `meto2.v2`, migración de `meto2_progress`/`meto2_progress_2026` conservando solo `completed`, y funcionamiento sin `localStorage`.
+- Se añadió `assets/js/muestreo/index.mjs` con el punto de montaje de bloques `type: "herramienta"`; el renderer de módulos queda para F2.
+- Capturas PC1: `capturas/v3/estilo_mobile_375_light.png`, `estilo_mobile_375_dark.png`, `estilo_desktop_1280_light.png` y `estilo_desktop_1280_dark.png`.
+- Verificación: `node --test tests/` — 13 pruebas pasan; `scripts/capture_pc1.mjs` confirma 375 px y 1280 px sin desplazamiento horizontal en ambos temas; JSON/SVG válidos y `git diff --check` limpio.
+- Punto de control: **PC1 alcanzado.** Se detiene el trabajo hasta la revisión de Claude. No se implementaron todavía `engine.js`, `index.html` v3 ni el ciclo de `modulo.html`.
 ---
 
 # ESTADO DEL PROYECTO — METO2PSICO25 (PLAN 2026)
