@@ -80,7 +80,7 @@ Se organiza con el marco de los **Standards (AERA, APA y NCME, 2014)**: la valid
 | Instrumentos cualitativos | Guía de entrevista, guía de observación, pilotaje y reflexividad. |
 | Ética | Se conserva y se amplía: consentimiento, custodia, menores, IA. |
 
-**Fuente principal:** *APA Handbook of Research Methods in Psychology*, vol. 1 (Foundations, planning, measures, and psychometrics), ya convertido a markdown en `Diseno de Investigacion/Archivos MD/`. **A complementar** con tu biblioteca de Estadística y Psicometría, si me das acceso (ver decisiones abiertas).
+**Fuente principal:** *APA Handbook of Research Methods in Psychology*, vol. 1 (Foundations, planning, measures, and psychometrics), ya convertido a markdown en `Diseno de Investigacion/Archivos MD/`. **Se complementa** con la biblioteca de Estadística & Psicometría: `Reliability/` (Cronbach 1951, Sijtsma 2009, Dunn et al. 2013, Revelle y Zinbarg), `Psicometría/` (Muñiz, Meneses, Furr, de Ayala y DeMars para TRI) y `Medición/` (directrices de la ITC, Diez pasos).
 
 ## 3. Resultado 2 — psychoResearch
 
@@ -114,7 +114,7 @@ Diferencias con meto2psico25: la apertura de módulos es libre (sin fechas), hay
 | **Antigravity + Gemini** | Borradores masivos de ítems y casos a partir de los markdown, siguiendo plantillas; convertir Olaz y Medrano; armar el currículo de psychoResearch con las fuentes | Volumen alto con reglas claras |
 | **Ollama** | Contar cobertura, verificar enlaces, ortografía, validar JSON | Tarea mecánica, sin costo |
 
-**Cómo se coordinan:** cada repo lleva un `AGENTS.md` (Codex lo lee automáticamente y Antigravity lo recibe como instrucción), más `ESTADO.md`, donde el agente informa, y `REVISION.md`, donde Claude deja sus observaciones. Los encargos van en archivos `Instrucciones - … .md` en tu carpeta, como hasta ahora.
+**Cómo se coordinan:** cada repo lleva un `AGENTS.md` (Codex lo lee automáticamente y Antigravity lo recibe como instrucción), más `ESTADO.md`, donde el agente informa, y `REVISION.md`, donde Claude deja sus observaciones. Los encargos están en el propio repo: `docs/ENCARGO-CODEX.md` y `docs/ENCARGO-ANTIGRAVITY.md`.
 
 ## 5. Fases
 
