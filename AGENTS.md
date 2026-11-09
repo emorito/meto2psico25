@@ -27,7 +27,7 @@ Si dos documentos se contradicen, manda el de número más bajo. Si la duda pers
 
 ```bash
 python3 -m http.server 8000          # previsualizar
-node --test tests/                   # pruebas unitarias del motor (cuando existan)
+node --test tests/*.mjs              # pruebas unitarias del motor
 python3 scripts/verify_exam_readiness.py
 ```
 
