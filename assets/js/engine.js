@@ -47,6 +47,10 @@ export function shuffle(items, random = Math.random) {
   return copy;
 }
 
+export function shuffleOptionIndices(options, random = Math.random) {
+  return shuffle((options ?? []).map((_, index) => index), random);
+}
+
 export function approvedItems(items) {
   return (items ?? []).filter((item) => item?.estado === "aprobado");
 }
@@ -111,13 +115,13 @@ export function answerIsCorrect(item, answer) {
   return Number(answer) === Number(item.correcta);
 }
 
-export function renderQuestion(item, { name = `answer-${item?.id}`, disabled = false } = {}) {
+export function renderQuestion(item, { name = `answer-${item?.id}`, disabled = false, random = Math.random } = {}) {
   if (!item) return "";
   const options = Array.isArray(item.opciones) ? item.opciones : ["Verdadero", "Falso"];
-  const controls = options.map((option, index) => `
+  const controls = shuffleOptionIndices(options, random).map((originalIndex) => `
     <label class="question__option">
-      <input type="radio" name="${escapeHtml(name)}" value="${index}" ${disabled ? "disabled" : ""}>
-      <span>${inlineMarkdown(option)}</span>
+      <input type="radio" name="${escapeHtml(name)}" value="${originalIndex}" ${disabled ? "disabled" : ""}>
+      <span>${inlineMarkdown(options[originalIndex])}</span>
     </label>`).join("");
   return `
     <article class="question" data-question-id="${escapeHtml(item.id)}">

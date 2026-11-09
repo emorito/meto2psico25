@@ -5,6 +5,7 @@ import {
   MODULE_STEPS,
   approvedItems,
   scoreVerification,
+  shuffleOptionIndices,
   selectVerificationItems,
 } from "../assets/js/engine.js";
 
@@ -41,4 +42,17 @@ test("califica la verificación con umbral del 80 % y subtemas para repasar", ()
   assert.equal(result.dominated, true);
   assert.deepEqual(result.subtemasRevisar, ["instrumentos"]);
   assert.equal(scoreVerification(items, answers.slice(0, 7)).answered, 7);
+});
+
+test("mezcla la posición de la respuesta correcta de forma uniforme", () => {
+  const item = { opciones: ["A", "B", "C", "D"], correcta: 2 };
+  let seed = 17;
+  const random = () => {
+    seed = (seed * 1664525 + 1013904223) % 4294967296;
+    return seed / 4294967296;
+  };
+  const positions = Array.from({ length: 200 }, () => shuffleOptionIndices(item.opciones, random).indexOf(item.correcta));
+  const counts = [0, 0, 0, 0];
+  positions.forEach((position) => { counts[position] += 1; });
+  assert.ok(counts.every((count) => count >= 35 && count <= 65), `distribución: ${counts.join(", ")}`);
 });
