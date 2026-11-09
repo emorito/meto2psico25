@@ -4,6 +4,7 @@ import {
   COHERENCE_CHAIN,
   MODULE_STEPS,
   approvedItems,
+  scoreVerification,
   selectVerificationItems,
 } from "../assets/js/engine.js";
 
@@ -27,4 +28,17 @@ test("solo selecciona ítems aprobados", () => {
   const approved = approvedItems(items);
   assert.equal(approved.length, 10);
   assert.equal(selectVerificationItems(items, () => 0.4).some((item) => item.estado !== "aprobado"), false);
+});
+
+test("califica la verificación con umbral del 80 % y subtemas para repasar", () => {
+  const items = Array.from({ length: 10 }, (_, index) => ({
+    id: `v${index}`,
+    subtema: index < 2 ? "muestra" : "instrumentos",
+  }));
+  const answers = items.map((item, index) => ({ id: item.id, correcto: index < 8 }));
+  const result = scoreVerification(items, answers);
+  assert.equal(result.score, 80);
+  assert.equal(result.dominated, true);
+  assert.deepEqual(result.subtemasRevisar, ["instrumentos"]);
+  assert.equal(scoreVerification(items, answers.slice(0, 7)).answered, 7);
 });

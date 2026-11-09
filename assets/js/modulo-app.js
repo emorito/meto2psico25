@@ -8,9 +8,10 @@ import {
   feedbackFor,
   inlineMarkdown,
   renderQuestion,
+  scoreVerification,
   stepFromQuery,
 } from "./engine.js";
-import { loadStore, saveStore } from "./store.js";
+import { loadStore, saveStore, updateModule } from "./store.js";
 import { mountSamplingToolBlock } from "./muestreo/index.mjs";
 
 const params = new URLSearchParams(window.location.search);
@@ -161,6 +162,25 @@ function renderQuestionList(items, key, intro) {
   return `<div class="question-list"><p class="muted">${escapeHtml(intro)}</p>${items.map((item) => renderQuestion(item, { name: `${key}-${item.id}` })).join("")}</div>`;
 }
 
+function formatDomainDate(value) {
+  if (!value) return "";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return String(value);
+  return new Intl.DateTimeFormat("es-PY", { dateStyle: "medium" }).format(date);
+}
+
+function renderDomainResult(domain) {
+  if (!domain) return "";
+  const review = domain.subtemasRevisar?.length
+    ? `<p><strong>Subtemas para repasar:</strong> ${domain.subtemasRevisar.map((item) => escapeHtml(item)).join(", ")}</p>`
+    : "";
+  const title = domain.dominated ? "Módulo dominado" : "Todavía no alcanza el dominio";
+  const detail = domain.dominated
+    ? "Superaste el umbral del 80 %."
+    : "Hacé una nueva práctica y volvé a intentar la verificación.";
+  return `<div class="domain-result ${domain.dominated ? "domain-result--ok" : "domain-result--review"}" aria-live="polite"><strong>${title}</strong><p>${escapeHtml(detail)} Puntaje: <strong>${escapeHtml(domain.score)} %</strong> (${escapeHtml(domain.correct)}/${escapeHtml(domain.total)}).${domain.fecha ? ` Fecha: ${escapeHtml(formatDomainDate(domain.fecha))}.` : ""}</p>${review}</div>`;
+}
+
 function renderPractice() {
   const session = state.sessions.adaptativa ?? (state.sessions.adaptativa = createSession(state.items, { count: 12, mode: "adaptativa" }));
   return `<section class="module-step is-active">${renderStepHeader("Paso 6 · Práctica adaptativa", "Practicá con feedback inmediato", "Los ítems aprobados se intercalan y los errores quedan visibles para volver sobre ellos.")}${renderQuestionList(session.items, "adaptativa", "12 ítems del banco aprobado")}</section>`;
@@ -168,7 +188,8 @@ function renderPractice() {
 
 function renderVerification() {
   const session = state.sessions.verificacion ?? (state.sessions.verificacion = createSession(state.items, { mode: "verificacion" }));
-  return `<section class="module-step is-active">${renderStepHeader("Paso 7 · Verificación de dominio", "Comprobá tu dominio", "El módulo se considera dominado con 80 % o más en esta verificación de 10 ítems.")}${renderQuestionList(session.items, "verificacion", "3 ítems de dificultad 1, 4 de dificultad 2 y 3 de dificultad 3")}</section>`;
+  const previous = state.store.modules?.[moduleId]?.domain;
+  return `<section class="module-step is-active">${renderStepHeader("Paso 7 · Verificación de dominio", "Comprobá tu dominio", "El módulo se considera dominado con 80 % o más en esta verificación de 10 ítems.")}${previous ? renderDomainResult(previous) : ""}${renderQuestionList(session.items, "verificacion", "3 ítems de dificultad 1, 4 de dificultad 2 y 3 de dificultad 3")}<div class="verification-actions"><button class="button button--primary" type="button" data-verification-submit>Calificar verificación</button><div data-verification-result aria-live="polite"></div></div></section>`;
 }
 
 function renderDiagnosis() {
@@ -192,6 +213,7 @@ function renderCurrentStep() {
   contentEl.innerHTML = renderers[state.activeStep]();
   if (state.activeStep === 2) mountTools();
   attachQuestionHandlers();
+  attachVerificationHandler();
   attachAuditHandlers();
   attachClosingHandler();
   renderNav();
@@ -225,12 +247,43 @@ function attachQuestionHandlers() {
       }
       const correct = answerIsCorrect(item, selected.value);
       state.responses.set(`${state.activeStep}:${item.id}`, correct);
+      const session = state.activeStep === 5
+        ? state.sessions.adaptativa
+        : state.activeStep === 6
+          ? state.sessions.verificacion
+          : null;
+      if (session) {
+        session.answers = [...session.answers.filter((answer) => answer.id !== item.id), { id: item.id, correcto: correct }];
+      }
       feedback.innerHTML = `<div class="feedback ${correct ? "" : "feedback--error"}"><strong>${correct ? "Correcto" : "Revisá este punto"}</strong><p>${inlineMarkdown(feedbackFor(item, correct))}</p></div>`;
       button.disabled = true;
       question.querySelectorAll("input").forEach((input) => { input.disabled = true; });
       state.store.responses.push({ id: item.id, modulo: moduleId, correcto: correct, fecha: new Date().toISOString() });
       saveStore(state.store);
     });
+  });
+}
+
+function attachVerificationHandler() {
+  const button = contentEl.querySelector("[data-verification-submit]");
+  if (!button) return;
+  button.addEventListener("click", () => {
+    const session = state.sessions.verificacion;
+    const result = scoreVerification(session.items, session.answers);
+    const resultEl = contentEl.querySelector("[data-verification-result]");
+    if (result.answered < result.total) {
+      resultEl.innerHTML = `<p class="feedback feedback--error">Respondé los ${escapeHtml(result.total - result.answered)} ítems que faltan antes de calificar.</p>`;
+      return;
+    }
+    const domain = { ...result, fecha: new Date().toISOString() };
+    state.store = updateModule(state.store, moduleId, {
+      completed: domain.dominated,
+      domain,
+      lastScore: domain.score,
+    });
+    saveStore(state.store);
+    resultEl.innerHTML = renderDomainResult(domain);
+    button.disabled = true;
   });
 }
 

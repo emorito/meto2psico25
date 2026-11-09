@@ -74,6 +74,28 @@ export function selectVerificationItems(items, random = Math.random) {
   return shuffle(selected.slice(0, 10), random);
 }
 
+export function scoreVerification(items, answers) {
+  const answerMap = answers instanceof Map
+    ? answers
+    : new Map((answers ?? []).map((answer) => [answer.id, answer]));
+  const total = items?.length ?? 0;
+  const answered = (items ?? []).filter((item) => answerMap.has(item.id)).length;
+  const incorrectItems = (items ?? []).filter((item) => {
+    const answer = answerMap.get(item.id);
+    return !(typeof answer === "boolean" ? answer : answer?.correcto ?? answer?.correct);
+  });
+  const correct = total - incorrectItems.length;
+  const score = total ? Math.round((correct / total) * 100) : 0;
+  return {
+    total,
+    answered,
+    correct,
+    score,
+    dominated: total > 0 && score >= 80,
+    subtemasRevisar: [...new Set(incorrectItems.map((item) => item.subtema).filter(Boolean))],
+  };
+}
+
 export function feedbackFor(item, correct) {
   const feedback = item?.feedback ?? {};
   if (correct) return feedback.correcta ?? feedback.correcto ?? feedback.correct ?? "La respuesta coincide con la clave del ítem.";
