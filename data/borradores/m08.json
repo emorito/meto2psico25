@@ -1,0 +1,386 @@
+[
+  {
+    "id": "m08-b001",
+    "tipo": "opcion_multiple",
+    "enunciado": "¿Cuál es la condición sine qua non para que un diseño de muestreo sea clasificado como estrictamente probabilístico?",
+    "opciones": [
+      "Contar con un marco muestral donde cada unidad de la población tenga una probabilidad conocida y no nula de ser elegida.",
+      "Alcanzar un tamaño muestral universal de al menos 384 casos con un 95 % de nivel de confianza nominal.",
+      "Garantizar que la muestra incluya exactamente un 50 % de participantes masculinos y un 50 % femeninos.",
+      "Distribuir cuestionarios masivos de respuesta abierta a través de plataformas digitales sin restricción de acceso."
+    ],
+    "correcta": 0,
+    "feedback": {
+      "correcto": "¡Correcto! Un muestreo es probabilístico solo si existe un marco muestral completo y un mecanismo aleatorio donde cada unidad tiene una probabilidad de selección conocida y estrictamente mayor que cero.",
+      "incorrecto": "No es correcto. El muestreo probabilístico no se define por un número fijo ni por cuotas demográficas, sino por la existencia de un marco muestral y una probabilidad de selección conocida y distinta de cero para cada unidad.",
+      "correcta": "¡Correcto! Un muestreo es probabilístico solo si existe un marco muestral completo y un mecanismo aleatorio donde cada unidad tiene una probabilidad de selección conocida y estrictamente mayor que cero.",
+      "incorrecta": "No es correcto. El muestreo probabilístico no se define por un número fijo ni por cuotas demográficas, sino por la existencia de un marco muestral y una probabilidad de selección conocida y distinta de cero para cada unidad."
+    },
+    "dificultad": 1,
+    "subtema": "muestreo",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Bloque: Precisión terminológica; Leslie Kish, Statistical Design for Research, Cap. 1",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m08-b002",
+    "tipo": "opcion_multiple",
+    "enunciado": "Discriminación de caso: Un proyecto de investigación cualitativa fenomenológica sobre experiencias de duelo perinatal planifica calcular su tamaño de muestra con la fórmula de proporciones para poblaciones finitas. ¿Qué justificación metodológica corresponde?",
+    "opciones": [
+      "Calcular la fórmula de proporciones asumiendo p = 0,5 y fijando un error de estimación del 5 %.",
+      "Definir el tamaño por potencia informativa y regla de saturación teórica durante el trabajo de campo.",
+      "Determinar el número de casos fijando una potencia estadística a priori de 0,80 para dos medias.",
+      "Aplicar la regla universal de seleccionar exactamente 384 entrevistas para asegurar representatividad."
+    ],
+    "correcta": 1,
+    "feedback": {
+      "correcto": "¡Correcto! En investigación cualitativa no se calcula tamaño de muestra con fórmulas estadísticas de error ni de potencia. La muestra se justifica por la potencia informativa de los participantes y el cierre por saturación de categorías.",
+      "incorrecto": "No es correcto. En un estudio cualitativo no corresponde aplicar fórmulas de proporciones ni de potencia estadística. La justificación legítima del tamaño se fundamenta en la potencia informativa (Malterud et al.) y la saturación teórica.",
+      "correcta": "¡Correcto! En investigación cualitativa no se calcula tamaño de muestra con fórmulas estadísticas de error ni de potencia. La muestra se justifica por la potencia informativa de los participantes y el cierre por saturación de categorías.",
+      "incorrecta": "No es correcto. En un estudio cualitativo no corresponde aplicar fórmulas de proporciones ni de potencia estadística. La justificación legítima del tamaño se fundamenta en la potencia informativa (Malterud et al.) y la saturación teórica."
+    },
+    "dificultad": 1,
+    "subtema": "corpus",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Galería de pseudocálculos (pc04: Fórmula para fijar entrevistas) y Tabla de justificación por propósito",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m08-b003",
+    "tipo": "opcion_multiple",
+    "enunciado": "Discriminación de caso: Un tesista difunde una encuesta mediante un enlace público en Instagram. Al reunir 384 respuestas voluntarias, afirma: «Mi muestra tiene un margen de error de ±5 % con un 95 % de nivel de confianza». ¿Cuál es el diagnóstico metodológico?",
+    "opciones": [
+      "La conclusión es matemáticamente rigurosa porque 384 es el número óptimo para cualquier población de gran tamaño.",
+      "El cálculo es correcto siempre que se aplique un test de normalidad multivariada sobre las respuestas obtenidas.",
+      "Pseudocálculo: en una muestra no probabilística autoseleccionada no hay probabilidades de selección y el margen de error carece de referente.",
+      "El procedimiento es válido porque el algoritmo de la red social distribuye los enlaces de manera totalmente aleatoria."
+    ],
+    "correcta": 2,
+    "feedback": {
+      "correcto": "¡Correcto! La fórmula de margen de error presupone selección aleatoria desde un marco muestral conocido. En una muestra voluntaria por redes, las probabilidades de inclusión son desconocidas: '±5 % de error' es una cifra sin referente real.",
+      "incorrecto": "No es correcto. Se trata de un pseudocálculo flagrante. Sin marco muestral ni selección aleatoria probabilística, no existe base matemática para calcular un margen de error ni un intervalo de confianza legítimo.",
+      "correcta": "¡Correcto! La fórmula de margen de error presupone selección aleatoria desde un marco muestral conocido. En una muestra voluntaria por redes, las probabilidades de inclusión son desconocidas: '±5 % de error' es una cifra sin referente real.",
+      "incorrecta": "No es correcto. Se trata de un pseudocálculo flagrante. Sin marco muestral ni selección aleatoria probabilística, no existe base matemática para calcular un margen de error ni un intervalo de confianza legítimo."
+    },
+    "dificultad": 1,
+    "subtema": "muestra",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Galería de pseudocálculos (pc01: Los 384 universales); Kish, Statistical Design for Research, Cap. 1",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m08-b004",
+    "tipo": "opcion_multiple",
+    "enunciado": "¿En qué situación de muestreo probabilístico es metodológicamente pertinente incorporar la corrección por población finita (FPC)?",
+    "opciones": [
+      "En cualquier estudio con muestras no probabilísticas cuando el investigador conoce el tamaño aproximado de la ciudad.",
+      "Únicamente en investigaciones de caso único con mediciones repetidas en una línea de base prolongada.",
+      "Cuando se pretende eliminar el sesgo de autoselección en cuestionarios distribuidos por correo electrónico.",
+      "En muestreos sin reposición cuando el tamaño de la muestra n supera el 5 % del tamaño total del marco poblacional N."
+    ],
+    "correcta": 3,
+    "feedback": {
+      "correcto": "¡Correcto! La corrección por población finita reduce la varianza del estimador en muestreos sin reposición cuando la fracción de muestreo (n/N) es apreciable (típicamente superior al 5 %). Si la población es muy grande o no hay marco, no aporta nada.",
+      "incorrecto": "No es correcto. La corrección por población finita solo tiene fundamento en muestreo probabilístico sin reposición cuando la fracción muestral n/N es mayor al 5 %. En muestras no probabilísticas o poblaciones infinitas carece de sentido.",
+      "correcta": "¡Correcto! La corrección por población finita reduce la varianza del estimador en muestreos sin reposición cuando la fracción de muestreo (n/N) es apreciable (típicamente superior al 5 %). Si la población es muy grande o no hay marco, no aporta nada.",
+      "incorrecta": "No es correcto. La corrección por población finita solo tiene fundamento en muestreo probabilístico sin reposición cuando la fracción muestral n/N es mayor al 5 %. En muestras no probabilísticas o poblaciones infinitas carece de sentido."
+    },
+    "dificultad": 1,
+    "subtema": "poblacion",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Calculadora honesta; Cochran, Sampling Techniques, Cap. 2",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m08-b005",
+    "tipo": "opcion_multiple",
+    "enunciado": "Discriminación de caso: Un equipo selecciona por conveniencia a 50 hombres y 50 mujeres en la entrada de un shopping sin marco ni sorteo, y afirma haber realizado un «muestreo probabilístico estratificado». ¿Cómo debe clasificarse rigurosamente este diseño?",
+    "opciones": [
+      "Muestreo por cuotas: es un diseño no probabilístico porque no hubo selección aleatoria desde un marco en cada subgrupo.",
+      "Muestreo estratificado proporcional: divide a la población en grupos de interés teórico con igual número de casos.",
+      "Muestreo por conglomerados monoetápico: cada shopping funciona como un cluster representativo de la sociedad.",
+      "Muestreo aleatorio simple: cada persona que cruzaba la puerta tenía la misma probabilidad física de ser abordada."
+    ],
+    "correcta": 0,
+    "feedback": {
+      "correcto": "¡Correcto! Fijar cuotas de participantes (50 hombres y 50 mujeres) sin sorteo aleatorio desde un marco es muestreo por cuotas (no probabilístico). El muestreo estratificado exige selección probabilística aleatoria dentro de cada estrato.",
+      "incorrecto": "No es correcto. Tener cuotas demográficas no equivale a un muestreo estratificado. Para ser estratificado debe existir un marco muestral y selección aleatoria dentro de cada estrato. Al abordar sujetos por conveniencia, es muestreo por cuotas (no probabilístico).",
+      "correcta": "¡Correcto! Fijar cuotas de participantes (50 hombres y 50 mujeres) sin sorteo aleatorio desde un marco es muestreo por cuotas (no probabilístico). El muestreo estratificado exige selección probabilística aleatoria dentro de cada estrato.",
+      "incorrecta": "No es correcto. Tener cuotas demográficas no equivale a un muestreo estratificado. Para ser estratificado debe existir un marco muestral y selección aleatoria dentro de cada estrato. Al abordar sujetos por conveniencia, es muestreo por cuotas (no probabilístico)."
+    },
+    "dificultad": 1,
+    "subtema": "muestreo",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Galería de pseudocálculos (pc06: Cuotas presentadas como estratos); Rodríguez Osuna, Métodos de muestreo, Cap. 3",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m08-b006",
+    "tipo": "opcion_multiple",
+    "enunciado": "Discriminación de caso: Una investigación con muestra no probabilística intencional en dos colegios desea contrastar la efectividad de un programa de habilidades sociales (diferencia de medias entre grupo experimental y control). ¿Qué justificación del tamaño muestral corresponde?",
+    "opciones": [
+      "Calcular la fórmula de precisión para una media con margen de error de 0,5 desviaciones y población infinita.",
+      "Realizar un análisis de potencia estadística a priori fijando el tamaño de efecto esperado desde la literatura previa.",
+      "Asumir la regla empírica universal de que cualquier muestra con más de 30 casos por grupo es representativa.",
+      "Aplicar el criterio de saturación teórica mediante codificación axial de las respuestas numéricas del test."
+    ],
+    "correcta": 1,
+    "feedback": {
+      "correcto": "¡Correcto! En muestras no probabilísticas donde el propósito es contrastar una hipótesis (diferencia de grupos), no corresponde margen de error. La justificación legítima es el análisis de potencia estadística a priori fundamentado en la literatura.",
+      "incorrecto": "No es correcto. Para contrastar hipótesis no se usan fórmulas de margen de error ni reglas fijas de 30 casos. La justificación rigurosa es el análisis de potencia estadística a priori basado en el tamaño de efecto esperado según estudios previos.",
+      "correcta": "¡Correcto! En muestras no probabilísticas donde el propósito es contrastar una hipótesis (diferencia de grupos), no corresponde margen de error. La justificación legítima es el análisis de potencia estadística a priori fundamentado en la literatura.",
+      "incorrecta": "No es correcto. Para contrastar hipótesis no se usan fórmulas de margen de error ni reglas fijas de 30 casos. La justificación rigurosa es el análisis de potencia estadística a priori basado en el tamaño de efecto esperado según estudios previos."
+    },
+    "dificultad": 2,
+    "subtema": "muestra",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Tabla: Cada propósito tiene su propia justificación del tamaño y Bloque: Si tu muestra no es probabilística",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m08-b007",
+    "tipo": "opcion_multiple",
+    "enunciado": "En un muestreo probabilístico por conglomerados (ej. sortear 10 colegios enteros y evaluar a todos sus alumnos), ¿por qué se produce el llamado «efecto de diseño» (deff)?",
+    "opciones": [
+      "Porque los estudiantes de un mismo colegio tienden a parecerse entre sí (correlación intraclase positiva), reduciendo la información neta.",
+      "Porque la probabilidad de selección individual se vuelve exactamente cero para todos los estudiantes evaluados.",
+      "Porque las fórmulas de muestreo aleatorio simple sobreestiman sistemáticamente el tamaño muestral necesario.",
+      "Porque el efecto de diseño solo ocurre cuando se trabaja con variables categoriales dicotómicas en muestras finitas."
+    ],
+    "correcta": 0,
+    "feedback": {
+      "correcto": "¡Correcto! Los individuos agrupados en un conglomerado comparten características (correlación intraclase positiva rho > 0). Esto hace que N observaciones agrupadas aporten menos información independiente que N casos aleatorios simples, requiriendo multiplicar por deff ≈ 1 + (m-1)·rho.",
+      "incorrecto": "No es correcto. El efecto de diseño (deff) se produce porque las unidades dentro del conglomerado no son estadísticamente independientes: se parecen entre sí (rho > 0). Esta homogeneidad reduce la precisión relativa y exige aumentar la muestra.",
+      "correcta": "¡Correcto! Los individuos agrupados en un conglomerado comparten características (correlación intraclase positiva rho > 0). Esto hace que N observaciones agrupadas aporten menos información independiente que N casos aleatorios simples, requiriendo multiplicar por deff ≈ 1 + (m-1)·rho.",
+      "incorrecta": "No es correcto. El efecto de diseño (deff) se produce porque las unidades dentro del conglomerado no son estadísticamente independientes: se parecen entre sí (rho > 0). Esta homogeneidad reduce la precisión relativa y exige aumentar la muestra."
+    },
+    "dificultad": 2,
+    "subtema": "muestreo",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Galería de pseudocálculos (pc07: El efecto de diseño olvidado); Kish, Survey Sampling, Cap. 5",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m08-b008",
+    "tipo": "opcion_multiple",
+    "enunciado": "Discriminación de caso: Un estudio divulgado por una celebridad en internet obtiene 15.000 respuestas voluntarias y afirma: «Dada la enorme cantidad de participantes, la muestra es plenamente representativa de los jóvenes del país». ¿Cuál es el error conceptual?",
+    "opciones": [
+      "El tamaño de muestra debió ser exactamente el doble para superar el límite asintótico del teorema central del límite.",
+      "Confundir tamaño con representatividad: una muestra masiva reduce el error aleatorio pero no corrige el sesgo sistemático de selección.",
+      "El error radica en que las encuestas por internet solo son representativas si se aplican a personas mayores de 65 años.",
+      "No hubo error: la ley de los grandes números garantiza la representatividad poblacional de cualquier muestra mayor a diez mil casos."
+    ],
+    "correcta": 1,
+    "feedback": {
+      "correcto": "¡Correcto! Una muestra grande solo reduce la variabilidad aleatoria en torno al estimador de la muestra disponible, pero no mitiga el sesgo de selección. Si quienes responden difieren sistemáticamente de quienes no acceden a la red, la muestra masiva reproduce el sesgo con mayor precisión aparente.",
+      "incorrecto": "No es correcto. El volumen de datos no elimina el sesgo de selección. 15.000 seguidores de una cuenta no representan a la población juvenil general; solo representan a quienes siguen a esa figura y decidieron voluntariamente responder.",
+      "correcta": "¡Correcto! Una muestra grande solo reduce la variabilidad aleatoria en torno al estimador de la muestra disponible, pero no mitiga el sesgo de selección. Si quienes responden difieren sistemáticamente de quienes no acceden a la red, la muestra masiva reproduce el sesgo con mayor precisión aparente.",
+      "incorrecta": "No es correcto. El volumen de datos no elimina el sesgo de selección. 15.000 seguidores de una cuenta no representan a la población juvenil general; solo representan a quienes siguen a esa figura y decidieron voluntariamente responder."
+    },
+    "dificultad": 2,
+    "subtema": "muestra",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Galería de pseudocálculos (pc05: Grande, entonces representativa); Leslie Kish, Statistical Design for Research",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m08-b009",
+    "tipo": "opcion_multiple",
+    "enunciado": "En un muestreo probabilístico para estimar una proporción con la precisión deseada se calcula que se necesitan 300 casos válidos. Si por antecedentes se espera una tasa de respuesta del 60 % (r = 0,60), ¿cuántas unidades deben seleccionarse inicialmente?",
+    "opciones": [
+      "300 unidades, confiando en que quienes no contesten serán reemplazados por voluntarios que pasen por el lugar.",
+      "180 unidades, porque el 60 % de 300 es suficiente para conservar la potencia estadística nominal del estudio.",
+      "500 unidades, ajustando por no respuesta mediante la división del tamaño requerido por la tasa esperada (300 / 0,60).",
+      "360 unidades, sumando un margen fijo convencional del 20 % de casos adicionales sin importar la tasa de respuesta."
+    ],
+    "correcta": 2,
+    "feedback": {
+      "correcto": "¡Correcto! Para compensar la pérdida por no respuesta y asegurar el tamaño analítico requerido (n = 300), se ajusta dividiendo por la tasa esperada: 300 / 0,60 = 500 unidades a contactar inicialmente.",
+      "incorrecto": "No es correcto. El ajuste riguroso por tasa de respuesta exige dividir el tamaño final necesario por la tasa esperada: n_inicial = n_requerido / r = 300 / 0,60 = 500 participantes.",
+      "correcta": "¡Correcto! Para compensar la pérdida por no respuesta y asegurar el tamaño analítico requerido (n = 300), se ajusta dividiendo por la tasa esperada: 300 / 0,60 = 500 unidades a contactar inicialmente.",
+      "incorrecta": "No es correcto. El ajuste riguroso por tasa de respuesta exige dividir el tamaño final necesario por la tasa esperada: n_inicial = n_requerido / r = 300 / 0,60 = 500 participantes."
+    },
+    "dificultad": 2,
+    "subtema": "poblacion",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Calculadora honesta; Kish, Survey Sampling, Cap. 13",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m08-b010",
+    "tipo": "opcion_multiple",
+    "enunciado": "Discriminación de caso: En la justificación del tamaño de muestra por potencia estadística, un proyecto indica: «Se adoptó un tamaño del efecto d = 0,50 porque es la convención habitual de efecto mediano propuesta por Cohen». ¿Cuál es la objeción metodológica central?",
+    "opciones": [
+      "El análisis de potencia exige obligatoriamente adoptar d = 0,80 como umbral mínimo para toda investigación en psicología.",
+      "La d de Cohen solo puede utilizarse en estudios epidemiológicos de salud pública con poblaciones mayores a un millón de personas.",
+      "El software G*Power no admite valores decimales para el parámetro de tamaño de efecto en contrastes de dos medias.",
+      "Las convenciones de Cohen son pautas genéricas orientativas; el tamaño de efecto debe fundamentarse en la literatura específica del problema."
+    ],
+    "correcta": 3,
+    "feedback": {
+      "correcto": "¡Correcto! Tomar un efecto de cajón sin justificación empírica distorsiona el cálculo. Si en la literatura el efecto real documentado es d = 0,20, planificar para d = 0,50 dejará al estudio severamente subpotenciado.",
+      "incorrecto": "No es correcto. Las etiquetas de Cohen ('chico', 'mediano', 'grande') son orientaciones abstractas. El tamaño de efecto para el cálculo de potencia debe fundamentarse en metaanálisis o estudios empíricos previos sobre el fenómeno específico.",
+      "correcta": "¡Correcto! Tomar un efecto de cajón sin justificación empírica distorsiona el cálculo. Si en la literatura el efecto real documentado es d = 0,20, planificar para d = 0,50 dejará al estudio severamente subpotenciado.",
+      "incorrecta": "No es correcto. Las etiquetas de Cohen ('chico', 'mediano', 'grande') son orientaciones abstractas. El tamaño de efecto para el cálculo de potencia debe fundamentarse en metaanálisis o estudios empíricos previos sobre el fenómeno específico."
+    },
+    "dificultad": 2,
+    "subtema": "muestra",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Galería de pseudocálculos (pc08: El tamaño de efecto de cajón); Cumming & Calin-Jageman (2017)",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m08-b011",
+    "tipo": "opcion_multiple",
+    "enunciado": "¿Por qué la regla empírica tradicional de fijar «10 participantes por ítem» para justificar el tamaño muestral en modelos factoriales (AFE/AFC) está fuertemente cuestionada en psicometría?",
+    "opciones": [
+      "Porque el tamaño muestral necesario depende de la comunalidad de los ítems y la sobredeterminación de los factores, no de una proporción fija.",
+      "Porque los modelos factoriales modernos exigen sin excepción recolectar al menos cien participantes por cada reactivo del instrumento.",
+      "Porque la regla de 10 por 1 solo es aplicable cuando el cuestionario tiene menos de cuatro preguntas en total.",
+      "Porque el Análisis Factorial Exploratorio no requiere verificar el número de participantes si los ítems son politómicos."
+    ],
+    "correcta": 0,
+    "feedback": {
+      "correcto": "¡Correcto! La literatura psicométrica ha demostrado que las reglas fijas de ratio participantes/ítem carecen de sustento matemático. Si las comunalidades son altas y los factores tienen muchos indicadores fuertes, muestras moderadas son suficientes; con comunalidades bajas, se requieren muestras mucho mayores.",
+      "incorrecto": "No es correcto. Las reglas de ratio N:p están desacreditadas. La adecuación del tamaño en modelos factoriales depende de la magnitud de las comunalidades, el número de indicadores por factor y el grado de sobredeterminación teórica.",
+      "correcta": "¡Correcto! La literatura psicométrica ha demostrado que las reglas fijas de ratio participantes/ítem carecen de sustento matemático. Si las comunalidades son altas y los factores tienen muchos indicadores fuertes, muestras moderadas son suficientes; con comunalidades bajas, se requieren muestras mucho mayores.",
+      "incorrecta": "No es correcto. Las reglas de ratio N:p están desacreditadas. La adecuación del tamaño en modelos factoriales depende de la magnitud de las comunalidades, el número de indicadores por factor y el grado de sobredeterminación teórica."
+    },
+    "dificultad": 2,
+    "subtema": "muestra",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Tabla: Cada propósito tiene su propia justificación del tamaño; APA Handbook Vol. 3, Cap. 17",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m08-b012",
+    "tipo": "opcion_multiple",
+    "enunciado": "Discriminación de caso: Un psicólogo clínico evalúa a los 28 pacientes con una condición neurológica poco frecuente disponibles en su hospital. Para justificar el tamaño, inventa una población N = 50.000 y aplica una fórmula de proporciones. ¿Cuál es la corrección metodológica?",
+    "opciones": [
+      "Aumentar artificialmente la población inventada a un millón de habitantes para justificar que la muestra fue suficiente.",
+      "Aplicar la corrección de Welch sobre la población inventada asumiendo distribución normal simétrica en el hospital.",
+      "Eliminar a la mitad de los pacientes para transformar el diseño en un estudio de caso único experimental puro.",
+      "Declarar la muestra como no probabilística disponible, justificar el acceso real, analizar la potencia del contraste y declarar límites."
+    ],
+    "correcta": 3,
+    "feedback": {
+      "correcto": "¡Correcto! Inventar un N poblacional para simular rigor con una fórmula es pseudocálculo. Se debe asumir con honestidad que es una muestra clínica disponible no probabilística, justificarla por acceso, calcular qué potencia estadística tienen los 28 casos y explicitar los límites de generalización.",
+      "incorrecto": "No es correcto. No se deben inventar censos ni aplicar fórmulas de proporciones sin marco muestral. Corresponde declarar el muestreo no probabilístico por disponibilidad, justificar el tamaño por acceso y potencia empírica, y delimitar el alcance de la inferencia.",
+      "correcta": "¡Correcto! Inventar un N poblacional para simular rigor con una fórmula es pseudocálculo. Se debe asumir con honestidad que es una muestra clínica disponible no probabilística, justificarla por acceso, calcular qué potencia estadística tienen los 28 casos y explicitar los límites de generalización.",
+      "incorrecta": "No es correcto. No se deben inventar censos ni aplicar fórmulas de proporciones sin marco muestral. Corresponde declarar el muestreo no probabilístico por disponibilidad, justificar el tamaño por acceso y potencia empírica, y delimitar el alcance de la inferencia."
+    },
+    "dificultad": 2,
+    "subtema": "poblacion",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Galería de pseudocálculos (pc02: La población finita inventada)",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m08-b013",
+    "tipo": "opcion_multiple",
+    "enunciado": "Discriminación de caso: Se diseña una encuesta epidemiológica en hogares usando muestreo probabilístico multietápico por conglomerados (manzanas y viviendas). ¿Cuál es la secuencia completa y legítima para calcular el tamaño muestral a convocar?",
+    "opciones": [
+      "Fijar 384 casos por convención, dividirlos entre el número de manzanas y aplicar una tasa de respuesta fija del 100 %.",
+      "Fórmula de precisión para proporciones con corrección por finitud si corresponde, multiplicada por el deff y dividida por la tasa de respuesta esperada.",
+      "Cálculo de potencia a priori en G*Power para correlación de Pearson multiplicado por el número total de encuestadores contratados.",
+      "Entrevistar unidades hasta que no surjan nuevas respuestas en tres manzanas consecutivas según el criterio de saturación teórica."
+    ],
+    "correcta": 1,
+    "feedback": {
+      "correcto": "¡Correcto! La estimación de proporciones en muestreo probabilístico complejo sigue la secuencia rigurosa: tamaño base según precisión deseada (n0) → corrección por población finita si n/N > 5 % (n1) → multiplicación por el efecto de diseño deff (n2) → ajuste por tasa de respuesta n3 = n2 / r.",
+      "incorrecto": "No es correcto. En muestreos probabilísticos por conglomerados no se usa una convención fija ni saturación. Se calcula el tamaño base de precisión, se ajusta por finitud, se multiplica por el efecto de diseño (deff) y se divide por la tasa de respuesta esperada.",
+      "correcta": "¡Correcto! La estimación de proporciones en muestreo probabilístico complejo sigue la secuencia rigurosa: tamaño base según precisión deseada (n0) → corrección por población finita si n/N > 5 % (n1) → multiplicación por el efecto de diseño deff (n2) → ajuste por tasa de respuesta n3 = n2 / r.",
+      "incorrecta": "No es correcto. En muestreos probabilísticos por conglomerados no se usa una convención fija ni saturación. Se calcula el tamaño base de precisión, se ajusta por finitud, se multiplica por el efecto de diseño (deff) y se divide por la tasa de respuesta esperada."
+    },
+    "dificultad": 3,
+    "subtema": "muestreo",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Calculadora honesta; Kish, Survey Sampling, Cap. 2 y 5",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m08-b014",
+    "tipo": "opcion_multiple",
+    "enunciado": "¿Qué riesgo metodológico crítico acarrea asumir un tamaño del efecto sobredimensionado o irrealmente grande en el análisis de potencia a priori de un estudio?",
+    "opciones": [
+      "Provoca que el software estadístico genere matrices singulares que impiden el cálculo de grados de libertad.",
+      "Obliga a utilizar estimadores no paramétricos aun cuando la distribución de los datos sea perfectamente normal.",
+      "Conduce a calcular una muestra insuficiente que dejará al estudio severamente subpotenciado frente al efecto real más modesto.",
+      "Garantiza que la tasa de error Tipo I se mantenga siempre por debajo del uno por ciento nominal sin importar el diseño."
+    ],
+    "correcta": 2,
+    "feedback": {
+      "correcto": "¡Correcto! Cuanto mayor es el efecto hipotetizado, menor es el número de casos que la fórmula de potencia indica como necesario. Si en la realidad el efecto es pequeño o mediano, la muestra recolectada será incapaz de detectarlo, inflando el error Tipo II (falsos negativos).",
+      "incorrecto": "No es correcto. Asumir un efecto inflado hace que el cálculo de potencia devuelva una muestra pequeña y engañosamente 'económica'. Si el efecto verdadero es menor, el estudio estará subpotenciado y fracasará en rechazar H0.",
+      "correcta": "¡Correcto! Cuanto mayor es el efecto hipotetizado, menor es el número de casos que la fórmula de potencia indica como necesario. Si en la realidad el efecto es pequeño o mediano, la muestra recolectada será incapaz de detectarlo, inflando el error Tipo II (falsos negativos).",
+      "incorrecta": "No es correcto. Asumir un efecto inflado hace que el cálculo de potencia devuelva una muestra pequeña y engañosamente 'económica'. Si el efecto verdadero es menor, el estudio estará subpotenciado y fracasará en rechazar H0."
+    },
+    "dificultad": 3,
+    "subtema": "muestra",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Galería de pseudocálculos (pc08: El tamaño de efecto de cajón); Cumming & Calin-Jageman (2017)",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m08-b015",
+    "tipo": "opcion_multiple",
+    "enunciado": "Según el modelo de «potencia informativa» de Malterud et al. (2016) para investigación cualitativa, ¿en qué condición se requiere un corpus más reducido de participantes?",
+    "opciones": [
+      "Cuando el objetivo es amplio, la muestra es heterogénea y no se cuenta con ningún marco teórico previo.",
+      "Cuando se utiliza muestreo por conveniencia en redes sociales y la tasa de deserción es desconocida.",
+      "Cuando el objetivo es estrecho y focalizado, los participantes poseen experiencias densas y el diálogo es profundo.",
+      "Cuando se aplican pruebas estadísticas no paramétricas con un nivel de significación alfa de 0,10."
+    ],
+    "correcta": 2,
+    "feedback": {
+      "correcto": "¡Correcto! La potencia informativa establece que una muestra cualitativa puede ser más pequeña cuando el objetivo de estudio es específico, los participantes tienen experiencias altamente pertinentes y ricas, el diálogo de entrevista es de alta calidad y se cuenta con un marco teórico sólido.",
+      "incorrecto": "No es correcto. Según Malterud et al., una muestra requiere menos participantes cuando la información provista por cada uno es densa y específica respecto a un objetivo acotado, con entrevistas profundas y teoría de apoyo.",
+      "correcta": "¡Correcto! La potencia informativa establece que una muestra cualitativa puede ser más pequeña cuando el objetivo de estudio es específico, los participantes tienen experiencias altamente pertinentes y ricas, el diálogo de entrevista es de alta calidad y se cuenta con un marco teórico sólido.",
+      "incorrecta": "No es correcto. Según Malterud et al., una muestra requiere menos participantes cuando la información provista por cada uno es densa y específica respecto a un objetivo acotado, con entrevistas profundas y teoría de apoyo."
+    },
+    "dificultad": 3,
+    "subtema": "corpus",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Bloque: Muestras en investigación cualitativa; Malterud et al. (2016)",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m08-b016",
+    "tipo": "opcion_multiple",
+    "enunciado": "En muestreo probabilístico estratificado, ¿bajo qué condición la asignación óptima de Neyman asigna una fracción muestral mayor a un estrato particular en comparación con la asignación proporcional?",
+    "opciones": [
+      "Cuando ese estrato específico presenta una media poblacional idéntica a la media global de la muestra.",
+      "Cuando los individuos de dicho estrato tienen una probabilidad subjetiva de rechazo mayor al noventa por ciento.",
+      "Cuando ese estrato presenta un tamaño poblacional significativamente menor que todos los demás estratos.",
+      "Cuando ese estrato exhibe una mayor variabilidad interna (mayor desviación estándar en la variable de estudio)."
+    ],
+    "correcta": 3,
+    "feedback": {
+      "correcto": "¡Correcto! La asignación de Neyman asigna el tamaño muestral en cada estrato proporcionalmente al producto del tamaño del estrato por su desviación estándar (Nh · Sh). Los estratos más heterogéneos reciben más muestra para minimizar la varianza global del estimador.",
+      "incorrecto": "No es correcto. La asignación óptima de Neyman concentra más muestra en aquellos estratos donde la dispersión interna (desviación estándar Sh) es mayor, logrando una estimación poblacional más precisa que la asignación proporcional.",
+      "correcta": "¡Correcto! La asignación de Neyman asigna el tamaño muestral en cada estrato proporcionalmente al producto del tamaño del estrato por su desviación estándar (Nh · Sh). Los estratos más heterogéneos reciben más muestra para minimizar la varianza global del estimador.",
+      "incorrecta": "No es correcto. La asignación óptima de Neyman concentra más muestra en aquellos estratos donde la dispersión interna (desviación estándar Sh) es mayor, logrando una estimación poblacional más precisa que la asignación proporcional."
+    },
+    "dificultad": 3,
+    "subtema": "muestreo",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Bloque: Diseños probabilísticos y su costo en precisión; Cochran, Sampling Techniques, Cap. 5",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  }
+]

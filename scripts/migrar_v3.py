@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """Migra los datos de los módulos al esquema de meto2psico25 v3.
 
-La migración lee solamente los datos versionados en ``data/mNN.json``. Puede
-ejecutarse varias veces: cuando un ítem ya existe en ``data/banco/`` conserva
-siempre ``estado``, ``nota_revision`` y ``origen``, que son campos editables
-por Claude o por el docente.
+La migración lee los datos versionados en ``data/mNN.json`` y, si existen,
+importa los borradores de ``data/borradores/``. Puede ejecutarse varias veces:
+cuando un ítem ya existe en ``data/banco/`` conserva siempre ``estado``,
+``nota_revision`` y ``origen``, que son campos editables por Claude o por el
+docente. Los borradores se vuelven a importar desde su archivo fuente sin
+reescribir su texto.
 """
 
 from __future__ import annotations
@@ -19,6 +21,7 @@ DATA_ROOT = REPO_ROOT / "data"
 BANK_ROOT = DATA_ROOT / "banco"
 CONTENT_ROOT = DATA_ROOT / "contenido"
 CLAUDE_CONTENT_ROOT = DATA_ROOT / "contenido_claude"
+DRAFT_ROOT = DATA_ROOT / "borradores"
 MODULE_IDS = tuple(f"m{number:02d}" for number in range(1, 12))
 
 # Ítems eliminados por decisión docente. Si reaparecen en una fuente, no se
@@ -237,6 +240,56 @@ def migrate_flipcards() -> int:
     return len(cards)
 
 
+def import_drafts() -> dict[str, int]:
+    """Import drafts as review-only items, preserving their source text.
+
+    The draft files remain the source of truth so Antigravity can correct them
+    and rerun this function. Only the review metadata is enforced here.
+    """
+
+    imported: dict[str, int] = {}
+    if not DRAFT_ROOT.exists():
+        return imported
+
+    for draft_path in sorted(DRAFT_ROOT.glob("m[0-9][0-9].json")):
+        module_id = draft_path.stem
+        raw = read_json(draft_path)
+        draft_items = raw if isinstance(raw, list) else raw.get("items", [])
+        bank_path = BANK_ROOT / f"{module_id}.json"
+        if not bank_path.exists():
+            continue
+        bank = read_json(bank_path)
+        items = bank.get("items", []) if isinstance(bank, dict) else bank
+        by_id = {
+            item.get("id"): index
+            for index, item in enumerate(items)
+            if isinstance(item, dict) and item.get("id")
+        }
+        previous = existing_items(bank_path)
+        count = 0
+        for source_item in draft_items:
+            if not isinstance(source_item, dict) or not source_item.get("id"):
+                continue
+            # Copy the draft as-is; do not rewrite enunciado, opciones,
+            # feedback, lectura_ref or any other content field.
+            item = dict(source_item)
+            item["estado"] = "revisar"
+            item["origen"] = "borrador_ia"
+            if previous.get(item["id"], {}).get("nota_revision"):
+                item["nota_revision"] = previous[item["id"]]["nota_revision"]
+            else:
+                item.setdefault("nota_revision", "")
+            if item["id"] in by_id:
+                items[by_id[item["id"]]] = item
+            else:
+                by_id[item["id"]] = len(items)
+                items.append(item)
+            count += 1
+        write_json(bank_path, {"modulo_id": module_id, "items": items})
+        imported[module_id] = count
+    return imported
+
+
 def migrate_modules() -> tuple[int, list[str]]:
     modules_path = DATA_ROOT / "modulos.json"
     raw_modules = read_json(modules_path) if modules_path.exists() else []
@@ -290,12 +343,17 @@ def main() -> None:
         total_excluded += excluded
         total_review += review
     total_cards = migrate_flipcards()
+    imported_drafts = import_drafts()
 
     print(f"Módulos migrados: {module_count}")
     print(f"Ítems en banco v3: {total_items}")
     print(f"Ítems excluidos por lista negra: {total_excluded}")
     print(f"Ítems marcados revisar: {total_review}")
     print(f"Flipcards migradas: {total_cards}")
+    if imported_drafts:
+        print("Borradores importados: " + ", ".join(
+            f"{module_id}={count}" for module_id, count in imported_drafts.items()
+        ))
     if missing_fields:
         print("Campos nuevos sin fuente: " + ", ".join(missing_fields))
 

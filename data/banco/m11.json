@@ -400,6 +400,582 @@
       "estado": "aprobado",
       "origen": "original",
       "nota_revision": ""
+    },
+    {
+      "id": "m11-b001",
+      "tipo": "opcion_multiple",
+      "enunciado": "De acuerdo con las normas APA 7, ¿cómo se debe citar en el cuerpo del texto una obra con tres o más autores?",
+      "opciones": [
+        "Indicando el apellido del primer autor seguido de la abreviatura «et al.» desde la primera citación.",
+        "Listando los apellidos de todos los autores la primera vez y abreviando a partir de la segunda cita.",
+        "Escribiendo únicamente el título del artículo entre comillas seguido del año de publicación.",
+        "Colocando los apellidos de todos los autores en orden cronológico en cada una de las apariciones."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcto": "¡Correcto! En APA 7, cualquier obra con tres o más autores se cita desde la primera mención en el texto indicando el apellido del primer autor seguido de «et al.» y el año de publicación.",
+        "incorrecto": "No es correcto. En APA 7 ya no es necesario enumerar a todos los autores en la primera cita para obras de tres o más autores; se abrevia con «et al.» desde la primera aparición.",
+        "correcta": "¡Correcto! En APA 7, cualquier obra con tres o más autores se cita desde la primera mención en el texto indicando el apellido del primer autor seguido de «et al.» y el año de publicación.",
+        "incorrecta": "No es correcto. En APA 7 ya no es necesario enumerar a todos los autores en la primera cita para obras de tres o más autores; se abrevia con «et al.» desde la primera aparición."
+      },
+      "dificultad": 1,
+      "subtema": "citacion",
+      "lectura_ref": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf, Sección 4 (El Arte de la Citación)",
+      "origen": "borrador_ia",
+      "estado": "revisar",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-b002",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuáles son los cuatro elementos informativos básicos que componen cualquier referencia bibliográfica en estilo APA 7?",
+      "opciones": [
+        "Problema planteado, hipótesis de trabajo, diseño muestral y tamaño del efecto.",
+        "Autor (¿quién?), Fecha (¿cuándo?), Título (¿qué?) y Fuente (¿dónde?).",
+        "Nombre de la universidad, país de origen, número de páginas totales y costo de edición.",
+        "Resumen estructurado, palabras clave en inglés, marco teórico y conclusiones."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcto": "¡Correcto! Cada referencia estándar en APA 7 responde a cuatro preguntas fundamentales sobre la obra: Autor (¿quién?), Fecha (¿cuándo?), Título (¿qué?) y Fuente (¿dónde puede recuperarse?).",
+        "incorrecto": "No es correcto. La estructura estandarizada de una referencia en APA 7 se organiza a partir de cuatro componentes universales: autoría, fecha de publicación, título de la obra e información de la fuente.",
+        "correcta": "¡Correcto! Cada referencia estándar en APA 7 responde a cuatro preguntas fundamentales sobre la obra: Autor (¿quién?), Fecha (¿cuándo?), Título (¿qué?) y Fuente (¿dónde puede recuperarse?).",
+        "incorrecta": "No es correcto. La estructura estandarizada de una referencia en APA 7 se organiza a partir de cuatro componentes universales: autoría, fecha de publicación, título de la obra e información de la fuente."
+      },
+      "dificultad": 1,
+      "subtema": "apa",
+      "lectura_ref": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf, Sección 5 (Lista de Referencias)",
+      "origen": "borrador_ia",
+      "estado": "revisar",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-b003",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es la estructura canónica de secciones en un informe o artículo científico empírico en Psicología?",
+      "opciones": [
+        "Prólogo, desarrollo narrativo, anecdotario testimonial y glosario terminológico.",
+        "Marco conceptual, propuesta metodológica, opiniones subjetivas y apéndice legislativo.",
+        "Introducción, Método, Resultados y Discusión (formato IMRyD).",
+        "Resumen divulgativo, ensayo reflexivo, transcripción de entrevistas y balance final."
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcto": "¡Correcto! El formato IMRyD (Introducción, Método, Resultados y Discusión) es el estándar internacional adoptado para estructurar de forma transparente y comparable los reportes científicos empíricos.",
+        "incorrecto": "No es correcto. El esquema estándar de reporte empírico en psicología es IMRyD: planteamiento y justificación (Introducción), diseño y procedimientos (Método), hallazgos (Resultados) e interpretación y alcance (Discusión).",
+        "correcta": "¡Correcto! El formato IMRyD (Introducción, Método, Resultados y Discusión) es el estándar internacional adoptado para estructurar de forma transparente y comparable los reportes científicos empíricos.",
+        "incorrecta": "No es correcto. El esquema estándar de reporte empírico en psicología es IMRyD: planteamiento y justificación (Introducción), diseño y procedimientos (Método), hallazgos (Resultados) e interpretación y alcance (Discusión)."
+      },
+      "dificultad": 1,
+      "subtema": "escritura",
+      "lectura_ref": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf, Sección 3 (Estructura del Manuscrito)",
+      "origen": "borrador_ia",
+      "estado": "revisar",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-b004",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Por qué los comités de ética científica y la APA establecen que una herramienta de IA generativa no puede figurar como autora de un trabajo?",
+      "opciones": [
+        "Porque las herramientas de software computacional no poseen conexión física a internet permanente.",
+        "Porque los algoritmos de procesamiento de lenguaje natural cobran regalías por sus intervenciones.",
+        "Porque solo se permite la autoría a profesionales que posean título universitario de doctorado.",
+        "Porque la autoría exige personería jurídica, capacidad de consentimiento y responsabilidad ética y legal."
+      ],
+      "correcta": 3,
+      "feedback": {
+        "correcto": "¡Correcto! La autoría académica implica asumir responsabilidad pública, ética y legal por la originalidad y veracidad de los datos, algo que un algoritmo computacional no puede asumir.",
+        "incorrecto": "No es correcto. Los modelos de IA no son sujetos morales ni jurídicos; no pueden asumir responsabilidades legales ni garantizar éticamente la integridad del contenido.",
+        "correcta": "¡Correcto! La autoría académica implica asumir responsabilidad pública, ética y legal por la originalidad y veracidad de los datos, algo que un algoritmo computacional no puede asumir.",
+        "incorrecta": "No es correcto. Los modelos de IA no son sujetos morales ni jurídicos; no pueden asumir responsabilidades legales ni garantizar éticamente la integridad del contenido."
+      },
+      "dificultad": 1,
+      "subtema": "ia_responsable",
+      "lectura_ref": "Actividades de clase/Guía Completa - Búsqueda, Redacción y Uso Ético de IA, Parte 3 (Uso Ético de IA)",
+      "origen": "borrador_ia",
+      "estado": "revisar",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-b005",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál de los siguientes ejemplos ilustra adecuadamente una citación narrativa en estilo APA 7?",
+      "opciones": [
+        "García (2021) sostiene que la regulación emocional modula el rendimiento académico.",
+        "La regulación emocional modula el rendimiento académico (García, 2021, p. 15-40).",
+        "Según un estudio relevante de García: la regulación emocional modula el rendimiento.",
+        "La regulación emocional modula el rendimiento académico [García et al., año 2021]."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcto": "¡Correcto! En una cita narrativa el autor forma parte de la sintaxis discursiva de la oración y únicamente el año de publicación se encierra entre paréntesis.",
+        "incorrecto": "No es correcto. En la cita narrativa el apellido del autor se integra en el flujo discursivo y el año va entre paréntesis: 'García (2021)'. La opción con paréntesis completo es una cita parentética.",
+        "correcta": "¡Correcto! En una cita narrativa el autor forma parte de la sintaxis discursiva de la oración y únicamente el año de publicación se encierra entre paréntesis.",
+        "incorrecta": "No es correcto. En la cita narrativa el apellido del autor se integra en el flujo discursivo y el año va entre paréntesis: 'García (2021)'. La opción con paréntesis completo es una cita parentética."
+      },
+      "dificultad": 1,
+      "subtema": "citacion",
+      "lectura_ref": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf, Sección 4 (El Arte de la Citación)",
+      "origen": "borrador_ia",
+      "estado": "revisar",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-b006",
+      "tipo": "opcion_multiple",
+      "enunciado": "En el formato general de texto en estilo APA 7, ¿cuál es la pauta correcta para la sangría de los párrafos del cuerpo del manuscrito?",
+      "opciones": [
+        "Sin sangría en ningún párrafo, utilizando doble espacio en blanco entre párrafos.",
+        "Sangría de 1,27 cm en la primera línea de cada párrafo, con interlineado doble continuo.",
+        "Sangría francesa en todos los párrafos del documento, justificado a derecha e izquierda.",
+        "Sangría de 2,54 cm en ambos márgenes únicamente en los párrafos introductorios."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcto": "¡Correcto! APA 7 estipula interlineado doble uniforme en todo el cuerpo del texto y una sangría de 1,27 cm (media pulgada) en la primera línea de cada párrafo.",
+        "incorrecto": "No es correcto. El formato general de APA 7 exige sangría de primera línea de 1,27 cm en cada párrafo e interlineado doble. La sangría francesa se reserva para las referencias bibliográficas.",
+        "correcta": "¡Correcto! APA 7 estipula interlineado doble uniforme en todo el cuerpo del texto y una sangría de 1,27 cm (media pulgada) en la primera línea de cada párrafo.",
+        "incorrecta": "No es correcto. El formato general de APA 7 exige sangría de primera línea de 1,27 cm en cada párrafo e interlineado doble. La sangría francesa se reserva para las referencias bibliográficas."
+      },
+      "dificultad": 1,
+      "subtema": "apa",
+      "lectura_ref": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf, Sección 3 (Formato General del Documento)",
+      "origen": "borrador_ia",
+      "estado": "revisar",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-b007",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué implica el principio de correspondencia 1 a 1 entre las citas en el texto y la lista de referencias en APA 7?",
+      "opciones": [
+        "Que cada párrafo del manuscrito debe incluir exactamente una única cita textual obligatoria.",
+        "Que cada autor citado en el texto debe tener exactamente una sola publicación en su carrera.",
+        "Que toda fuente citada en el cuerpo debe figurar en las referencias y toda referencia debe estar citada en el texto.",
+        "Que cada artículo citado debe tener una extensión idéntica a una página del informe."
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcto": "¡Correcto! La correspondencia 1 a 1 asegura que toda fuente citada en el texto tenga su referencia completa al final, y que no existan referencias añadidas sin haber sido citadas.",
+        "incorrecto": "No es correcto. El principio de correspondencia 1 a 1 exige que toda cita en el cuerpo del texto coincida con una entrada en las referencias, y que no haya referencias en la lista que no hayan sido citadas.",
+        "correcta": "¡Correcto! La correspondencia 1 a 1 asegura que toda fuente citada en el texto tenga su referencia completa al final, y que no existan referencias añadidas sin haber sido citadas.",
+        "incorrecta": "No es correcto. El principio de correspondencia 1 a 1 exige que toda cita en el cuerpo del texto coincida con una entrada en las referencias, y que no haya referencias en la lista que no hayan sido citadas."
+      },
+      "dificultad": 1,
+      "subtema": "escritura",
+      "lectura_ref": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf, Sección 5 (Lista de Referencias)",
+      "origen": "borrador_ia",
+      "estado": "revisar",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-b008",
+      "tipo": "opcion_multiple",
+      "enunciado": "Al incorporar una cita textual de 40 palabras o más en un trabajo académico según APA 7, ¿qué formato debe aplicarse?",
+      "opciones": [
+        "Intercalar el texto entre comillas dobles latinas con letra cursiva dentro del mismo párrafo.",
+        "Insertar el texto en negrita y colocar una llamada de nota al pie explicativa al final.",
+        "Subrayar el fragmento y reducir el tamaño de la tipografía a la mitad del cuerpo principal.",
+        "Presentar la cita en un bloque independiente, sin comillas, con sangría izquierda de 1,27 cm en todo el bloque."
+      ],
+      "correcta": 3,
+      "feedback": {
+        "correcto": "¡Correcto! Las citas directas de 40 palabras o más se escriben en bloque independiente a doble espacio, sin comillas, con sangría izquierda de 1,27 cm y la referencia parentética con página al final.",
+        "incorrecto": "No es correcto. En APA 7 las citas de 40 o más palabras no llevan comillas ni cursiva; se estructuran en bloque separado con sangría de 1,27 cm desde el margen izquierdo.",
+        "correcta": "¡Correcto! Las citas directas de 40 palabras o más se escriben en bloque independiente a doble espacio, sin comillas, con sangría izquierda de 1,27 cm y la referencia parentética con página al final.",
+        "incorrecta": "No es correcto. En APA 7 las citas de 40 o más palabras no llevan comillas ni cursiva; se estructuran en bloque separado con sangría de 1,27 cm desde el margen izquierdo."
+      },
+      "dificultad": 2,
+      "subtema": "citacion",
+      "lectura_ref": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf, Sección 4 (Citas Directas en Bloque)",
+      "origen": "borrador_ia",
+      "estado": "revisar",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-b009",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es el propósito epistemológico principal de la sección Discusión según los estándares de publicación JARS y APA 7?",
+      "opciones": [
+        "Interpretar los hallazgos en diálogo con los antecedentes teóricos, explicitando limitaciones e implicancias.",
+        "Reescribir íntegramente las tablas numéricas de resultados repitiendo cada valor descriptivo.",
+        "Incorporar citas de autores nuevos que no guardan relación con el problema de investigación.",
+        "Demostrar que el estudio propio careció de cualquier tipo de limitación o amenaza metodológica."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcto": "¡Correcto! La Discusión interpreta los resultados frente a la teoría y los antecedentes, evalúa autocríticamente las limitaciones del diseño y proyecta implicancias para la práctica y futuras investigaciones.",
+        "incorrecto": "No es correcto. La Discusión no duplica la sección de Resultados. Su cometido es contrastar los hallazgos con la literatura previa, responder a los objetivos originales y reconocer honestamente las limitaciones.",
+        "correcta": "¡Correcto! La Discusión interpreta los resultados frente a la teoría y los antecedentes, evalúa autocríticamente las limitaciones del diseño y proyecta implicancias para la práctica y futuras investigaciones.",
+        "incorrecta": "No es correcto. La Discusión no duplica la sección de Resultados. Su cometido es contrastar los hallazgos con la literatura previa, responder a los objetivos originales y reconocer honestamente las limitaciones."
+      },
+      "dificultad": 2,
+      "subtema": "escritura",
+      "lectura_ref": "APA JARS-Quant (Journal Article Reporting Standards), Sección: Discussion",
+      "origen": "borrador_ia",
+      "estado": "revisar",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-b010",
+      "tipo": "opcion_multiple",
+      "enunciado": "Un investigador recibe de una IA citas con autores y títulos verosímiles pero inexistentes en bases académicas. ¿Cómo se denomina este fenómeno y cuál es la conducta ética adecuada?",
+      "opciones": [
+        "Error de muestreo poblacional; debe asumirse que la fuente existe en bibliotecas privadas no indexadas.",
+        "Alucinación de la IA; es obligatorio que el investigador verifique cada fuente directamente en bases primarias.",
+        "Paráfrasis sintética legítima; se puede citar directamente sin consultar el documento original.",
+        "Optimización de búsqueda booleana; basta con copiar el texto generado en la sección de antecedentes."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcto": "¡Correcto! Las alucinaciones en modelos de lenguaje generan referencias ficticias muy convincentes. Es responsabilidad ineludible del investigador verificar en fuentes primarias antes de citar.",
+        "incorrecto": "No es correcto. Se trata de una alucinación del modelo de lenguaje. Citar referencias no contrastadas en bases científicas reales vulnera gravemente la integridad académica.",
+        "correcta": "¡Correcto! Las alucinaciones en modelos de lenguaje generan referencias ficticias muy convincentes. Es responsabilidad ineludible del investigador verificar en fuentes primarias antes de citar.",
+        "incorrecta": "No es correcto. Se trata de una alucinación del modelo de lenguaje. Citar referencias no contrastadas en bases científicas reales vulnera gravemente la integridad académica."
+      },
+      "dificultad": 2,
+      "subtema": "ia_responsable",
+      "lectura_ref": "Actividades de clase/Guía Completa - Búsqueda, Redacción y Uso Ético de IA, Parte 3 (Límites y Riesgos de la IA)",
+      "origen": "borrador_ia",
+      "estado": "revisar",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-b011",
+      "tipo": "opcion_multiple",
+      "enunciado": "De acuerdo con las pautas de APA 7 sobre lenguaje libre de sesgos en la redacción científica, ¿cuál es la forma recomendada para referirse a personas con una condición clínica o discapacidad?",
+      "opciones": [
+        "Utilizar adjetivos sustantivados que identifiquen a la persona con el trastorno, como «los bipolares» o «los deprimidos».",
+        "Emplear eufemismos paternalistas o compasivos que atenúen el diagnóstico mediante metáforas líricas.",
+        "Priorizar el lenguaje centrado en la persona, como «personas con diagnóstico de trastorno bipolar».",
+        "Omitir toda mención a la condición clínica para evitar sesgos en el reporte de la muestra estudiada."
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcto": "¡Correcto! APA 7 promueve el lenguaje centrado en la persona (person-first language), destacando la condición humana antes que el diagnóstico o discapacidad (ej. 'personas con diagnóstico de...').",
+        "incorrecto": "No es correcto. APA 7 rechaza etiquetar a los participantes reduciéndolos a su diagnóstico ('los esquizofrénicos', 'los adictos'). La recomendación es usar lenguaje centrado en la persona ('personas con diagnóstico de...').",
+        "correcta": "¡Correcto! APA 7 promueve el lenguaje centrado en la persona (person-first language), destacando la condición humana antes que el diagnóstico o discapacidad (ej. 'personas con diagnóstico de...').",
+        "incorrecta": "No es correcto. APA 7 rechaza etiquetar a los participantes reduciéndolos a su diagnóstico ('los esquizofrénicos', 'los adictos'). La recomendación es usar lenguaje centrado en la persona ('personas con diagnóstico de...')."
+      },
+      "dificultad": 2,
+      "subtema": "apa",
+      "lectura_ref": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf, Sección 2 (Lenguaje Libre de Sesgos)",
+      "origen": "borrador_ia",
+      "estado": "revisar",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-b012",
+      "tipo": "opcion_multiple",
+      "enunciado": "En un texto académico, se lee: «Piaget (1952, citado en Gómez, 2018) planteó que...». ¿Cómo debe figurar esta fuente en la lista de referencias final según APA 7?",
+      "opciones": [
+        "Deben incluirse obligatoriamente dos entradas completas separadas: la de Piaget (1952) y la de Gómez (2018).",
+        "Solo debe incluirse la entrada de Piaget (1952), omitiendo por completo a Gómez (2018) por ser autor secundario.",
+        "No se coloca ninguna referencia porque las citas de fuentes secundarias están prohibidas terminantemente.",
+        "Solo debe incluirse la referencia completa de Gómez (2018), que fue la fuente realmente consultada y leída."
+      ],
+      "correcta": 3,
+      "feedback": {
+        "correcto": "¡Correcto! En citas de fuentes secundarias ('citado en'), en la lista de referencias únicamente se incluye la obra que el investigador leyó y consultó directamente (en este caso, Gómez, 2018).",
+        "incorrecto": "No es correcto. En una cita secundaria solo se referencia la obra que el autor consultó en mano (la fuente secundaria). Siempre que sea posible, se aconseja recuperar y citar la fuente primaria.",
+        "correcta": "¡Correcto! En citas de fuentes secundarias ('citado en'), en la lista de referencias únicamente se incluye la obra que el investigador leyó y consultó directamente (en este caso, Gómez, 2018).",
+        "incorrecta": "No es correcto. En una cita secundaria solo se referencia la obra que el autor consultó en mano (la fuente secundaria). Siempre que sea posible, se aconseja recuperar y citar la fuente primaria."
+      },
+      "dificultad": 2,
+      "subtema": "citacion",
+      "lectura_ref": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf, Sección 4 (Fuentes Secundarias)",
+      "origen": "borrador_ia",
+      "estado": "revisar",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-b013",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿En qué consiste la práctica conocida como «parcheo textual» o paráfrasis cosmética (patchwriting) y por qué se desaconseja en la escritura académica?",
+      "opciones": [
+        "En copiar una oración ajena cambiando únicamente dos o tres palabras por sinónimos, sin reelaboración comprensiva propia.",
+        "En traducir un artículo completo del inglés al español con autorización explícita de la revista emisora.",
+        "En combinar dos fuentes de años distintos dentro del mismo párrafo utilizando conectores de contraste lógico.",
+        "En citar una fuente clásica de hace más de cincuenta años para fundamentar el origen de un constructo teórico."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcto": "¡Correcto! El patchwriting consiste en tomar la estructura sintáctica exacta del texto original sustituyendo apenas algunas palabras por sinónimos. Aunque se cite al autor, constituye una falta de originalidad y asimilación conceptual.",
+        "incorrecto": "No es correcto. El patchwriting ocurre cuando no hay reelaboración cognitiva del mensaje, sino una sustitución cosmética de vocablos sobre la sintaxis ajena, comprometiendo la integridad académica.",
+        "correcta": "¡Correcto! El patchwriting consiste en tomar la estructura sintáctica exacta del texto original sustituyendo apenas algunas palabras por sinónimos. Aunque se cite al autor, constituye una falta de originalidad y asimilación conceptual.",
+        "incorrecta": "No es correcto. El patchwriting ocurre cuando no hay reelaboración cognitiva del mensaje, sino una sustitución cosmética de vocablos sobre la sintaxis ajena, comprometiendo la integridad académica."
+      },
+      "dificultad": 2,
+      "subtema": "escritura",
+      "lectura_ref": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf, Sección 2 (Paráfrasis vs Plagio)",
+      "origen": "borrador_ia",
+      "estado": "revisar",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-b014",
+      "tipo": "opcion_multiple",
+      "enunciado": "Si un investigador emplea un modelo de Inteligencia Artificial para asistir la corrección gramatical y la lluvia de ideas en su proyecto, ¿cuál es la pauta de transparencia exigida por APA?",
+      "opciones": [
+        "Ocultar la utilización de la herramienta para evitar cuestionamientos metodológicos por parte de los revisores.",
+        "Declarar de manera transparente en el texto o sección metodológica qué herramienta se utilizó y con qué propósitos.",
+        "Ceder los derechos de propiedad intelectual del proyecto a la empresa desarrolladora del software.",
+        "Exigir que todos los miembros del tribunal evaluador interactúen obligatoriamente con el mismo modelo."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcto": "¡Correcto! El principio de transparencia exige declarar el uso de asistentes de IA: qué modelo se utilizó (con versión) y para qué fines específicos (ej. corrección ortográfica o lluvia de ideas), manteniendo la autoría humana responsable.",
+        "incorrecto": "No es correcto. La ética académica no prohíbe el apoyo instrumental de IA, pero exige declararlo explícitamente en el manuscrito, detallando la herramienta utilizada y el alcance exacto de su uso.",
+        "correcta": "¡Correcto! El principio de transparencia exige declarar el uso de asistentes de IA: qué modelo se utilizó (con versión) y para qué fines específicos (ej. corrección ortográfica o lluvia de ideas), manteniendo la autoría humana responsable.",
+        "incorrecta": "No es correcto. La ética académica no prohíbe el apoyo instrumental de IA, pero exige declararlo explícitamente en el manuscrito, detallando la herramienta utilizada y el alcance exacto de su uso."
+      },
+      "dificultad": 2,
+      "subtema": "ia_responsable",
+      "lectura_ref": "Actividades de clase/Guía Completa - Búsqueda, Redacción y Uso Ético de IA, Parte 3 (Declaración de Uso)",
+      "origen": "borrador_ia",
+      "estado": "revisar",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-b015",
+      "tipo": "opcion_multiple",
+      "enunciado": "En la lista de referencias bibliográficas según APA 7, ¿cómo debe formatearse un identificador de objeto digital (DOI)?",
+      "opciones": [
+        "Como una dirección postal física abreviada que incluya el código postal de la editorial responsable.",
+        "Con el acrónimo en mayúsculas sostenidas seguido de dos puntos: «DOI: 10.1037/0000320-000».",
+        "Como una URL funcional estandarizada: «https://doi.org/10.1037/0000320-000», sin punto final posterior.",
+        "Insertado entre corchetes rectangulares al inicio de la referencia antes del apellido del autor."
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcto": "¡Correcto! En APA 7 los DOI se presentan exclusivamente en formato de hipervínculo activo estándar que comience con «https://doi.org/...», prescindiendo del prefijo «doi:» y sin colocar punto después del enlace.",
+        "incorrecto": "No es correcto. APA 7 simplificó la presentación de DOIs: deben formatearse directamente como URLs activas ('https://doi.org/...'), sin el rótulo 'doi:' y sin punto al final para no cortar el enlace.",
+        "correcta": "¡Correcto! En APA 7 los DOI se presentan exclusivamente en formato de hipervínculo activo estándar que comience con «https://doi.org/...», prescindiendo del prefijo «doi:» y sin colocar punto después del enlace.",
+        "incorrecta": "No es correcto. APA 7 simplificó la presentación de DOIs: deben formatearse directamente como URLs activas ('https://doi.org/...'), sin el rótulo 'doi:' y sin punto al final para no cortar el enlace."
+      },
+      "dificultad": 2,
+      "subtema": "apa",
+      "lectura_ref": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf, Sección 5 (Identificadores Digitales DOI)",
+      "origen": "borrador_ia",
+      "estado": "revisar",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-b016",
+      "tipo": "opcion_multiple",
+      "enunciado": "Al citar múltiples trabajos de distintos autores en un mismo paréntesis para fundamentar un argumento, ¿cómo deben ordenarse las fuentes en estilo APA 7?",
+      "opciones": [
+        "En orden de importancia subjetiva según el criterio del redactor, separadas por guiones medios.",
+        "En orden cronológico estricto desde la publicación más antigua a la más reciente, separadas por comas.",
+        "Agrupadas por país de origen del estudio y delimitadas con barras inclinadas dobles.",
+        "En orden alfabético por el apellido del primer autor de cada obra, separadas por punto y coma."
+      ],
+      "correcta": 3,
+      "feedback": {
+        "correcto": "¡Correcto! Cuando se colocan varias fuentes dentro de un mismo paréntesis, se ordenan alfabéticamente según el apellido del primer autor (igual que en las referencias) y se separan entre sí mediante punto y coma.",
+        "incorrecto": "No es correcto. El orden de citas múltiples en un único paréntesis no es cronológico ni subjetivo; se ordenan alfabéticamente por el apellido del primer autor y se separan con punto y coma.",
+        "correcta": "¡Correcto! Cuando se colocan varias fuentes dentro de un mismo paréntesis, se ordenan alfabéticamente según el apellido del primer autor (igual que en las referencias) y se separan entre sí mediante punto y coma.",
+        "incorrecta": "No es correcto. El orden de citas múltiples en un único paréntesis no es cronológico ni subjetivo; se ordenan alfabéticamente por el apellido del primer autor y se separan con punto y coma."
+      },
+      "dificultad": 2,
+      "subtema": "citacion",
+      "lectura_ref": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf, Sección 4 (Citación Múltiple)",
+      "origen": "borrador_ia",
+      "estado": "revisar",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-b017",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué exige el estándar de reporte metodológico JARS-Quant (Journal Article Reporting Standards) respecto al flujo y deserción de participantes?",
+      "opciones": [
+        "Reportar detalladamente el número de participantes contactados, excluidos, que abandonaron y que completaron cada fase.",
+        "Reemplazar a los participantes que desertaron por nuevos sujetos sin reportar la pérdida para no alertar al lector.",
+        "Omitir la tasa de deserción si esta no supera el cincuenta por ciento del total de la muestra reclutada inicialmente.",
+        "Reportar únicamente el promedio de edad de los sujetos que asistieron a todas las evaluaciones del protocolo."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcto": "¡Correcto! JARS-Quant exige máxima transparencia en el flujo de participantes (mediante diagramas o texto): cuántos fueron elegibles, cuántos declinaron o fueron excluidos y cuántos se perdieron en el seguimiento.",
+        "incorrecto": "No es correcto. Ocultar o disimular el abandono de participantes vulnera los estándares JARS-Quant. La deserción muestral (attrition) puede sesgar críticamente los resultados y debe cuantificarse y explicarse.",
+        "correcta": "¡Correcto! JARS-Quant exige máxima transparencia en el flujo de participantes (mediante diagramas o texto): cuántos fueron elegibles, cuántos declinaron o fueron excluidos y cuántos se perdieron en el seguimiento.",
+        "incorrecta": "No es correcto. Ocultar o disimular el abandono de participantes vulnera los estándares JARS-Quant. La deserción muestral (attrition) puede sesgar críticamente los resultados y debe cuantificarse y explicarse."
+      },
+      "dificultad": 3,
+      "subtema": "escritura",
+      "lectura_ref": "APA JARS-Quant (Journal Article Reporting Standards), Participant Flow and Attrition",
+      "origen": "borrador_ia",
+      "estado": "revisar",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-b018",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es el riesgo ético crítico de ingresar transcripciones completas de entrevistas en plataformas públicas de IA comercial en la nube?",
+      "opciones": [
+        "Que el modelo de IA compute erróneamente el número de sílabas y bloquee el procesamiento semántico.",
+        "Que testimonios con información sensible sean incorporados a los servidores de entrenamiento, vulnerando la confidencialidad.",
+        "Que el sistema operativo de la computadora personal pierda la calibración horaria de los archivos grabados.",
+        "Que las respuestas de los participantes se traduzcan de manera obligatoria al idioma inglés sin autorización."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcto": "¡Correcto! Las plataformas comerciales públicas suelen utilizar los prompts para reentrenar sus modelos. Subir testimonios con información identificatoria vulnera el consentimiento informado y el deber de confidencialidad.",
+        "incorrecto": "No es correcto. El peligro fundamental no es técnico sino ético y legal: se rompe el deber de custodia y anonimato si los testimonios de informantes quedan expuestos y son almacenados en servidores de terceros.",
+        "correcta": "¡Correcto! Las plataformas comerciales públicas suelen utilizar los prompts para reentrenar sus modelos. Subir testimonios con información identificatoria vulnera el consentimiento informado y el deber de confidencialidad.",
+        "incorrecta": "No es correcto. El peligro fundamental no es técnico sino ético y legal: se rompe el deber de custodia y anonimato si los testimonios de informantes quedan expuestos y son almacenados en servidores de terceros."
+      },
+      "dificultad": 3,
+      "subtema": "ia_responsable",
+      "lectura_ref": "Actividades de clase/Guía Completa - Búsqueda, Redacción y Uso Ético de IA, Parte 3 (Privacidad de Datos)",
+      "origen": "borrador_ia",
+      "estado": "revisar",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-b019",
+      "tipo": "opcion_multiple",
+      "enunciado": "Si un investigador cita dos artículos distintos publicados por el mismo autor en el mismo año (ej. Pérez, 2020), ¿cómo deben diferenciarse según APA 7?",
+      "opciones": [
+        "Agregando números romanos consecutivos al apellido del autor en cada aparición en el texto: Pérez I y Pérez II.",
+        "Diferenciándolos por el mes exacto de publicación anotado en palabras en el paréntesis de la cita textual.",
+        "Añadiendo letras minúsculas (a, b) inmediatamente después del año, ordenadas alfabéticamente por el título de la obra.",
+        "Omitiendo el año en la segunda obra e indicando únicamente el título completo del artículo en cursiva."
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcto": "¡Correcto! Cuando coinciden el autor y el año en varias obras, se añade un sufijo en letra minúscula contiguo al año (2020a, 2020b). El orden se define alfabéticamente por el título de las obras en las referencias.",
+        "incorrecto": "No es correcto. Para desambiguar obras con idéntico autor y año de publicación, APA 7 estipula agregar sufijos en letras minúsculas tras el año (ej. 2020a, 2020b), ordenadas por el título en las referencias.",
+        "correcta": "¡Correcto! Cuando coinciden el autor y el año en varias obras, se añade un sufijo en letra minúscula contiguo al año (2020a, 2020b). El orden se define alfabéticamente por el título de las obras en las referencias.",
+        "incorrecta": "No es correcto. Para desambiguar obras con idéntico autor y año de publicación, APA 7 estipula agregar sufijos en letras minúsculas tras el año (ej. 2020a, 2020b), ordenadas por el título en las referencias."
+      },
+      "dificultad": 3,
+      "subtema": "apa",
+      "lectura_ref": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf, Sección 5 (Obras con Mismo Autor y Año)",
+      "origen": "borrador_ia",
+      "estado": "revisar",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-b020",
+      "tipo": "opcion_multiple",
+      "enunciado": "En un reporte de investigación cualitativa bajo lineamientos JARS-Qual, ¿en qué consiste la declaración explícita de reflexividad del investigador?",
+      "opciones": [
+        "En un examen psicométrico estandarizado que certifica la estabilidad emocional del equipo de campo.",
+        "En un cálculo porcentual que indica cuántas horas diarias descansó el investigador durante el trabajo de campo.",
+        "En una lista de agradecimientos a familiares y amigos que brindaron soporte afectivo durante la redacción.",
+        "En una reflexión crítica documentada sobre cómo los supuestos, valores y rol del investigador pudieron condicionar el análisis."
+      ],
+      "correcta": 3,
+      "feedback": {
+        "correcto": "¡Correcto! JARS-Qual exige reflexividad: explicitar cómo la posición subjetiva, formación teórica, sesgos socioculturales y vínculo con el campo incidieron en las interacciones y en la interpretación construida.",
+        "incorrecto": "No es correcto. La reflexividad cualitativa no es un agradecimiento ni un test psicométrico; es un ejercicio metodológico donde se analiza cómo el propio posicionamiento del investigador interactuó con los hallazgos.",
+        "correcta": "¡Correcto! JARS-Qual exige reflexividad: explicitar cómo la posición subjetiva, formación teórica, sesgos socioculturales y vínculo con el campo incidieron en las interacciones y en la interpretación construida.",
+        "incorrecta": "No es correcto. La reflexividad cualitativa no es un agradecimiento ni un test psicométrico; es un ejercicio metodológico donde se analiza cómo el propio posicionamiento del investigador interactuó con los hallazgos."
+      },
+      "dificultad": 3,
+      "subtema": "escritura",
+      "lectura_ref": "APA JARS-Qual (Journal Article Reporting Standards), Reflexivity Section",
+      "origen": "borrador_ia",
+      "estado": "revisar",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-b021",
+      "tipo": "opcion_multiple",
+      "enunciado": "Al extraer una cita textual corta de un documento digital en línea (página web o e-book) que carece de paginación fija, ¿cómo debe indicarse la localización exacta según APA 7?",
+      "opciones": [
+        "Señalando el número de párrafo (párr. X), o el título de la sección más el párrafo correspondiente dentro de ella.",
+        "Calculando aproximadamente a qué número de página impresa equivaldría el documento en formato A4.",
+        "Omitiendo cualquier dato de localización porque las páginas web están exentas de atribución específica.",
+        "Colocando el número de caracteres contados desde el inicio de la página web hasta la palabra citada."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcto": "¡Correcto! En documentos sin paginación fija, APA 7 prescribe orientar al lector mediante el número de párrafo (ej. párr. 4), o indicando el encabezado de sección y el párrafo relativo (ej. sección Discusión, párr. 2).",
+        "incorrecto": "No es correcto. La falta de páginas convencionales no exime de localizar la cita. Se debe consignar el número de párrafo ('párr. 3') o el nombre de la sección junto al número de párrafo correspondiente.",
+        "correcta": "¡Correcto! En documentos sin paginación fija, APA 7 prescribe orientar al lector mediante el número de párrafo (ej. párr. 4), o indicando el encabezado de sección y el párrafo relativo (ej. sección Discusión, párr. 2).",
+        "incorrecta": "No es correcto. La falta de páginas convencionales no exime de localizar la cita. Se debe consignar el número de párrafo ('párr. 3') o el nombre de la sección junto al número de párrafo correspondiente."
+      },
+      "dificultad": 3,
+      "subtema": "citacion",
+      "lectura_ref": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf, Sección 4 (Fuentes sin Número de Página)",
+      "origen": "borrador_ia",
+      "estado": "revisar",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-b022",
+      "tipo": "opcion_multiple",
+      "enunciado": "De acuerdo con las directrices de APA para referenciar la interacción con un modelo de IA generativa (cuando la revista lo requiera), ¿cuál es el formato de referencia estándar?",
+      "opciones": [
+        "Nombre del modelo como persona individual (ChatGPT), año de consulta, título de la empresa y país de sede.",
+        "Autor corporativo (ej. OpenAI), año de la versión, nombre del modelo en cursiva y versión entre corchetes, seguido de la URL.",
+        "Número de serie de la placa gráfica del servidor informático donde corrió el modelo y fecha de conexión.",
+        "No existe ninguna norma de la APA sobre software o modelos de lenguaje y no se debe referenciar nunca."
+      ],
+      "correcta": 1,
+      "feedback": {
+        "correcto": "¡Correcto! APA trata los modelos de IA de forma análoga al software: Autor institucional/desarrollador (OpenAI, 2023), Nombre del modelo en cursiva (*ChatGPT*), versión entre corchetes ([Versión del 23 de marzo]) y URL.",
+        "incorrecto": "No es correcto. APA estipula tratar el modelo de IA como software: la empresa desarrolladora figura como autor corporativo (OpenAI), año, nombre del modelo en cursiva (*ChatGPT*), versión entre corchetes y URL.",
+        "correcta": "¡Correcto! APA trata los modelos de IA de forma análoga al software: Autor institucional/desarrollador (OpenAI, 2023), Nombre del modelo en cursiva (*ChatGPT*), versión entre corchetes ([Versión del 23 de marzo]) y URL.",
+        "incorrecta": "No es correcto. APA estipula tratar el modelo de IA como software: la empresa desarrolladora figura como autor corporativo (OpenAI), año, nombre del modelo en cursiva (*ChatGPT*), versión entre corchetes y URL."
+      },
+      "dificultad": 3,
+      "subtema": "ia_responsable",
+      "lectura_ref": "Actividades de clase/Guía Completa - Búsqueda, Redacción y Uso Ético de IA, Parte 3 (Cómo Citar Modelos de IA)",
+      "origen": "borrador_ia",
+      "estado": "revisar",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-b023",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿En qué consiste el principio de alineación o coherencia interna de un proyecto de investigación psicológica?",
+      "opciones": [
+        "En que todas las secciones del informe tengan exactamente el mismo número de párrafos y palabras.",
+        "En asegurar que todos los participantes del estudio provengan del mismo centro educativo o laboral.",
+        "En garantizar que los constructos de la pregunta y objetivo rijan estrictamente el diseño, los instrumentos y el análisis.",
+        "En utilizar una tipografía decorativa idéntica en los encabezados, tablas y gráficos del manuscrito."
+      ],
+      "correcta": 2,
+      "feedback": {
+        "correcto": "¡Correcto! La coherencia interna articula lógica y epistemológicamente el proyecto: el problema fija objetivos; estos determinan variables y diseño; los instrumentos miden esos constructos y el análisis responde a esos objetivos sin fisuras.",
+        "incorrecto": "No es correcto. La coherencia interna no es simetría formal o tipográfica, sino la articulación lógica ininterrumpida entre problema, objetivos, marco conceptual, diseño metodológico, instrumentos y análisis planificado.",
+        "correcta": "¡Correcto! La coherencia interna articula lógica y epistemológicamente el proyecto: el problema fija objetivos; estos determinan variables y diseño; los instrumentos miden esos constructos y el análisis responde a esos objetivos sin fisuras.",
+        "incorrecta": "No es correcto. La coherencia interna no es simetría formal o tipográfica, sino la articulación lógica ininterrumpida entre problema, objetivos, marco conceptual, diseño metodológico, instrumentos y análisis planificado."
+      },
+      "dificultad": 3,
+      "subtema": "escritura",
+      "lectura_ref": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf, Sección 2 (Integridad y Coherencia Argumental)",
+      "origen": "borrador_ia",
+      "estado": "revisar",
+      "nota_revision": ""
+    },
+    {
+      "id": "m11-b024",
+      "tipo": "opcion_multiple",
+      "enunciado": "En la diagramación de tablas según las normas APA 7, ¿cuál de las siguientes pautas de diseño visual es obligatoria?",
+      "opciones": [
+        "Incluir cuadrículas completas con bordes verticales visibles para separar cada columna de datos.",
+        "Insertar sombreados de colores llamativos en las celdas para destacar los valores significativos.",
+        "Ubicar las notas explicativas de la tabla como párrafos flotantes dentro del encabezado principal.",
+        "Colocar número en negrita, título descriptivo en cursiva arriba y solo líneas horizontales esenciales sin bordes verticales."
+      ],
+      "correcta": 3,
+      "feedback": {
+        "correcto": "¡Correcto! Las tablas en APA 7 requieren número en negrita, título breve en cursiva superior, ausencia total de líneas verticales y uso restrictivo de líneas horizontales (encabezado y cierre), con notas explicativas al pie precedidas por *Nota.* en cursiva.",
+        "incorrecto": "No es correcto. APA 7 prohíbe explícitamente el uso de líneas verticales en las tablas. Solo se permiten líneas horizontales para delimitar encabezados y cierre inferior, con número en negrita y título en cursiva arriba.",
+        "correcta": "¡Correcto! Las tablas en APA 7 requieren número en negrita, título breve en cursiva superior, ausencia total de líneas verticales y uso restrictivo de líneas horizontales (encabezado y cierre), con notas explicativas al pie precedidas por *Nota.* en cursiva.",
+        "incorrecta": "No es correcto. APA 7 prohíbe explícitamente el uso de líneas verticales en las tablas. Solo se permiten líneas horizontales para delimitar encabezados y cierre inferior, con número en negrita y título en cursiva arriba."
+      },
+      "dificultad": 3,
+      "subtema": "apa",
+      "lectura_ref": "assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf, Sección 3 (Tablas y Figuras)",
+      "origen": "borrador_ia",
+      "estado": "revisar",
+      "nota_revision": ""
     }
   ]
 }

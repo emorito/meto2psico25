@@ -267,7 +267,7 @@
             '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>' +
             '<span>Preparación para el parcial<small>Diagnóstico rápido (16 ítems) y simulacro de 60 min</small></span>';
         } else if (currentMod) {
-          continueBtn.href = 'modules/view.html?id=' + encodeURIComponent(currentMod.id);
+          continueBtn.href = 'modulo.html?m=' + encodeURIComponent(currentMod.id);
           if (continueNum) continueNum.textContent = String(currentMod.number || 1);
           if (continueTitle) continueTitle.textContent = currentMod.title || '';
         }
@@ -426,7 +426,7 @@
 
           stepsHtml +=
             '<li class="' + stepClass + '">' +
-              '<a href="modules/view.html?id=' + encodeURIComponent(modItem.id) + '"' + ariaCurrentAttr + '>' +
+              '<a href="modulo.html?m=' + encodeURIComponent(modItem.id) + '"' + ariaCurrentAttr + '>' +
                 '<span class="dot" aria-label="Módulo ' + modNumber + ': ' + statusText + '">' + modNumber + '</span>' +
                 '<span class="meta">' +
                   '<span class="label">' + escapeHtml(shortTitle) + '</span>' +
@@ -566,7 +566,7 @@
         let actionHtml = '';
         if (unlocked) {
           actionHtml =
-            '<a href="modules/view.html?id=' + encodeURIComponent(m.id) + '" class="btn btn-primary">' +
+              '<a href="modulo.html?m=' + encodeURIComponent(m.id) + '" class="btn btn-primary">' +
             (modState.completed ? 'Repasar módulo →' : 'Estudiar módulo →') +
             '</a>';
         } else {

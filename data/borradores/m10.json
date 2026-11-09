@@ -1,0 +1,386 @@
+[
+  {
+    "id": "m10-b001",
+    "tipo": "opcion_multiple",
+    "enunciado": "¿Cuál es la función primordial de la estadística descriptiva en la fase de análisis de datos de una investigación cuantitativa?",
+    "opciones": [
+      "Organizar, resumir y representar las propiedades numéricas observadas en la muestra.",
+      "Demostrar con certeza matemática absoluta la verosimilitud de la hipótesis teórica.",
+      "Generalizar probabilísticamente los hallazgos hacia poblaciones infinitas sin evaluar errores.",
+      "Sustituir la recolección empírica de campo mediante algoritmos de imputación universal."
+    ],
+    "correcta": 0,
+    "feedback": {
+      "correcto": "¡Correcto! La estadística descriptiva sintetiza, ordena y caracteriza los datos recolectados (mediante frecuencias, medidas de tendencia central y dispersión) sin inferir más allá de la muestra analizada.",
+      "incorrecto": "No es correcto. La estadística descriptiva no contrasta hipótesis ni infiere generalizaciones a la población, sino que resume y describe ordenadamente las variables medidas en la muestra observada.",
+      "correcta": "¡Correcto! La estadística descriptiva sintetiza, ordena y caracteriza los datos recolectados (mediante frecuencias, medidas de tendencia central y dispersión) sin inferir más allá de la muestra analizada.",
+      "incorrecta": "No es correcto. La estadística descriptiva no contrasta hipótesis ni infiere generalizaciones a la población, sino que resume y describe ordenadamente las variables medidas en la muestra observada."
+    },
+    "dificultad": 1,
+    "subtema": "analisis_cuantitativo",
+    "lectura_ref": "APA Handbook of Research Methods in Psychology (Vol. 3), Chapter 3 (Exploratory Data Analysis), pp. 51-68",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b002",
+    "tipo": "opcion_multiple",
+    "enunciado": "Ante una distribución de puntajes continuos con marcada asimetría provocada por valores atípicos extremos, ¿qué medida de tendencia central resulta más resistente y adecuada?",
+    "opciones": [
+      "La desviación estándar corregida por el tamaño muestral efectivo.",
+      "La mediana, debido a su resistencia ante observaciones extremas.",
+      "La media aritmética calculada sobre las puntuaciones directas.",
+      "La varianza muestral no sesgada obtenida en el grupo total."
+    ],
+    "correcta": 1,
+    "feedback": {
+      "correcto": "¡Correcto! La mediana es un estimador de posición resistente que no se altera ante valores atípicos severos, a diferencia de la media aritmética que se desplaza hacia la cola de la distribución.",
+      "incorrecto": "No es correcto. Con asimetría acusada o valores atípicos notables, la media aritmética pierde representatividad al ser atraída por las colas. La mediana es el estadístico de tendencia central resistente apropiado.",
+      "correcta": "¡Correcto! La mediana es un estimador de posición resistente que no se altera ante valores atípicos severos, a diferencia de la media aritmética que se desplaza hacia la cola de la distribución.",
+      "incorrecta": "No es correcto. Con asimetría acusada o valores atípicos notables, la media aritmética pierde representatividad al ser atraída por las colas. La mediana es el estadístico de tendencia central resistente apropiado."
+    },
+    "dificultad": 1,
+    "subtema": "analisis_cuantitativo",
+    "lectura_ref": "APA Handbook of Research Methods in Psychology (Vol. 3), Chapter 1 (Methods for Dealing With Bad Data and Inadequate Models), pp. 3-24",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b003",
+    "tipo": "opcion_multiple",
+    "enunciado": "¿En qué consiste la tarea metodológica de codificación abierta en la fase inicial del análisis cualitativo?",
+    "opciones": [
+      "En verificar el nivel de significación estadística p en las transcripciones.",
+      "En forzar el texto para ajustarlo estrictamente a categorías predeterminadas.",
+      "En fragmentar el corpus y asignar etiquetas conceptuales a segmentos con significado propio.",
+      "En contabilizar mecánicamente la frecuencia total de adjetivos en cada testimonio."
+    ],
+    "correcta": 2,
+    "feedback": {
+      "correcto": "¡Correcto! La codificación abierta consiste en examinar minuciosamente el material textual, descomponerlo en unidades de significado y asignarles descriptores conceptuales inductivos (códigos).",
+      "incorrecto": "No es correcto. La codificación abierta no persigue métricas numéricas ni fuerza esquemas preexistentes, sino que identifica, segmenta y conceptualiza inductivamente los núcleos de significado emergentes del corpus.",
+      "correcta": "¡Correcto! La codificación abierta consiste en examinar minuciosamente el material textual, descomponerlo en unidades de significado y asignarles descriptores conceptuales inductivos (códigos).",
+      "incorrecta": "No es correcto. La codificación abierta no persigue métricas numéricas ni fuerza esquemas preexistentes, sino que identifica, segmenta y conceptualiza inductivamente los núcleos de significado emergentes del corpus."
+    },
+    "dificultad": 1,
+    "subtema": "analisis_cualitativo",
+    "lectura_ref": "APA Handbook of Research Methods in Psychology (Vol. 2), Chapter 3 (Grounded Theory), pp. 53-74",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b004",
+    "tipo": "opcion_multiple",
+    "enunciado": "En la fase preparatoria del análisis cualitativo, ¿cuál es el objetivo fundamental de la transcripción y anonimización de entrevistas?",
+    "opciones": [
+      "Corregir el lenguaje informal de los participantes para que adopte un estilo académico.",
+      "Eliminar las discrepancias narrativas para lograr un relato completamente homogéneo.",
+      "Reducir las transcripciones a un conjunto acotado de oraciones de menos de diez palabras.",
+      "Preservar fielmente el discurso oral resguardando la confidencialidad y la ética del estudio."
+    ],
+    "correcta": 3,
+    "feedback": {
+      "correcto": "¡Correcto! La transcripción fiel (verbatim) preserva el sentido expresivo original del informante, mientras que la anonimización sistemática protege la confidencialidad y los derechos éticos de los participantes.",
+      "incorrecto": "No es correcto. La transcripción preparatoria no debe censurar ni 'corregir' la voz del participante; su propósito es fijar con fidelidad el registro empírico y sustituir datos filiatorios por códigos anónimos.",
+      "correcta": "¡Correcto! La transcripción fiel (verbatim) preserva el sentido expresivo original del informante, mientras que la anonimización sistemática protege la confidencialidad y los derechos éticos de los participantes.",
+      "incorrecta": "No es correcto. La transcripción preparatoria no debe censurar ni 'corregir' la voz del participante; su propósito es fijar con fidelidad el registro empírico y sustituir datos filiatorios por códigos anónimos."
+    },
+    "dificultad": 1,
+    "subtema": "analisis_cualitativo",
+    "lectura_ref": "guianalisis (emorito.github.io/guianalisis), Sección: Preparación y gestión del corpus textual",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b005",
+    "tipo": "opcion_multiple",
+    "enunciado": "Si se desea evaluar la asociación entre dos variables medidas en escala ordinal (rangos jerárquicos), ¿qué estadístico de correlación corresponde utilizar?",
+    "opciones": [
+      "El coeficiente rho de Spearman, adecuado para datos ordinales y asociaciones monótonas.",
+      "El coeficiente r de Pearson, asumiendo normalidad bivariada de forma automática.",
+      "La prueba t de Student para muestras independientes con varianzas heterogéneas.",
+      "El análisis de varianza unifactorial con contrastes ortogonales a posteriori."
+    ],
+    "correcta": 0,
+    "feedback": {
+      "correcto": "¡Correcto! El coeficiente rho de Spearman es una prueba no paramétrica basada en rangos, idónea para variables en escala ordinal o cuando no se satisfacen los supuestos de linealidad y normalidad de Pearson.",
+      "incorrecto": "No es correcto. El coeficiente r de Pearson exige variables cuantitativas continuas y distribución normal bivariada. Ante variables ordinales o relaciones monótonas no lineales, corresponde usar rho de Spearman.",
+      "correcta": "¡Correcto! El coeficiente rho de Spearman es una prueba no paramétrica basada en rangos, idónea para variables en escala ordinal o cuando no se satisfacen los supuestos de linealidad y normalidad de Pearson.",
+      "incorrecta": "No es correcto. El coeficiente r de Pearson exige variables cuantitativas continuas y distribución normal bivariada. Ante variables ordinales o relaciones monótonas no lineales, corresponde usar rho de Spearman."
+    },
+    "dificultad": 1,
+    "subtema": "analisis_cuantitativo",
+    "lectura_ref": "APA Handbook of Research Methods in Psychology (Vol. 3), Chapter 1 (Distributions and Linear Models), pp. 12-28",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b006",
+    "tipo": "opcion_multiple",
+    "enunciado": "Al contrastar dos medias independientes mediante la prueba t de Student, se comprueba que se vulnera la homogeneidad de varianzas (heterocedasticidad). ¿Qué solución analítica corresponde aplicar?",
+    "opciones": [
+      "Eliminar discrecionalmente a los participantes con puntuaciones más dispersas.",
+      "Aplicar la prueba t de Welch con ajuste en los grados de libertad para varianzas desiguales.",
+      "Ignorar la heterocedasticidad asumiendo que el teorema central del límite la neutraliza siempre.",
+      "Transformar la variable dependiente continua en categorías dicotómicas arbitrarias."
+    ],
+    "correcta": 1,
+    "feedback": {
+      "correcto": "¡Correcto! La prueba t de Welch ajusta los grados de libertad en función de las varianzas muestrales, controlando adecuadamente la tasa de error Tipo I sin necesidad de descartar casos ni categorizar variables.",
+      "incorrecto": "No es correcto. Cuando se viola el supuesto de homocedasticidad en la prueba t de Student, no se debe manipular la muestra. La solución paramétrica robusta y estándar es aplicar la prueba t de Welch.",
+      "correcta": "¡Correcto! La prueba t de Welch ajusta los grados de libertad en función de las varianzas muestrales, controlando adecuadamente la tasa de error Tipo I sin necesidad de descartar casos ni categorizar variables.",
+      "incorrecta": "No es correcto. Cuando se viola el supuesto de homocedasticidad en la prueba t de Student, no se debe manipular la muestra. La solución paramétrica robusta y estándar es aplicar la prueba t de Welch."
+    },
+    "dificultad": 2,
+    "subtema": "analisis_cuantitativo",
+    "lectura_ref": "APA Handbook of Research Methods in Psychology (Vol. 3), Chapter 8 (ANOVA and the General Linear Model), pp. 169-196",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b007",
+    "tipo": "opcion_multiple",
+    "enunciado": "Un estudio con una muestra grande (N = 5000) halla una diferencia estadísticamente significativa (p < 0,001) con una d de Cohen de 0,04. ¿Cómo debe interpretarse metodológicamente este resultado?",
+    "opciones": [
+      "La diferencia tiene enorme impacto clínico porque el valor p obtenido es sumamente pequeño.",
+      "El contraste demuestra que la hipótesis nula ha quedado refutada con total certeza empírica.",
+      "La significación formal refleja la alta potencia por el gran N, pero el efecto práctico es trivial.",
+      "El análisis carece de validez inferencial y debe repetirse hasta que p sea mayor a 0,05."
+    ],
+    "correcta": 2,
+    "feedback": {
+      "correcto": "¡Correcto! En muestras muy grandes, contrastes que detectan diferencias mínimas alcanzan significación estadística formal. El valor p solo rechaza H0, pero el tamaño del efecto (d = 0,04) revela que su magnitud real es despreciable.",
+      "incorrecto": "No es correcto. Un valor p muy bajo no equivale a una gran relevancia sustantiva; denota alta potencia muestral. La estimación del tamaño del efecto (d = 0,04) evidencia que la magnitud empírica es insignificante.",
+      "correcta": "¡Correcto! En muestras muy grandes, contrastes que detectan diferencias mínimas alcanzan significación estadística formal. El valor p solo rechaza H0, pero el tamaño del efecto (d = 0,04) revela que su magnitud real es despreciable.",
+      "incorrecta": "No es correcto. Un valor p muy bajo no equivale a una gran relevancia sustantiva; denota alta potencia muestral. La estimación del tamaño del efecto (d = 0,04) evidencia que la magnitud empírica es insignificante."
+    },
+    "dificultad": 2,
+    "subtema": "analisis_cuantitativo",
+    "lectura_ref": "APA Handbook of Research Methods in Psychology (Vol. 3), Chapter 6 (Effect-Size Estimation), pp. 115-142",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b008",
+    "tipo": "opcion_multiple",
+    "enunciado": "En la teoría fundamentada, ¿en qué consiste la aplicación del método de comparación constante durante la categorización?",
+    "opciones": [
+      "En comparar las medias numéricas obtenidas en las respuestas cuantitativas de los participantes.",
+      "En contrastar los resultados del estudio con los censos poblacionales de escala nacional.",
+      "En computar estadísticamente el porcentaje de coincidencia léxica entre dos entrevistas.",
+      "En contrastar inductivamente incidentes entre sí e incidentes con categorías para precisar propiedades."
+    ],
+    "correcta": 3,
+    "feedback": {
+      "correcto": "¡Correcto! El método de comparación constante opera cotejando sistemáticamente cada nuevo fragmento con los anteriores y con las categorías en desarrollo, refinando inductivamente sus dimensiones y propiedades teóricas.",
+      "incorrecto": "No es correcto. La comparación constante no es un cálculo cuantitativo, sino una estrategia analítica cualitativa recursiva donde se contrastan continuamente extractos del corpus entre sí y frente a las categorías emergentes.",
+      "correcta": "¡Correcto! El método de comparación constante opera cotejando sistemáticamente cada nuevo fragmento con los anteriores y con las categorías en desarrollo, refinando inductivamente sus dimensiones y propiedades teóricas.",
+      "incorrecta": "No es correcto. La comparación constante no es un cálculo cuantitativo, sino una estrategia analítica cualitativa recursiva donde se contrastan continuamente extractos del corpus entre sí y frente a las categorías emergentes."
+    },
+    "dificultad": 2,
+    "subtema": "analisis_cualitativo",
+    "lectura_ref": "APA Handbook of Research Methods in Psychology (Vol. 2), Chapter 3 (Grounded Theory), pp. 60-78",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b009",
+    "tipo": "opcion_multiple",
+    "enunciado": "Si los datos perdidos de una matriz cuantitativa dependen de variables observadas (mecanismo MAR), ¿qué consecuencia tiene aplicar eliminación por lista (listwise deletion)?",
+    "opciones": [
+      "Introduce sesgo sistemático en los parámetros y reduce la potencia estadística del estudio.",
+      "Garantiza estimaciones completamente insesgadas al evitar algoritmos de imputación matemática.",
+      "Incrementa la representatividad muestral al descartar unidades con respuestas incompletas.",
+      "Corrige automáticamente los problemas de asimetría y heterocedasticidad de las variables."
+    ],
+    "correcta": 0,
+    "feedback": {
+      "correcto": "¡Correcto! Bajo mecanismos MAR o MNAR, eliminar casos con datos incompletos no solo reduce la potencia, sino que sesga sistemáticamente las estimaciones. Corresponde usar imputación múltiple o máxima verosimilitud con información completa (FIML).",
+      "incorrecto": "No es correcto. Descartar filas completas cuando la ausencia de datos se asocia a otras variables del estudio (MAR) sesga las medias, varianzas y covarianzas, además de desperdiciar información valiosa.",
+      "correcta": "¡Correcto! Bajo mecanismos MAR o MNAR, eliminar casos con datos incompletos no solo reduce la potencia, sino que sesga sistemáticamente las estimaciones. Corresponde usar imputación múltiple o máxima verosimilitud con información completa (FIML).",
+      "incorrecta": "No es correcto. Descartar filas completas cuando la ausencia de datos se asocia a otras variables del estudio (MAR) sesga las medias, varianzas y covarianzas, además de desperdiciar información valiosa."
+    },
+    "dificultad": 2,
+    "subtema": "analisis_cuantitativo",
+    "lectura_ref": "APA Handbook of Research Methods in Psychology (Vol. 3), Chapter 2 (Missing Data Handling), pp. 25-50",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b010",
+    "tipo": "opcion_multiple",
+    "enunciado": "Para resguardar el criterio de auditabilidad o confirmabilidad en una investigación cualitativa, ¿qué procedimiento analítico es indispensable?",
+    "opciones": [
+      "Calcular coeficientes de correlación intraclase entre las respuestas a preguntas cerradas.",
+      "Mantener una pista de auditoría y bitácora que registre detalladamente las decisiones analíticas.",
+      "Destruir las notas de campo y grabaciones originales tras redactar el informe definitivo.",
+      "Impedir que investigadores externos puedan examinar los criterios de codificación empleados."
+    ],
+    "correcta": 1,
+    "feedback": {
+      "correcto": "¡Correcto! La pista de auditoría (audit trail) documenta el proceso analítico paso a paso (cómo surgieron códigos, qué reglas de categorización se siguieron y cómo se construyeron los temas), garantizando la auditabilidad.",
+      "incorrecto": "No es correcto. La auditabilidad cualitativa se sustenta en hacer transparente y trazable la trayectoria de las decisiones metodológicas mediante un registro sistemático o pista de auditoría, no mediante cálculos cuantitativos.",
+      "correcta": "¡Correcto! La pista de auditoría (audit trail) documenta el proceso analítico paso a paso (cómo surgieron códigos, qué reglas de categorización se siguieron y cómo se construyeron los temas), garantizando la auditabilidad.",
+      "incorrecta": "No es correcto. La auditabilidad cualitativa se sustenta en hacer transparente y trazable la trayectoria de las decisiones metodológicas mediante un registro sistemático o pista de auditoría, no mediante cálculos cuantitativos."
+    },
+    "dificultad": 2,
+    "subtema": "analisis_cualitativo",
+    "lectura_ref": "APA Handbook of Research Methods in Psychology (Vol. 2), Chapter 1 (Qualitative Research and Rigor), pp. 15-34",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b011",
+    "tipo": "opcion_multiple",
+    "enunciado": "¿Cuál es la principal ventaja analítica de la regresión lineal múltiple frente al análisis de correlaciones bivariadas simples?",
+    "opciones": [
+      "Transformar automáticamente un diseño correlacional en un experimento controlado de laboratorio.",
+      "Asegurar que el coeficiente de determinación R cuadrado sea siempre superior a 0,70.",
+      "Estimar el efecto específico de cada predictor controlando estadísticamente terceras variables.",
+      "Eximir de la necesidad de verificar supuestos de linealidad y homocedasticidad en residuos."
+    ],
+    "correcta": 2,
+    "feedback": {
+      "correcto": "¡Correcto! En la regresión lineal múltiple, los coeficientes de regresión parcial cuantifican la asociación de cada variable independiente con la dependiente manteniendo constantes las demás variables incluidas en el modelo.",
+      "incorrecto": "No es correcto. La regresión múltiple no convierte un estudio correlacional en experimental ni asegura un R cuadrado alto. Su ventaja distintiva radica en aislar y controlar el efecto de confusores potenciales incluidos simultáneamente.",
+      "correcta": "¡Correcto! En la regresión lineal múltiple, los coeficientes de regresión parcial cuantifican la asociación de cada variable independiente con la dependiente manteniendo constantes las demás variables incluidas en el modelo.",
+      "incorrecta": "No es correcto. La regresión múltiple no convierte un estudio correlacional en experimental ni asegura un R cuadrado alto. Su ventaja distintiva radica en aislar y controlar el efecto de confusores potenciales incluidos simultáneamente."
+    },
+    "dificultad": 2,
+    "subtema": "analisis_cuantitativo",
+    "lectura_ref": "APA Handbook of Research Methods in Psychology (Vol. 3), Chapter 5 (Multiple Regression Models), pp. 89-114",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b012",
+    "tipo": "opcion_multiple",
+    "enunciado": "En un equipo de investigación cualitativa, ¿cómo se lleva a cabo la triangulación de investigadores durante la codificación del corpus?",
+    "opciones": [
+      "Delegando la decisión final en el investigador de mayor jerarquía académica sin debate alguno.",
+      "Seleccionando mediante sorteo al azar qué integrante decide el significado de cada párrafo.",
+      "Promediando la cantidad de líneas de texto identificadas por cada miembro del equipo.",
+      "Codificando de forma independiente el mismo material para luego contrastar y consensuar acuerdos."
+    ],
+    "correcta": 3,
+    "feedback": {
+      "correcto": "¡Correcto! La triangulación de investigadores consiste en que dos o más analistas codifican de manera independiente el mismo material para luego contrastar acuerdos y discutir divergencias interpretativas.",
+      "incorrecto": "No es correcto. La triangulación de investigadores no es una jerarquía, un sorteo ni un promedio de líneas, sino un procedimiento reflexivo donde múltiples analistas comparan y fundamentan sus interpretaciones independientes.",
+      "correcta": "¡Correcto! La triangulación de investigadores consiste en que dos o más analistas codifican de manera independiente el mismo material para luego contrastar acuerdos y discutir divergencias interpretativas.",
+      "incorrecta": "No es correcto. La triangulación de investigadores no es una jerarquía, un sorteo ni un promedio de líneas, sino un procedimiento reflexivo donde múltiples analistas comparan y fundamentan sus interpretaciones independientes."
+    },
+    "dificultad": 2,
+    "subtema": "analisis_cualitativo",
+    "lectura_ref": "guianalisis (emorito.github.io/guianalisis), Sección: Criterios de rigor en investigación cualitativa",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b013",
+    "tipo": "opcion_multiple",
+    "enunciado": "¿Qué distingue conceptualmente al Análisis de Componentes Principales (ACP) del Análisis Factorial Exploratorio (AFE)?",
+    "opciones": [
+      "El ACP es un modelo de variables latentes teóricas y el AFE es una técnica de agrupamiento jerárquico.",
+      "El ACP descompone la varianza total para reducir datos; el AFE modela la varianza común explicada por factores latentes.",
+      "El ACP se aplica solo a escalas cualitativas nominales y el AFE a variables numéricas continuas.",
+      "El ACP asume error de medida en todos los ítems y el AFE supone mediciones perfectamente exactas."
+    ],
+    "correcta": 1,
+    "feedback": {
+      "correcto": "¡Correcto! El ACP es un método de reducción empírica que analiza la varianza total sin distinguir error de medición. El AFE, en cambio, postula factores latentes hipotéticos que explican la varianza común compartida entre los ítems.",
+      "incorrecto": "No es correcto. Es un error habitual equiparar ambas técnicas. El ACP busca resumir la varianza total observada en componentes. El AFE es un modelo psicométrico que busca estimar factores latentes a partir de la varianza compartida o común.",
+      "correcta": "¡Correcto! El ACP es un método de reducción empírica que analiza la varianza total sin distinguir error de medición. El AFE, en cambio, postula factores latentes hipotéticos que explican la varianza común compartida entre los ítems.",
+      "incorrecta": "No es correcto. Es un error habitual equiparar ambas técnicas. El ACP busca resumir la varianza total observada en componentes. El AFE es un modelo psicométrico que busca estimar factores latentes a partir de la varianza compartida o común."
+    },
+    "dificultad": 3,
+    "subtema": "analisis_cuantitativo",
+    "lectura_ref": "APA Handbook of Research Methods in Psychology (Vol. 3), Chapter 17 (EFA and CFA), pp. 379-408",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b014",
+    "tipo": "opcion_multiple",
+    "enunciado": "¿Por qué las prácticas de p-hacking (probar exclusiones post hoc) y HARKing (hipotetizar tras conocer resultados) invalidan la inferencia estadística?",
+    "opciones": [
+      "Porque incrementan arbitrariamente el tamaño del efecto muestral sin alterar el error Tipo I.",
+      "Porque impiden que los paquetes estadísticos calculen matrices de covarianzas simétricas.",
+      "Porque inflan drásticamente la tasa real de error Tipo I publicando falsos positivos como hallazgos genuinos.",
+      "Porque violan los supuestos de linealidad y normalidad requeridos por los coeficientes de correlación."
+    ],
+    "correcta": 2,
+    "feedback": {
+      "correcto": "¡Correcto! Al explorar múltiples combinaciones analíticas no planificadas o presentar hallazgos contingentes como hipótesis previas, se vulnera la lógica del contraste y el riesgo real de error Tipo I se eleva muy por encima del 5 % nominal.",
+      "incorrecto": "No es correcto. El daño epistemológico central de las prácticas cuestionables (QRPs) es que inflan masivamente la probabilidad de cometer error Tipo I (falsos positivos), invalidando el significado del valor p informado.",
+      "correcta": "¡Correcto! Al explorar múltiples combinaciones analíticas no planificadas o presentar hallazgos contingentes como hipótesis previas, se vulnera la lógica del contraste y el riesgo real de error Tipo I se eleva muy por encima del 5 % nominal.",
+      "incorrecta": "No es correcto. El daño epistemológico central de las prácticas cuestionables (QRPs) es que inflan masivamente la probabilidad de cometer error Tipo I (falsos positivos), invalidando el significado del valor p informado."
+    },
+    "dificultad": 3,
+    "subtema": "analisis_cuantitativo",
+    "lectura_ref": "APA Handbook of Research Methods in Psychology (Vol. 3), Chapter 26 (Questionable Practices in Statistical Analysis), pp. 581-596",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b015",
+    "tipo": "opcion_multiple",
+    "enunciado": "¿Qué distingue a la saturación teórica rigurosa en teoría fundamentada frente a la simple redundancia léxica en testimonios sucesivos?",
+    "opciones": [
+      "La redundancia es superficial; la saturación teórica exige que las categorías estén densamente conceptualizadas en propiedades y variaciones.",
+      "La saturación teórica se cumple automáticamente cuando se alcanza una cuota fija prefijada de 15 entrevistas.",
+      "La saturación teórica requiere que el coeficiente de concordancia interjueces alcance un valor superior a 0,90.",
+      "La saturación teórica exige que todos los informantes coincidan unánimemente en sus opiniones sin divergencias."
+    ],
+    "correcta": 0,
+    "feedback": {
+      "correcto": "¡Correcto! Escuchar afirmaciones parecidas es mera redundancia. La saturación teórica ocurre cuando la incorporación de datos ya no aporta nuevas propiedades, dimensiones ni conexiones estructurales a las categorías teóricas construidas.",
+      "incorrecto": "No es correcto. La saturación teórica no se define por un número fijo ni por repetición de palabras, sino por el desarrollo conceptual exhaustivo de las categorías: cuando los nuevos datos no modifican sus propiedades ni dimensiones.",
+      "correcta": "¡Correcto! Escuchar afirmaciones parecidas es mera redundancia. La saturación teórica ocurre cuando la incorporación de datos ya no aporta nuevas propiedades, dimensiones ni conexiones estructurales a las categorías teóricas construidas.",
+      "incorrecta": "No es correcto. La saturación teórica no se define por un número fijo ni por repetición de palabras, sino por el desarrollo conceptual exhaustivo de las categorías: cuando los nuevos datos no modifican sus propiedades ni dimensiones."
+    },
+    "dificultad": 3,
+    "subtema": "analisis_cualitativo",
+    "lectura_ref": "APA Handbook of Research Methods in Psychology (Vol. 2), Chapter 3 (Grounded Theory), pp. 68-82",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b016",
+    "tipo": "opcion_multiple",
+    "enunciado": "En un modelo de moderación lineal (Y predicha por X, W y el término producto X·W), si la interacción resulta estadísticamente significativa, ¿cómo deben interpretarse los coeficientes individuales de X y W?",
+    "opciones": [
+      "Como efectos constantes universales que mantienen su magnitud con independencia del valor de la otra variable.",
+      "Como coeficientes espurios sin sentido estadístico que deben eliminarse obligatoriamente de la ecuación.",
+      "Como prueba concluyente de que W actúa como mediadora causal de la relación entre la variable X y el criterio Y.",
+      "Como efectos condicionales de una variable evaluados específicamente cuando la otra variable toma el valor cero."
+    ],
+    "correcta": 3,
+    "feedback": {
+      "correcto": "¡Correcto! En presencia de interacción significativa, los términos de primer orden ya no son 'efectos principales' homogéneos sino pendientes condicionales: reflejan el efecto de una variable únicamente cuando la otra toma el valor cero.",
+      "incorrecto": "No es correcto. Cuando hay interacción significativa, los coeficientes individuales no son efectos globales invariantes. Son efectos condicionales ('efectos simples') que varían según los distintos niveles de la variable moderadora.",
+      "correcta": "¡Correcto! En presencia de interacción significativa, los términos de primer orden ya no son 'efectos principales' homogéneos sino pendientes condicionales: reflejan el efecto de una variable únicamente cuando la otra toma el valor cero.",
+      "incorrecta": "No es correcto. Cuando hay interacción significativa, los coeficientes individuales no son efectos globales invariantes. Son efectos condicionales ('efectos simples') que varían según los distintos niveles de la variable moderadora."
+    },
+    "dificultad": 3,
+    "subtema": "analisis_cuantitativo",
+    "lectura_ref": "APA Handbook of Research Methods in Psychology (Vol. 3), Chapter 5 (Estimating and Visualizing Interactions in Moderated Multiple Regression), pp. 92-110",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  }
+]

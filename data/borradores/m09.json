@@ -1,0 +1,578 @@
+[
+  {
+    "id": "m09-b001",
+    "tipo": "opcion_multiple",
+    "enunciado": "Según los Standards for Educational and Psychological Testing (AERA, APA y NCME, 2014), ¿cuál es la concepción actual de la validez en psicometría?",
+    "opciones": [
+      "La validez es un argumento sustentado en evidencias sobre la interpretación de las puntuaciones para un uso propuesto, no una propiedad intrínseca del test.",
+      "La validez es una propiedad matemática fija del instrumento que se demuestra de forma definitiva con un coeficiente de correlación superior a 0,80.",
+      "La validez equivale a la consistencia temporal de las puntuaciones obtenidas al repetir la administración del cuestionario tras varios meses.",
+      "La validez se comprueba exclusivamente demostrando que los ítems del cuestionario fueron redactados por autores con grado doctoral en psicología."
+    ],
+    "correcta": 0,
+    "feedback": {
+      "correcto": "¡Correcto! Los Standards establecen que un test no 'es válido' de forma absoluta; lo que se valida es la interpretación y el uso específico propuesto para las puntuaciones, mediante un cuerpo integrado de evidencias.",
+      "incorrecto": "No es correcto. La psicometría moderna descarta que la validez sea un número o una cualidad estática del instrumento. Se valida el uso y significado inferencial de las puntuaciones para un fin determinado a través de evidencias continuas.",
+      "correcta": "¡Correcto! Los Standards establecen que un test no 'es válido' de forma absoluta; lo que se valida es la interpretación y el uso específico propuesto para las puntuaciones, mediante un cuerpo integrado de evidencias.",
+      "incorrecta": "No es correcto. La psicometría moderna descarta que la validez sea un número o una cualidad estática del instrumento. Se valida el uso y significado inferencial de las puntuaciones para un fin determinado a través de evidencias continuas."
+    },
+    "dificultad": 1,
+    "subtema": "medicion",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Validez: un argumento con cinco fuentes de evidencia (Standards AERA, APA, NCME 2014)",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b002",
+    "tipo": "opcion_multiple",
+    "enunciado": "Dentro de las cinco fuentes de evidencia de validez, ¿en qué consiste la evidencia basada en el contenido del instrumento?",
+    "opciones": [
+      "En verificar que la matriz de correlaciones bivariadas entre todos los reactivos sea estrictamente positiva.",
+      "En calcular el tiempo exacto en milisegundos que los participantes tardan en leer las opciones de respuesta.",
+      "En comprobar que las puntuaciones individuales no cambien cuando se evalúa al mismo paciente en días sucesivos.",
+      "En evaluar el grado en que los reactivos del test representan adecuadamente el dominio conceptual del constructo (p. ej., juicio de expertos)."
+    ],
+    "correcta": 3,
+    "feedback": {
+      "correcto": "¡Correcto! La evidencia de contenido examina la relevancia, representatividad y claridad con que los ítems cubren el dominio teórico del constructo, habitualmente evaluada mediante jueces expertos y métricas como la V de Aiken.",
+      "incorrecto": "No es correcto. La evidencia de contenido no es un análisis de correlaciones ni de tiempos de respuesta; evalúa si los reactivos constituyen una muestra representativa y pertinente de las dimensiones teóricas del constructo.",
+      "correcta": "¡Correcto! La evidencia de contenido examina la relevancia, representatividad y claridad con que los ítems cubren el dominio teórico del constructo, habitualmente evaluada mediante jueces expertos y métricas como la V de Aiken.",
+      "incorrecta": "No es correcto. La evidencia de contenido no es un análisis de correlaciones ni de tiempos de respuesta; evalúa si los reactivos constituyen una muestra representativa y pertinente de las dimensiones teóricas del constructo."
+    },
+    "dificultad": 1,
+    "subtema": "validacion",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Validez: un argumento con cinco fuentes de evidencia; Muñiz (2018)",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b003",
+    "tipo": "opcion_multiple",
+    "enunciado": "Respecto a la consistencia interna, ¿cuál es el significado metodológico y el límite del coeficiente alfa de Cronbach?",
+    "opciones": [
+      "Demuestra con total certeza que el instrumento es unidimensional y mide un único factor latente puro.",
+      "Garantiza que el test carece de cualquier fuente de error sistemático o cultural en poblaciones diversas.",
+      "Evalúa la covariación media entre ítems bajo supuestos restrictivos, pero un alfa elevado no demuestra unidimensionalidad.",
+      "Es un indicador de validez de criterio que predice con exactitud conductas observables futuras del evaluado."
+    ],
+    "correcta": 2,
+    "feedback": {
+      "correcto": "¡Correcto! Alfa cuantifica la consistencia interna promedio bajo el supuesto de tau-equivalencia. Sin embargo, un alfa alto no prueba que la escala sea unidimensional (puede ser inflado por el número de ítems o reactivos redundantes).",
+      "incorrecto": "No es correcto. Un error psicométrico muy extendido es creer que alfa prueba unidimensionalidad. Como demostró Sijtsma (2009), alfa puede ser elevado en escalas multidimensionales y depende fuertemente de la cantidad de ítems.",
+      "correcta": "¡Correcto! Alfa cuantifica la consistencia interna promedio bajo el supuesto de tau-equivalencia. Sin embargo, un alfa alto no prueba que la escala sea unidimensional (puede ser inflado por el número de ítems o reactivos redundantes).",
+      "incorrecta": "No es correcto. Un error psicométrico muy extendido es creer que alfa prueba unidimensionalidad. Como demostró Sijtsma (2009), alfa puede ser elevado en escalas multidimensionales y depende fuertemente de la cantidad de ítems."
+    },
+    "dificultad": 1,
+    "subtema": "instrumentos",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Alfa, omega y el error de la persona; Sijtsma (2009)",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b004",
+    "tipo": "opcion_multiple",
+    "enunciado": "En la adaptación transcultural de un instrumento según las directrices de la ITC (International Test Commission), ¿en qué consiste la técnica de traducción inversa (back-translation)?",
+    "opciones": [
+      "En eliminar todas las preguntas que utilicen expresiones idiomáticas complejas sin sustituirlas por reactivos equivalentes.",
+      "En cambiar el orden de las preguntas del cuestionario colocándolas desde la última hacia la primera reactiva.",
+      "En traducir el instrumento utilizando exclusivamente motores automáticos de internet sin revisión lingüística humana.",
+      "En traducir los ítems del idioma de destino al idioma original para que el autor primario confirme su equivalencia conceptual."
+    ],
+    "correcta": 3,
+    "feedback": {
+      "correcto": "¡Correcto! La traducción inversa implica que un traductor independiente traduce la versión adaptada de regreso al idioma original, permitiendo comparar ambas versiones en la lengua de origen para detectar pérdidas o distorsiones de significado.",
+      "incorrecto": "No es correcto. La traducción inversa (back-translation) traduce la versión adaptada nuevamente a la lengua de origen para cotejar con el texto original y verificar que los significados conceptuales y psicológicos se hayan preservado intactos.",
+      "correcta": "¡Correcto! La traducción inversa implica que un traductor independiente traduce la versión adaptada de regreso al idioma original, permitiendo comparar ambas versiones en la lengua de origen para detectar pérdidas o distorsiones de significado.",
+      "incorrecta": "No es correcto. La traducción inversa (back-translation) traduce la versión adaptada nuevamente a la lengua de origen para cotejar con el texto original y verificar que los significados conceptuales y psicológicos se hayan preservado intactos."
+    },
+    "dificultad": 1,
+    "subtema": "construccion_adaptacion",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Adaptar y elegir un instrumento ya existente; ITC Guidelines (2017)",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b005",
+    "tipo": "opcion_multiple",
+    "enunciado": "¿Qué representa conceptualmente el Error Estándar de Medida (EEM o Se) en la Teoría Clásica de los Tests (TCT)?",
+    "opciones": [
+      "La proporción de varianza verdadera compartida entre dos pruebas paralelas que evalúan constructos idénticos.",
+      "La desviación típica de las puntuaciones observadas que obtendría una misma persona si fuera evaluada infinitas veces.",
+      "El porcentaje de personas que responden de manera errónea a un reactivo dicotómico en un examen de opción múltiple.",
+      "El grado de correlación existente entre el puntaje directo de un test y un criterio externo estandarizado."
+    ],
+    "correcta": 1,
+    "feedback": {
+      "correcto": "¡Correcto! El EEM (Se = s · √(1 − rxx)) es la desviación estándar de la distribución de errores de medida en torno a la puntuación verdadera de una persona, y es la base para calcular el intervalo de confianza de un puntaje individual.",
+      "incorrecto": "No es correcto. El Error Estándar de Medida no es la varianza verdadera ni la correlación con un criterio; es la desviación típica esperada en las puntuaciones observadas de un sujeto debido a la fluctuación del error aleatorio de medición.",
+      "correcta": "¡Correcto! El EEM (Se = s · √(1 − rxx)) es la desviación estándar de la distribución de errores de medida en torno a la puntuación verdadera de una persona, y es la base para calcular el intervalo de confianza de un puntaje individual.",
+      "incorrecta": "No es correcto. El Error Estándar de Medida no es la varianza verdadera ni la correlación con un criterio; es la desviación típica esperada en las puntuaciones observadas de un sujeto debido a la fluctuación del error aleatorio de medición."
+    },
+    "dificultad": 1,
+    "subtema": "instrumentos",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Alfa, omega y el error de la persona; Muñiz (2018)",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b006",
+    "tipo": "opcion_multiple",
+    "enunciado": "Al analizar la consistencia interna de una escala, ¿cuál es la diferencia psicométrica crucial entre el coeficiente alfa de Cronbach y el coeficiente omega de McDonald?",
+    "opciones": [
+      "Alfa solo se aplica a tests de inteligencia y omega se restringe a cuestionarios de personalidad proyectiva.",
+      "Alfa exige el supuesto estricto de tau-equivalencia (cargas iguales); si las cargas difieren, alfa subestima la fiabilidad y omega es superior.",
+      "Omega asume que el error de medida es cero, mientras que alfa modela el error sistemático del evaluador.",
+      "Alfa requiere un modelo bifactorial jerárquico y omega asume distribución dicotómica en todas las respuestas."
+    ],
+    "correcta": 1,
+    "feedback": {
+      "correcto": "¡Correcto! Alfa requiere tau-equivalencia esencial (que todos los ítems aporten con idéntica fuerza al factor latente). En modelos congenéricos (cargas desiguales), alfa subestima la fiabilidad real. El coeficiente omega calcula la fiabilidad a partir de las cargas factoriales observadas, siendo más robusto y realista.",
+      "incorrecto": "No es correcto. La limitación fundamental de alfa es exigir tau-equivalencia (cargas factoriales idénticas). Cuando los ítems tienen discriminaciones desiguales (modelo congenérico), alfa subestima la consistencia interna, motivo por el cual la psicometría contemporánea prefiere omega.",
+      "correcta": "¡Correcto! Alfa requiere tau-equivalencia esencial (que todos los ítems aporten con idéntica fuerza al factor latente). En modelos congenéricos (cargas desiguales), alfa subestima la fiabilidad real. El coeficiente omega calcula la fiabilidad a partir de las cargas factoriales observadas, siendo más robusto y realista.",
+      "incorrecta": "No es correcto. La limitación fundamental de alfa es exigir tau-equivalencia (cargas factoriales idénticas). Cuando los ítems tienen discriminaciones desiguales (modelo congenérico), alfa subestima la consistencia interna, motivo por el cual la psicometría contemporánea prefiere omega."
+    },
+    "dificultad": 2,
+    "subtema": "instrumentos",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Alfa, omega y el error de la persona; Dunn et al. (2014)",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b007",
+    "tipo": "opcion_multiple",
+    "enunciado": "¿En qué consiste la evidencia de validez basada en los procesos de respuesta según los Standards (AERA, APA y NCME, 2014)?",
+    "opciones": [
+      "En calcular el coeficiente kappa de Cohen entre dos evaluadores que corrigen un protocolo de respuestas abiertas.",
+      "En comprobar que la correlación entre la puntuación del test y el promedio académico semestral supere el valor 0,50.",
+      "En verificar mediante un análisis factorial confirmatorio que los residuos de varianza sean menores que las varianzas únicas.",
+      "En indagar los procesos cognitivos y estrategias de razonamiento que los examinados emplean efectivamente al responder a los reactivos."
+    ],
+    "correcta": 3,
+    "feedback": {
+      "correcto": "¡Correcto! La evidencia sobre procesos de respuesta investiga si el examinador y el evaluado comparten el mismo significado. Se analiza mediante entrevistas cognitivas o protocolos de pensamiento en voz alta para corroborar que los participantes desplieguen los procesos teóricos previstos.",
+      "incorrecto": "No es correcto. Los procesos de respuesta examinan los mecanismos psicológicos y operaciones mentales que los sujetos activan al contestar los ítems (mediante entrevistas de pensamiento en voz alta), no correlaciones estadísticas externas ni acuerdos interjueces.",
+      "correcta": "¡Correcto! La evidencia sobre procesos de respuesta investiga si el examinador y el evaluado comparten el mismo significado. Se analiza mediante entrevistas cognitivas o protocolos de pensamiento en voz alta para corroborar que los participantes desplieguen los procesos teóricos previstos.",
+      "incorrecta": "No es correcto. Los procesos de respuesta examinan los mecanismos psicológicos y operaciones mentales que los sujetos activan al contestar los ítems (mediante entrevistas de pensamiento en voz alta), no correlaciones estadísticas externas ni acuerdos interjueces."
+    },
+    "dificultad": 2,
+    "subtema": "validacion",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Validez: un argumento con cinco fuentes de evidencia; Standards AERA/APA/NCME (2014)",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b008",
+    "tipo": "opcion_multiple",
+    "enunciado": "En el análisis clásico de reactivos, ¿qué mide la correlación ítem-total corregida (índice de discriminación) y cuál es su umbral de calidad aceptable?",
+    "opciones": [
+      "La proporción de sujetos que aciertan el reactivo; se consideran de calidad aceptable los valores superiores a 0,90.",
+      "El tiempo promedio de respuesta al ítem; valores menores a diez segundos indican que el ítem es comprensible.",
+      "El porcentaje de varianza única no explicada por el instrumento; se prefieren reactivos con índices negativos.",
+      "El grado en que el reactivo diferencia entre personas con alto y bajo nivel en la escala total (descontando el propio ítem); deseable ≥ 0,30."
+    ],
+    "correcta": 3,
+    "feedback": {
+      "correcto": "¡Correcto! La correlación ítem-total corregida evalúa la capacidad del ítem para discriminar a los sujetos con mayor y menor puntuación global en el constructo, excluyendo la puntuación del propio ítem para no inflar la correlación. Valores ≥ 0,30 (o al menos ≥ 0,20) son psicométricamente aceptables.",
+      "incorrecto": "No es correcto. La correlación ítem-total corregida cuantifica la discriminación del reactivo: qué tan coherentemente alinea a los sujetos con el puntaje total del constructo. Se descuenta el ítem para evitar espuriedad y se esperan valores superiores a 0,30.",
+      "correcta": "¡Correcto! La correlación ítem-total corregida evalúa la capacidad del ítem para discriminar a los sujetos con mayor y menor puntuación global en el constructo, excluyendo la puntuación del propio ítem para no inflar la correlación. Valores ≥ 0,30 (o al menos ≥ 0,20) son psicométricamente aceptables.",
+      "incorrecta": "No es correcto. La correlación ítem-total corregida cuantifica la discriminación del reactivo: qué tan coherentemente alinea a los sujetos con el puntaje total del constructo. Se descuenta el ítem para evitar espuriedad y se esperan valores superiores a 0,30."
+    },
+    "dificultad": 2,
+    "subtema": "construccion_adaptacion",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Construir un instrumento; Muñiz & Fonseca-Pedrero (2019)",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b009",
+    "tipo": "opcion_multiple",
+    "enunciado": "Al evaluar la evidencia de validez basada en la relación con otras variables, ¿cómo se definen operativamente las evidencias convergente y discriminante?",
+    "opciones": [
+      "Convergente: correlación sustancial con medidas de constructos afines; Discriminante: correlación baja o nula con constructos conceptualmente distintos.",
+      "Convergente: acuerdo absoluto entre jueces clínicos; Discriminante: estabilidad temporal de las respuestas tras dos meses.",
+      "Convergente: consistencia interna alfa superior a 0,80; Discriminante: invarianza factorial estricta entre hombres y mujeres.",
+      "Convergente: capacidad predictiva de un examen de ingreso; Discriminante: ausencia de error estándar de medida en la muestra."
+    ],
+    "correcta": 0,
+    "feedback": {
+      "correcto": "¡Correcto! La evidencia convergente muestra que la escala correlaciona con otros instrumentos que miden constructos teóricamente similares; la discriminante demuestra que no se confunde con medidas de constructos disímiles.",
+      "incorrecto": "No es correcto. La evidencia convergente exige correlaciones elevadas y significativas con variables o constructos teóricamente emparentados. La evidencia discriminante demuestra que el test mide un rasgo diferenciado de otros constructos afines.",
+      "correcta": "¡Correcto! La evidencia convergente muestra que la escala correlaciona con otros instrumentos que miden constructos teóricamente similares; la discriminante demuestra que no se confunde con medidas de constructos disímiles.",
+      "incorrecta": "No es correcto. La evidencia convergente exige correlaciones elevadas y significativas con variables o constructos teóricamente emparentados. La evidencia discriminante demuestra que el test mide un rasgo diferenciado de otros constructos afines."
+    },
+    "dificultad": 2,
+    "subtema": "validacion",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Validez: un argumento con cinco fuentes de evidencia; Kerlinger & Lee, Cap. 27",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b010",
+    "tipo": "opcion_multiple",
+    "enunciado": "Las directrices de la ITC clasifican las fuentes de sesgo en adaptación de instrumentos en tres categorías: sesgo de constructo, de método y de ítem. ¿Qué define al sesgo de constructo?",
+    "opciones": [
+      "La presencia de palabras ambiguas o errores tipográficos en las opciones de un reactivo específico.",
+      "Que el significado psicológico o las manifestaciones del rasgo teórico no son equivalentes entre las culturas comparadas.",
+      "Las diferencias en el nivel de familiaridad de los participantes con el formato computarizado del test.",
+      "La diferencia en la severidad de los evaluadores que corrigen las respuestas subjetivas de los examinados."
+    ],
+    "correcta": 1,
+    "feedback": {
+      "correcto": "¡Correcto! El sesgo de constructo ocurre cuando el constructo en sí no tiene el mismo significado o cobertura psicológica en las dos poblaciones culturales (por ejemplo, conceptos como asertividad o filiación que se expresan de manera estructuralmente distinta).",
+      "incorrecto": "No es correcto. El sesgo de constructo es el más grave: indica que el constructo mismo no es conceptualmente equivalente entre culturas. El sesgo de método responde al formato o administración, y el de ítem al funcionamiento particular de un reactivo.",
+      "correcta": "¡Correcto! El sesgo de constructo ocurre cuando el constructo en sí no tiene el mismo significado o cobertura psicológica en las dos poblaciones culturales (por ejemplo, conceptos como asertividad o filiación que se expresan de manera estructuralmente distinta).",
+      "incorrecta": "No es correcto. El sesgo de constructo es el más grave: indica que el constructo mismo no es conceptualmente equivalente entre culturas. El sesgo de método responde al formato o administración, y el de ítem al funcionamiento particular de un reactivo."
+    },
+    "dificultad": 2,
+    "subtema": "construccion_adaptacion",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Adaptar y elegir un instrumento ya existente; ITC Guidelines (2017)",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b011",
+    "tipo": "opcion_multiple",
+    "enunciado": "Un psicólogo obtiene una puntuación directa X = 70 en un test cuya fiabilidad reportada es rxx = 0,75 y desviación estándar s = 10 (con Se = 5). ¿Por qué no debe interpretar el puntaje 70 como un valor exacto e inmutable?",
+    "opciones": [
+      "Porque la Teoría Clásica de los Tests exige redondear todos los puntajes individuales al múltiplo de diez más próximo.",
+      "Porque los tests psicológicos solo permiten interpretar puntuaciones categorizadas dicotómicamente como apto o no apto.",
+      "Porque toda puntuación observada contiene error de medida y debe reportarse como intervalo de confianza (p. ej., 70 ± 1,96·Se = [60,2; 79,8]).",
+      "Porque el Error Estándar de Medida anula la validez del instrumento cuando la puntuación directa es menor a cien."
+    ],
+    "correcta": 2,
+    "feedback": {
+      "correcto": "¡Correcto! En TCT, X = V + E. Toda medida observada está afectada por fluctuación aleatoria. Con Se = 5, el intervalo al 95 % de confianza (aprox. ±10 puntos) indica que la puntuación verdadera del sujeto se ubica plausiblemente entre 60 y 80.",
+      "incorrecto": "No es correcto. Ninguna puntuación directa en un test psicológico es un número exacto. Toda medición psicológica posee error aleatorio y debe interpretarse contextualizada en un intervalo de confianza sustentado en el Error Estándar de Medida.",
+      "correcta": "¡Correcto! En TCT, X = V + E. Toda medida observada está afectada por fluctuación aleatoria. Con Se = 5, el intervalo al 95 % de confianza (aprox. ±10 puntos) indica que la puntuación verdadera del sujeto se ubica plausiblemente entre 60 y 80.",
+      "incorrecta": "No es correcto. Ninguna puntuación directa en un test psicológico es un número exacto. Toda medición psicológica posee error aleatorio y debe interpretarse contextualizada en un intervalo de confianza sustentado en el Error Estándar de Medida."
+    },
+    "dificultad": 2,
+    "subtema": "instrumentos",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Alfa, omega y el error de la persona; Nunnally & Bernstein (1994)",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b012",
+    "tipo": "opcion_multiple",
+    "enunciado": "En la evaluación de la estructura interna de una escala psicológica mediante Análisis Factorial Confirmatorio (AFC), ¿qué indican índices de ajuste como CFI ≥ 0,95 y RMSEA ≤ 0,06?",
+    "opciones": [
+      "Que la matriz de covarianzas reproducida por el modelo teórico propuesto concuerda estrechamente con los datos observados.",
+      "Que todos los ítems del instrumento presentan correlaciones de Spearman idénticas e independientes del contexto.",
+      "Que no se necesita recolectar datos empíricos locales porque el instrumento demostró ser universalmente aplicable.",
+      "Que el coeficiente alfa de Cronbach de los reactivos evaluados es matemáticamente igual a la unidad perfecta."
+    ],
+    "correcta": 0,
+    "feedback": {
+      "correcto": "¡Correcto! Valores de CFI ≥ 0,95 y RMSEA ≤ 0,06 reflejan un buen ajuste global del modelo factorial confirmatorio: la estructura teórica de factores y relaciones postulada reproduce adecuadamente las correlaciones observadas entre los reactivos.",
+      "incorrecto": "No es correcto. En AFC, índices como CFI y RMSEA no miden alfas ni correlaciones Spearman, sino la bondad de ajuste del modelo factorial: qué tan compatible es la matriz de covarianzas teórica con los datos empíricos observados.",
+      "correcta": "¡Correcto! Valores de CFI ≥ 0,95 y RMSEA ≤ 0,06 reflejan un buen ajuste global del modelo factorial confirmatorio: la estructura teórica de factores y relaciones postulada reproduce adecuadamente las correlaciones observadas entre los reactivos.",
+      "incorrecta": "No es correcto. En AFC, índices como CFI y RMSEA no miden alfas ni correlaciones Spearman, sino la bondad de ajuste del modelo factorial: qué tan compatible es la matriz de covarianzas teórica con los datos empíricos observados."
+    },
+    "dificultad": 2,
+    "subtema": "validacion",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Validez: un argumento con cinco fuentes de evidencia; APA Handbook Vol. 1",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b013",
+    "tipo": "opcion_multiple",
+    "enunciado": "En un test de rendimiento óptimo con respuestas dicotómicas (acierto/error), ¿por qué un índice de dificultad p cercano a 0,50 es psicométricamente óptimo para discriminar?",
+    "opciones": [
+      "Porque maximiza la varianza del ítem (p · q = 0,25) y optimiza la capacidad de diferenciar entre evaluados.",
+      "Porque asegura que la mitad de los participantes dejen el reactivo en blanco sin responder.",
+      "Porque garantiza que el ítem mida de manera simultánea dos constructos psicológicos independientes.",
+      "Porque permite eliminar el Error Estándar de Medida en las personas que obtienen puntajes medios."
+    ],
+    "correcta": 0,
+    "feedback": {
+      "correcto": "¡Correcto! La varianza de un ítem dicotómico es s² = p·(1−p). Su valor máximo posible es 0,25 y se alcanza cuando p = 0,50. A mayor varianza, mayor es el potencial del reactivo para discriminar entre individuos con distinto nivel de habilidad.",
+      "incorrecto": "No es correcto. Para ítems dicotómicos, p = 0,50 maximiza la varianza del reactivo (0,5 · 0,5 = 0,25). Un ítem respondido por todos o por nadie tiene varianza cero y no discrimina en absoluto.",
+      "correcta": "¡Correcto! La varianza de un ítem dicotómico es s² = p·(1−p). Su valor máximo posible es 0,25 y se alcanza cuando p = 0,50. A mayor varianza, mayor es el potencial del reactivo para discriminar entre individuos con distinto nivel de habilidad.",
+      "incorrecta": "No es correcto. Para ítems dicotómicos, p = 0,50 maximiza la varianza del reactivo (0,5 · 0,5 = 0,25). Un ítem respondido por todos o por nadie tiene varianza cero y no discrimina en absoluto."
+    },
+    "dificultad": 2,
+    "subtema": "construccion_adaptacion",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Construir un instrumento; Muñiz (2018)",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b014",
+    "tipo": "opcion_multiple",
+    "enunciado": "¿Qué evalúa la evidencia de validez basada en las consecuencias del uso del test (validez consecuencial)?",
+    "opciones": [
+      "El costo económico del software estadístico utilizado para procesar las matrices de correlación.",
+      "El número de publicaciones científicas que citaron el manual del test durante el último lustro.",
+      "Las consecuencias intencionadas y no intencionadas del uso del test, evaluando sesgos o impactos adversos sistémicos.",
+      "La velocidad de procesamiento computacional requerida para exportar las puntuaciones en formato PDF."
+    ],
+    "correcta": 2,
+    "feedback": {
+      "correcto": "¡Correcto! Los Standards incorporan el análisis de las consecuencias: se evalúa si el uso del test produce los beneficios pretendidos (ej. mejor aprendizaje) y si genera efectos nocivos no intencionados, como impacto adverso sistemático sobre grupos minoritarios.",
+      "incorrecto": "No es correcto. La validez consecuencial analiza las repercusiones éticas, sociales y prácticas del uso del test: si cumple los propósitos previstos y si genera consecuencias perjudiciales no intencionadas en los evaluados.",
+      "correcta": "¡Correcto! Los Standards incorporan el análisis de las consecuencias: se evalúa si el uso del test produce los beneficios pretendidos (ej. mejor aprendizaje) y si genera efectos nocivos no intencionados, como impacto adverso sistemático sobre grupos minoritarios.",
+      "incorrecta": "No es correcto. La validez consecuencial analiza las repercusiones éticas, sociales y prácticas del uso del test: si cumple los propósitos previstos y si genera consecuencias perjudiciales no intencionadas en los evaluados."
+    },
+    "dificultad": 2,
+    "subtema": "validacion",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Validez: un argumento con cinco fuentes de evidencia; Standards AERA/APA/NCME (2014)",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b015",
+    "tipo": "opcion_multiple",
+    "enunciado": "En la metodología de diez pasos para la construcción de un test (Muñiz y Fonseca-Pedrero, 2019), ¿cuál es el paso 1 que precede a cualquier redacción de reactivos?",
+    "opciones": [
+      "Calcular de forma anticipada la matriz factorial rotada mediante el método Varimax.",
+      "Traducir las opciones de respuesta al idioma inglés para garantizar visibilidad internacional.",
+      "Aplicar el cuestionario a una muestra piloto de quinientos participantes antes de definir el objetivo.",
+      "El marco general: delimitar con claridad el constructo teórico, el propósito de la prueba y la población destinataria."
+    ],
+    "correcta": 3,
+    "feedback": {
+      "correcto": "¡Correcto! El Paso 1 ('Marco general') exige definir con precisión qué se va a medir (constructo), para qué se utilizarán las puntuaciones (propósito) y a qué población específica se dirigirá la evaluación.",
+      "incorrecto": "No es correcto. Antes de redactar ítems o aplicar análisis estadísticos, el primer paso inexcusable según Muñiz y Fonseca-Pedrero es fundamentar el marco conceptual del constructo, el propósito de la evaluación y la población meta.",
+      "correcta": "¡Correcto! El Paso 1 ('Marco general') exige definir con precisión qué se va a medir (constructo), para qué se utilizarán las puntuaciones (propósito) y a qué población específica se dirigirá la evaluación.",
+      "incorrecta": "No es correcto. Antes de redactar ítems o aplicar análisis estadísticos, el primer paso inexcusable según Muñiz y Fonseca-Pedrero es fundamentar el marco conceptual del constructo, el propósito de la evaluación y la población meta."
+    },
+    "dificultad": 2,
+    "subtema": "construccion_adaptacion",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Construir un instrumento; Muñiz & Fonseca-Pedrero (2019)",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b016",
+    "tipo": "opcion_multiple",
+    "enunciado": "¿En qué tipo de constructos psicológicos el coeficiente de fiabilidad test-retest resulta conceptualmente inadecuado como estimación de fiabilidad?",
+    "opciones": [
+      "En variables de rasgo estables de la personalidad evaluadas en población adulta.",
+      "En pruebas de aptitud cognitiva general donde se espera alta estabilidad a lo largo del tiempo.",
+      "En constructos dinámicos o estados transitorios (como estados de ansiedad o fatiga situacional).",
+      "En cuestionarios con escalas de respuesta politómicas tipo Likert de cinco puntos."
+    ],
+    "correcta": 2,
+    "feedback": {
+      "correcto": "¡Correcto! El test-retest mide estabilidad temporal asumiendo que el constructo no cambia entre aplicaciones. En constructos dinámicos (estados afectivos fluctuantes), los cambios en las respuestas reflejan variación real del fenómeno y no error del instrumento.",
+      "incorrecto": "No es correcto. El método test-retest presupone que el constructo es estable (rasgo). Ante estados dinámicos transitorios (ansiedad-estado, fatiga), un cambio entre sesiones es legítimo y atribuirlo a 'falta de fiabilidad' es un error conceptual.",
+      "correcta": "¡Correcto! El test-retest mide estabilidad temporal asumiendo que el constructo no cambia entre aplicaciones. En constructos dinámicos (estados afectivos fluctuantes), los cambios en las respuestas reflejan variación real del fenómeno y no error del instrumento.",
+      "incorrecta": "No es correcto. El método test-retest presupone que el constructo es estable (rasgo). Ante estados dinámicos transitorios (ansiedad-estado, fatiga), un cambio entre sesiones es legítimo y atribuirlo a 'falta de fiabilidad' es un error conceptual."
+    },
+    "dificultad": 2,
+    "subtema": "instrumentos",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Fiabilidad: cuánto error tiene la medida; Kerlinger & Lee, Cap. 26",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b017",
+    "tipo": "opcion_multiple",
+    "enunciado": "En el marco del Análisis Factorial Confirmatorio multigrupo, ¿cuál es la jerarquía progresiva de niveles de invarianza de medición?",
+    "opciones": [
+      "Invarianza configural (misma forma) → Métrica o débil (cargas iguales) → Escalar o fuerte (interceptos iguales) → Estricta (residuos iguales).",
+      "Invarianza alfa (consistencia homogénea) → Invarianza beta (discriminación) → Invarianza gamma (unidimensionalidad estricta).",
+      "Invarianza ordinal (mismo orden) → Invarianza continua (mismo rango) → Invarianza probabilística (mismo error estándar).",
+      "Invarianza exploratoria (ACP idéntico) → Invarianza confirmatoria (RMSEA nulo) → Invarianza poblacional (N superior a mil)."
+    ],
+    "correcta": 0,
+    "feedback": {
+      "correcto": "¡Correcto! La evaluación secuencial de invarianza de medición establece: 1) Configural (igual estructura de factores e ítems); 2) Métrica (igualdad de pesos factoriales); 3) Escalar (igualdad de interceptos de los ítems); 4) Estricta (igualdad de varianzas de error).",
+      "incorrecto": "No es correcto. La secuencia clásica de modelos anidados de invarianza factorial es: configural (patrón factorial idéntico) → métrica (cargas iguales) → escalar (interceptos iguales) → estricta (residuos iguales).",
+      "correcta": "¡Correcto! La evaluación secuencial de invarianza de medición establece: 1) Configural (igual estructura de factores e ítems); 2) Métrica (igualdad de pesos factoriales); 3) Escalar (igualdad de interceptos de los ítems); 4) Estricta (igualdad de varianzas de error).",
+      "incorrecta": "No es correcto. La secuencia clásica de modelos anidados de invarianza factorial es: configural (patrón factorial idéntico) → métrica (cargas iguales) → escalar (interceptos iguales) → estricta (residuos iguales)."
+    },
+    "dificultad": 3,
+    "subtema": "construccion_adaptacion",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Adaptar y elegir un instrumento ya existente; APA Handbook Vol. 1",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b018",
+    "tipo": "opcion_multiple",
+    "enunciado": "¿Por qué es estrictamente necesario alcanzar el nivel de invarianza escalar (fuerte) para poder comparar las medias latentes de dos grupos culturales?",
+    "opciones": [
+      "Porque la invarianza métrica solo garantiza que las varianzas residuales sean exactamente iguales a cero en ambos grupos.",
+      "Porque sin interceptos iguales, las diferencias en las medias observadas pueden deberse al sesgo de respuesta de los ítems y no a diferencias reales en el rasgo.",
+      "Porque el software estadístico bloquea automáticamente el cálculo de contrastes de hipótesis si solo se comprueba invarianza configural.",
+      "Porque la invarianza escalar es el único nivel que garantiza que el coeficiente alfa de Cronbach supere el valor de 0,90 en cada subgrupo."
+    ],
+    "correcta": 1,
+    "feedback": {
+      "correcto": "¡Correcto! La invarianza métrica asegura que la unidad de medida (pendiente) es equivalente. Pero para comparar medias de los grupos se necesita además invarianza escalar (mismo origen/intercepto en los ítems); de lo contrario, una diferencia observada puede reflejar sesgo sistemático en cómo un grupo interpreta el reactivo.",
+      "incorrecto": "No es correcto. Para comparar legítimamente medias entre grupos es indispensable la invarianza escalar (interceptos iguales). Si los interceptos difieren, las personas de un grupo obtendrán puntuaciones más altas en el ítem incluso teniendo el mismo nivel latente, distorsionando la comparación.",
+      "correcta": "¡Correcto! La invarianza métrica asegura que la unidad de medida (pendiente) es equivalente. Pero para comparar medias de los grupos se necesita además invarianza escalar (mismo origen/intercepto en los ítems); de lo contrario, una diferencia observada puede reflejar sesgo sistemático en cómo un grupo interpreta el reactivo.",
+      "incorrecta": "No es correcto. Para comparar legítimamente medias entre grupos es indispensable la invarianza escalar (interceptos iguales). Si los interceptos difieren, las personas de un grupo obtendrán puntuaciones más altas en el ítem incluso teniendo el mismo nivel latente, distorsionando la comparación."
+    },
+    "dificultad": 3,
+    "subtema": "construccion_adaptacion",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Adaptar y elegir un instrumento ya existente; APA Handbook Vol. 1",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b019",
+    "tipo": "opcion_multiple",
+    "enunciado": "En un modelo bifactorial con un factor general y varios factores específicos de grupo, ¿qué informa el coeficiente omega jerárquico (ωh)?",
+    "opciones": [
+      "El porcentaje de participantes que completaron el cuestionario sin saltear ningún reactivo.",
+      "La proporción de varianza de las puntuaciones totales que es atribuible única y exclusivamente al factor general latente.",
+      "El cociente exacto entre el número de opciones de respuesta y el tiempo de administración de la prueba.",
+      "La correlación de Pearson entre las puntuaciones directas del test y una prueba diagnóstica externa."
+    ],
+    "correcta": 1,
+    "feedback": {
+      "correcto": "¡Correcto! El omega jerárquico (ωh) cuantifica cuánta varianza de la puntuación total se debe al factor general una vez descontada la varianza explicada por los factores específicos, fundamentando si tiene sentido o no calcular una puntuación global.",
+      "incorrecto": "No es correcto. En modelos bifactoriales, omega jerárquico (ωh) estima la proporción de varianza de la puntuación compuesta atribuible puramente al factor común general, aislando la influencia de los factores de grupo específicos.",
+      "correcta": "¡Correcto! El omega jerárquico (ωh) cuantifica cuánta varianza de la puntuación total se debe al factor general una vez descontada la varianza explicada por los factores específicos, fundamentando si tiene sentido o no calcular una puntuación global.",
+      "incorrecta": "No es correcto. En modelos bifactoriales, omega jerárquico (ωh) estima la proporción de varianza de la puntuación compuesta atribuible puramente al factor común general, aislando la influencia de los factores de grupo específicos."
+    },
+    "dificultad": 3,
+    "subtema": "instrumentos",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Alfa, omega y el error de la persona; Revelle & Zinbarg (2009)",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b020",
+    "tipo": "opcion_multiple",
+    "enunciado": "¿Qué revela la presencia de Funcionamiento Diferencial del Ítem (DIF: Differential Item Functioning) en un reactivo psicométrico?",
+    "opciones": [
+      "Que el ítem carece de correlación bivariada con la escala de deseabilidad social de los examinados.",
+      "Que el tiempo medio de respuesta de los examinados es exactamente igual en todos los subgrupos evaluados.",
+      "Que personas pertenecientes a distintos subgrupos demográficos pero con idéntico nivel en el rasgo latente tienen probabilidades distintas de acertar o responder favorablemente al ítem.",
+      "Que el reactivo presenta una dificultad matemática tan elevada que nadie en la muestra logró responderlo de forma acertada."
+    ],
+    "correcta": 2,
+    "feedback": {
+      "correcto": "¡Correcto! El DIF se define formalmente cuando sujetos igualados en el nivel del constructo latente (mismo theta) difieren en su probabilidad de respuesta según el grupo (sexo, lengua, cultura). Indica sesgo intrínseco del reactivo.",
+      "incorrecto": "No es correcto. El DIF no es una simple diferencia de medias entre grupos. Ocurre cuando, habiendo controlado el nivel del constructo medido, dos personas de grupos diferentes tienen probabilidades desiguales de responder afirmativamente al ítem.",
+      "correcta": "¡Correcto! El DIF se define formalmente cuando sujetos igualados en el nivel del constructo latente (mismo theta) difieren en su probabilidad de respuesta según el grupo (sexo, lengua, cultura). Indica sesgo intrínseco del reactivo.",
+      "incorrecta": "No es correcto. El DIF no es una simple diferencia de medias entre grupos. Ocurre cuando, habiendo controlado el nivel del constructo medido, dos personas de grupos diferentes tienen probabilidades desiguales de responder afirmativamente al ítem."
+    },
+    "dificultad": 3,
+    "subtema": "construccion_adaptacion",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Adaptar y elegir un instrumento ya existente; ITC Guidelines (2017)",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b021",
+    "tipo": "opcion_multiple",
+    "enunciado": "¿Por qué un coeficiente alfa de Cronbach excesivamente alto (ej. α > 0,95) puede constituir un indicador de baja calidad psicométrica en una escala breve?",
+    "opciones": [
+      "Porque demuestra que los datos no cumplieron el teorema del límite central en la distribución de frecuencias.",
+      "Porque revela una grave falta de consistencia interna que impide sumar las puntuaciones directas del instrumento.",
+      "Porque los algoritmos de estimación de Pearson fallan automáticamente ante varianzas mayores a diez.",
+      "Porque suele ser síntoma de redundancia y paráfrasis circular entre ítems, estrechando el dominio del constructo y desperdiciando reactivos."
+    ],
+    "correcta": 3,
+    "feedback": {
+      "correcto": "¡Correcto! Como señalaron Nunnally y Sijtsma, alfas muy cercanos a 1,00 a menudo no reflejan mejor medición, sino ítems que preguntan prácticamente lo mismo con sinónimos (hinchazón espuria). Esto estrecha la representatividad del constructo y satura la escala de reactivos redundantes.",
+      "incorrecto": "No es correcto. Un alfa artificialmente elevado (mayor a 0,95) suele delatar redundancia léxica entre ítems (preguntar lo mismo varias veces con palabras idénticas). Lejos de optimizar la validez, estrecha el contenido y empobrece la evaluación.",
+      "correcta": "¡Correcto! Como señalaron Nunnally y Sijtsma, alfas muy cercanos a 1,00 a menudo no reflejan mejor medición, sino ítems que preguntan prácticamente lo mismo con sinónimos (hinchazón espuria). Esto estrecha la representatividad del constructo y satura la escala de reactivos redundantes.",
+      "incorrecta": "No es correcto. Un alfa artificialmente elevado (mayor a 0,95) suele delatar redundancia léxica entre ítems (preguntar lo mismo varias veces con palabras idénticas). Lejos de optimizar la validez, estrecha el contenido y empobrece la evaluación."
+    },
+    "dificultad": 3,
+    "subtema": "instrumentos",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: ¿Cuánta fiabilidad alcanza? (Nunnally); Sijtsma (2009)",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b022",
+    "tipo": "opcion_multiple",
+    "enunciado": "Al seleccionar un instrumento existente para una investigación empírica según los criterios de la iniciativa COSMIN, ¿cuál es una exigencia ineludible?",
+    "opciones": [
+      "Verificar que la fiabilidad y validez hayan sido demostradas en una población análoga a la propia y reportar la fiabilidad obtenida en la muestra del estudio.",
+      "Asegurarse de que el instrumento haya sido diseñado en un país anglosajón en el año calendario en curso.",
+      "Exigir que la prueba esté exenta de derechos de autor y que pueda modificarse libremente sin citar la fuente.",
+      "Comprobar que el cuestionario tenga exactamente el mismo número de reactivos que la muestra total del estudio."
+    ],
+    "correcta": 0,
+    "feedback": {
+      "correcto": "¡Correcto! COSMIN y las buenas prácticas psicométricas exigen: 1) seleccionar pruebas con evidencia previa en poblaciones equivalentes; y 2) calcular y reportar la fiabilidad en la propia muestra analizada, nunca asumir fiabilidad prestada del manual original.",
+      "incorrecto": "No es correcto. Las pautas COSMIN prescriben constatar evidencias psicométricas previas en poblaciones similares y obligan a reportar los coeficientes de fiabilidad (omega/alfa) calculados directamente sobre la muestra propia del estudio.",
+      "correcta": "¡Correcto! COSMIN y las buenas prácticas psicométricas exigen: 1) seleccionar pruebas con evidencia previa en poblaciones equivalentes; y 2) calcular y reportar la fiabilidad en la propia muestra analizada, nunca asumir fiabilidad prestada del manual original.",
+      "incorrecta": "No es correcto. Las pautas COSMIN prescriben constatar evidencias psicométricas previas en poblaciones similares y obligan a reportar los coeficientes de fiabilidad (omega/alfa) calculados directamente sobre la muestra propia del estudio."
+    },
+    "dificultad": 3,
+    "subtema": "construccion_adaptacion",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Adaptar y elegir un instrumento ya existente; COSMIN guidelines",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b023",
+    "tipo": "opcion_multiple",
+    "enunciado": "En la evaluación de la validez de criterio (concurrente o predictiva), ¿qué fenómeno psicométrico explica que la correlación observada entre el test y el criterio sea menor que su correlación teórica verdadera?",
+    "opciones": [
+      "El sesgo de deseabilidad social que incrementa artificialmente las varianzas únicas de ambos instrumentos.",
+      "La atenuación por falta de fiabilidad: el error de medida no correlacionado en el predictor y en el criterio reduce la correlación observada.",
+      "El teorema de Bayes que redistribuye las probabilidades a posteriori en función del error de Tipo II.",
+      "La invarianza configural que impone cargas factoriales ortogonales entre los dos instrumentos evaluados."
+    ],
+    "correcta": 1,
+    "feedback": {
+      "correcto": "¡Correcto! La atenuación de la correlación (fórmula de Spearman: r_xy_verdadero = r_xy / √(rxx · ryy)) demuestra que el error de medición en el test y en el criterio atenúa (reduce) la correlación empírica observada. Corregir por atenuación estima la relación libre de error.",
+      "incorrecto": "No es correcto. Se trata del fenómeno de atenuación por fiabilidad imperfecta: cuando dos medidas contienen error de medición aleatorio, su correlación empírica observada se ve sistemáticamente reducida en comparación con la correlación teórica entre sus puntuaciones verdaderas.",
+      "correcta": "¡Correcto! La atenuación de la correlación (fórmula de Spearman: r_xy_verdadero = r_xy / √(rxx · ryy)) demuestra que el error de medición en el test y en el criterio atenúa (reduce) la correlación empírica observada. Corregir por atenuación estima la relación libre de error.",
+      "incorrecta": "No es correcto. Se trata del fenómeno de atenuación por fiabilidad imperfecta: cuando dos medidas contienen error de medición aleatorio, su correlación empírica observada se ve sistemáticamente reducida en comparación con la correlación teórica entre sus puntuaciones verdaderas."
+    },
+    "dificultad": 3,
+    "subtema": "validacion",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Fiabilidad: cuánto error tiene la medida; Nunnally & Bernstein (1994)",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b024",
+    "tipo": "opcion_multiple",
+    "enunciado": "Desde una perspectiva ética y técnica, ¿por qué constituye una mala práctica clínica utilizar baremos extranjeros sin estandarización local para clasificar diagnósticos individuales?",
+    "opciones": [
+      "Porque las leyes de derechos de autor impiden que los manuales extranjeros se lean fuera de su país de edición.",
+      "Porque los baremos extranjeros exigen software propietario con licencias informáticas de pago por uso.",
+      "Porque diferencias socioculturales en las medias y dispersiones poblacionales pueden provocar diagnósticos erróneos y discriminación en decisiones de alto impacto.",
+      "Porque la Teoría Clásica de los Tests pierde vigencia matemática cuando se cruzan fronteras nacionales."
+    ],
+    "correcta": 2,
+    "feedback": {
+      "correcto": "¡Correcto! Un baremo sitúa al individuo en relación con su grupo de referencia. Usar normas foráneas asume injustificadamente que la distribución es idéntica; diferencias culturales o educativas en las puntuaciones directas generarán tasas distorsionadas de falsos positivos o negativos en decisiones clínicas o escolares.",
+      "incorrecto": "No es correcto. El problema ético central de usar baremos no tipificados localmente es la falta de validez de las interpretaciones normativas: diferencias culturales pueden ubicar a personas sanas como patológicas o viceversa, derivando en intervenciones perjudiciales o denegación de servicios.",
+      "correcta": "¡Correcto! Un baremo sitúa al individuo en relación con su grupo de referencia. Usar normas foráneas asume injustificadamente que la distribución es idéntica; diferencias culturales o educativas en las puntuaciones directas generarán tasas distorsionadas de falsos positivos o negativos en decisiones clínicas o escolares.",
+      "incorrecta": "No es correcto. El problema ético central de usar baremos no tipificados localmente es la falta de validez de las interpretaciones normativas: diferencias culturales pueden ubicar a personas sanas como patológicas o viceversa, derivando en intervenciones perjudiciales o denegación de servicios."
+    },
+    "dificultad": 3,
+    "subtema": "etica",
+    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Ética del instrumento y de los datos; Standards AERA/APA/NCME (2014)",
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": ""
+  }
+]

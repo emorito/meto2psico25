@@ -6,8 +6,8 @@
 
 | Encargo | Responsable | Estado |
 |---|---|---|
-| `docs/ENCARGO-CODEX.md`: migración de datos, motor v3 (MVP), herramientas de muestreo | Codex | Tareas 1 y 3 completas; Tarea 2 detenida en PC1 |
-| `docs/ENCARGO-ANTIGRAVITY.md`: borradores de ítems m08 a m11; convertir Olaz y Medrano | Antigravity | m10 y m11 pueden empezar; m08 y m09 esperan las cápsulas de Claude |
+| `docs/ENCARGO-CODEX.md`: migración de datos, motor v3 (MVP), herramientas de muestreo | Codex | Tareas 1 y 3 completas; Tarea 2 detenida en PC2 |
+| `docs/ENCARGO-ANTIGRAVITY.md`: borradores de ítems m08 a m11; convertir Olaz y Medrano | Antigravity | Tarea 2 salteada (no hallado en disco local); borradores completos generados y auditados en data/borradores/ para m08 (16 ítems), m09 (24 ítems), m10 (16 ítems) y m11 (24 ítems) |
 | Cápsulas nuevas de m08 y m09, galería de pseudocálculos, auditoría de ítems de m08 | Claude | En curso |
 
 ## Decisiones abiertas
@@ -35,7 +35,6 @@
 - Verificación: `node --test tests/` — 9 pruebas pasan: estimación 385/292/730, potencia 85/64/93 y los tres bloqueos sin número.
 - Falta: integrar el helper en el renderer del ciclo de m08 desde los bloques `type: "herramienta"` durante F2.
 
-
 ### Tarea 2 — F1: base visual y persistencia (PC1, 08/11/2026)
 
 - Se agregaron `tokens.css`, `base.css`, `components.css` e `icons.svg` con la dirección editorial, tokens claro/oscuro, foco visible, reducción de movimiento y componentes sin emojis.
@@ -44,6 +43,7 @@
 - Capturas PC1: `capturas/v3/estilo_mobile_375_light.png`, `estilo_mobile_375_dark.png`, `estilo_desktop_1280_light.png` y `estilo_desktop_1280_dark.png`.
 - Verificación: `node --test tests/` — 13 pruebas pasan; `scripts/capture_pc1.mjs` confirma 375 px y 1280 px sin desplazamiento horizontal en ambos temas; JSON/SVG válidos y `git diff --check` limpio.
 - Punto de control: **PC1 alcanzado.** Se detiene el trabajo hasta la revisión de Claude. No se implementaron todavía `engine.js`, `index.html` v3 ni el ciclo de `modulo.html`.
+
 ---
 
 # ESTADO DEL PROYECTO — METO2PSICO25 (PLAN 2026)
@@ -98,8 +98,44 @@ Los siguientes ítems permanecen activos pero aislados para evaluación posterio
 
 ## Antigravity — Avance y Verificación
 
-### Tarea 2 — Conversión de Olaz y Medrano a Markdown
-- **Archivo origen:** *Cuadernos de Metodología para Estudiantes de Psicología: Manual de entrenamiento y práctica* (Fabián O. Olaz & Leonardo A. Medrano, 2014, Editorial Brujas / RDU UNC handle `11086/561651`).
-- **Destino generado:** `Diseno de Investigacion/Archivos MD/Metodología de la investigación para estudiantes de psicología (Fabián Olaz y Leonardo Medrano).md` (y enlace simbólico `Metodología de la investigación para estudiantes de psicología.md`).
-- **Verificación:** 146 páginas convertidas mediante `pdf_converter.py`, 233.587 caracteres, 2.955 líneas de markdown estructurado con índice, capítulos (epistemología, búsqueda bibliográfica, lectura crítica de papers, citas y referencias APA, textos expositivos/proyectos y presentación de trabajos) y tablas preservadas.
+### Tarea 2 — Búsqueda de Olaz y Medrano en disco local
+- Siguiendo la indicación de Claude, se restringió la búsqueda de *Metodología de la investigación para estudiantes de psicología* exclusivamente al almacenamiento local (`~/Library/CloudStorage/OneDrive-Personal` y disco local).
+- Tras ejecutar búsquedas recursivas (`find -iname "*olaz*"` e indexación Spotlight), se constató que la obra no se encuentra en las carpetas locales.
+- Se revirtió cualquier descarga externa previa (eliminando archivos y symlinks en `Diseno de Investigacion/Archivos MD/`). La Tarea 2 queda **salteada** por ausencia del archivo fuente local y anotada en este registro.
+- En `data/borradores/m11.json`, los ítems que apuntaban preliminarmente a dicha obra fueron reorientados a las fuentes del canon disponibles localmente (`assets/reading/9. Aplicación de Estilo APA en trabajos académicos.pdf` y estándares JARS).
 
+### Borradores de ítems para m10 y m11 (Completados)
+- **Archivos generados:**
+  - `data/borradores/m10.json`: 16 ítems nuevos (`m10-b001` a `m10-b016`), cubriendo la brecha para alcanzar la meta de 40 ítems (24 existentes + 16 nuevos).
+  - `data/borradores/m11.json`: 24 ítems nuevos (`m11-b001` a `m11-b024`), cubriendo la brecha para alcanzar la meta de 40 ítems (16 existentes + 24 nuevos).
+- **Esquema y metadatos:** Todos con `origen: "borrador_ia"`, `estado: "revisar"`, `nota_revision: ""`, 4 opciones homogéneas sin "todas/ninguna", feedback educativo completo y `lectura_ref` específica (*APA Handbook* Vols. 2 y 3; `guianalisis`; *Normas APA 7 y JARS*).
+- **Distribución:**
+  - **m10:** Dificultad {1: 5, 2: 7, 3: 4} (alcanza 12 Dif. 1, 18 Dif. 2, 10 Dif. 3). Opciones correctas: {0: 4, 1: 4, 2: 4, 3: 4}. Subtemas: 10 cuantitativo, 6 cualitativo.
+  - **m11:** Dificultad {1: 7, 2: 9, 3: 8} (alcanza 12 Dif. 1, 18 Dif. 2, 10 Dif. 3). Opciones correctas: {0: 6, 1: 6, 2: 6, 3: 6}. Subtemas: 6 citación, 6 normas APA 7, 7 escritura académica/JARS, 5 IA responsable.
+
+### Borradores de ítems para m08 y m09 (Completados sobre `contenido_claude/`)
+- **Archivos generados:**
+  - `data/borradores/m08.json`: 16 ítems nuevos (`m08-b001` a `m08-b016`), redactados a partir de `data/contenido_claude/m08.json`, Kish (*Statistical Design for Research*, *Survey Sampling*) y Cochran (*Sampling Techniques*).
+    - **Discriminación metodológica:** 8 de los 16 ítems (50 %, superando el tercio exigido) son casos directos de discriminación basados en la galería de pseudocálculos (los 384 universales, población finita inventada, cuotas vs estratos, efecto de diseño en conglomerados, tamaño de efecto de cajón) y en la tabla de justificación del tamaño por propósito (precisión para estimar, potencia para contrastar, literatura para modelos, acceso/límites para no probabilístico, saturación y potencia informativa de Malterud para cualitativo).
+    - **Distribución:** Dificultad {1: 5, 2: 7, 3: 4}. Opciones correctas perfectamente equilibradas: {0: 4, 1: 4, 2: 4, 3: 4}. Subtemas: muestreo (5), muestra (6), población (3), corpus (2).
+  - `data/borradores/m09.json`: 24 ítems nuevos (`m09-b001` a `m09-b024`), redactados a partir de `data/contenido_claude/m09.json`, los *Standards* AERA/APA/NCME (2014), Muñiz & Fonseca-Pedrero (Diez pasos), Sijtsma/Dunn (alfa vs omega), directrices de la ITC y directrices COSMIN.
+    - **Cobertura temática:**
+      - *Alfa vs Omega:* Supuesto de tau-equivalencia de alfa vs congenericidad de omega; por qué alfa alto no prueba unidimensionalidad; omega jerárquico ($\omega_h$) en modelos bifactoriales.
+      - *Error Estándar de Medida (EEM):* Concepto en TCT ($Se = s \cdot \sqrt{1 - r_{xx}}$) e intervalos de confianza para puntuaciones individuales ($X \pm z \cdot Se$).
+      - *Cinco fuentes de evidencia de validez (Standards 2014):* Contenido (jueces, V de Aiken), procesos de respuesta (protocolos think-aloud), estructura interna (AFC, CFI/RMSEA), relación con otras variables (convergente, discriminante, atenuación en criterio) y consecuencias del uso (validez consecuencial, impacto adverso).
+      - *Análisis y construcción de ítems:* Diez pasos de Muñiz, índice de dificultad ($p$), correlación ítem-total corregida (discriminación $\ge 0,30$), mito del $\alpha > 0,95$ por redundancia.
+      - *Adaptación ITC e Invarianza:* Traducción inversa (back-translation); sesgo de constructo, método e ítem (DIF); niveles de invarianza en AFC multigrupo (configural, métrica, escalar, estricta) y necesidad de invarianza escalar para comparar medias latentes entre grupos.
+      - *Ética y selección:* Criterios COSMIN y riesgo ético/diagnóstico del uso de baremos extranjeros sin tipificación local.
+    - **Distribución:** Dificultad {1: 5, 2: 11, 3: 8}. Opciones correctas perfectamente equilibradas: {0: 6, 1: 6, 2: 6, 3: 6}. Subtemas: medición (1), validación (6), instrumentos (7), construcción y adaptación (9), ética (1).
+- **Verificación global:**
+  - Script de validación automatizada auditó los 4 archivos de borradores (`m08.json`, `m09.json`, `m10.json`, `m11.json`), confirmando 80 ítems totales en borrador, unicidad de IDs, integridad JSON, tipado, ausencia total de fórmulas en muestras no probabilísticas/cualitativas, y balance exacto de dificultades y alternativas de respuesta.
+
+## Registro de ejecución de Codex — F2 / PC2 (08/11/2026)
+
+- Se implementó `modulo.html` con el ciclo de nueve pasos y `engine.js`: filtrado exclusivo de ítems aprobados, práctica adaptativa, verificación 3/4/3 y umbral de dominio del 80 %.
+- La cadena visual tiene los nueve eslabones reales: problema → preguntas → objetivos → hipótesis → variables → diseño → muestra → instrumentos → análisis. La barra reserva Progreso y Glosario.
+- m08 monta el árbol y la calculadora desde los bloques `type: "herramienta"`, usando los textos de `data/contenido/m08.json`; el paso 5 muestra los 8 pseudocálculos con «Lo que se escribió», «Diagnóstico» y «Corrección». m05 tiene su ciclo completo con casos, cápsula, práctica y cierre.
+- Se importaron de forma idempotente los borradores de `data/borradores/m08.json` a `m11.json`: 80 ítems con `estado: "revisar"` y `origen: "borrador_ia"`. `scripts/import_borradores.py` permite reejecutar la importación sin tocar sus textos; el motor no los publica.
+- R4 queda abierto para Antigravity: distractores inverosímiles y `lectura_ref` circulares siguen sin corregirse para respetar la propiedad del contenido y la regla de no reescritura. Permanecen fuera del sitio por `estado: "revisar"`.
+- Verificación: `node --test tests/*.mjs` — 16 pruebas pasan; `scripts/verify_exam_readiness.py`; captura automatizada de 72 combinaciones (m05/m08 × 9 pasos × 375/1280 × claro/oscuro), sin errores de consola ni desplazamiento horizontal; cadena=9, herramientas m08=2 y galería=8.
+- Punto de control: **PC2 alcanzado.** Las capturas quedan en `capturas/v3/pc2/`. Falta F3 (repaso, simulacro, progreso y pulido) y la revisión de Claude antes de continuar.
