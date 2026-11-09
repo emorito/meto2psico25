@@ -16,6 +16,7 @@ export function createDefaultStore(moduleIds = DEFAULT_MODULE_IDS) {
   return {
     version: 2,
     theme: "auto",
+    freeReviewMode: false,
     modules: Object.fromEntries(moduleIds.map((id) => [id, moduleState()])),
     responses: [],
     leitner: {},
@@ -72,6 +73,7 @@ function normalizeModuleId(value, moduleIds) {
 function copyV2(raw, base) {
   if (!raw || typeof raw !== "object") return base;
   if (typeof raw.theme === "string" && ["auto", "light", "dark"].includes(raw.theme)) base.theme = raw.theme;
+  if (typeof raw.freeReviewMode === "boolean") base.freeReviewMode = raw.freeReviewMode;
   for (const key of ["responses", "puntosTurbios", "simulacros"]) {
     if (Array.isArray(raw[key])) base[key] = raw[key];
   }

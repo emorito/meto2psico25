@@ -26,11 +26,12 @@ test("migra moduloN a mNN y conserva solamente completed", () => {
 });
 
 test("lee v2 y maneja storage disponible", () => {
-  const storage = memoryStorage({ [STORAGE_KEY]: JSON.stringify({ version: 2, modules: { m01: { completed: true } } }) });
+  const storage = memoryStorage({ [STORAGE_KEY]: JSON.stringify({ version: 2, freeReviewMode: true, modules: { m01: { completed: true } } }) });
   const result = loadStoreResult({ storage });
   assert.equal(result.migrated, false);
   assert.equal(result.store.modules.m01.completed, true);
   assert.equal(result.store.modules.m02.completed, false);
+  assert.equal(result.store.freeReviewMode, true);
 });
 
 test("migra la clave antigua y escribe meto2.v2", () => {

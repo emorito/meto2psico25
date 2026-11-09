@@ -1,3 +1,5 @@
+import { createDefaultStore, loadStore, saveStore } from "./store.js";
+
 /**
  * METODOLOGÍA DE LA INVESTIGACIÓN II — PSICOLOGÍA UNIBE (PLAN 2026)
  * Motor interactivo principal (Catálogo de 11 módulos, Progreso, Multimedia,
@@ -7,8 +9,6 @@
 (function () {
   'use strict';
 
-  const STORAGE_KEY = 'meto2_progress_2026';
-  const THEME_KEY = 'meto2_theme';
   const TOTAL_MODULES = 11;
   const TOTAL_FLIPCARDS_COURSE = 115;
   const PASS_THRESHOLD = 70;
@@ -81,9 +81,9 @@
   function applyTheme(theme) {
     const valid = theme === 'dark' ? 'dark' : 'light';
     document.documentElement.setAttribute('data-theme', valid);
-    try {
-      localStorage.setItem(THEME_KEY, valid);
-    } catch (e) {}
+    const progress = loadProgress();
+    progress.theme = valid;
+    saveProgress(progress);
 
     const iconEl = document.getElementById('theme-toggle-icon');
     const textEl = document.getElementById('theme-toggle-text');
@@ -105,11 +105,14 @@
   /* ========================================================================
      3. GESTIÓN DE PROGRESO EN LOCALSTORAGE
      ======================================================================== */
-  function createDefaultProgress() {
-    const modules = {};
+  function normalizeProgress(store) {
+    const progress = Object.assign(createDefaultStore(), store || {});
+    progress.freeReviewMode = Boolean(store?.freeReviewMode);
     for (let i = 1; i <= TOTAL_MODULES; i++) {
       const id = 'm' + String(i).padStart(2, '0');
-      modules[id] = {
+      const moduleState = progress.modules[id] || {};
+      const domain = moduleState.domain || {};
+      progress.modules[id] = Object.assign({
         completed: false,
         bestScore: null,
         attempts: 0,
@@ -117,40 +120,26 @@
         flippedCards: [],
         outcomesChecked: [],
         simCompleted: false
-      };
+      }, moduleState, {
+        completed: moduleState.completed === true || domain.dominated === true,
+        bestScore: typeof moduleState.lastScore === 'number' ? moduleState.lastScore : (domain.score ?? moduleState.bestScore ?? null),
+      });
+      if (!Array.isArray(progress.modules[id].flippedCards)) progress.modules[id].flippedCards = [];
+      if (!Array.isArray(progress.modules[id].outcomesChecked)) progress.modules[id].outcomesChecked = [];
     }
-    return {
-      freeReviewMode: false,
-      modules: modules
-    };
+    return progress;
+  }
+
+  function createDefaultProgress() {
+    return normalizeProgress(createDefaultStore());
   }
 
   function loadProgress() {
-    const base = createDefaultProgress();
-    try {
-      const raw = localStorage.getItem(STORAGE_KEY);
-      if (!raw) return base;
-      const parsed = JSON.parse(raw);
-      if (typeof parsed.freeReviewMode === 'boolean') {
-        base.freeReviewMode = parsed.freeReviewMode;
-      }
-      if (parsed.modules && typeof parsed.modules === 'object') {
-        Object.keys(base.modules).forEach(function (id) {
-          if (parsed.modules[id]) {
-            base.modules[id] = Object.assign({}, base.modules[id], parsed.modules[id]);
-            if (!Array.isArray(base.modules[id].flippedCards)) base.modules[id].flippedCards = [];
-            if (!Array.isArray(base.modules[id].outcomesChecked)) base.modules[id].outcomesChecked = [];
-          }
-        });
-      }
-    } catch (e) {}
-    return base;
+    return normalizeProgress(loadStore());
   }
 
   function saveProgress(progress) {
-    try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
-    } catch (e) {}
+    saveStore(progress);
   }
 
   function isModuleUnlocked(modId, progress) {
