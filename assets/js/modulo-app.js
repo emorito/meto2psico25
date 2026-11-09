@@ -3,6 +3,7 @@ import {
   MODULE_STEPS,
   approvedItems,
   answerIsCorrect,
+  advanceAdaptiveSession,
   createSession,
   escapeHtml,
   feedbackFor,
@@ -183,7 +184,13 @@ function renderDomainResult(domain) {
 
 function renderPractice() {
   const session = state.sessions.adaptativa ?? (state.sessions.adaptativa = createSession(state.items, { count: 12, mode: "adaptativa" }));
-  return `<section class="module-step is-active">${renderStepHeader("Paso 6 · Práctica adaptativa", "Practicá con feedback inmediato", "Los ítems aprobados se intercalan y los errores quedan visibles para volver sobre ellos.")}${renderQuestionList(session.items, "adaptativa", "12 ítems del banco aprobado")}</section>`;
+  const current = session.currentItem ? [session.currentItem] : [];
+  const progress = session.primaryServed >= session.targetCount && session.currentItem
+    ? `Repaso de errores: quedan ${session.errorQueue.length + 1} · dificultad objetivo ${session.currentDifficulty}.`
+    : session.primaryServed >= session.targetCount
+      ? `Sesión completa: ${session.answers.length} respuestas, con errores reaparecidos al final.`
+    : `Ítem ${session.primaryServed + 1} de ${session.targetCount} · dificultad objetivo ${session.currentDifficulty}.`;
+  return `<section class="module-step is-active">${renderStepHeader("Paso 6 · Práctica adaptativa", "Practicá con feedback inmediato", "La dificultad sube después de dos aciertos seguidos, baja después de un error y los errores reaparecen al final de la sesión.")}${renderQuestionList(current, "adaptativa", progress)}</section>`;
 }
 
 function renderVerification() {
@@ -233,16 +240,34 @@ function mountTools() {
 }
 
 function attachQuestionHandlers() {
+  contentEl.querySelectorAll("[data-question-id]").forEach((question) => {
+    question.querySelectorAll("[data-confidence]").forEach((confidenceButton) => {
+      confidenceButton.addEventListener("click", () => {
+        question.dataset.confidence = confidenceButton.dataset.confidence;
+        question.querySelectorAll("[data-confidence]").forEach((button) => {
+          const selected = button === confidenceButton;
+          button.classList.toggle("is-selected", selected);
+          button.setAttribute("aria-pressed", String(selected));
+        });
+      });
+    });
+  });
   contentEl.querySelectorAll("[data-answer-button]").forEach((button) => {
     button.addEventListener("click", () => {
       const question = button.closest("[data-question-id]");
-      const item = state.items.find((candidate) => candidate.id === question.dataset.questionId) ??
-        state.sessions.adaptativa?.items.find((candidate) => candidate.id === question.dataset.questionId) ??
-        state.sessions.verificacion?.items.find((candidate) => candidate.id === question.dataset.questionId);
+      const item = state.activeStep === 5
+        ? state.sessions.adaptativa?.currentItem
+        : state.items.find((candidate) => candidate.id === question.dataset.questionId) ??
+          state.sessions.verificacion?.items.find((candidate) => candidate.id === question.dataset.questionId);
       const selected = question.querySelector("input:checked");
+      const seguridad = question.dataset.confidence;
       const feedback = question.querySelector(".question__feedback");
       if (!selected || !item) {
         feedback.innerHTML = `<p class="feedback feedback--error">Elegí una opción antes de responder.</p>`;
+        return;
+      }
+      if (!seguridad) {
+        feedback.innerHTML = `<p class="feedback feedback--error">Declará tu seguridad antes de responder: seguro, dudoso o adiviné.</p>`;
         return;
       }
       const correct = answerIsCorrect(item, selected.value);
@@ -253,12 +278,24 @@ function attachQuestionHandlers() {
           ? state.sessions.verificacion
           : null;
       if (session) {
-        session.answers = [...session.answers.filter((answer) => answer.id !== item.id), { id: item.id, correcto: correct }];
+        if (state.activeStep === 5) {
+          advanceAdaptiveSession(session, item, correct, seguridad);
+        } else {
+          session.answers = [...session.answers.filter((answer) => answer.id !== item.id), { id: item.id, correcto: correct, seguridad }];
+        }
       }
       feedback.innerHTML = `<div class="feedback ${correct ? "" : "feedback--error"}"><strong>${correct ? "Correcto" : "Revisá este punto"}</strong><p>${inlineMarkdown(feedbackFor(item, correct))}</p></div>`;
       button.disabled = true;
       question.querySelectorAll("input").forEach((input) => { input.disabled = true; });
-      state.store.responses.push({ id: item.id, modulo: moduleId, correcto: correct, fecha: new Date().toISOString() });
+      question.querySelectorAll("[data-confidence]").forEach((confidenceButton) => { confidenceButton.disabled = true; });
+      state.store.responses.push({ id: item.id, modulo: moduleId, correcto: correct, seguridad, fecha: new Date().toISOString() });
+      if (state.activeStep === 5) {
+        const next = state.sessions.adaptativa.currentItem;
+        feedback.insertAdjacentHTML("beforeend", next
+          ? `<p><button class="button button--secondary" type="button" data-adaptive-next>Continuar con el siguiente ítem</button></p>`
+          : `<p><strong>Práctica completa.</strong> Los errores de esta sesión ya reaparecieron para que los revises.</p>`);
+        feedback.querySelector("[data-adaptive-next]")?.addEventListener("click", () => renderCurrentStep());
+      }
       saveStore(state.store);
     });
   });

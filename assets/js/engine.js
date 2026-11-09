@@ -65,6 +65,62 @@ export function selectAdaptiveItems(items, count = 12, random = Math.random) {
   return [...preferred, ...shuffle(approved.filter((item) => Number(item.dificultad) !== 2), random)].slice(0, count);
 }
 
+function nextAdaptiveItem(session) {
+  if (session.primaryServed >= session.targetCount) {
+    const error = session.errorQueue.shift();
+    return error ? { ...error, repeat: true } : null;
+  }
+  const unused = session.bank.filter((item) => !session.usedIds.includes(item.id));
+  const available = unused.length ? unused : session.bank;
+  const preferred = available.filter((item) => Number(item.dificultad) === session.currentDifficulty);
+  const choices = preferred.length ? preferred : available;
+  const item = shuffle(choices, session.random)[0] ?? null;
+  if (item && !session.usedIds.includes(item.id)) session.usedIds.push(item.id);
+  return item;
+}
+
+export function createAdaptiveSession(items, { count = 12, random = Math.random } = {}) {
+  const session = {
+    mode: "adaptativa",
+    bank: approvedItems(items),
+    targetCount: count,
+    primaryServed: 0,
+    currentDifficulty: 2,
+    correctStreak: 0,
+    errorQueue: [],
+    usedIds: [],
+    items: [],
+    answers: [],
+    random,
+    startedAt: new Date().toISOString(),
+  };
+  session.currentItem = nextAdaptiveItem(session);
+  if (session.currentItem) session.items.push(session.currentItem);
+  return session;
+}
+
+export function advanceAdaptiveSession(session, item, correct, seguridad) {
+  if (!session || !item) return null;
+  session.answers.push({ id: item.id, correcto: correct, seguridad });
+  if (!item.repeat) {
+    session.primaryServed += 1;
+    if (correct) {
+      session.correctStreak += 1;
+      if (session.correctStreak >= 2) {
+        session.currentDifficulty = Math.min(3, session.currentDifficulty + 1);
+        session.correctStreak = 0;
+      }
+    } else {
+      session.correctStreak = 0;
+      session.currentDifficulty = Math.max(1, session.currentDifficulty - 1);
+      session.errorQueue.push(item);
+    }
+  }
+  session.currentItem = nextAdaptiveItem(session);
+  if (session.currentItem) session.items.push(session.currentItem);
+  return session.currentItem;
+}
+
 export function selectVerificationItems(items, random = Math.random) {
   const approved = approvedItems(items);
   const selected = [];
@@ -123,20 +179,26 @@ export function renderQuestion(item, { name = `answer-${item?.id}`, disabled = f
       <input type="radio" name="${escapeHtml(name)}" value="${originalIndex}" ${disabled ? "disabled" : ""}>
       <span>${inlineMarkdown(options[originalIndex])}</span>
     </label>`).join("");
+  const confidence = [
+    ["seguro", "Seguro"],
+    ["dudoso", "Dudoso"],
+    ["adivine", "Adiviné"],
+  ].map(([value, label]) => `<button type="button" class="confidence-button" data-confidence="${value}" aria-pressed="false">${label}</button>`).join("");
+  const repeatLabel = item.repeat ? " · reaparece por error" : "";
   return `
     <article class="question" data-question-id="${escapeHtml(item.id)}">
-      <p class="question__meta">${escapeHtml(item.subtema ?? "")} · dificultad ${escapeHtml(item.dificultad ?? "—")}</p>
+      <p class="question__meta">${item.repeat ? "Repaso de error · " : ""}${escapeHtml(item.subtema ?? "")} · dificultad ${escapeHtml(item.dificultad ?? "—")}${repeatLabel}</p>
       <h3>${inlineMarkdown(item.enunciado)}</h3>
       <div class="question__options">${controls}</div>
+      <div class="question__confidence" role="group" aria-label="¿Qué tan segura es tu respuesta?">${confidence}</div>
       <div class="question__actions"><button class="button button--primary" type="button" data-answer-button>Responder</button></div>
       <div class="question__feedback" aria-live="polite"></div>
     </article>`;
 }
 
 export function createSession(items, { count = 12, mode = "adaptativa", random = Math.random } = {}) {
-  const selected = mode === "verificacion"
-    ? selectVerificationItems(items, random)
-    : selectAdaptiveItems(items, count, random);
+  if (mode === "adaptativa") return createAdaptiveSession(items, { count, random });
+  const selected = selectVerificationItems(items, random);
   return { mode, items: selected, answers: [], startedAt: new Date().toISOString() };
 }
 

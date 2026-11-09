@@ -3,7 +3,10 @@ import assert from "node:assert/strict";
 import {
   COHERENCE_CHAIN,
   MODULE_STEPS,
+  advanceAdaptiveSession,
   approvedItems,
+  createAdaptiveSession,
+  renderQuestion,
   scoreVerification,
   shuffleOptionIndices,
   selectVerificationItems,
@@ -55,4 +58,30 @@ test("mezcla la posición de la respuesta correcta de forma uniforme", () => {
   const counts = [0, 0, 0, 0];
   positions.forEach((position) => { counts[position] += 1; });
   assert.ok(counts.every((count) => count >= 35 && count <= 65), `distribución: ${counts.join(", ")}`);
+});
+
+test("la práctica adaptativa cambia dificultad y repite errores al final", () => {
+  const items = Array.from({ length: 6 }, (_, index) => ({
+    id: `a${index}`,
+    estado: "aprobado",
+    dificultad: index % 3 + 1,
+    enunciado: `Ítem ${index}`,
+    opciones: ["A", "B"],
+  }));
+  const rising = createAdaptiveSession(items, { count: 3, random: () => 0 });
+  advanceAdaptiveSession(rising, rising.currentItem, true, "seguro");
+  advanceAdaptiveSession(rising, rising.currentItem, true, "seguro");
+  assert.equal(rising.currentDifficulty, 3);
+
+  const repeating = createAdaptiveSession(items, { count: 2, random: () => 0 });
+  advanceAdaptiveSession(repeating, repeating.currentItem, false, "adivine");
+  advanceAdaptiveSession(repeating, repeating.currentItem, false, "adivine");
+  assert.equal(repeating.currentItem.repeat, true);
+  advanceAdaptiveSession(repeating, repeating.currentItem, true, "dudoso");
+  assert.equal(repeating.currentItem.repeat, true);
+});
+
+test("cada pregunta ofrece declaración de seguridad", () => {
+  const html = renderQuestion({ id: "q1", enunciado: "Pregunta", opciones: ["A", "B"], correcta: 0 });
+  assert.equal((html.match(/data-confidence=/g) ?? []).length, 3);
 });

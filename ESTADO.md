@@ -173,6 +173,15 @@ Se completó la aplicación de la revisión R4 de Claude sobre los 80 ítems en 
 
 ## Auditoría funcional de Codex — 08/11/2026
 
+### R5 — Etapa 1 completada por Codex (08/11/2026)
+
+- Se ejecutaron, en orden, los cuatro puntos pedidos por R5: dominio real en el paso 7; almacén único `meto2.v2` para portada, examen y ciclo; mezcla de opciones con prueba automatizada de distribución; y práctica adaptativa con subida/bajada de dificultad, errores reaparecidos al final y declaración obligatoria de seguridad (`seguro`, `dudoso`, `adiviné`).
+- El paso 7 calcula el puntaje sobre 10 ítems, aplica el umbral de 80 %, guarda fecha, puntaje, aciertos, estado de dominio y subtemas para repasar en `modules[mNN].domain`.
+- La práctica adaptativa trabaja ítem por ítem, registra la seguridad y conserva los borradores fuera de publicación: solo usa ítems con `estado: "aprobado"`.
+- Se actualizaron las capturas PC2 de m05 y m08 para los nueve pasos, 375/1280 px y temas claro/oscuro en `capturas/v3/pc2/`.
+- Verificación: `node --test tests/*.mjs` — 20 pruebas pasan; `python3 scripts/verify_exam_readiness.py` pasa; `node scripts/test_browser_suite.mjs` pasa sin errores de consola, 404 no esperados ni overflow; `node scripts/capture_pc2.mjs` pasa las 72 combinaciones; prueba interactiva adicional del paso adaptativo pasa seguridad obligatoria, feedback y avance.
+- Punto de control: **R5 Etapa 1 alcanzada.** El trabajo se detiene aquí para revisión de Claude y del docente. No se implementa la Etapa 2 (F3: repaso/Leitner, simulacro, progreso y glosario).
+
 ### Resultado ejecutivo
 
 La rama funciona parcialmente. El ciclo nuevo de `modulo.html` carga y renderiza m05/m08, pero el MVP todavía no está completo: F3 no existe y varias piezas de F2 están solo dibujadas, sin cerrar el circuito de progreso y dominio. La causa de la sensación de sitio incompleto es la convivencia de dos arquitecturas:
