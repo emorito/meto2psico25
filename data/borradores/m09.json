@@ -7,7 +7,7 @@
       "La validez es un argumento sustentado en evidencias sobre la interpretación de las puntuaciones para un uso propuesto, no una propiedad intrínseca del test.",
       "La validez es una propiedad matemática fija del instrumento que se demuestra de forma definitiva con un coeficiente de correlación superior a 0,80.",
       "La validez equivale a la consistencia temporal de las puntuaciones obtenidas al repetir la administración del cuestionario tras varios meses.",
-      "La validez se comprueba exclusivamente demostrando que los ítems del cuestionario fueron redactados por autores con grado doctoral en psicología."
+      "La validez se demuestra calculando el coeficiente alfa de Cronbach sobre las puntuaciones de la escala."
     ],
     "correcta": 0,
     "feedback": {
@@ -18,7 +18,7 @@
     },
     "dificultad": 1,
     "subtema": "medicion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Validez: un argumento con cinco fuentes de evidencia (Standards AERA, APA, NCME 2014)",
+    "lectura_ref": "AERA, APA, NCME, Standards for Educational and Psychological Testing (2014), Cap. 1 (Validity)",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -29,7 +29,7 @@
     "enunciado": "Dentro de las cinco fuentes de evidencia de validez, ¿en qué consiste la evidencia basada en el contenido del instrumento?",
     "opciones": [
       "En verificar que la matriz de correlaciones bivariadas entre todos los reactivos sea estrictamente positiva.",
-      "En calcular el tiempo exacto en milisegundos que los participantes tardan en leer las opciones de respuesta.",
+      "En demostrar una correlación elevada y estadísticamente significativa con una prueba externa consolidada.",
       "En comprobar que las puntuaciones individuales no cambien cuando se evalúa al mismo paciente en días sucesivos.",
       "En evaluar el grado en que los reactivos del test representan adecuadamente el dominio conceptual del constructo (p. ej., juicio de expertos)."
     ],
@@ -42,7 +42,7 @@
     },
     "dificultad": 1,
     "subtema": "validacion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Validez: un argumento con cinco fuentes de evidencia; Muñiz (2018)",
+    "lectura_ref": "AERA, APA, NCME, Standards for Educational and Psychological Testing (2014), Cap. 1; José Muñiz, Introducción a la Psicometría (2018), Cap. 4",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -66,7 +66,7 @@
     },
     "dificultad": 1,
     "subtema": "instrumentos",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Alfa, omega y el error de la persona; Sijtsma (2009)",
+    "lectura_ref": "Klaas Sijtsma (2009), On the use, misuse, and very limited usefulness of Cronbach's alpha, Psychometrika, 74(1), 107-120",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -76,8 +76,8 @@
     "tipo": "opcion_multiple",
     "enunciado": "En la adaptación transcultural de un instrumento según las directrices de la ITC (International Test Commission), ¿en qué consiste la técnica de traducción inversa (back-translation)?",
     "opciones": [
-      "En eliminar todas las preguntas que utilicen expresiones idiomáticas complejas sin sustituirlas por reactivos equivalentes.",
-      "En cambiar el orden de las preguntas del cuestionario colocándolas desde la última hacia la primera reactiva.",
+      "En traducir el test de forma directa y literal con un único traductor nativo para evitar interpretaciones subjetivas.",
+      "En adaptar los ítems reemplazando los constructos psicológicos complejos por conductas observables simples.",
       "En traducir el instrumento utilizando exclusivamente motores automáticos de internet sin revisión lingüística humana.",
       "En traducir los ítems del idioma de destino al idioma original para que el autor primario confirme su equivalencia conceptual."
     ],
@@ -90,7 +90,7 @@
     },
     "dificultad": 1,
     "subtema": "construccion_adaptacion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Adaptar y elegir un instrumento ya existente; ITC Guidelines (2017)",
+    "lectura_ref": "International Test Commission (ITC), ITC Guidelines for Translating and Adapting Tests (2.ª ed., 2017)",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -114,7 +114,7 @@
     },
     "dificultad": 1,
     "subtema": "instrumentos",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Alfa, omega y el error de la persona; Muñiz (2018)",
+    "lectura_ref": "José Muñiz, Introducción a la Psicometría (2018), Cap. 2 (Teoría Clásica de los Tests y Error Estándar de Medida)",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -138,7 +138,7 @@
     },
     "dificultad": 2,
     "subtema": "instrumentos",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Alfa, omega y el error de la persona; Dunn et al. (2014)",
+    "lectura_ref": "Klaas J. Dunn, Thom Baguley & Vivienne Brunsden (2014), From alpha to omega: A practical solution to the pervasive problem of internal consistency estimation, British Journal of Psychology",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -162,7 +162,7 @@
     },
     "dificultad": 2,
     "subtema": "validacion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Validez: un argumento con cinco fuentes de evidencia; Standards AERA/APA/NCME (2014)",
+    "lectura_ref": "AERA, APA, NCME, Standards for Educational and Psychological Testing (2014), Cap. 1 (Evidence Based on Response Processes)",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -173,7 +173,7 @@
     "enunciado": "En el análisis clásico de reactivos, ¿qué mide la correlación ítem-total corregida (índice de discriminación) y cuál es su umbral de calidad aceptable?",
     "opciones": [
       "La proporción de sujetos que aciertan el reactivo; se consideran de calidad aceptable los valores superiores a 0,90.",
-      "El tiempo promedio de respuesta al ítem; valores menores a diez segundos indican que el ítem es comprensible.",
+      "La correlación entre el ítem y la puntuación de un criterio diagnóstico externo; deseable ≥ 0,50.",
       "El porcentaje de varianza única no explicada por el instrumento; se prefieren reactivos con índices negativos.",
       "El grado en que el reactivo diferencia entre personas con alto y bajo nivel en la escala total (descontando el propio ítem); deseable ≥ 0,30."
     ],
@@ -186,7 +186,7 @@
     },
     "dificultad": 2,
     "subtema": "construccion_adaptacion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Construir un instrumento; Muñiz & Fonseca-Pedrero (2019)",
+    "lectura_ref": "José Muñiz & Eduardo Fonseca-Pedrero (2019), Diez pasos para la construcción de un test, Psicothema, 31(1), 7-16",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -210,7 +210,7 @@
     },
     "dificultad": 2,
     "subtema": "validacion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Validez: un argumento con cinco fuentes de evidencia; Kerlinger & Lee, Cap. 27",
+    "lectura_ref": "Fred N. Kerlinger & Howard B. Lee, Investigación del comportamiento (4.ª ed.), Cap. 27 (Validez de constructo)",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -234,7 +234,7 @@
     },
     "dificultad": 2,
     "subtema": "construccion_adaptacion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Adaptar y elegir un instrumento ya existente; ITC Guidelines (2017)",
+    "lectura_ref": "International Test Commission (ITC), ITC Guidelines for Translating and Adapting Tests (2.ª ed., 2017), Directrices de Sesgo de Constructo",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -244,10 +244,10 @@
     "tipo": "opcion_multiple",
     "enunciado": "Un psicólogo obtiene una puntuación directa X = 70 en un test cuya fiabilidad reportada es rxx = 0,75 y desviación estándar s = 10 (con Se = 5). ¿Por qué no debe interpretar el puntaje 70 como un valor exacto e inmutable?",
     "opciones": [
-      "Porque la Teoría Clásica de los Tests exige redondear todos los puntajes individuales al múltiplo de diez más próximo.",
-      "Porque los tests psicológicos solo permiten interpretar puntuaciones categorizadas dicotómicamente como apto o no apto.",
+      "Porque una fiabilidad de 0,75 es insuficiente para interpretar puntuaciones individuales y el test debe descartarse.",
+      "Porque el puntaje observado solo es válido si se calcula previamente el coeficiente alfa en la muestra del propio paciente.",
       "Porque toda puntuación observada contiene error de medida y debe reportarse como intervalo de confianza (p. ej., 70 ± 1,96·Se = [60,2; 79,8]).",
-      "Porque el Error Estándar de Medida anula la validez del instrumento cuando la puntuación directa es menor a cien."
+      "Porque el puntaje 70 debe corregirse obligatoriamente sumándole la media poblacional para eliminar el sesgo de medida."
     ],
     "correcta": 2,
     "feedback": {
@@ -258,7 +258,7 @@
     },
     "dificultad": 2,
     "subtema": "instrumentos",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Alfa, omega y el error de la persona; Nunnally & Bernstein (1994)",
+    "lectura_ref": "Jum C. Nunnally & Ira H. Bernstein, Teoría psicométrica (3.ª ed., 1994), Cap. 6 (Error estándar de medida e intervalos de confianza)",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -282,7 +282,7 @@
     },
     "dificultad": 2,
     "subtema": "validacion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Validez: un argumento con cinco fuentes de evidencia; APA Handbook Vol. 1",
+    "lectura_ref": "APA Handbook of Testing and Assessment in Psychology (Vol. 1), Cap. 6 (Structural Equation Modeling and Confirmatory Factor Analysis)",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -306,7 +306,7 @@
     },
     "dificultad": 2,
     "subtema": "construccion_adaptacion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Construir un instrumento; Muñiz (2018)",
+    "lectura_ref": "José Muñiz, Introducción a la Psicometría (2018), Cap. 3 (Análisis de ítems y propiedades psicométricas)",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -316,10 +316,10 @@
     "tipo": "opcion_multiple",
     "enunciado": "¿Qué evalúa la evidencia de validez basada en las consecuencias del uso del test (validez consecuencial)?",
     "opciones": [
-      "El costo económico del software estadístico utilizado para procesar las matrices de correlación.",
-      "El número de publicaciones científicas que citaron el manual del test durante el último lustro.",
+      "La correlación de las puntuaciones del test con el rendimiento académico o laboral posterior de los evaluados.",
+      "El grado de concordancia cualitativa entre jueces expertos respecto a la pertinencia formal de los reactivos.",
       "Las consecuencias intencionadas y no intencionadas del uso del test, evaluando sesgos o impactos adversos sistémicos.",
-      "La velocidad de procesamiento computacional requerida para exportar las puntuaciones en formato PDF."
+      "La estabilidad temporal de los perfiles diagnósticos cuando el test se administra en dos momentos sucesivos."
     ],
     "correcta": 2,
     "feedback": {
@@ -330,7 +330,7 @@
     },
     "dificultad": 2,
     "subtema": "validacion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Validez: un argumento con cinco fuentes de evidencia; Standards AERA/APA/NCME (2014)",
+    "lectura_ref": "AERA, APA, NCME, Standards for Educational and Psychological Testing (2014), Cap. 1 (Evidence Based on Consequences of Testing)",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -341,8 +341,8 @@
     "enunciado": "En la metodología de diez pasos para la construcción de un test (Muñiz y Fonseca-Pedrero, 2019), ¿cuál es el paso 1 que precede a cualquier redacción de reactivos?",
     "opciones": [
       "Calcular de forma anticipada la matriz factorial rotada mediante el método Varimax.",
-      "Traducir las opciones de respuesta al idioma inglés para garantizar visibilidad internacional.",
-      "Aplicar el cuestionario a una muestra piloto de quinientos participantes antes de definir el objetivo.",
+      "Redactar un banco preliminar de más de cien reactivos para someterlos a análisis de dificultad.",
+      "Seleccionar una muestra incidental amplia y aplicar un análisis factorial exploratorio sin modelo previo.",
       "El marco general: delimitar con claridad el constructo teórico, el propósito de la prueba y la población destinataria."
     ],
     "correcta": 3,
@@ -354,7 +354,7 @@
     },
     "dificultad": 2,
     "subtema": "construccion_adaptacion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Construir un instrumento; Muñiz & Fonseca-Pedrero (2019)",
+    "lectura_ref": "José Muñiz & Eduardo Fonseca-Pedrero (2019), Diez pasos para la construcción de un test, Psicothema, 31(1), 7-16, Paso 1: Marco general",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -364,10 +364,10 @@
     "tipo": "opcion_multiple",
     "enunciado": "¿En qué tipo de constructos psicológicos el coeficiente de fiabilidad test-retest resulta conceptualmente inadecuado como estimación de fiabilidad?",
     "opciones": [
-      "En variables de rasgo estables de la personalidad evaluadas en población adulta.",
+      "En rasgos estables de personalidad evaluados en población adulta general.",
       "En pruebas de aptitud cognitiva general donde se espera alta estabilidad a lo largo del tiempo.",
       "En constructos dinámicos o estados transitorios (como estados de ansiedad o fatiga situacional).",
-      "En cuestionarios con escalas de respuesta politómicas tipo Likert de cinco puntos."
+      "En escalas unidimensionales breves donde todos los reactivos presentan tau-equivalencia."
     ],
     "correcta": 2,
     "feedback": {
@@ -378,7 +378,7 @@
     },
     "dificultad": 2,
     "subtema": "instrumentos",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Fiabilidad: cuánto error tiene la medida; Kerlinger & Lee, Cap. 26",
+    "lectura_ref": "Fred N. Kerlinger & Howard B. Lee, Investigación del comportamiento (4.ª ed.), Cap. 26 (Confiabilidad y estabilidad temporal)",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -402,7 +402,7 @@
     },
     "dificultad": 3,
     "subtema": "construccion_adaptacion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Adaptar y elegir un instrumento ya existente; APA Handbook Vol. 1",
+    "lectura_ref": "APA Handbook of Testing and Assessment in Psychology (Vol. 1), Cap. 7 (Measurement Invariance in Multigroup CFA)",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -414,7 +414,7 @@
     "opciones": [
       "Porque la invarianza métrica solo garantiza que las varianzas residuales sean exactamente iguales a cero en ambos grupos.",
       "Porque sin interceptos iguales, las diferencias en las medias observadas pueden deberse al sesgo de respuesta de los ítems y no a diferencias reales en el rasgo.",
-      "Porque el software estadístico bloquea automáticamente el cálculo de contrastes de hipótesis si solo se comprueba invarianza configural.",
+      "Porque la invarianza métrica solo permite comparar correlaciones pero no garantiza que las unidades de escala sean idénticas.",
       "Porque la invarianza escalar es el único nivel que garantiza que el coeficiente alfa de Cronbach supere el valor de 0,90 en cada subgrupo."
     ],
     "correcta": 1,
@@ -426,7 +426,7 @@
     },
     "dificultad": 3,
     "subtema": "construccion_adaptacion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Adaptar y elegir un instrumento ya existente; APA Handbook Vol. 1",
+    "lectura_ref": "APA Handbook of Testing and Assessment in Psychology (Vol. 1), Cap. 7 (Measurement Invariance: Metric vs. Scalar Invariance)",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -436,9 +436,9 @@
     "tipo": "opcion_multiple",
     "enunciado": "En un modelo bifactorial con un factor general y varios factores específicos de grupo, ¿qué informa el coeficiente omega jerárquico (ωh)?",
     "opciones": [
-      "El porcentaje de participantes que completaron el cuestionario sin saltear ningún reactivo.",
+      "La fiabilidad total combinada sumando la varianza del factor general y la de todos los factores específicos de grupo.",
       "La proporción de varianza de las puntuaciones totales que es atribuible única y exclusivamente al factor general latente.",
-      "El cociente exacto entre el número de opciones de respuesta y el tiempo de administración de la prueba.",
+      "El porcentaje de varianza no explicada o error de medida residual atribuible al azar en la muestra.",
       "La correlación de Pearson entre las puntuaciones directas del test y una prueba diagnóstica externa."
     ],
     "correcta": 1,
@@ -450,7 +450,7 @@
     },
     "dificultad": 3,
     "subtema": "instrumentos",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Alfa, omega y el error de la persona; Revelle & Zinbarg (2009)",
+    "lectura_ref": "William Revelle & Richard E. Zinbarg (2009), Coefficients alpha, beta, omega, and the glb: Comments on Sijtsma, Psychometrika, 74(1), 145-154",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -461,9 +461,9 @@
     "enunciado": "¿Qué revela la presencia de Funcionamiento Diferencial del Ítem (DIF: Differential Item Functioning) en un reactivo psicométrico?",
     "opciones": [
       "Que el ítem carece de correlación bivariada con la escala de deseabilidad social de los examinados.",
-      "Que el tiempo medio de respuesta de los examinados es exactamente igual en todos los subgrupos evaluados.",
+      "Que las medias observadas en el ítem difieren entre grupos debido a diferencias reales en el nivel del constructo.",
       "Que personas pertenecientes a distintos subgrupos demográficos pero con idéntico nivel en el rasgo latente tienen probabilidades distintas de acertar o responder favorablemente al ítem.",
-      "Que el reactivo presenta una dificultad matemática tan elevada que nadie en la muestra logró responderlo de forma acertada."
+      "Que el coeficiente de discriminación ítem-total es negativo únicamente en uno de los grupos analizados."
     ],
     "correcta": 2,
     "feedback": {
@@ -474,7 +474,7 @@
     },
     "dificultad": 3,
     "subtema": "construccion_adaptacion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Adaptar y elegir un instrumento ya existente; ITC Guidelines (2017)",
+    "lectura_ref": "International Test Commission (ITC), ITC Guidelines for Translating and Adapting Tests (2.ª ed., 2017), Directrices de Equivalencia y DIF",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -484,9 +484,9 @@
     "tipo": "opcion_multiple",
     "enunciado": "¿Por qué un coeficiente alfa de Cronbach excesivamente alto (ej. α > 0,95) puede constituir un indicador de baja calidad psicométrica en una escala breve?",
     "opciones": [
-      "Porque demuestra que los datos no cumplieron el teorema del límite central en la distribución de frecuencias.",
+      "Porque un alfa superior a 0,90 siempre indica que el instrumento viola el supuesto de unidimensionalidad.",
       "Porque revela una grave falta de consistencia interna que impide sumar las puntuaciones directas del instrumento.",
-      "Porque los algoritmos de estimación de Pearson fallan automáticamente ante varianzas mayores a diez.",
+      "Porque valores tan altos de alfa generan inflación artificial en el error estándar de medida individual.",
       "Porque suele ser síntoma de redundancia y paráfrasis circular entre ítems, estrechando el dominio del constructo y desperdiciando reactivos."
     ],
     "correcta": 3,
@@ -498,7 +498,7 @@
     },
     "dificultad": 3,
     "subtema": "instrumentos",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: ¿Cuánta fiabilidad alcanza? (Nunnally); Sijtsma (2009)",
+    "lectura_ref": "Klaas Sijtsma (2009), On the use, misuse, and very limited usefulness of Cronbach's alpha; Jum C. Nunnally & Ira H. Bernstein (1994)",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -509,9 +509,9 @@
     "enunciado": "Al seleccionar un instrumento existente para una investigación empírica según los criterios de la iniciativa COSMIN, ¿cuál es una exigencia ineludible?",
     "opciones": [
       "Verificar que la fiabilidad y validez hayan sido demostradas en una población análoga a la propia y reportar la fiabilidad obtenida en la muestra del estudio.",
-      "Asegurarse de que el instrumento haya sido diseñado en un país anglosajón en el año calendario en curso.",
-      "Exigir que la prueba esté exenta de derechos de autor y que pueda modificarse libremente sin citar la fuente.",
-      "Comprobar que el cuestionario tenga exactamente el mismo número de reactivos que la muestra total del estudio."
+      "Replicar íntegramente las normas y baremos originales sin necesidad de reportar la fiabilidad en la muestra local.",
+      "Asumir que si el instrumento cuenta con alta fiabilidad reportada en el manual original, su validez queda demostrada de forma automática.",
+      "Verificar que el instrumento cuente con un coeficiente alfa superior a 0,90 aun cuando haya sido evaluado en una población clínica diferente."
     ],
     "correcta": 0,
     "feedback": {
@@ -522,7 +522,7 @@
     },
     "dificultad": 3,
     "subtema": "construccion_adaptacion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Adaptar y elegir un instrumento ya existente; COSMIN guidelines",
+    "lectura_ref": "COSMIN methodology for assessing the quality of measurement properties (Mokkink et al., 2018; Terwee et al., 2007)",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -546,7 +546,7 @@
     },
     "dificultad": 3,
     "subtema": "validacion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Fiabilidad: cuánto error tiene la medida; Nunnally & Bernstein (1994)",
+    "lectura_ref": "Jum C. Nunnally & Ira H. Bernstein, Teoría psicométrica (3.ª ed., 1994), Cap. 7 (Corrección por atenuación)",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -556,10 +556,10 @@
     "tipo": "opcion_multiple",
     "enunciado": "Desde una perspectiva ética y técnica, ¿por qué constituye una mala práctica clínica utilizar baremos extranjeros sin estandarización local para clasificar diagnósticos individuales?",
     "opciones": [
-      "Porque las leyes de derechos de autor impiden que los manuales extranjeros se lean fuera de su país de edición.",
-      "Porque los baremos extranjeros exigen software propietario con licencias informáticas de pago por uso.",
+      "Porque la administración de baremos extranjeros invalida automáticamente la consistencia interna calculada en el estudio.",
+      "Porque las diferencias en los formatos de respuesta invalidan el cálculo de la correlación ítem-total corregida.",
       "Porque diferencias socioculturales en las medias y dispersiones poblacionales pueden provocar diagnósticos erróneos y discriminación en decisiones de alto impacto.",
-      "Porque la Teoría Clásica de los Tests pierde vigencia matemática cuando se cruzan fronteras nacionales."
+      "Porque los baremos externos solo pueden aplicarse si la muestra local cuenta con más de mil quinientos participantes."
     ],
     "correcta": 2,
     "feedback": {
@@ -570,7 +570,7 @@
     },
     "dificultad": 3,
     "subtema": "etica",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Ética del instrumento y de los datos; Standards AERA/APA/NCME (2014)",
+    "lectura_ref": "AERA, APA, NCME, Standards for Educational and Psychological Testing (2014), Cap. 3 (Fairness in Testing and Assessment)",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""

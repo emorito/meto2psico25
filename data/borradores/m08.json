@@ -18,7 +18,7 @@
     },
     "dificultad": 1,
     "subtema": "muestreo",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Bloque: Precisión terminológica; Leslie Kish, Statistical Design for Research, Cap. 1",
+    "lectura_ref": "Leslie Kish, Statistical Design for Research (1987), Cap. 1 (Representation and Randomization)",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -42,7 +42,7 @@
     },
     "dificultad": 1,
     "subtema": "corpus",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Galería de pseudocálculos (pc04: Fórmula para fijar entrevistas) y Tabla de justificación por propósito",
+    "lectura_ref": "Kirsti Malterud et al. (2016), Sample Size in Qualitative Interview Studies: Guided by Information Power",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -66,7 +66,7 @@
     },
     "dificultad": 1,
     "subtema": "muestra",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Galería de pseudocálculos (pc01: Los 384 universales); Kish, Statistical Design for Research, Cap. 1",
+    "lectura_ref": "Leslie Kish, Statistical Design for Research (1987), Cap. 1; William G. Cochran, Sampling Techniques (1977), Cap. 2",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -90,7 +90,7 @@
     },
     "dificultad": 1,
     "subtema": "poblacion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Calculadora honesta; Cochran, Sampling Techniques, Cap. 2",
+    "lectura_ref": "William G. Cochran, Sampling Techniques (3.ª ed., 1977), Cap. 2 (Simple Random Sampling)",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -114,7 +114,7 @@
     },
     "dificultad": 1,
     "subtema": "muestreo",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Galería de pseudocálculos (pc06: Cuotas presentadas como estratos); Rodríguez Osuna, Métodos de muestreo, Cap. 3",
+    "lectura_ref": "Fernando Rodríguez Osuna, Métodos de muestreo: casos y aplicaciones (1991), Cap. 3",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -124,10 +124,10 @@
     "tipo": "opcion_multiple",
     "enunciado": "Discriminación de caso: Una investigación con muestra no probabilística intencional en dos colegios desea contrastar la efectividad de un programa de habilidades sociales (diferencia de medias entre grupo experimental y control). ¿Qué justificación del tamaño muestral corresponde?",
     "opciones": [
-      "Calcular la fórmula de precisión para una media con margen de error de 0,5 desviaciones y población infinita.",
-      "Realizar un análisis de potencia estadística a priori fijando el tamaño de efecto esperado desde la literatura previa.",
-      "Asumir la regla empírica universal de que cualquier muestra con más de 30 casos por grupo es representativa.",
-      "Aplicar el criterio de saturación teórica mediante codificación axial de las respuestas numéricas del test."
+      "Calcular la fórmula de precisión para una media con margen de error del 3 % y nivel de confianza del 95 %.",
+      "Realizar un análisis de potencia estadística a priori fijando el tamaño del efecto esperado, alfa y potencia deseada.",
+      "Asumir la regla empírica universal de que cualquier muestra con más de 30 casos por grupo garantiza potencia adecuada.",
+      "Aplicar el criterio de saturación teórica mediante codificación axial hasta que no aparezcan categorías nuevas."
     ],
     "correcta": 1,
     "feedback": {
@@ -138,7 +138,7 @@
     },
     "dificultad": 2,
     "subtema": "muestra",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Tabla: Cada propósito tiene su propia justificación del tamaño y Bloque: Si tu muestra no es probabilística",
+    "lectura_ref": "Jacob Cohen, Statistical Power Analysis for the Behavioral Sciences (2.ª ed., 1988), Cap. 1-2",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -148,10 +148,10 @@
     "tipo": "opcion_multiple",
     "enunciado": "En un muestreo probabilístico por conglomerados (ej. sortear 10 colegios enteros y evaluar a todos sus alumnos), ¿por qué se produce el llamado «efecto de diseño» (deff)?",
     "opciones": [
-      "Porque los estudiantes de un mismo colegio tienden a parecerse entre sí (correlación intraclase positiva), reduciendo la información neta.",
-      "Porque la probabilidad de selección individual se vuelve exactamente cero para todos los estudiantes evaluados.",
-      "Porque las fórmulas de muestreo aleatorio simple sobreestiman sistemáticamente el tamaño muestral necesario.",
-      "Porque el efecto de diseño solo ocurre cuando se trabaja con variables categoriales dicotómicas en muestras finitas."
+      "Porque los estudiantes de un mismo colegio tienden a parecerse entre sí más que si fueran elegidos al azar de toda la ciudad (efecto de diseño > 1).",
+      "Porque el muestreo por conglomerados siempre duplica automáticamente el error de muestreo con respecto a una muestra de conveniencia.",
+      "Porque las fórmulas de muestreo aleatorio simple sobreestiman sistemáticamente la varianza poblacional en poblaciones educativas.",
+      "Porque el efecto de diseño solo ocurre cuando se trabaja con variables categóricas pero desaparece en variables continuas."
     ],
     "correcta": 0,
     "feedback": {
@@ -162,7 +162,7 @@
     },
     "dificultad": 2,
     "subtema": "muestreo",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Galería de pseudocálculos (pc07: El efecto de diseño olvidado); Kish, Survey Sampling, Cap. 5",
+    "lectura_ref": "Leslie Kish, Survey Sampling (1965), Cap. 5 (Cluster Sampling and Design Effect)",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -172,10 +172,10 @@
     "tipo": "opcion_multiple",
     "enunciado": "Discriminación de caso: Un estudio divulgado por una celebridad en internet obtiene 15.000 respuestas voluntarias y afirma: «Dada la enorme cantidad de participantes, la muestra es plenamente representativa de los jóvenes del país». ¿Cuál es el error conceptual?",
     "opciones": [
-      "El tamaño de muestra debió ser exactamente el doble para superar el límite asintótico del teorema central del límite.",
-      "Confundir tamaño con representatividad: una muestra masiva reduce el error aleatorio pero no corrige el sesgo sistemático de selección.",
-      "El error radica en que las encuestas por internet solo son representativas si se aplican a personas mayores de 65 años.",
-      "No hubo error: la ley de los grandes números garantiza la representatividad poblacional de cualquier muestra mayor a diez mil casos."
+      "El tamaño de muestra debió ser exactamente el doble para superar el límite del teorema central del límite.",
+      "Confundir tamaño con representatividad: una muestra masiva reduce el error muestral aleatorio pero no elimina el sesgo de autoselección.",
+      "El error consiste en no haber aplicado un test post hoc para corregir la falta de aleatorización en la base de datos.",
+      "No hubo error: la ley de los grandes números garantiza la representatividad cuando el tamaño muestral supera los diez mil casos."
     ],
     "correcta": 1,
     "feedback": {
@@ -186,7 +186,7 @@
     },
     "dificultad": 2,
     "subtema": "muestra",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Galería de pseudocálculos (pc05: Grande, entonces representativa); Leslie Kish, Statistical Design for Research",
+    "lectura_ref": "Leslie Kish, Statistical Design for Research (1987), Cap. 1; Robert M. Groves et al., Survey Methodology (2.ª ed., 2009), Cap. 2",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -210,7 +210,7 @@
     },
     "dificultad": 2,
     "subtema": "poblacion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Calculadora honesta; Kish, Survey Sampling, Cap. 13",
+    "lectura_ref": "Leslie Kish, Survey Sampling (1965), Cap. 13 (Noncoverage and Nonresponse); William G. Cochran, Sampling Techniques (1977), Cap. 13",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -221,8 +221,8 @@
     "enunciado": "Discriminación de caso: En la justificación del tamaño de muestra por potencia estadística, un proyecto indica: «Se adoptó un tamaño del efecto d = 0,50 porque es la convención habitual de efecto mediano propuesta por Cohen». ¿Cuál es la objeción metodológica central?",
     "opciones": [
       "El análisis de potencia exige obligatoriamente adoptar d = 0,80 como umbral mínimo para toda investigación en psicología.",
-      "La d de Cohen solo puede utilizarse en estudios epidemiológicos de salud pública con poblaciones mayores a un millón de personas.",
-      "El software G*Power no admite valores decimales para el parámetro de tamaño de efecto en contrastes de dos medias.",
+      "El cálculo de potencia solo es válido si el tamaño del efecto se calcula a posteriori sobre los mismos datos obtenidos en el estudio.",
+      "La d de Cohen solo es aplicable cuando la muestra total supera los 384 casos requeridos por las tablas de muestreo.",
       "Las convenciones de Cohen son pautas genéricas orientativas; el tamaño de efecto debe fundamentarse en la literatura específica del problema."
     ],
     "correcta": 3,
@@ -234,7 +234,7 @@
     },
     "dificultad": 2,
     "subtema": "muestra",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Galería de pseudocálculos (pc08: El tamaño de efecto de cajón); Cumming & Calin-Jageman (2017)",
+    "lectura_ref": "Geoff Cumming & Robert Calin-Jageman, Introduction to the New Statistics (2017), Cap. 4-6; Jacob Cohen (1988)",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -245,8 +245,8 @@
     "enunciado": "¿Por qué la regla empírica tradicional de fijar «10 participantes por ítem» para justificar el tamaño muestral en modelos factoriales (AFE/AFC) está fuertemente cuestionada en psicometría?",
     "opciones": [
       "Porque el tamaño muestral necesario depende de la comunalidad de los ítems y la sobredeterminación de los factores, no de una proporción fija.",
-      "Porque los modelos factoriales modernos exigen sin excepción recolectar al menos cien participantes por cada reactivo del instrumento.",
-      "Porque la regla de 10 por 1 solo es aplicable cuando el cuestionario tiene menos de cuatro preguntas en total.",
+      "Porque cualquier muestra superior a doscientos casos ya garantiza la solución factorial óptima sin importar el número de ítems.",
+      "Porque la regla empírica solo es válida si todos los ítems de la escala tienen una distribución estrictamente normal y simétrica.",
       "Porque el Análisis Factorial Exploratorio no requiere verificar el número de participantes si los ítems son politómicos."
     ],
     "correcta": 0,
@@ -258,7 +258,7 @@
     },
     "dificultad": 2,
     "subtema": "muestra",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Tabla: Cada propósito tiene su propia justificación del tamaño; APA Handbook Vol. 3, Cap. 17",
+    "lectura_ref": "APA Handbook of Research Methods in Psychology (Vol. 3), Cap. 17; Robert C. MacCallum et al. (1999), Sample size in factor analysis",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -268,9 +268,9 @@
     "tipo": "opcion_multiple",
     "enunciado": "Discriminación de caso: Un psicólogo clínico evalúa a los 28 pacientes con una condición neurológica poco frecuente disponibles en su hospital. Para justificar el tamaño, inventa una población N = 50.000 y aplica una fórmula de proporciones. ¿Cuál es la corrección metodológica?",
     "opciones": [
-      "Aumentar artificialmente la población inventada a un millón de habitantes para justificar que la muestra fue suficiente.",
+      "Calcular la fórmula de proporciones asumiendo población infinita para obtener un tamaño de referencia teórica.",
       "Aplicar la corrección de Welch sobre la población inventada asumiendo distribución normal simétrica en el hospital.",
-      "Eliminar a la mitad de los pacientes para transformar el diseño en un estudio de caso único experimental puro.",
+      "Afirmar que 28 casos son suficientes porque la literatura clásica acepta cualquier tamaño que supere los 20 participantes.",
       "Declarar la muestra como no probabilística disponible, justificar el acceso real, analizar la potencia del contraste y declarar límites."
     ],
     "correcta": 3,
@@ -282,7 +282,7 @@
     },
     "dificultad": 2,
     "subtema": "poblacion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Galería de pseudocálculos (pc02: La población finita inventada)",
+    "lectura_ref": "Leslie Kish, Statistical Design for Research (1987), Cap. 1; Jacob Cohen (1988), Statistical Power Analysis",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -306,7 +306,7 @@
     },
     "dificultad": 3,
     "subtema": "muestreo",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Calculadora honesta; Kish, Survey Sampling, Cap. 2 y 5",
+    "lectura_ref": "Leslie Kish, Survey Sampling (1965), Cap. 2 y 5; William G. Cochran, Sampling Techniques (1977)",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -316,7 +316,7 @@
     "tipo": "opcion_multiple",
     "enunciado": "¿Qué riesgo metodológico crítico acarrea asumir un tamaño del efecto sobredimensionado o irrealmente grande en el análisis de potencia a priori de un estudio?",
     "opciones": [
-      "Provoca que el software estadístico genere matrices singulares que impiden el cálculo de grados de libertad.",
+      "Provoca que la probabilidad de cometer un error Tipo I se infle automáticamente por encima de 0,05.",
       "Obliga a utilizar estimadores no paramétricos aun cuando la distribución de los datos sea perfectamente normal.",
       "Conduce a calcular una muestra insuficiente que dejará al estudio severamente subpotenciado frente al efecto real más modesto.",
       "Garantiza que la tasa de error Tipo I se mantenga siempre por debajo del uno por ciento nominal sin importar el diseño."
@@ -330,7 +330,7 @@
     },
     "dificultad": 3,
     "subtema": "muestra",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Galería de pseudocálculos (pc08: El tamaño de efecto de cajón); Cumming & Calin-Jageman (2017)",
+    "lectura_ref": "Geoff Cumming & Robert Calin-Jageman, Introduction to the New Statistics (2017), Cap. 5 (Power and Precision)",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -343,7 +343,7 @@
       "Cuando el objetivo es amplio, la muestra es heterogénea y no se cuenta con ningún marco teórico previo.",
       "Cuando se utiliza muestreo por conveniencia en redes sociales y la tasa de deserción es desconocida.",
       "Cuando el objetivo es estrecho y focalizado, los participantes poseen experiencias densas y el diálogo es profundo.",
-      "Cuando se aplican pruebas estadísticas no paramétricas con un nivel de significación alfa de 0,10."
+      "Cuando se busca describir un fenómeno heterogéneo y complejo sin partir de ningún modelo conceptual previo."
     ],
     "correcta": 2,
     "feedback": {
@@ -354,7 +354,7 @@
     },
     "dificultad": 3,
     "subtema": "corpus",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Bloque: Muestras en investigación cualitativa; Malterud et al. (2016)",
+    "lectura_ref": "Kirsti Malterud et al. (2016), Sample Size in Qualitative Interview Studies: Guided by Information Power, Qualitative Health Research",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""
@@ -365,7 +365,7 @@
     "enunciado": "En muestreo probabilístico estratificado, ¿bajo qué condición la asignación óptima de Neyman asigna una fracción muestral mayor a un estrato particular en comparación con la asignación proporcional?",
     "opciones": [
       "Cuando ese estrato específico presenta una media poblacional idéntica a la media global de la muestra.",
-      "Cuando los individuos de dicho estrato tienen una probabilidad subjetiva de rechazo mayor al noventa por ciento.",
+      "Cuando ese estrato específico presenta una varianza interna cercana a cero y respuestas totalmente homogéneas.",
       "Cuando ese estrato presenta un tamaño poblacional significativamente menor que todos los demás estratos.",
       "Cuando ese estrato exhibe una mayor variabilidad interna (mayor desviación estándar en la variable de estudio)."
     ],
@@ -378,7 +378,7 @@
     },
     "dificultad": 3,
     "subtema": "muestreo",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Bloque: Diseños probabilísticos y su costo en precisión; Cochran, Sampling Techniques, Cap. 5",
+    "lectura_ref": "William G. Cochran, Sampling Techniques (3.ª ed., 1977), Cap. 5 (Stratified Random Sampling: Optimum Allocation)",
     "origen": "borrador_ia",
     "estado": "revisar",
     "nota_revision": ""

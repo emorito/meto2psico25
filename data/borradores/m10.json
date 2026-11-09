@@ -7,7 +7,7 @@
       "Organizar, resumir y representar las propiedades numéricas observadas en la muestra.",
       "Demostrar con certeza matemática absoluta la verosimilitud de la hipótesis teórica.",
       "Generalizar probabilísticamente los hallazgos hacia poblaciones infinitas sin evaluar errores.",
-      "Sustituir la recolección empírica de campo mediante algoritmos de imputación universal."
+      "Determinar la significación estadística y el tamaño del efecto de las intervenciones evaluadas."
     ],
     "correcta": 0,
     "feedback": {
@@ -55,7 +55,7 @@
       "En verificar el nivel de significación estadística p en las transcripciones.",
       "En forzar el texto para ajustarlo estrictamente a categorías predeterminadas.",
       "En fragmentar el corpus y asignar etiquetas conceptuales a segmentos con significado propio.",
-      "En contabilizar mecánicamente la frecuencia total de adjetivos en cada testimonio."
+      "En calcular la concordancia entre jueces mediante el coeficiente de correlación intraclase."
     ],
     "correcta": 2,
     "feedback": {
@@ -78,7 +78,7 @@
     "opciones": [
       "Corregir el lenguaje informal de los participantes para que adopte un estilo académico.",
       "Eliminar las discrepancias narrativas para lograr un relato completamente homogéneo.",
-      "Reducir las transcripciones a un conjunto acotado de oraciones de menos de diez palabras.",
+      "Sintetizar únicamente las respuestas afirmativas descartando dudas o contradicciones de los participantes.",
       "Preservar fielmente el discurso oral resguardando la confidencialidad y la ética del estudio."
     ],
     "correcta": 3,
@@ -222,8 +222,8 @@
     "opciones": [
       "Calcular coeficientes de correlación intraclase entre las respuestas a preguntas cerradas.",
       "Mantener una pista de auditoría y bitácora que registre detalladamente las decisiones analíticas.",
-      "Destruir las notas de campo y grabaciones originales tras redactar el informe definitivo.",
-      "Impedir que investigadores externos puedan examinar los criterios de codificación empleados."
+      "Realizar un análisis de potencia estadística a posteriori para verificar la robustez de las categorías.",
+      "Garantizar que todas las entrevistas hayan sido analizadas exclusivamente por un único investigador para asegurar coherencia."
     ],
     "correcta": 1,
     "feedback": {
@@ -268,9 +268,9 @@
     "tipo": "opcion_multiple",
     "enunciado": "En un equipo de investigación cualitativa, ¿cómo se lleva a cabo la triangulación de investigadores durante la codificación del corpus?",
     "opciones": [
-      "Delegando la decisión final en el investigador de mayor jerarquía académica sin debate alguno.",
-      "Seleccionando mediante sorteo al azar qué integrante decide el significado de cada párrafo.",
-      "Promediando la cantidad de líneas de texto identificadas por cada miembro del equipo.",
+      "Permitiendo que un único investigador codifique todo el material y luego presente un resumen a los demás para su aprobación rápida.",
+      "Dividiendo las entrevistas entre los investigadores para que cada uno codifique una parte diferente sin superposición.",
+      "Calculando el porcentaje de palabras coincidentes entre informes individuales sin discutir las discrepancias conceptuales.",
       "Codificando de forma independiente el mismo material para luego contrastar y consensuar acuerdos."
     ],
     "correcta": 3,
@@ -317,7 +317,7 @@
     "enunciado": "¿Por qué las prácticas de p-hacking (probar exclusiones post hoc) y HARKing (hipotetizar tras conocer resultados) invalidan la inferencia estadística?",
     "opciones": [
       "Porque incrementan arbitrariamente el tamaño del efecto muestral sin alterar el error Tipo I.",
-      "Porque impiden que los paquetes estadísticos calculen matrices de covarianzas simétricas.",
+      "Porque reducen artificialmente la potencia estadística hasta impedir la detección de efectos reales.",
       "Porque inflan drásticamente la tasa real de error Tipo I publicando falsos positivos como hallazgos genuinos.",
       "Porque violan los supuestos de linealidad y normalidad requeridos por los coeficientes de correlación."
     ],

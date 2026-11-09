@@ -76,8 +76,8 @@
     "tipo": "opcion_multiple",
     "enunciado": "¿Por qué los comités de ética científica y la APA establecen que una herramienta de IA generativa no puede figurar como autora de un trabajo?",
     "opciones": [
-      "Porque las herramientas de software computacional no poseen conexión física a internet permanente.",
-      "Porque los algoritmos de procesamiento de lenguaje natural cobran regalías por sus intervenciones.",
+      "Porque la herramienta no posee un número de identificación de investigador ORCID registrado formalmente.",
+      "Porque el código de ética de la APA prohíbe el uso de cualquier tecnología digital en la redacción científica.",
       "Porque solo se permite la autoría a profesionales que posean título universitario de doctorado.",
       "Porque la autoría exige personería jurídica, capacidad de consentimiento y responsabilidad ética y legal."
     ],
@@ -318,8 +318,8 @@
     "opciones": [
       "Ocultar la utilización de la herramienta para evitar cuestionamientos metodológicos por parte de los revisores.",
       "Declarar de manera transparente en el texto o sección metodológica qué herramienta se utilizó y con qué propósitos.",
-      "Ceder los derechos de propiedad intelectual del proyecto a la empresa desarrolladora del software.",
-      "Exigir que todos los miembros del tribunal evaluador interactúen obligatoriamente con el mismo modelo."
+      "Citar a la herramienta de IA como coautora principal en la portada institucional del informe.",
+      "Limitar el uso de la herramienta exclusivamente a traducciones de resúmenes sin declararlo en el texto."
     ],
     "correcta": 1,
     "feedback": {
@@ -340,10 +340,10 @@
     "tipo": "opcion_multiple",
     "enunciado": "En la lista de referencias bibliográficas según APA 7, ¿cómo debe formatearse un identificador de objeto digital (DOI)?",
     "opciones": [
-      "Como una dirección postal física abreviada que incluya el código postal de la editorial responsable.",
+      "Como un número alfanumérico entre paréntesis colocado inmediatamente después del año de publicación.",
       "Con el acrónimo en mayúsculas sostenidas seguido de dos puntos: «DOI: 10.1037/0000320-000».",
       "Como una URL funcional estandarizada: «https://doi.org/10.1037/0000320-000», sin punto final posterior.",
-      "Insertado entre corchetes rectangulares al inicio de la referencia antes del apellido del autor."
+      "Como un hipervínculo precedido obligatoriamente por la leyenda «Recuperado de: https://doi.org/...»."
     ],
     "correcta": 2,
     "feedback": {
@@ -366,7 +366,7 @@
     "opciones": [
       "En orden de importancia subjetiva según el criterio del redactor, separadas por guiones medios.",
       "En orden cronológico estricto desde la publicación más antigua a la más reciente, separadas por comas.",
-      "Agrupadas por país de origen del estudio y delimitadas con barras inclinadas dobles.",
+      "En orden descendente según el número total de citas acumuladas por cada artículo.",
       "En orden alfabético por el apellido del primer autor de cada obra, separadas por punto y coma."
     ],
     "correcta": 3,
@@ -412,10 +412,10 @@
     "tipo": "opcion_multiple",
     "enunciado": "¿Cuál es el riesgo ético crítico de ingresar transcripciones completas de entrevistas en plataformas públicas de IA comercial en la nube?",
     "opciones": [
-      "Que el modelo de IA compute erróneamente el número de sílabas y bloquee el procesamiento semántico.",
+      "Que el algoritmo clasifique automáticamente las respuestas como plagio académico en repositorios públicos.",
       "Que testimonios con información sensible sean incorporados a los servidores de entrenamiento, vulnerando la confidencialidad.",
-      "Que el sistema operativo de la computadora personal pierda la calibración horaria de los archivos grabados.",
-      "Que las respuestas de los participantes se traduzcan de manera obligatoria al idioma inglés sin autorización."
+      "Que el comité de ética institucional reclame derechos patrimoniales sobre los prompts redactados por el investigador.",
+      "Que el sistema de procesamiento semántico genere resúmenes con sesgos de estilo sin advertencia previa."
     ],
     "correcta": 1,
     "feedback": {
@@ -460,9 +460,9 @@
     "tipo": "opcion_multiple",
     "enunciado": "En un reporte de investigación cualitativa bajo lineamientos JARS-Qual, ¿en qué consiste la declaración explícita de reflexividad del investigador?",
     "opciones": [
-      "En un examen psicométrico estandarizado que certifica la estabilidad emocional del equipo de campo.",
-      "En un cálculo porcentual que indica cuántas horas diarias descansó el investigador durante el trabajo de campo.",
-      "En una lista de agradecimientos a familiares y amigos que brindaron soporte afectivo durante la redacción.",
+      "En una auditoría externa ciega que evalúa la concordancia cuantitativa de los códigos mediante kappa de Cohen.",
+      "En un registro minucioso del cronograma y las horas dedicadas a la observación participante sin valoraciones personales.",
+      "En una justificación epistemológica de por qué el diseño cualitativo no requiere ningún tipo de criterio de validez.",
       "En una reflexión crítica documentada sobre cómo los supuestos, valores y rol del investigador pudieron condicionar el análisis."
     ],
     "correcta": 3,
@@ -487,7 +487,7 @@
       "Señalando el número de párrafo (párr. X), o el título de la sección más el párrafo correspondiente dentro de ella.",
       "Calculando aproximadamente a qué número de página impresa equivaldría el documento en formato A4.",
       "Omitiendo cualquier dato de localización porque las páginas web están exentas de atribución específica.",
-      "Colocando el número de caracteres contados desde el inicio de la página web hasta la palabra citada."
+      "Indicando exclusivamente la fecha y hora exacta en que el investigador consultó la página web."
     ],
     "correcta": 0,
     "feedback": {
@@ -510,7 +510,7 @@
     "opciones": [
       "Nombre del modelo como persona individual (ChatGPT), año de consulta, título de la empresa y país de sede.",
       "Autor corporativo (ej. OpenAI), año de la versión, nombre del modelo en cursiva y versión entre corchetes, seguido de la URL.",
-      "Número de serie de la placa gráfica del servidor informático donde corrió el modelo y fecha de conexión.",
+      "Dirección web completa con el historial de chat interactivo compartido y nombre del programador.",
       "No existe ninguna norma de la APA sobre software o modelos de lenguaje y no se debe referenciar nunca."
     ],
     "correcta": 1,
@@ -535,7 +535,7 @@
       "En que todas las secciones del informe tengan exactamente el mismo número de párrafos y palabras.",
       "En asegurar que todos los participantes del estudio provengan del mismo centro educativo o laboral.",
       "En garantizar que los constructos de la pregunta y objetivo rijan estrictamente el diseño, los instrumentos y el análisis.",
-      "En utilizar una tipografía decorativa idéntica en los encabezados, tablas y gráficos del manuscrito."
+      "En asegurar que la introducción y la discusión tengan exactamente la misma extensión en número de páginas."
     ],
     "correcta": 2,
     "feedback": {
