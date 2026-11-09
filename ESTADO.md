@@ -1,6 +1,8 @@
 # ESTADO — rama `rediseno-2026`
 
-**Abierta:** 08/11/2026 desde `main` (bc1aed6). `main` sigue publicada sin cambios hasta la aprobación del docente.
+**Abierta:** 08/11/2026 desde `main` (bc1aed6).
+
+**Publicación mixta en `main` (08/11/2026, por decisión docente: «hay que publicarla ya»).** Se fusionó la rama tal como estaba después de PC2: el inicio (`index.html`) y el examen (`examen.html`) siguen siendo los anteriores; cada módulo abre ahora en `modulo.html` (ciclo v3, con las cápsulas nuevas de m08 y m09, el árbol, la calculadora y la galería). `modules/view.html` sigue accesible. «Repaso», «Progreso» y «Glosario» quedan reservados hasta que existan sus páginas. El trabajo continúa en `rediseno-2026` y se vuelve a fusionar por etapas.
 
 ## Encargos activos
 
