@@ -171,7 +171,7 @@ export function answerIsCorrect(item, answer) {
   return Number(answer) === Number(item.correcta);
 }
 
-export function renderQuestion(item, { name = `answer-${item?.id}`, disabled = false, random = Math.random } = {}) {
+export function renderQuestion(item, { name = `answer-${item?.id}`, disabled = false, random = Math.random, withConfidence = false } = {}) {
   if (!item) return "";
   const options = Array.isArray(item.opciones) ? item.opciones : ["Verdadero", "Falso"];
   const controls = shuffleOptionIndices(options, random).map((originalIndex) => `
@@ -179,18 +179,18 @@ export function renderQuestion(item, { name = `answer-${item?.id}`, disabled = f
       <input type="radio" name="${escapeHtml(name)}" value="${originalIndex}" ${disabled ? "disabled" : ""}>
       <span>${inlineMarkdown(options[originalIndex])}</span>
     </label>`).join("");
-  const confidence = [
+  const confidence = withConfidence ? [
     ["seguro", "Seguro"],
     ["dudoso", "Dudoso"],
     ["adivine", "Adiviné"],
-  ].map(([value, label]) => `<button type="button" class="confidence-button" data-confidence="${value}" aria-pressed="false">${label}</button>`).join("");
+  ].map(([value, label]) => `<button type="button" class="confidence-button" data-confidence="${value}" aria-pressed="false">${label}</button>`).join("") : "";
   const repeatLabel = item.repeat ? " · reaparece por error" : "";
   return `
     <article class="question" data-question-id="${escapeHtml(item.id)}">
       <p class="question__meta">${item.repeat ? "Repaso de error · " : ""}${escapeHtml(item.subtema ?? "")} · dificultad ${escapeHtml(item.dificultad ?? "—")}${repeatLabel}</p>
       <h3>${inlineMarkdown(item.enunciado)}</h3>
       <div class="question__options">${controls}</div>
-      <div class="question__confidence" role="group" aria-label="¿Qué tan segura es tu respuesta?">${confidence}</div>
+      ${withConfidence ? `<div class="question__confidence" role="group" aria-label="¿Qué tan segura es tu respuesta?">${confidence}</div>` : ""}
       <div class="question__actions"><button class="button button--primary" type="button" data-answer-button>Responder</button></div>
       <div class="question__feedback" aria-live="polite"></div>
     </article>`;

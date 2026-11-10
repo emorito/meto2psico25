@@ -1,4 +1,4 @@
-import { createDefaultStore, loadStore, saveStore } from "./store.js";
+import { createDefaultStore, getReviewQueue, loadStore, saveStore } from "./store.js";
 
 /**
  * METODOLOGÍA DE LA INVESTIGACIÓN II — PSICOLOGÍA UNIBE (PLAN 2026)
@@ -211,17 +211,21 @@ import { createDefaultStore, loadStore, saveStore } from "./store.js";
     function renderHeroRouteAndWeek(list, progress, stats) {
       if (!Array.isArray(list) || list.length === 0) return;
 
-      // 1. Encontrar el módulo para "Continuar con el módulo N"
-      // Regla: el primer módulo abierto y no dominado; si todos están dominados, el último.
-      let currentMod = null;
+      // 1. Continuar desde la última actividad registrada; si no existe, usar el primer módulo abierto.
+      const lastActivityEntry = list
+        .map((module) => ({ module, activity: progress.modules[module.id]?.lastActivity }))
+        .filter(({ activity }) => activity?.updatedAt)
+        .sort((a, b) => new Date(b.activity.updatedAt) - new Date(a.activity.updatedAt))[0];
+      let currentMod = lastActivityEntry?.module ?? null;
       for (let i = 0; i < list.length; i++) {
         const m = list[i];
         const mState = progress.modules[m.id] || {};
-        if (!mState.completed) {
+        if (!currentMod && !mState.completed) {
           currentMod = m;
           break;
         }
       }
+      if (!currentMod) currentMod = list[list.length - 1];
       if (!currentMod) {
         currentMod = list[list.length - 1];
       }
@@ -256,19 +260,22 @@ import { createDefaultStore, loadStore, saveStore } from "./store.js";
             '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>' +
             '<span>Preparación para el parcial<small>Diagnóstico rápido (16 ítems) y simulacro de 60 min</small></span>';
         } else if (currentMod) {
-          continueBtn.href = 'modulo.html?m=' + encodeURIComponent(currentMod.id);
+          const lastActivity = progress.modules[currentMod.id]?.lastActivity;
+          const stepQuery = lastActivity?.stepId ? '&step=' + encodeURIComponent(lastActivity.stepId) : '';
+          continueBtn.href = 'modulo.html?m=' + encodeURIComponent(currentMod.id) + stepQuery;
           if (continueNum) continueNum.textContent = String(currentMod.number || 1);
-          if (continueTitle) continueTitle.textContent = currentMod.title || '';
+          if (continueTitle) continueTitle.textContent = lastActivity?.stepId ? 'Continuar donde quedaste' : (currentMod.title || '');
         }
       }
 
-      // 2. Repaso de hoy · N ítems (oculto si no existe repaso espaciado)
+      // 2. Repaso de hoy · N ítems
       const reviewBtn = document.getElementById('hero-review-btn');
       const reviewCountEl = document.getElementById('hero-review-count');
-      const dueCount = (progress.spacedReview && progress.spacedReview.dueCount) || 0;
+      const dueCount = getReviewQueue(progress).length;
       if (reviewBtn) {
         if (dueCount > 0) {
           reviewBtn.style.display = 'inline-flex';
+          reviewBtn.href = 'repaso.html';
           if (reviewCountEl) reviewCountEl.textContent = dueCount + ' ítems';
         } else {
           reviewBtn.style.display = 'none';

@@ -17,6 +17,17 @@
 1. Fecha del examen final (fija el plazo del *merge*).
 2. Las cuatro del plan maestro: umbral del 80 %, comprobante, voseo e ítems en revisar.
 
+## Trabajo continuo — UX y generación controlada de ítems (10/11/2026)
+
+- Se incorporaron el plan de UX/banco y el inventario de materiales en `docs/PLAN-UX-Y-BANCO-AUTOMATICO.md` y `docs/INVENTARIO-MATERIALES-Y-BRECHAS.md`. La prioridad visible para estudiantes queda expresada con verbos cotidianos: **Seguir**, **Repasar**, **Practicar** y **Ver la explicación**.
+- La continuidad ahora usa `lastActivity` dentro del almacén único `meto2.v2`. La portada ofrece el módulo y paso donde se dejó; `modulo.html?m=mNN&step=...` restaura explícitamente el paso. No se promete sincronización entre dispositivos ni se agrega login.
+- Se agregó `repaso.html` y `assets/js/review-app.js`: la cola muestra errores o respuestas con seguridad insuficiente, registra el resultado y programa intervalos de 1, 3, 7, 14 y 30 días. Solo una respuesta correcta y segura avanza de caja; un error o una respuesta dudosa vuelve a la cola el mismo día. El módulo no considera los borradores de ítems.
+- Se agregó `scripts/validate_draft_items.py`, que valida estructura, IDs, metadatos, referencias declaradas y distribución de posiciones correctas sin cambiar estados.
+- Se agregaron modelos explícitos para m02 y m03 en `data/item_models/` y se generaron 16 nuevos candidatos en `data/borradores/m02.json` y `data/borradores/m03.json`. Los 96 borradores de m02, m03 y m08–m11 conservan `origen: "borrador_ia"` y `estado: "revisar"`; ninguno se publica ni se incorpora al banco aprobado.
+- Las referencias a materiales externos al repositorio se conservan como trazabilidad declarada; no se afirma que esos archivos estén empaquetados en GitHub Pages. Los faltantes de canon y la revisión docente siguen abiertos.
+- Verificación ejecutada: `node --test tests/*.mjs` — 22 pruebas pasan; `python3 scripts/verify_exam_readiness.py` pasa; `python3 scripts/validate_draft_items.py` valida 96 borradores; `node --check` pasa para los módulos JS; `git diff --check` limpio. La prueba de navegador de continuidad, repaso y almacenamiento único también pasa sin errores de consola, 404 inesperados ni overflow en móvil. Las capturas de este flujo quedan en `capturas/v3/ux/` para 375/1280 px y claro/oscuro.
+- Falta en esta etapa: simulacro independiente, página de progreso, glosario contextual, acciones de tarjetas y corrección de fechas heredadas de la portada. No se declara todavía completa la Etapa 2 ni se aprueba ningún borrador automáticamente.
+
 ## Registro de ejecución de Codex
 
 ### Tarea 1 — Migración de datos (08/11/2026)

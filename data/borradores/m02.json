@@ -1,0 +1,194 @@
+[
+  {
+    "enunciado": "Para delimitar el tema «la ansiedad ante los exámenes en estudiantes universitarios», ¿qué combinación ayuda a volverlo investigable?",
+    "opciones": [
+      "Precisar fenómeno, población, lugar y periodo",
+      "Elegir un título atractivo y ampliar la población indefinidamente",
+      "Definir primero el número de páginas del informe",
+      "Evitar toda lectura previa para no limitar la creatividad"
+    ],
+    "correcta": 0,
+    "dificultad": 1,
+    "subtema": "delimitacion",
+    "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+    "id": "m02-gen-001",
+    "tipo": "opcion_multiple",
+    "feedback": {
+      "correcto": "Correcto. Delimitar exige acotar el fenómeno y las unidades, el contexto espacial o institucional y el periodo cuando correspondan.",
+      "incorrecto": "Revisá este punto. Delimitar exige acotar el fenómeno y las unidades, el contexto espacial o institucional y el periodo cuando correspondan."
+    },
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": "Revisar exactitud, distractores, dificultad y referencia antes de aprobar.",
+    "modelo_id": "m02-delimitacion-componentes",
+    "generado_en": "2026-11-10"
+  },
+  {
+    "enunciado": "¿Cuál de estas formulaciones se acerca más a un problema de investigación y no solo a un tema?",
+    "opciones": [
+      "Salud mental en jóvenes",
+      "Relación entre apoyo social y ansiedad en estudiantes de primer año de una universidad de Asunción durante 2026",
+      "Psicología comunitaria",
+      "Redes sociales"
+    ],
+    "correcta": 1,
+    "dificultad": 2,
+    "subtema": "problema",
+    "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+    "id": "m02-gen-002",
+    "tipo": "opcion_multiple",
+    "feedback": {
+      "correcto": "Correcto. Un problema investigable precisa el fenómeno, la población o unidad, el contexto y el alcance; un tema aislado todavía es demasiado amplio.",
+      "incorrecto": "Revisá este punto. Un problema investigable precisa el fenómeno, la población o unidad, el contexto y el alcance; un tema aislado todavía es demasiado amplio."
+    },
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": "Revisar exactitud, distractores, dificultad y referencia antes de aprobar.",
+    "modelo_id": "m02-tema-problema",
+    "generado_en": "2026-11-10"
+  },
+  {
+    "enunciado": "Para buscar literatura sobre «apoyo social y ansiedad académica», ¿qué estrategia inicial es más verificable?",
+    "opciones": [
+      "Escribir una pregunta completa y aceptar el primer resultado",
+      "Usar solo el nombre coloquial del tema",
+      "Combinar descriptores y sinónimos, y registrar las fuentes encontradas",
+      "Copiar las palabras clave de una respuesta de IA sin revisar su origen"
+    ],
+    "correcta": 2,
+    "dificultad": 1,
+    "subtema": "busqueda",
+    "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+    "id": "m02-gen-003",
+    "tipo": "opcion_multiple",
+    "feedback": {
+      "correcto": "Correcto. Una búsqueda trazable parte de descriptores y sinónimos, registra la ecuación utilizada y verifica la fuente antes de incorporarla.",
+      "incorrecto": "Revisá este punto. Una búsqueda trazable parte de descriptores y sinónimos, registra la ecuación utilizada y verifica la fuente antes de incorporarla."
+    },
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": "Revisar exactitud, distractores, dificultad y referencia antes de aprobar.",
+    "modelo_id": "m02-descriptores",
+    "generado_en": "2026-11-10"
+  },
+  {
+    "enunciado": "Al elegir entre dos temas igualmente interesantes, la factibilidad se refiere principalmente a: ",
+    "opciones": [
+      "La posibilidad real de acceder a fuentes, participantes, tiempo y recursos",
+      "La cantidad de personas que ya hablan del tema en redes sociales",
+      "La seguridad de que el resultado confirmará la opinión inicial",
+      "La obligación de estudiar el tema más novedoso"
+    ],
+    "correcta": 0,
+    "dificultad": 2,
+    "subtema": "factibilidad",
+    "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+    "id": "m02-gen-004",
+    "tipo": "opcion_multiple",
+    "feedback": {
+      "correcto": "Correcto. La factibilidad combina acceso, tiempo, recursos y preparación; no equivale a popularidad ni garantiza un resultado favorable.",
+      "incorrecto": "Revisá este punto. La factibilidad combina acceso, tiempo, recursos y preparación; no equivale a popularidad ni garantiza un resultado favorable."
+    },
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": "Revisar exactitud, distractores, dificultad y referencia antes de aprobar.",
+    "modelo_id": "m02-factibilidad",
+    "generado_en": "2026-11-10"
+  },
+  {
+    "enunciado": "Si una herramienta de IA propone una fuente para el tema «uso de redes sociales y bienestar psicológico», ¿qué corresponde hacer antes de usarla?",
+    "opciones": [
+      "Copiar la referencia porque la herramienta ya la verificó",
+      "Usarla solo si confirma la hipótesis del estudiante",
+      "Eliminar la fuente para evitar cualquier uso de IA",
+      "Localizar la fuente, comprobar que existe y revisar si responde al problema"
+    ],
+    "correcta": 3,
+    "dificultad": 2,
+    "subtema": "ia_responsable",
+    "lectura_ref": "Actividades de clase/🎓 Guía Completa - Búsqueda, Redacción y Uso Ético de IA en la Investigación Académica.md",
+    "id": "m02-gen-005",
+    "tipo": "opcion_multiple",
+    "feedback": {
+      "correcto": "Correcto. La IA puede ampliar opciones, pero la responsabilidad de localizar, verificar y seleccionar la fuente sigue siendo del estudiante.",
+      "incorrecto": "Revisá este punto. La IA puede ampliar opciones, pero la responsabilidad de localizar, verificar y seleccionar la fuente sigue siendo del estudiante."
+    },
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": "Revisar exactitud, distractores, dificultad y referencia antes de aprobar.",
+    "modelo_id": "m02-ia-verificacion",
+    "generado_en": "2026-11-10"
+  },
+  {
+    "enunciado": "¿Qué riesgo aparece cuando el tema «todas las causas del estrés en la población» intenta abarcar demasiadas poblaciones, lugares y periodos?",
+    "opciones": [
+      "El estudio se vuelve más preciso automáticamente",
+      "El problema pierde viabilidad y el alcance se vuelve difícil de sostener",
+      "La literatura deja de ser necesaria",
+      "La muestra se vuelve representativa sin un diseño de selección"
+    ],
+    "correcta": 1,
+    "dificultad": 2,
+    "subtema": "delimitacion",
+    "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+    "id": "m02-gen-006",
+    "tipo": "opcion_multiple",
+    "feedback": {
+      "correcto": "Correcto. Un alcance excesivo dificulta formular una pregunta, reunir evidencia y sostener el proyecto con los recursos disponibles.",
+      "incorrecto": "Revisá este punto. Un alcance excesivo dificulta formular una pregunta, reunir evidencia y sostener el proyecto con los recursos disponibles."
+    },
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": "Revisar exactitud, distractores, dificultad y referencia antes de aprobar.",
+    "modelo_id": "m02-delimitacion-exceso",
+    "generado_en": "2026-11-10"
+  },
+  {
+    "enunciado": "¿Cuál es una señal de que una fuente encontrada puede incorporarse a la revisión inicial?",
+    "opciones": [
+      "Tiene un título parecido al del proyecto, aunque no se puede localizar",
+      "Aparece muchas veces en resultados, aunque no se conoce su autoría",
+      "Fue resumida por una herramienta automática y no necesita lectura",
+      "Se puede localizar, identificar y relacionar con una pregunta concreta del proyecto"
+    ],
+    "correcta": 3,
+    "dificultad": 1,
+    "subtema": "busqueda",
+    "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+    "id": "m02-gen-007",
+    "tipo": "opcion_multiple",
+    "feedback": {
+      "correcto": "Correcto. La trazabilidad exige poder localizar la fuente, reconocer su autoría y explicar qué aporta a una pregunta del proyecto.",
+      "incorrecto": "Revisá este punto. La trazabilidad exige poder localizar la fuente, reconocer su autoría y explicar qué aporta a una pregunta del proyecto."
+    },
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": "Revisar exactitud, distractores, dificultad y referencia antes de aprobar.",
+    "modelo_id": "m02-fuente-verificable",
+    "generado_en": "2026-11-10"
+  },
+  {
+    "enunciado": "¿Cuál de estas opciones conserva un tema delimitado sin convertirlo todavía en una conclusión?",
+    "opciones": [
+      "El efecto definitivo de las redes sociales sobre toda la salud mental",
+      "La salud mental, un problema ya resuelto por la tecnología",
+      "La relación entre uso nocturno de redes y calidad del sueño en estudiantes de Psicología de Asunción durante 2026",
+      "Todo lo que se sabe sobre adolescentes y tecnología"
+    ],
+    "correcta": 2,
+    "dificultad": 3,
+    "subtema": "delimitacion",
+    "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+    "id": "m02-gen-008",
+    "tipo": "opcion_multiple",
+    "feedback": {
+      "correcto": "Correcto. Un tema delimitado acota fenómeno, población, contexto y periodo sin afirmar de antemano cuál será el resultado.",
+      "incorrecto": "Revisá este punto. Un tema delimitado acota fenómeno, población, contexto y periodo sin afirmar de antemano cuál será el resultado."
+    },
+    "origen": "borrador_ia",
+    "estado": "revisar",
+    "nota_revision": "Revisar exactitud, distractores, dificultad y referencia antes de aprobar.",
+    "modelo_id": "m02-tema-delimitado",
+    "generado_en": "2026-11-10"
+  }
+]

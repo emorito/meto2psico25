@@ -12,12 +12,13 @@ import {
   scoreVerification,
   stepFromQuery,
 } from "./engine.js";
-import { loadStore, saveStore, updateModule } from "./store.js";
+import { loadStore, reviewPlan, saveStore, updateModule } from "./store.js";
 import { mountSamplingToolBlock } from "./muestreo/index.mjs";
 
 const params = new URLSearchParams(window.location.search);
 const moduleId = /^m\d{2}$/.test(params.get("m") ?? "") ? params.get("m") : "m05";
-const requestedStep = stepFromQuery(params.get("step"));
+const requestedStepId = params.get("step");
+const requestedStep = requestedStepId ? stepFromQuery(requestedStepId) : null;
 const state = {
   module: null,
   content: null,
@@ -159,8 +160,8 @@ function renderGuided() {
     <div class="case-list">${renderCases()}</div>${renderGallery()}</section>`;
 }
 
-function renderQuestionList(items, key, intro) {
-  return `<div class="question-list"><p class="muted">${escapeHtml(intro)}</p>${items.map((item) => renderQuestion(item, { name: `${key}-${item.id}` })).join("")}</div>`;
+function renderQuestionList(items, key, intro, { withConfidence = false } = {}) {
+  return `<div class="question-list"><p class="muted">${escapeHtml(intro)}</p>${items.map((item) => renderQuestion(item, { name: `${key}-${item.id}`, withConfidence })).join("")}</div>`;
 }
 
 function formatDomainDate(value) {
@@ -190,13 +191,13 @@ function renderPractice() {
     : session.primaryServed >= session.targetCount
       ? `Sesión completa: ${session.answers.length} respuestas, con errores reaparecidos al final.`
     : `Ítem ${session.primaryServed + 1} de ${session.targetCount} · dificultad objetivo ${session.currentDifficulty}.`;
-  return `<section class="module-step is-active">${renderStepHeader("Paso 6 · Práctica adaptativa", "Practicá con feedback inmediato", "La dificultad sube después de dos aciertos seguidos, baja después de un error y los errores reaparecen al final de la sesión.")}${renderQuestionList(current, "adaptativa", progress)}</section>`;
+  return `<section class="module-step is-active">${renderStepHeader("Paso 6 · Práctica adaptativa", "Practicá con feedback inmediato", "La dificultad sube después de dos aciertos seguidos, baja después de un error y los errores reaparecen al final de la sesión.")}${renderQuestionList(current, "adaptativa", progress, { withConfidence: true })}</section>`;
 }
 
 function renderVerification() {
   const session = state.sessions.verificacion ?? (state.sessions.verificacion = createSession(state.items, { mode: "verificacion" }));
   const previous = state.store.modules?.[moduleId]?.domain;
-  return `<section class="module-step is-active">${renderStepHeader("Paso 7 · Verificación de dominio", "Comprobá tu dominio", "El módulo se considera dominado con 80 % o más en esta verificación de 10 ítems.")}${previous ? renderDomainResult(previous) : ""}${renderQuestionList(session.items, "verificacion", "3 ítems de dificultad 1, 4 de dificultad 2 y 3 de dificultad 3")}<div class="verification-actions"><button class="button button--primary" type="button" data-verification-submit>Calificar verificación</button><div data-verification-result aria-live="polite"></div></div></section>`;
+  return `<section class="module-step is-active">${renderStepHeader("Paso 7 · Verificación de dominio", "Comprobá tu dominio", "El módulo se considera dominado con 80 % o más en esta verificación de 10 ítems.")}${previous ? renderDomainResult(previous) : ""}${renderQuestionList(session.items, "verificacion", "3 ítems de dificultad 1, 4 de dificultad 2 y 3 de dificultad 3", { withConfidence: true })}<div class="verification-actions"><button class="button button--primary" type="button" data-verification-submit>Calificar verificación</button><div data-verification-result aria-live="polite"></div></div></section>`;
 }
 
 function renderDiagnosis() {
@@ -266,7 +267,7 @@ function attachQuestionHandlers() {
         feedback.innerHTML = `<p class="feedback feedback--error">Elegí una opción antes de responder.</p>`;
         return;
       }
-      if (!seguridad) {
+      if (question.querySelector("[data-confidence]") && !seguridad) {
         feedback.innerHTML = `<p class="feedback feedback--error">Declará tu seguridad antes de responder: seguro, dudoso o adiviné.</p>`;
         return;
       }
@@ -288,7 +289,27 @@ function attachQuestionHandlers() {
       button.disabled = true;
       question.querySelectorAll("input").forEach((input) => { input.disabled = true; });
       question.querySelectorAll("[data-confidence]").forEach((confidenceButton) => { confidenceButton.disabled = true; });
-      state.store.responses.push({ id: item.id, modulo: moduleId, correcto: correct, seguridad, fecha: new Date().toISOString() });
+      const previous = [...state.store.responses].reverse().find((response) => (response.modulo ?? response.moduleId) === moduleId && response.id === item.id);
+      const fecha = new Date().toISOString();
+      state.store.responses.push({
+        id: item.id,
+        modulo: moduleId,
+        correcto: correct,
+        seguridad: seguridad ?? null,
+        revisar: state.activeStep === 5 || state.activeStep === 6 || !correct,
+        fecha,
+        ...reviewPlan({ correcto: correct, seguridad, caja: previous?.caja ?? 0, now: fecha }),
+      });
+      const nextActivity = state.activeStep === 5 ? state.sessions.adaptativa.currentItem : item;
+      state.store = updateModule(state.store, moduleId, {
+        currentStep: state.activeStep + 1,
+        lastActivity: {
+          kind: state.activeStep === 5 ? "practice" : state.activeStep === 6 ? "verification" : "diagnostic",
+          stepId: MODULE_STEPS[state.activeStep].id,
+          questionId: nextActivity?.id ?? item.id,
+          updatedAt: fecha,
+        },
+      });
       if (state.activeStep === 5) {
         const next = state.sessions.adaptativa.currentItem;
         feedback.insertAdjacentHTML("beforeend", next
@@ -351,6 +372,15 @@ function showStep(index) {
   const url = new URL(window.location.href);
   url.searchParams.set("step", MODULE_STEPS[state.activeStep].id);
   window.history.replaceState({}, "", url);
+  state.store = updateModule(state.store, moduleId, {
+    currentStep: state.activeStep + 1,
+    lastActivity: {
+      kind: "module",
+      stepId: MODULE_STEPS[state.activeStep].id,
+      updatedAt: new Date().toISOString(),
+    },
+  });
+  saveStore(state.store);
   renderCurrentStep();
 }
 
@@ -370,6 +400,11 @@ async function load() {
     const cards = await cardsResponse.json();
     state.cards = cards.filter((card) => card.modulo_id === moduleId);
     if (!state.module) throw new Error(`No existe el módulo ${moduleId}.`);
+    if (requestedStep === null) {
+      const savedActivity = state.store.modules?.[moduleId]?.lastActivity;
+      const savedStep = savedActivity?.stepId ?? MODULE_STEPS[(state.store.modules?.[moduleId]?.currentStep ?? 1) - 1]?.id;
+      state.activeStep = stepFromQuery(savedStep);
+    }
     initializeTheme();
     renderHeader();
     statusEl.textContent = `${approvedItems(state.items).length} ítems aprobados disponibles.`;

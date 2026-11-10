@@ -82,6 +82,7 @@ test("la práctica adaptativa cambia dificultad y repite errores al final", () =
 });
 
 test("cada pregunta ofrece declaración de seguridad", () => {
-  const html = renderQuestion({ id: "q1", enunciado: "Pregunta", opciones: ["A", "B"], correcta: 0 });
+  const html = renderQuestion({ id: "q1", enunciado: "Pregunta", opciones: ["A", "B"], correcta: 0 }, { withConfidence: true });
   assert.equal((html.match(/data-confidence=/g) ?? []).length, 3);
+  assert.equal((renderQuestion({ id: "q2", enunciado: "Diagnóstico", opciones: ["A", "B"], correcta: 0 }).match(/data-confidence=/g) ?? []).length, 0);
 });

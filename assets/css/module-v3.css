@@ -63,6 +63,11 @@
 .domain-result { margin-bottom: var(--s-5); padding: var(--s-4); border-left: 3px solid var(--ok); background: var(--ok-soft); }
 .domain-result--review { border-color: var(--warn); background: var(--warn-soft); }
 .domain-result p:last-child { margin-bottom: 0; }
+.review-main { max-width: 760px; }
+.review-page__header { margin-bottom: var(--s-5); }
+.review-page__header p:last-child { margin-bottom: 0; }
+.review-progress { height: 8px; overflow: hidden; margin-top: var(--s-4); border-radius: 999px; background: var(--surface-2); }
+.review-progress span { display: block; width: var(--progress, 0%); height: 100%; background: var(--accent); transition: width var(--dur) ease; }
 
 .case { padding: var(--s-4); border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
 .case summary, .gallery-card summary { cursor: pointer; font-weight: 600; }
