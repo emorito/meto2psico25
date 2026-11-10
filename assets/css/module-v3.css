@@ -55,6 +55,12 @@
 .confidence-button:hover, .confidence-button.is-selected { border-color: var(--primary); background: var(--primary-soft); color: var(--primary); }
 .question__actions { display: flex; justify-content: flex-end; }
 .question__feedback { margin-top: var(--s-3); }
+.card-study-actions { margin-top: var(--s-4); padding-top: var(--s-3); border-top: 1px solid var(--line); }
+.card-study-actions > p { margin-bottom: var(--s-2); }
+.review-card { padding: var(--s-5); border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); box-shadow: var(--shadow); }
+.review-card h2 { margin-bottom: var(--s-4); }
+.review-card details { padding: var(--s-3); border: 1px solid var(--line); border-radius: var(--radius-sm); background: var(--surface-2); }
+.review-card summary { cursor: pointer; color: var(--primary); font-weight: 600; }
 .feedback { padding: var(--s-3) var(--s-4); border-left: 3px solid var(--ok); background: var(--ok-soft); }
 .feedback--error { border-color: var(--err); background: var(--err-soft); }
 .feedback p:last-child { margin-bottom: 0; }

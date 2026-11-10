@@ -165,10 +165,22 @@ export function getReviewQueue(store, now = new Date()) {
     if (!moduleId || !response.id) continue;
     latest.set(`${moduleId}:${response.id}`, { ...response, modulo: moduleId });
   }
+  for (const [moduleId, cards] of Object.entries(store?.leitner ?? {})) {
+    for (const [cardId, card] of Object.entries(cards ?? {})) {
+      if (!card || !card.nextReviewAt) continue;
+      latest.set(`${moduleId}:${cardId}`, {
+        ...card,
+        id: card.id ?? cardId,
+        modulo: moduleId,
+        kind: "card",
+        revisar: true,
+      });
+    }
+  }
   const timestamp = new Date(now).getTime();
   return [...latest.values()]
     .filter((response) => response.revisar !== false)
-    .filter((response) => response.correcto !== true || response.seguridad !== "seguro")
+    .filter((response) => response.kind === "card" || response.correcto !== true || response.seguridad !== "seguro")
     .filter((response) => !response.nextReviewAt || new Date(response.nextReviewAt).getTime() <= timestamp)
     .sort((a, b) => new Date(a.nextReviewAt ?? 0).getTime() - new Date(b.nextReviewAt ?? 0).getTime());
 }

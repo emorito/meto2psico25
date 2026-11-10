@@ -137,7 +137,7 @@ function renderStudy() {
 
 function renderConcepts() {
   return `<section class="module-step is-active">${renderStepHeader("Paso 4 · Repasá conceptos", "Recuperación activa", "Mostrá la respuesta después de intentar definir cada concepto.")}
-    <div class="capsule__cards">${state.cards.map((card) => `<details class="capsule__card"><summary>${inlineMarkdown(card.frente ?? card.front ?? "Concepto")}</summary><p>${inlineMarkdown(card.dorso ?? card.back ?? "")}</p><p class="card__meta">${escapeHtml(card.tag ?? "")}</p></details>`).join("")}</div>
+    <div class="capsule__cards">${state.cards.map((card) => { const saved = state.store.leitner?.[moduleId]?.[card.id]; return `<details class="capsule__card"><summary>${inlineMarkdown(card.frente ?? card.front ?? "Concepto")}</summary><p>${inlineMarkdown(card.dorso ?? card.back ?? "")}</p><p class="card__meta">${escapeHtml(card.tag ?? "")}</p><div class="card-study-actions" data-card-id="${escapeHtml(card.id)}"><p class="muted">Después de intentar recordarlo, elegí cómo te fue:</p><div class="cluster"><button type="button" class="button button--quiet" data-card-rating="lo-sabía">Lo sabía</button><button type="button" class="button button--quiet" data-card-rating="dudé">Dudé</button><button type="button" class="button button--quiet" data-card-rating="no-lo-sabía">No lo sabía</button></div><p class="step-status" data-card-status>${saved ? `Última respuesta: ${escapeHtml(saved.ultimaRespuesta)}.` : ""}</p></div></details>`; }).join("")}</div>
   </section>`;
 }
 
@@ -221,11 +221,42 @@ function renderCurrentStep() {
   contentEl.innerHTML = renderers[state.activeStep]();
   if (state.activeStep === 2) mountTools();
   attachQuestionHandlers();
+  attachCardHandlers();
   attachVerificationHandler();
   attachAuditHandlers();
   attachClosingHandler();
   renderNav();
   contentEl.querySelector(".module-step")?.scrollIntoView({ block: "start" });
+}
+
+function attachCardHandlers() {
+  contentEl.querySelectorAll("[data-card-rating]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const actions = button.closest("[data-card-id]");
+      const cardId = actions?.dataset.cardId;
+      if (!cardId) return;
+      const rating = button.dataset.cardRating;
+      const fecha = new Date().toISOString();
+      const previous = state.store.leitner?.[moduleId]?.[cardId];
+      const plan = reviewPlan({
+        correcto: rating === "lo-sabía",
+        seguridad: rating === "lo-sabía" ? "seguro" : rating === "dudé" ? "dudoso" : "adivine",
+        caja: previous?.caja ?? 0,
+        now: fecha,
+      });
+      state.store.leitner ??= {};
+      state.store.leitner[moduleId] ??= {};
+      state.store.leitner[moduleId][cardId] = { id: cardId, modulo: moduleId, ...plan, ultimaRespuesta: rating, fecha };
+      state.store = updateModule(state.store, moduleId, {
+        currentStep: 4,
+        lastActivity: { kind: "concepts", stepId: "conceptos", questionId: cardId, updatedAt: fecha },
+      });
+      const saved = saveStore(state.store);
+      actions.querySelectorAll("[data-card-rating]").forEach((candidate) => { candidate.disabled = true; });
+      const status = actions.querySelector("[data-card-status]");
+      if (status) status.textContent = saved ? (rating === "lo-sabía" ? "Guardado. Volverá más adelante." : "Guardado. Lo vas a volver a ver en el repaso.") : "No se pudo guardar en este dispositivo.";
+    });
+  });
 }
 
 function mountTools() {

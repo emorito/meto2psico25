@@ -78,3 +78,19 @@ test("la cola conserva el último error pendiente y excluye una respuesta correg
   const queue = getReviewQueue(store, new Date("2026-11-10T12:00:00Z"));
   assert.deepEqual(queue.map((item) => item.id), ["q2"]);
 });
+
+test("la cola incorpora tarjetas marcadas para repaso", () => {
+  const store = createDefaultStore();
+  store.leitner.m01 = {
+    "m01-fc-0001": {
+      id: "m01-fc-0001",
+      caja: 0,
+      nextReviewAt: "2026-11-10T12:00:00.000Z",
+      ultimaRespuesta: "dudé",
+    },
+  };
+  const queue = getReviewQueue(store, new Date("2026-11-10T12:00:00Z"));
+  assert.equal(queue.length, 1);
+  assert.equal(queue[0].kind, "card");
+  assert.equal(queue[0].modulo, "m01");
+});

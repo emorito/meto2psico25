@@ -124,6 +124,12 @@ try {
   const continuation = await evaluate(page, `({ href: document.querySelector("#hero-continue-btn")?.getAttribute("href"), review: document.querySelector("#hero-review-btn")?.style.display })`);
   if (!continuation?.href?.includes("m=m05") || !continuation.href.includes("step=adaptativa")) throw new Error(`Continuidad incorrecta: ${JSON.stringify(continuation)}`);
 
+  await page.send("Page.navigate", { url: `http://127.0.0.1:${PORT}/modulo.html?m=m05&step=conceptos` });
+  await waitFor(page, `Boolean(document.querySelector("[data-card-rating]"))`);
+  await evaluate(page, `document.querySelector('[data-card-rating="no-lo-sabía"]').click()`);
+  const cardSaved = await evaluate(page, `Boolean(JSON.parse(localStorage.getItem("meto2.v2") || "null")?.leitner?.m05?.[document.querySelector("[data-card-id]")?.dataset.cardId])`);
+  if (!cardSaved) throw new Error("La valoración de la tarjeta no se guardó.");
+
   await page.send("Page.navigate", { url: `http://127.0.0.1:${PORT}/progreso.html` });
   await waitFor(page, `Boolean(document.querySelector("[data-progress-module]"))`);
   const progress = await evaluate(page, `({ modules: document.querySelectorAll("[data-progress-module]").length, href: document.querySelector('[data-progress-module="m05"] a')?.getAttribute("href") })`);
@@ -175,8 +181,15 @@ try {
   await page.send("Emulation.setDeviceMetricsOverride", { width: 375, height: 900, deviceScaleFactor: 1, mobile: true });
   await page.send("Page.navigate", { url: `http://127.0.0.1:${PORT}/repaso.html` });
   await waitFor(page, `Boolean(document.querySelector("[data-question-id]"))`);
-  const review = await evaluate(page, `({ question: Boolean(document.querySelector("[data-question-id]")), confidence: document.querySelectorAll("[data-confidence]").length })`);
-  if (!review?.question || review.confidence !== 3) throw new Error(`Repaso incompleto: ${JSON.stringify(review)}`);
+  let review = await evaluate(page, `({ question: Boolean(document.querySelector("[data-question-id]")), card: Boolean(document.querySelector("[data-card-id]")), confidence: document.querySelectorAll("[data-confidence]").length })`);
+  if ((!review?.question && !review?.card) || (review.question && review.confidence !== 3) || (review.card && review.confidence !== 0)) throw new Error(`Repaso incompleto: ${JSON.stringify(review)}`);
+  if (review.question) {
+    await evaluate(page, `(() => { const store = JSON.parse(localStorage.getItem("meto2.v2")); store.responses = []; localStorage.setItem("meto2.v2", JSON.stringify(store)); })()`);
+    await page.send("Page.navigate", { url: `http://127.0.0.1:${PORT}/repaso.html` });
+    await waitFor(page, `Boolean(document.querySelector("[data-card-id]"))`);
+    review = await evaluate(page, `({ question: Boolean(document.querySelector("[data-question-id]")), card: Boolean(document.querySelector("[data-card-id]")), confidence: document.querySelectorAll("[data-confidence]").length })`);
+    if (!review.card || review.confidence !== 0) throw new Error(`Repaso de tarjeta incompleto: ${JSON.stringify(review)}`);
+  }
   await setTheme(page, "light");
   await capture(page, "repaso_mobile_375_light.png");
   await setTheme(page, "dark");
