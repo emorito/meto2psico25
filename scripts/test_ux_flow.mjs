@@ -68,6 +68,7 @@ async function openPage(url, width, height) {
   await send("Page.enable");
   await send("Runtime.enable");
   await send("Emulation.setDeviceMetricsOverride", { width, height, deviceScaleFactor: 1, mobile: width < 500 });
+  await send("Page.addScriptToEvaluateOnNewDocument", { source: "Math.random = () => 0.42;" });
   await send("Page.navigate", { url });
   await new Promise((resolve) => setTimeout(resolve, 900));
   return { send, socket };
@@ -122,6 +123,20 @@ try {
   await waitFor(page, `Boolean(document.querySelector("#hero-continue-btn")?.getAttribute("href")?.includes("m=m05"))`);
   const continuation = await evaluate(page, `({ href: document.querySelector("#hero-continue-btn")?.getAttribute("href"), review: document.querySelector("#hero-review-btn")?.style.display })`);
   if (!continuation?.href?.includes("m=m05") || !continuation.href.includes("step=adaptativa")) throw new Error(`Continuidad incorrecta: ${JSON.stringify(continuation)}`);
+
+  await page.send("Page.navigate", { url: `http://127.0.0.1:${PORT}/progreso.html` });
+  await waitFor(page, `Boolean(document.querySelector("[data-progress-module]"))`);
+  const progress = await evaluate(page, `({ modules: document.querySelectorAll("[data-progress-module]").length, href: document.querySelector('[data-progress-module="m05"] a')?.getAttribute("href") })`);
+  if (progress.modules !== 11 || !progress.href?.includes("m=m05")) throw new Error(`Progreso incompleto: ${JSON.stringify(progress)}`);
+  await setTheme(page, "light");
+  await capture(page, "progreso_mobile_375_light.png");
+  await setTheme(page, "dark");
+  await capture(page, "progreso_mobile_375_dark.png");
+  await page.send("Emulation.setDeviceMetricsOverride", { width: 1280, height: 900, deviceScaleFactor: 1, mobile: false });
+  await setTheme(page, "light");
+  await capture(page, "progreso_desktop_1280_light.png");
+  await setTheme(page, "dark");
+  await capture(page, "progreso_desktop_1280_dark.png");
 
   await page.send("Page.navigate", { url: `http://127.0.0.1:${PORT}/repaso.html` });
   await waitFor(page, `Boolean(document.querySelector("[data-question-id]"))`);

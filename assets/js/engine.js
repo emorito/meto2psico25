@@ -11,15 +11,15 @@ export const COHERENCE_CHAIN = [
 ];
 
 export const MODULE_STEPS = [
-  { id: "ubicacion", label: "Ubicación" },
-  { id: "diagnostico", label: "Diagnóstico" },
-  { id: "estudio", label: "Estudio" },
-  { id: "conceptos", label: "Conceptos" },
+  { id: "ubicacion", label: "Ubicá tu proyecto" },
+  { id: "diagnostico", label: "Qué ya sabés" },
+  { id: "estudio", label: "Estudiá" },
+  { id: "conceptos", label: "Repasá conceptos" },
   { id: "guiada", label: "Práctica guiada" },
-  { id: "adaptativa", label: "Práctica adaptativa" },
-  { id: "verificacion", label: "Dominio" },
-  { id: "auditoria", label: "Autoauditoría" },
-  { id: "cierre", label: "Cierre" },
+  { id: "adaptativa", label: "Practicá" },
+  { id: "verificacion", label: "Verificá lo aprendido" },
+  { id: "auditoria", label: "Aplicalo a tu proyecto" },
+  { id: "cierre", label: "Cerrá la sesión" },
 ];
 
 export function escapeHtml(value) {

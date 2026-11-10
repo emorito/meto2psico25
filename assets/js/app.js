@@ -11,7 +11,7 @@ import { createDefaultStore, getReviewQueue, loadStore, saveStore } from "./stor
 
   const TOTAL_MODULES = 11;
   const TOTAL_FLIPCARDS_COURSE = 115;
-  const PASS_THRESHOLD = 70;
+  const PASS_THRESHOLD = 80;
 
   const STAGE_MAP = {
     m01: { stage: 1, name: 'Etapa 1 · Fundamentos y Literatura' },
@@ -234,7 +234,8 @@ import { createDefaultStore, getReviewQueue, loadStore, saveStore } from "./stor
       const EXAMEN_EVENT = {
         tipo: 'examen',
         nombre: 'Examen parcial',
-        fecha: '2026-10-13',
+        // La fecha del examen queda abierta hasta la decisión docente; no mostrar una fecha vencida.
+        fecha: null,
         modulos: ['m01', 'm02', 'm03', 'm04', 'm05', 'm06', 'm07', 'm08'],
         duracion_min: 60
       };
@@ -245,10 +246,10 @@ import { createDefaultStore, getReviewQueue, loadStore, saveStore } from "./stor
       const d = String(now.getDate()).padStart(2, '0');
       const todayStr = y + '-' + m + '-' + d;
 
-      const examDate = new Date(EXAMEN_EVENT.fecha + 'T00:00:00');
+      const examDate = EXAMEN_EVENT.fecha ? new Date(EXAMEN_EVENT.fecha + 'T00:00:00') : null;
       const nowDateOnly = new Date(todayStr + 'T00:00:00');
-      const diffDays = Math.round((examDate.getTime() - nowDateOnly.getTime()) / (1000 * 60 * 60 * 24));
-      const examActive = diffDays >= 0 && diffDays <= 7;
+      const diffDays = examDate ? Math.round((examDate.getTime() - nowDateOnly.getTime()) / (1000 * 60 * 60 * 24)) : null;
+      const examActive = Number.isFinite(diffDays) && diffDays >= 0 && diffDays <= 7;
 
       const continueBtn = document.getElementById('hero-continue-btn');
       const continueNum = document.getElementById('hero-continue-num');
@@ -1536,8 +1537,8 @@ import { createDefaultStore, getReviewQueue, loadStore, saveStore } from "./stor
             '</h3>' +
             '<p style="margin-top:0.4rem;">' +
               (passed
-                ? 'Has superado el umbral del 70%. Este módulo ha quedado registrado como aprobado y el siguiente módulo se encuentra desbloqueado.'
-                : 'Se requiere al menos 70% para aprobar el módulo. Revisa la retroalimentación formativa detallada en cada ítem arriba y vuelve a intentarlo.') +
+                ? 'Has superado el umbral del 80%. Este módulo ha quedado registrado como aprobado y el siguiente módulo se encuentra desbloqueado.'
+                : 'Se requiere al menos 80% para aprobar el módulo. Revisa la retroalimentación formativa detallada en cada ítem arriba y vuelve a intentarlo.') +
             '</p>' +
             '<div style="margin-top:1rem; display:flex; gap:0.75rem; flex-wrap:wrap;">' +
               '<button type="button" id="banner-retry-btn" class="btn btn-outline">🔀 Intentar con nuevas preguntas</button>' +

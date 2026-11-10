@@ -96,7 +96,7 @@ function renderStepHeader(eyebrow, title, description) {
 function renderUbicacion() {
   const outcomes = (state.module.resultados ?? []).map((result) => `<li>${inlineMarkdown(result)}</li>`).join("");
   const questions = (state.module.preguntas_orientadoras ?? []).map((question) => `<li>${inlineMarkdown(question)}</li>`).join("");
-  return `<section class="module-step is-active">${renderStepHeader("Paso 1 · Ubicación", "Dónde estás en el proyecto", "La cadena ordena el proyecto sin convertirlo en una secuencia rígida.")}
+  return `<section class="module-step is-active">${renderStepHeader("Paso 1 · Ubicá tu proyecto", "Dónde estás en el proyecto", "La cadena ordena el proyecto sin convertirlo en una secuencia rígida.")}
     <div class="card stack"><div>${renderCoherenceChain()}</div><div><h3>Resultados de aprendizaje</h3><ul>${outcomes || "<li>Los resultados se cargarán con el contenido validado del módulo.</li>"}</ul></div>${questions ? `<div><h3>Preguntas orientadoras</h3><ul>${questions}</ul></div>` : ""}</div>
   </section>`;
 }
@@ -130,13 +130,13 @@ function renderCapsuleBlock(block, index) {
 
 function renderStudy() {
   const blocks = state.content.capsula?.blocks ?? [];
-  return `<section class="module-step is-active">${renderStepHeader("Paso 3 · Estudio", "Lectura, cápsula y herramientas", "Estudiá la síntesis y usá las herramientas cuando el diseño de tu estudio lo requiera.")}
+  return `<section class="module-step is-active">${renderStepHeader("Paso 3 · Estudiá", "Lectura, cápsula y herramientas", "Estudiá la síntesis y usá las herramientas cuando el diseño de tu estudio lo requiera.")}
     <div class="module-layout"><div class="capsule">${renderResources()}${blocks.map(renderCapsuleBlock).join("")}</div><aside class="module-sidebar card"><h3>Antes de seguir</h3><p class="muted">Intentá explicar el concepto con tus palabras y anotá qué supuesto todavía necesitás revisar.</p></aside></div>
   </section>`;
 }
 
 function renderConcepts() {
-  return `<section class="module-step is-active">${renderStepHeader("Paso 4 · Conceptos clave", "Recuperación activa", "Mostrá la respuesta después de intentar definir cada concepto.")}
+  return `<section class="module-step is-active">${renderStepHeader("Paso 4 · Repasá conceptos", "Recuperación activa", "Mostrá la respuesta después de intentar definir cada concepto.")}
     <div class="capsule__cards">${state.cards.map((card) => `<details class="capsule__card"><summary>${inlineMarkdown(card.frente ?? card.front ?? "Concepto")}</summary><p>${inlineMarkdown(card.dorso ?? card.back ?? "")}</p><p class="card__meta">${escapeHtml(card.tag ?? "")}</p></details>`).join("")}</div>
   </section>`;
 }
@@ -176,7 +176,7 @@ function renderDomainResult(domain) {
   const review = domain.subtemasRevisar?.length
     ? `<p><strong>Subtemas para repasar:</strong> ${domain.subtemasRevisar.map((item) => escapeHtml(item)).join(", ")}</p>`
     : "";
-  const title = domain.dominated ? "Módulo dominado" : "Todavía no alcanza el dominio";
+  const title = domain.dominated ? "Ya dominás este módulo" : "Todavía falta practicar";
   const detail = domain.dominated
     ? "Superaste el umbral del 80 %."
     : "Hacé una nueva práctica y volvé a intentar la verificación.";
@@ -191,29 +191,29 @@ function renderPractice() {
     : session.primaryServed >= session.targetCount
       ? `Sesión completa: ${session.answers.length} respuestas, con errores reaparecidos al final.`
     : `Ítem ${session.primaryServed + 1} de ${session.targetCount} · dificultad objetivo ${session.currentDifficulty}.`;
-  return `<section class="module-step is-active">${renderStepHeader("Paso 6 · Práctica adaptativa", "Practicá con feedback inmediato", "La dificultad sube después de dos aciertos seguidos, baja después de un error y los errores reaparecen al final de la sesión.")}${renderQuestionList(current, "adaptativa", progress, { withConfidence: true })}</section>`;
+  return `<section class="module-step is-active">${renderStepHeader("Paso 6 · Practicá", "Practicá con feedback inmediato", "La dificultad sube después de dos aciertos seguidos, baja después de un error y los errores reaparecen al final de la sesión.")}${renderQuestionList(current, "adaptativa", progress, { withConfidence: true })}</section>`;
 }
 
 function renderVerification() {
   const session = state.sessions.verificacion ?? (state.sessions.verificacion = createSession(state.items, { mode: "verificacion" }));
   const previous = state.store.modules?.[moduleId]?.domain;
-  return `<section class="module-step is-active">${renderStepHeader("Paso 7 · Verificación de dominio", "Comprobá tu dominio", "El módulo se considera dominado con 80 % o más en esta verificación de 10 ítems.")}${previous ? renderDomainResult(previous) : ""}${renderQuestionList(session.items, "verificacion", "3 ítems de dificultad 1, 4 de dificultad 2 y 3 de dificultad 3", { withConfidence: true })}<div class="verification-actions"><button class="button button--primary" type="button" data-verification-submit>Calificar verificación</button><div data-verification-result aria-live="polite"></div></div></section>`;
+  return `<section class="module-step is-active">${renderStepHeader("Paso 7 · Verificá lo aprendido", "Comprobá lo que aprendiste", "Si llegás a 80 % o más, este módulo queda registrado como dominado.")}${previous ? renderDomainResult(previous) : ""}${renderQuestionList(session.items, "verificacion", "3 ítems de dificultad 1, 4 de dificultad 2 y 3 de dificultad 3", { withConfidence: true })}<div class="verification-actions"><button class="button button--primary" type="button" data-verification-submit>Ver mi resultado</button><div data-verification-result aria-live="polite"></div></div></section>`;
 }
 
 function renderDiagnosis() {
   const items = approvedItems(state.items).filter((item) => Number(item.dificultad) <= 2).slice(0, 3);
-  return `<section class="module-step is-active">${renderStepHeader("Paso 2 · Diagnóstico", "Activá lo que ya sabés", "No tiene nota. Usá los errores para decidir a qué prestar atención durante el estudio.")}${renderQuestionList(items, "diagnostico", "Tres preguntas iniciales, sin puntaje")}</section>`;
+  return `<section class="module-step is-active">${renderStepHeader("Paso 2 · Qué ya sabés", "Activá lo que ya sabés", "No tiene nota. Usá los errores para decidir a qué prestar atención durante el estudio.")}${renderQuestionList(items, "diagnostico", "Tres preguntas iniciales, sin puntaje")}</section>`;
 }
 
 function renderAudit() {
   const checks = state.content.autoauditoria ?? state.module.autoauditoria ?? [];
-  if (!checks.length) return `<section class="module-step is-active">${renderStepHeader("Paso 8 · Autoauditoría", "Aplicalo a tu proyecto", "Esta versión del módulo todavía no trae una lista de cotejo específica.")}<div class="empty-note">La autoauditoría queda reservada para contenido validado por la cátedra.</div></section>`;
-  return `<section class="module-step is-active">${renderStepHeader("Paso 8 · Autoauditoría", "Aplicalo a tu proyecto", "Marcá cada criterio cuando puedas responderlo con evidencia de tu propio proyecto.")}<ul class="audit-list">${checks.map((check, index) => `<li><label><input type="checkbox" data-audit-index="${index}" ${state.store.autoauditorias?.[moduleId]?.[index] ? "checked" : ""}><span>${inlineMarkdown(check)}</span></label></li>`).join("")}</ul></section>`;
+  if (!checks.length) return `<section class="module-step is-active">${renderStepHeader("Paso 8 · Aplicalo a tu proyecto", "Aplicalo a tu proyecto", "Esta versión del módulo todavía no trae una lista de cotejo específica.")}<div class="empty-note">La autoauditoría queda reservada para contenido validado por la cátedra.</div></section>`;
+  return `<section class="module-step is-active">${renderStepHeader("Paso 8 · Aplicalo a tu proyecto", "Aplicalo a tu proyecto", "Marcá cada criterio cuando puedas responderlo con evidencia de tu propio proyecto.")}<ul class="audit-list">${checks.map((check, index) => `<li><label><input type="checkbox" data-audit-index="${index}" ${state.store.autoauditorias?.[moduleId]?.[index] ? "checked" : ""}><span>${inlineMarkdown(check)}</span></label></li>`).join("")}</ul></section>`;
 }
 
 function renderClosing() {
   const current = state.store.puntosTurbios?.find((item) => item.moduleId === moduleId)?.text ?? "";
-  return `<section class="module-step is-active">${renderStepHeader("Paso 9 · Cierre", "El punto más turbio", "Escribí una línea sobre lo que quedó menos claro. Guardalo para orientar tu próximo repaso.")}<form class="closing-form"><label for="muddy-point">¿Qué te falta distinguir?</label><textarea id="muddy-point" name="muddy-point">${escapeHtml(current)}</textarea><button class="button button--primary" type="submit">Guardar cierre</button><p class="step-status" id="closing-status" aria-live="polite"></p></form></section>`;
+  return `<section class="module-step is-active">${renderStepHeader("Paso 9 · Cerrá la sesión", "El punto más turbio", "Escribí una línea sobre lo que quedó menos claro. Guardalo para orientar tu próximo repaso.")}<form class="closing-form"><label for="muddy-point">¿Qué te falta distinguir?</label><textarea id="muddy-point" name="muddy-point">${escapeHtml(current)}</textarea><button class="button button--primary" type="submit">Guardar cierre</button><p class="step-status" id="closing-status" aria-live="polite"></p></form></section>`;
 }
 
 function renderCurrentStep() {

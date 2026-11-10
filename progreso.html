@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem("meto2.v2");
+        var saved = stored ? JSON.parse(stored).theme : null;
+        var prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+        document.documentElement.dataset.theme = saved && saved !== "auto" ? saved : (prefersDark ? "dark" : "light");
+      } catch (error) {}
+    }());
+  </script>
+  <title>Mi progreso — Metodología de la Investigación II</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/module-v3.css">
+</head>
+<body class="module-v3">
+  <a class="skip-link" href="#progress-content">Ir al contenido</a>
+  <div class="site-shell">
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="brand" href="index.html" aria-label="Volver al inicio">
+          <span class="brand__title">Metodología de la Investigación II</span>
+          <span class="brand__meta">Psicología · UNIBE</span>
+        </a>
+        <nav class="site-nav" aria-label="Navegación principal">
+          <a href="index.html">Inicio</a>
+          <a href="repaso.html">Repasar</a>
+          <a href="examen.html">Hacer una prueba</a>
+          <a href="progreso.html" aria-current="page">Mi progreso</a>
+          <a class="is-reserved" href="#" aria-disabled="true">Glosario</a>
+          <label class="theme-control" for="theme-select">Tema
+            <select id="theme-select" aria-label="Tema de color">
+              <option value="light">Claro</option>
+              <option value="dark">Oscuro</option>
+              <option value="auto">Automático</option>
+            </select>
+          </label>
+        </nav>
+      </div>
+    </header>
+    <main id="progress-content" class="container progress-main">
+      <div class="step-status" role="status" aria-live="polite">Cargando tu progreso…</div>
+    </main>
+  </div>
+  <script type="module" src="assets/js/progress-app.js"></script>
+</body>
+</html>
