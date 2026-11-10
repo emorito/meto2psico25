@@ -138,6 +138,41 @@ try {
   await setTheme(page, "dark");
   await capture(page, "progreso_desktop_1280_dark.png");
 
+  await page.send("Page.navigate", { url: `http://127.0.0.1:${PORT}/glosario.html` });
+  await waitFor(page, `Boolean(document.querySelector("[data-glossary-results] .glossary-card"))`);
+  const glossary = await evaluate(page, `({ cards: document.querySelectorAll("[data-glossary-results] .glossary-card").length, count: document.querySelector("[data-glossary-count]")?.textContent })`);
+  if (glossary.cards < 1 || !glossary.count?.includes("concepto")) throw new Error(`Glosario incompleto: ${JSON.stringify(glossary)}`);
+  await page.send("Emulation.setDeviceMetricsOverride", { width: 375, height: 900, deviceScaleFactor: 1, mobile: true });
+  await setTheme(page, "light");
+  await capture(page, "glosario_mobile_375_light.png");
+  await setTheme(page, "dark");
+  await capture(page, "glosario_mobile_375_dark.png");
+  await page.send("Emulation.setDeviceMetricsOverride", { width: 1280, height: 900, deviceScaleFactor: 1, mobile: false });
+  await setTheme(page, "light");
+  await capture(page, "glosario_desktop_1280_light.png");
+  await setTheme(page, "dark");
+  await capture(page, "glosario_desktop_1280_dark.png");
+
+  await page.send("Page.navigate", { url: `http://127.0.0.1:${PORT}/simulacro.html` });
+  await waitFor(page, `Boolean(document.querySelector("[data-start-simulacro]"))`);
+  await evaluate(page, `document.querySelector("[data-start-simulacro]").click()`);
+  await waitFor(page, `document.querySelectorAll("[data-simulacro-question]").length === 10`);
+  const simulacro = await evaluate(page, `({ questions: document.querySelectorAll("[data-simulacro-question]").length, confidence: document.querySelectorAll("[data-confidence]").length })`);
+  if (simulacro.questions !== 10 || simulacro.confidence !== 0) throw new Error(`Simulacro incompleto: ${JSON.stringify(simulacro)}`);
+  await page.send("Emulation.setDeviceMetricsOverride", { width: 375, height: 900, deviceScaleFactor: 1, mobile: true });
+  await setTheme(page, "light");
+  await capture(page, "simulacro_mobile_375_light.png");
+  await setTheme(page, "dark");
+  await capture(page, "simulacro_mobile_375_dark.png");
+  await page.send("Emulation.setDeviceMetricsOverride", { width: 1280, height: 900, deviceScaleFactor: 1, mobile: false });
+  await setTheme(page, "light");
+  await capture(page, "simulacro_desktop_1280_light.png");
+  await setTheme(page, "dark");
+  await capture(page, "simulacro_desktop_1280_dark.png");
+  const submitted = await evaluate(page, `(() => { document.querySelectorAll("[data-simulacro-question]").forEach((question) => { question.querySelector("input")?.click(); question.querySelector("[data-answer-button]")?.click(); }); document.querySelector("[data-simulacro-submit]")?.click(); return Boolean(document.querySelector(".simulacro-result")); })()`);
+  if (!submitted) throw new Error("El simulacro no mostró resultado.");
+
+  await page.send("Emulation.setDeviceMetricsOverride", { width: 375, height: 900, deviceScaleFactor: 1, mobile: true });
   await page.send("Page.navigate", { url: `http://127.0.0.1:${PORT}/repaso.html` });
   await waitFor(page, `Boolean(document.querySelector("[data-question-id]"))`);
   const review = await evaluate(page, `({ question: Boolean(document.querySelector("[data-question-id]")), confidence: document.querySelectorAll("[data-confidence]").length })`);

@@ -85,6 +85,27 @@
 .progress-card__review { margin-top: var(--s-3); padding: var(--s-3); border-left: 3px solid var(--warn); background: var(--warn-soft); font-size: var(--fs-1); }
 .progress-card__action { display: flex; justify-content: flex-end; margin-top: auto; padding-top: var(--s-4); }
 .progress-note { margin-top: var(--s-5); color: var(--ink-3); font-size: var(--fs-1); }
+.simulacro-main { max-width: 900px; }
+.simulacro-page__header { max-width: 72ch; margin-bottom: var(--s-5); }
+.simulacro-page__header p:last-child { margin-bottom: 0; }
+.simulacro-question { display: grid; gap: var(--s-2); }
+.simulacro-question > .question { margin: 0; }
+.simulacro-result { margin-top: var(--s-5); padding: var(--s-5); border-left: 4px solid var(--ok); background: var(--ok-soft); }
+.simulacro-result--review { border-color: var(--warn); background: var(--warn-soft); }
+.simulacro-result p:last-of-type { margin-bottom: var(--s-4); }
+.glossary-main { max-width: 1120px; }
+.glossary-page__header { max-width: 72ch; margin-bottom: var(--s-5); }
+.glossary-page__header p:last-child { margin-bottom: 0; }
+.glossary-controls { display: grid; grid-template-columns: auto minmax(220px, 1fr) auto minmax(180px, .5fr); gap: var(--s-2) var(--s-3); align-items: center; margin-bottom: var(--s-3); }
+.glossary-controls label { color: var(--ink-2); font-size: var(--fs-1); font-weight: 600; }
+.glossary-controls input, .glossary-controls select { min-height: 44px; padding: var(--s-2) var(--s-3); border: 1px solid var(--line); border-radius: var(--radius-sm); background: var(--surface); color: var(--ink); font: inherit; }
+.glossary-count { color: var(--ink-3); font-size: var(--fs-1); }
+.glossary-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--s-4); }
+.glossary-card { display: flex; min-width: 0; flex-direction: column; padding: var(--s-4); border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); box-shadow: var(--shadow); }
+.glossary-card h2 { margin-bottom: var(--s-3); font-size: var(--fs-3); }
+.glossary-card details { margin-bottom: var(--s-3); }
+.glossary-card summary { cursor: pointer; color: var(--primary); font-weight: 600; }
+.glossary-card__link { margin-top: auto; color: var(--primary); font-size: var(--fs-1); font-weight: 600; }
 
 .case { padding: var(--s-4); border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
 .case summary, .gallery-card summary { cursor: pointer; font-weight: 600; }
@@ -106,4 +127,6 @@
   .question { padding: var(--s-4); }
   .progress-summary, .progress-grid { grid-template-columns: 1fr; }
   .progress-next, .progress-section-heading { align-items: flex-start; flex-direction: column; }
+  .glossary-controls { grid-template-columns: 1fr; }
+  .glossary-grid { grid-template-columns: 1fr; }
 }

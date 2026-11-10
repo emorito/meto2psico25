@@ -59,13 +59,11 @@ Todos declaran `origen: "borrador_ia"`. Deben pasar revisión docente antes de i
 
 ### Brechas pedagógicas del sitio
 
-- No existe todavía una cola visible de **Repasar lo que me salió mal**.
-- Las tarjetas no alimentan una repetición espaciada con respuestas `lo sabía / dudé / no lo sabía`.
-- La portada no presenta de forma suficientemente simple la actividad siguiente.
-- Falta guardar y restaurar con precisión la actividad interrumpida.
-- Falta un simulacro independiente de la arquitectura heredada de `examen.html`.
-- Falta una página de progreso que explique acciones concretas, no solo estadísticas.
-- Falta un glosario contextual enlazado desde las explicaciones.
+- **Implementado:** cola visible de **Repasar lo que me salió mal**, continuidad de la portada y restauración de la actividad interrumpida.
+- **Implementado:** simulacro corto independiente de la arquitectura heredada de `examen.html`, página de progreso con acciones concretas y glosario contextual sobre las tarjetas existentes.
+- Las tarjetas conceptuales todavía no alimentan una repetición espaciada con respuestas `lo sabía / dudé / no lo sabía`; hoy se pueden leer y practicar desde el paso de conceptos, pero no registran esa decisión.
+- Falta una autoauditoría específica para m10 y m11, y faltan preguntas orientadoras/eslabones/evidencias donde el plan no aporta una fuente validada.
+- Falta decidir si se necesita exportación/importación del avance entre dispositivos; no se debe implementar sincronización ni cuentas sin decisión docente y política de privacidad.
 
 ### Brechas técnicas
 
