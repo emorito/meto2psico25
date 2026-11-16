@@ -295,7 +295,7 @@ const t8 = await runPageTest({
     await send('Runtime.evaluate', {
       expression: `
         // Responder automáticamente a las preguntas del diagnóstico
-        for (let i = 0; i < 16; i++) {
+        for (let i = 0; i < 22; i++) {
           const radio = document.querySelector('input[name="diag_q_' + i + '"]');
           if (radio) {
             radio.checked = true;
@@ -312,7 +312,7 @@ const t8 = await runPageTest({
 });
 allPassed = allPassed && t8;
 
-// 6. Verificar desbloqueo de m01..m08 sin progreso
+// 6. Verificar acceso a m01..m11 sin progreso
 const t9 = await runPageTest({
   url: `http://localhost:${PORT}/modules/view.html?id=m05`,
   width: 1280,
@@ -332,7 +332,7 @@ const t9 = await runPageTest({
       returnByValue: true
     });
     const info = evalRes.result.value;
-    console.log('  [M05 Unlock Check]: options in dropdown:', info.selectOptions.slice(0, 8));
+    console.log('  [Module Access Check]:', info.selectOptions.length, 'modules; last:', info.selectOptions.at(-1));
   }
 });
 allPassed = allPassed && t9;
@@ -347,7 +347,7 @@ if (allPassed) {
   console.log('  - Cero 404s en recursos de la aplicación.');
   console.log('  - Cero errores en consola de JavaScript.');
   console.log('  - Cero desbordamiento horizontal en 390px (móvil).');
-  console.log('  - M01 a M08 desbloqueados y accesibles.');
+  console.log('  - M01 a M11 desbloqueados y accesibles.');
   console.log('  - Diagnóstico rápido evaluado con éxito con semáforo por módulo.');
   console.log('========================================\n');
   process.exit(0);

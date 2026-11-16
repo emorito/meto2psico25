@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Script de verificación de preparación para el parcial y auditoría de exclusión de ítems.
+Script de verificación de preparación para el examen final y auditoría de exclusión de ítems.
 Verifica:
 1. Ninguno de los 9 ítems contradictorios con la nota de cátedra existe en data/m05.json ni en data/.
 2. En 300 sorteos aleatorios de autoevaluación (5 y 10 preguntas), ninguno de esos 9 IDs aparece.
-3. Los módulos m01 a m08 están disponibles y tienen datos íntegros.
+3. Los módulos m01 a m11 están disponibles y tienen datos íntegros.
 """
 
 import json
@@ -51,8 +51,8 @@ def main():
 
     print(f"[OK] 300 sorteos aleatorios simulados: 0 apariciones de ítems prohibidos.")
 
-    # 4. Verificar integridad de m01 a m08
-    for i in range(1, 9):
+    # 4. Verificar integridad de m01 a m11
+    for i in range(1, 12):
         mid = f"m{i:02d}"
         mod_p = REPO_ROOT / 'data' / f"{mid}.json"
         assert mod_p.exists(), f"Falta {mod_p}"
@@ -61,7 +61,7 @@ def main():
         assert len(mod_d.get('flipCards', [])) >= 10, f"{mid} tiene menos de 10 flipCards"
         assert len(mod_d.get('miniCases', [])) >= 3, f"{mid} tiene menos de 3 miniCases"
 
-    print("[OK] Módulos m01 a m08 íntegros y listos para el parcial.")
+    print("[OK] Módulos m01 a m11 íntegros y listos para el examen final.")
     print("=== TODOS LOS TESTS PASARON EXITOSAMENTE ===")
 
 if __name__ == '__main__':

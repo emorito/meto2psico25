@@ -1,16 +1,16 @@
 /**
- * PREPARACIÓN PARA EL EXAMEN PARCIAL — METODOLOGÍA II (UNIBE 2026)
+ * PREPARACIÓN PARA EL EXAMEN FINAL — METODOLOGÍA II (UNIBE 2026)
  * Lógica interactiva para examen.html:
- * - Mapa de contenidos Moodle a módulos m01–m08
- * - Diagnóstico rápido de 16 ítems (2 por módulo, opciones y preguntas barajadas, semáforo)
- * - Simulacro de 60 minutos (30 ítems proporcionales, cronómetro ocultable, corrección desglosada)
+ * - Mapa de contenidos de todo el curso a módulos m01–m11
+ * - Diagnóstico rápido de 22 ítems (2 por módulo, opciones y preguntas barajadas, semáforo)
+ * - Simulacro de 60 minutos (30 ítems distribuidos entre los 11 módulos, cronómetro ocultable, corrección desglosada)
  * - Cero mutaciones al progreso regular guardado en localStorage.
  */
 
 (function () {
   'use strict';
 
-  const EXAM_MODULE_IDS = ['m01', 'm02', 'm03', 'm04', 'm05', 'm06', 'm07', 'm08'];
+  const EXAM_MODULE_IDS = ['m01', 'm02', 'm03', 'm04', 'm05', 'm06', 'm07', 'm08', 'm09', 'm10', 'm11'];
 
   const MODULE_METADATA = {
     m01: { number: 1, title: 'El proceso de investigación científica', clases: 'Clases 1–2', contenido: 'Proceso de investigación' },
@@ -20,7 +20,10 @@
     m05: { number: 5, title: 'Objetivos e hipótesis de investigación', clases: 'Clase 6', contenido: 'Objetivos e hipótesis o supuestos' },
     m06: { number: 6, title: 'Variables y operacionalización', clases: 'Clase 7', contenido: 'Variables o categorías' },
     m07: { number: 7, title: 'Enfoque, alcance y diseño', clases: 'Clase 8', contenido: 'Enfoque, alcance y diseño' },
-    m08: { number: 8, title: 'Población y técnicas de muestreo', clases: 'Clase 9', contenido: 'Población, muestra o corpus' }
+    m08: { number: 8, title: 'Población y técnicas de muestreo', clases: 'Clase 9', contenido: 'Población, muestra o corpus' },
+    m09: { number: 9, title: 'Técnicas, instrumentos y ética', clases: 'Clase 11', contenido: 'Técnicas, instrumentos, procedimientos y ética' },
+    m10: { number: 10, title: 'Análisis cuantitativo y cualitativo', clases: 'Clase 12', contenido: 'Análisis cuantitativo y cualitativo' },
+    m11: { number: 11, title: 'Escritura académica, APA, Zotero e IA', clases: 'Clase 13', contenido: 'Escritura académica, APA, Zotero e IA' }
   };
 
   /* ========================================================================
@@ -86,7 +89,7 @@
   }
 
   /* ========================================================================
-     2. CARGA Y CACHÉ DE MÓDULOS DEL PARCIAL (M01 A M08)
+     2. CARGA Y CACHÉ DE MÓDULOS DEL FINAL (M01 A M11)
      ======================================================================== */
   let modulesDataCache = null;
 
@@ -112,7 +115,7 @@
   }
 
   /* ========================================================================
-     3. DIAGNÓSTICO RÁPIDO (16 ÍTEMS: 2 POR MÓDULO)
+     3. DIAGNÓSTICO RÁPIDO (22 ÍTEMS: 2 POR MÓDULO)
      ======================================================================== */
   let currentDiagnosticItems = [];
   let diagnosticSubmitted = false;
@@ -299,7 +302,7 @@
           '</div>' +
           '<div style="margin-top:20px; display:flex; gap:12px; flex-wrap:wrap;">' +
             '<button type="button" id="diag-retry-btn" class="btn-exam-outline">' +
-              '🔄 Generar otro diagnóstico (16 ítems nuevos)' +
+              '🔄 Generar otro diagnóstico (22 ítems nuevos)' +
             '</button>' +
             '<a href="#sec-mapa" class="btn-exam-outline">' +
               '🗺️ Ver mapa completo de contenidos' +
@@ -352,15 +355,15 @@
       submitBtn.textContent = 'Entregar y calificar simulacro';
     }
 
-    // Muestra proporcional de 30 ítems:
-    // m01..m06: 4 ítems c/u = 24 ítems
-    // m07..m08: 3 ítems c/u = 6 ítems
+    // Muestra distribuida de 30 ítems:
+    // m01..m08: 3 ítems c/u = 24 ítems
+    // m09..m11: 2 ítems c/u = 6 ítems
     // Total = 30 ítems
     const sampled = [];
     EXAM_MODULE_IDS.forEach(function (modId, idx) {
       const mod = modulesMap[modId];
       if (!mod || !Array.isArray(mod.quiz)) return;
-      const count = (idx < 6) ? 4 : 3;
+      const count = (idx < 8) ? 3 : 2;
       const shuffled = shuffle(mod.quiz);
       shuffled.slice(0, count).forEach(function (raw) {
         sampled.push(prepareItem(raw, modId));
