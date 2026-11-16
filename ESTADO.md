@@ -2,7 +2,9 @@
 
 **Abierta:** 08/11/2026 desde `main` (bc1aed6).
 
-**Publicación mixta en `main` (08/11/2026, por decisión docente: «hay que publicarla ya»).** Se fusionó la rama tal como estaba después de PC2: el inicio (`index.html`) y el examen (`examen.html`) siguen siendo los anteriores; cada módulo abre ahora en `modulo.html` (ciclo v3, con las cápsulas nuevas de m08 y m09, el árbol, la calculadora y la galería). `modules/view.html` sigue accesible. «Repaso», «Progreso» y «Glosario» quedan reservados hasta que existan sus páginas. El trabajo continúa en `rediseno-2026` y se vuelve a fusionar por etapas.
+**Alcance:** este repositorio es exclusivamente la versión UNIBE de Metodología II y su preparación para el examen del 10/12/2026. El sitio paralelo de apoyo instruccional general para docentes y estudiantes no forma parte de este repositorio ni de estos cambios.
+
+**Publicación mixta en `main` (08/11/2026, por decisión docente: «hay que publicarla ya»).** Se fusionó la rama tal como estaba después de PC2: el inicio (`index.html`) y el examen (`examen.html`) siguen siendo los anteriores; cada módulo abre ahora en `modulo.html` (ciclo v3, con las cápsulas nuevas de m08 y m09, el árbol, la calculadora y la galería). `modules/view.html` sigue accesible. El trabajo continúa en `rediseno-2026` y se vuelve a fusionar por etapas.
 
 ## Encargos activos
 
@@ -14,7 +16,7 @@
 
 ## Decisiones abiertas
 
-1. Fecha del examen final (fija el plazo del *merge*).
+1. El examen UNIBE queda fijado para el 10/12/2026; falta acordar el plazo operativo del *merge*.
 2. Las cuatro del plan maestro: umbral del 80 %, comprobante, voseo e ítems en revisar.
 
 ## Trabajo continuo — UX y generación controlada de ítems (10/11/2026)
@@ -27,13 +29,13 @@
 - Se agregó `glosario.html` y `assets/js/glossary-app.js`: buscador y filtro por módulo sobre las 115 tarjetas existentes, con explicación desplegable y retorno al paso de conceptos. No incorpora definiciones nuevas.
 - Las tarjetas del paso de conceptos ya permiten marcar “Lo sabía”, “Dudé” o “No lo sabía”. La decisión se guarda en `leitner` dentro de `meto2.v2`; “Dudé” y “No lo sabía” reaparecen en `repaso.html`, mientras “Lo sabía” avanza por 1, 3, 7, 14 y 30 días.
 - Se armonizó la interfaz v3 y la portada heredada al umbral operativo del 80 % y se reemplazaron etiquetas técnicas del ciclo por acciones más directas: “Qué ya sabés”, “Practicá”, “Verificá lo aprendido” y “Aplicalo a tu proyecto”.
-- Se quitaron de la experiencia visible las fechas vencidas del parcial y de entregas. Mientras la fecha oficial siga abierta, la portada y el examen indican consultar el cronograma docente en lugar de inventar una fecha; los documentos históricos y `data/examen.json` se conservaron sin reescritura.
+- Se actualizó la versión UNIBE con la fecha oficial del examen: 10/12/2026, en `app.js`, `examen.html` y `data/examen.json`. El sitio paralelo de apoyo instruccional no se mezcla con esta lógica ni con estos datos.
 - Se actualizó `README.md` para documentar la arquitectura v3, el almacén local, las páginas nuevas, el banco aprobado/borrador y los comandos de verificación. La documentación histórica de la arquitectura heredada se mantiene identificada como compatibilidad.
 - Se agregó `scripts/validate_draft_items.py`, que valida estructura, IDs, metadatos, referencias declaradas y distribución de posiciones correctas sin cambiar estados.
 - Se agregaron modelos explícitos para m02 y m03 en `data/item_models/` y se generaron 16 nuevos candidatos en `data/borradores/m02.json` y `data/borradores/m03.json`. Los 96 borradores de m02, m03 y m08–m11 conservan `origen: "borrador_ia"` y `estado: "revisar"`; ninguno se publica ni se incorpora al banco aprobado.
 - Las referencias a materiales externos al repositorio se conservan como trazabilidad declarada; no se afirma que esos archivos estén empaquetados en GitHub Pages. Los faltantes de canon y la revisión docente siguen abiertos.
-- Verificación ejecutada: `node --test tests/*.mjs` — 22 pruebas pasan; `python3 scripts/verify_exam_readiness.py` pasa; `python3 scripts/validate_draft_items.py` valida 96 borradores; `node --check` pasa para los módulos JS; `git diff --check` limpio. La prueba de navegador de continuidad, repaso y almacenamiento único también pasa sin errores de consola, 404 inesperados ni overflow en móvil. Las capturas de este flujo quedan en `capturas/v3/ux/` para 375/1280 px y claro/oscuro.
-- Falta en esta etapa: simulacro independiente, página de progreso, glosario contextual, acciones de tarjetas y corrección de fechas heredadas de la portada. No se declara todavía completa la Etapa 2 ni se aprueba ningún borrador automáticamente.
+- Verificación ejecutada: `node --test tests/*.mjs` — 23 pruebas pasan; `python3 scripts/verify_exam_readiness.py` pasa; `python3 scripts/validate_draft_items.py` valida 96 borradores; `node --check` pasa para los módulos JS; `git diff --check` limpio. La prueba de navegador de continuidad, repaso y almacenamiento único también pasa sin errores de consola, 404 inesperados ni overflow en móvil. Las capturas de este flujo quedan en `capturas/v3/ux/` para 375/1280 px y claro/oscuro.
+- Pendiente real: revisión docente de borradores, autoauditoría específica de m10/m11, materiales faltantes y eventual exportación/importación del avance. El simulacro, progreso, glosario, tarjetas espaciadas y fecha del examen UNIBE ya están implementados. No se aprueba ningún borrador automáticamente.
 
 ## Registro de ejecución de Codex
 
@@ -67,6 +69,8 @@
 ---
 
 # ESTADO DEL PROYECTO — METO2PSICO25 (PLAN 2026)
+
+> **Registro histórico:** desde aquí se conserva la bitácora de decisiones y estados anteriores. Para el estado vigente de la versión UNIBE, leer primero las secciones de alcance y “Trabajo continuo” del comienzo de este archivo.
 
 Fecha de corte: 13 de octubre de 2026  
 Asignatura: Metodología de la Investigación Científica II — Psicología UNIBE  

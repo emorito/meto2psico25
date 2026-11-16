@@ -6,7 +6,7 @@ Plataforma web educativa interactiva para la asignatura **Metodología de la Inv
 
 ## Estado operativo de `rediseno-2026`
 
-La experiencia nueva se abre desde `modulo.html` y comparte un único almacén local, `meto2.v2`, entre la portada, los módulos, el repaso, el simulacro y el progreso. No hay login ni sincronización entre dispositivos: el avance queda en el navegador del estudiante.
+Esta es la versión UNIBE de Metodología II, orientada al examen del 10/12/2026. El sitio paralelo de apoyo instruccional general es otro producto y no se modifica desde este repositorio. La experiencia nueva se abre desde `modulo.html` y comparte un único almacén local, `meto2.v2`, entre la portada, los módulos, el repaso, el simulacro y el progreso. No hay login ni sincronización entre dispositivos: el avance queda en el navegador del estudiante.
 
 La ruta visible para estudiantes es:
 

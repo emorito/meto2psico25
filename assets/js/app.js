@@ -234,8 +234,8 @@ import { createDefaultStore, getReviewQueue, loadStore, saveStore } from "./stor
       const EXAMEN_EVENT = {
         tipo: 'examen',
         nombre: 'Examen parcial',
-        // La fecha del examen queda abierta hasta la decisión docente; no mostrar una fecha vencida.
-        fecha: null,
+        // Fecha confirmada por el docente para la versión UNIBE.
+        fecha: '2026-12-10',
         modulos: ['m01', 'm02', 'm03', 'm04', 'm05', 'm06', 'm07', 'm08'],
         duracion_min: 60
       };
@@ -298,7 +298,7 @@ import { createDefaultStore, getReviewQueue, loadStore, saveStore } from "./stor
 
       if (weekWhen && weekList) {
         if (examActive) {
-          const diasTexto = diffDays === 0 ? 'hoy, 13/10' : (diffDays === 1 ? 'mañana' : ('en ' + diffDays + ' días'));
+          const diasTexto = diffDays === 0 ? 'hoy' : (diffDays === 1 ? 'mañana' : ('en ' + diffDays + ' días'));
           weekWhen.innerHTML = 'Examen parcial · <span>' + diasTexto + '</span>';
           weekList.innerHTML =
             '<li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/></svg><span><b>Qué entra:</b> clases 1 a 9 (módulos 1 al 8).</span></li>' +
