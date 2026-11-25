@@ -62,7 +62,9 @@ main { padding-block: var(--s-7); }
   .container { width: min(100% - 24px, 1120px); }
   .site-header__inner { align-items: flex-start; flex-direction: column; padding-block: var(--s-4); }
   .brand { align-items: flex-start; flex-direction: column; gap: 0; }
-  .site-nav { width: 100%; justify-content: space-between; gap: var(--s-2); overflow-x: auto; }
+  .site-nav { width: 100%; justify-content: flex-start; gap: var(--s-2) var(--s-3); flex-wrap: wrap; overflow: visible; }
+  .site-nav a { white-space: nowrap; }
+  .theme-control { margin-left: auto; }
   main { padding-block: var(--s-6); }
 }
 

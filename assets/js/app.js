@@ -1,3 +1,5 @@
+import { createDefaultStore, getReviewQueue, loadStore, saveStore } from "./store.js";
+
 /**
  * METODOLOGÍA DE LA INVESTIGACIÓN II — PSICOLOGÍA UNIBE (PLAN 2026)
  * Motor interactivo principal (Catálogo de 11 módulos, Progreso, Multimedia,
@@ -7,11 +9,9 @@
 (function () {
   'use strict';
 
-  const STORAGE_KEY = 'meto2_progress_2026';
-  const THEME_KEY = 'meto2_theme';
   const TOTAL_MODULES = 11;
   const TOTAL_FLIPCARDS_COURSE = 115;
-  const PASS_THRESHOLD = 70;
+  const PASS_THRESHOLD = 80;
 
   const STAGE_MAP = {
     m01: { stage: 1, name: 'Etapa 1 · Fundamentos y Literatura' },
@@ -81,9 +81,9 @@
   function applyTheme(theme) {
     const valid = theme === 'dark' ? 'dark' : 'light';
     document.documentElement.setAttribute('data-theme', valid);
-    try {
-      localStorage.setItem(THEME_KEY, valid);
-    } catch (e) {}
+    const progress = loadProgress();
+    progress.theme = valid;
+    saveProgress(progress);
 
     const iconEl = document.getElementById('theme-toggle-icon');
     const textEl = document.getElementById('theme-toggle-text');
@@ -105,11 +105,14 @@
   /* ========================================================================
      3. GESTIÓN DE PROGRESO EN LOCALSTORAGE
      ======================================================================== */
-  function createDefaultProgress() {
-    const modules = {};
+  function normalizeProgress(store) {
+    const progress = Object.assign(createDefaultStore(), store || {});
+    progress.freeReviewMode = Boolean(store?.freeReviewMode);
     for (let i = 1; i <= TOTAL_MODULES; i++) {
       const id = 'm' + String(i).padStart(2, '0');
-      modules[id] = {
+      const moduleState = progress.modules[id] || {};
+      const domain = moduleState.domain || {};
+      progress.modules[id] = Object.assign({
         completed: false,
         bestScore: null,
         attempts: 0,
@@ -117,46 +120,32 @@
         flippedCards: [],
         outcomesChecked: [],
         simCompleted: false
-      };
+      }, moduleState, {
+        completed: moduleState.completed === true || domain.dominated === true,
+        bestScore: typeof moduleState.lastScore === 'number' ? moduleState.lastScore : (domain.score ?? moduleState.bestScore ?? null),
+      });
+      if (!Array.isArray(progress.modules[id].flippedCards)) progress.modules[id].flippedCards = [];
+      if (!Array.isArray(progress.modules[id].outcomesChecked)) progress.modules[id].outcomesChecked = [];
     }
-    return {
-      freeReviewMode: false,
-      modules: modules
-    };
+    return progress;
+  }
+
+  function createDefaultProgress() {
+    return normalizeProgress(createDefaultStore());
   }
 
   function loadProgress() {
-    const base = createDefaultProgress();
-    try {
-      const raw = localStorage.getItem(STORAGE_KEY);
-      if (!raw) return base;
-      const parsed = JSON.parse(raw);
-      if (typeof parsed.freeReviewMode === 'boolean') {
-        base.freeReviewMode = parsed.freeReviewMode;
-      }
-      if (parsed.modules && typeof parsed.modules === 'object') {
-        Object.keys(base.modules).forEach(function (id) {
-          if (parsed.modules[id]) {
-            base.modules[id] = Object.assign({}, base.modules[id], parsed.modules[id]);
-            if (!Array.isArray(base.modules[id].flippedCards)) base.modules[id].flippedCards = [];
-            if (!Array.isArray(base.modules[id].outcomesChecked)) base.modules[id].outcomesChecked = [];
-          }
-        });
-      }
-    } catch (e) {}
-    return base;
+    return normalizeProgress(loadStore());
   }
 
   function saveProgress(progress) {
-    try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
-    } catch (e) {}
+    saveStore(progress);
   }
 
   function isModuleUnlocked(modId, progress) {
     const num = parseInt(modId.slice(1), 10);
-    // Tarea A2: m01 a m08 (clases 1 a 9 que entran en el parcial) quedan SIEMPRE abiertos
-    if (num >= 1 && num <= 8) return true;
+    // Preparación del final acumulativo: los módulos siguen accesibles; m01–m10 se evalúan y m11 queda como consulta.
+    if (num >= 1 && num <= 11) return true;
     if (progress.freeReviewMode) return true;
     const modState = progress.modules[modId];
     if (modState && modState.unlockedManually) return true;
@@ -222,17 +211,21 @@
     function renderHeroRouteAndWeek(list, progress, stats) {
       if (!Array.isArray(list) || list.length === 0) return;
 
-      // 1. Encontrar el módulo para "Continuar con el módulo N"
-      // Regla: el primer módulo abierto y no dominado; si todos están dominados, el último.
-      let currentMod = null;
+      // 1. Continuar desde la última actividad registrada; si no existe, usar el primer módulo abierto.
+      const lastActivityEntry = list
+        .map((module) => ({ module, activity: progress.modules[module.id]?.lastActivity }))
+        .filter(({ activity }) => activity?.updatedAt)
+        .sort((a, b) => new Date(b.activity.updatedAt) - new Date(a.activity.updatedAt))[0];
+      let currentMod = lastActivityEntry?.module ?? null;
       for (let i = 0; i < list.length; i++) {
         const m = list[i];
         const mState = progress.modules[m.id] || {};
-        if (!mState.completed) {
+        if (!currentMod && !mState.completed) {
           currentMod = m;
           break;
         }
       }
+      if (!currentMod) currentMod = list[list.length - 1];
       if (!currentMod) {
         currentMod = list[list.length - 1];
       }
@@ -240,10 +233,11 @@
       // Evento de evaluación institucional
       const EXAMEN_EVENT = {
         tipo: 'examen',
-        nombre: 'Examen parcial',
-        fecha: '2026-10-13',
-        modulos: ['m01', 'm02', 'm03', 'm04', 'm05', 'm06', 'm07', 'm08'],
-        duracion_min: 60
+        nombre: 'Examen final acumulativo',
+        // Fecha confirmada por el docente para la versión UNIBE.
+        fecha: '2026-12-10',
+        modulos: ['m01', 'm02', 'm03', 'm04', 'm05', 'm06', 'm07', 'm08', 'm09', 'm10'],
+        duracion_max_min: 120
       };
 
       const now = new Date();
@@ -252,10 +246,10 @@
       const d = String(now.getDate()).padStart(2, '0');
       const todayStr = y + '-' + m + '-' + d;
 
-      const examDate = new Date(EXAMEN_EVENT.fecha + 'T00:00:00');
+      const examDate = EXAMEN_EVENT.fecha ? new Date(EXAMEN_EVENT.fecha + 'T00:00:00') : null;
       const nowDateOnly = new Date(todayStr + 'T00:00:00');
-      const diffDays = Math.round((examDate.getTime() - nowDateOnly.getTime()) / (1000 * 60 * 60 * 24));
-      const examActive = diffDays >= 0 && diffDays <= 7;
+      const diffDays = examDate ? Math.round((examDate.getTime() - nowDateOnly.getTime()) / (1000 * 60 * 60 * 24)) : null;
+      const examActive = Number.isFinite(diffDays) && diffDays >= 0 && diffDays <= 7;
 
       const continueBtn = document.getElementById('hero-continue-btn');
       const continueNum = document.getElementById('hero-continue-num');
@@ -265,21 +259,24 @@
           continueBtn.href = 'examen.html';
           continueBtn.innerHTML =
             '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>' +
-            '<span>Preparación para el parcial<small>Diagnóstico rápido (16 ítems) y simulacro de 60 min</small></span>';
+            '<span>Preparación para el examen final<small>20 ítems cerrados y un caso integrador</small></span>';
         } else if (currentMod) {
-          continueBtn.href = 'modulo.html?m=' + encodeURIComponent(currentMod.id);
+          const lastActivity = progress.modules[currentMod.id]?.lastActivity;
+          const stepQuery = lastActivity?.stepId ? '&step=' + encodeURIComponent(lastActivity.stepId) : '';
+          continueBtn.href = 'modulo.html?m=' + encodeURIComponent(currentMod.id) + stepQuery;
           if (continueNum) continueNum.textContent = String(currentMod.number || 1);
-          if (continueTitle) continueTitle.textContent = currentMod.title || '';
+          if (continueTitle) continueTitle.textContent = lastActivity?.stepId ? 'Continuar donde quedaste' : (currentMod.title || '');
         }
       }
 
-      // 2. Repaso de hoy · N ítems (oculto si no existe repaso espaciado)
+      // 2. Repaso de hoy · N ítems
       const reviewBtn = document.getElementById('hero-review-btn');
       const reviewCountEl = document.getElementById('hero-review-count');
-      const dueCount = (progress.spacedReview && progress.spacedReview.dueCount) || 0;
+      const dueCount = getReviewQueue(progress).length;
       if (reviewBtn) {
         if (dueCount > 0) {
           reviewBtn.style.display = 'inline-flex';
+          reviewBtn.href = 'repaso.html';
           if (reviewCountEl) reviewCountEl.textContent = dueCount + ' ítems';
         } else {
           reviewBtn.style.display = 'none';
@@ -301,11 +298,11 @@
 
       if (weekWhen && weekList) {
         if (examActive) {
-          const diasTexto = diffDays === 0 ? 'hoy, 13/10' : (diffDays === 1 ? 'mañana' : ('en ' + diffDays + ' días'));
-          weekWhen.innerHTML = 'Examen parcial · <span>' + diasTexto + '</span>';
+          const diasTexto = diffDays === 0 ? 'hoy' : (diffDays === 1 ? 'mañana' : ('en ' + diffDays + ' días'));
+          weekWhen.innerHTML = 'Examen final · <span>' + diasTexto + '</span>';
           weekList.innerHTML =
-            '<li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/></svg><span><b>Qué entra:</b> clases 1 a 9 (módulos 1 al 8).</span></li>' +
-            '<li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="9"/></svg><span><b>Formato:</b> 60 minutos, un único intento, sin IA.</span></li>' +
+            '<li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/></svg><span><b>Qué entra:</b> módulos m01 a m10; m11 queda como consulta.</span></li>' +
+            '<li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="9"/></svg><span><b>Formato:</b> presencial, en papel; hasta 2 horas; sin IA ni materiales.</span></li>' +
             '<li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg><span><b>Preparación:</b> <a href="examen.html" style="color:var(--accent);font-weight:600;text-decoration:underline;">diagnóstico y simulacro en examen.html →</a></span></li>';
         } else if (nextClassMod) {
           const claseNum = nextClassMod.clase_numero || nextClassMod.clase_2026 || '';
@@ -324,7 +321,7 @@
         } else {
           weekWhen.innerHTML = 'Cierre de semestre · <span>Examen Final</span>';
           weekList.innerHTML =
-            '<li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/></svg><span><b>Antes:</b> repaso integral de los 11 módulos del proyecto.</span></li>' +
+            '<li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/></svg><span><b>Antes:</b> repaso integral de m01 a m10; m11 queda como consulta.</span></li>' +
             '<li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg><span><b>Después:</b> defensa y presentación del borrador fundamentado.</span></li>' +
             '<li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg><span><b>Entrega en Moodle:</b> portafolio final integrado según calendario institucional.</span></li>';
         }
@@ -338,7 +335,7 @@
 
       const routeTitleEl = document.querySelector('.route-head h2');
       if (routeTitleEl) {
-        routeTitleEl.innerHTML = 'La ruta del proyecto' + (examActive ? ' <span class="exam-pill" title="Módulos evaluados en el parcial">Entra en el parcial (1 a 8)</span>' : '');
+        routeTitleEl.innerHTML = 'La ruta del proyecto' + (examActive ? ' <span class="exam-pill" title="Todos los módulos evaluados en el examen final">Entra en el final (1 al 11)</span>' : '');
       }
 
       let maxCompletedIdx = -1;
@@ -419,7 +416,7 @@
 
           const ariaCurrentAttr = isCurrent ? ' aria-current="step"' : '';
           const modNumber = modItem.number || (idx + 1);
-          if (examActive && modNumber <= 8) {
+          if (examActive && modNumber <= 11) {
             stepClass += ' in-exam';
           }
           const shortTitle = modItem.short_title || modItem.title;
@@ -444,7 +441,7 @@
           if (examActive && !existingExamLegend) {
             const examSpan = document.createElement('span');
             examSpan.className = 'l-exam-item';
-            examSpan.innerHTML = '<i class="l-exam"></i>Entra en el parcial (1 al 8)';
+            examSpan.innerHTML = '<i class="l-exam"></i>Entra en el final (1 al 11)';
             legendEl.appendChild(examSpan);
           } else if (!examActive && existingExamLegend) {
             existingExamLegend.remove();
@@ -1540,8 +1537,8 @@
             '</h3>' +
             '<p style="margin-top:0.4rem;">' +
               (passed
-                ? 'Has superado el umbral del 70%. Este módulo ha quedado registrado como aprobado y el siguiente módulo se encuentra desbloqueado.'
-                : 'Se requiere al menos 70% para aprobar el módulo. Revisa la retroalimentación formativa detallada en cada ítem arriba y vuelve a intentarlo.') +
+                ? 'Has superado el umbral del 80%. Este módulo ha quedado registrado como aprobado y el siguiente módulo se encuentra desbloqueado.'
+                : 'Se requiere al menos 80% para aprobar el módulo. Revisa la retroalimentación formativa detallada en cada ítem arriba y vuelve a intentarlo.') +
             '</p>' +
             '<div style="margin-top:1rem; display:flex; gap:0.75rem; flex-wrap:wrap;">' +
               '<button type="button" id="banner-retry-btn" class="btn btn-outline">🔀 Intentar con nuevas preguntas</button>' +

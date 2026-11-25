@@ -3,6 +3,8 @@
 **Fecha:** 08/11/2026 · **Dirección y revisión:** Claude · **Ejecución:** Codex (código), Antigravity + Gemini (contenido masivo), Ollama (tareas mecánicas)
 **Hereda de:** `Plan maestro - Sitio de estudio Metodología II.md` (13/10). Sus decisiones de arquitectura, tokens, ciclo de módulo, Leitner y criterios de aceptación **se mantienen**. Este plan agrega contenido, el reparto de trabajo entre agentes y un segundo sitio.
 
+**Separación de productos:** este repositorio implementa únicamente `meto2psico25`, la versión UNIBE orientada al examen del 10/12/2026. `psychoResearch` es un sitio paralelo de apoyo instruccional general para docentes y estudiantes de metodología en Psicología; no comparte navegación, fecha de examen ni decisiones de evaluación con este proyecto.
+
 ---
 
 ## 0. Diagnóstico de partida
@@ -13,7 +15,7 @@
 | Banco | 526 ítems; m05 depurado (9 excluidos). m09: 16 ítems; m10: pocos; m11: pocos. |
 | m08 Muestreo | 47 ítems conceptuales. Falta el criterio de **cuándo hay fórmula y cuándo no**. No cubre potencia, efecto de diseño aplicado, tasa de respuesta, potencia informativa ni saturación con criterio. Hay ítems ambiguos. |
 | m09 Instrumentos | Cápsula de 4 tarjetas; la psicometría es una mención. No aparecen los Standards AERA/APA/NCME, omega ni alfa con supuestos, el error estándar de medida, el análisis de ítems, AFE/AFC, la invarianza, la adaptación (ITC), los baremos ni la selección de instrumentos (COSMIN). |
-| Calendario | Última clase el 11/11 o el 18/11; el examen final, después. **El sitio actual tiene que seguir funcionando para el final.** |
+| Calendario | El examen UNIBE está fijado para el 10/12/2026. **El sitio actual tiene que seguir funcionando para esa instancia.** |
 
 ## 1. Principio rector del contenido: sin pseudocálculo
 

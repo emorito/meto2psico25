@@ -1,0 +1,133 @@
+{
+  "module_id": "m03",
+  "models": [
+    {
+      "modelo_id": "m03-antecedente",
+      "enunciado": "En una matriz de literatura, un antecedente sirve principalmente para: ",
+      "variables": [{}],
+      "opciones": [
+        "Reemplazar la pregunta del proyecto por una opinión del autor",
+        "Mostrar qué se estudió, cómo se estudió y qué límite deja para la investigación actual",
+        "Demostrar que el nuevo estudio debe repetir exactamente el método anterior",
+        "Enumerar títulos sin relacionarlos con el problema"
+      ],
+      "correcta": 1,
+      "dificultad": 1,
+      "subtema": "antecedentes",
+      "lectura_ref": "Materiales de Lectura/04.1. Revision de la literatura.md",
+      "feedback": "Un antecedente se interpreta: importa qué pregunta abordó, con qué método, qué encontró y qué límite o aporte deja."
+    },
+    {
+      "modelo_id": "m03-teoria",
+      "enunciado": "¿Qué diferencia describe mejor la relación entre teoría y antecedente?",
+      "variables": [{}],
+      "opciones": [
+        "La teoría organiza conceptos y relaciones; el antecedente informa sobre estudios previos concretos",
+        "La teoría es una lista de referencias y el antecedente es una hipótesis confirmada",
+        "Son sinónimos y no hace falta distinguirlos",
+        "El antecedente siempre tiene más autoridad que el marco teórico"
+      ],
+      "correcta": 0,
+      "dificultad": 2,
+      "subtema": "teoria",
+      "lectura_ref": "Materiales de Lectura/04.0. El papel de la Teoría en la Investigación.md",
+      "feedback": "La teoría ofrece un marco para organizar conceptos y relaciones; los antecedentes aportan evidencia de investigaciones realizadas."
+    },
+    {
+      "modelo_id": "m03-vacio",
+      "enunciado": "Una formulación prudente de un vacío de conocimiento debería: ",
+      "variables": [{}],
+      "opciones": [
+        "Afirmar que nadie estudió nunca el tema",
+        "Convertir la falta de lectura del estudiante en evidencia científica",
+        "Precisar qué aspecto, población, contexto o relación está insuficientemente estudiado según la revisión",
+        "Eliminar los estudios que contradicen la expectativa inicial"
+      ],
+      "correcta": 2,
+      "dificultad": 2,
+      "subtema": "vacio",
+      "lectura_ref": "Materiales de Lectura/04.1. Revision de la literatura.md",
+      "feedback": "El vacío se formula con alcance prudente: identifica un límite de la evidencia revisada, no afirma que no exista ninguna investigación."
+    },
+    {
+      "modelo_id": "m03-matriz",
+      "enunciado": "¿Qué registro permite comparar fuentes sin perder la trazabilidad?",
+      "variables": [{}],
+      "opciones": [
+        "Solo el título de cada artículo",
+        "Autoría, año, pregunta, método, hallazgos, límites y referencia completa",
+        "Una impresión general sobre si el texto parece interesante",
+        "La cantidad de citas que muestra el buscador"
+      ],
+      "correcta": 1,
+      "dificultad": 1,
+      "subtema": "revision_literatura",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "feedback": "Una matriz útil permite volver a la fuente y comparar pregunta, método, hallazgos y límites, no solo acumular títulos."
+    },
+    {
+      "modelo_id": "m03-sintesis",
+      "enunciado": "Una síntesis de literatura se diferencia de una lista de resúmenes porque: ",
+      "variables": [{}],
+      "opciones": [
+        "Compara coincidencias, tensiones, métodos y límites entre las fuentes",
+        "Elimina las fuentes que usan conceptos diferentes",
+        "Repite el resumen de cada artículo sin conectarlo con el problema",
+        "Sustituye las referencias por una explicación personal"
+      ],
+      "correcta": 0,
+      "dificultad": 2,
+      "subtema": "revision_literatura",
+      "lectura_ref": "Materiales de Lectura/04.1. Revision de la literatura.md",
+      "feedback": "Sintetizar implica relacionar las fuentes y mostrar qué conjunto de evidencias sostiene, limita o tensiona el problema."
+    },
+    {
+      "modelo_id": "m03-fuente-pertinencia",
+      "enunciado": "Una fuente puede ser pertinente para el proyecto cuando: ",
+      "variables": [{}],
+      "opciones": [
+        "Aparece primero en el buscador, aunque no responda a la pregunta",
+        "Tiene muchas páginas, aunque trate otro fenómeno",
+        "Confirma la hipótesis, aunque su método no sea compatible",
+        "Permite justificar una definición, un antecedente, una decisión metodológica o una relación con el problema"
+      ],
+      "correcta": 3,
+      "dificultad": 1,
+      "subtema": "revision_literatura",
+      "lectura_ref": "assets/reading/2b. Guía práctica para la revisión de la literatura 2026.pdf",
+      "feedback": "La pertinencia depende de la relación verificable entre la fuente y una decisión o afirmación del proyecto."
+    },
+    {
+      "modelo_id": "m03-contradiccion",
+      "enunciado": "Si dos fuentes presentan resultados distintos sobre «{tema}», lo más riguroso es: ",
+      "variables": [{"tema": "la relación entre apoyo social y ansiedad"}],
+      "opciones": [
+        "Descartar la fuente con el resultado menos conveniente",
+        "Elegir el resultado que parezca más intuitivo",
+        "Comparar población, diseño, instrumentos y condiciones de ambos estudios antes de interpretarlos",
+        "Promediar los resultados sin revisar cómo se obtuvieron"
+      ],
+      "correcta": 2,
+      "dificultad": 3,
+      "subtema": "revision_literatura",
+      "lectura_ref": "Materiales de Lectura/04.1. Revision de la literatura.md",
+      "feedback": "Las diferencias pueden depender de población, diseño, medición o contexto; la revisión debe examinar esas condiciones antes de concluir."
+    },
+    {
+      "modelo_id": "m03-marco",
+      "enunciado": "El marco teórico aporta al proyecto cuando: ",
+      "variables": [{}],
+      "opciones": [
+        "Reemplaza la descripción del método y de la muestra",
+        "Reúne todas las teorías conocidas sin seleccionar ninguna",
+        "Anticipa los resultados para evitar analizar datos contradictorios",
+        "Define conceptos y relaciones que orientan las preguntas y decisiones del estudio"
+      ],
+      "correcta": 3,
+      "dificultad": 2,
+      "subtema": "teoria",
+      "lectura_ref": "Materiales de Lectura/04.0. El papel de la Teoría en la Investigación.md",
+      "feedback": "El marco teórico no es una acumulación de autores: organiza conceptos y relaciones que orientan el problema y su investigación."
+    }
+  ]
+}

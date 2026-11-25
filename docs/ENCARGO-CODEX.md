@@ -2,7 +2,7 @@
 
 **Lee primero `AGENTS.md`.** Este encargo cubre el código. El contenido pedagógico lo producen Claude y Antigravity y llega a `data/` en paralelo; vos construís el sitio que lo consume.
 
-**Plazo:** antes del examen final (fecha a confirmar; ver `ESTADO.md`). Por eso se trabaja por **alcance mínimo publicable**: primero lo marcado como MVP; lo demás, solo si el MVP está terminado y probado.
+**Plazo:** antes del examen UNIBE del 10/12/2026. Por eso se trabaja por **alcance mínimo publicable**: primero lo marcado como MVP; lo demás, solo si el MVP está terminado y probado.
 
 ---
 

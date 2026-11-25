@@ -1,18 +1,44 @@
 {
   "tipo": "examen",
-  "nombre": "Examen parcial",
-  "fecha": "2026-10-13",
-  "modulos": ["m01", "m02", "m03", "m04", "m05", "m06", "m07", "m08"],
-  "clases": "Clases 1 a 9",
-  "duracion_min": 60,
+  "nombre": "Examen final acumulativo",
+  "fecha": "2026-12-10",
+  "modalidad": "presencial_en_papel",
+  "modulos": ["m01", "m02", "m03", "m04", "m05", "m06", "m07", "m08", "m09", "m10"],
+  "modulo_consulta": "m11",
+  "clases": "Clases 1 a 12 (módulos m01 a m10)",
+  "duracion_max_min": 120,
+  "duracion_prevista_min": "35–40",
+  "condiciones": "Sin IA ni materiales de consulta",
   "activo": true,
-  "titulo_semana": "Examen parcial · hoy, 13/10",
-  "que_entra": "clases 1 a 9 (módulos 1 al 8)",
-  "formato": "60 minutos, un único intento, sin IA",
+  "titulo_semana": "Examen final · 10/12",
+  "que_entra": "módulos m01 a m10; m11 queda como material de consulta",
+  "formato": "Presencial, en papel; 2 horas como máximo; pensado para 35–40 minutos",
   "preparacion_url": "examen.html",
-  "texto_moodle": {
-    "objetivo": "Comprobar la comprensión y la aplicación de los contenidos desarrollados entre las clases 1 y 9 mediante preguntas y casos de análisis, valoración y corrección metodológica.",
-    "orientaciones": "La evaluación dispone de 60 minutos y un único intento. Antes de comenzar, revise las instrucciones, el tiempo disponible y las condiciones de envío. Resuelva individualmente y revise sus respuestas antes de finalizar. No se permite utilizar herramientas de IA, consultar a otras personas ni compartir respuestas. Ante una interrupción técnica comprobable se aplicará el procedimiento institucional correspondiente.",
-    "contenidos": "Proceso de investigación; selección y delimitación del tema; revisión de literatura; problema y preguntas; objetivos e hipótesis o supuestos; variables o categorías; enfoque, alcance y diseño; población, muestra o corpus."
+  "estructura": {
+    "parte_1": {
+      "nombre": "Parte I",
+      "descripcion": "20 ítems cerrados de opción múltiple y verdadero/falso",
+      "preguntas": 20,
+      "puntos": 20
+    },
+    "parte_2": {
+      "nombre": "Parte II",
+      "descripcion": "Caso integrador con 8 preguntas breves",
+      "preguntas": 8,
+      "puntos": 20
+    },
+    "puntos_totales": 40
+  },
+  "pesos_por_modulo": {
+    "m01": 2,
+    "m02": 1,
+    "m03": 2,
+    "m04": 4.5,
+    "m05": 8,
+    "m06": 5.5,
+    "m07": 5.5,
+    "m08": 4.5,
+    "m09": 3.5,
+    "m10": 3.5
   }
 }

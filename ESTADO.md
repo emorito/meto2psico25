@@ -2,20 +2,53 @@
 
 **Abierta:** 08/11/2026 desde `main` (bc1aed6).
 
-**Publicación mixta en `main` (08/11/2026, por decisión docente: «hay que publicarla ya»).** Se fusionó la rama tal como estaba después de PC2: el inicio (`index.html`) y el examen (`examen.html`) siguen siendo los anteriores; cada módulo abre ahora en `modulo.html` (ciclo v3, con las cápsulas nuevas de m08 y m09, el árbol, la calculadora y la galería). `modules/view.html` sigue accesible. «Repaso», «Progreso» y «Glosario» quedan reservados hasta que existan sus páginas. El trabajo continúa en `rediseno-2026` y se vuelve a fusionar por etapas.
+**Alcance:** este repositorio es exclusivamente la versión UNIBE de Metodología II y su preparación para el **examen final acumulativo del 10/12/2026**. El examen parcial ya fue rendido. El sitio paralelo de apoyo instruccional general para docentes y estudiantes no forma parte de este repositorio ni de estos cambios.
+
+**Publicación mixta en `main` (08/11/2026, por decisión docente: «hay que publicarla ya»).** Se fusionó la rama tal como estaba después de PC2: el inicio (`index.html`) y el examen (`examen.html`) siguen siendo los anteriores; cada módulo abre ahora en `modulo.html` (ciclo v3, con las cápsulas nuevas de m08 y m09, el árbol, la calculadora y la galería). `modules/view.html` sigue accesible. El trabajo continúa en `rediseno-2026` y se vuelve a fusionar por etapas.
 
 ## Encargos activos
 
 | Encargo | Responsable | Estado |
 |---|---|---|
 | `docs/ENCARGO-CODEX.md`: migración de datos, motor v3 (MVP), herramientas de muestreo | Codex | Tareas 1 y 3 completas; Tarea 2 detenida en PC2 |
-| `docs/ENCARGO-ANTIGRAVITY.md`: borradores de ítems m08 a m11; convertir Olaz y Medrano | Antigravity | Tarea 2 salteada (no hallado en disco local); borradores completos generados y auditados en data/borradores/ para m08 (16 ítems), m09 (24 ítems), m10 (16 ítems) y m11 (24 ítems) |
+| `docs/ENCARGO-ANTIGRAVITY.md`: borradores de ítems m08 a m11; convertir Olaz y Medrano | Antigravity | Completo: Tarea 2 salteada; 80 ítems en data/borradores/ (m08–m11) corregidos y validados según R4 (distractores verosímiles, lectura_ref canónica, posiciones intactas) |
 | Cápsulas nuevas de m08 y m09, galería de pseudocálculos, auditoría de ítems de m08 | Claude | En curso |
+| `docs/ENCARGO-CODEX-examen-final.md`: validador del examen (fuera del repo), `examen.json` al formato real, simulacro "Formato del final", mezcla de opciones | Codex | X1–X5 completos y verificados (25/11) |
+| `docs/ENCARGO-ANTIGRAVITY-sitio-examen-final.md`: 4 casos de práctica, 40 ítems m09–m10, lista de aprobación rápida, datos de m09–m10 | Antigravity | Nuevo (24/11) — prioridad hasta el 10/12 |
+
+## Preparación del examen final — Codex (25/11/2026)
+
+- **X1:** validador y cuatro pruebas automatizadas en `Examen final 2026/herramientas/`.
+- **X2:** formato real del examen actualizado: presencial, 10/12/2026, m01–m10, 20 reactivos cerrados más caso integrador, 40 puntos y máximo de 120 minutos.
+- **X3:** simulacro con modo «Formato del final», temporizador de 40 minutos, Parte I de 20 reactivos y Parte II de ocho respuestas con rúbrica de autoevaluación.
+- **X4:** filtros de aprobación reforzados, borradores excluidos de repaso y eliminación de `alert()`/`confirm()` en las rutas auditadas.
+- **X5:** auditoría automatizada y prueba real de navegador en 375 y 1280 px. Resultado: 20 ítems válidos (14 OM/6 V/F), ocho respuestas de caso, sin errores de consola ni desbordamiento.
+- Commits: `39f4f83`, `f842d1e`, `187b012`, `4c82297`.
+
+**PC-E2 listo para revisión de Claude**
 
 ## Decisiones abiertas
 
-1. Fecha del examen final (fija el plazo del *merge*).
+1. El examen final acumulativo UNIBE queda fijado para el 10/12/2026; falta acordar el plazo operativo del *merge*.
 2. Las cuatro del plan maestro: umbral del 80 %, comprobante, voseo e ítems en revisar.
+
+## Trabajo continuo — UX y generación controlada de ítems (10/11/2026)
+
+- Se incorporaron el plan de UX/banco y el inventario de materiales en `docs/PLAN-UX-Y-BANCO-AUTOMATICO.md` y `docs/INVENTARIO-MATERIALES-Y-BRECHAS.md`. La prioridad visible para estudiantes queda expresada con verbos cotidianos: **Seguir**, **Repasar**, **Practicar** y **Ver la explicación**.
+- La continuidad ahora usa `lastActivity` dentro del almacén único `meto2.v2`. La portada ofrece el módulo y paso donde se dejó; `modulo.html?m=mNN&step=...` restaura explícitamente el paso. No se promete sincronización entre dispositivos ni se agrega login.
+- Se agregó `repaso.html` y `assets/js/review-app.js`: la cola muestra errores o respuestas con seguridad insuficiente, registra el resultado y programa intervalos de 1, 3, 7, 14 y 30 días. Solo una respuesta correcta y segura avanza de caja; un error o una respuesta dudosa vuelve a la cola el mismo día. El módulo no considera los borradores de ítems.
+- Se agregó `progreso.html` y `assets/js/progress-app.js`: muestra módulos dominados con puntaje/fecha, módulos en curso, siguiente paso, subtemas pendientes y cantidad de repaso. La navegación ya no deja “Progreso” como enlace falso.
+- Se agregó `simulacro.html` y `assets/js/simulacro-app.js`: una prueba corta de 10 ítems aprobados, mezclados entre módulos, con feedback inmediato y resultado guardado en `simulacros` sin alterar dominio ni cola de repaso.
+- Se agregó `glosario.html` y `assets/js/glossary-app.js`: buscador y filtro por módulo sobre las 115 tarjetas existentes, con explicación desplegable y retorno al paso de conceptos. No incorpora definiciones nuevas.
+- Las tarjetas del paso de conceptos ya permiten marcar “Lo sabía”, “Dudé” o “No lo sabía”. La decisión se guarda en `leitner` dentro de `meto2.v2`; “Dudé” y “No lo sabía” reaparecen en `repaso.html`, mientras “Lo sabía” avanza por 1, 3, 7, 14 y 30 días.
+- Se armonizó la interfaz v3 y la portada heredada al umbral operativo del 80 % y se reemplazaron etiquetas técnicas del ciclo por acciones más directas: “Qué ya sabés”, “Practicá”, “Verificá lo aprendido” y “Aplicalo a tu proyecto”.
+- Se corrigió la versión UNIBE: el parcial ya rendido quedó como antecedente y `examen.html` prepara ahora el examen final acumulativo del 10/12/2026 con los 11 módulos, en `app.js`, `examen.html`, `assets/js/examen.js` y `data/examen.json`. El sitio paralelo de apoyo instruccional no se mezcla con esta lógica ni con estos datos.
+- Se actualizó `README.md` para documentar la arquitectura v3, el almacén local, las páginas nuevas, el banco aprobado/borrador y los comandos de verificación. La documentación histórica de la arquitectura heredada se mantiene identificada como compatibilidad.
+- Se agregó `scripts/validate_draft_items.py`, que valida estructura, IDs, metadatos, referencias declaradas y distribución de posiciones correctas sin cambiar estados.
+- Se agregaron modelos explícitos para m02 y m03 en `data/item_models/` y se generaron 16 nuevos candidatos en `data/borradores/m02.json` y `data/borradores/m03.json`. Los 96 borradores de m02, m03 y m08–m11 conservan `origen: "borrador_ia"` y `estado: "revisar"`; ninguno se publica ni se incorpora al banco aprobado.
+- Las referencias a materiales externos al repositorio se conservan como trazabilidad declarada; no se afirma que esos archivos estén empaquetados en GitHub Pages. Los faltantes de canon y la revisión docente siguen abiertos.
+- Verificación ejecutada antes de esta corrección: `node --test tests/*.mjs` — 23 pruebas pasan; `python3 scripts/verify_exam_readiness.py` pasa; `python3 scripts/validate_draft_items.py` valida 96 borradores; `node --check` pasa para los módulos JS; `git diff --check` limpio. La prueba de navegador de continuidad, repaso y almacenamiento único también pasa sin errores de consola, 404 inesperados ni overflow en móvil. Después de ampliar el examen final a los 11 módulos se vuelve a ejecutar toda esta verificación antes del commit. Las capturas de este flujo quedan en `capturas/v3/ux/` para 375/1280 px y claro/oscuro.
+- Pendiente real: revisión docente de borradores, autoauditoría específica de m10/m11, materiales faltantes y eventual exportación/importación del avance. El simulacro, progreso, glosario, tarjetas espaciadas y fecha del examen UNIBE ya están implementados. No se aprueba ningún borrador automáticamente.
 
 ## Registro de ejecución de Codex
 
@@ -49,6 +82,8 @@
 ---
 
 # ESTADO DEL PROYECTO — METO2PSICO25 (PLAN 2026)
+
+> **Registro histórico:** desde aquí se conserva la bitácora de decisiones y estados anteriores. Para el estado vigente de la versión UNIBE, leer primero las secciones de alcance y “Trabajo continuo” del comienzo de este archivo.
 
 Fecha de corte: 13 de octubre de 2026  
 Asignatura: Metodología de la Investigación Científica II — Psicología UNIBE  
@@ -90,7 +125,9 @@ Los siguientes ítems permanecen activos pero aislados para evaluación posterio
 
 ---
 
-## 3. Estado de Módulos para el Parcial de Hoy (13/10)
+## 3. Registro histórico — Estado de Módulos para el Parcial de Hoy (13/10)
+
+Este bloque describe la situación del parcial ya rendido y se conserva solo como bitácora. No describe el alcance vigente del examen final del 10/12/2026; para eso, leer el inicio de este archivo.
 
 - **Módulos abiertos sin restricción:** `m01` a `m08` (Clases 1 a 9). Cualquier estudiante puede acceder a sus cápsulas, tarjetas 3D, minicasos, simulador y autoevaluación directamente.
 - **Módulos con progresión normal:** `m09` a `m11` (Clases 11 a 15, correspondientes a la segunda mitad del semestre).
@@ -138,6 +175,96 @@ Los siguientes ítems permanecen activos pero aislados para evaluación posterio
 - La cadena visual tiene los nueve eslabones reales: problema → preguntas → objetivos → hipótesis → variables → diseño → muestra → instrumentos → análisis. La barra reserva Progreso y Glosario.
 - m08 monta el árbol y la calculadora desde los bloques `type: "herramienta"`, usando los textos de `data/contenido/m08.json`; el paso 5 muestra los 8 pseudocálculos con «Lo que se escribió», «Diagnóstico» y «Corrección». m05 tiene su ciclo completo con casos, cápsula, práctica y cierre.
 - Se importaron de forma idempotente los borradores de `data/borradores/m08.json` a `m11.json`: 80 ítems con `estado: "revisar"` y `origen: "borrador_ia"`. `scripts/import_borradores.py` permite reejecutar la importación sin tocar sus textos; el motor no los publica.
-- R4 queda abierto para Antigravity: distractores inverosímiles y `lectura_ref` circulares siguen sin corregirse para respetar la propiedad del contenido y la regla de no reescritura. Permanecen fuera del sitio por `estado: "revisar"`.
+- R4 resuelto por Antigravity (ver registro al final): distractores inverosímiles reemplazados por errores reales de estudiantes y `lectura_ref` saneadas con citas canónicas, conservando enunciados, posiciones correctas y `estado: "revisar"`.
 - Verificación: `node --test tests/*.mjs` — 16 pruebas pasan; `scripts/verify_exam_readiness.py`; captura automatizada de 72 combinaciones (m05/m08 × 9 pasos × 375/1280 × claro/oscuro), sin errores de consola ni desplazamiento horizontal; cadena=9, herramientas m08=2 y galería=8.
 - Punto de control: **PC2 alcanzado.** Las capturas quedan en `capturas/v3/pc2/`. Falta F3 (repaso, simulacro, progreso y pulido) y la revisión de Claude antes de continuar.
+
+---
+
+## Antigravity — Resolución de Observaciones R4 (08/11/2026)
+
+Se completó la aplicación de la revisión R4 de Claude sobre los 80 ítems en `data/borradores/m08.json` a `m11.json`, sin modificar enunciados ni las posiciones de las respuestas correctas:
+
+1. **Reemplazo de distractores inverosímiles por errores reales de estudiantes:**
+   - Se eliminaron todas las opciones absurdas o delatoras («el tiempo en milisegundos», «el software bloquea el cálculo», «100 participantes por reactivo», «número de serie de la placa gráfica», «horas de descanso», «mayores de 65 años», «física cuántica», etc.).
+   - Se reemplazaron por concepciones alternativas y errores típicos de estudiantes: «una muestra grande es representativa», «alfa alto prueba unidimensionalidad», «n = 384 vale para cualquier estudio», «la validez es una propiedad del test», «más de 30 casos por grupo alcanza», «test-retest mide validez», «el software no admite decimales», «confundir muestreo por cuotas con estratificado», etc.
+   - Las cuatro opciones de cada ítem mantienen longitud homogénea y alta plausibilidad pedagógica.
+2. **Saneamiento de `lectura_ref` no circular:**
+   - Se removió cualquier cita o mención a archivos internos del sitio (`data/contenido_claude/...`, `cápsula`).
+   - Todos los ítems citan ahora directamente las obras del canon metodológico y artículos de referencia:
+     - *m08:* Leslie Kish (*Statistical Design for Research*, 1987; *Survey Sampling*, 1965), William G. Cochran (*Sampling Techniques*, 1977), Fernando Rodríguez Osuna (*Métodos de muestreo*, 1991), Jacob Cohen (*Statistical Power Analysis*, 1988), Geoff Cumming & Robert Calin-Jageman (*Introduction to the New Statistics*, 2017), Kirsti Malterud et al. (2016, *Information Power*), *APA Handbook* (Vol. 3).
+     - *m09:* AERA/APA/NCME (*Standards for Educational and Psychological Testing*, 2014), José Muñiz (*Introducción a la Psicometría*, 2018), José Muñiz & Eduardo Fonseca-Pedrero (2019, *Diez pasos*), Klaas Sijtsma (2009, *Cronbach's alpha*), Klaas J. Dunn et al. (2014, *From alpha to omega*), William Revelle & Richard E. Zinbarg (2009), Jum C. Nunnally & Ira H. Bernstein (*Teoría psicométrica*, 1994), Fred N. Kerlinger & Howard B. Lee (2002), directrices de la International Test Commission (ITC, 2017) e iniciativa COSMIN.
+     - *m10 y m11:* Citas canónicas al *APA Handbook of Research Methods in Psychology* (Vols. 2 y 3), `guianalisis`, normas *APA 7* y estándares *JARS-Quant* / *JARS-Qual*.
+3. **Verificación automatizada:**
+   - **Integridad JSON y conteo:** 80 ítems totales (m08: 16, m09: 24, m10: 16, m11: 24).
+   - **IDs:** Únicos y secuenciales (`m08-b001` a `m08-b016`, `m09-b001` a `m09-b024`, `m10-b001` a `m10-b016`, `m11-b001` a `m11-b024`).
+   - **Balance de opciones correctas:** Distribución uniforme exacta en cada archivo:
+     - m08: `{0: 4, 1: 4, 2: 4, 3: 4}`
+     - m09: `{0: 6, 1: 6, 2: 6, 3: 6}`
+     - m10: `{0: 4, 1: 4, 2: 4, 3: 4}`
+     - m11: `{0: 6, 1: 6, 2: 6, 3: 6}`
+   - **Atributos de control:** 100 % de los ítems con `origen: "borrador_ia"`, `estado: "revisar"`, `nota_revision: ""`.
+   - **Tests de regresión:** `node --test tests/*.mjs` (16 tests pasando) y `python3 meto2psico25/scripts/verify_exam_readiness.py` (auditoría de exclusión limpia).
+
+---
+
+## Auditoría funcional de Codex — 08/11/2026
+
+### R5 — Etapa 1 completada por Codex (08/11/2026)
+
+- Se ejecutaron, en orden, los cuatro puntos pedidos por R5: dominio real en el paso 7; almacén único `meto2.v2` para portada, examen y ciclo; mezcla de opciones con prueba automatizada de distribución; y práctica adaptativa con subida/bajada de dificultad, errores reaparecidos al final y declaración obligatoria de seguridad (`seguro`, `dudoso`, `adiviné`).
+- El paso 7 calcula el puntaje sobre 10 ítems, aplica el umbral de 80 %, guarda fecha, puntaje, aciertos, estado de dominio y subtemas para repasar en `modules[mNN].domain`.
+- La práctica adaptativa trabaja ítem por ítem, registra la seguridad y conserva los borradores fuera de publicación: solo usa ítems con `estado: "aprobado"`.
+- Se actualizaron las capturas PC2 de m05 y m08 para los nueve pasos, 375/1280 px y temas claro/oscuro en `capturas/v3/pc2/`.
+- Verificación: `node --test tests/*.mjs` — 20 pruebas pasan; `python3 scripts/verify_exam_readiness.py` pasa; `node scripts/test_browser_suite.mjs` pasa sin errores de consola, 404 no esperados ni overflow; `node scripts/capture_pc2.mjs` pasa las 72 combinaciones; prueba interactiva adicional del paso adaptativo pasa seguridad obligatoria, feedback y avance.
+- Punto de control: **R5 Etapa 1 alcanzada.** El trabajo se detiene aquí para revisión de Claude y del docente. No se implementa la Etapa 2 (F3: repaso/Leitner, simulacro, progreso y glosario).
+
+### Resultado ejecutivo
+
+La rama funciona parcialmente. El ciclo nuevo de `modulo.html` carga y renderiza m05/m08, pero el MVP todavía no está completo: F3 no existe y varias piezas de F2 están solo dibujadas, sin cerrar el circuito de progreso y dominio. La causa de la sensación de sitio incompleto es la convivencia de dos arquitecturas:
+
+- la portada `index.html` y `examen.html` siguen usando `assets/js/app.js`/`examen.js`, `main.css`, `meto2_progress_2026` y los datos legados `data/mNN.json`;
+- `modulo.html` usa `modulo-app.js`, `engine.js`, `store.js`, `meto2.v2` y `data/banco`/`data/contenido`.
+
+### Verificaciones ejecutadas
+
+- `node --test tests/*.mjs`: 16 pruebas pasan.
+- `python3 scripts/verify_exam_readiness.py`: auditoría de exclusión limpia.
+- `node scripts/test_browser_suite.mjs`: portada y examen legados, diagnóstico y carga de m05 sin errores de consola, 404 ni overflow en 390 px.
+- `node scripts/capture_pc2.mjs`: m05 y m08, nueve pasos, 375/1280 px y claro/oscuro; sin errores de consola ni overflow, cadena=9, herramientas m08=2 y galería=8.
+
+### Faltantes bloqueantes antes de declarar el MVP
+
+1. **F3 ausente:** no existen `repaso.html`, `simulacro.html`, `progreso.html` ni `glosario.html`. La barra nueva deja Progreso y Glosario como enlaces reservados a `#`; Repaso apunta a `modulo.html?m=m08` y no a una sesión Leitner.
+2. **Dominio no se calcula ni se guarda:** el paso 7 muestra diez preguntas y feedback por ítem, pero no tiene entrega, puntaje, resultado 80 %, subtemas a repasar ni actualización de `modules[mNN].domain/completed/lastScore`. La portada lee otro almacén, por lo que el avance del ciclo nuevo no aparece allí.
+3. **Práctica adaptativa incompleta:** `selectAdaptiveItems` prioriza dificultad 2 una sola vez; no implementa subida/bajada por aciertos consecutivos, reaparición de errores ni seguridad declarada.
+4. **Conceptos y Leitner incompletos:** las tarjetas se muestran en `<details>`, pero no tienen botones «lo sabía / dudé / no lo sabía» ni envían tarjetas a las cajas de repaso.
+5. **Mezcla de opciones no implementada:** `renderQuestion` conserva el orden original de las opciones. La posición correcta del banco aprobado está sesgada y no existe la prueba de uniformidad en 200 presentaciones.
+6. **Tipos de ítem pendientes:** el motor solo renderiza opciones de radio; no implementa `pareo`, `respuesta_corta`, `caso`, `clasificar` ni `ordenar` definidos por el plan.
+7. **Accesibilidad/pulido pendiente:** persisten `confirm()` en `app.js`, `alert()` en el temporizador de `examen.js` y emojis como íconos en la portada/examen/módulo legado, en contra de los criterios de aceptación.
+
+### Brechas de contenido y datos
+
+- Ítems aprobados actuales: m01 64, m02 35, m03 34, m04 57, m05 102, m06 66, m07 53, m08 40, m09 16, m10 24 y m11 16. La meta de 40 aprobados por módulo todavía no se alcanza en m02, m03 y m09–m11; los 80 borradores recientes permanecen correctamente fuera del sitio hasta aprobación.
+- `preguntas_orientadoras`, `eslabon_cadena` y `evidencia_moodle` siguen vacíos en `data/modulos.json` donde no hay fuente; m10/m11 tampoco tienen autoauditoría integrada. Esto deja mensajes genéricos en esos pasos.
+- `README.md` describe la arquitectura vieja y no documenta `data/banco`, `data/contenido`, el motor v3 ni cómo actualizar los borradores.
+- Siguen presentes archivos legados que el criterio de aceptación marca para retirar o justificar (`data/progreso.json`, `integridad.json`, `modules/view.html`, `assets/js/app.js`, `assets/css/main.css`).
+
+### Orden recomendado de trabajo
+
+1. Unificar la portada y el ciclo en `meto2.v2`; implementar primero la verificación de dominio y la actualización de módulo.
+2. Implementar `repaso.html`/Leitner y `simulacro.html`; después `progreso.html` y exportación/importación.
+3. Completar tarjetas, seguridad, mezcla de opciones y pruebas de interacción; retirar o aislar la arquitectura legada.
+4. Integrar los borradores solo después de la aprobación docente; no cambiar su contenido durante esta auditoría.
+
+### Decisiones abiertas agregadas
+
+- Definir si el umbral operativo del sitio queda en 80 % y cómo se armoniza con el umbral legado de 70 %.
+- Definir la fecha y el alcance del examen final para dimensionar el simulacro de 40 ítems.
+
+## Aprobación docente y publicación (25/11/2026)
+
+- Enrique aprobó el contenido pendiente: 4 casos integradores de práctica, 136 borradores (m02, m03, m08–m11) y los ítems en `revisar` del banco. Se aplicó con `scripts/aplicar_aprobacion.py` y los borradores aprobados se incorporaron a `data/banco/`.
+- Quedan fuera, en `revisar`, siete ítems de m08 con defectos conceptuales anotados (m08-0024, 0029, 0036, 0040, 0045, 0052, 0055).
+- Verificado: `node --test tests/*.mjs` (25/25), `scripts/verify_exam_readiness.py` (todo OK), páginas examen, simulacro e inicio sin errores de consola a 375 y 1280 px.
+- `rediseno-2026` se fusiona en `main` con aprobación del docente.

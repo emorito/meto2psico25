@@ -7,7 +7,7 @@
       "Organizar, resumir y representar las propiedades numéricas observadas en la muestra.",
       "Demostrar con certeza matemática absoluta la verosimilitud de la hipótesis teórica.",
       "Generalizar probabilísticamente los hallazgos hacia poblaciones infinitas sin evaluar errores.",
-      "Sustituir la recolección empírica de campo mediante algoritmos de imputación universal."
+      "Determinar la significación estadística y el tamaño del efecto de las intervenciones evaluadas."
     ],
     "correcta": 0,
     "feedback": {
@@ -20,7 +20,7 @@
     "subtema": "analisis_cuantitativo",
     "lectura_ref": "APA Handbook of Research Methods in Psychology (Vol. 3), Chapter 3 (Exploratory Data Analysis), pp. 51-68",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -44,7 +44,7 @@
     "subtema": "analisis_cuantitativo",
     "lectura_ref": "APA Handbook of Research Methods in Psychology (Vol. 3), Chapter 1 (Methods for Dealing With Bad Data and Inadequate Models), pp. 3-24",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -55,7 +55,7 @@
       "En verificar el nivel de significación estadística p en las transcripciones.",
       "En forzar el texto para ajustarlo estrictamente a categorías predeterminadas.",
       "En fragmentar el corpus y asignar etiquetas conceptuales a segmentos con significado propio.",
-      "En contabilizar mecánicamente la frecuencia total de adjetivos en cada testimonio."
+      "En calcular la concordancia entre jueces mediante el coeficiente de correlación intraclase."
     ],
     "correcta": 2,
     "feedback": {
@@ -68,7 +68,7 @@
     "subtema": "analisis_cualitativo",
     "lectura_ref": "APA Handbook of Research Methods in Psychology (Vol. 2), Chapter 3 (Grounded Theory), pp. 53-74",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -78,7 +78,7 @@
     "opciones": [
       "Corregir el lenguaje informal de los participantes para que adopte un estilo académico.",
       "Eliminar las discrepancias narrativas para lograr un relato completamente homogéneo.",
-      "Reducir las transcripciones a un conjunto acotado de oraciones de menos de diez palabras.",
+      "Sintetizar únicamente las respuestas afirmativas descartando dudas o contradicciones de los participantes.",
       "Preservar fielmente el discurso oral resguardando la confidencialidad y la ética del estudio."
     ],
     "correcta": 3,
@@ -92,7 +92,7 @@
     "subtema": "analisis_cualitativo",
     "lectura_ref": "guianalisis (emorito.github.io/guianalisis), Sección: Preparación y gestión del corpus textual",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -116,7 +116,7 @@
     "subtema": "analisis_cuantitativo",
     "lectura_ref": "APA Handbook of Research Methods in Psychology (Vol. 3), Chapter 1 (Distributions and Linear Models), pp. 12-28",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -140,7 +140,7 @@
     "subtema": "analisis_cuantitativo",
     "lectura_ref": "APA Handbook of Research Methods in Psychology (Vol. 3), Chapter 8 (ANOVA and the General Linear Model), pp. 169-196",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -164,7 +164,7 @@
     "subtema": "analisis_cuantitativo",
     "lectura_ref": "APA Handbook of Research Methods in Psychology (Vol. 3), Chapter 6 (Effect-Size Estimation), pp. 115-142",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -188,7 +188,7 @@
     "subtema": "analisis_cualitativo",
     "lectura_ref": "APA Handbook of Research Methods in Psychology (Vol. 2), Chapter 3 (Grounded Theory), pp. 60-78",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -212,7 +212,7 @@
     "subtema": "analisis_cuantitativo",
     "lectura_ref": "APA Handbook of Research Methods in Psychology (Vol. 3), Chapter 2 (Missing Data Handling), pp. 25-50",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -222,8 +222,8 @@
     "opciones": [
       "Calcular coeficientes de correlación intraclase entre las respuestas a preguntas cerradas.",
       "Mantener una pista de auditoría y bitácora que registre detalladamente las decisiones analíticas.",
-      "Destruir las notas de campo y grabaciones originales tras redactar el informe definitivo.",
-      "Impedir que investigadores externos puedan examinar los criterios de codificación empleados."
+      "Realizar un análisis de potencia estadística a posteriori para verificar la robustez de las categorías.",
+      "Garantizar que todas las entrevistas hayan sido analizadas exclusivamente por un único investigador para asegurar coherencia."
     ],
     "correcta": 1,
     "feedback": {
@@ -236,7 +236,7 @@
     "subtema": "analisis_cualitativo",
     "lectura_ref": "APA Handbook of Research Methods in Psychology (Vol. 2), Chapter 1 (Qualitative Research and Rigor), pp. 15-34",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -260,7 +260,7 @@
     "subtema": "analisis_cuantitativo",
     "lectura_ref": "APA Handbook of Research Methods in Psychology (Vol. 3), Chapter 5 (Multiple Regression Models), pp. 89-114",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -268,9 +268,9 @@
     "tipo": "opcion_multiple",
     "enunciado": "En un equipo de investigación cualitativa, ¿cómo se lleva a cabo la triangulación de investigadores durante la codificación del corpus?",
     "opciones": [
-      "Delegando la decisión final en el investigador de mayor jerarquía académica sin debate alguno.",
-      "Seleccionando mediante sorteo al azar qué integrante decide el significado de cada párrafo.",
-      "Promediando la cantidad de líneas de texto identificadas por cada miembro del equipo.",
+      "Permitiendo que un único investigador codifique todo el material y luego presente un resumen a los demás para su aprobación rápida.",
+      "Dividiendo las entrevistas entre los investigadores para que cada uno codifique una parte diferente sin superposición.",
+      "Calculando el porcentaje de palabras coincidentes entre informes individuales sin discutir las discrepancias conceptuales.",
       "Codificando de forma independiente el mismo material para luego contrastar y consensuar acuerdos."
     ],
     "correcta": 3,
@@ -284,7 +284,7 @@
     "subtema": "analisis_cualitativo",
     "lectura_ref": "guianalisis (emorito.github.io/guianalisis), Sección: Criterios de rigor en investigación cualitativa",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -308,7 +308,7 @@
     "subtema": "analisis_cuantitativo",
     "lectura_ref": "APA Handbook of Research Methods in Psychology (Vol. 3), Chapter 17 (EFA and CFA), pp. 379-408",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -317,7 +317,7 @@
     "enunciado": "¿Por qué las prácticas de p-hacking (probar exclusiones post hoc) y HARKing (hipotetizar tras conocer resultados) invalidan la inferencia estadística?",
     "opciones": [
       "Porque incrementan arbitrariamente el tamaño del efecto muestral sin alterar el error Tipo I.",
-      "Porque impiden que los paquetes estadísticos calculen matrices de covarianzas simétricas.",
+      "Porque reducen artificialmente la potencia estadística hasta impedir la detección de efectos reales.",
       "Porque inflan drásticamente la tasa real de error Tipo I publicando falsos positivos como hallazgos genuinos.",
       "Porque violan los supuestos de linealidad y normalidad requeridos por los coeficientes de correlación."
     ],
@@ -332,7 +332,7 @@
     "subtema": "analisis_cuantitativo",
     "lectura_ref": "APA Handbook of Research Methods in Psychology (Vol. 3), Chapter 26 (Questionable Practices in Statistical Analysis), pp. 581-596",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -356,7 +356,7 @@
     "subtema": "analisis_cualitativo",
     "lectura_ref": "APA Handbook of Research Methods in Psychology (Vol. 2), Chapter 3 (Grounded Theory), pp. 68-82",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -380,7 +380,487 @@
     "subtema": "analisis_cuantitativo",
     "lectura_ref": "APA Handbook of Research Methods in Psychology (Vol. 3), Chapter 5 (Estimating and Visualizing Interactions in Moderated Multiple Regression), pp. 92-110",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b017",
+    "tipo": "opcion_multiple",
+    "enunciado": "En un anteproyecto de investigación que aún no ha salido a campo (Clase 12), ¿qué diferencia al plan de análisis respecto del análisis ejecutado y de los resultados?",
+    "opciones": [
+      "El plan anticipa en tiempo futuro cómo se prepararán y analizarán los datos por objetivo, sin incluir cifras ni hallazgos inventados.",
+      "El plan presenta tablas con porcentajes simulados como si fueran reales para demostrar que el estudiante domina el programa estadístico.",
+      "El plan se redacta recién después de recolectar las encuestas, cuando ya se conoce qué pruebas arrojaron valores significativos.",
+      "El plan consiste únicamente en mencionar que se utilizará el programa jamovi o Excel sin detallar variables ni procedimientos."
+    ],
+    "correcta": 0,
+    "feedback": {
+      "correcto": "¡Correcto! El plan de análisis se redacta antes de recoger los datos, en tiempo futuro, especificando la preparación, los estadísticos o la codificación para cada objetivo; incluir datos o resultados inventados en el anteproyecto es un error metodológico y ético.",
+      "incorrecto": "Revisá este punto. Como establece la guía de la Clase 12 (§1 y §10), el plan de análisis es la previsión metodológica redactada en futuro antes del trabajo de campo; nunca debe confundirse con resultados ejecutados ni incluir cifras fabricadas.",
+      "correcta": "¡Correcto! El plan de análisis se redacta antes de recoger los datos, en tiempo futuro, especificando la preparación, los estadísticos o la codificación para cada objetivo; incluir datos o resultados inventados en el anteproyecto es un error metodológico y ético.",
+      "incorrecta": "Revisá este punto. Como establece la guía de la Clase 12 (§1 y §10), el plan de análisis es la previsión metodológica redactada en futuro antes del trabajo de campo; nunca debe confundirse con resultados ejecutados ni incluir cifras fabricadas."
+    },
+    "dificultad": 1,
+    "subtema": "analisis_cuantitativo",
+    "lectura_ref": "Materiales de Lectura/El plan de análisis de datos en un proyecto de investigación.pdf, §1 y §10 (pp. 2, 16-18)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b018",
+    "tipo": "opcion_multiple",
+    "enunciado": "En la matriz de datos cuantitativa de un estudio psicológico, ¿qué representa convencionalmente cada fila y cada columna?",
+    "opciones": [
+      "Cada fila representa un objetivo específico del proyecto y cada columna representa una referencia bibliográfica.",
+      "Cada fila representa a un participante con su código y cada columna a una variable o ítem registrado.",
+      "Cada fila representa un estadístico descriptivo y cada columna representa el intervalo de confianza de la muestra.",
+      "Cada fila representa una dimensión teórica del constructo y cada columna representa a un grupo de participantes."
+    ],
+    "correcta": 1,
+    "feedback": {
+      "correcto": "¡Correcto! Antes de cualquier cálculo, los datos se estructuran en una matriz rectangular donde cada fila corresponde a un caso o participante anonimizado mediante un código y cada columna corresponde a una variable o reactivo individual.",
+      "incorrecto": "Revisá este punto. Según el apartado 4 de la lectura de Clase 12 («La matriz de datos», p. 5), el formato estándar en programas como jamovi, R o SPSS ubica una fila por participante y una columna por variable o ítem.",
+      "correcta": "¡Correcto! Antes de cualquier cálculo, los datos se estructuran en una matriz rectangular donde cada fila corresponde a un caso o participante anonimizado mediante un código y cada columna corresponde a una variable o reactivo individual.",
+      "incorrecta": "Revisá este punto. Según el apartado 4 de la lectura de Clase 12 («La matriz de datos», p. 5), el formato estándar en programas como jamovi, R o SPSS ubica una fila por participante y una columna por variable o ítem."
+    },
+    "dificultad": 1,
+    "subtema": "analisis_cuantitativo",
+    "lectura_ref": "Materiales de Lectura/El plan de análisis de datos en un proyecto de investigación.pdf, §4 (La matriz de datos, p. 5)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b019",
+    "tipo": "opcion_multiple",
+    "enunciado": "Antes de sumar los ítems de una escala tipo Likert para obtener el puntaje total de un participante, ¿qué operación preparatoria es indispensable realizar con los reactivos redactados en sentido inverso?",
+    "opciones": [
+      "Eliminarlos definitivamente de la matriz de datos porque contradicen la dirección conceptual de la variable.",
+      "Multiplicarlos por cero para que no afecten la media aritmética ni la desviación típica del grupo estudiado.",
+      "Invertir o recodificar sus valores numéricos (por ejemplo, de 1 a 5, transformar 5 en 1 y 4 en 2).",
+      "Mantener su puntuación original sin cambios para que compensen el error aleatorio de los reactivos directos."
+    ],
+    "correcta": 2,
+    "feedback": {
+      "correcto": "¡Correcto! Cuando un ítem está formulado en polaridad opuesta al constructo (p. ej., «Me siento tranquilo» en una escala de estrés), marcar 5 indica bajo estrés; por ello debe recodificarse invirtiendo la escala antes de calcular la suma total.",
+      "incorrecto": "Revisá este punto. En el apartado 4 de la guía de Clase 12 (p. 6) se explica que sumar ítems directos e inversos sin recodificar previamente los inversos anula el sentido del puntaje compuesto.",
+      "correcta": "¡Correcto! Cuando un ítem está formulado en polaridad opuesta al constructo (p. ej., «Me siento tranquilo» en una escala de estrés), marcar 5 indica bajo estrés; por ello debe recodificarse invirtiendo la escala antes de calcular la suma total.",
+      "incorrecta": "Revisá este punto. En el apartado 4 de la guía de Clase 12 (p. 6) se explica que sumar ítems directos e inversos sin recodificar previamente los inversos anula el sentido del puntaje compuesto."
+    },
+    "dificultad": 1,
+    "subtema": "analisis_cuantitativo",
+    "lectura_ref": "Materiales de Lectura/El plan de análisis de datos en un proyecto de investigación.pdf, §4 (Resguardos de la matriz, p. 6)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b020",
+    "tipo": "opcion_multiple",
+    "enunciado": "Al describir una variable cuantitativa continua, ¿qué medidas de tendencia central y de dispersión deben reportarse siempre juntas según la simetría de la distribución?",
+    "opciones": [
+      "La moda acompañada siempre de la varianza poblacional, sin importar si la variable es nominal o continua.",
+      "La media aritmética informada sola sin ninguna medida de dispersión cuando el tamaño muestral supera cien casos.",
+      "El porcentaje relativo acompañado de la desviación típica únicamente en distribuciones con valores extremos.",
+      "Media con desviación típica si es simétrica, o mediana con rango intercuartílico si es asimétrica."
+    ],
+    "correcta": 3,
+    "feedback": {
+      "correcto": "¡Correcto! Una medida de centro nunca se informa sola: en distribuciones aproximadamente simétricas se reportan media y desviación típica (M y DE); en distribuciones muy asimétricas o con valores extremos se reportan mediana y rango intercuartílico (Mdn y RIC).",
+      "incorrecto": "Revisá este punto. Como sintetiza la Tabla 5 de la lectura de Clase 12 (pp. 7-8), dos grupos pueden tener idéntica media y dispersión muy distinta; por eso la media va con la DE y la mediana va con el RIC.",
+      "correcta": "¡Correcto! Una medida de centro nunca se informa sola: en distribuciones aproximadamente simétricas se reportan media y desviación típica (M y DE); en distribuciones muy asimétricas o con valores extremos se reportan mediana y rango intercuartílico (Mdn y RIC).",
+      "incorrecta": "Revisá este punto. Como sintetiza la Tabla 5 de la lectura de Clase 12 (pp. 7-8), dos grupos pueden tener idéntica media y dispersión muy distinta; por eso la media va con la DE y la mediana va con el RIC."
+    },
+    "dificultad": 1,
+    "subtema": "analisis_cuantitativo",
+    "lectura_ref": "Materiales de Lectura/El plan de análisis de datos en un proyecto de investigación.pdf, §5.2 y Tabla 5 (pp. 7-8)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b021",
+    "tipo": "opcion_multiple",
+    "enunciado": "En el análisis cualitativo (Clase 12), ¿qué es una «unidad de significado» dentro de la fase de lectura y codificación del corpus?",
+    "opciones": [
+      "Un fragmento del texto que expresa una idea relevante para los objetivos y recibe un código inicial.",
+      "El número total de entrevistas multiplicado por la cantidad de páginas transcriptas durante el trabajo de campo.",
+      "Un puntaje numérico estandarizado de uno a cinco que reemplaza las palabras del participante en la matriz.",
+      "La conclusión definitiva del estudio que demuestra la hipótesis causal planteada en el marco teórico inicial."
+    ],
+    "correcta": 0,
+    "feedback": {
+      "correcto": "¡Correcto! En la ruta cualitativa, tras transcribir y leer el corpus, el investigador segmenta el texto en unidades de significado (fragmentos con sentido propio respecto al objetivo) para asignarles códigos iniciales y compararlos.",
+      "incorrecto": "Revisá este punto. En el análisis cualitativo (Clase 12), la unidad de significado es el segmento textual con sentido comprensivo que sirve de base para la codificación inicial y la posterior agrupación en categorías.",
+      "correcta": "¡Correcto! En la ruta cualitativa, tras transcribir y leer el corpus, el investigador segmenta el texto en unidades de significado (fragmentos con sentido propio respecto al objetivo) para asignarles códigos iniciales y compararlos.",
+      "incorrecta": "Revisá este punto. En el análisis cualitativo (Clase 12), la unidad de significado es el segmento textual con sentido comprensivo que sirve de base para la codificación inicial y la posterior agrupación en categorías."
+    },
+    "dificultad": 1,
+    "subtema": "analisis_cualitativo",
+    "lectura_ref": "Plan vigente de clases - Metodología II - 2026.md, Clase 12 (Ruta cualitativa: unidad de significado, codificación inicial y comparación)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b022",
+    "tipo": "opcion_multiple",
+    "enunciado": "Al comparar dos coeficientes de correlación obtenidos en un estudio, r = -0,60 y r = +0,60, ¿cuál de las siguientes interpretaciones es correcta?",
+    "opciones": [
+      "El coeficiente positivo indica una asociación mucho más fuerte porque el signo negativo representa ausencia de relación.",
+      "Ambos coeficientes tienen idéntica fuerza o magnitud; solo difieren en el sentido de la relación.",
+      "El coeficiente negativo es un error de cálculo porque las correlaciones estadísticas solo pueden oscilar entre cero y más uno.",
+      "El coeficiente positivo demuestra que la primera variable causa la segunda, mientras que el negativo indica el efecto inverso."
+    ],
+    "correcta": 1,
+    "feedback": {
+      "correcto": "¡Correcto! En un coeficiente de correlación (que oscila entre -1 y +1), el signo (+ o -) indica únicamente la dirección del vínculo (directa o inversa), mientras que el valor absoluto (|0,60|) indica la fuerza o magnitud.",
+      "incorrecto": "Revisá este punto. Como explica el apartado 8.1 de la lectura de Clase 12 (p. 13), r = -0,60 y r = +0,60 poseen idéntica magnitud o fuerza; solo cambia la dirección en que covarían las variables.",
+      "correcta": "¡Correcto! En un coeficiente de correlación (que oscila entre -1 y +1), el signo (+ o -) indica únicamente la dirección del vínculo (directa o inversa), mientras que el valor absoluto (|0,60|) indica la fuerza o magnitud.",
+      "incorrecta": "Revisá este punto. Como explica el apartado 8.1 de la lectura de Clase 12 (p. 13), r = -0,60 y r = +0,60 poseen idéntica magnitud o fuerza; solo cambia la dirección en que covarían las variables."
+    },
+    "dificultad": 1,
+    "subtema": "analisis_cuantitativo",
+    "lectura_ref": "Materiales de Lectura/El plan de análisis de datos en un proyecto de investigación.pdf, §8.1 (Dirección y fuerza, p. 13)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b023",
+    "tipo": "opcion_multiple",
+    "enunciado": "En un anteproyecto cuantitativo, un estudiante escribe como único plan de análisis: «Los datos recolectados se analizarán utilizando el programa estadístico jamovi». ¿Por qué es insuficiente esta formulación?",
+    "opciones": [
+      "Porque en Psicología es obligatorio realizar todos los cálculos a mano antes de emplear programas informáticos.",
+      "Porque jamovi solo permite construir gráficos descriptivos pero no cuenta con pruebas inferenciales bivariadas.",
+      "Porque el software es un medio operativo; el plan debe indicar qué técnicas responderán a cada objetivo.",
+      "Porque el plan de análisis debe limitarse a copiar las fórmulas matemáticas de Pearson sin mencionar ningún programa."
+    ],
+    "correcta": 2,
+    "feedback": {
+      "correcto": "¡Correcto! La Tabla 11 de la lectura de Clase 12 (p. 18) señala este error frecuente: nombrar el software (SPSS, jamovi, R) no constituye un plan de análisis; se debe declarar cómo se depurará la matriz, cómo se describirán las variables, cómo se verificarán supuestos y qué prueba responderá a cada objetivo.",
+      "incorrecto": "Revisá este punto. El software es apenas un medio de cálculo; un plan de análisis completo debe vincular cada objetivo y variable (según su nivel de medición y distribución) con los estadísticos descriptivos y las pruebas correspondientes.",
+      "correcta": "¡Correcto! La Tabla 11 de la lectura de Clase 12 (p. 18) señala este error frecuente: nombrar el software (SPSS, jamovi, R) no constituye un plan de análisis; se debe declarar cómo se depurará la matriz, cómo se describirán las variables, cómo se verificarán supuestos y qué prueba responderá a cada objetivo.",
+      "incorrecta": "Revisá este punto. El software es apenas un medio de cálculo; un plan de análisis completo debe vincular cada objetivo y variable (según su nivel de medición y distribución) con los estadísticos descriptivos y las pruebas correspondientes."
+    },
+    "dificultad": 2,
+    "subtema": "analisis_cuantitativo",
+    "lectura_ref": "Materiales de Lectura/El plan de análisis de datos en un proyecto de investigación.pdf, §10 y Tabla 11 (pp. 16-18)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b024",
+    "tipo": "opcion_multiple",
+    "enunciado": "Un equipo aplica una escala continua de ansiedad (puntajes de 10 a 50), pero para su análisis principal de correlación decide recodificar los puntajes en tres categorías (bajo, medio y alto). ¿Qué consecuencia metodológica tiene esta decisión?",
+    "opciones": [
+      "Aumenta la precisión matemática del contraste al eliminar las diferencias individuales dentro de cada categoría.",
+      "Es un requisito obligatorio porque ninguna prueba estadística permite analizar puntajes sumados de escalas Likert.",
+      "Convierte automáticamente un diseño transversal correlacional en un diseño experimental de tres grupos independientes.",
+      "Pierde información numérica entre puntajes cercanos o distantes y reduce la potencia estadística."
+    ],
+    "correcta": 3,
+    "feedback": {
+      "correcto": "¡Correcto! Como explica el apartado 3.4 de la lectura de Clase 12 (p. 5), segmentar puntajes continuos en categorías arbitrarias separa artificialmente a sujetos casi iguales (ej. 18 vs. 19) y agrupa en la misma clase a sujetos muy distintos (19 vs. 25), reduciendo la potencia estadística.",
+      "incorrecto": "Revisá este punto. Aunque los puntos de corte sirven para perfiles descriptivos o clínicos, en el análisis principal conviene conservar los puntajes continuos para no perder información ni potencia estadística.",
+      "correcta": "¡Correcto! Como explica el apartado 3.4 de la lectura de Clase 12 (p. 5), segmentar puntajes continuos en categorías arbitrarias separa artificialmente a sujetos casi iguales (ej. 18 vs. 19) y agrupa en la misma clase a sujetos muy distintos (19 vs. 25), reduciendo la potencia estadística.",
+      "incorrecta": "Revisá este punto. Aunque los puntos de corte sirven para perfiles descriptivos o clínicos, en el análisis principal conviene conservar los puntajes continuos para no perder información ni potencia estadística."
+    },
+    "dificultad": 2,
+    "subtema": "analisis_cuantitativo",
+    "lectura_ref": "Materiales de Lectura/El plan de análisis de datos en un proyecto de investigación.pdf, §3.4 (Por qué no conviene convertir puntajes en categorías, p. 5)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b025",
+    "tipo": "opcion_multiple",
+    "enunciado": "Al redactar el proyecto todavía no se han recogido los datos, por lo que se desconoce si las variables cuantitativas seguirán una distribución normal. ¿Cómo debe formularse el plan de análisis ante esta incertidumbre?",
+    "opciones": [
+      "Prever cómo se evaluará la normalidad e indicar la prueba paramétrica y la alternativa no paramétrica.",
+      "Asumir que todos los datos psicológicos son normales y mencionar únicamente la correlación de Pearson sin condiciones.",
+      "Dejar en blanco la sección de análisis de datos del proyecto hasta haber terminado la recolección de las encuestas.",
+      "Renunciar a cualquier prueba de relación entre variables y limitarse a presentar gráficos de sectores circulares."
+    ],
+    "correcta": 0,
+    "feedback": {
+      "correcto": "¡Correcto! La guía de la Clase 12 (§6.3 y §10, pp. 10 y 17) destaca que el plan de análisis debe anticipar ambas vías: declarar cómo se verificará la normalidad (Shapiro-Wilk, asimetría/curtosis y gráficos) e indicar la prueba paramétrica (ej. Pearson/t) y la alternativa no paramétrica (ej. Spearman/Mann-Whitney).",
+      "incorrecto": "Revisá este punto. Como en el anteproyecto aún no hay datos recolectados, un plan riguroso prevé la verificación de supuestos y declara la prueba paramétrica si se cumplen y la no paramétrica en caso contrario.",
+      "correcta": "¡Correcto! La guía de la Clase 12 (§6.3 y §10, pp. 10 y 17) destaca que el plan de análisis debe anticipar ambas vías: declarar cómo se verificará la normalidad (Shapiro-Wilk, asimetría/curtosis y gráficos) e indicar la prueba paramétrica (ej. Pearson/t) y la alternativa no paramétrica (ej. Spearman/Mann-Whitney).",
+      "incorrecta": "Revisá este punto. Como en el anteproyecto aún no hay datos recolectados, un plan riguroso prevé la verificación de supuestos y declara la prueba paramétrica si se cumplen y la no paramétrica en caso contrario."
+    },
+    "dificultad": 2,
+    "subtema": "analisis_cuantitativo",
+    "lectura_ref": "Materiales de Lectura/El plan de análisis de datos en un proyecto de investigación.pdf, §6.3 y §10 (pp. 9-10, 17)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b026",
+    "tipo": "opcion_multiple",
+    "enunciado": "Un estudio busca analizar la asociación entre dos variables cualitativas nominales: la carrera universitaria (Psicología, Medicina, Derecho) y la modalidad de estudio preferida (presencial, híbrida, virtual). ¿Qué prueba y medida de magnitud corresponden?",
+    "opciones": [
+      "Correlación r de Pearson acompañada del coeficiente de determinación r cuadrado en porcentaje.",
+      "Chi-cuadrado de Pearson en tabla de contingencia, junto con V de Cramér (o phi en 2x2).",
+      "Prueba t de Student para muestras independientes acompañada de la diferencia de medias aritméticas.",
+      "Análisis de varianza de un factor (ANOVA) acompañado de la desviación típica y el rango intercuartílico."
+    ],
+    "correcta": 1,
+    "feedback": {
+      "correcto": "¡Correcto! Cuando ambas variables son cualitativas (nominales u ordinales categorizadas), los casos se cruzan en una tabla de contingencia y se aplica Chi-cuadrado de Pearson (verificando frecuencias esperadas >= 5), cuantificando la fuerza de asociación con phi (2x2) o V de Cramér (tablas mayores).",
+      "incorrecto": "Revisá este punto. Según la Tabla 6 y el apartado 7.5 de la lectura de Clase 12 (pp. 11-12), ante dos variables categóricas corresponde Chi-cuadrado de Pearson y los coeficientes phi o V de Cramér (nunca Pearson ni r cuadrado).",
+      "correcta": "¡Correcto! Cuando ambas variables son cualitativas (nominales u ordinales categorizadas), los casos se cruzan en una tabla de contingencia y se aplica Chi-cuadrado de Pearson (verificando frecuencias esperadas >= 5), cuantificando la fuerza de asociación con phi (2x2) o V de Cramér (tablas mayores).",
+      "incorrecta": "Revisá este punto. Según la Tabla 6 y el apartado 7.5 de la lectura de Clase 12 (pp. 11-12), ante dos variables categóricas corresponde Chi-cuadrado de Pearson y los coeficientes phi o V de Cramér (nunca Pearson ni r cuadrado)."
+    },
+    "dificultad": 2,
+    "subtema": "analisis_cuantitativo",
+    "lectura_ref": "Materiales de Lectura/El plan de análisis de datos en un proyecto de investigación.pdf, §7.2 y §7.5 (pp. 11-12)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b027",
+    "tipo": "opcion_multiple",
+    "enunciado": "Se desea comparar el puntaje cuantitativo de bienestar psicológico entre estudiantes de tres turnos distintos (mañana, tarde y noche). ¿Qué pruebas estadísticas debe contemplar el plan de análisis según se cumpla o no la normalidad?",
+    "opciones": [
+      "Correlación de Pearson si la distribución es normal y correlación de Spearman si presenta asimetría.",
+      "Prueba t de Student para dos grupos si hay normalidad y prueba Chi-cuadrado si no se cumple el supuesto.",
+      "ANOVA de un factor si se cumplen los supuestos paramétricos, o Kruskal-Wallis en caso contrario.",
+      "Coeficiente de determinación r cuadrado si hay normalidad, o prueba U de Mann-Whitney para dos muestras."
+    ],
+    "correcta": 2,
+    "feedback": {
+      "correcto": "¡Correcto! Al cruzar una variable cualitativa de tres o más grupos (turno: mañana, tarde, noche) con una variable cuantitativa (puntaje de bienestar), corresponde ANOVA de un factor si se cumplen los supuestos paramétricos, o Kruskal-Wallis como alternativa no paramétrica.",
+      "incorrecto": "Revisá este punto. Como indica el apartado 7.6 y la Figura 3 de la lectura de Clase 12 (pp. 11 y 13), la comparación de una variable cuantitativa entre tres o más grupos independientes requiere ANOVA de un factor o Kruskal-Wallis.",
+      "correcta": "¡Correcto! Al cruzar una variable cualitativa de tres o más grupos (turno: mañana, tarde, noche) con una variable cuantitativa (puntaje de bienestar), corresponde ANOVA de un factor si se cumplen los supuestos paramétricos, o Kruskal-Wallis como alternativa no paramétrica.",
+      "incorrecta": "Revisá este punto. Como indica el apartado 7.6 y la Figura 3 de la lectura de Clase 12 (pp. 11 y 13), la comparación de una variable cuantitativa entre tres o más grupos independientes requiere ANOVA de un factor o Kruskal-Wallis."
+    },
+    "dificultad": 2,
+    "subtema": "analisis_cuantitativo",
+    "lectura_ref": "Materiales de Lectura/El plan de análisis de datos en un proyecto de investigación.pdf, §7.6 y Figura 3 (pp. 11, 13)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b028",
+    "tipo": "opcion_multiple",
+    "enunciado": "En un estudio con muestreo probabilístico se reporta el resultado: r(93) = -0,40, p < 0,001, IC 95 % [-0,55; -0,22]. ¿Qué informa específicamente el coeficiente de determinación (r cuadrado = 0,16) derivado de ese valor?",
+    "opciones": [
+      "Que exactamente el 16 % de los estudiantes encuestados padece un trastorno clínico provocado por la primera variable.",
+      "Que existe un 16 % de probabilidad de que la correlación observada en la muestra se deba únicamente al azar.",
+      "Que el margen de error del muestreo probabilístico utilizado fue de más o menos dieciséis puntos porcentuales.",
+      "Que ambas variables comparten el 16 % de su variabilidad, mientras el 84 % obedece a otros factores."
+    ],
+    "correcta": 3,
+    "feedback": {
+      "correcto": "¡Correcto! El coeficiente de determinación (r al cuadrado = (-0,40)^2 = 0,16) expresa la proporción o porcentaje de variabilidad compartida entre las dos variables (16 %), quedando el 84 % restante asociado a otros factores o varianza de error.",
+      "incorrecto": "Revisá este punto. Según los apartados 7.3 y 8.4 de la lectura de Clase 12 (pp. 12 y 14), r cuadrado no es el valor p ni un porcentaje de personas enfermas, sino la proporción de varianza que comparten ambas variables.",
+      "correcta": "¡Correcto! El coeficiente de determinación (r al cuadrado = (-0,40)^2 = 0,16) expresa la proporción o porcentaje de variabilidad compartida entre las dos variables (16 %), quedando el 84 % restante asociado a otros factores o varianza de error.",
+      "incorrecta": "Revisá este punto. Según los apartados 7.3 y 8.4 de la lectura de Clase 12 (pp. 12 y 14), r cuadrado no es el valor p ni un porcentaje de personas enfermas, sino la proporción de varianza que comparten ambas variables."
+    },
+    "dificultad": 2,
+    "subtema": "analisis_cuantitativo",
+    "lectura_ref": "Materiales de Lectura/El plan de análisis de datos en un proyecto de investigación.pdf, §7.3 y §8.4 (pp. 12, 14)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b029",
+    "tipo": "opcion_multiple",
+    "enunciado": "Durante el análisis cualitativo de entrevistas (Clase 12), ¿qué función cumplen los «memos analíticos» escritos por el investigador a lo largo de la codificación?",
+    "opciones": [
+      "Registrar definiciones de códigos, dudas y relaciones entre categorías para dar trazabilidad al análisis.",
+      "Reemplazar las transcripciones originales de los participantes para no tener que citar fragmentos textuales en el informe.",
+      "Contabilizar cuántas veces se repite cada palabra en el texto para aplicar una prueba de significación estadística.",
+      "Resumir la biografía personal del investigador sin vincularla con los datos empíricos ni con las categorías emergentes."
+    ],
+    "correcta": 0,
+    "feedback": {
+      "correcto": "¡Correcto! En la ruta cualitativa de la Clase 12, los memos son notas teóricas y metodológicas donde el analista documenta por qué creó, fusionó o dividió códigos y categorías, qué relaciones emergen y qué dudas surgen, cimentando la trazabilidad del análisis.",
+      "incorrecto": "Revisá este punto. Los memos analíticos no sustituyen las citas textuales ni buscan conteos estadísticos: son registros reflexivos continuos que hacen trazable el paso de los códigos iniciales a las categorías y temas.",
+      "correcta": "¡Correcto! En la ruta cualitativa de la Clase 12, los memos son notas teóricas y metodológicas donde el analista documenta por qué creó, fusionó o dividió códigos y categorías, qué relaciones emergen y qué dudas surgen, cimentando la trazabilidad del análisis.",
+      "incorrecta": "Revisá este punto. Los memos analíticos no sustituyen las citas textuales ni buscan conteos estadísticos: son registros reflexivos continuos que hacen trazable el paso de los códigos iniciales a las categorías y temas."
+    },
+    "dificultad": 2,
+    "subtema": "analisis_cualitativo",
+    "lectura_ref": "Plan vigente de clases - Metodología II - 2026.md, Clase 12 (Ruta cualitativa: memos, casos divergentes y trazabilidad de las decisiones)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b030",
+    "tipo": "opcion_multiple",
+    "enunciado": "En la ruta cualitativa (Clase 12), ¿cómo debe proceder el investigador cuando encuentra en el corpus un «caso divergente» o testimonio que contradice la categoría o tendencia principal?",
+    "opciones": [
+      "Borrar ese fragmento de la transcripción para que las categorías presentadas en la defensa sean totalmente uniformes.",
+      "Analizarlo e integrarlo para matizar o delimitar las categorías, evitando conclusiones forzadas.",
+      "Descartar al participante alegando que respondió de mala fe por no coincidir con el supuesto inicial del proyecto.",
+      "Modifcar las palabras de la cita textual para que el relato parezca respaldar el tema dominante del estudio."
+    ],
+    "correcta": 1,
+    "feedback": {
+      "correcto": "¡Correcto! El examen explícito de casos negativos o divergentes es un criterio clave de rigor cualitativo: lejos de ocultarse, las discrepancias permiten precisar las condiciones y límites de las categorías construidas.",
+      "incorrecto": "Revisá este punto. Ocultar o alterar testimonios disidentes destruye la integridad y credibilidad cualitativa; la Clase 12 exige atender a los casos divergentes para afinar las categorías y mostrar la complejidad real del fenómeno.",
+      "correcta": "¡Correcto! El examen explícito de casos negativos o divergentes es un criterio clave de rigor cualitativo: lejos de ocultarse, las discrepancias permiten precisar las condiciones y límites de las categorías construidas.",
+      "incorrecta": "Revisá este punto. Ocultar o alterar testimonios disidentes destruye la integridad y credibilidad cualitativa; la Clase 12 exige atender a los casos divergentes para afinar las categorías y mostrar la complejidad real del fenómeno."
+    },
+    "dificultad": 2,
+    "subtema": "analisis_cualitativo",
+    "lectura_ref": "Plan vigente de clases - Metodología II - 2026.md, Clase 12 (Ruta cualitativa: memos, casos divergentes y trazabilidad)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b031",
+    "tipo": "opcion_multiple",
+    "enunciado": "Un estudio correlacional mide una variable multidimensional como las estrategias de afrontamiento (que incluye subescalas de afrontamiento centrado en el problema, en la emoción y evitación). ¿Qué error grave debe evitarse en el plan de análisis?",
+    "opciones": [
+      "Calcular estadísticos descriptivos de tendencia central y dispersión para cada una de las tres dimensiones por separado.",
+      "Evaluar el supuesto de normalidad dimensión por dimensión antes de decidir si se aplica Pearson o Spearman en cada cruce.",
+      "Sumar las tres subescalas en un único puntaje global, mezclando estrategias que operan en sentido opuesto.",
+      "Correlacionar el puntaje de estrés académico por separado con cada una de las tres dimensiones del instrumento."
+    ],
+    "correcta": 2,
+    "feedback": {
+      "correcto": "¡Correcto! Como advierte la sección 9 y la Tabla 11 de la lectura de Clase 12 (pp. 15 y 18), sumar subescalas conceptualmente diferenciadas u opuestas (como afrontamiento activo y evitación) en un puntaje global único anula su significado psicológico.",
+      "incorrecto": "Revisá este punto. En variables multidimensionales cuyas subescalas operan en direcciones distintas, el análisis debe planificarse y ejecutarse dimensión por dimensión (descriptivos, normalidad y correlación para cada subescala).",
+      "correcta": "¡Correcto! Como advierte la sección 9 y la Tabla 11 de la lectura de Clase 12 (pp. 15 y 18), sumar subescalas conceptualmente diferenciadas u opuestas (como afrontamiento activo y evitación) en un puntaje global único anula su significado psicológico.",
+      "incorrecta": "Revisá este punto. En variables multidimensionales cuyas subescalas operan en direcciones distintas, el análisis debe planificarse y ejecutarse dimensión por dimensión (descriptivos, normalidad y correlación para cada subescala)."
+    },
+    "dificultad": 2,
+    "subtema": "analisis_cuantitativo",
+    "lectura_ref": "Materiales de Lectura/El plan de análisis de datos en un proyecto de investigación.pdf, §9 y Tabla 11 (pp. 15-16, 18)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b032",
+    "tipo": "opcion_multiple",
+    "enunciado": "En un estudio transversal por encuesta se halla una correlación positiva, moderada y significativa entre el agotamiento laboral y el consumo de cafeína (r = 0,44, p < 0,001). ¿Por qué el diseño no permite concluir que la cafeína causa el agotamiento?",
+    "opciones": [
+      "Porque una correlación solo demuestra causalidad directa cuando el coeficiente r de Pearson supera el valor de 0,80.",
+      "Porque el valor p menor a 0,001 indica que la hipótesis alternativa fue rechazada y que no existe asociación lineal.",
+      "Porque para afirmar causalidad en una encuesta transversal bastaría con reemplazar Pearson por la prueba de Spearman.",
+      "Porque un diseño transversal no establece dirección temporal ni descarta terceras variables como la sobrecarga horaria."
+    ],
+    "correcta": 3,
+    "feedback": {
+      "correcto": "¡Correcto! Como explica la sección 8.5 de la lectura de Clase 12 (p. 15), que dos variables covaríen en un corte transversal no dirime la dirección causal (A → B o B → A) ni controla terceras variables confundidoras (C → A y B).",
+      "incorrecto": "Revisá este punto. Correlación no implica causalidad, sin importar cuán alto sea r o cuán pequeño sea p: un diseño correlacional transversal carece de manipulación, asignación aleatoria y precedencia temporal para aislar causas.",
+      "correcta": "¡Correcto! Como explica la sección 8.5 de la lectura de Clase 12 (p. 15), que dos variables covaríen en un corte transversal no dirime la dirección causal (A → B o B → A) ni controla terceras variables confundidoras (C → A y B).",
+      "incorrecta": "Revisá este punto. Correlación no implica causalidad, sin importar cuán alto sea r o cuán pequeño sea p: un diseño correlacional transversal carece de manipulación, asignación aleatoria y precedencia temporal para aislar causas."
+    },
+    "dificultad": 3,
+    "subtema": "analisis_cuantitativo",
+    "lectura_ref": "Materiales de Lectura/El plan de análisis de datos en un proyecto de investigación.pdf, §8.5 y Tabla 11 (pp. 15, 18)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b033",
+    "tipo": "opcion_multiple",
+    "enunciado": "Un investigador aplica una prueba inferencial sobre una muestra no probabilística por conveniencia de 80 estudiantes voluntarios y obtiene p = 0,012 e IC 95 % [0,10; 0,48]. Según la lectura de la Clase 12, ¿cómo debe interpretarse el alcance inferencial de este resultado?",
+    "opciones": [
+      "Con cautela: las pruebas inferenciales suponen selección probabilística o aleatoria y debe declararse esa limitación.",
+      "Como una estimación poblacional exacta para todo el país, ya que el intervalo de confianza al 95 % corrige la falta de sorteo aleatorio.",
+      "Como prueba de que la muestra por conveniencia se volvió probabilística gracias a que el valor p resultó menor a 0,05.",
+      "Es imposible calcular matemáticamente un coeficiente de correlación cuando los participantes fueron seleccionados por conveniencia."
+    ],
+    "correcta": 0,
+    "feedback": {
+      "correcto": "¡Correcto! Como advierte el recuadro de la sección 7.2 («Alcance inferencial y muestreo», p. 12), los valores p e intervalos de confianza presuponen muestreo probabilístico o asignación aleatoria; en muestras por conveniencia, los resultados se interpretan con estricta cautela y se declara el límite de generalización.",
+      "incorrecto": "Revisá este punto. Calcular un valor p o un IC en el software sobre una muestra por conveniencia no autoriza a generalizar a la población; el principio antipseudocálculo y la guía de análisis exigen explicitar ese límite inferencial.",
+      "correcta": "¡Correcto! Como advierte el recuadro de la sección 7.2 («Alcance inferencial y muestreo», p. 12), los valores p e intervalos de confianza presuponen muestreo probabilístico o asignación aleatoria; en muestras por conveniencia, los resultados se interpretan con estricta cautela y se declara el límite de generalización.",
+      "incorrecta": "Revisá este punto. Calcular un valor p o un IC en el software sobre una muestra por conveniencia no autoriza a generalizar a la población; el principio antipseudocálculo y la guía de análisis exigen explicitar ese límite inferencial."
+    },
+    "dificultad": 3,
+    "subtema": "analisis_cuantitativo",
+    "lectura_ref": "Materiales de Lectura/El plan de análisis de datos en un proyecto de investigación.pdf, §7.2 (Alcance inferencial y muestreo, p. 12)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b034",
+    "tipo": "opcion_multiple",
+    "enunciado": "En un estudio con N = 120 participantes, la prueba formal de Shapiro-Wilk sobre una variable arroja p = 0,03, pero el histograma es casi simétrico, los puntos del gráfico Q-Q siguen la diagonal y la asimetría es 0,25. ¿Por qué no debe descartarse automáticamente la normalidad basándose solo en el valor p de Shapiro-Wilk?",
+    "opciones": [
+      "Porque un valor p menor a 0,05 en la prueba de Shapiro-Wilk significa precisamente que la distribución es perfectamente normal.",
+      "Porque en muestras grandes Shapiro-Wilk detecta desvíos mínimos y debe leerse junto con gráficos e índices de forma.",
+      "Porque la prueba de Shapiro-Wilk solo sirve para variables nominales dicotómicas y no para puntajes de escalas cuantitativas.",
+      "Porque los gráficos Q-Q y los índices de asimetría solo se utilizan cuando el tamaño de la muestra es inferior a diez personas."
+    ],
+    "correcta": 1,
+    "feedback": {
+      "correcto": "¡Correcto! Como explica la sección 6.3 de la lectura de Clase 12 (pp. 9-10), la normalidad se evalúa combinando tres evidencias convergentes (gráficos, asimetría/curtosis y prueba formal), ya que con muestras grandes Shapiro-Wilk puede dar p < 0,05 ante desviaciones triviales sin relevancia práctica.",
+      "incorrecto": "Revisá este punto. En Shapiro-Wilk, p < 0,05 rechaza la hipótesis nula de normalidad, pero en muestras grandes la prueba detecta desvíos mínimos; por eso nunca se decide con un único indicador aislado sino triangulando con el histograma/Q-Q y la asimetría/curtosis.",
+      "correcta": "¡Correcto! Como explica la sección 6.3 de la lectura de Clase 12 (pp. 9-10), la normalidad se evalúa combinando tres evidencias convergentes (gráficos, asimetría/curtosis y prueba formal), ya que con muestras grandes Shapiro-Wilk puede dar p < 0,05 ante desviaciones triviales sin relevancia práctica.",
+      "incorrecta": "Revisá este punto. En Shapiro-Wilk, p < 0,05 rechaza la hipótesis nula de normalidad, pero en muestras grandes la prueba detecta desvíos mínimos; por eso nunca se decide con un único indicador aislado sino triangulando con el histograma/Q-Q y la asimetría/curtosis."
+    },
+    "dificultad": 3,
+    "subtema": "analisis_cuantitativo",
+    "lectura_ref": "Materiales de Lectura/El plan de análisis de datos en un proyecto de investigación.pdf, §6.3 (Cómo se evalúa la normalidad, pp. 9-10)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b035",
+    "tipo": "opcion_multiple",
+    "enunciado": "Al calcular una correlación en la muestra, el investigador obtiene un intervalo de confianza al 95 % de IC 95 % [-0,12; +0,28]. ¿Qué conclusión estadística se desprende de que dicho intervalo incluya al valor cero?",
+    "opciones": [
+      "Que la correlación es estadísticamente significativa al nivel del 5 % y demuestra una asociación positiva moderada.",
+      "Que existe una relación curvilínea perfecta entre ambas variables que anuló la diferencia de medias en la población.",
+      "Que al nivel de significación del 5 % no puede descartarse que la correlación verdadera en la población sea nula (p >= 0,05).",
+      "Que hubo un error de digitación en la matriz de datos porque un intervalo de confianza no puede tener límites con distinto signo."
+    ],
+    "correcta": 2,
+    "feedback": {
+      "correcto": "¡Correcto! Como establece el apartado 8.3 de la lectura de Clase 12 (p. 14), el IC 95 % delimita el rango plausible para el parámetro poblacional: si el intervalo contiene al cero (va de un valor negativo a uno positivo), no se puede descartar que la relación verdadera sea nula y el resultado no es significativo al 5 %.",
+      "incorrecto": "Revisá este punto. Si el intervalo de confianza al 95 % de una correlación incluye el 0,00 entre sus límites, significa que el valor nulo es plausible en la población, lo que equivale a no rechazar la hipótesis nula (p >= 0,05).",
+      "correcta": "¡Correcto! Como establece el apartado 8.3 de la lectura de Clase 12 (p. 14), el IC 95 % delimita el rango plausible para el parámetro poblacional: si el intervalo contiene al cero (va de un valor negativo a uno positivo), no se puede descartar que la relación verdadera sea nula y el resultado no es significativo al 5 %.",
+      "incorrecta": "Revisá este punto. Si el intervalo de confianza al 95 % de una correlación incluye el 0,00 entre sus límites, significa que el valor nulo es plausible en la población, lo que equivale a no rechazar la hipótesis nula (p >= 0,05)."
+    },
+    "dificultad": 3,
+    "subtema": "analisis_cuantitativo",
+    "lectura_ref": "Materiales de Lectura/El plan de análisis de datos en un proyecto de investigación.pdf, §8.3 (Margen de error: el intervalo de confianza, p. 14)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m10-b036",
+    "tipo": "opcion_multiple",
+    "enunciado": "En un proyecto de diseño mixto (Clase 12), ¿qué requisito debe cumplir el plan de análisis respecto a las rutas cuantitativa y cualitativa?",
+    "opciones": [
+      "Transformar obligatoriamente todas las entrevistas cualitativas en frecuencias numéricas para aplicar únicamente pruebas estadísticas.",
+      "Elegir una sola de las dos rutas para el plan de análisis y descartar la otra para no extender el borrador del proyecto.",
+      "Dejar los datos cualitativos sin codificar ni categorizar, usándolos solo como decoración anecdótica de los gráficos numéricos.",
+      "Planificar con rigor propio tanto la matriz cuantitativa como la cualitativa y explicar dónde se integran."
+    ],
+    "correcta": 3,
+    "feedback": {
+      "correcto": "¡Correcto! Según la Clase 12 del Plan 2026, un diseño mixto exige planificar con igual rigor la ruta cuantitativa (variable, nivel de medición, preparación, prueba) y la ruta cualitativa (corpus, unidad, codificación, categorías), especificando explícitamente el punto de integración o articulación.",
+      "incorrecto": "Revisá este punto. En un proyecto mixto no se subordina ni se anula una ruta sobre la otra: se presentan ambas matrices de análisis respetando su lógica propia y se explica cómo se articulan los hallazgos.",
+      "correcta": "¡Correcto! Según la Clase 12 del Plan 2026, un diseño mixto exige planificar con igual rigor la ruta cuantitativa (variable, nivel de medición, preparación, prueba) y la ruta cualitativa (corpus, unidad, codificación, categorías), especificando explícitamente el punto de integración o articulación.",
+      "incorrecta": "Revisá este punto. En un proyecto mixto no se subordina ni se anula una ruta sobre la otra: se presentan ambas matrices de análisis respetando su lógica propia y se explica cómo se articulan los hallazgos."
+    },
+    "dificultad": 3,
+    "subtema": "analisis_cualitativo",
+    "lectura_ref": "Plan vigente de clases - Metodología II - 2026.md, Clase 12 (Evidencia Moodle: ruta cuantitativa, cualitativa y mixta)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
     "nota_revision": ""
   }
 ]

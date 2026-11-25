@@ -37,3 +37,21 @@ La base visual cumple la dirección editorial, los dos temas y los 375 px. **Se 
 2. **`lectura_ref` circular.** Varios ítems citan la cápsula (`data/contenido_claude/…`) como fuente. La cápsula es material del sitio, no la fuente: citar la obra del canon (capítulo o sección) o, como apoyo, el artículo correspondiente.
 
 Ítems a reescribir completos: ninguno. Solo distractores y referencias, en m08, m09, m10 y m11.
+
+## R5 (08/11, noche) — Prioridades después del diagnóstico de Codex (commit 842ad24)
+
+El diagnóstico es correcto. `main` está publicado en versión mixta por decisión docente; se completa por etapas y cada etapa se fusiona a `main` después de la revisión de Claude. Orden de trabajo:
+
+**Etapa 1 — lo que el estudiante usa para el final (fusionar en cuanto esté):**
+1. **Dominio real en el paso 7:** puntaje, umbral del 80 %, marca de módulo dominado con fecha y puntaje, y subtemas a repasar si no llega.
+2. **Un solo almacén:** la portada vieja lee `meto2.v2` (la migración desde `meto2_progress_2026` ya existe en `store.js`). El avance del ciclo nuevo tiene que verse en la portada.
+3. **Opciones mezcladas** en cada presentación (plan maestro 4.5); prueba automática de distribución uniforme de la posición correcta.
+4. **Práctica adaptativa de verdad:** sube o baja la dificultad, los errores reaparecen al final de la sesión y hay declaración de seguridad (seguro / dudoso / adiviné).
+
+**Etapa 2 — F3:** `repaso.html` con Leitner, alimentado por las tarjetas (lo sabía / dudé / no lo sabía) y por los errores; `simulacro.html` reemplaza a `examen.html` (redirección); `progreso.html` con calibración; `glosario.html`. Al terminar cada página se habilita su enlace.
+
+**Etapa 3 — retiro de la arquitectura vieja:** portada v3 (`index.html` nueva), umbral del 80 % en todo el sitio, sin `alert()`/`confirm()`/emojis, eliminar `modules/view.html`, `app.js`, `examen.js` y los datos duplicados cuando nada los use. Tipos de ítem restantes (`pareo`, `respuesta_corta`, `clasificar`, `ordenar`) solo si los datos los traen.
+
+**Borradores:** Codex hace commit de `data/borradores/` tal como están (Antigravity no usa git) y los reimporta al banco con `estado: "revisar"`. La cobertura aprobada de m09–m11 depende de la revisión docente en `Banco de ítems/Banco unificado 2026/Revisión borradores v3 - Metodología II.xlsx`; cuando vuelva, Claude pasa las decisiones al banco.
+
+Detenerse al terminar la Etapa 1 con capturas y resultados de pruebas.

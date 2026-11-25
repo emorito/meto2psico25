@@ -7,7 +7,7 @@
       "La validez es un argumento sustentado en evidencias sobre la interpretación de las puntuaciones para un uso propuesto, no una propiedad intrínseca del test.",
       "La validez es una propiedad matemática fija del instrumento que se demuestra de forma definitiva con un coeficiente de correlación superior a 0,80.",
       "La validez equivale a la consistencia temporal de las puntuaciones obtenidas al repetir la administración del cuestionario tras varios meses.",
-      "La validez se comprueba exclusivamente demostrando que los ítems del cuestionario fueron redactados por autores con grado doctoral en psicología."
+      "La validez se demuestra calculando el coeficiente alfa de Cronbach sobre las puntuaciones de la escala."
     ],
     "correcta": 0,
     "feedback": {
@@ -18,9 +18,9 @@
     },
     "dificultad": 1,
     "subtema": "medicion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Validez: un argumento con cinco fuentes de evidencia (Standards AERA, APA, NCME 2014)",
+    "lectura_ref": "AERA, APA, NCME, Standards for Educational and Psychological Testing (2014), Cap. 1 (Validity)",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -29,7 +29,7 @@
     "enunciado": "Dentro de las cinco fuentes de evidencia de validez, ¿en qué consiste la evidencia basada en el contenido del instrumento?",
     "opciones": [
       "En verificar que la matriz de correlaciones bivariadas entre todos los reactivos sea estrictamente positiva.",
-      "En calcular el tiempo exacto en milisegundos que los participantes tardan en leer las opciones de respuesta.",
+      "En demostrar una correlación elevada y estadísticamente significativa con una prueba externa consolidada.",
       "En comprobar que las puntuaciones individuales no cambien cuando se evalúa al mismo paciente en días sucesivos.",
       "En evaluar el grado en que los reactivos del test representan adecuadamente el dominio conceptual del constructo (p. ej., juicio de expertos)."
     ],
@@ -42,9 +42,9 @@
     },
     "dificultad": 1,
     "subtema": "validacion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Validez: un argumento con cinco fuentes de evidencia; Muñiz (2018)",
+    "lectura_ref": "AERA, APA, NCME, Standards for Educational and Psychological Testing (2014), Cap. 1; José Muñiz, Introducción a la Psicometría (2018), Cap. 4",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -66,9 +66,9 @@
     },
     "dificultad": 1,
     "subtema": "instrumentos",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Alfa, omega y el error de la persona; Sijtsma (2009)",
+    "lectura_ref": "Klaas Sijtsma (2009), On the use, misuse, and very limited usefulness of Cronbach's alpha, Psychometrika, 74(1), 107-120",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -76,8 +76,8 @@
     "tipo": "opcion_multiple",
     "enunciado": "En la adaptación transcultural de un instrumento según las directrices de la ITC (International Test Commission), ¿en qué consiste la técnica de traducción inversa (back-translation)?",
     "opciones": [
-      "En eliminar todas las preguntas que utilicen expresiones idiomáticas complejas sin sustituirlas por reactivos equivalentes.",
-      "En cambiar el orden de las preguntas del cuestionario colocándolas desde la última hacia la primera reactiva.",
+      "En traducir el test de forma directa y literal con un único traductor nativo para evitar interpretaciones subjetivas.",
+      "En adaptar los ítems reemplazando los constructos psicológicos complejos por conductas observables simples.",
       "En traducir el instrumento utilizando exclusivamente motores automáticos de internet sin revisión lingüística humana.",
       "En traducir los ítems del idioma de destino al idioma original para que el autor primario confirme su equivalencia conceptual."
     ],
@@ -90,9 +90,9 @@
     },
     "dificultad": 1,
     "subtema": "construccion_adaptacion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Adaptar y elegir un instrumento ya existente; ITC Guidelines (2017)",
+    "lectura_ref": "International Test Commission (ITC), ITC Guidelines for Translating and Adapting Tests (2.ª ed., 2017)",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -114,9 +114,9 @@
     },
     "dificultad": 1,
     "subtema": "instrumentos",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Alfa, omega y el error de la persona; Muñiz (2018)",
+    "lectura_ref": "José Muñiz, Introducción a la Psicometría (2018), Cap. 2 (Teoría Clásica de los Tests y Error Estándar de Medida)",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -138,9 +138,9 @@
     },
     "dificultad": 2,
     "subtema": "instrumentos",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Alfa, omega y el error de la persona; Dunn et al. (2014)",
+    "lectura_ref": "Klaas J. Dunn, Thom Baguley & Vivienne Brunsden (2014), From alpha to omega: A practical solution to the pervasive problem of internal consistency estimation, British Journal of Psychology",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -162,9 +162,9 @@
     },
     "dificultad": 2,
     "subtema": "validacion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Validez: un argumento con cinco fuentes de evidencia; Standards AERA/APA/NCME (2014)",
+    "lectura_ref": "AERA, APA, NCME, Standards for Educational and Psychological Testing (2014), Cap. 1 (Evidence Based on Response Processes)",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -173,7 +173,7 @@
     "enunciado": "En el análisis clásico de reactivos, ¿qué mide la correlación ítem-total corregida (índice de discriminación) y cuál es su umbral de calidad aceptable?",
     "opciones": [
       "La proporción de sujetos que aciertan el reactivo; se consideran de calidad aceptable los valores superiores a 0,90.",
-      "El tiempo promedio de respuesta al ítem; valores menores a diez segundos indican que el ítem es comprensible.",
+      "La correlación entre el ítem y la puntuación de un criterio diagnóstico externo; deseable ≥ 0,50.",
       "El porcentaje de varianza única no explicada por el instrumento; se prefieren reactivos con índices negativos.",
       "El grado en que el reactivo diferencia entre personas con alto y bajo nivel en la escala total (descontando el propio ítem); deseable ≥ 0,30."
     ],
@@ -186,9 +186,9 @@
     },
     "dificultad": 2,
     "subtema": "construccion_adaptacion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Construir un instrumento; Muñiz & Fonseca-Pedrero (2019)",
+    "lectura_ref": "José Muñiz & Eduardo Fonseca-Pedrero (2019), Diez pasos para la construcción de un test, Psicothema, 31(1), 7-16",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -210,9 +210,9 @@
     },
     "dificultad": 2,
     "subtema": "validacion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Validez: un argumento con cinco fuentes de evidencia; Kerlinger & Lee, Cap. 27",
+    "lectura_ref": "Fred N. Kerlinger & Howard B. Lee, Investigación del comportamiento (4.ª ed.), Cap. 27 (Validez de constructo)",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -234,9 +234,9 @@
     },
     "dificultad": 2,
     "subtema": "construccion_adaptacion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Adaptar y elegir un instrumento ya existente; ITC Guidelines (2017)",
+    "lectura_ref": "International Test Commission (ITC), ITC Guidelines for Translating and Adapting Tests (2.ª ed., 2017), Directrices de Sesgo de Constructo",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -244,10 +244,10 @@
     "tipo": "opcion_multiple",
     "enunciado": "Un psicólogo obtiene una puntuación directa X = 70 en un test cuya fiabilidad reportada es rxx = 0,75 y desviación estándar s = 10 (con Se = 5). ¿Por qué no debe interpretar el puntaje 70 como un valor exacto e inmutable?",
     "opciones": [
-      "Porque la Teoría Clásica de los Tests exige redondear todos los puntajes individuales al múltiplo de diez más próximo.",
-      "Porque los tests psicológicos solo permiten interpretar puntuaciones categorizadas dicotómicamente como apto o no apto.",
+      "Porque una fiabilidad de 0,75 es insuficiente para interpretar puntuaciones individuales y el test debe descartarse.",
+      "Porque el puntaje observado solo es válido si se calcula previamente el coeficiente alfa en la muestra del propio paciente.",
       "Porque toda puntuación observada contiene error de medida y debe reportarse como intervalo de confianza (p. ej., 70 ± 1,96·Se = [60,2; 79,8]).",
-      "Porque el Error Estándar de Medida anula la validez del instrumento cuando la puntuación directa es menor a cien."
+      "Porque el puntaje 70 debe corregirse obligatoriamente sumándole la media poblacional para eliminar el sesgo de medida."
     ],
     "correcta": 2,
     "feedback": {
@@ -258,9 +258,9 @@
     },
     "dificultad": 2,
     "subtema": "instrumentos",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Alfa, omega y el error de la persona; Nunnally & Bernstein (1994)",
+    "lectura_ref": "Jum C. Nunnally & Ira H. Bernstein, Teoría psicométrica (3.ª ed., 1994), Cap. 6 (Error estándar de medida e intervalos de confianza)",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -282,9 +282,9 @@
     },
     "dificultad": 2,
     "subtema": "validacion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Validez: un argumento con cinco fuentes de evidencia; APA Handbook Vol. 1",
+    "lectura_ref": "APA Handbook of Testing and Assessment in Psychology (Vol. 1), Cap. 6 (Structural Equation Modeling and Confirmatory Factor Analysis)",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -306,9 +306,9 @@
     },
     "dificultad": 2,
     "subtema": "construccion_adaptacion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Construir un instrumento; Muñiz (2018)",
+    "lectura_ref": "José Muñiz, Introducción a la Psicometría (2018), Cap. 3 (Análisis de ítems y propiedades psicométricas)",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -316,10 +316,10 @@
     "tipo": "opcion_multiple",
     "enunciado": "¿Qué evalúa la evidencia de validez basada en las consecuencias del uso del test (validez consecuencial)?",
     "opciones": [
-      "El costo económico del software estadístico utilizado para procesar las matrices de correlación.",
-      "El número de publicaciones científicas que citaron el manual del test durante el último lustro.",
+      "La correlación de las puntuaciones del test con el rendimiento académico o laboral posterior de los evaluados.",
+      "El grado de concordancia cualitativa entre jueces expertos respecto a la pertinencia formal de los reactivos.",
       "Las consecuencias intencionadas y no intencionadas del uso del test, evaluando sesgos o impactos adversos sistémicos.",
-      "La velocidad de procesamiento computacional requerida para exportar las puntuaciones en formato PDF."
+      "La estabilidad temporal de los perfiles diagnósticos cuando el test se administra en dos momentos sucesivos."
     ],
     "correcta": 2,
     "feedback": {
@@ -330,9 +330,9 @@
     },
     "dificultad": 2,
     "subtema": "validacion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Validez: un argumento con cinco fuentes de evidencia; Standards AERA/APA/NCME (2014)",
+    "lectura_ref": "AERA, APA, NCME, Standards for Educational and Psychological Testing (2014), Cap. 1 (Evidence Based on Consequences of Testing)",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -341,8 +341,8 @@
     "enunciado": "En la metodología de diez pasos para la construcción de un test (Muñiz y Fonseca-Pedrero, 2019), ¿cuál es el paso 1 que precede a cualquier redacción de reactivos?",
     "opciones": [
       "Calcular de forma anticipada la matriz factorial rotada mediante el método Varimax.",
-      "Traducir las opciones de respuesta al idioma inglés para garantizar visibilidad internacional.",
-      "Aplicar el cuestionario a una muestra piloto de quinientos participantes antes de definir el objetivo.",
+      "Redactar un banco preliminar de más de cien reactivos para someterlos a análisis de dificultad.",
+      "Seleccionar una muestra incidental amplia y aplicar un análisis factorial exploratorio sin modelo previo.",
       "El marco general: delimitar con claridad el constructo teórico, el propósito de la prueba y la población destinataria."
     ],
     "correcta": 3,
@@ -354,9 +354,9 @@
     },
     "dificultad": 2,
     "subtema": "construccion_adaptacion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Construir un instrumento; Muñiz & Fonseca-Pedrero (2019)",
+    "lectura_ref": "José Muñiz & Eduardo Fonseca-Pedrero (2019), Diez pasos para la construcción de un test, Psicothema, 31(1), 7-16, Paso 1: Marco general",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -364,10 +364,10 @@
     "tipo": "opcion_multiple",
     "enunciado": "¿En qué tipo de constructos psicológicos el coeficiente de fiabilidad test-retest resulta conceptualmente inadecuado como estimación de fiabilidad?",
     "opciones": [
-      "En variables de rasgo estables de la personalidad evaluadas en población adulta.",
+      "En rasgos estables de personalidad evaluados en población adulta general.",
       "En pruebas de aptitud cognitiva general donde se espera alta estabilidad a lo largo del tiempo.",
       "En constructos dinámicos o estados transitorios (como estados de ansiedad o fatiga situacional).",
-      "En cuestionarios con escalas de respuesta politómicas tipo Likert de cinco puntos."
+      "En escalas unidimensionales breves donde todos los reactivos presentan tau-equivalencia."
     ],
     "correcta": 2,
     "feedback": {
@@ -378,9 +378,9 @@
     },
     "dificultad": 2,
     "subtema": "instrumentos",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Fiabilidad: cuánto error tiene la medida; Kerlinger & Lee, Cap. 26",
+    "lectura_ref": "Fred N. Kerlinger & Howard B. Lee, Investigación del comportamiento (4.ª ed.), Cap. 26 (Confiabilidad y estabilidad temporal)",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -402,9 +402,9 @@
     },
     "dificultad": 3,
     "subtema": "construccion_adaptacion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Adaptar y elegir un instrumento ya existente; APA Handbook Vol. 1",
+    "lectura_ref": "APA Handbook of Testing and Assessment in Psychology (Vol. 1), Cap. 7 (Measurement Invariance in Multigroup CFA)",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -414,7 +414,7 @@
     "opciones": [
       "Porque la invarianza métrica solo garantiza que las varianzas residuales sean exactamente iguales a cero en ambos grupos.",
       "Porque sin interceptos iguales, las diferencias en las medias observadas pueden deberse al sesgo de respuesta de los ítems y no a diferencias reales en el rasgo.",
-      "Porque el software estadístico bloquea automáticamente el cálculo de contrastes de hipótesis si solo se comprueba invarianza configural.",
+      "Porque la invarianza métrica solo permite comparar correlaciones pero no garantiza que las unidades de escala sean idénticas.",
       "Porque la invarianza escalar es el único nivel que garantiza que el coeficiente alfa de Cronbach supere el valor de 0,90 en cada subgrupo."
     ],
     "correcta": 1,
@@ -426,9 +426,9 @@
     },
     "dificultad": 3,
     "subtema": "construccion_adaptacion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Adaptar y elegir un instrumento ya existente; APA Handbook Vol. 1",
+    "lectura_ref": "APA Handbook of Testing and Assessment in Psychology (Vol. 1), Cap. 7 (Measurement Invariance: Metric vs. Scalar Invariance)",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -436,9 +436,9 @@
     "tipo": "opcion_multiple",
     "enunciado": "En un modelo bifactorial con un factor general y varios factores específicos de grupo, ¿qué informa el coeficiente omega jerárquico (ωh)?",
     "opciones": [
-      "El porcentaje de participantes que completaron el cuestionario sin saltear ningún reactivo.",
+      "La fiabilidad total combinada sumando la varianza del factor general y la de todos los factores específicos de grupo.",
       "La proporción de varianza de las puntuaciones totales que es atribuible única y exclusivamente al factor general latente.",
-      "El cociente exacto entre el número de opciones de respuesta y el tiempo de administración de la prueba.",
+      "El porcentaje de varianza no explicada o error de medida residual atribuible al azar en la muestra.",
       "La correlación de Pearson entre las puntuaciones directas del test y una prueba diagnóstica externa."
     ],
     "correcta": 1,
@@ -450,9 +450,9 @@
     },
     "dificultad": 3,
     "subtema": "instrumentos",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Alfa, omega y el error de la persona; Revelle & Zinbarg (2009)",
+    "lectura_ref": "William Revelle & Richard E. Zinbarg (2009), Coefficients alpha, beta, omega, and the glb: Comments on Sijtsma, Psychometrika, 74(1), 145-154",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -461,9 +461,9 @@
     "enunciado": "¿Qué revela la presencia de Funcionamiento Diferencial del Ítem (DIF: Differential Item Functioning) en un reactivo psicométrico?",
     "opciones": [
       "Que el ítem carece de correlación bivariada con la escala de deseabilidad social de los examinados.",
-      "Que el tiempo medio de respuesta de los examinados es exactamente igual en todos los subgrupos evaluados.",
+      "Que las medias observadas en el ítem difieren entre grupos debido a diferencias reales en el nivel del constructo.",
       "Que personas pertenecientes a distintos subgrupos demográficos pero con idéntico nivel en el rasgo latente tienen probabilidades distintas de acertar o responder favorablemente al ítem.",
-      "Que el reactivo presenta una dificultad matemática tan elevada que nadie en la muestra logró responderlo de forma acertada."
+      "Que el coeficiente de discriminación ítem-total es negativo únicamente en uno de los grupos analizados."
     ],
     "correcta": 2,
     "feedback": {
@@ -474,9 +474,9 @@
     },
     "dificultad": 3,
     "subtema": "construccion_adaptacion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Adaptar y elegir un instrumento ya existente; ITC Guidelines (2017)",
+    "lectura_ref": "International Test Commission (ITC), ITC Guidelines for Translating and Adapting Tests (2.ª ed., 2017), Directrices de Equivalencia y DIF",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -484,9 +484,9 @@
     "tipo": "opcion_multiple",
     "enunciado": "¿Por qué un coeficiente alfa de Cronbach excesivamente alto (ej. α > 0,95) puede constituir un indicador de baja calidad psicométrica en una escala breve?",
     "opciones": [
-      "Porque demuestra que los datos no cumplieron el teorema del límite central en la distribución de frecuencias.",
+      "Porque un alfa superior a 0,90 siempre indica que el instrumento viola el supuesto de unidimensionalidad.",
       "Porque revela una grave falta de consistencia interna que impide sumar las puntuaciones directas del instrumento.",
-      "Porque los algoritmos de estimación de Pearson fallan automáticamente ante varianzas mayores a diez.",
+      "Porque valores tan altos de alfa generan inflación artificial en el error estándar de medida individual.",
       "Porque suele ser síntoma de redundancia y paráfrasis circular entre ítems, estrechando el dominio del constructo y desperdiciando reactivos."
     ],
     "correcta": 3,
@@ -498,9 +498,9 @@
     },
     "dificultad": 3,
     "subtema": "instrumentos",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: ¿Cuánta fiabilidad alcanza? (Nunnally); Sijtsma (2009)",
+    "lectura_ref": "Klaas Sijtsma (2009), On the use, misuse, and very limited usefulness of Cronbach's alpha; Jum C. Nunnally & Ira H. Bernstein (1994)",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -509,9 +509,9 @@
     "enunciado": "Al seleccionar un instrumento existente para una investigación empírica según los criterios de la iniciativa COSMIN, ¿cuál es una exigencia ineludible?",
     "opciones": [
       "Verificar que la fiabilidad y validez hayan sido demostradas en una población análoga a la propia y reportar la fiabilidad obtenida en la muestra del estudio.",
-      "Asegurarse de que el instrumento haya sido diseñado en un país anglosajón en el año calendario en curso.",
-      "Exigir que la prueba esté exenta de derechos de autor y que pueda modificarse libremente sin citar la fuente.",
-      "Comprobar que el cuestionario tenga exactamente el mismo número de reactivos que la muestra total del estudio."
+      "Replicar íntegramente las normas y baremos originales sin necesidad de reportar la fiabilidad en la muestra local.",
+      "Asumir que si el instrumento cuenta con alta fiabilidad reportada en el manual original, su validez queda demostrada de forma automática.",
+      "Verificar que el instrumento cuente con un coeficiente alfa superior a 0,90 aun cuando haya sido evaluado en una población clínica diferente."
     ],
     "correcta": 0,
     "feedback": {
@@ -522,9 +522,9 @@
     },
     "dificultad": 3,
     "subtema": "construccion_adaptacion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Adaptar y elegir un instrumento ya existente; COSMIN guidelines",
+    "lectura_ref": "COSMIN methodology for assessing the quality of measurement properties (Mokkink et al., 2018; Terwee et al., 2007)",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -546,9 +546,9 @@
     },
     "dificultad": 3,
     "subtema": "validacion",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Fiabilidad: cuánto error tiene la medida; Nunnally & Bernstein (1994)",
+    "lectura_ref": "Jum C. Nunnally & Ira H. Bernstein, Teoría psicométrica (3.ª ed., 1994), Cap. 7 (Corrección por atenuación)",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -556,10 +556,10 @@
     "tipo": "opcion_multiple",
     "enunciado": "Desde una perspectiva ética y técnica, ¿por qué constituye una mala práctica clínica utilizar baremos extranjeros sin estandarización local para clasificar diagnósticos individuales?",
     "opciones": [
-      "Porque las leyes de derechos de autor impiden que los manuales extranjeros se lean fuera de su país de edición.",
-      "Porque los baremos extranjeros exigen software propietario con licencias informáticas de pago por uso.",
+      "Porque la administración de baremos extranjeros invalida automáticamente la consistencia interna calculada en el estudio.",
+      "Porque las diferencias en los formatos de respuesta invalidan el cálculo de la correlación ítem-total corregida.",
       "Porque diferencias socioculturales en las medias y dispersiones poblacionales pueden provocar diagnósticos erróneos y discriminación en decisiones de alto impacto.",
-      "Porque la Teoría Clásica de los Tests pierde vigencia matemática cuando se cruzan fronteras nacionales."
+      "Porque los baremos externos solo pueden aplicarse si la muestra local cuenta con más de mil quinientos participantes."
     ],
     "correcta": 2,
     "feedback": {
@@ -570,9 +570,489 @@
     },
     "dificultad": 3,
     "subtema": "etica",
-    "lectura_ref": "meto2psico25/data/contenido_claude/m09.json, Bloque: Ética del instrumento y de los datos; Standards AERA/APA/NCME (2014)",
+    "lectura_ref": "AERA, APA, NCME, Standards for Educational and Psychological Testing (2014), Cap. 3 (Fairness in Testing and Assessment)",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b025",
+    "tipo": "opcion_multiple",
+    "enunciado": "En la matriz de recolección planificada en la Clase 11, ¿cómo se distinguen conceptualmente la fuente, la técnica y el instrumento?",
+    "opciones": [
+      "La fuente brinda el dato, la técnica es el medio para obtenerlo y el instrumento es el soporte de registro.",
+      "La fuente es la bibliografía del marco teórico, la técnica es el programa estadístico y el instrumento es el gráfico de resultados.",
+      "La fuente es el investigador responsable, la técnica es la pregunta de investigación y el instrumento es la variable dependiente.",
+      "La fuente es el formulario impreso, la técnica es la persona encuestada y el instrumento es el diseño transversal del estudio."
+    ],
+    "correcta": 0,
+    "feedback": {
+      "correcto": "¡Correcto! En la cadena objetivo → dato → fuente → técnica → instrumento, la fuente es quién o qué brinda la información (participantes, documentos), la técnica es el medio o procedimiento (encuesta, entrevista, observación) y el instrumento es el soporte específico donde se registra (cuestionario, guía, lista de cotejo).",
+      "incorrecto": "Revisá este punto. No confundas quién brinda la información (fuente) con el procedimiento general de abordaje (técnica) ni con el protocolo o formulario específico donde se anotan las respuestas (instrumento).",
+      "correcta": "¡Correcto! En la cadena objetivo → dato → fuente → técnica → instrumento, la fuente es quién o qué brinda la información (participantes, documentos), la técnica es el medio o procedimiento (encuesta, entrevista, observación) y el instrumento es el soporte específico donde se registra (cuestionario, guía, lista de cotejo).",
+      "incorrecta": "Revisá este punto. No confundas quién brinda la información (fuente) con el procedimiento general de abordaje (técnica) ni con el protocolo o formulario específico donde se anotan las respuestas (instrumento)."
+    },
+    "dificultad": 1,
+    "subtema": "tecnicas",
+    "lectura_ref": "Plan vigente de clases - Metodología II - 2026.md, Clase 11 (Cadena objetivo → información → fuente → técnica → instrumento)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b026",
+    "tipo": "opcion_multiple",
+    "enunciado": "Dentro de las decisiones metodológicas de recolección, ¿cuál de los siguientes pares relaciona adecuadamente una técnica con su instrumento correspondiente?",
+    "opciones": [
+      "Técnica de muestreo estratificado asociada al instrumento de correlación lineal de Pearson.",
+      "Técnica de observación sistemática asociada a una lista de cotejo o registro conductual.",
+      "Técnica de guía de entrevista semiestructurada asociada al instrumento de conversación oral.",
+      "Técnica de escala tipo Likert asociada al instrumento de encuesta poblacional por hogares."
+    ],
+    "correcta": 1,
+    "feedback": {
+      "correcto": "¡Correcto! La observación sistemática es la técnica (el procedimiento de recolección), mientras que la lista de cotejo o pauta de registro conductual es el instrumento concreto donde se asientan los indicadores observados.",
+      "incorrecto": "Revisá este punto. Recordá que la encuesta, la entrevista y la observación son técnicas generales, mientras que el cuestionario, la guía de entrevista y la lista de cotejo son los instrumentos específicos.",
+      "correcta": "¡Correcto! La observación sistemática es la técnica (el procedimiento de recolección), mientras que la lista de cotejo o pauta de registro conductual es el instrumento concreto donde se asientan los indicadores observados.",
+      "incorrecta": "Revisá este punto. Recordá que la encuesta, la entrevista y la observación son técnicas generales, mientras que el cuestionario, la guía de entrevista y la lista de cotejo son los instrumentos específicos."
+    },
+    "dificultad": 1,
+    "subtema": "instrumentos",
+    "lectura_ref": "Plan vigente de clases - Metodología II - 2026.md, Clase 11 (Comparación de encuesta, entrevista, observación, escala y análisis documental)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b027",
+    "tipo": "opcion_multiple",
+    "enunciado": "Según Muñiz y Fonseca-Pedrero (2019), ¿qué precaución debe tomarse durante el paso de definición operativa de la variable para proteger la validez del test?",
+    "opciones": [
+      "Asegurar que la cantidad total de reactivos no supere diez preguntas para evitar cansancio en la muestra.",
+      "Incluir preguntas de otros trastornos clínicos frecuentes aunque no pertenezcan a la variable evaluada.",
+      "Cubrir las facetas relevantes del constructo sin incluir dimensiones ajenas que sumen varianza irrelevante.",
+      "Priorizar reactivos con vocabulario técnico complejo para que los participantes perciban mayor rigor científico."
+    ],
+    "correcta": 2,
+    "feedback": {
+      "correcto": "¡Correcto! En la fase 2 (Definición de la variable medida) es fundamental cubrir todas las dimensiones relevantes para evitar la infrarrepresentación del constructo, sin agregar facetas ajenas que contaminen la medida con varianza irrelevante.",
+      "incorrecto": "Revisá este punto. Como explican Muñiz y Fonseca-Pedrero, una buena definición operativa y semántica debe representar equilibradamente las facetas del constructo, evitando tanto la infrarrepresentación como la varianza irrelevante.",
+      "correcta": "¡Correcto! En la fase 2 (Definición de la variable medida) es fundamental cubrir todas las dimensiones relevantes para evitar la infrarrepresentación del constructo, sin agregar facetas ajenas que contaminen la medida con varianza irrelevante.",
+      "incorrecta": "Revisá este punto. Como explican Muñiz y Fonseca-Pedrero, una buena definición operativa y semántica debe representar equilibradamente las facetas del constructo, evitando tanto la infrarrepresentación como la varianza irrelevante."
+    },
+    "dificultad": 1,
+    "subtema": "medicion",
+    "lectura_ref": "assets/reading/7. Diez pasos para la construcción de un test.pdf, Paso 2 (Definición de la variable medida, p. 8)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b028",
+    "tipo": "opcion_multiple",
+    "enunciado": "Al iniciar la redacción del banco preliminar de reactivos (Paso 4 de Muñiz y Fonseca-Pedrero), ¿qué proporción de ítems se recomienda elaborar respecto de la versión final prevista?",
+    "opciones": [
+      "La mitad de los reactivos previstos, para completar el resto durante la aplicación definitiva de campo.",
+      "Exactamente la misma cantidad de ítems finales, evitando descartar preguntas en la fase de estudio piloto.",
+      "Una cifra fija de cien reactivos estandarizados con independencia del tiempo disponible y del constructo.",
+      "Al menos el doble de los ítems finales, ya que varios se descartarán en la revisión y el pilotaje."
+    ],
+    "correcta": 3,
+    "feedback": {
+      "correcto": "¡Correcto! Se recomienda redactar como mínimo el doble de ítems previstos para la versión definitiva, dado que durante la revisión de expertos y el estudio piloto se descartarán reactivos por problemas de comprensión o bajas propiedades métricas.",
+      "incorrecto": "Revisá este punto. Muñiz y Fonseca-Pedrero recomiendan construir inicialmente al menos el doble de los ítems planeados para la versión final, a fin de poder seleccionar aquellos con mejores garantías sustantivas y métricas.",
+      "correcta": "¡Correcto! Se recomienda redactar como mínimo el doble de ítems previstos para la versión definitiva, dado que durante la revisión de expertos y el estudio piloto se descartarán reactivos por problemas de comprensión o bajas propiedades métricas.",
+      "incorrecta": "Revisá este punto. Muñiz y Fonseca-Pedrero recomiendan construir inicialmente al menos el doble de los ítems planeados para la versión final, a fin de poder seleccionar aquellos con mejores garantías sustantivas y métricas."
+    },
+    "dificultad": 1,
+    "subtema": "construccion_adaptacion",
+    "lectura_ref": "assets/reading/7. Diez pasos para la construcción de un test.pdf, Paso 4 (Construcción de los ítems, p. 10)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b029",
+    "tipo": "opcion_multiple",
+    "enunciado": "¿Cuál es la diferencia específica entre el estudio piloto cualitativo y el estudio piloto cuantitativo durante la construcción de un instrumento?",
+    "opciones": [
+      "El cualitativo debate en grupos la comprensión de los ítems; el cuantitativo analiza sus propiedades métricas.",
+      "El piloto cualitativo reemplaza al juicio de expertos; el cuantitativo sustituye la aplicación final del estudio de campo.",
+      "El piloto cualitativo se aplica a expertos en estadística; el cuantitativo se administra a personas ajenas a la población objetivo.",
+      "El piloto cualitativo calcula las cargas factoriales de la escala; el cuantitativo corrige errores ortográficos del cuadernillo."
+    ],
+    "correcta": 0,
+    "feedback": {
+      "correcto": "¡Correcto! Según Muñiz y Fonseca-Pedrero (Paso 6), el pilotaje cualitativo debate en grupos la comprensibilidad y posibles ambigüedades semánticas o gramaticales, mientras que el pilotaje cuantitativo analiza empíricamente los indicadores psicométricos preliminares de los ítems.",
+      "incorrecto": "Revisá este punto. En el Paso 6 (Estudios piloto), la fase cualitativa indaga si los participantes comprenden los enunciados y detecta fallas semánticas, en tanto la fase cuantitativa examina el comportamiento métrico preliminar de los reactivos.",
+      "correcta": "¡Correcto! Según Muñiz y Fonseca-Pedrero (Paso 6), el pilotaje cualitativo debate en grupos la comprensibilidad y posibles ambigüedades semánticas o gramaticales, mientras que el pilotaje cuantitativo analiza empíricamente los indicadores psicométricos preliminares de los ítems.",
+      "incorrecta": "Revisá este punto. En el Paso 6 (Estudios piloto), la fase cualitativa indaga si los participantes comprenden los enunciados y detecta fallas semánticas, en tanto la fase cuantitativa examina el comportamiento métrico preliminar de los reactivos."
+    },
+    "dificultad": 1,
+    "subtema": "construccion_adaptacion",
+    "lectura_ref": "assets/reading/7. Diez pasos para la construcción de un test.pdf, Paso 6 (Estudios piloto, p. 11)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b030",
+    "tipo": "opcion_multiple",
+    "enunciado": "En el diseño ético de la recolección de datos (Clase 11), ¿qué componentes básicos debe prever el plan de protección de los participantes y de la información?",
+    "opciones": [
+      "Publicar los nombres de los voluntarios en los anexos del informe para demostrar transparencia empírica.",
+      "Consentimiento informado, evaluación de riesgos, privacidad, custodia segura y plazo de eliminación.",
+      "Conservar los formularios identificados en carpetas públicas en la nube para facilitar auditorías externas.",
+      "Solicitar autorización verbal al finalizar la encuesta ocultando el propósito real para evitar sesgos de respuesta."
+    ],
+    "correcta": 1,
+    "feedback": {
+      "correcto": "¡Correcto! La planificación ética de la Clase 11 exige anticipar el consentimiento informado previo, la valoración y mitigación de riesgos, la privacidad o anonimización, la custodia segura de la base y las condiciones de eliminación de los registros.",
+      "incorrecto": "Revisá este punto. El resguardo ético requiere consentimiento informado previo y voluntario, protección de la privacidad mediante códigos, custodia con acceso restringido y previsión sobre el tiempo de guarda y eliminación de datos crudos.",
+      "correcta": "¡Correcto! La planificación ética de la Clase 11 exige anticipar el consentimiento informado previo, la valoración y mitigación de riesgos, la privacidad o anonimización, la custodia segura de la base y las condiciones de eliminación de los registros.",
+      "incorrecta": "Revisá este punto. El resguardo ético requiere consentimiento informado previo y voluntario, protección de la privacidad mediante códigos, custodia con acceso restringido y previsión sobre el tiempo de guarda y eliminación de datos crudos."
+    },
+    "dificultad": 1,
+    "subtema": "etica",
+    "lectura_ref": "Plan vigente de clases - Metodología II - 2026.md, Clase 11 (Resultados y Evidencia Moodle: nota ética y plan de custodia)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b031",
+    "tipo": "opcion_multiple",
+    "enunciado": "Un proyecto tiene como objetivo específico describir la frecuencia de conductas cooperativas espontáneas en niños de nivel inicial durante el recreo. ¿Qué combinación de fuente, técnica e instrumento es coherente?",
+    "opciones": [
+      "Fuente: las planillas de calificaciones; Técnica: la entrevista en profundidad; Instrumento: una escala Likert de diez puntos.",
+      "Fuente: los padres de familia; Técnica: el análisis documental de legajos; Instrumento: un test proyectivo individual.",
+      "Fuente: los niños en el recreo; Técnica: la observación estructurada; Instrumento: una pauta de registro conductual.",
+      "Fuente: las docentes del turno; Técnica: la encuesta autoadministrada; Instrumento: un grupo focal de discusión abierta."
+    ],
+    "correcta": 2,
+    "feedback": {
+      "correcto": "¡Correcto! Si el dato buscado es la frecuencia de conductas espontáneas durante el recreo, la fuente directa son los niños en situación de patio, la técnica pertinente es la observación estructurada y el instrumento es la pauta o grilla de registro conductual.",
+      "incorrecto": "Revisá este punto. Para registrar conductas espontáneas en niños pequeños mientras juegan, el autoinforme o los legajos no captan la acción directa; corresponde observar sistemáticamente en el recreo usando una pauta de registro.",
+      "correcta": "¡Correcto! Si el dato buscado es la frecuencia de conductas espontáneas durante el recreo, la fuente directa son los niños en situación de patio, la técnica pertinente es la observación estructurada y el instrumento es la pauta o grilla de registro conductual.",
+      "incorrecta": "Revisá este punto. Para registrar conductas espontáneas en niños pequeños mientras juegan, el autoinforme o los legajos no captan la acción directa; corresponde observar sistemáticamente en el recreo usando una pauta de registro."
+    },
+    "dificultad": 2,
+    "subtema": "tecnicas",
+    "lectura_ref": "Plan vigente de clases - Metodología II - 2026.md, Clase 11 (Cadena objetivo → información → fuente → técnica → instrumento)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b032",
+    "tipo": "opcion_multiple",
+    "enunciado": "En un estudio sobre clima laboral, el equipo propone «aplicar la técnica del cuestionario de satisfacción mediante el instrumento de la encuesta presencial». ¿Qué error conceptual presenta esa formulación?",
+    "opciones": [
+      "Omite declarar el coeficiente estadístico con que se calculará el tamaño de la muestra probabilística.",
+      "Emplea términos exclusivos de la investigación experimental en un diseño que es claramente documental.",
+      "Confunde la fuente primaria de información con la unidad de observación del marco muestral elegido.",
+      "Invierte los conceptos: la encuesta es la técnica de recolección y el cuestionario es el instrumento."
+    ],
+    "correcta": 3,
+    "feedback": {
+      "correcto": "¡Correcto! La formulación invierte la jerarquía metodológica: la encuesta es la técnica o estrategia general de obtención de datos mediante interrogación estandarizada, mientras que el cuestionario o escala es el instrumento concreto.",
+      "incorrecto": "Revisá este punto. Es un error frecuente intercambiar técnica e instrumento: la encuesta (al igual que la entrevista o la observación) es la técnica, y el cuestionario impreso o digital es el instrumento.",
+      "correcta": "¡Correcto! La formulación invierte la jerarquía metodológica: la encuesta es la técnica o estrategia general de obtención de datos mediante interrogación estandarizada, mientras que el cuestionario o escala es el instrumento concreto.",
+      "incorrecta": "Revisá este punto. Es un error frecuente intercambiar técnica e instrumento: la encuesta (al igual que la entrevista o la observación) es la técnica, y el cuestionario impreso o digital es el instrumento."
+    },
+    "dificultad": 2,
+    "subtema": "tecnicas",
+    "lectura_ref": "Plan vigente de clases - Metodología II - 2026.md, Clase 11 (Diferenciar técnica, instrumento y fuente)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b033",
+    "tipo": "opcion_multiple",
+    "enunciado": "¿Por qué Muñiz y Fonseca-Pedrero (2019) sostienen que la fase de edición y presentación física o digital del test (Paso 5) incide en la calidad de la medición?",
+    "opciones": [
+      "Porque una edición descuidada o con erratas deteriora la validez aparente, restando motivación y seriedad al responder.",
+      "Porque el diseño gráfico del cuadernillo reemplaza la necesidad de calcular la consistencia interna de las puntuaciones.",
+      "Porque el formato tipográfico determina automáticamente si las variables tendrán un nivel de medición ordinal o de razón.",
+      "Porque una impresión estética permite prescindir de las normas de corrección y de la base de datos de respuestas."
+    ],
+    "correcta": 0,
+    "feedback": {
+      "correcto": "¡Correcto! Como advierten los autores, «el continente bien podría echar a perder el contenido»: para quien responde no existen pruebas experimentales provisorias; un material desorganizado o mal impreso afecta la validez aparente, la actitud y la motivación del evaluado.",
+      "incorrecto": "Revisá este punto. En el Paso 5 (Edición), Muñiz y Fonseca-Pedrero destacan que una presentación defectuosa o con errores tipográficos perjudica la validez aparente del test y altera la disposición y motivación de las personas evaluadas.",
+      "correcta": "¡Correcto! Como advierten los autores, «el continente bien podría echar a perder el contenido»: para quien responde no existen pruebas experimentales provisorias; un material desorganizado o mal impreso afecta la validez aparente, la actitud y la motivación del evaluado.",
+      "incorrecta": "Revisá este punto. En el Paso 5 (Edición), Muñiz y Fonseca-Pedrero destacan que una presentación defectuosa o con errores tipográficos perjudica la validez aparente del test y altera la disposición y motivación de las personas evaluadas."
+    },
+    "dificultad": 2,
+    "subtema": "construccion_adaptacion",
+    "lectura_ref": "assets/reading/7. Diez pasos para la construcción de un test.pdf, Paso 5 (Edición, pp. 10-11)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b034",
+    "tipo": "opcion_multiple",
+    "enunciado": "En la construcción de un banco de ítems (Paso 4 de Muñiz y Fonseca-Pedrero), ¿qué consecuencia psicométrica produce redactar reactivos vagos, con tecnicismos o dobles negaciones?",
+    "opciones": [
+      "Aumenta la precisión discriminativa del test al exigir mayor esfuerzo de comprensión lectora en la muestra.",
+      "Incrementa la proporción de varianza explicada por factores espurios o irrelevantes, debilitando la validez.",
+      "Garantiza que los participantes no puedan falsear sus respuestas por deseabilidad social o aquiescencia.",
+      "Transforma automáticamente un instrumento de autoinforme típico en una prueba de rendimiento cognitivo óptimo."
+    ],
+    "correcta": 1,
+    "feedback": {
+      "correcto": "¡Correcto! Los reactivos ambiguos, prolijos, con dobles negaciones o palabras incomprensibles para la población meta introducen varianza irrelevante al constructo (como nivel de lectura o confusión sintáctica), mermando las evidencias de validez.",
+      "incorrecto": "Revisá este punto. Muñiz y Fonseca-Pedrero enfatizan que debe primar la claridad y sencillez: las dobles negaciones y enunciados vagos aumentan el error y la varianza explicada por factores ajenos al constructo.",
+      "correcta": "¡Correcto! Los reactivos ambiguos, prolijos, con dobles negaciones o palabras incomprensibles para la población meta introducen varianza irrelevante al constructo (como nivel de lectura o confusión sintáctica), mermando las evidencias de validez.",
+      "incorrecta": "Revisá este punto. Muñiz y Fonseca-Pedrero enfatizan que debe primar la claridad y sencillez: las dobles negaciones y enunciados vagos aumentan el error y la varianza explicada por factores ajenos al constructo."
+    },
+    "dificultad": 2,
+    "subtema": "instrumentos",
+    "lectura_ref": "assets/reading/7. Diez pasos para la construcción de un test.pdf, Paso 4 (Construcción de los ítems, p. 9)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b035",
+    "tipo": "opcion_multiple",
+    "enunciado": "¿Con qué propósito se incluye el Paso 7 («Selección de otros instrumentos de medida») dentro del proceso de construcción y validación de un test?",
+    "opciones": [
+      "Para reemplazar el instrumento nuevo si durante la aplicación los participantes prefieren contestar pruebas más cortas.",
+      "Para aumentar la duración de la sesión de evaluación y medir así la resistencia a la fatiga de los voluntarios.",
+      "Para recoger evidencias de validez de relación con variables externas y situar el constructo en su red nomológica.",
+      "Para evitar realizar el análisis factorial de estructura interna sustituyéndolo por el promedio de varios cuestionarios."
+    ],
+    "correcta": 2,
+    "feedback": {
+      "correcto": "¡Correcto! Aplicar conjuntamente otros instrumentos ya validados (que midan el mismo constructo, constructos afines o criterios externos) permite evaluar las asociaciones previstas en la red nomológica y reunir evidencias de validez de relación con otras variables.",
+      "incorrecto": "Revisá este punto. En el Paso 7, Muñiz y Fonseca-Pedrero explican que la selección prudente de otras medidas de calidad científica sirve para contrastar la definición sintáctica (red nomológica) y obtener evidencias de validez externa.",
+      "correcta": "¡Correcto! Aplicar conjuntamente otros instrumentos ya validados (que midan el mismo constructo, constructos afines o criterios externos) permite evaluar las asociaciones previstas en la red nomológica y reunir evidencias de validez de relación con otras variables.",
+      "incorrecta": "Revisá este punto. En el Paso 7, Muñiz y Fonseca-Pedrero explican que la selección prudente de otras medidas de calidad científica sirve para contrastar la definición sintáctica (red nomológica) y obtener evidencias de validez externa."
+    },
+    "dificultad": 2,
+    "subtema": "calidad_medicion",
+    "lectura_ref": "assets/reading/7. Diez pasos para la construcción de un test.pdf, Paso 7 (Selección de otros instrumentos de medida, p. 11)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b036",
+    "tipo": "opcion_multiple",
+    "enunciado": "Durante la fase de aplicación del test (Paso 8), ¿por qué es indispensable estandarizar las instrucciones del evaluador y realizar un control de calidad de la base de datos?",
+    "opciones": [
+      "Porque el evaluador debe modificar libremente las consignas en cada caso para adaptarlas a su intuición clínica.",
+      "Porque el control de calidad consiste en eliminar de la matriz a los sujetos cuyos puntajes contradigan la hipótesis.",
+      "Porque basta con administrar la prueba en cualquier ambiente físico ya que el ruido o la luz no afectan las respuestas.",
+      "Porque alterar las consignas o equivocarse al cargar puntajes introduce errores que invalidan las inferencias."
+    ],
+    "correcta": 3,
+    "feedback": {
+      "correcto": "¡Correcto! El modo en que se dan las instrucciones, las condiciones físicas, el rapport y la correspondencia exacta entre los protocolos respondidos y los datos digitados son cruciales para minimizar fuentes de error y garantizar la equidad de la medición.",
+      "incorrecto": "Revisá este punto. Según el Paso 8 de Muñiz y Fonseca-Pedrero, descuidar las directrices de administración o no auditar la carga de datos en la matriz puede distorsionar drásticamente las respuestas y falsear las conclusiones.",
+      "correcta": "¡Correcto! El modo en que se dan las instrucciones, las condiciones físicas, el rapport y la correspondencia exacta entre los protocolos respondidos y los datos digitados son cruciales para minimizar fuentes de error y garantizar la equidad de la medición.",
+      "incorrecta": "Revisá este punto. Según el Paso 8 de Muñiz y Fonseca-Pedrero, descuidar las directrices de administración o no auditar la carga de datos en la matriz puede distorsionar drásticamente las respuestas y falsear las conclusiones."
+    },
+    "dificultad": 2,
+    "subtema": "calidad_medicion",
+    "lectura_ref": "assets/reading/7. Diez pasos para la construcción de un test.pdf, Paso 8 (Aplicación del test, p. 12)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b037",
+    "tipo": "opcion_multiple",
+    "enunciado": "En un estudio cualitativo que emplea entrevistas semiestructuradas (Clase 11), ¿cómo se resguarda la calidad y pertinencia del instrumento antes del trabajo de campo?",
+    "opciones": [
+      "Verificando que las preguntas respondan a los objetivos y categorías sin inducir respuestas, y probando el guion.",
+      "Calculando el coeficiente alfa de Cronbach sobre las preguntas abiertas para confirmar que supere el umbral de 0,80.",
+      "Estandarizando cuatro opciones cerradas de respuesta en cada pregunta para impedir que el participante se explaye.",
+      "Improvizando la totalidad de las preguntas durante la conversación sin llevar ningún guion ni ejes temáticos previos."
+    ],
+    "correcta": 0,
+    "feedback": {
+      "correcto": "¡Correcto! En instrumentos cualitativos como la guía de entrevista, el rigor previo se asegura verificando la coherencia del guion con los objetivos y categorías orientadoras, cuidando que las preguntas no sean directivas ni sesgadas y realizando entrevistas piloto.",
+      "incorrecto": "Revisá este punto. A una guía de entrevista cualitativa no se le calcula alfa de Cronbach ni se la cierra como cuestionario Likert; su calidad exige alineación con las categorías/objetivos, neutralidad en la formulación y pilotaje del guion.",
+      "correcta": "¡Correcto! En instrumentos cualitativos como la guía de entrevista, el rigor previo se asegura verificando la coherencia del guion con los objetivos y categorías orientadoras, cuidando que las preguntas no sean directivas ni sesgadas y realizando entrevistas piloto.",
+      "incorrecta": "Revisá este punto. A una guía de entrevista cualitativa no se le calcula alfa de Cronbach ni se la cierra como cuestionario Likert; su calidad exige alineación con las categorías/objetivos, neutralidad en la formulación y pilotaje del guion."
+    },
+    "dificultad": 2,
+    "subtema": "calidad_medicion",
+    "lectura_ref": "Plan vigente de clases - Metodología II - 2026.md, Clase 11 (Calidad de la medición o rigor cualitativo)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b038",
+    "tipo": "opcion_multiple",
+    "enunciado": "Un estudiante necesita realizar un seguimiento longitudinal en dos tiempos (pre y post) pero debe proteger la identidad de los participantes en la matriz de análisis. ¿Qué procedimiento ético corresponde?",
+    "opciones": [
+      "Dejar los nombres y números de cédula en la base pública de análisis para poder emparejar ambas mediciones sin error.",
+      "Asignar un código a cada participante y custodiar por separado, bajo contraseña, la tabla de correspondencia.",
+      "Renunciar a emparejar las mediciones individuales porque cualquier uso de códigos identificadores viola el anonimato.",
+      "Pedir a los participantes que inventen un seudónimo distinto en cada sesión aunque luego no se puedan vincular los datos."
+    ],
+    "correcta": 1,
+    "feedback": {
+      "correcto": "¡Correcto! Cuando el diseño exige vincular dos mediciones de la misma persona, la matriz analítica utiliza exclusivamente códigos alfanuméricos, y la lista de correspondencia personal se guarda separada, cifrada o bajo custodia estricta hasta completar el seguimiento.",
+      "incorrecto": "Revisá este punto. Como indican las pautas de ética y preparación de matriz (Clases 11 y 12), nunca se dejan nombres en la base de análisis; se usan códigos y, si se requiere seguimiento, la tabla de correspondencia se almacena por separado y protegida.",
+      "correcta": "¡Correcto! Cuando el diseño exige vincular dos mediciones de la misma persona, la matriz analítica utiliza exclusivamente códigos alfanuméricos, y la lista de correspondencia personal se guarda separada, cifrada o bajo custodia estricta hasta completar el seguimiento.",
+      "incorrecta": "Revisá este punto. Como indican las pautas de ética y preparación de matriz (Clases 11 y 12), nunca se dejan nombres en la base de análisis; se usan códigos y, si se requiere seguimiento, la tabla de correspondencia se almacena por separado y protegida."
+    },
+    "dificultad": 2,
+    "subtema": "etica",
+    "lectura_ref": "Plan vigente de clases - Metodología II - 2026.md, Clase 11; El plan de análisis de datos en un proyecto de investigación.pdf, §4 (p. 6)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b039",
+    "tipo": "opcion_multiple",
+    "enunciado": "Durante la preparación de su instrumento para la Clase 11, una estudiante desea usar inteligencia artificial como apoyo. Según las reglas del curso, ¿qué uso es éticamente válido?",
+    "opciones": [
+      "Cargar los protocolos respondidos por pacientes reales de una clínica para que la herramienta calcule los puntajes totales.",
+      "Pedirle a la IA que invente los datos de una prueba piloto de treinta personas para adjuntarlos como evidencia en Moodle.",
+      "Usar la IA para revisar la claridad gramatical de ítems redactados por la estudiante y detectar posibles ambigüedades.",
+      "Solicitar a la IA que redacte un test diagnóstico definitivo y aplicarlo a niños sin revisión docente ni validación."
+    ],
+    "correcta": 2,
+    "feedback": {
+      "correcto": "¡Correcto! El Plan 2026 permite emplear IA para detectar ambigüedades, sugerir mejoras de claridad o ensayar preguntas de autoevaluación sobre textos propios, prohibiendo cargar datos personales/sensibles o inventar datos y participantes.",
+      "incorrecto": "Revisá este punto. Según la sección 4 y la Clase 11 del Plan 2026, está terminantemente prohibido subir datos sensibles a IAs públicas o fabricar datos de pilotaje; sí es legítimo usarla para auditar claridad y ambigüedades de borradores propios.",
+      "correcta": "¡Correcto! El Plan 2026 permite emplear IA para detectar ambigüedades, sugerir mejoras de claridad o ensayar preguntas de autoevaluación sobre textos propios, prohibiendo cargar datos personales/sensibles o inventar datos y participantes.",
+      "incorrecta": "Revisá este punto. Según la sección 4 y la Clase 11 del Plan 2026, está terminantemente prohibido subir datos sensibles a IAs públicas o fabricar datos de pilotaje; sí es legítimo usarla para auditar claridad y ambigüedades de borradores propios."
+    },
+    "dificultad": 2,
+    "subtema": "etica",
+    "lectura_ref": "Plan vigente de clases - Metodología II - 2026.md, §4 (Uso de IA sin delegación intelectual) y Clase 11",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b040",
+    "tipo": "opcion_multiple",
+    "enunciado": "Un tesista afirma: «El test que elegí ya fue validado por sus autores en España con excelente fiabilidad, por lo tanto es un instrumento universalmente válido y no necesito reportar evidencias en mi muestra de Asunción». ¿Por qué es errónea esta afirmación?",
+    "opciones": [
+      "Porque ningún instrumento extranjero puede utilizarse en otro país aunque cuente con estudios de adaptación local.",
+      "Porque la validez solo depende del tamaño de la muestra local y no guarda relación con la definición del constructo.",
+      "Porque todo investigador está obligado a construir un test propio desde cero en lugar de emplear escalas existentes.",
+      "Porque validez y fiabilidad no son universales del test, sino de sus puntuaciones e inferencias en cada población."
+    ],
+    "correcta": 3,
+    "feedback": {
+      "correcto": "¡Correcto! Como recalcan Muñiz y Fonseca-Pedrero (pp. 8 y 12), en sentido estricto un test no es fiable ni válido de modo universal: son fiables las puntuaciones obtenidas en él y son válidas las inferencias para un uso, contexto y población determinados.",
+      "incorrecto": "Revisá este punto. Muñiz y Fonseca-Pedrero subrayan que las inferencias extraídas de un test nunca son universales: lo que es válido y fiable en una población o contexto puede no serlo en otro, por lo que requiere evidencia adecuada.",
+      "correcta": "¡Correcto! Como recalcan Muñiz y Fonseca-Pedrero (pp. 8 y 12), en sentido estricto un test no es fiable ni válido de modo universal: son fiables las puntuaciones obtenidas en él y son válidas las inferencias para un uso, contexto y población determinados.",
+      "incorrecta": "Revisá este punto. Muñiz y Fonseca-Pedrero subrayan que las inferencias extraídas de un test nunca son universales: lo que es válido y fiable en una población o contexto puede no serlo en otro, por lo que requiere evidencia adecuada."
+    },
+    "dificultad": 3,
+    "subtema": "calidad_medicion",
+    "lectura_ref": "assets/reading/7. Diez pasos para la construcción de un test.pdf, Paso 1 (Marco general, p. 8) y Paso 9 (Propiedades psicométricas, p. 12)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b041",
+    "tipo": "opcion_multiple",
+    "enunciado": "Al evaluar la dimensionalidad de una escala de 20 ítems (Paso 9 de Muñiz y Fonseca-Pedrero), el análisis factorial confirma que existen tres dimensiones independientes entre sí. ¿Qué decisión corresponde respecto al cálculo de las puntuaciones?",
+    "opciones": [
+      "Construir un perfil de puntuaciones por dimensión o subescala en lugar de sumar todos los ítems en un único puntaje total.",
+      "Sumar igualmente los veinte reactivos en un puntaje global único porque tener más ítems siempre mejora la interpretación.",
+      "Descartar el instrumento por completo debido a que las pruebas psicológicas solo pueden medir constructos unidimensionales.",
+      "Eliminar al azar dos de las tres dimensiones hasta forzar una puntuación única aunque se pierda contenido relevante."
+    ],
+    "correcta": 0,
+    "feedback": {
+      "correcto": "¡Correcto! Muñiz y Fonseca-Pedrero (p. 12) explican que cuando la solución es esencialmente unidimensional se justifica una puntuación total, pero ante una estructura multidimensional corresponde trabajar con un conjunto de subescalas o perfil de puntuaciones.",
+      "incorrecto": "Revisá este punto. Tanto en «Diez pasos» (p. 12) como en «El plan de análisis» (§9) se advierte que colapsar dimensiones independientes u opuestas en un puntaje total único carece de sentido conceptual y distorsiona la medición.",
+      "correcta": "¡Correcto! Muñiz y Fonseca-Pedrero (p. 12) explican que cuando la solución es esencialmente unidimensional se justifica una puntuación total, pero ante una estructura multidimensional corresponde trabajar con un conjunto de subescalas o perfil de puntuaciones.",
+      "incorrecta": "Revisá este punto. Tanto en «Diez pasos» (p. 12) como en «El plan de análisis» (§9) se advierte que colapsar dimensiones independientes u opuestas en un puntaje total único carece de sentido conceptual y distorsiona la medición."
+    },
+    "dificultad": 3,
+    "subtema": "medicion",
+    "lectura_ref": "assets/reading/7. Diez pasos para la construcción de un test.pdf, Paso 9 (Propiedades psicométricas, p. 12)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b042",
+    "tipo": "opcion_multiple",
+    "enunciado": "En la fase de especificaciones (Paso 3 de Muñiz y Fonseca-Pedrero), se decide preparar una versión en macrotipos o lectura fácil para participantes con baja visión o dificultades lectoras. ¿Qué condición científica deben cumplir estas adaptaciones?",
+    "opciones": [
+      "Deben contener menos de la mitad de las preguntas originales para que los participantes terminen en menor tiempo.",
+      "Deben contar con aval empírico para no suponer ventajas ni desventajas respecto de la aplicación estándar.",
+      "Deben calificarse con un baremo más indulgente que sume puntos adicionales de cortesía a quienes usen la versión adaptada.",
+      "Deben aplicarse a toda la muestra sin distinción para evitar documentar qué acomodaciones se realizaron en el estudio."
+    ],
+    "correcta": 1,
+    "feedback": {
+      "correcto": "¡Correcto! Las acomodaciones de accesibilidad buscan que los participantes desempeñen la tarea en igualdad de condiciones, y deben estar respaldadas por evidencias empíricas de que miden el mismo constructo sin introducir ventajas ni desventajas injustas.",
+      "incorrecto": "Revisá este punto. En el Paso 3 (Especificaciones, p. 9), Muñiz y Fonseca-Pedrero señalan que las adaptaciones de accesibilidad (Braille, macrotipos, lectura fácil) son esenciales para la equidad, pero requieren aval empírico de comparabilidad.",
+      "correcta": "¡Correcto! Las acomodaciones de accesibilidad buscan que los participantes desempeñen la tarea en igualdad de condiciones, y deben estar respaldadas por evidencias empíricas de que miden el mismo constructo sin introducir ventajas ni desventajas injustas.",
+      "incorrecta": "Revisá este punto. En el Paso 3 (Especificaciones, p. 9), Muñiz y Fonseca-Pedrero señalan que las adaptaciones de accesibilidad (Braille, macrotipos, lectura fácil) son esenciales para la equidad, pero requieren aval empírico de comparabilidad."
+    },
+    "dificultad": 3,
+    "subtema": "construccion_adaptacion",
+    "lectura_ref": "assets/reading/7. Diez pasos para la construcción de un test.pdf, Paso 3 (Especificaciones, p. 9)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b043",
+    "tipo": "opcion_multiple",
+    "enunciado": "Para evaluar competencias clínicas complejas se opta por un instrumento con formato de respuesta construida (tipo ensayo o desarrollo) en vez de opción múltiple. Según Muñiz y Fonseca-Pedrero, ¿cuál es su principal amenaza métrica y cómo se mitiga?",
+    "opciones": [
+      "La imposibilidad de evaluar expresión escrita; se mitiga reemplazando el ensayo por preguntas de verdadero o falso.",
+      "El exceso de objetividad automática del formato; se mitiga pidiendo a un solo corrector que califique según su impresión global.",
+      "La posible subjetividad y sesgo al corregir y puntuar; se mitiga entrenando a los correctores y usando rúbricas explícitas.",
+      "La falta de libertad expresiva del evaluado; se mitiga prohibiendo que los estudiantes conozcan los criterios de evaluación."
+    ],
+    "correcta": 2,
+    "feedback": {
+      "correcto": "¡Correcto! Los formatos de construcción permiten apreciar la organización y expresión del evaluado, pero su talón de Aquiles es la subjetividad en la puntuación; por ello exigen entrenar a los evaluadores, usar rúbricas analíticas claras y estimar la fiabilidad interjueces.",
+      "incorrecto": "Revisá este punto. En el Paso 4 (p. 10), Muñiz y Fonseca-Pedrero explican que el precio de los ítems de desarrollo o ensayo es la posible subjetividad al corregir, lo que obliga a emplear rúbricas públicas y entrenamiento de correctores.",
+      "correcta": "¡Correcto! Los formatos de construcción permiten apreciar la organización y expresión del evaluado, pero su talón de Aquiles es la subjetividad en la puntuación; por ello exigen entrenar a los evaluadores, usar rúbricas analíticas claras y estimar la fiabilidad interjueces.",
+      "incorrecta": "Revisá este punto. En el Paso 4 (p. 10), Muñiz y Fonseca-Pedrero explican que el precio de los ítems de desarrollo o ensayo es la posible subjetividad al corregir, lo que obliga a emplear rúbricas públicas y entrenamiento de correctores."
+    },
+    "dificultad": 3,
+    "subtema": "instrumentos",
+    "lectura_ref": "assets/reading/7. Diez pasos para la construcción de un test.pdf, Paso 4 (Construcción de los ítems: formato tipo Ensayo, p. 10)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "m09-b044",
+    "tipo": "opcion_multiple",
+    "enunciado": "Un equipo construye una escala para medir estrés laboral docente y, para evitar la aquiescencia, redacta la mitad de los ítems en sentido positivo y la otra mitad con enunciados inversos o negaciones complejas. Según la literatura citada por Muñiz y Fonseca-Pedrero, ¿qué precaución técnica debe tenerse?",
+    "opciones": [
+      "Los ítems inversos deben sumarse directamente con su valor original sin recodificarlos para mantener la varianza natural.",
+      "Incluir ítems inversos garantiza por sí solo que el instrumento alcance validez de criterio predictiva sin estudio piloto.",
+      "Los ítems inversos solo pueden utilizarse en entrevistas cualitativas abiertas pero no en escalas de formato tipo Likert.",
+      "Aunque requieren recodificación previa, los ítems inversos pueden causar confusión y artefactos métricos."
+    ],
+    "correcta": 3,
+    "feedback": {
+      "correcto": "¡Correcto! Muñiz y Fonseca-Pedrero (pp. 9 y 11; citando a Suárez et al., 2018) advierten que, si bien combinar ítems positivos e inversos (que luego deben recodificarse) es una práctica habitual, no está libre de limitaciones porque puede dificultar la comprensión y deteriorar las propiedades psicométricas.",
+      "incorrecto": "Revisá este punto. Los ítems redactados en sentido opuesto deben recodificarse obligatoriamente antes de sumar, y además la literatura psicométrica advierte que su uso excesivo o con negaciones puede confundir a los evaluados e introducir varianza espuria.",
+      "correcta": "¡Correcto! Muñiz y Fonseca-Pedrero (pp. 9 y 11; citando a Suárez et al., 2018) advierten que, si bien combinar ítems positivos e inversos (que luego deben recodificarse) es una práctica habitual, no está libre de limitaciones porque puede dificultar la comprensión y deteriorar las propiedades psicométricas.",
+      "incorrecta": "Revisá este punto. Los ítems redactados en sentido opuesto deben recodificarse obligatoriamente antes de sumar, y además la literatura psicométrica advierte que su uso excesivo o con negaciones puede confundir a los evaluados e introducir varianza espuria."
+    },
+    "dificultad": 3,
+    "subtema": "medicion",
+    "lectura_ref": "assets/reading/7. Diez pasos para la construcción de un test.pdf, Paso 4 y Paso 5 (pp. 9-11)",
+    "origen": "borrador_ia",
+    "estado": "aprobado",
     "nota_revision": ""
   }
 ]
