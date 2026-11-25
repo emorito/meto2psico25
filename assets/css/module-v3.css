@@ -99,6 +99,21 @@
 .simulacro-result { margin-top: var(--s-5); padding: var(--s-5); border-left: 4px solid var(--ok); background: var(--ok-soft); }
 .simulacro-result--review { border-color: var(--warn); background: var(--warn-soft); }
 .simulacro-result p:last-of-type { margin-bottom: var(--s-4); }
+.simulacro-mode-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--s-4); margin-bottom: var(--s-5); }
+.simulacro-mode-grid .card { display: flex; flex-direction: column; align-items: flex-start; }
+.simulacro-mode-grid .button { margin-top: auto; }
+.final-toolbar { display: flex; align-items: flex-start; justify-content: space-between; gap: var(--s-4); margin-bottom: var(--s-5); }
+.final-toolbar h1 { margin-bottom: 0; }
+.timer-box { display: flex; align-items: center; gap: var(--s-2); padding: var(--s-3); border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); font-variant-numeric: tabular-nums; }
+.final-vignette { margin-bottom: var(--s-5); }
+.final-vignette p { white-space: pre-line; }
+.case-question-list { display: grid; gap: var(--s-4); }
+.final-case-question { padding: var(--s-5); border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); box-shadow: var(--shadow); }
+.final-case-question textarea { width: 100%; min-height: 140px; resize: vertical; margin-top: var(--s-2); padding: var(--s-3); border: 1px solid var(--line); border-radius: var(--radius-sm); background: var(--paper); color: var(--ink); font: inherit; }
+.final-case-question details { margin-block: var(--s-3); padding: var(--s-3); border: 1px solid var(--line); border-radius: var(--radius-sm); background: var(--surface-2); }
+.final-case-question summary { cursor: pointer; color: var(--primary); font-weight: 600; }
+.field-label { display: block; margin-top: var(--s-3); color: var(--ink-2); font-size: var(--fs-1); font-weight: 600; }
+.self-score { display: flex; flex-wrap: wrap; gap: var(--s-2); }
 .glossary-main { max-width: 1120px; }
 .glossary-page__header { max-width: 72ch; margin-bottom: var(--s-5); }
 .glossary-page__header p:last-child { margin-bottom: 0; }
@@ -135,4 +150,7 @@
   .progress-next, .progress-section-heading { align-items: flex-start; flex-direction: column; }
   .glossary-controls { grid-template-columns: 1fr; }
   .glossary-grid { grid-template-columns: 1fr; }
+  .simulacro-mode-grid { grid-template-columns: 1fr; }
+  .final-toolbar { flex-direction: column; }
+  .timer-box { width: 100%; justify-content: space-between; }
 }

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "caso-fixture-01",
+    "tipo": "caso_integrador",
+    "titulo": "Caso de prueba automatizada",
+    "vineta": "Una investigadora formula un proyecto ficticio para comprobar el flujo completo del simulacro. La viñeta contiene información suficiente para probar ocho respuestas sin reproducir ningún caso del examen.",
+    "preguntas": [
+      {"n": 1, "eslabon": "problema", "nivel": "Analiza", "enunciado": "Pregunta 1", "respuesta_modelo": "Modelo 1", "aceptables": ["Variante 1"], "errores_cero": ["Error 1"], "rubrica": {"0": "No identifica el problema", "1.25": "Lo identifica parcialmente", "2.5": "Lo identifica y justifica"}},
+      {"n": 2, "eslabon": "preguntas", "nivel": "Analiza", "enunciado": "Pregunta 2", "respuesta_modelo": "Modelo 2", "aceptables": ["Variante 2"], "errores_cero": ["Error 2"], "rubrica": {"0": "No responde", "1.25": "Respuesta parcial", "2.5": "Respuesta completa"}},
+      {"n": 3, "eslabon": "objetivos", "nivel": "Evalúa", "enunciado": "Pregunta 3", "respuesta_modelo": "Modelo 3", "aceptables": ["Variante 3"], "errores_cero": ["Error 3"], "rubrica": {"0": "No responde", "1.25": "Respuesta parcial", "2.5": "Respuesta completa"}},
+      {"n": 4, "eslabon": "variables", "nivel": "Aplica", "enunciado": "Pregunta 4", "respuesta_modelo": "Modelo 4", "aceptables": ["Variante 4"], "errores_cero": ["Error 4"], "rubrica": {"0": "No responde", "1.25": "Respuesta parcial", "2.5": "Respuesta completa"}},
+      {"n": 5, "eslabon": "diseño", "nivel": "Analiza", "enunciado": "Pregunta 5", "respuesta_modelo": "Modelo 5", "aceptables": ["Variante 5"], "errores_cero": ["Error 5"], "rubrica": {"0": "No responde", "1.25": "Respuesta parcial", "2.5": "Respuesta completa"}},
+      {"n": 6, "eslabon": "muestra", "nivel": "Aplica", "enunciado": "Pregunta 6", "respuesta_modelo": "Modelo 6", "aceptables": ["Variante 6"], "errores_cero": ["Error 6"], "rubrica": {"0": "No responde", "1.25": "Respuesta parcial", "2.5": "Respuesta completa"}},
+      {"n": 7, "eslabon": "instrumentos", "nivel": "Evalúa", "enunciado": "Pregunta 7", "respuesta_modelo": "Modelo 7", "aceptables": ["Variante 7"], "errores_cero": ["Error 7"], "rubrica": {"0": "No responde", "1.25": "Respuesta parcial", "2.5": "Respuesta completa"}},
+      {"n": 8, "eslabon": "analisis", "nivel": "Aplica", "enunciado": "Pregunta 8", "respuesta_modelo": "Modelo 8", "aceptables": ["Variante 8"], "errores_cero": ["Error 8"], "rubrica": {"0": "No responde", "1.25": "Respuesta parcial", "2.5": "Respuesta completa"}}
+    ],
+    "fallas_plantadas": [],
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": "Fixture sintético para pruebas; no se publica."
+  }
+]

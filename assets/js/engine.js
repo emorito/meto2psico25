@@ -55,6 +55,74 @@ export function approvedItems(items) {
   return (items ?? []).filter((item) => item?.estado === "aprobado");
 }
 
+export const FINAL_MODULE_COUNTS = {
+  m01: 2, m02: 1, m03: 2, m04: 2, m05: 3,
+  m06: 3, m07: 3, m08: 2, m09: 1, m10: 1,
+};
+
+function normalizedItemType(item) {
+  return item?.tipo === "verdadero_falso" ? "verdadero_falso" : "opcion_multiple";
+}
+
+export function selectExamFormatItems(modules, { counts = FINAL_MODULE_COUNTS, random = Math.random } = {}) {
+  const moduleMap = new Map((modules ?? []).map((module) => [module.id, module]));
+  const moduleIds = Object.keys(counts);
+  const warnings = [];
+  const selected = [];
+  const selectedIds = new Set();
+  let vfNeeded = 6;
+
+  for (const [index, moduleId] of moduleIds.entries()) {
+    const target = counts[moduleId];
+    const module = moduleMap.get(moduleId);
+    const bank = approvedItems(module?.items ?? []);
+    const multipleChoice = shuffle(bank.filter((item) => normalizedItemType(item) === "opcion_multiple"), random);
+    const trueFalse = shuffle(bank.filter((item) => normalizedItemType(item) === "verdadero_falso"), random);
+    const takeVf = vfNeeded > 0 && trueFalse.length > 0 && index < 8 ? 1 : 0;
+    const local = [...trueFalse.slice(0, takeVf), ...multipleChoice.slice(0, target - takeVf)];
+    vfNeeded -= Math.min(takeVf, local.filter((item) => normalizedItemType(item) === "verdadero_falso").length);
+    if (local.length < target) {
+      const remainder = shuffle(bank.filter((item) => !local.some((chosen) => chosen.id === item.id)), random).slice(0, target - local.length);
+      local.push(...remainder);
+    }
+    local.forEach((item) => {
+      selected.push({ ...item, moduleId, moduleNumber: module?.number ?? Number(moduleId.slice(1)), moduleTitle: module?.title ?? moduleId });
+      selectedIds.add(item.id);
+    });
+    if (local.length < target) warnings.push(`${moduleId} no alcanza ${target} ítems aprobados.`);
+  }
+
+  // Completa primero la proporción V/F y después cualquier faltante total,
+  // tomando el módulo numéricamente más cercano al que tuvo la brecha.
+  if (vfNeeded > 0) {
+    const vfPool = shuffle((modules ?? []).flatMap((module) => approvedItems(module.items ?? [])
+      .filter((item) => normalizedItemType(item) === "verdadero_falso" && !selectedIds.has(item.id))
+      .map((item) => ({ ...item, moduleId: module.id, moduleNumber: module.number, moduleTitle: module.title }))), random);
+    for (const replacement of vfPool.slice(0, vfNeeded)) {
+      const replaceAt = selected.findIndex((item) => normalizedItemType(item) === "opcion_multiple" && counts[item.moduleId] > 1);
+      if (replaceAt < 0) break;
+      selectedIds.delete(selected[replaceAt].id);
+      selected[replaceAt] = replacement;
+      selectedIds.add(replacement.id);
+      vfNeeded -= 1;
+    }
+  }
+
+  const targetTotal = Object.values(counts).reduce((sum, value) => sum + value, 0);
+  if (selected.length < targetTotal) {
+    const pool = shuffle((modules ?? []).flatMap((module) => approvedItems(module.items ?? [])
+      .filter((item) => !selectedIds.has(item.id))
+      .map((item) => ({ ...item, moduleId: module.id, moduleNumber: module.number, moduleTitle: module.title }))), random);
+    selected.push(...pool.slice(0, targetTotal - selected.length));
+    warnings.push("Se completaron faltantes con módulos cercanos.");
+  }
+
+  const finalItems = shuffle(selected.slice(0, targetTotal), random);
+  const vfCount = finalItems.filter((item) => normalizedItemType(item) === "verdadero_falso").length;
+  if (vfCount !== 6) warnings.push(`La mezcla disponible quedó en ${targetTotal - vfCount} OM y ${vfCount} V/F.`);
+  return { items: finalItems, warnings };
+}
+
 function byDifficulty(items, difficulty, random) {
   return shuffle(items.filter((item) => Number(item.dificultad) === difficulty), random);
 }

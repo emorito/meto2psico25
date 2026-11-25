@@ -8,6 +8,7 @@ import {
   createAdaptiveSession,
   renderQuestion,
   scoreVerification,
+  selectExamFormatItems,
   shuffleOptionIndices,
   selectVerificationItems,
 } from "../assets/js/engine.js";
@@ -17,6 +18,30 @@ test("la cadena de coherencia tiene nueve eslabones", () => {
     "Problema", "Preguntas", "Objetivos", "Hipótesis", "Variables",
     "Diseño", "Muestra", "Instrumentos", "Análisis",
   ]);
+});
+
+test("el formato del final selecciona 20 aprobados con reparto 14 OM y 6 V/F", () => {
+  const modules = Array.from({ length: 10 }, (_, index) => {
+    const id = `m${String(index + 1).padStart(2, "0")}`;
+    return {
+      id,
+      number: index + 1,
+      title: id,
+      items: [
+        ...Array.from({ length: 6 }, (__, itemIndex) => ({ id: `${id}-om-${itemIndex}`, estado: "aprobado", tipo: "opcion_multiple" })),
+        ...Array.from({ length: index < 8 ? 2 : 0 }, (__, itemIndex) => ({ id: `${id}-vf-${itemIndex}`, estado: "aprobado", tipo: "verdadero_falso" })),
+        { id: `${id}-draft`, estado: "revisar", tipo: "opcion_multiple" },
+      ],
+    };
+  });
+  const result = selectExamFormatItems(modules, { random: () => 0.37 });
+  assert.equal(result.items.length, 20);
+  assert.equal(result.items.filter((item) => item.tipo === "verdadero_falso").length, 6);
+  assert.equal(result.items.some((item) => item.estado !== "aprobado"), false);
+  const counts = Object.groupBy(result.items, (item) => item.moduleId);
+  assert.deepEqual(Object.fromEntries(Object.entries(counts).map(([key, value]) => [key, value.length])), {
+    m01: 2, m02: 1, m03: 2, m04: 2, m05: 3, m06: 3, m07: 3, m08: 2, m09: 1, m10: 1,
+  });
 });
 
 test("el ciclo conserva nueve pasos", () => {
