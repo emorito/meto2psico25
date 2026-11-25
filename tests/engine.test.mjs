@@ -29,8 +29,9 @@ test("el formato del final selecciona 20 aprobados con reparto 14 OM y 6 V/F", (
       number: index + 1,
       title: id,
       items: [
-        ...Array.from({ length: 6 }, (__, itemIndex) => ({ id: `${id}-om-${itemIndex}`, estado: "aprobado", tipo: "opcion_multiple" })),
-        ...Array.from({ length: index < 8 ? 2 : 0 }, (__, itemIndex) => ({ id: `${id}-vf-${itemIndex}`, estado: "aprobado", tipo: "verdadero_falso" })),
+        ...Array.from({ length: 6 }, (__, itemIndex) => ({ id: `${id}-om-${itemIndex}`, estado: "aprobado", tipo: "opcion_multiple", opciones: ["A", "B", "C", "D"] })),
+        ...Array.from({ length: index < 8 ? 2 : 0 }, (__, itemIndex) => ({ id: `${id}-vf-${itemIndex}`, estado: "aprobado", tipo: "verdadero_falso", opciones: ["Verdadero", "Falso"] })),
+        { id: `${id}-om-malformado`, estado: "aprobado", tipo: "opcion_multiple", opciones: ["A", "B", "C"] },
         { id: `${id}-draft`, estado: "revisar", tipo: "opcion_multiple" },
       ],
     };
@@ -39,6 +40,7 @@ test("el formato del final selecciona 20 aprobados con reparto 14 OM y 6 V/F", (
   assert.equal(result.items.length, 20);
   assert.equal(result.items.filter((item) => item.tipo === "verdadero_falso").length, 6);
   assert.equal(result.items.some((item) => item.estado !== "aprobado"), false);
+  assert.equal(result.items.some((item) => item.id.endsWith("malformado")), false);
   const counts = Object.groupBy(result.items, (item) => item.moduleId);
   assert.deepEqual(Object.fromEntries(Object.entries(counts).map(([key, value]) => [key, value.length])), {
     m01: 2, m02: 1, m03: 2, m04: 2, m05: 3, m06: 3, m07: 3, m08: 2, m09: 1, m10: 1,

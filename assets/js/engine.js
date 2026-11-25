@@ -68,6 +68,13 @@ function normalizedItemType(item) {
   return item?.tipo === "verdadero_falso" ? "verdadero_falso" : "opcion_multiple";
 }
 
+function validFinalItem(item) {
+  const expectedOptions = normalizedItemType(item) === "verdadero_falso" ? 2 : 4;
+  return item?.estado === "aprobado"
+    && Array.isArray(item.opciones)
+    && item.opciones.length === expectedOptions;
+}
+
 export function selectExamFormatItems(modules, { counts = FINAL_MODULE_COUNTS, random = Math.random } = {}) {
   const moduleMap = new Map((modules ?? []).map((module) => [module.id, module]));
   const moduleIds = Object.keys(counts);
@@ -79,7 +86,10 @@ export function selectExamFormatItems(modules, { counts = FINAL_MODULE_COUNTS, r
   for (const [index, moduleId] of moduleIds.entries()) {
     const target = counts[moduleId];
     const module = moduleMap.get(moduleId);
-    const bank = approvedItems(module?.items ?? []);
+    const approvedBank = approvedItems(module?.items ?? []);
+    const bank = approvedBank.filter(validFinalItem);
+    const rejected = approvedBank.length - bank.length;
+    if (rejected > 0) warnings.push(`${moduleId}: ${rejected} ítem(s) aprobado(s) excluido(s) por cantidad inválida de opciones.`);
     const multipleChoice = shuffle(bank.filter((item) => normalizedItemType(item) === "opcion_multiple"), random);
     const trueFalse = shuffle(bank.filter((item) => normalizedItemType(item) === "verdadero_falso"), random);
     const takeVf = vfNeeded > 0 && trueFalse.length > 0 && index < 8 ? 1 : 0;
@@ -99,7 +109,7 @@ export function selectExamFormatItems(modules, { counts = FINAL_MODULE_COUNTS, r
   // Completa primero la proporción V/F y después cualquier faltante total,
   // tomando el módulo numéricamente más cercano al que tuvo la brecha.
   if (vfNeeded > 0) {
-    const vfPool = shuffle((modules ?? []).flatMap((module) => approvedItems(module.items ?? [])
+    const vfPool = shuffle((modules ?? []).flatMap((module) => approvedItems(module.items ?? []).filter(validFinalItem)
       .filter((item) => normalizedItemType(item) === "verdadero_falso" && !selectedIds.has(item.id))
       .map((item) => ({ ...item, moduleId: module.id, moduleNumber: module.number, moduleTitle: module.title }))), random);
     for (const replacement of vfPool.slice(0, vfNeeded)) {
@@ -114,7 +124,7 @@ export function selectExamFormatItems(modules, { counts = FINAL_MODULE_COUNTS, r
 
   const targetTotal = Object.values(counts).reduce((sum, value) => sum + value, 0);
   if (selected.length < targetTotal) {
-    const pool = shuffle((modules ?? []).flatMap((module) => approvedItems(module.items ?? [])
+    const pool = shuffle((modules ?? []).flatMap((module) => approvedItems(module.items ?? []).filter(validFinalItem)
       .filter((item) => !selectedIds.has(item.id))
       .map((item) => ({ ...item, moduleId: module.id, moduleNumber: module.number, moduleTitle: module.title }))), random);
     selected.push(...pool.slice(0, targetTotal - selected.length));
