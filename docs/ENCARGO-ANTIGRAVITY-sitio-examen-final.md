@@ -17,7 +17,6 @@
    - un estudio cualitativo con entrevistas: las preguntas de variables, muestreo y análisis se adaptan a categorías, suficiencia y codificación;
    - un estudio descriptivo por encuesta con muestreo probabilístico, bien hecho, para que vean un caso donde el margen de error **sí** corresponde.
 
-   Prohibido repetir los dos diseños del examen con el mismo tema: preexperimental antes-después en un colegio, y asociativo de redes sociales y sueño.
 4. Esquema:
    ```json
    {
