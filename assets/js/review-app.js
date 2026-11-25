@@ -1,5 +1,6 @@
 import {
   answerIsCorrect,
+  approvedReviewEntries,
   escapeHtml,
   feedbackFor,
   inlineMarkdown,
@@ -164,10 +165,10 @@ async function load() {
     state.modules.set(`${moduleId}:items`, new Map((bank.items ?? []).map((item) => [item.id, item])));
     state.modules.set(`${moduleId}:cards`, new Map(cards.filter((card) => card.modulo_id === moduleId).map((card) => [card.id, card])));
   }));
-  state.queue = rawQueue.map((response) => ({
+  state.queue = approvedReviewEntries(rawQueue.map((response) => ({
     ...response,
     item: state.modules.get(`${response.modulo}:${response.kind === "card" ? "cards" : "items"}`)?.get(response.id),
-  })).filter((entry) => entry.kind === "card" ? Boolean(entry.item) : entry.item?.estado === "aprobado");
+  })));
   if (!state.queue.length) renderEmpty();
   else renderCurrent();
 }

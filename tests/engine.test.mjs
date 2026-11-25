@@ -5,6 +5,7 @@ import {
   MODULE_STEPS,
   advanceAdaptiveSession,
   approvedItems,
+  approvedReviewEntries,
   createAdaptiveSession,
   renderQuestion,
   scoreVerification,
@@ -57,6 +58,16 @@ test("solo selecciona ítems aprobados", () => {
   const approved = approvedItems(items);
   assert.equal(approved.length, 10);
   assert.equal(selectVerificationItems(items, () => 0.4).some((item) => item.estado !== "aprobado"), false);
+});
+
+test("repaso excluye ítems en revisar y conserva tarjetas válidas", () => {
+  const entries = [
+    { kind: "item", item: { id: "ok", estado: "aprobado" } },
+    { kind: "item", item: { id: "draft", estado: "revisar" } },
+    { kind: "card", item: { id: "card" } },
+    { kind: "card", item: null },
+  ];
+  assert.deepEqual(approvedReviewEntries(entries).map((entry) => entry.item.id), ["ok", "card"]);
 });
 
 test("califica la verificación con umbral del 80 % y subtemas para repasar", () => {

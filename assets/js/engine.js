@@ -55,6 +55,10 @@ export function approvedItems(items) {
   return (items ?? []).filter((item) => item?.estado === "aprobado");
 }
 
+export function approvedReviewEntries(entries) {
+  return (entries ?? []).filter((entry) => entry?.kind === "card" ? Boolean(entry.item) : entry?.item?.estado === "aprobado");
+}
+
 export const FINAL_MODULE_COUNTS = {
   m01: 2, m02: 1, m03: 2, m04: 2, m05: 3,
   m06: 3, m07: 3, m08: 2, m09: 1, m10: 1,

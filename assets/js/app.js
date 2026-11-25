@@ -144,7 +144,7 @@ import { createDefaultStore, getReviewQueue, loadStore, saveStore } from "./stor
 
   function isModuleUnlocked(modId, progress) {
     const num = parseInt(modId.slice(1), 10);
-    // Preparación del final acumulativo: los 11 módulos quedan siempre abiertos.
+    // Preparación del final acumulativo: los módulos siguen accesibles; m01–m10 se evalúan y m11 queda como consulta.
     if (num >= 1 && num <= 11) return true;
     if (progress.freeReviewMode) return true;
     const modState = progress.modules[modId];
@@ -236,8 +236,8 @@ import { createDefaultStore, getReviewQueue, loadStore, saveStore } from "./stor
         nombre: 'Examen final acumulativo',
         // Fecha confirmada por el docente para la versión UNIBE.
         fecha: '2026-12-10',
-        modulos: ['m01', 'm02', 'm03', 'm04', 'm05', 'm06', 'm07', 'm08', 'm09', 'm10', 'm11'],
-        duracion_min: 60
+        modulos: ['m01', 'm02', 'm03', 'm04', 'm05', 'm06', 'm07', 'm08', 'm09', 'm10'],
+        duracion_max_min: 120
       };
 
       const now = new Date();
@@ -259,7 +259,7 @@ import { createDefaultStore, getReviewQueue, loadStore, saveStore } from "./stor
           continueBtn.href = 'examen.html';
           continueBtn.innerHTML =
             '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>' +
-            '<span>Preparación para el examen final<small>Diagnóstico de 22 ítems y simulacro de 60 min</small></span>';
+            '<span>Preparación para el examen final<small>20 ítems cerrados y un caso integrador</small></span>';
         } else if (currentMod) {
           const lastActivity = progress.modules[currentMod.id]?.lastActivity;
           const stepQuery = lastActivity?.stepId ? '&step=' + encodeURIComponent(lastActivity.stepId) : '';
@@ -301,8 +301,8 @@ import { createDefaultStore, getReviewQueue, loadStore, saveStore } from "./stor
           const diasTexto = diffDays === 0 ? 'hoy' : (diffDays === 1 ? 'mañana' : ('en ' + diffDays + ' días'));
           weekWhen.innerHTML = 'Examen final · <span>' + diasTexto + '</span>';
           weekList.innerHTML =
-            '<li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/></svg><span><b>Qué entra:</b> todos los contenidos del curso (módulos 1 al 11).</span></li>' +
-            '<li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="9"/></svg><span><b>Formato:</b> 60 minutos, un único intento, sin IA.</span></li>' +
+            '<li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/></svg><span><b>Qué entra:</b> módulos m01 a m10; m11 queda como consulta.</span></li>' +
+            '<li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="9"/></svg><span><b>Formato:</b> presencial, en papel; hasta 2 horas; sin IA ni materiales.</span></li>' +
             '<li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg><span><b>Preparación:</b> <a href="examen.html" style="color:var(--accent);font-weight:600;text-decoration:underline;">diagnóstico y simulacro en examen.html →</a></span></li>';
         } else if (nextClassMod) {
           const claseNum = nextClassMod.clase_numero || nextClassMod.clase_2026 || '';
@@ -321,7 +321,7 @@ import { createDefaultStore, getReviewQueue, loadStore, saveStore } from "./stor
         } else {
           weekWhen.innerHTML = 'Cierre de semestre · <span>Examen Final</span>';
           weekList.innerHTML =
-            '<li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/></svg><span><b>Antes:</b> repaso integral de los 11 módulos del proyecto.</span></li>' +
+            '<li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/></svg><span><b>Antes:</b> repaso integral de m01 a m10; m11 queda como consulta.</span></li>' +
             '<li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg><span><b>Después:</b> defensa y presentación del borrador fundamentado.</span></li>' +
             '<li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg><span><b>Entrega en Moodle:</b> portafolio final integrado según calendario institucional.</span></li>';
         }
