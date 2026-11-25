@@ -1155,7 +1155,7 @@
       "subtema": "muestreo",
       "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Bloque: Precisión terminológica; Leslie Kish, Statistical Design for Research, Cap. 1",
       "origen": "borrador_ia",
-      "estado": "revisar",
+      "estado": "aprobado",
       "nota_revision": ""
     },
     {
@@ -1179,7 +1179,7 @@
       "subtema": "corpus",
       "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Galería de pseudocálculos (pc04: Fórmula para fijar entrevistas) y Tabla de justificación por propósito",
       "origen": "borrador_ia",
-      "estado": "revisar",
+      "estado": "aprobado",
       "nota_revision": ""
     },
     {
@@ -1203,7 +1203,7 @@
       "subtema": "muestra",
       "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Galería de pseudocálculos (pc01: Los 384 universales); Kish, Statistical Design for Research, Cap. 1",
       "origen": "borrador_ia",
-      "estado": "revisar",
+      "estado": "aprobado",
       "nota_revision": ""
     },
     {
@@ -1227,7 +1227,7 @@
       "subtema": "poblacion",
       "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Calculadora honesta; Cochran, Sampling Techniques, Cap. 2",
       "origen": "borrador_ia",
-      "estado": "revisar",
+      "estado": "aprobado",
       "nota_revision": ""
     },
     {
@@ -1251,7 +1251,7 @@
       "subtema": "muestreo",
       "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Galería de pseudocálculos (pc06: Cuotas presentadas como estratos); Rodríguez Osuna, Métodos de muestreo, Cap. 3",
       "origen": "borrador_ia",
-      "estado": "revisar",
+      "estado": "aprobado",
       "nota_revision": ""
     },
     {
@@ -1275,7 +1275,7 @@
       "subtema": "muestra",
       "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Tabla: Cada propósito tiene su propia justificación del tamaño y Bloque: Si tu muestra no es probabilística",
       "origen": "borrador_ia",
-      "estado": "revisar",
+      "estado": "aprobado",
       "nota_revision": ""
     },
     {
@@ -1299,7 +1299,7 @@
       "subtema": "muestreo",
       "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Galería de pseudocálculos (pc07: El efecto de diseño olvidado); Kish, Survey Sampling, Cap. 5",
       "origen": "borrador_ia",
-      "estado": "revisar",
+      "estado": "aprobado",
       "nota_revision": ""
     },
     {
@@ -1323,7 +1323,7 @@
       "subtema": "muestra",
       "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Galería de pseudocálculos (pc05: Grande, entonces representativa); Leslie Kish, Statistical Design for Research",
       "origen": "borrador_ia",
-      "estado": "revisar",
+      "estado": "aprobado",
       "nota_revision": ""
     },
     {
@@ -1347,7 +1347,7 @@
       "subtema": "poblacion",
       "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Calculadora honesta; Kish, Survey Sampling, Cap. 13",
       "origen": "borrador_ia",
-      "estado": "revisar",
+      "estado": "aprobado",
       "nota_revision": ""
     },
     {
@@ -1371,7 +1371,7 @@
       "subtema": "muestra",
       "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Galería de pseudocálculos (pc08: El tamaño de efecto de cajón); Cumming & Calin-Jageman (2017)",
       "origen": "borrador_ia",
-      "estado": "revisar",
+      "estado": "aprobado",
       "nota_revision": ""
     },
     {
@@ -1395,7 +1395,7 @@
       "subtema": "muestra",
       "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Tabla: Cada propósito tiene su propia justificación del tamaño; APA Handbook Vol. 3, Cap. 17",
       "origen": "borrador_ia",
-      "estado": "revisar",
+      "estado": "aprobado",
       "nota_revision": ""
     },
     {
@@ -1419,7 +1419,7 @@
       "subtema": "poblacion",
       "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Galería de pseudocálculos (pc02: La población finita inventada)",
       "origen": "borrador_ia",
-      "estado": "revisar",
+      "estado": "aprobado",
       "nota_revision": ""
     },
     {
@@ -1443,7 +1443,7 @@
       "subtema": "muestreo",
       "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Calculadora honesta; Kish, Survey Sampling, Cap. 2 y 5",
       "origen": "borrador_ia",
-      "estado": "revisar",
+      "estado": "aprobado",
       "nota_revision": ""
     },
     {
@@ -1467,7 +1467,7 @@
       "subtema": "muestra",
       "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Galería de pseudocálculos (pc08: El tamaño de efecto de cajón); Cumming & Calin-Jageman (2017)",
       "origen": "borrador_ia",
-      "estado": "revisar",
+      "estado": "aprobado",
       "nota_revision": ""
     },
     {
@@ -1491,7 +1491,7 @@
       "subtema": "corpus",
       "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Bloque: Muestras en investigación cualitativa; Malterud et al. (2016)",
       "origen": "borrador_ia",
-      "estado": "revisar",
+      "estado": "aprobado",
       "nota_revision": ""
     },
     {
@@ -1515,7 +1515,7 @@
       "subtema": "muestreo",
       "lectura_ref": "meto2psico25/data/contenido_claude/m08.json, Bloque: Diseños probabilísticos y su costo en precisión; Cochran, Sampling Techniques, Cap. 5",
       "origen": "borrador_ia",
-      "estado": "revisar",
+      "estado": "aprobado",
       "nota_revision": ""
     }
   ]

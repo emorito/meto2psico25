@@ -20,7 +20,7 @@
     "subtema": "muestreo",
     "lectura_ref": "Leslie Kish, Statistical Design for Research (1987), Cap. 1 (Representation and Randomization)",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -44,7 +44,7 @@
     "subtema": "corpus",
     "lectura_ref": "Kirsti Malterud et al. (2016), Sample Size in Qualitative Interview Studies: Guided by Information Power",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -68,7 +68,7 @@
     "subtema": "muestra",
     "lectura_ref": "Leslie Kish, Statistical Design for Research (1987), Cap. 1; William G. Cochran, Sampling Techniques (1977), Cap. 2",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -92,7 +92,7 @@
     "subtema": "poblacion",
     "lectura_ref": "William G. Cochran, Sampling Techniques (3.ª ed., 1977), Cap. 2 (Simple Random Sampling)",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -116,7 +116,7 @@
     "subtema": "muestreo",
     "lectura_ref": "Fernando Rodríguez Osuna, Métodos de muestreo: casos y aplicaciones (1991), Cap. 3",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -140,7 +140,7 @@
     "subtema": "muestra",
     "lectura_ref": "Jacob Cohen, Statistical Power Analysis for the Behavioral Sciences (2.ª ed., 1988), Cap. 1-2",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -164,7 +164,7 @@
     "subtema": "muestreo",
     "lectura_ref": "Leslie Kish, Survey Sampling (1965), Cap. 5 (Cluster Sampling and Design Effect)",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -188,7 +188,7 @@
     "subtema": "muestra",
     "lectura_ref": "Leslie Kish, Statistical Design for Research (1987), Cap. 1; Robert M. Groves et al., Survey Methodology (2.ª ed., 2009), Cap. 2",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -212,7 +212,7 @@
     "subtema": "poblacion",
     "lectura_ref": "Leslie Kish, Survey Sampling (1965), Cap. 13 (Noncoverage and Nonresponse); William G. Cochran, Sampling Techniques (1977), Cap. 13",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -236,7 +236,7 @@
     "subtema": "muestra",
     "lectura_ref": "Geoff Cumming & Robert Calin-Jageman, Introduction to the New Statistics (2017), Cap. 4-6; Jacob Cohen (1988)",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -260,7 +260,7 @@
     "subtema": "muestra",
     "lectura_ref": "APA Handbook of Research Methods in Psychology (Vol. 3), Cap. 17; Robert C. MacCallum et al. (1999), Sample size in factor analysis",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -284,7 +284,7 @@
     "subtema": "poblacion",
     "lectura_ref": "Leslie Kish, Statistical Design for Research (1987), Cap. 1; Jacob Cohen (1988), Statistical Power Analysis",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -308,7 +308,7 @@
     "subtema": "muestreo",
     "lectura_ref": "Leslie Kish, Survey Sampling (1965), Cap. 2 y 5; William G. Cochran, Sampling Techniques (1977)",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -332,7 +332,7 @@
     "subtema": "muestra",
     "lectura_ref": "Geoff Cumming & Robert Calin-Jageman, Introduction to the New Statistics (2017), Cap. 5 (Power and Precision)",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -356,7 +356,7 @@
     "subtema": "corpus",
     "lectura_ref": "Kirsti Malterud et al. (2016), Sample Size in Qualitative Interview Studies: Guided by Information Power, Qualitative Health Research",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   },
   {
@@ -380,7 +380,7 @@
     "subtema": "muestreo",
     "lectura_ref": "William G. Cochran, Sampling Techniques (3.ª ed., 1977), Cap. 5 (Stratified Random Sampling: Optimum Allocation)",
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": ""
   }
 ]

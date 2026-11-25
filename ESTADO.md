@@ -13,6 +13,19 @@
 | `docs/ENCARGO-CODEX.md`: migración de datos, motor v3 (MVP), herramientas de muestreo | Codex | Tareas 1 y 3 completas; Tarea 2 detenida en PC2 |
 | `docs/ENCARGO-ANTIGRAVITY.md`: borradores de ítems m08 a m11; convertir Olaz y Medrano | Antigravity | Completo: Tarea 2 salteada; 80 ítems en data/borradores/ (m08–m11) corregidos y validados según R4 (distractores verosímiles, lectura_ref canónica, posiciones intactas) |
 | Cápsulas nuevas de m08 y m09, galería de pseudocálculos, auditoría de ítems de m08 | Claude | En curso |
+| `docs/ENCARGO-CODEX-examen-final.md`: validador del examen (fuera del repo), `examen.json` al formato real, simulacro "Formato del final", mezcla de opciones | Codex | X1–X5 completos y verificados (25/11) |
+| `docs/ENCARGO-ANTIGRAVITY-sitio-examen-final.md`: 4 casos de práctica, 40 ítems m09–m10, lista de aprobación rápida, datos de m09–m10 | Antigravity | Nuevo (24/11) — prioridad hasta el 10/12 |
+
+## Preparación del examen final — Codex (25/11/2026)
+
+- **X1:** validador y cuatro pruebas automatizadas en `Examen final 2026/herramientas/`.
+- **X2:** formato real del examen actualizado: presencial, 10/12/2026, m01–m10, 20 reactivos cerrados más caso integrador, 40 puntos y máximo de 120 minutos.
+- **X3:** simulacro con modo «Formato del final», temporizador de 40 minutos, Parte I de 20 reactivos y Parte II de ocho respuestas con rúbrica de autoevaluación.
+- **X4:** filtros de aprobación reforzados, borradores excluidos de repaso y eliminación de `alert()`/`confirm()` en las rutas auditadas.
+- **X5:** auditoría automatizada y prueba real de navegador en 375 y 1280 px. Resultado: 20 ítems válidos (14 OM/6 V/F), ocho respuestas de caso, sin errores de consola ni desbordamiento.
+- Commits: `39f4f83`, `f842d1e`, `187b012`, `4c82297`.
+
+**PC-E2 listo para revisión de Claude**
 
 ## Decisiones abiertas
 
@@ -248,3 +261,10 @@ La rama funciona parcialmente. El ciclo nuevo de `modulo.html` carga y renderiza
 
 - Definir si el umbral operativo del sitio queda en 80 % y cómo se armoniza con el umbral legado de 70 %.
 - Definir la fecha y el alcance del examen final para dimensionar el simulacro de 40 ítems.
+
+## Aprobación docente y publicación (25/11/2026)
+
+- Enrique aprobó el contenido pendiente: 4 casos integradores de práctica, 136 borradores (m02, m03, m08–m11) y los ítems en `revisar` del banco. Se aplicó con `scripts/aplicar_aprobacion.py` y los borradores aprobados se incorporaron a `data/banco/`.
+- Quedan fuera, en `revisar`, siete ítems de m08 con defectos conceptuales anotados (m08-0024, 0029, 0036, 0040, 0045, 0052, 0055).
+- Verificado: `node --test tests/*.mjs` (25/25), `scripts/verify_exam_readiness.py` (todo OK), páginas examen, simulacro e inicio sin errores de consola a 375 y 1280 px.
+- `rediseno-2026` se fusiona en `main` con aprobación del docente.

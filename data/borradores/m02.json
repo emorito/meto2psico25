@@ -18,7 +18,7 @@
       "incorrecto": "Revisá este punto. Delimitar exige acotar el fenómeno y las unidades, el contexto espacial o institucional y el periodo cuando correspondan."
     },
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": "Revisar exactitud, distractores, dificultad y referencia antes de aprobar.",
     "modelo_id": "m02-delimitacion-componentes",
     "generado_en": "2026-11-10"
@@ -42,7 +42,7 @@
       "incorrecto": "Revisá este punto. Un problema investigable precisa el fenómeno, la población o unidad, el contexto y el alcance; un tema aislado todavía es demasiado amplio."
     },
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": "Revisar exactitud, distractores, dificultad y referencia antes de aprobar.",
     "modelo_id": "m02-tema-problema",
     "generado_en": "2026-11-10"
@@ -66,7 +66,7 @@
       "incorrecto": "Revisá este punto. Una búsqueda trazable parte de descriptores y sinónimos, registra la ecuación utilizada y verifica la fuente antes de incorporarla."
     },
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": "Revisar exactitud, distractores, dificultad y referencia antes de aprobar.",
     "modelo_id": "m02-descriptores",
     "generado_en": "2026-11-10"
@@ -90,7 +90,7 @@
       "incorrecto": "Revisá este punto. La factibilidad combina acceso, tiempo, recursos y preparación; no equivale a popularidad ni garantiza un resultado favorable."
     },
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": "Revisar exactitud, distractores, dificultad y referencia antes de aprobar.",
     "modelo_id": "m02-factibilidad",
     "generado_en": "2026-11-10"
@@ -114,7 +114,7 @@
       "incorrecto": "Revisá este punto. La IA puede ampliar opciones, pero la responsabilidad de localizar, verificar y seleccionar la fuente sigue siendo del estudiante."
     },
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": "Revisar exactitud, distractores, dificultad y referencia antes de aprobar.",
     "modelo_id": "m02-ia-verificacion",
     "generado_en": "2026-11-10"
@@ -138,7 +138,7 @@
       "incorrecto": "Revisá este punto. Un alcance excesivo dificulta formular una pregunta, reunir evidencia y sostener el proyecto con los recursos disponibles."
     },
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": "Revisar exactitud, distractores, dificultad y referencia antes de aprobar.",
     "modelo_id": "m02-delimitacion-exceso",
     "generado_en": "2026-11-10"
@@ -162,7 +162,7 @@
       "incorrecto": "Revisá este punto. La trazabilidad exige poder localizar la fuente, reconocer su autoría y explicar qué aporta a una pregunta del proyecto."
     },
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": "Revisar exactitud, distractores, dificultad y referencia antes de aprobar.",
     "modelo_id": "m02-fuente-verificable",
     "generado_en": "2026-11-10"
@@ -186,7 +186,7 @@
       "incorrecto": "Revisá este punto. Un tema delimitado acota fenómeno, población, contexto y periodo sin afirmar de antemano cuál será el resultado."
     },
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": "Revisar exactitud, distractores, dificultad y referencia antes de aprobar.",
     "modelo_id": "m02-tema-delimitado",
     "generado_en": "2026-11-10"

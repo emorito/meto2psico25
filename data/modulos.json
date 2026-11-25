@@ -483,7 +483,11 @@
       "despues": "verificación de dominio del módulo 9.",
       "entrega_moodle": "matriz e instrumento bosquejado, hasta el martes 20/10, 23:59."
     },
-    "preguntas_orientadoras": [],
+    "preguntas_orientadoras": [
+      "¿Qué información necesito para cada objetivo y cómo se vinculan mis objetivos, el diseño y el plan de selección?",
+      "¿Cómo se diferencian la fuente, la técnica y el instrumento al planificar la obtención de datos?",
+      "¿Qué criterios de validez y confiabilidad (o de rigor cualitativo) y qué resguardos éticos de consentimiento, riesgo, privacidad, custodia y eliminación requiere mi proyecto?"
+    ],
     "autoauditoria": [
       "¿Cada instrumento responde a un objetivo y cada objetivo tiene su instrumento?",
       "¿Distinguí fuente, técnica e instrumento en mi método?",
@@ -492,10 +496,11 @@
       "¿Voy a reportar la fiabilidad en mi propia muestra?",
       "Si es una escala adaptada o traducida, ¿seguí un procedimiento y lo voy a describir?",
       "¿Tengo permiso o licencia para usar el instrumento?",
-      "¿Previ consentimiento, anonimización y custodia de los datos?"
+      "¿Previ consentimiento, anonimización y custodia de los datos?",
+      "¿Identifiqué el rigor cualitativo cuando corresponde y anticipé el riesgo y la eliminación de los registros?"
     ],
     "evidencia_moodle": "",
-    "eslabon_cadena": ""
+    "eslabon_cadena": "instrumentos"
   },
   {
     "id": "m10",
@@ -542,10 +547,22 @@
       "despues": "verificación de dominio del módulo 10.",
       "entrega_moodle": "plan de procesamiento y análisis previsto de datos, hasta el martes 27/10, 23:59."
     },
-    "preguntas_orientadoras": [],
-    "autoauditoria": [],
+    "preguntas_orientadoras": [
+      "¿Cómo se relaciona la matriz de recolección de la Clase 11 y el tipo de información previsto con el plan de análisis de mi proyecto?",
+      "¿Qué procedimientos de preparación y análisis (cuantitativos, cualitativos o mixtos) son coherentes con cada objetivo, el diseño y el tipo de dato?",
+      "¿Por qué el plan de análisis se formula sin datos reales ni resultados inventados, evitando conclusiones anticipadas?"
+    ],
+    "autoauditoria": [
+      "¿Diferencié en mi proyecto la preparación de los datos, el análisis previsto, el resultado y la interpretación?",
+      "¿Elegí procedimientos de análisis coherentes con cada objetivo, el diseño y el tipo de dato o nivel de medición?",
+      "Si sigo la ruta cuantitativa, ¿previ la codificación, la limpieza, el tratamiento de datos faltantes y los estadísticos descriptivos según el nivel de medición?",
+      "Si incluyo análisis inferencial cuantitativo, ¿verifiqué que el diseño, el muestreo y los supuestos lo permitan?",
+      "Si sigo la ruta cualitativa, ¿describí la organización, transcripción y anonimización del corpus, la unidad de significado, la codificación, las categorías, los memos y los casos divergentes?",
+      "¿Describí la trazabilidad, los criterios de rigor y los límites del análisis?",
+      "¿Presenté tablas, gráficos o esquemas previstos sin valores inventados y evité conclusiones anticipadas?"
+    ],
     "evidencia_moodle": "",
-    "eslabon_cadena": ""
+    "eslabon_cadena": "analisis"
   },
   {
     "id": "m11",

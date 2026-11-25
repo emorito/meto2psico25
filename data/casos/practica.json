@@ -1,0 +1,696 @@
+[
+  {
+    "id": "caso-p01",
+    "tipo": "caso_integrador",
+    "titulo": "Entrenamiento en regulación emocional y ansiedad ante evaluaciones orales en ingresantes universitarios de Asunción",
+    "vineta": "En carreras de ciencias de la salud de Asunción, los exámenes finales orales suelen generar niveles elevados de activación fisiológica y bloqueo cognitivo en estudiantes de primer año, fenómeno que la literatura vincula con déficits en estrategias adaptativas de regulación emocional. Si bien existen intervenciones cognitivo-conductuales extensas, son escasos los estudios locales que evalúen talleres breves de reevaluación cognitiva antes de las mesas examinadoras. A partir de este vacío, el proyecto formula la siguiente pregunta de investigación: ¿Cuál es el efecto de un taller breve de regulación emocional sobre el nivel de ansiedad ante evaluaciones orales en estudiantes de primer año de Medicina de una universidad privada de Asunción durante el segundo semestre de 2026? El objetivo general planteado por el equipo es: Aplicar un taller de cuatro sesiones de regulación emocional y administrar un cuestionario de ansiedad a los estudiantes ingresantes antes de las mesas finales. Como hipótesis de trabajo se postula que los estudiantes que participen en el taller breve de regulación emocional presentarán un puntaje significativamente menor de ansiedad ante evaluaciones orales en la medición posterior que aquellos asignados al grupo en lista de espera. Respecto a las variables, se identifica el taller de regulación emocional como intervención y la ansiedad ante evaluaciones orales como variable de resultado; en el apartado metodológico se indica únicamente que la ansiedad ante evaluaciones orales se medirá observando el nerviosismo y malestar general de cada estudiante frente al tribunal, sin precisar dimensiones, indicadores ni regla de puntuación. Se empleará un diseño experimental clásico con preprueba y posprueba y grupo de control en lista de espera, asignando al azar mediante sorteo informático a los participantes a la condición experimental (n = 30) o a la condición control (n = 30). Los 60 participantes fueron reclutados por conveniencia entre quienes respondieron voluntariamente a un afiche pegado en el pasillo de la facultad; el proyecto afirma que esta muestra garantiza un 95 % de nivel de confianza y un margen de error del 5 % para todos los universitarios del país. Para recoger los datos se elaboró un cuestionario propio de diez preguntas redactadas por los tesistas la noche anterior, el cual se aplicará directamente sin revisión de expertos ni prueba piloto para ahorrar tiempo. El plan de análisis prevé comparar los puntajes de ambos grupos en la posprueba controlando la línea de base; en su conclusión anticipada, los autores sostienen que, de hallarse una diferencia significativa, quedará demostrado que el taller reduce la ansiedad en toda la población de estudiantes de Medicina del Paraguay.",
+    "preguntas": [
+      {
+        "n": 1,
+        "eslabon": "problema",
+        "nivel": "Analiza",
+        "enunciado": "¿El problema es investigable tal como está formulado? Justificá.",
+        "respuesta_modelo": "Sí, el problema es investigable porque está formulado de manera interrogativa y clara, establece una relación entre dos variables definidas (taller de regulación emocional y ansiedad ante evaluaciones orales), delimita unidades, espacio y tiempo, y permite su contrastación empírica mediante datos observables.",
+        "aceptables": [
+          "Sí, cumple los criterios de Kerlinger y Lee: relaciona variables, está en forma de pregunta y es comprobable empíricamente en una población delimitada.",
+          "Es investigable porque plantea una pregunta clara que vincula la intervención con la ansiedad oral y puede ponerse a prueba recogiendo datos en los ingresantes."
+        ],
+        "errores_cero": [
+          "Responder que no es investigable sin fundamento o confundir el problema bien formulado con la falla del objetivo.",
+          "Afirmar que sí es investigable solo porque el tema es interesante o importante socialmente, sin mencionar criterios metodológicos."
+        ],
+        "lectura_ref": "Materiales de Lectura/02.0. Problemas e Hipótesis.md"
+      },
+      {
+        "n": 2,
+        "eslabon": "objetivos",
+        "nivel": "Evalúa",
+        "enunciado": "¿El objetivo general expresa un propósito cognitivo o una actividad? Si es una actividad, reformulalo.",
+        "respuesta_modelo": "Expresa una actividad o procedimiento operativo («Aplicar un taller… y administrar un cuestionario…»), que son medios metodológicos y no el conocimiento que se busca producir. Reformulación: Determinar el efecto de un taller breve de regulación emocional sobre el nivel de ansiedad ante evaluaciones orales en estudiantes de primer año de Medicina de una universidad privada de Asunción en 2026.",
+        "aceptables": [
+          "Es una actividad; reformulado como propósito cognitivo: Evaluar la eficacia de un taller breve de regulación emocional para reducir la ansiedad ante exámenes orales en ingresantes de Medicina de una universidad de Asunción durante 2026.",
+          "Está redactado como tarea práctica. Reformulación: Establecer el impacto de un taller de regulación emocional sobre la ansiedad ante evaluaciones orales en estudiantes de primer año de Medicina en Asunción (2026)."
+        ],
+        "errores_cero": [
+          "Afirmar que el objetivo está bien formulado como propósito cognitivo.",
+          "Reformularlo utilizando otro verbo de actividad o tarea logística (como «Realizar charlas», «Recolectar datos» o «Ayudar a los alumnos»)."
+        ],
+        "lectura_ref": "Materiales de Lectura/03.0. Los objetivos de investigación.md"
+      },
+      {
+        "n": 3,
+        "eslabon": "hipotesis",
+        "nivel": "Aplica",
+        "enunciado": "¿Qué relación afirma la hipótesis? ¿Es de diferencia o de asociación?",
+        "respuesta_modelo": "La hipótesis afirma que el grupo que recibe el taller de regulación emocional tendrá un nivel promedio de ansiedad ante evaluaciones orales menor en la posprueba que el grupo control en lista de espera. Es una hipótesis direccional de diferencia entre grupos (causal).",
+        "aceptables": [
+          "Postula que la participación en el taller disminuirá los puntajes de ansiedad oral respecto al grupo control; es una hipótesis de diferencia de grupos.",
+          "Establece un efecto reductor del taller sobre la ansiedad oral al comparar el grupo experimental contra la lista de espera; corresponde a una hipótesis de diferencia."
+        ],
+        "errores_cero": [
+          "Clasificarla como una hipótesis meramente descriptiva o de correlación sin dirección ni comparación de grupos.",
+          "Invertir el sentido de la relación afirmando que el taller aumentará la ansiedad."
+        ],
+        "lectura_ref": "Materiales de Lectura/02.0. Problemas e Hipótesis.md"
+      },
+      {
+        "n": 4,
+        "eslabon": "variables",
+        "nivel": "Aplica",
+        "enunciado": "Identificá la variable independiente o predictora y la dependiente o criterio, y escribí la definición operacional de una de ellas.",
+        "respuesta_modelo": "Variable independiente (VI): taller breve de regulación emocional (presencia del taller frente a lista de espera). Variable dependiente (VD): ansiedad ante evaluaciones orales. Definición operacional de la VD: puntaje total obtenido por el estudiante en una escala estandarizada de ansiedad ante exámenes orales (por ejemplo, de 10 a 50 puntos, donde mayor puntaje indica mayor ansiedad).",
+        "aceptables": [
+          "VI: condición experimental (taller de regulación emocional vs. control). VD: nivel de ansiedad ante evaluaciones orales. Definición operacional de la VI: asignación y asistencia al protocolo estructurado de cuatro sesiones de reevaluación cognitiva frente a la condición de espera sin intervención.",
+          "VI: entrenamiento en regulación emocional; VD: ansiedad ante exámenes orales, medida operacionalmente mediante la suma de respuestas en un inventario tipo Likert de síntomas cognitivos y fisiológicos ante tribunales orales."
+        ],
+        "errores_cero": [
+          "Invertir la VI y la VD (decir que la ansiedad es la variable independiente y el taller la dependiente).",
+          "Dar una definición puramente conceptual o de diccionario sin indicar cómo se manipula o cómo se registra y puntúa empíricamente."
+        ],
+        "lectura_ref": "Materiales de Lectura/05.0. Constructo, Variables y Definiciones - Kerlinger y Lee (2002) Cap. 3.md"
+      },
+      {
+        "n": 5,
+        "eslabon": "diseno",
+        "nivel": "Analiza",
+        "enunciado": "Nombrá el diseño y una amenaza a la validez interna que controla o no controla.",
+        "respuesta_modelo": "Es un diseño experimental verdadero (clásico) con preprueba-posprueba y grupo de control con asignación aleatoria (R O1 X O2 / R O3 — O4). Gracias a la aleatorización y al grupo control, controla amenazas clásicas como historia, maduración, regresión a la media y selección diferencial, aunque puede seguir expuesto a desmoralización resentida o difusión del tratamiento entre compañeros de la misma facultad.",
+        "aceptables": [
+          "Diseño experimental con grupo control y medición pre y post con sorteo aleatorio. Controla la selección diferencial y la maduración, pero no controla la difusión o imitación del tratamiento si los alumnos del grupo experimental comentan las técnicas con los de la lista de espera.",
+          "Experimento puro pre-post con grupo control aleatorio. Controla historia y prueba inicial sobre la comparación entre grupos, pero podría sufrir mortalidad experimental diferencial si abandonan más estudiantes de una condición."
+        ],
+        "errores_cero": [
+          "Clasificarlo como diseño preexperimental, cuasiexperimental o correlacional transversal ignorando que hay grupo control y asignación aleatoria.",
+          "Nombrar un concepto de muestreo o de psicometría ajeno a las amenazas a la validez del diseño."
+        ],
+        "lectura_ref": "Materiales de Lectura/06.0. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.md"
+      },
+      {
+        "n": 6,
+        "eslabon": "muestra",
+        "nivel": "Aplica",
+        "enunciado": "¿Qué técnica de selección se usó para reclutar a los participantes y hasta dónde se pueden generalizar los resultados?",
+        "respuesta_modelo": "El reclutamiento de los 60 participantes de la población se realizó mediante muestreo no probabilístico por conveniencia (autoselección o voluntariado por afiche). Aunque luego hubo asignación aleatoria a los grupos (que da validez interna), la selección inicial no fue por sorteo de un marco muestral; por lo tanto, es un pseudocálculo afirmar un 95 % de confianza y 5 % de error, y los resultados no pueden generalizarse estadísticamente a todos los universitarios del país, sino solo a los participantes evaluados.",
+        "aceptables": [
+          "Muestreo no probabilístico de voluntarios o por conveniencia. No corresponde calcular margen de error ni nivel de confianza; la inferencia causal vale para la muestra estudiada, pero no es generalizable poblacionalmente a todo el Paraguay.",
+          "Selección por conveniencia. Confunde asignación aleatoria a grupos con muestreo aleatorio de la población; no hay margen de error del 5 % y la generalización se limita a los voluntarios del estudio o contextos muy similares."
+        ],
+        "errores_cero": [
+          "Afirmar que el muestreo de la población fue probabilístico aleatorio simple porque los 60 voluntarios fueron sorteados entre grupo experimental y control.",
+          "Sostener que con 60 casos sí es válido el 95 % de confianza y el 5 % de margen de error para todo el país."
+        ],
+        "lectura_ref": "Materiales de Lectura/07.0. LIBRO - Métodos de muestreo - Jacinto Rodríguez Osuna.md"
+      },
+      {
+        "n": 7,
+        "eslabon": "instrumentos",
+        "nivel": "Evalúa",
+        "enunciado": "Señalá un problema de calidad o de ética en el instrumento o en el procedimiento y cómo lo corregirías.",
+        "respuesta_modelo": "Problema de calidad: se utiliza un cuestionario ad hoc improvisado de diez preguntas sin revisión de expertos, sin estudio piloto ni evidencias de validez ni confiabilidad. Corrección: seleccionar una escala ya validada y adaptada para ansiedad ante exámenes, o bien someter el instrumento a juicio de expertos para evidencia de contenido, realizar un estudio piloto en una muestra similar y estimar su consistencia interna antes del estudio definitivo (además de garantizar el consentimiento informado).",
+        "aceptables": [
+          "El instrumento fue redactado sin rigor psicométrico ni pilotaje, lo que compromete la validez y fiabilidad de las puntuaciones. Se corrige adoptando un inventario validado con propiedades conocidas o realizando validación por jueces y prueba piloto previa.",
+          "No se menciona el consentimiento informado y se usa una prueba casera sin evidencias de validez. Se corrige incorporando la firma de consentimiento informado libre y voluntario y empleando una escala con evidencias empíricas de validez y confiabilidad."
+        ],
+        "errores_cero": [
+          "Afirmar que el cuestionario propio es adecuado porque tiene diez preguntas y ahorra tiempo.",
+          "Proponer una corrección que no resuelve la calidad de la medición ni la ética (por ejemplo, cambiar la prueba estadística manteniendo los ítems sin validar)."
+        ],
+        "lectura_ref": "assets/reading/7. Diez pasos para la construcción de un test.pdf"
+      },
+      {
+        "n": 8,
+        "eslabon": "analisis",
+        "nivel": "Aplica",
+        "enunciado": "¿Qué análisis corresponde al objetivo? ¿Qué parte de la conclusión anticipada no se sostiene?",
+        "respuesta_modelo": "Corresponde un análisis de comparación entre los dos grupos (experimental y control) en las puntuaciones de posprueba o cambio pre-post (como una prueba t de Student para muestras independientes sobre las diferencias, un ANCOVA controlando el pretest, o U de Mann-Whitney si no hay normalidad), junto con descriptivos y tamaño del efecto. Lo que no se sostiene de la conclusión anticipada es la generalización a toda la población de estudiantes de Medicina del Paraguay, porque la muestra fue captada por conveniencia y el instrumento carece de validez.",
+        "aceptables": [
+          "Análisis descriptivo (media y desviación estándar pre y post por grupo) y prueba inferencial de diferencia de grupos (t de Student o ANCOVA). No se sostiene extrapolar el efecto a todos los estudiantes del país, dado que el reclutamiento fue no probabilístico de voluntarios.",
+          "Comparación estadística entre el grupo experimental y el grupo control antes y después del taller. Si bien el diseño experimental permite evaluar el efecto en los 60 participantes, la conclusión yerra al generalizar poblacionalmente a todo el Paraguay a partir de una muestra por conveniencia."
+        ],
+        "errores_cero": [
+          "Proponer un análisis cualitativo de discurso o decir que no se puede evaluar causalidad en absoluto pese a ser un experimento aleatorio.",
+          "Dar por válida la generalización a todos los estudiantes de Medicina del Paraguay."
+        ],
+        "lectura_ref": "Materiales de Lectura/El plan de análisis de datos en un proyecto de investigación.pdf"
+      }
+    ],
+    "fallas_plantadas": [
+      {
+        "eslabon": "objetivos",
+        "falla": "Objetivo general redactado como actividad operativa y no como propósito cognitivo.",
+        "frase": "El objetivo general planteado por el equipo es: Aplicar un taller de cuatro sesiones de regulación emocional y administrar un cuestionario de ansiedad a los estudiantes ingresantes antes de las mesas finales."
+      },
+      {
+        "eslabon": "variables",
+        "falla": "Definición operacional vaga e imprecisa de la variable dependiente.",
+        "frase": "en el apartado metodológico se indica únicamente que la ansiedad ante evaluaciones orales se medirá observando el nerviosismo y malestar general de cada estudiante frente al tribunal, sin precisar dimensiones, indicadores ni regla de puntuación."
+      },
+      {
+        "eslabon": "muestra",
+        "falla": "Muestra de voluntarios por conveniencia presentada con margen de error y nivel de confianza poblacional (pseudocálculo, confundiendo asignación aleatoria con muestreo aleatorio).",
+        "frase": "Los 60 participantes fueron reclutados por conveniencia entre quienes respondieron voluntariamente a un afiche pegado en el pasillo de la facultad; el proyecto afirma que esta muestra garantiza un 95 % de nivel de confianza y un margen de error del 5 % para todos los universitarios del país."
+      },
+      {
+        "eslabon": "instrumentos",
+        "falla": "Cuestionario ad hoc improvisado sin revisión de expertos, pilotaje ni evidencias de validez y confiabilidad.",
+        "frase": "Para recoger los datos se elaboró un cuestionario propio de diez preguntas redactadas por los tesistas la noche anterior, el cual se aplicará directamente sin revisión de expertos ni prueba piloto para ahorrar tiempo."
+      },
+      {
+        "eslabon": "analisis",
+        "falla": "Conclusión anticipada que extrapola los hallazgos a toda la población nacional a partir de una muestra por conveniencia.",
+        "frase": "en su conclusión anticipada, los autores sostienen que, de hallarse una diferencia significativa, quedará demostrado que el taller reduce la ansiedad en toda la población de estudiantes de Medicina del Paraguay."
+      }
+    ],
+    "rubrica": {
+      "2.5": "Decisión correcta y justificación con el criterio metodológico pertinente.",
+      "1.25": "Decisión correcta sin justificación o con una justificación imprecisa; o justificación correcta con una decisión incompleta.",
+      "0": "Decisión incorrecta, respuesta en blanco o justificación que contradice la decisión."
+    },
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "caso-p02",
+    "tipo": "caso_integrador",
+    "titulo": "Pausas activas laborales y fatiga mental en operadores de centros de atención telefónica de Gran Asunción",
+    "vineta": "El trabajo en centros de atención telefónica implica demandas sostenidas de atención, control emocional y resolución rápida de reclamos que incrementan el riesgo de agotamiento cognitivo. Diversos antecedentes internacionales señalan que las microintervenciones en el puesto reducen la sobrecarga laboral, pero en el contexto de empresas de servicios de Gran Asunción casi no se han documentado evaluaciones comparativas sobre programas estructurados de pausas activas. Frente a esta brecha, se plantea la siguiente pregunta de investigación: ¿Qué diferencia existe en el nivel de fatiga mental al finalizar la jornada entre los operadores del turno mañana que participan en un programa diario de pausas activas y los operadores del turno tarde que mantienen su rutina habitual en una empresa de telecomunicaciones de San Lorenzo durante octubre de 2026? El objetivo general propuesto es: Realizar sesiones guiadas de estiramiento y respiración de diez minutos en el turno mañana y pasar una encuesta al final del mes para juntar información sobre el cansancio. La hipótesis sostiene que los operadores del turno mañana que participan durante cuatro semanas en el programa de pausas activas registrarán un puntaje promedio de fatiga mental menor en la evaluación posterior que los operadores del turno tarde que no reciben el programa. Se define al programa de pausas activas como variable independiente y a la fatiga mental como variable dependiente; sin embargo, respecto a la medición solo se menciona que se evaluará el cansancio mental general que sienta cada trabajador al salir de su turno, sin especificar escala, indicadores ni forma de cálculo. Como la gerencia no autorizó alterar la organización de la empresa ni sortear empleados individualmente, se trabajó con dos grupos intactos ya formados: el turno mañana completo (n = 35) recibió el programa de pausas activas y el turno tarde completo (n = 35) actuó como grupo de comparación con medición antes y después. El proyecto declara que, al evaluar a estos 70 trabajadores disponibles de la empresa, se cuenta con una muestra probabilística representativa de todos los operadores telefónicos del departamento Central con un margen de error de ±4 % y un 95 % de confianza. Para medir la fatiga se aplicó un formulario digital obligatorio donde cada empleado debía escribir su nombre completo, número de cédula y puesto, informándoles que el listado de puntajes individuales sería entregado al gerente de recursos humanos para evaluar su continuidad laboral. El análisis comparará los puntajes de ambos turnos; en la conclusión anticipada se afirma que toda diferencia observada a favor del turno mañana se deberá única y exclusivamente al efecto causal directo de las pausas activas.",
+    "preguntas": [
+      {
+        "n": 1,
+        "eslabon": "problema",
+        "nivel": "Analiza",
+        "enunciado": "¿El problema es investigable tal como está formulado? Justificá.",
+        "respuesta_modelo": "Sí, es investigable: está formulado en forma de pregunta, relaciona claramente las variables (programa de pausas activas y nivel de fatiga mental), especifica las unidades de análisis (operadores de dos turnos), el lugar (San Lorenzo) y el periodo (octubre de 2026), y puede responderse mediante observación y medición empírica.",
+        "aceptables": [
+          "Sí, porque vincula dos variables susceptibles de registro empírico dentro de un contexto laboral y temporal delimitado, cumpliendo los requisitos de Kerlinger y Lee.",
+          "Es investigable dado que plantea una interrogante clara y empíricamente contrastable sobre la diferencia en fatiga mental entre grupos bajo distintas condiciones laborales."
+        ],
+        "errores_cero": [
+          "Decir que no es investigable porque los grupos son de turnos distintos (eso es una limitación de validez interna del diseño cuasiexperimental, no una imposibilidad de investigar la pregunta).",
+          "Responder afirmativamente sin apelar a ningún criterio metodológico (relación de variables, forma interrogativa, comprobabilidad empírica)."
+        ],
+        "lectura_ref": "Materiales de Lectura/02.0. Problemas e Hipótesis.md"
+      },
+      {
+        "n": 2,
+        "eslabon": "objetivos",
+        "nivel": "Evalúa",
+        "enunciado": "¿El objetivo general expresa un propósito cognitivo o una actividad? Si es una actividad, reformulalo.",
+        "respuesta_modelo": "Expresa una actividad logística («Realizar sesiones guiadas… y pasar una encuesta…»), confundiendo las acciones de ejecución del taller y recolección con la meta de conocimiento. Reformulación: Comparar el nivel de fatiga mental entre los operadores del turno mañana que participan en un programa de pausas activas y los operadores del turno tarde que mantienen su rutina habitual en una empresa de telecomunicaciones de San Lorenzo durante octubre de 2026.",
+        "aceptables": [
+          "Es una actividad; reformulación cognitiva: Determinar el efecto de un programa de pausas activas sobre la fatiga mental en operadores telefónicos de una empresa de San Lorenzo en octubre de 2026.",
+          "Confunde objetivo con tareas de campo. Reformulado: Establecer las diferencias en el nivel de fatiga mental según la participación en un programa diario de pausas activas en operadores de un centro de atención telefónica de San Lorenzo (2026)."
+        ],
+        "errores_cero": [
+          "Sostener que «Realizar sesiones y pasar una encuesta» es un propósito cognitivo válido.",
+          "Reformularlo con verbos de gestión o intervención práctica como «Capacitar a los operadores», «Implementar pausas» o «Mejorar la salud de la empresa»."
+        ],
+        "lectura_ref": "Materiales de Lectura/03.0. Los objetivos de investigación.md"
+      },
+      {
+        "n": 3,
+        "eslabon": "hipotesis",
+        "nivel": "Aplica",
+        "enunciado": "¿Qué relación afirma la hipótesis? ¿Es de diferencia o de asociación?",
+        "respuesta_modelo": "La hipótesis afirma que el grupo de operadores que realiza las pausas activas (turno mañana) presentará un puntaje promedio de fatiga mental menor en la posprueba que el grupo que mantiene su rutina habitual (turno tarde). Es una hipótesis direccional de diferencia entre grupos.",
+        "aceptables": [
+          "Vincula la participación en el programa de pausas activas con una disminución en los puntajes de fatiga mental respecto al grupo sin intervención; es una hipótesis de diferencia de grupos.",
+          "Establece una diferencia esperada a favor del grupo expuesto a las pausas activas (menor fatiga mental) frente al grupo de comparación; es de diferencia."
+        ],
+        "errores_cero": [
+          "Afirmar que es una hipótesis sin dirección o que postula mayor fatiga en el turno mañana.",
+          "Clasificarla como descriptiva univariada."
+        ],
+        "lectura_ref": "Materiales de Lectura/02.0. Problemas e Hipótesis.md"
+      },
+      {
+        "n": 4,
+        "eslabon": "variables",
+        "nivel": "Aplica",
+        "enunciado": "Identificá la variable independiente o predictora y la dependiente o criterio, y escribí la definición operacional de una de ellas.",
+        "respuesta_modelo": "Variable independiente (VI): programa de pausas activas laborales (presencia en turno mañana vs. ausencia en turno tarde). Variable dependiente (VD): fatiga mental. Definición operacional de la VD: puntaje total obtenido por el operador al finalizar la jornada en una escala validada de fatiga mental laboral (por ejemplo, suma de 15 ítems en escala Likert de 1 a 5, donde puntajes más altos indican mayor fatiga mental).",
+        "aceptables": [
+          "VI: participación en el programa de pausas activas; VD: nivel de fatiga mental. Definición operacional de la VI: ejecución supervisada de la rutina estandarizada de 10 minutos diarios de estiramiento y respiración durante cuatro semanas frente a la jornada habitual sin pausa guiada.",
+          "VI: condición de pausa activa; VD: fatiga mental, definida operacionalmente como la puntuación compuesta en un cuestionario autoadministrado de agotamiento atencional y lentitud cognitiva al cierre del turno."
+        ],
+        "errores_cero": [
+          "Identificar la ciudad de San Lorenzo o el mes de octubre como la variable dependiente.",
+          "Repetir la frase vaga del texto («el cansancio mental general que sienta cada trabajador») como si fuera una definición operacional completa."
+        ],
+        "lectura_ref": "Materiales de Lectura/05.0. Constructo, Variables y Definiciones - Kerlinger y Lee (2002) Cap. 3.md"
+      },
+      {
+        "n": 5,
+        "eslabon": "diseno",
+        "nivel": "Analiza",
+        "enunciado": "Nombrá el diseño y una amenaza a la validez interna que no controla.",
+        "respuesta_modelo": "Es un diseño cuasiexperimental con grupo de control no equivalente (grupos intactos) y medición preprueba-posprueba (O1 X O2 / --- / O3 — O4). Al no haber asignación aleatoria, no controla plenamente la amenaza de selección diferencial (ni la interacción selección-maduración o selección-historia), ya que los trabajadores del turno mañana y del turno tarde pueden diferir sistemáticamente en carga de llamadas, horarios de sueño, antigüedad o supervisión.",
+        "aceptables": [
+          "Diseño cuasiexperimental con grupos intactos pre-post. No controla la selección diferencial ni eventos de historia local propios de cada turno (por ejemplo, que el turno tarde reciba mayor volumen de reclamos conflictivos).",
+          "Cuasiexperimento con grupo de comparación no equivalente. Amenaza no controlada: selección (diferencias preexistentes entre quienes trabajan de mañana y quienes trabajan de tarde) o interacción entre selección e historia."
+        ],
+        "errores_cero": [
+          "Llamarlo experimento puro o verdadero (no hubo asignación aleatoria) o estudio correlacional sin intervención.",
+          "Sostener que controla todas las amenazas de selección porque ambos grupos tienen exactamente 35 personas."
+        ],
+        "lectura_ref": "Materiales de Lectura/06.0. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.md"
+      },
+      {
+        "n": 6,
+        "eslabon": "muestra",
+        "nivel": "Aplica",
+        "enunciado": "¿Qué técnica de selección se usó y hasta dónde se pueden generalizar los resultados?",
+        "respuesta_modelo": "Se utilizó un muestreo no probabilístico por conveniencia (o de grupos intactos disponibles en una única empresa). Por lo tanto, no existe probabilidad conocida de selección para los operadores del departamento Central, el margen de error de ±4 % al 95 % de confianza es un pseudocálculo inválido, y los hallazgos solo se aplican a los trabajadores estudiados en esa empresa (o como antecedente transferible con cautela a entornos muy similares).",
+        "aceptables": [
+          "Muestreo no probabilístico intencional o por disponibilidad en una empresa. No corresponde reportar margen de error ni nivel de confianza; no se puede generalizar estadísticamente a todos los operadores del departamento Central.",
+          "Selección no probabilística por conveniencia de dos turnos de una firma. El cálculo de ±4 % y 95 % carece de validez matemática y las conclusiones se circunscriben a los participantes evaluados."
+        ],
+        "errores_cero": [
+          "Clasificar el muestreo como probabilístico estratificado o por conglomerados solo porque hay dos turnos.",
+          "Convalidar que el margen de error de ±4 % permite generalizar a todo el departamento Central."
+        ],
+        "lectura_ref": "Materiales de Lectura/07.0. LIBRO - Métodos de muestreo - Jacinto Rodríguez Osuna.md"
+      },
+      {
+        "n": 7,
+        "eslabon": "instrumentos",
+        "nivel": "Evalúa",
+        "enunciado": "Señalá un problema de calidad o de ética en el instrumento o en el procedimiento y cómo lo corregirías.",
+        "respuesta_modelo": "Existe una violación ética grave (y de validez por deseabilidad/coerción): la encuesta es obligatoria, exige nombre y cédula, y amenaza con entregar los puntajes individuales a recursos humanos para decidir la continuidad laboral. Se corrige garantizando la participación estrictamente voluntaria mediante consentimiento informado sin represalias, anonimizando las respuestas con códigos alfanuméricos y asegurando la custodia confidencial de la base de datos por el equipo investigador, entregando a la empresa solo informes grupales agregados.",
+        "aceptables": [
+          "Falta de voluntariedad, ausencia de confidencialidad y riesgo laboral para el participante. Además de ser antiético, falsea las respuestas por miedo al despido. Se corrige con consentimiento informado libre, reemplazo de datos personales por códigos y prohibición de compartir puntajes individuales con la gerencia.",
+          "Además de la falta de instrumento validado, se vulnera la ética al coaccionar a los empleados y exponer su identidad ante sus jefes. Debe corregirse aplicando un instrumento validado bajo anonimato o codificación segura y participación voluntaria con consentimiento informado."
+        ],
+        "errores_cero": [
+          "Decir que pedir nombre y cédula para entregar al gerente es correcto porque asegura que los empleados respondan con seriedad.",
+          "Señalar un detalle menor de formato sin advertir la coacción, la ruptura de confidencialidad o la falta de definición del instrumento."
+        ],
+        "lectura_ref": "Plan vigente de clases - Metodología II - 2026.md, Clase 11 (Técnicas, instrumentos, procedimientos y ética)"
+      },
+      {
+        "n": 8,
+        "eslabon": "analisis",
+        "nivel": "Aplica",
+        "enunciado": "¿Qué análisis corresponde al objetivo? ¿Qué parte de la conclusión anticipada no se sostiene?",
+        "respuesta_modelo": "Corresponde describir las puntuaciones pre y post de cada turno (media y desviación típica, o mediana y rango intercuartílico) y comparar el cambio o las puntuaciones finales entre ambos grupos controlando la medición inicial (por ejemplo, prueba t o Mann-Whitney sobre puntajes de cambio, o ANCOVA). No se sostiene afirmar que la diferencia se debe «única y exclusivamente» a las pausas activas, porque al ser un diseño cuasiexperimental con turnos intactos sin aleatorización (y con sesgo por reporte coaccionado a la gerencia), no se pueden descartar diferencias propias del horario de trabajo, volumen de llamadas o características previas de cada turno.",
+        "aceptables": [
+          "Comparación estadística de grupos (turno mañana vs. turno tarde) considerando las mediciones pre y post. La conclusión causal absoluta no se sostiene porque el diseño es cuasiexperimental (grupos intactos de distinto turno) y existen variables confundidoras del horario que compiten como explicación.",
+          "Análisis descriptivo por grupo y prueba de diferencia entre los dos turnos (t de Student / Mann-Whitney / ANCOVA). No se puede atribuir el resultado exclusivamente a la intervención porque no hubo asignación aleatoria y el turno mañana difiere del turno tarde en condiciones ambientales y laborales."
+        ],
+        "errores_cero": [
+          "Afirmar que el diseño cuasiexperimental demuestra causalidad pura e inequívoca sin amenazas alternativas.",
+          "Proponer un análisis que no compare a los dos grupos (por ejemplo, calcular solo el promedio global de los 70 empleados juntos)."
+        ],
+        "lectura_ref": "Materiales de Lectura/El plan de análisis de datos en un proyecto de investigación.pdf"
+      }
+    ],
+    "fallas_plantadas": [
+      {
+        "eslabon": "objetivos",
+        "falla": "Objetivo general formulado como actividad práctica de ejecución y recolección en lugar de propósito cognitivo.",
+        "frase": "El objetivo general propuesto es: Realizar sesiones guiadas de estiramiento y respiración de diez minutos en el turno mañana y pasar una encuesta al final del mes para juntar información sobre el cansancio."
+      },
+      {
+        "eslabon": "variables",
+        "falla": "Definición operacional ausente o vaga de la variable dependiente.",
+        "frase": "sin embargo, respecto a la medición solo se menciona que se evaluará el cansancio mental general que sienta cada trabajador al salir de su turno, sin especificar escala, indicadores ni forma de cálculo."
+      },
+      {
+        "eslabon": "diseno",
+        "falla": "Diseño cuasiexperimental con grupos intactos de distinto turno que no controla amenazas de selección diferencial ni historia local entre turnos.",
+        "frase": "Como la gerencia no autorizó alterar la organización de la empresa ni sortear empleados individualmente, se trabajó con dos grupos intactos ya formados: el turno mañana completo (n = 35) recibió el programa de pausas activas y el turno tarde completo (n = 35) actuó como grupo de comparación con medición antes y después."
+      },
+      {
+        "eslabon": "muestra",
+        "falla": "Muestra no probabilística disponible en una sola empresa presentada con margen de error de ±4 % y 95 % de confianza para todo el departamento Central.",
+        "frase": "El proyecto declara que, al evaluar a estos 70 trabajadores disponibles de la empresa, se cuenta con una muestra probabilística representativa de todos los operadores telefónicos del departamento Central con un margen de error de ±4 % y un 95 % de confianza."
+      },
+      {
+        "eslabon": "instrumentos",
+        "falla": "Vulneración ética grave: obligatoriedad, identificación nominal y entrega de puntajes individuales a recursos humanos con riesgo laboral.",
+        "frase": "Para medir la fatiga se aplicó un formulario digital obligatorio donde cada empleado debía escribir su nombre completo, número de cédula y puesto, informándoles que el listado de puntajes individuales sería entregado al gerente de recursos humanos para evaluar su continuidad laboral."
+      },
+      {
+        "eslabon": "analisis",
+        "falla": "Conclusión causal taxativa que ignora la falta de aleatorización y las diferencias intrínsecas entre turnos.",
+        "frase": "en la conclusión anticipada se afirma que toda diferencia observada a favor del turno mañana se deberá única y exclusivamente al efecto causal directo de las pausas activas."
+      }
+    ],
+    "rubrica": {
+      "2.5": "Decisión correcta y justificación con el criterio metodológico pertinente.",
+      "1.25": "Decisión correcta sin justificación o con una justificación imprecisa; o justificación correcta con una decisión incompleta.",
+      "0": "Decisión incorrecta, respuesta en blanco o justificación que contradice la decisión."
+    },
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "caso-p03",
+    "tipo": "caso_integrador",
+    "titulo": "Vivencias de sobrecarga y estrategias de cuidado en familiares cuidadores de adultos mayores con demencia en Luque",
+    "vineta": "El envejecimiento poblacional y el incremento de diagnósticos de trastornos neurocognitivos mayores han trasladado una intensa demanda de asistencia cotidiana al núcleo familiar. Aunque la literatura cuantitativa describe altos índices de desgaste físico y emocional en cuidadores primarios, se conoce poco desde la perspectiva subjetiva acerca de cómo las familias paraguayas resignifican el cuidado diario y organizan sus redes domésticas cuando asisten a un pariente con demencia avanzada. A partir de esta vacancia, el estudio formula la siguiente pregunta central: ¿Cómo significan la experiencia de sobrecarga y las prácticas cotidianas de cuidado los familiares que asisten en el hogar a adultos mayores con diagnóstico de demencia en la ciudad de Luque durante 2026? El objetivo general redactado en el proyecto es: Visitar los domicilios de los familiares cuidadores, grabar entrevistas abiertas de una hora y transcribir los audios en documentos de texto. Como supuesto orientador se plantea que los cuidadores principales articulan el mandato afectivo de reciprocidad familiar con vivencias de aislamiento social, construyendo estrategias informales de relevo que dependen del apoyo femenino intrafamiliar. En el apartado de categorías de estudio, el texto indica simplemente que se hablará en general sobre la vida familiar del cuidador, sin definir conceptos sensibilizadores ni subcategorías iniciales ni apertura a categorías emergentes. Se adopta un enfoque cualitativo con diseño fenomenológico hermenéutico orientado a comprender el sentido vivido de la experiencia. Para conformar el corpus de participantes, se recurrió a un muestreo intencional por criterios (ser familiar directo, convivir y cuidar al adulto mayor desde hace al menos un año); sin embargo, para justificar la cantidad de participantes, los autores aplicaron una fórmula estadística de proporciones con 95 % de confianza y 8 % de margen de error, concluyendo que las 14 entrevistas realizadas permiten generalizar estadísticamente los porcentajes al universo nacional de cuidadores. Como instrumento se utilizó una guía de entrevista semiestructurada; durante el procedimiento, los investigadores decidieron subir los audios originales con nombres, apellidos, direcciones e historias clínicas de las familias a una plataforma web pública y gratuita de inteligencia artificial para que redactara automáticamente el informe. En el plan de análisis, proponen transformar las frases en puntajes numéricos para correr una prueba de correlación de Pearson, y anticipan como conclusión que el 80 % exacto de todos los cuidadores del Paraguay padece depresión clínica causada por la demencia del familiar.",
+    "preguntas": [
+      {
+        "n": 1,
+        "eslabon": "problema",
+        "nivel": "Analiza",
+        "enunciado": "¿El problema es investigable tal como está formulado? Justificá.",
+        "respuesta_modelo": "Sí, es investigable desde un enfoque cualitativo: está formulado como una pregunta abierta pertinente («¿Cómo significan…?»), delimita con claridad el fenómeno o ejes conceptuales (significados de sobrecarga y prácticas cotidianas de cuidado), los actores (familiares cuidadores de adultos mayores con demencia), el contexto espacial (Luque) y temporal (2026), y es abordable empíricamente mediante relatos de experiencia.",
+        "aceptables": [
+          "Sí, porque plantea una pregunta comprensiva clara, anclada en un vacío de la literatura, con unidades, fenómeno, lugar y tiempo bien delimitados y accesible empíricamente.",
+          "Es investigable: interroga por la construcción de significados y prácticas en un grupo específico y delimitado, lo cual puede responderse recolectando y analizando evidencia empírica cualitativa."
+        ],
+        "errores_cero": [
+          "Afirmar que no es investigable porque no tiene variables numéricas ni busca medir porcentajes (eso es forzar una lógica cuantitativa sobre un problema cualitativo legítimo).",
+          "Responder que sí es investigable solo por empatía con los adultos mayores sin dar razones metodológicas."
+        ],
+        "lectura_ref": "Plan vigente de clases - Metodología II - 2026.md, Clase 5 y Clase 7"
+      },
+      {
+        "n": 2,
+        "eslabon": "objetivos",
+        "nivel": "Evalúa",
+        "enunciado": "¿El objetivo general expresa un propósito cognitivo o una actividad? Si es una actividad, reformulalo.",
+        "respuesta_modelo": "Expresa actividades operativas de campo («Visitar los domicilios…, grabar entrevistas… y transcribir los audios…»), que son tareas de recolección y preparación del corpus, no el propósito cognitivo del estudio. Reformulación: Comprender los significados atribuidos a la experiencia de sobrecarga y a las prácticas cotidianas de cuidado por familiares que asisten en el hogar a adultos mayores con demencia en la ciudad de Luque durante 2026.",
+        "aceptables": [
+          "Es una lista de actividades prácticas. Reformulado como propósito cognitivo: Analizar e interpretar las vivencias de sobrecarga y las estrategias cotidianas de cuidado en familiares cuidadores de adultos mayores con demencia en Luque durante 2026.",
+          "Describe medios logísticos y no qué se quiere conocer. Reformulación: Develar cómo significan la sobrecarga y las prácticas de asistencia diaria los familiares que cuidan en su domicilio a adultos mayores con demencia en Luque (2026)."
+        ],
+        "errores_cero": [
+          "Afirmar que visitar domicilios, grabar y transcribir es un objetivo cognitivo correcto en estudios cualitativos.",
+          "Reformularlo como una intervención asistencial («Brindar apoyo psicológico a los cuidadores») o como un cálculo cuantitativo («Medir la correlación estadística…»)."
+        ],
+        "lectura_ref": "Materiales de Lectura/03.0. Los objetivos de investigación.md"
+      },
+      {
+        "n": 3,
+        "eslabon": "hipotesis",
+        "nivel": "Aplica",
+        "enunciado": "¿Qué función cumple el supuesto orientador en este estudio y qué relación o articulación conceptual propone?",
+        "respuesta_modelo": "En un estudio cualitativo comprensivo no se formula una hipótesis estadística de contraste poblacional, sino un supuesto o anticipación de sentido que orienta la indagación sin cerrarla. El supuesto propone una articulación conceptual entre la percepción del cuidado como deber afectivo/reciprocidad familiar, la vivencia de aislamiento social por la demanda continua y la organización de estrategias informales de relevo apoyadas en las mujeres de la familia.",
+        "aceptables": [
+          "Actúa como supuesto cualitativo orientador: vincula las tensiones entre el mandato afectivo familiar y el aislamiento social con la emergencia de prácticas informales de cuidado y relevo intrafamiliar.",
+          "No es una hipótesis de prueba estadística sino una premisa conceptual orientadora que relaciona las dimensiones de significado (deber afectivo y aislamiento) con las estrategias domésticas de relevo femenino."
+        ],
+        "errores_cero": [
+          "Decir que el estudio está mal porque todo proyecto científico está obligado a tener una hipótesis estadística con valor p.",
+          "Clasificar el supuesto como una hipótesis experimental causal de diferencia de medias."
+        ],
+        "lectura_ref": "Plan vigente de clases - Metodología II - 2026.md, Clase 6 (Objetivos, hipótesis o supuestos y coherencia)"
+      },
+      {
+        "n": 4,
+        "eslabon": "variables",
+        "nivel": "Aplica",
+        "enunciado": "En lugar de variables cuantitativas, identificá las categorías o ejes conceptuales centrales del estudio y definí operacional o cualitativamente uno de ellos con sus dimensiones o subcategorías iniciales.",
+        "respuesta_modelo": "Los dos ejes o categorías centrales son: (1) Vivencias de sobrecarga del cuidador y (2) Prácticas y estrategias cotidianas de cuidado. Definición de la categoría «Vivencias de sobrecarga»: significados y experiencias subjetivas de desgaste narradas por el familiar en la entrevista, exploradas inicialmente a través de las subcategorías de agotamiento físico y emocional, tensiones en la rutina personal/laboral y sentimientos de aislamiento o ambivalencia afectiva, manteniendo apertura a categorías emergentes del corpus.",
+        "aceptables": [
+          "Categoría 1: Significados de la sobrecarga; Categoría 2: Estrategias cotidianas de cuidado. Definición cualitativa de «Estrategias cotidianas de cuidado»: conjunto de acciones, acuerdos y rutinas relatadas por los cuidadores para organizar la asistencia diaria, que abarca subcategorías iniciales como distribución de tareas domésticas, búsqueda de relevos familiares y manejo de crisis conductuales.",
+          "Ejes conceptuales: experiencia subjetiva de sobrecarga y prácticas de cuidado familiar. La sobrecarga se aborda en el guion de entrevista mediante indicadores discursivos sobre cansancio percibido, renuncia a tiempos propios y vivencia de soledad frente a la enfermedad."
+        ],
+        "errores_cero": [
+          "Forzar una operacionalización psicométrica numérica ajena al diseño (por ejemplo, decir que la categoría se define como un puntaje de 0 a 100 en un test cerrado) sin reconocer la ruta de categorización cualitativa.",
+          "Repetir la frase vaga del caso («hablar en general sobre la vida familiar») como si fuera una matriz de categorización adecuada."
+        ],
+        "lectura_ref": "Plan vigente de clases - Metodología II - 2026.md, Clase 7 (Ruta cualitativa: conceptos orientadores, categorías iniciales y emergentes)"
+      },
+      {
+        "n": 5,
+        "eslabon": "diseno",
+        "nivel": "Analiza",
+        "enunciado": "Nombrá el enfoque y diseño del estudio, y señalá un límite metodológico o riesgo para el rigor interpretativo que debe resguardarse.",
+        "respuesta_modelo": "Es un estudio de enfoque cualitativo con diseño fenomenológico (orientado a comprender las experiencias vividas y el sentido otorgado por los cuidadores). Un límite o riesgo clave es el sesgo del investigador al interpretar unilateralmente los relatos (imponer sus propios prejuicios sin reflexividad ni trazabilidad) y la imposibilidad de generalizar estadísticamente los hallazgos o establecer relaciones causales; se resguarda mediante reflexividad, triangulación, memos analíticos, análisis de casos divergentes y descripción densa.",
+        "aceptables": [
+          "Enfoque cualitativo, diseño fenomenológico hermenéutico. Límite: no permite generalización estadística ni inferencia causal, y está expuesto a sesgos interpretativos o cierre prematuro si no se documenta la trazabilidad (pista de auditoría) y los casos negativos o divergentes.",
+          "Diseño cualitativo fenomenológico. Su alcance es comprensivo y transferible a contextos similares, no representativo en términos probabilísticos; requiere resguardar la credibilidad y auditabilidad para no forzar las voces de los participantes."
+        ],
+        "errores_cero": [
+          "Clasificarlo como diseño experimental, cuasiexperimental o encuesta descriptiva transversal cuantitativa.",
+          "Afirmar que el diseño fenomenológico no tiene ningún límite y permite probar leyes causales universales."
+        ],
+        "lectura_ref": "Plan vigente de clases - Metodología II - 2026.md, Clase 8 y Clase 12"
+      },
+      {
+        "n": 6,
+        "eslabon": "muestra",
+        "nivel": "Aplica",
+        "enunciado": "¿Qué estrategia de selección se usó, qué error de pseudocálculo comete la viñeta y cómo debe justificarse realmente el tamaño o cierre del corpus?",
+        "respuesta_modelo": "Se utilizó un muestreo intencional por criterios. El error de pseudocálculo consiste en aplicar una fórmula estadística de proporciones con 95 % de confianza y 8 % de margen de error a una muestra cualitativa intencional de 14 entrevistas: en investigación cualitativa nunca se usa fórmula de margen de error ni hay generalización estadística al país. El tamaño del corpus debe justificarse por la potencia informativa de los casos seleccionados y por el criterio de suficiencia o saturación teórica de las categorías.",
+        "aceptables": [
+          "Selección intencional por criterios de inclusión. Es un pseudocálculo absurdo calcular margen de error (8 %) y confianza (95 %) en un estudio cualitativo. La cantidad de entrevistas se fundamenta en la riqueza o potencia informativa de los testimonios y en la saturación de categorías, y su alcance es de transferencia analítica, no de generalización poblacional.",
+          "Muestreo cualitativo intencional. No existe margen de error ni representatividad estadística en 14 entrevistas por criterios; el cierre del trabajo de campo se decide por suficiencia y saturación (cuando nuevos relatos no aportan propiedades nuevas a las categorías)."
+        ],
+        "errores_cero": [
+          "Aceptar como válido el margen de error del 8 % y el 95 % de confianza para las 14 entrevistas.",
+          "Decir que el error fue hacer solo 14 entrevistas y que debieron aplicar la fórmula para llegar a 384 entrevistas cualitativas."
+        ],
+        "lectura_ref": "docs/plan-v3-y-psychoresearch.md, §1 (Principio antipseudocálculo); Plan vigente de clases 2026, Clase 9"
+      },
+      {
+        "n": 7,
+        "eslabon": "instrumentos",
+        "nivel": "Evalúa",
+        "enunciado": "Señalá un problema ético o de rigor en el manejo de las entrevistas y cómo lo corregirías.",
+        "respuesta_modelo": "Falta ética grave: cargar los audios originales con nombres reales, direcciones y datos clínicos sensibles de los cuidadores y pacientes en un servicio público de inteligencia artificial, además de delegar en la IA la redacción del informe. Esto viola la confidencialidad, la privacidad y las normas de integridad del curso. Se corrige obteniendo consentimiento informado previo, transcribiendo y anonimizando el corpus mediante seudónimos o códigos antes de cualquier procesamiento, custodiando los archivos en soporte seguro con acceso restringido y realizando el análisis e interpretación humana sin subir datos sensibles a IAs públicas.",
+        "aceptables": [
+          "Subir grabaciones con datos identificatorios y clínicos a una IA pública vulnera el secreto profesional, la privacidad de las familias y la prohibición expresa del programa sobre IA y datos sensibles. Debe corregirse anonimizando íntegramente las transcripciones, resguardando los audios bajo clave y asumiendo el investigador la codificación sin exponer datos personales en servidores externos.",
+          "Violación de confidencialidad y delegación intelectual al cargar datos sensibles en una IA comercial gratuita para que escriba el trabajo. Se corrige con consentimiento informado explícito, protocolo de anonimización y custodia segura, y análisis propio del investigador."
+        ],
+        "errores_cero": [
+          "Afirmar que subir los audios con nombres a la IA pública es una buena práctica porque ahorra tiempo de transcripción y análisis.",
+          "Proponer únicamente cambiar de plataforma gratuita de IA sin anonimizar los datos ni proteger la privacidad de los participantes."
+        ],
+        "lectura_ref": "Plan vigente de clases - Metodología II - 2026.md, §4 (Uso de IA) y Clase 11"
+      },
+      {
+        "n": 8,
+        "eslabon": "analisis",
+        "nivel": "Aplica",
+        "enunciado": "¿Qué plan de análisis corresponde realmente a este objetivo y enfoque? ¿Qué parte de la conclusión anticipada no se sostiene?",
+        "respuesta_modelo": "Corresponde un plan de análisis cualitativo del corpus textual: transcripción fiel y anonimización, lectura intensiva, segmentación en unidades de significado, codificación abierta/inicial y comparación constante, agrupación en categorías y temas, redacción de memos analíticos, atención a casos divergentes y selección de citas textuales como evidencia. No corresponde aplicar correlación de Pearson, y la conclusión anticipada es insostenible por partida doble: ni el diseño ni el muestreo permiten afirmar que «el 80 % exacto de todos los cuidadores del Paraguay» tiene depresión, ni un estudio cualitativo de entrevistas diagnostica causalidad clínica poblacional.",
+        "aceptables": [
+          "Ruta cualitativa: preparación y anonimización del corpus, identificación de unidades de significado, codificación, construcción de categorías/temas, memos y revisión de casos divergentes. No se sostiene usar Pearson sobre relatos ni concluir porcentajes poblacionales (80 % del país) ni causalidad clínica a partir de 14 entrevistas intencionales.",
+          "Análisis temático o fenomenológico por codificación y categorización con trazabilidad de fragmentos textuales. La conclusión anticipada carece de validez porque inventa una generalización porcentual nacional y una relación causal médica que el enfoque cualitativo y la muestra intencional no pueden respaldar."
+        ],
+        "errores_cero": [
+          "Avalar el uso de la correlación de Pearson como técnica principal del estudio fenomenológico.",
+          "Sostener que la conclusión del 80 % de los cuidadores del Paraguay es válida si el valor p da menor a 0,05."
+        ],
+        "lectura_ref": "Plan vigente de clases - Metodología II - 2026.md, Clase 12 (Ruta cualitativa)"
+      }
+    ],
+    "fallas_plantadas": [
+      {
+        "eslabon": "objetivos",
+        "falla": "Objetivo general redactado como secuencia de tareas operativas (visitar, grabar, transcribir) en vez de propósito cognitivo comprensivo.",
+        "frase": "El objetivo general redactado en el proyecto es: Visitar los domicilios de los familiares cuidadores, grabar entrevistas abiertas de una hora y transcribir los audios en documentos de texto."
+      },
+      {
+        "eslabon": "variables",
+        "falla": "Falta de definición de categorías orientadoras, subcategorías iniciales y apertura a emergentes.",
+        "frase": "En el apartado de categorías de estudio, el texto indica simplemente que se hablará en general sobre la vida familiar del cuidador, sin definir conceptos sensibilizadores ni subcategorías iniciales ni apertura a categorías emergentes."
+      },
+      {
+        "eslabon": "muestra",
+        "falla": "Pseudocálculo: aplicación de fórmula estadística de margen de error y confianza a un muestreo cualitativo intencional de 14 entrevistas.",
+        "frase": "sin embargo, para justificar la cantidad de participantes, los autores aplicaron una fórmula estadística de proporciones con 95 % de confianza y 8 % de margen de error, concluyendo que las 14 entrevistas realizadas permiten generalizar estadísticamente los porcentajes al universo nacional de cuidadores."
+      },
+      {
+        "eslabon": "instrumentos",
+        "falla": "Violación ética grave de privacidad y delegación intelectual: carga de audios con nombres, direcciones y datos clínicos sensibles en una IA pública gratuita.",
+        "frase": "durante el procedimiento, los investigadores decidieron subir los audios originales con nombres, apellidos, direcciones e historias clínicas de las familias a una plataforma web pública y gratuita de inteligencia artificial para que redactara automáticamente el informe."
+      },
+      {
+        "eslabon": "analisis",
+        "falla": "Incoherencia en el plan de análisis (correlación de Pearson para un estudio fenomenológico) y conclusión anticipada con extrapolación porcentual nacional y causalidad clínica.",
+        "frase": "En el plan de análisis, proponen transformar las frases en puntajes numéricos para correr una prueba de correlación de Pearson, y anticipan como conclusión que el 80 % exacto de todos los cuidadores del Paraguay padece depresión clínica causada por la demencia del familiar."
+      }
+    ],
+    "rubrica": {
+      "2.5": "Decisión correcta y justificación con el criterio metodológico pertinente.",
+      "1.25": "Decisión correcta sin justificación o con una justificación imprecisa; o justificación correcta con una decisión incompleta.",
+      "0": "Decisión incorrecta, respuesta en blanco o justificación que contradice la decisión."
+    },
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  },
+  {
+    "id": "caso-p04",
+    "tipo": "caso_integrador",
+    "titulo": "Desgaste profesional y apoyo organizacional percibido en enfermeros de hospitales públicos de Asunción",
+    "vineta": "La sobrecarga asistencial en los servicios de urgencias y hospitalización pública expone al personal de enfermería a estresores crónicos que deterioran su salud ocupacional y la calidad del cuidado brindado al paciente. Antecedentes regionales sugieren que el respaldo de los supervisores y pares amortigua el agotamiento laboral, pero en los hospitales públicos de Asunción faltan estudios con muestras representativas que estimen la magnitud de este fenómeno y su vínculo con el clima de apoyo institucional. Por ello, se plantea la siguiente pregunta de investigación: ¿Cuál es la prevalencia de desgaste profesional y cómo se relaciona con el apoyo organizacional percibido en profesionales de enfermería de hospitales públicos dependientes del Ministerio de Salud en Asunción durante el año 2026? El objetivo general propuesto en el documento es: Encuestar al personal de enfermería durante los cambios de guardia y cargar las planillas en el programa jamovi para hacer gráficos estadísticos. Como hipótesis se postula que existe una relación negativa y estadísticamente significativa entre el apoyo organizacional percibido y el nivel de desgaste profesional en los enfermeros de hospitales públicos de Asunción. En la sección de variables se identifican el apoyo organizacional percibido y el desgaste profesional; no obstante, para definirlas operacionalmente el borrador solo expresa que ambas variables se medirán viendo qué tan apoyados o cansados se sienten los enfermeros en su trabajo cotidiano, sin detallar dimensiones, indicadores, escalas ni puntajes. Se emplea un diseño no experimental, transversal, descriptivo-correlacional mediante encuesta. Para la selección de participantes se utilizó como marco muestral el padrón oficial actualizado de los 2.400 enfermeros activos en hospitales públicos de Asunción y se aplicó un muestreo probabilístico estratificado por hospital con selección aleatoria simple por sorteo informático dentro de cada estrato; mediante la fórmula de precisión con corrección por población finita (nivel de confianza del 95 % y margen de error de ±4,5 %) y ajuste por tasa de respuesta esperada, se obtuvo una muestra aleatoria final de n = 400 profesionales. Para recolectar los datos, sin embargo, se aplicó una lista de preguntas redactada por un pasante administrativo sin evidencia previa de validez ni confiabilidad, y se omitió entregar o pedir consentimiento informado para no demorar el relevo de guardia. El plan de análisis prevé calcular estadísticos descriptivos, intervalos de confianza y correlación de Pearson o Spearman según normalidad; en la conclusión anticipada, los autores afirman que un coeficiente negativo demostrará de forma concluyente que la falta de apoyo de los jefes es la única causa directa que produce el desgaste profesional.",
+    "preguntas": [
+      {
+        "n": 1,
+        "eslabon": "problema",
+        "nivel": "Analiza",
+        "enunciado": "¿El problema es investigable tal como está formulado? Justificá.",
+        "respuesta_modelo": "Sí, el problema es investigable porque está redactado en forma interrogativa, articula con claridad las variables de interés (desgaste profesional y apoyo organizacional percibido), precisa la población (profesionales de enfermería de hospitales públicos de Asunción) y el marco temporal (2026), y es susceptible de verificación empírica.",
+        "aceptables": [
+          "Sí, cumple los criterios metodológicos: formula una pregunta clara que relaciona variables observables y medibles en una población y contexto bien delimitados.",
+          "Es investigable ya que permite recoger datos empíricos para estimar la prevalencia y poner a prueba la relación entre apoyo organizacional y desgaste en la población definida."
+        ],
+        "errores_cero": [
+          "Responder que no es investigable sin justificación válida.",
+          "Decir que sí es investigable únicamente porque el trabajo de enfermería es sacrificado, sin mencionar criterios formales ni empíricos."
+        ],
+        "lectura_ref": "Materiales de Lectura/02.0. Problemas e Hipótesis.md"
+      },
+      {
+        "n": 2,
+        "eslabon": "objetivos",
+        "nivel": "Evalúa",
+        "enunciado": "¿El objetivo general expresa un propósito cognitivo o una actividad? Si es una actividad, reformulalo.",
+        "respuesta_modelo": "Expresa actividades operativas («Encuestar al personal… y cargar las planillas en el programa jamovi para hacer gráficos…»), que son medios instrumentales de recolección y procesamiento, no un propósito cognitivo. Reformulación: Determinar la prevalencia de desgaste profesional y su relación con el apoyo organizacional percibido en profesionales de enfermería de hospitales públicos de Asunción durante 2026.",
+        "aceptables": [
+          "Es una actividad; reformulación cognitiva: Establecer la relación entre el apoyo organizacional percibido y el nivel de desgaste profesional, así como su prevalencia, en enfermeros de hospitales públicos de Asunción en 2026.",
+          "Confunde el objetivo con el uso del software y la aplicación de encuestas. Reformulado: Analizar la asociación entre el apoyo organizacional percibido y el desgaste profesional en profesionales de enfermería de hospitales públicos de Asunción durante 2026."
+        ],
+        "errores_cero": [
+          "Afirmar que encuestar y hacer gráficos en jamovi es un propósito cognitivo correcto.",
+          "Reformularlo como otra actividad administrativa (por ejemplo, «Entregar los resultados al Ministerio de Salud» o «Organizar charlas para enfermeros»)."
+        ],
+        "lectura_ref": "Materiales de Lectura/03.0. Los objetivos de investigación.md"
+      },
+      {
+        "n": 3,
+        "eslabon": "hipotesis",
+        "nivel": "Aplica",
+        "enunciado": "¿Qué relación afirma la hipótesis? ¿Es de diferencia o de asociación?",
+        "respuesta_modelo": "La hipótesis afirma una relación inversa (negativa) entre el apoyo organizacional percibido y el desgaste profesional: a mayor apoyo organizacional percibido, menor nivel de desgaste profesional (y viceversa). Es una hipótesis de asociación (correlacional) direccional.",
+        "aceptables": [
+          "Postula que a medida que aumenta el apoyo organizacional percibido disminuye el puntaje de desgaste profesional en los enfermeros; es una hipótesis correlacional o de asociación negativa.",
+          "Establece una covariación inversa entre apoyo organizacional y desgaste profesional; corresponde a una hipótesis de asociación."
+        ],
+        "errores_cero": [
+          "Clasificarla como una hipótesis experimental causal o de diferencia de grupos intervenidos.",
+          "Decir que postula una relación positiva (que a mayor apoyo hay mayor desgaste)."
+        ],
+        "lectura_ref": "Materiales de Lectura/02.0. Problemas e Hipótesis.md"
+      },
+      {
+        "n": 4,
+        "eslabon": "variables",
+        "nivel": "Aplica",
+        "enunciado": "Identificá las dos variables principales del estudio y escribí la definición operacional de una de ellas.",
+        "respuesta_modelo": "Las variables principales son: (1) Apoyo organizacional percibido (variable predictora o asociada X) y (2) Desgaste profesional o burnout (variable criterio o asociada Y). Definición operacional de desgaste profesional: puntuaciones obtenidas por el profesional de enfermería en las subescalas de agotamiento emocional, despersonalización y realización personal de un inventario estandarizado (como el MBI), medidas en escala tipo Likert de frecuencia.",
+        "aceptables": [
+          "Variable 1: Apoyo organizacional percibido; Variable 2: Desgaste profesional. Definición operacional de apoyo organizacional percibido: puntaje total obtenido al sumar las respuestas en la Escala de Apoyo Organizacional Percibido de Eisenberger (ítems tipo Likert de 1 = totalmente en desacuerdo a 7 = totalmente de acuerdo).",
+          "Variables: apoyo organizacional percibido y desgaste profesional. El desgaste profesional se operacionaliza mediante el puntaje registrado en un cuestionario psicométrico validado de agotamiento laboral, más el punto de corte establecido en su manual para estimar prevalencia."
+        ],
+        "errores_cero": [
+          "Dar solo una definición teórica abstracta sin mencionar instrumento, indicadores o puntuaciones observables.",
+          "Aceptar la frase del texto («viendo qué tan apoyados o cansados se sienten») como definición operacional válida."
+        ],
+        "lectura_ref": "Materiales de Lectura/05.0. Constructo, Variables y Definiciones - Kerlinger y Lee (2002) Cap. 3.md"
+      },
+      {
+        "n": 5,
+        "eslabon": "diseno",
+        "nivel": "Analiza",
+        "enunciado": "Nombrá el diseño y explicá qué limitación tiene respecto a la validez interna y la inferencia causal.",
+        "respuesta_modelo": "Es un diseño no experimental, transversal (transeccional) descriptivo-correlacional por encuesta. Su principal limitación de validez interna es que, al no manipular la variable independiente ni asignar aleatoriamente a los sujetos y medir todo en un solo corte temporal, no puede establecer precedencia temporal (dirección causal: el bajo apoyo puede aumentar el desgaste, o el desgaste alto puede hacer percibir peor el apoyo) ni descartar terceras variables confundidoras (como carga horaria, salario, turno o servicio de urgencias).",
+        "aceptables": [
+          "Diseño no experimental transversal correlacional. Limitación: permite estimar parámetros poblacionales y asociaciones, pero no controla terceras variables ni la ambigüedad en la dirección temporal entre apoyo y desgaste, por lo que no prueba causalidad.",
+          "Estudio transversal de encuesta (descriptivo y asociativo). Tiene alta representatividad (validez externa por el muestreo), pero baja validez interna para afirmaciones causales debido a posibles variables extrañas no controladas y medición simultánea."
+        ],
+        "errores_cero": [
+          "Clasificarlo como diseño experimental o cuasiexperimental longitudinal.",
+          "Afirmar que como la muestra es grande y probabilística (n = 400), el diseño transversal sí controla todas las amenazas a la validez interna y demuestra causalidad."
+        ],
+        "lectura_ref": "Materiales de Lectura/06.0. Diseño de Investigación - Propósito y Principio - Kerlinger cap 18.md"
+      },
+      {
+        "n": 6,
+        "eslabon": "muestra",
+        "nivel": "Aplica",
+        "enunciado": "¿Qué técnica de selección se usó, es legítimo en este caso informar margen de error y nivel de confianza, y hasta dónde se pueden generalizar los resultados?",
+        "respuesta_modelo": "Se utilizó un muestreo probabilístico estratificado (por hospital) con selección aleatoria simple mediante sorteo informático a partir de un marco muestral completo (el padrón oficial de 2.400 enfermeros). En este caso SÍ es totalmente legítimo calcular e informar el margen de error (±4,5 %) y el nivel de confianza (95 %) con corrección por población finita y tasa de respuesta, porque cada unidad del marco tuvo una probabilidad conocida y no nula de ser seleccionada. Por ello, los resultados descriptivos y correlacionales sí pueden generalizarse estadísticamente (dentro de ese intervalo de confianza) a la población de 2.400 enfermeros de hospitales públicos de Asunción (una vez subsanada la validez del instrumento).",
+        "aceptables": [
+          "Muestreo probabilístico estratificado aleatorio. A diferencia de los muestreos por conveniencia, aquí sí existe marco muestral y sorteo aleatorio, por lo que el margen de error de ±4,5 % al 95 % de confianza es válido y permite inferencia estadística hacia la población de enfermeros de hospitales públicos de Asunción.",
+          "Selección probabilística estratificada con sorteo desde el padrón de 2.400 profesionales. El cálculo de precisión con corrección por finitud y ajuste por no respuesta está bien hecho; el margen de error sí corresponde y habilita generalizar las estimaciones a la población objetivo del marco."
+        ],
+        "errores_cero": [
+          "Decir mecánicamente que es un muestreo no probabilístico por conveniencia o que el margen de error es un pseudocálculo, sin leer que hubo padrón completo de 2.400 y sorteo aleatorio estratificado.",
+          "Afirmar que el muestreo probabilístico permite generalizar a enfermeros de otros países o demostrar causalidad experimental."
+        ],
+        "lectura_ref": "Materiales de Lectura/07.0. LIBRO - Métodos de muestreo - Jacinto Rodríguez Osuna.md"
+      },
+      {
+        "n": 7,
+        "eslabon": "instrumentos",
+        "nivel": "Evalúa",
+        "enunciado": "Señalá un problema de calidad y uno de ética en el instrumento o procedimiento, y cómo los corregirías.",
+        "respuesta_modelo": "Problema de calidad: aunque el muestreo es excelente, se aplica una lista de preguntas improvisada por un pasante sin evidencias de validez ni confiabilidad, lo que arruina la medición (como advierten Muñiz y Fonseca-Pedrero, o a la inversa: un gran muestreo con un mal instrumento produce datos inválidos). Problema ético: se omitió el consentimiento informado. Corrección: utilizar escalas psicométricas validadas y adaptadas para desgaste profesional y apoyo organizacional (o validar el instrumento con jueces, piloto y análisis psicométrico, respetando además sus dimensiones) e incorporar un formulario de consentimiento informado previo que garantice voluntariedad, anonimato y confidencialidad.",
+        "aceptables": [
+          "Calidad: instrumento ad hoc sin validación ni fiabilidad conocida. Ética: ausencia de consentimiento informado. Se corrige empleando instrumentos estandarizados con evidencias de validez y reportando su fiabilidad en la muestra, y recabando el consentimiento informado libre antes de responder.",
+          "Se mide con preguntas sin respaldo psicométrico y sin pedir consentimiento a los enfermeros. Debe corregirse seleccionando escalas validadas para la población local (realizando prueba piloto) y asegurando la firma o aceptación del consentimiento informado voluntario y anónimo."
+        ],
+        "errores_cero": [
+          "Sostener que no hace falta validar el instrumento ni pedir consentimiento porque el muestreo aleatorio de 400 casos ya garantiza la calidad total del estudio.",
+          "Proponer corregir el instrumento reduciendo el tamaño de la muestra probabilística."
+        ],
+        "lectura_ref": "assets/reading/7. Diez pasos para la construcción de un test.pdf"
+      },
+      {
+        "n": 8,
+        "eslabon": "analisis",
+        "nivel": "Aplica",
+        "enunciado": "¿Qué análisis corresponde al objetivo? ¿Qué parte de la conclusión anticipada no se sostiene?",
+        "respuesta_modelo": "Corresponde calcular estadísticos descriptivos e intervalos de confianza al 95 % para estimar la prevalencia y los niveles de las variables (analizando el desgaste por dimensión si es multidimensional, sin sumar subescalas opuestas), verificar la normalidad y aplicar correlación r de Pearson (si hay normalidad) o rho de Spearman (si hay asimetría), reportando coeficiente, dirección, fuerza, valor p e IC 95 %. Aunque la inferencia estadística a la población de Asunción sí está respaldada por el muestreo probabilístico, lo que NO se sostiene de la conclusión anticipada es afirmar que la falta de apoyo es «la única causa directa que produce el desgaste», porque correlación no implica causalidad y el diseño es transversal no experimental.",
+        "aceptables": [
+          "Estadísticos descriptivos con intervalos de confianza poblacionales y coeficiente de correlación de Pearson o Spearman según normalidad. La conclusión anticipada falla al inferir causalidad directa y única a partir de una correlación en un diseño transversal.",
+          "Frecuencias/porcentajes con su margen de error para prevalencia, media y DE por dimensión, y correlación bivariada (Pearson/Spearman). Gracias al muestreo estratificado aleatorio se puede inferir la asociación a la población de enfermeros de Asunción, pero no se puede concluir que una variable sea la causa única de la otra."
+        ],
+        "errores_cero": [
+          "Decir que no se pueden calcular intervalos de confianza ni valores p porque el estudio es por encuesta (ignorando que el muestreo sí fue probabilístico).",
+          "Convalidar que una correlación negativa significativa demuestra que la falta de apoyo de los jefes es la causa única y directa del desgaste."
+        ],
+        "lectura_ref": "Materiales de Lectura/El plan de análisis de datos en un proyecto de investigación.pdf"
+      }
+    ],
+    "fallas_plantadas": [
+      {
+        "eslabon": "objetivos",
+        "falla": "Objetivo general redactado como actividad operativa (encuestar y cargar planillas en jamovi para hacer gráficos) en vez de propósito cognitivo.",
+        "frase": "El objetivo general propuesto en el documento es: Encuestar al personal de enfermería durante los cambios de guardia y cargar las planillas en el programa jamovi para hacer gráficos estadísticos."
+      },
+      {
+        "eslabon": "variables",
+        "falla": "Definición operacional vaga e incompleta de las dos variables del estudio.",
+        "frase": "no obstante, para definirlas operacionalmente el borrador solo expresa que ambas variables se medirán viendo qué tan apoyados o cansados se sienten los enfermeros en su trabajo cotidiano, sin detallar dimensiones, indicadores, escalas ni puntajes."
+      },
+      {
+        "eslabon": "diseno",
+        "falla": "Diseño transversal correlacional (limitación inherente: no controla precedencia temporal ni terceras variables para afirmaciones causales).",
+        "frase": "Se emplea un diseño no experimental, transversal, descriptivo-correlacional mediante encuesta."
+      },
+      {
+        "eslabon": "muestra",
+        "falla": "Ninguna (muestreo probabilístico estratificado bien ejecutado desde marco completo de N = 2.400, donde el margen de error ±4,5 % al 95 % SÍ corresponde).",
+        "frase": "Para la selección de participantes se utilizó como marco muestral el padrón oficial actualizado de los 2.400 enfermeros activos en hospitales públicos de Asunción y se aplicó un muestreo probabilístico estratificado por hospital con selección aleatoria simple por sorteo informático dentro de cada estrato; mediante la fórmula de precisión con corrección por población finita (nivel de confianza del 95 % y margen de error de ±4,5 %) y ajuste por tasa de respuesta esperada, se obtuvo una muestra aleatoria final de n = 400 profesionales."
+      },
+      {
+        "eslabon": "instrumentos",
+        "falla": "Instrumento ad hoc sin evidencia de validez ni confiabilidad y omisión del consentimiento informado.",
+        "frase": "Para recolectar los datos, sin embargo, se aplicó una lista de preguntas redactada por un pasante administrativo sin evidencia previa de validez ni confiabilidad, y se omitió entregar o pedir consentimiento informado para no demorar el relevo de guardia."
+      },
+      {
+        "eslabon": "analisis",
+        "falla": "Conclusión anticipada que interpreta una correlación transversal como prueba de causalidad directa y única.",
+        "frase": "en la conclusión anticipada, los autores afirman que un coeficiente negativo demostrará de forma concluyente que la falta de apoyo de los jefes es la única causa directa que produce el desgaste profesional."
+      }
+    ],
+    "rubrica": {
+      "2.5": "Decisión correcta y justificación con el criterio metodológico pertinente.",
+      "1.25": "Decisión correcta sin justificación o con una justificación imprecisa; o justificación correcta con una decisión incompleta.",
+      "0": "Decisión incorrecta, respuesta en blanco o justificación que contradice la decisión."
+    },
+    "origen": "borrador_ia",
+    "estado": "aprobado",
+    "nota_revision": ""
+  }
+]

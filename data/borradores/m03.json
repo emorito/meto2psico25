@@ -18,7 +18,7 @@
       "incorrecto": "Revisá este punto. Un antecedente se interpreta: importa qué pregunta abordó, con qué método, qué encontró y qué límite o aporte deja."
     },
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": "Revisar exactitud, distractores, dificultad y referencia antes de aprobar.",
     "modelo_id": "m03-antecedente",
     "generado_en": "2026-11-10"
@@ -42,7 +42,7 @@
       "incorrecto": "Revisá este punto. La teoría ofrece un marco para organizar conceptos y relaciones; los antecedentes aportan evidencia de investigaciones realizadas."
     },
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": "Revisar exactitud, distractores, dificultad y referencia antes de aprobar.",
     "modelo_id": "m03-teoria",
     "generado_en": "2026-11-10"
@@ -66,7 +66,7 @@
       "incorrecto": "Revisá este punto. El vacío se formula con alcance prudente: identifica un límite de la evidencia revisada, no afirma que no exista ninguna investigación."
     },
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": "Revisar exactitud, distractores, dificultad y referencia antes de aprobar.",
     "modelo_id": "m03-vacio",
     "generado_en": "2026-11-10"
@@ -90,7 +90,7 @@
       "incorrecto": "Revisá este punto. Una matriz útil permite volver a la fuente y comparar pregunta, método, hallazgos y límites, no solo acumular títulos."
     },
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": "Revisar exactitud, distractores, dificultad y referencia antes de aprobar.",
     "modelo_id": "m03-matriz",
     "generado_en": "2026-11-10"
@@ -114,7 +114,7 @@
       "incorrecto": "Revisá este punto. Sintetizar implica relacionar las fuentes y mostrar qué conjunto de evidencias sostiene, limita o tensiona el problema."
     },
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": "Revisar exactitud, distractores, dificultad y referencia antes de aprobar.",
     "modelo_id": "m03-sintesis",
     "generado_en": "2026-11-10"
@@ -138,7 +138,7 @@
       "incorrecto": "Revisá este punto. La pertinencia depende de la relación verificable entre la fuente y una decisión o afirmación del proyecto."
     },
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": "Revisar exactitud, distractores, dificultad y referencia antes de aprobar.",
     "modelo_id": "m03-fuente-pertinencia",
     "generado_en": "2026-11-10"
@@ -162,7 +162,7 @@
       "incorrecto": "Revisá este punto. Las diferencias pueden depender de población, diseño, medición o contexto; la revisión debe examinar esas condiciones antes de concluir."
     },
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": "Revisar exactitud, distractores, dificultad y referencia antes de aprobar.",
     "modelo_id": "m03-contradiccion",
     "generado_en": "2026-11-10"
@@ -186,7 +186,7 @@
       "incorrecto": "Revisá este punto. El marco teórico no es una acumulación de autores: organiza conceptos y relaciones que orientan el problema y su investigación."
     },
     "origen": "borrador_ia",
-    "estado": "revisar",
+    "estado": "aprobado",
     "nota_revision": "Revisar exactitud, distractores, dificultad y referencia antes de aprobar.",
     "modelo_id": "m03-marco",
     "generado_en": "2026-11-10"

@@ -7,7 +7,7 @@ Dirección y revisión: Claude. Decisión final: el docente (Enrique Morosini).
 
 1. `docs/plan-v3-y-psychoresearch.md`: plan vigente (08/11/2026). Canon de autoridad, principio antipseudocálculo, fases.
 2. `docs/plan-maestro-2026-10-13.md`: arquitectura, tokens, ciclo de módulo, esquema de datos, criterios de aceptación.
-3. Tu encargo específico: `docs/ENCARGO-CODEX.md` o `docs/ENCARGO-ANTIGRAVITY.md`.
+3. Tu encargo específico: `docs/ENCARGO-CODEX.md` o `docs/ENCARGO-ANTIGRAVITY.md`. **Hasta el examen del 10/12 tienen prioridad** `docs/ENCARGO-CODEX-examen-final.md` y `docs/ENCARGO-ANTIGRAVITY-sitio-examen-final.md`. El sitio no conoce el examen: ningún ítem, caso ni clave de `Examen final 2026/` entra a este repositorio.
 4. `REVISION.md`, si existe: observaciones de Claude que se aplican antes de seguir.
 
 Si dos documentos se contradicen, manda el de número más bajo. Si la duda persiste, la anotás en `ESTADO.md` como decisión abierta y no la resolvés por tu cuenta.
