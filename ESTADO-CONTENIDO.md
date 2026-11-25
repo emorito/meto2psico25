@@ -8,7 +8,7 @@
 
 ## 1. S1 — Casos integradores de práctica (`data/casos/practica.json`) — COMPLETADO
 
-Se redactaron los **4 casos integradores de práctica** en `data/casos/practica.json` con `tipo: "caso_integrador"`, `origen: "borrador_ia"` y `estado: "revisar"`. Ninguno repite los diseños ni los temas del examen final (preexperimental antes-después en un colegio ni asociativo de redes sociales y sueño).
+Se redactaron los **4 casos integradores de práctica** en `data/casos/practica.json` con `tipo: "caso_integrador"`, `origen: "borrador_ia"` y `estado: "revisar"`.
 
 | ID | Diseño y enfoque | Tema (contexto paraguayo) | Palabras viñeta | Preguntas | Particularidades metodológicas |
 |---|---|---|---:|---:|---|
