@@ -1,16 +1,17 @@
 /**
  * PREPARACIÓN PARA EL EXAMEN FINAL — METODOLOGÍA II (UNIBE 2026)
  * Lógica interactiva para examen.html:
- * - Mapa de contenidos de todo el curso a módulos m01–m11
- * - Diagnóstico rápido de 22 ítems (2 por módulo, opciones y preguntas barajadas, semáforo)
- * - Simulacro de 60 minutos (30 ítems distribuidos entre los 11 módulos, cronómetro ocultable, corrección desglosada)
+ * - Mapa de los módulos evaluados m01–m10 (m11 queda como consulta)
+ * - Diagnóstico rápido de 20 ítems (2 por módulo evaluado)
+ * - Práctica de la Parte I: 20 ítems y cronómetro sugerido de 40 minutos
  * - Cero mutaciones al progreso regular guardado en localStorage.
  */
 
 (function () {
   'use strict';
 
-  const EXAM_MODULE_IDS = ['m01', 'm02', 'm03', 'm04', 'm05', 'm06', 'm07', 'm08', 'm09', 'm10', 'm11'];
+  const EXAM_MODULE_IDS = ['m01', 'm02', 'm03', 'm04', 'm05', 'm06', 'm07', 'm08', 'm09', 'm10'];
+  const PART_ONE_COUNTS = { m01: 2, m02: 1, m03: 2, m04: 2, m05: 3, m06: 3, m07: 3, m08: 2, m09: 1, m10: 1 };
 
   const MODULE_METADATA = {
     m01: { number: 1, title: 'El proceso de investigación científica', clases: 'Clases 1–2', contenido: 'Proceso de investigación' },
@@ -89,7 +90,7 @@
   }
 
   /* ========================================================================
-     2. CARGA Y CACHÉ DE MÓDULOS DEL FINAL (M01 A M11)
+     2. CARGA Y CACHÉ DE MÓDULOS DEL FINAL (M01 A M10)
      ======================================================================== */
   let modulesDataCache = null;
 
@@ -115,7 +116,7 @@
   }
 
   /* ========================================================================
-     3. DIAGNÓSTICO RÁPIDO (22 ÍTEMS: 2 POR MÓDULO)
+     3. DIAGNÓSTICO RÁPIDO (20 ÍTEMS: 2 POR MÓDULO)
      ======================================================================== */
   let currentDiagnosticItems = [];
   let diagnosticSubmitted = false;
@@ -302,7 +303,7 @@
           '</div>' +
           '<div style="margin-top:20px; display:flex; gap:12px; flex-wrap:wrap;">' +
             '<button type="button" id="diag-retry-btn" class="btn-exam-outline">' +
-              '🔄 Generar otro diagnóstico (22 ítems nuevos)' +
+              '🔄 Generar otro diagnóstico (20 ítems nuevos)' +
             '</button>' +
             '<a href="#sec-mapa" class="btn-exam-outline">' +
               '🗺️ Ver mapa completo de contenidos' +
@@ -323,11 +324,12 @@
   }
 
   /* ========================================================================
-     4. SIMULACRO CRONOMETRADO DE 60 MINUTOS (30 ÍTEMS)
+     4. PRÁCTICA CRONOMETRADA DE LA PARTE I (20 ÍTEMS)
      ======================================================================== */
   let currentMockItems = [];
   let mockTimerInterval = null;
-  let mockRemainingSeconds = 3600; // 60 minutos
+  const MOCK_DURATION_SECONDS = 40 * 60;
+  let mockRemainingSeconds = MOCK_DURATION_SECONDS;
   let mockTimerHidden = false;
   let mockSubmitted = false;
 
@@ -355,15 +357,12 @@
       submitBtn.textContent = 'Entregar y calificar simulacro';
     }
 
-    // Muestra distribuida de 30 ítems:
-    // m01..m08: 3 ítems c/u = 24 ítems
-    // m09..m11: 2 ítems c/u = 6 ítems
-    // Total = 30 ítems
+    // Distribución de 20 ítems según el peso de la Parte I.
     const sampled = [];
-    EXAM_MODULE_IDS.forEach(function (modId, idx) {
+    EXAM_MODULE_IDS.forEach(function (modId) {
       const mod = modulesMap[modId];
       if (!mod || !Array.isArray(mod.quiz)) return;
-      const count = (idx < 8) ? 3 : 2;
+      const count = PART_ONE_COUNTS[modId];
       const shuffled = shuffle(mod.quiz);
       shuffled.slice(0, count).forEach(function (raw) {
         sampled.push(prepareItem(raw, modId));
@@ -372,7 +371,7 @@
 
     currentMockItems = shuffle(sampled);
     mockSubmitted = false;
-    mockRemainingSeconds = 3600;
+    mockRemainingSeconds = MOCK_DURATION_SECONDS;
 
     container.innerHTML = currentMockItems.map(function (item, idx) {
       const qNum = idx + 1;
@@ -427,7 +426,7 @@
         updateTimerUi();
       } else {
         clearInterval(mockTimerInterval);
-        alert('⏰ El tiempo límite de 60 minutos ha finalizado. El simulacro se entregará automáticamente.');
+        if (timerDisplay) timerDisplay.textContent = 'Tiempo sugerido cumplido. La práctica se calificó automáticamente.';
         evaluateMockExam();
       }
     }, 1000);
@@ -496,7 +495,7 @@
       submitBtn.disabled = true;
     }
 
-    const elapsedSeconds = 3600 - mockRemainingSeconds;
+    const elapsedSeconds = MOCK_DURATION_SECONDS - mockRemainingSeconds;
     const elapsedMins = Math.floor(elapsedSeconds / 60);
     const elapsedSecs = elapsedSeconds % 60;
     const timeFormatted = elapsedMins + ' min ' + elapsedSecs + ' seg';
@@ -506,7 +505,7 @@
       resultsContainer.hidden = false;
       resultsContainer.innerHTML =
         '<div class="traffic-summary-card">' +
-          '<h3 class="exam-serif-title" style="font-size:1.4rem; margin-bottom:8px;">📊 Calificación del Simulacro de 60 Minutos</h3>' +
+          '<h3 class="exam-serif-title" style="font-size:1.4rem; margin-bottom:8px;">Resultado de la práctica de la Parte I</h3>' +
           '<p style="color:var(--exam-ink-2); margin-bottom:16px;">' +
             'Obtuviste <b>' + totalCorrect + ' de ' + total + ' aciertos (' + pct + '%)</b> en un tiempo de <b>' + timeFormatted + '</b>.' +
           '</p>' +
@@ -535,7 +534,7 @@
           '</div>' +
           '<div style="margin-top:20px; display:flex; gap:12px; flex-wrap:wrap;">' +
             '<button type="button" id="mock-retry-btn" class="btn-exam-outline">' +
-              '🔄 Iniciar nuevo simulacro (30 preguntas diferentes)' +
+              'Iniciar otra práctica (20 preguntas diferentes)' +
             '</button>' +
             '<a href="#sec-recordatorios" class="btn-exam-outline">' +
               '💡 Ver recordatorios clave del docente' +
@@ -580,7 +579,7 @@
       });
     }
 
-    // 2. Simulacro de 60 minutos
+    // 2. Práctica de 40 minutos
     const mockStartBtn = document.getElementById('mock-start-btn');
     if (mockStartBtn) {
       mockStartBtn.addEventListener('click', function () {
